@@ -1,6 +1,7 @@
-\beamer@endinputifotherversion {3.27pt}
+\beamer@endinputifotherversion {3.26pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Politicized homes?}{2}{0}{1}
-\beamer@sectionintoc {2}{Data}{5}{0}{2}
-\beamer@sectionintoc {3}{Results}{10}{0}{3}
-\beamer@sectionintoc {4}{Discussion}{17}{0}{4}
+\beamer@sectionintoc {2}{Empirical setting}{5}{0}{2}
+\beamer@sectionintoc {3}{Data}{6}{0}{3}
+\beamer@sectionintoc {4}{Results}{11}{0}{4}
+\beamer@sectionintoc {5}{Discussion}{18}{0}{5}
