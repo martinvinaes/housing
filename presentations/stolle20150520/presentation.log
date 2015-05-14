@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.2.5)  13 MAY 2015 11:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.2.5)  14 MAY 2015 16:53
 entering extended mode
 **presentation.tex
 
@@ -1045,19 +1045,29 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 [1{C:/Users/fh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] [2
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [2
 
 ] [3
 
-]
-[4
+] [4
 
-] <../../figures/intcomparison.png, id=92, 1072.75781pt x 506.6428pt>
+]
+<../../figures/intcomparison.png, id=94, 1072.75781pt x 506.6428pt>
 File: ../../figures/intcomparison.png Graphic file (type png)
 
 <use ../../figures/intcomparison.png>
-Package pdftex.def Info: ../../figures/intcomparison.png used on input line 95.
-
+Package pdftex.def Info: ../../figures/intcomparison.png used on input line 107
+.
 (pdftex.def)             Requested size: 318.67209pt x 150.50198pt.
  [5
 
@@ -1073,31 +1083,18 @@ d-to.pdf>
 (epstopdf)                    size: 79224 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/priceacrossmu
 ni-eps-converted-to.pdf ../../figures/priceacrossmuni.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/priceacrossmuni-eps-converted-to.pdf, id=116, 650.43pt x 289.08p
+<../../figures/priceacrossmuni-eps-converted-to.pdf, id=117, 650.43pt x 289.08p
 t>
 File: ../../figures/priceacrossmuni-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ../../figures/priceacrossmuni-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/priceacrossmuni-eps-converted-to.pdf use
-d on input line 121.
+d on input line 141.
 (pdftex.def)             Requested size: 358.50229pt x 159.33855pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 121.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 121.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Overfull \vbox (4.273pt too high) detected at line 121
- []
-
-[7
+ [7
 
  <C:/Users/fh/Documents/GitHub/housing/figures/priceacrossmuni-eps-converted-to
 .pdf>]
@@ -1110,25 +1107,22 @@ ed-to.pdf>
 (epstopdf)                    size: 5819 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/prices_histog
 ram-eps-converted-to.pdf ../../figures/prices_histogram.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/prices_histogram-eps-converted-to.pdf, id=135, 650.43pt x 289.08
+<../../figures/prices_histogram-eps-converted-to.pdf, id=136, 650.43pt x 289.08
 pt>
 File: ../../figures/prices_histogram-eps-converted-to.pdf Graphic file (type pd
 f)
  <use ../../figures/prices_histogram-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/prices_histogram-eps-converted-to.pdf us
-ed on input line 121.
+ed on input line 141.
 (pdftex.def)             Requested size: 358.50229pt x 159.33855pt.
-
-Overfull \vbox (4.273pt too high) detected at line 121
- []
-
-[8
+ [8
 
  <C:/Users/fh/Documents/GitHub/housing/figures/prices_histogram-eps-converted-t
-o.pdf>] [9
+o.pdf>]
+[9
 
 ]
 Package epstopdf Info: Source file: <../../figures/votesacrossmuni.eps>
@@ -1140,16 +1134,16 @@ d-to.pdf>
 (epstopdf)                    size: 14642 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/votesacrossmu
 ni-eps-converted-to.pdf ../../figures/votesacrossmuni.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/votesacrossmuni-eps-converted-to.pdf, id=163, 650.43pt x 289.08p
+<../../figures/votesacrossmuni-eps-converted-to.pdf, id=164, 650.43pt x 289.08p
 t>
 File: ../../figures/votesacrossmuni-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ../../figures/votesacrossmuni-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/votesacrossmuni-eps-converted-to.pdf use
-d on input line 141.
+d on input line 165.
 (pdftex.def)             Requested size: 358.50229pt x 159.33855pt.
  [10
 
@@ -1164,20 +1158,16 @@ o.pdf>
 (epstopdf)                    size: 39658 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/scatter_lfit-
 eps-converted-to.pdf ../../figures/scatter_lfit.eps>
-(epstopdf)             \includegraphics on input line 152.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/scatter_lfit-eps-converted-to.pdf, id=180, 397.485pt x 289.08pt>
+<../../figures/scatter_lfit-eps-converted-to.pdf, id=181, 397.485pt x 289.08pt>
 File: ../../figures/scatter_lfit-eps-converted-to.pdf Graphic file (type pdf)
 <use ../../figures/scatter_lfit-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/scatter_lfit-eps-converted-to.pdf used o
-n input line 152.
+n input line 177.
 (pdftex.def)             Requested size: 239.00558pt x 173.82867pt.
-
-Overfull \vbox (5.16312pt too high) detected at line 152
- []
-
-[11
+ [11
 
  <C:/Users/fh/Documents/GitHub/housing/figures/scatter_lfit-eps-converted-to.pd
 f>]
@@ -1190,22 +1180,18 @@ d-to.pdf>
 (epstopdf)                    size: 51056 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/scatter_polyf
 it-eps-converted-to.pdf ../../figures/scatter_polyfit.eps>
-(epstopdf)             \includegraphics on input line 152.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/scatter_polyfit-eps-converted-to.pdf, id=196, 397.485pt x 289.08
+<../../figures/scatter_polyfit-eps-converted-to.pdf, id=197, 397.485pt x 289.08
 pt>
 File: ../../figures/scatter_polyfit-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ../../figures/scatter_polyfit-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/scatter_polyfit-eps-converted-to.pdf use
-d on input line 152.
+d on input line 177.
 (pdftex.def)             Requested size: 239.00558pt x 173.82867pt.
-
-Overfull \vbox (5.16312pt too high) detected at line 152
- []
-
-[12
+ [12
 
  <C:/Users/fh/Documents/GitHub/housing/figures/scatter_polyfit-eps-converted-to
 .pdf>]
@@ -1218,16 +1204,16 @@ Package epstopdf Info: Source file: <../../figures/pooled_effects.eps>
 (epstopdf)                    size: 3573 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/pooled_effect
 s-eps-converted-to.pdf ../../figures/pooled_effects.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/pooled_effects-eps-converted-to.pdf, id=213, 361.35pt x 289.08pt
+<../../figures/pooled_effects-eps-converted-to.pdf, id=214, 361.35pt x 289.08pt
 >
 File: ../../figures/pooled_effects-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ../../figures/pooled_effects-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/pooled_effects-eps-converted-to.pdf used
- on input line 166.
+ on input line 192.
 (pdftex.def)             Requested size: 199.1693pt x 159.33412pt.
 Package epstopdf Info: Source file: <../../figures/posneg_effects.eps>
 (epstopdf)                    date: 2015-05-13 10:59:04
@@ -1238,16 +1224,16 @@ Package epstopdf Info: Source file: <../../figures/posneg_effects.eps>
 (epstopdf)                    size: 4094 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/posneg_effect
 s-eps-converted-to.pdf ../../figures/posneg_effects.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/posneg_effects-eps-converted-to.pdf, id=214, 361.35pt x 289.08pt
+<../../figures/posneg_effects-eps-converted-to.pdf, id=215, 361.35pt x 289.08pt
 >
 File: ../../figures/posneg_effects-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ../../figures/posneg_effects-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/posneg_effects-eps-converted-to.pdf used
- on input line 166.
+ on input line 192.
 (pdftex.def)             Requested size: 199.1693pt x 159.33412pt.
  [13
 
@@ -1263,14 +1249,14 @@ Package epstopdf Info: Source file: <../../figures/pooled_effects.eps>
 (epstopdf)                    size: 3573 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/pooled_effect
 s-eps-converted-to.pdf ../../figures/pooled_effects.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 File: ../../figures/pooled_effects-eps-converted-to.pdf Graphic file (type pdf)
 
 
 <use ../../figures/pooled_effects-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/pooled_effects-eps-converted-to.pdf used
- on input line 166.
+ on input line 192.
 (pdftex.def)             Requested size: 199.1693pt x 159.33412pt.
 Package epstopdf Info: Source file: <../../figures/posneg_effects.eps>
 (epstopdf)                    date: 2015-05-13 10:59:04
@@ -1281,14 +1267,14 @@ Package epstopdf Info: Source file: <../../figures/posneg_effects.eps>
 (epstopdf)                    size: 4094 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/posneg_effect
 s-eps-converted-to.pdf ../../figures/posneg_effects.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 File: ../../figures/posneg_effects-eps-converted-to.pdf Graphic file (type pdf)
 
 
 <use ../../figures/posneg_effects-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/posneg_effects-eps-converted-to.pdf used
- on input line 166.
+ on input line 192.
 (pdftex.def)             Requested size: 199.1693pt x 159.33412pt.
  [14
 
@@ -1302,14 +1288,14 @@ Package epstopdf Info: Source file: <../../figures/pooled_effects.eps>
 (epstopdf)                    size: 3573 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/pooled_effect
 s-eps-converted-to.pdf ../../figures/pooled_effects.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 File: ../../figures/pooled_effects-eps-converted-to.pdf Graphic file (type pdf)
 
 
 <use ../../figures/pooled_effects-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/pooled_effects-eps-converted-to.pdf used
- on input line 166.
+ on input line 192.
 (pdftex.def)             Requested size: 199.1693pt x 159.33412pt.
 Package epstopdf Info: Source file: <../../figures/posneg_effects.eps>
 (epstopdf)                    date: 2015-05-13 10:59:04
@@ -1320,14 +1306,14 @@ Package epstopdf Info: Source file: <../../figures/posneg_effects.eps>
 (epstopdf)                    size: 4094 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/posneg_effect
 s-eps-converted-to.pdf ../../figures/posneg_effects.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 File: ../../figures/posneg_effects-eps-converted-to.pdf Graphic file (type pdf)
 
 
 <use ../../figures/posneg_effects-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/posneg_effects-eps-converted-to.pdf used
- on input line 166.
+ on input line 192.
 (pdftex.def)             Requested size: 199.1693pt x 159.33412pt.
  [15
 
@@ -1341,15 +1327,15 @@ Package epstopdf Info: Source file: <../../figures/robust.eps>
 (epstopdf)                    size: 3887 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/robust-eps-co
 nverted-to.pdf ../../figures/robust.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/robust-eps-converted-to.pdf, id=261, 505.89pt x 289.08pt>
+<../../figures/robust-eps-converted-to.pdf, id=262, 505.89pt x 289.08pt>
 File: ../../figures/robust-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/robust-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/robust-eps-converted-to.pdf used on inpu
-t line 172.
+t line 199.
 (pdftex.def)             Requested size: 239.00558pt x 136.57777pt.
  [16
 
@@ -1362,13 +1348,13 @@ t line 172.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
 
 (C:\Users\fh\Documents\GitHub\housing\presentations\stolle20150520\presentation
 .aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: E10D7F4A26E3D7764F761F30237E37E8;236.
 
@@ -1376,13 +1362,13 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 19854 strings out of 494045
- 384121 string characters out of 3148397
+ 19860 strings out of 494045
+ 384281 string characters out of 3148397
  460666 words of memory out of 3000000
- 22602 multiletter control sequences out of 15000+200000
+ 22608 multiletter control sequences out of 15000+200000
  10871 words of font info for 40 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  49i,15n,65p,402b,590s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1390,10 +1376,12 @@ Here is how much of TeX's memory you used:
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on presentation.pdf (18 pages, 385187 bytes).
+nts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msam10.pfb>
+Output written on presentation.pdf (18 pages, 399669 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
+ 335 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
