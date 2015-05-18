@@ -1,6 +1,101 @@
 setwd("~/GitHub/housing/data")
 sd<-readRDS("hsmerged.rds")
 
+#create (crude) incumbency vote variable
+table(sd$elec)
+names(sd)
+sd$incbloc.c<-ifelse(sd$elec %in% c("EU00","FT01","FT94","FT98","KV93"),sd$leftvot.c,(sd$leftvot.c-1)^2)
+
+summary(m_ols<-glm(incbloc.c~change1yr,data=sd,family="binomial"))
+
+summary(m_timefe<-glm(incbloc.c~change1yr+factor(ivyear),data=sd,family="binomial"))
+
+summary(m_timemunife<-glm(incbloc.c~change1yr+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
+
+summary(m_timemunifectrl<-glm(incbloc.c~change1yr+factor(ivyear)+factor(newmuninum)+
+                                female+age+I(age^2)+edu+hinc+emp.pension+emp.student,
+                              data=sd,family="binomial"))
+
+#plot estimates
+
+require(mfx)
+effplot1<-data.frame(eff=rep(NA,4),se=NA,
+                     mlab=c("OLS","Time FE","Time + Muni FE","Time + Muni FE + Controls"),order=1:4)
+effplot1[1,1:2]<-logitmfx(m_ols$formula,sd)$mfxest[1:2]  
+effplot1[2,1:2]<-logitmfx(m_timefe$formula,sd)$mfxest[1,1:2] 
+effplot1[3,1:2]<-logitmfx(m_timemunife$formula,sd)$mfxest[1,1:2] 
+effplot1[4,1:2]<-logitmfx(m_timemunifectrl$formula,sd)$mfxest[1,1:2] 
+
+#flip signs so estimates are comparable to MVL's
+effplot1$eff<-effplot1$eff*-1
+effplot1$upr<-effplot1$eff+1.96*effplot1$se
+effplot1$lwr<-effplot1$eff-1.96*effplot1$se
+
+require(ggplot2)
+ggplot(effplot1,aes(x=eff,y=reorder(mlab,-order))) +
+  geom_point() +
+  geom_errorbarh(aes(xmax=upr,xmin=lwr),height=.2) +
+  theme_bw() +
+  xlab("AME on support of prices changing 1 pct. point") +
+  ylab("") +
+  geom_vline(xintercept=0) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
+ggsave("../figures/surveys_effplot1.pdf",width=6,height=6)
+
+#create poschange and negchange variables
+names(sd)
+sd$poschange<-ifelse(sd$change1yr>=0,sd$change1yr,0)
+sd$negchange<-ifelse(sd$change1yr<0,-sd$change1yr,0)
+
+#models with poschange and negchange separately
+summary(m_olspn<-glm(incbloc.c~poschange+negchange,data=sd,family="binomial"))
+
+summary(m_timefepn<-glm(incbloc.c~poschange+negchange+factor(ivyear),data=sd,family="binomial"))
+
+summary(m_timemunifepn<-glm(incbloc.c~poschange+negchange+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
+
+summary(m_timemunifectrlpn<-glm(incbloc.c~poschange+negchange+factor(ivyear)+factor(newmuninum)+
+                                female+age+I(age^2)+edu+hinc+emp.pension+emp.student,
+                              data=sd,family="binomial"))
+
+effplot2<-data.frame(eff=rep(NA,8),se=NA,
+                     mlab=c("OLS (-)","OLS (+)","Time FE (-)","Time FE (+)",
+                            "Time + Muni FE (-)","Time + Muni FE (+)",
+                            "Time + Muni FE + Controls (-)","Time + Muni FE + Controls (+)"),
+                     order=1:8)
+
+effplot2[1,1:2]<-logitmfx(m_olspn$formula,sd)$mfxest[2,1:2]  
+effplot2[2,1:2]<-logitmfx(m_olspn$formula,sd)$mfxest[1,1:2]  
+effplot2[3,1:2]<-logitmfx(m_timefepn$formula,sd)$mfxest[2,1:2]  
+effplot2[4,1:2]<-logitmfx(m_timefepn$formula,sd)$mfxest[1,1:2]  
+effplot2[5,1:2]<-logitmfx(m_timemunifepn$formula,sd)$mfxest[2,1:2]  
+effplot2[6,1:2]<-logitmfx(m_timemunifepn$formula,sd)$mfxest[1,1:2]  
+effplot2[7,1:2]<-logitmfx(m_timemunifectrlpn$formula,sd)$mfxest[2,1:2]  
+effplot2[8,1:2]<-logitmfx(m_timemunifectrlpn$formula,sd)$mfxest[1,1:2]  
+
+#flip signs so estimates are comparable to MVL's
+effplot2$eff<-effplot2$eff*-1
+
+effplot2$upr<-effplot2$eff+1.96*effplot2$se
+effplot2$lwr<-effplot2$eff-1.96*effplot2$se
+
+require(ggplot2)
+ggplot(effplot2,aes(x=eff,y=reorder(mlab,-order))) +
+  geom_point() +
+  geom_errorbarh(aes(xmax=upr,xmin=lwr),height=.2) +
+  theme_bw() +
+  xlab("AME on support of prices changing 1 pct. point") +
+  ylab("") +
+  geom_vline(xintercept=0) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
+
+ggsave("../figures/surveys_effplot2.pdf",width=6,height=6)
+
+??grid
+
+logitmfx(m_timemunife$formula,sd)$mfxest[1,]
 
 summary(m_munife<-glm(redvot.c~female+age+I(age^2)+edu+hinc+emp.pension+emp.student+change1yr+factor(newmuninum)+factor(ivyear),data=alldz,family="binomial"))
 

@@ -22,6 +22,9 @@
 \usepackage{tikz} \usetikzlibrary{snakes}
 \usepackage{epstopdf}
 \usepackage[round]{natbib}
+\setbeamertemplate{enumerate items}[circle]
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{blocks}[rounded][shadow=false] 
 
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -181,10 +184,7 @@ For incumbent support, two data sets:
 	\begin{columns}
 	\column{0.5\textwidth}
 		\includegraphics[width=1\textwidth]{../../figures/pooled_effects.eps} 
-		
-
-
-   \column{0.5\textwidth} \pause
+    \column{0.5\textwidth} \pause
 		\includegraphics[width=1\textwidth]{../../figures/posneg_effects.eps}
 		\end{columns} 		\pause
 		
@@ -200,8 +200,13 @@ For incumbent support, two data sets:
 
 \begin{frame}
 %{Survey based results}
-	
-\end{frame}	
+	\begin{columns}
+	\column{0.5\textwidth}
+		\includegraphics[width=1\textwidth]{../../figures/surveys_effplot1} 
+    \column{0.5\textwidth} \pause
+		\includegraphics[width=1\textwidth]{../../figures/surveys_effplot2}
+		\end{columns} 		
+ \end{frame}	
 
 \section{Discussion}
 
