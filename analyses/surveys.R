@@ -29,7 +29,7 @@ effplot1[3,1:2]<-logitmfx(m_timemunife$formula,sd)$mfxest[1,1:2]
 effplot1[4,1:2]<-logitmfx(m_timemunifectrl$formula,sd)$mfxest[1,1:2] 
 
 #flip signs so estimates are comparable to MVL's
-effplot1$eff<-effplot1$eff*-1
+#effplot1$eff<-effplot1$eff*-1
 effplot1$upr<-effplot1$eff+1.96*effplot1$se
 effplot1$lwr<-effplot1$eff-1.96*effplot1$se
 
@@ -77,8 +77,7 @@ effplot2[7,1:2]<-logitmfx(m_timemunifectrlpn$formula,sd)$mfxest[2,1:2]
 effplot2[8,1:2]<-logitmfx(m_timemunifectrlpn$formula,sd)$mfxest[1,1:2]  
 
 #flip signs so estimates are comparable to MVL's
-effplot2$eff<-effplot2$eff*-1
-
+#effplot2$eff<-effplot2$eff*-1
 effplot2$upr<-effplot2$eff+1.96*effplot2$se
 effplot2$lwr<-effplot2$eff-1.96*effplot2$se
 
