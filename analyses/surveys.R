@@ -35,8 +35,8 @@ effplot1$lwr<-effplot1$eff-1.96*effplot1$se
 
 require(ggplot2)
 ggplot(effplot1,aes(x=eff,y=reorder(mlab,-order))) +
-  geom_point() +
-  geom_errorbarh(aes(xmax=upr,xmin=lwr),height=.2) +
+  geom_point(color="#444444",size=3) +
+  geom_errorbarh(aes(xmax=upr,xmin=lwr),height=.2,color="#444444") +
   theme_bw() +
   xlab("AME on support of prices changing 1 pct. point") +
   ylab("") +
@@ -83,8 +83,8 @@ effplot2$lwr<-effplot2$eff-1.96*effplot2$se
 
 require(ggplot2)
 ggplot(effplot2,aes(x=eff,y=reorder(mlab,-order))) +
-  geom_point() +
-  geom_errorbarh(aes(xmax=upr,xmin=lwr),height=.2) +
+  geom_point(color="#444444",size=3) +
+  geom_errorbarh(aes(xmax=upr,xmin=lwr),height=.2,color="#444444") +
   theme_bw() +
   xlab("AME on support of prices changing 1 pct. point") +
   ylab("") +

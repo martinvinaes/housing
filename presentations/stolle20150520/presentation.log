@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.2.5)  19 MAY 2015 11:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.2.5)  19 MAY 2015 11:31
 entering extended mode
 **presentation.tex
 
@@ -1043,9 +1043,9 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 40.
 
-[1
+[1{C:/Users/fh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-{C:/Users/fh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+]
 LaTeX Font Info:    Try loading font information for OMS+cmss on input line 60.
 
 LaTeX Font Info:    No file OMScmss.fd. on input line 60.
@@ -1070,7 +1070,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ] [4
 
 ]
-<../../figures/intcomparison.png, id=64, 1072.75781pt x 506.6428pt>
+<../../figures/intcomparison.png, id=99, 1072.75781pt x 506.6428pt>
 File: ../../figures/intcomparison.png Graphic file (type png)
 
 <use ../../figures/intcomparison.png>
@@ -1094,8 +1094,8 @@ ni-eps-converted-to.pdf ../../figures/priceacrossmuni.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/priceacrossmuni-eps-converted-to.pdf, id=79, 650.43pt x 289.08pt
->
+<../../figures/priceacrossmuni-eps-converted-to.pdf, id=124, 650.43pt x 289.08p
+t>
 File: ../../figures/priceacrossmuni-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ../../figures/priceacrossmuni-eps-converted-to.pdf>
@@ -1118,8 +1118,8 @@ plot-eps-converted-to.pdf ../../figures/manylines_oneplot.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/manylines_oneplot-eps-converted-to.pdf, id=93, 650.43pt x 289.08
-pt>
+<../../figures/manylines_oneplot-eps-converted-to.pdf, id=144, 650.43pt x 289.0
+8pt>
 File: ../../figures/manylines_oneplot-eps-converted-to.pdf Graphic file (type p
 df)
  <use ../../figures/manylines_oneplot-eps-converted-to.pdf>
@@ -1142,7 +1142,7 @@ ram-eps-converted-to.pdf ../../figures/prices_histogram.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/prices_histogram-eps-converted-to.pdf, id=104, 650.43pt x 289.08
+<../../figures/prices_histogram-eps-converted-to.pdf, id=161, 650.43pt x 289.08
 pt>
 File: ../../figures/prices_histogram-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1169,7 +1169,7 @@ ni-eps-converted-to.pdf ../../figures/votesacrossmuni.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/votesacrossmuni-eps-converted-to.pdf, id=122, 650.43pt x 289.08p
+<../../figures/votesacrossmuni-eps-converted-to.pdf, id=191, 650.43pt x 289.08p
 t>
 File: ../../figures/votesacrossmuni-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1193,7 +1193,7 @@ eps-converted-to.pdf ../../figures/scatter_lfit.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/scatter_lfit-eps-converted-to.pdf, id=134, 397.485pt x 289.08pt>
+<../../figures/scatter_lfit-eps-converted-to.pdf, id=209, 397.485pt x 289.08pt>
 File: ../../figures/scatter_lfit-eps-converted-to.pdf Graphic file (type pdf)
 <use ../../figures/scatter_lfit-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/scatter_lfit-eps-converted-to.pdf used o
@@ -1215,7 +1215,7 @@ it-eps-converted-to.pdf ../../figures/scatter_polyfit.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/scatter_polyfit-eps-converted-to.pdf, id=146, 397.485pt x 289.08
+<../../figures/scatter_polyfit-eps-converted-to.pdf, id=226, 397.485pt x 289.08
 pt>
 File: ../../figures/scatter_polyfit-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1239,7 +1239,7 @@ s-eps-converted-to.pdf ../../figures/pooled_effects.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/pooled_effects-eps-converted-to.pdf, id=159, 361.35pt x 289.08pt
+<../../figures/pooled_effects-eps-converted-to.pdf, id=245, 361.35pt x 289.08pt
 >
 File: ../../figures/pooled_effects-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1259,7 +1259,7 @@ s-eps-converted-to.pdf ../../figures/posneg_effects.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/posneg_effects-eps-converted-to.pdf, id=160, 361.35pt x 289.08pt
+<../../figures/posneg_effects-eps-converted-to.pdf, id=246, 361.35pt x 289.08pt
 >
 File: ../../figures/posneg_effects-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1362,7 +1362,7 @@ nverted-to.pdf ../../figures/robust.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/robust-eps-converted-to.pdf, id=191, 505.89pt x 289.08pt>
+<../../figures/robust-eps-converted-to.pdf, id=295, 505.89pt x 289.08pt>
 File: ../../figures/robust-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/robust-eps-converted-to.pdf>
@@ -1372,7 +1372,7 @@ t line 201.
  [17
 
  <C:/Users/fh/Documents/GitHub/housing/figures/robust-eps-converted-to.pdf>]
-<../../figures/surveys_effplot1.pdf, id=203, 433.62pt x 433.62pt>
+<../../figures/surveys_effplot1.pdf, id=313, 433.62pt x 433.62pt>
 File: ../../figures/surveys_effplot1.pdf Graphic file (type pdf)
 
 <use ../../figures/surveys_effplot1.pdf>
@@ -1380,7 +1380,7 @@ Package pdftex.def Info: ../../figures/surveys_effplot1.pdf used on input line
 211.
 (pdftex.def)             Requested size: 199.1693pt x 199.16988pt.
 
-<../../figures/surveys_effplot2.pdf, id=204, 433.62pt x 433.62pt>
+<../../figures/surveys_effplot2.pdf, id=314, 433.62pt x 433.62pt>
 File: ../../figures/surveys_effplot2.pdf Graphic file (type pdf)
 
 <use ../../figures/surveys_effplot2.pdf>
@@ -1434,13 +1434,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
  ) 
 Here is how much of TeX's memory you used:
- 19857 strings out of 494045
- 385116 string characters out of 3148397
- 459769 words of memory out of 3000000
- 22590 multiletter control sequences out of 15000+200000
+ 19910 strings out of 494045
+ 385518 string characters out of 3148397
+ 460769 words of memory out of 3000000
+ 22643 multiletter control sequences out of 15000+200000
  11176 words of font info for 41 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,15n,65p,402b,536s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,15n,65p,402b,590s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
@@ -1449,9 +1449,9 @@ nts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on presentation.pdf (21 pages, 467542 bytes).
+Output written on presentation.pdf (21 pages, 494550 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
+ 417 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
