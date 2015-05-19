@@ -1,10 +1,10 @@
 setwd("~/GitHub/housing/data")
 sd<-readRDS("hsmerged.rds")
 
-#create (crude) incumbency vote variable
-table(sd$elec)
-names(sd)
-sd$incbloc.c<-ifelse(sd$elec %in% c("EU00","FT01","FT94","FT98","KV93"),sd$leftvot.c,(sd$leftvot.c-1)^2)
+# #create (crude) incumbency vote variable
+# table(sd$elec)
+# names(sd)
+# sd$incbloc.c<-ifelse(sd$elec %in% c("EU00","FT01","FT94","FT98","KV93"),sd$leftvot.c,(sd$leftvot.c-1)^2)
 
 names(sd)
 
