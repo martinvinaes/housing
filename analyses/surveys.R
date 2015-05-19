@@ -6,13 +6,15 @@ table(sd$elec)
 names(sd)
 sd$incbloc.c<-ifelse(sd$elec %in% c("EU00","FT01","FT94","FT98","KV93"),sd$leftvot.c,(sd$leftvot.c-1)^2)
 
-summary(m_ols<-glm(incbloc.c~change1yr,data=sd,family="binomial"))
+names(sd)
 
-summary(m_timefe<-glm(incbloc.c~change1yr+factor(ivyear),data=sd,family="binomial"))
+summary(m_ols<-glm(execvot.c~change1yr,data=sd,family="binomial"))
 
-summary(m_timemunife<-glm(incbloc.c~change1yr+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
+summary(m_timefe<-glm(execvot.c~change1yr+factor(ivyear),data=sd,family="binomial"))
 
-summary(m_timemunifectrl<-glm(incbloc.c~change1yr+factor(ivyear)+factor(newmuninum)+
+summary(m_timemunife<-glm(execvot.c~change1yr+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
+
+summary(m_timemunifectrl<-glm(execvot.c~change1yr+factor(ivyear)+factor(newmuninum)+
                                 female+age+I(age^2)+edu+hinc+emp.pension+emp.student,
                               data=sd,family="binomial"))
 
@@ -49,13 +51,13 @@ sd$poschange<-ifelse(sd$change1yr>=0,sd$change1yr,0)
 sd$negchange<-ifelse(sd$change1yr<0,-sd$change1yr,0)
 
 #models with poschange and negchange separately
-summary(m_olspn<-glm(incbloc.c~poschange+negchange,data=sd,family="binomial"))
+summary(m_olspn<-glm(execvot.c~poschange+negchange,data=sd,family="binomial"))
 
-summary(m_timefepn<-glm(incbloc.c~poschange+negchange+factor(ivyear),data=sd,family="binomial"))
+summary(m_timefepn<-glm(execvot.c~poschange+negchange+factor(ivyear),data=sd,family="binomial"))
 
-summary(m_timemunifepn<-glm(incbloc.c~poschange+negchange+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
+summary(m_timemunifepn<-glm(execvot.c~poschange+negchange+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
 
-summary(m_timemunifectrlpn<-glm(incbloc.c~poschange+negchange+factor(ivyear)+factor(newmuninum)+
+summary(m_timemunifectrlpn<-glm(execvot.c~poschange+negchange+factor(ivyear)+factor(newmuninum)+
                                 female+age+I(age^2)+edu+hinc+emp.pension+emp.student,
                               data=sd,family="binomial"))
 
