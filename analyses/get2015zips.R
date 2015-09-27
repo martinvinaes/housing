@@ -77,12 +77,6 @@ for (i in 1:nrow(uzips)){
 #merge back in
 af15<-left_join(af15,uzips,by="zip")
 
-#save dara
-saveRDS(af15,file="data/af15_4.rds")
-
-#save to csv
-write_csv(af15,"data/af15.csv")
-
 #incumbent support
 af15$incsupport<-100*(af15$A+af15$B)/af15$IAltGyldigeStemmer
 
@@ -91,6 +85,12 @@ af15$hp_1yrposchange<-ifelse(af15$hp_1yr>0,af15$hp_1yr,0)
 af15$hp_1yrnegchange<-ifelse(af15$hp_1yr<=0,af15$hp_1yr*-1,0)
 af15$hp_2yrposchange<-ifelse(af15$hp_2yr>0,af15$hp_2yr,0)
 af15$hp_2yrnegchange<-ifelse(af15$hp_2yr<=0,af15$hp_2yr*-1,0)
+
+#save data
+saveRDS(af15,file="data/af15_4.rds")
+
+#save to csv
+write_csv(af15,"data/af15.csv")
 
 #plot changes
 ggplot(af15,aes(x=hp_2yr)) +
