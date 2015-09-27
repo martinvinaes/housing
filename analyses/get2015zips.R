@@ -5,6 +5,8 @@ require(ggmap)
 require(httr)
 require(rjson)
 require(readr)
+require(ggplot2)
+require(stargazer)
 
 #read in data
 af15<-read.csv("data/afst2015.csv",sep="\t")
@@ -80,3 +82,29 @@ saveRDS(af15,file="data/af15_4.rds")
 
 #save to csv
 write_csv(af15,"data/af15.csv")
+
+#incumbent support
+af15$incsupport<-100*(af15$A+af15$B)/af15$IAltGyldigeStemmer
+
+#split hp into poschange and negchange
+af15$hp_1yrposchange<-ifelse(af15$hp_1yr>0,af15$hp_1yr,0)
+af15$hp_1yrnegchange<-ifelse(af15$hp_1yr<=0,af15$hp_1yr*-1,0)
+af15$hp_2yrposchange<-ifelse(af15$hp_2yr>0,af15$hp_2yr,0)
+af15$hp_2yrnegchange<-ifelse(af15$hp_2yr<=0,af15$hp_2yr*-1,0)
+
+#plot changes
+ggplot(af15,aes(x=hp_2yr)) +
+  geom_histogram() +
+  theme_minimal()
+
+ggplot(af15,aes(x=hp_2yr,y=incsupport)) +
+  geom_point() +
+  theme_minimal()
+
+#run basic analyses
+m1yrlin<-lm(incsupport~hp_1yr+factor(muninum),data=af15)
+m1yrsplin<-lm(incsupport~hp_1yrposchange+hp_1yrnegchange+factor(muninum),data=af15)
+m2yrlin<-lm(incsupport~hp_2yr+factor(muninum),data=af15)
+m2yrsplin<-lm(incsupport~hp_2yrposchange+hp_2yrnegchange+factor(muninum),data=af15)
+
+stargazer(m1yrlin,m1yrsplin,m2yrlin,m2yrsplin,type="text",style="apsr",omit="factor")
