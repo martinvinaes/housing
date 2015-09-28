@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.27pt}
+\beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Politicized homes?}{2}{0}{1}
 \beamer@sectionintoc {2}{Empirical setting}{9}{0}{2}
