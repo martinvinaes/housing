@@ -1,0 +1,1185 @@
+type;area;Q3_09;Q3_10;Q3_11
+Parcel-/rækkehus;1000-1499 Kbh.K.;1;0;0
+Parcel-/rækkehus;1500-1799 Kbh.V.;1;1;0
+Parcel-/rækkehus;1800-1999 Frederiksberg C;2;2;2
+Parcel-/rækkehus;2000 Frederiksberg;15;9;9
+Parcel-/rækkehus;2100 København Ø;12;6;12
+Parcel-/rækkehus;2150 Nordhavn;..;..;..
+Parcel-/rækkehus;2200 København N;..;..;..
+Parcel-/rækkehus;2300 København S;41;48;27
+Parcel-/rækkehus;2400 København NV;7;18;7
+Parcel-/rækkehus;2450 København SV;0;0;0
+Parcel-/rækkehus;2500 Valby;39;35;27
+Parcel-/rækkehus;2600 Glostrup;28;30;26
+Parcel-/rækkehus;2605 Brøndby;26;12;17
+Parcel-/rækkehus;2610 Rødovre;55;56;36
+Parcel-/rækkehus;2620 Albertslund;17;12;18
+Parcel-/rækkehus;2625 Vallensbæk;9;14;7
+Parcel-/rækkehus;2630 Taastrup;48;37;30
+Parcel-/rækkehus;2635 Ishøj;15;18;14
+Parcel-/rækkehus;2640 Hedehusene;18;15;19
+Parcel-/rækkehus;2650 Hvidovre;73;84;48
+Parcel-/rækkehus;2660 Brøndby Strand;9;12;9
+Parcel-/rækkehus;2665 Vallensbæk Strand;18;15;16
+Parcel-/rækkehus;2670 Greve;60;65;54
+Parcel-/rækkehus;2680 Solrød Strand;21;24;26
+Parcel-/rækkehus;2690 Karlslunde;25;18;16
+Parcel-/rækkehus;2700 Brønshøj;49;32;35
+Parcel-/rækkehus;2720 Vanløse;27;25;16
+Parcel-/rækkehus;2730 Herlev;47;37;35
+Parcel-/rækkehus;2740 Skovlunde;10;18;14
+Parcel-/rækkehus;2750 Ballerup;28;36;17
+Parcel-/rækkehus;2760 Måløv;11;8;3
+Parcel-/rækkehus;2765 Smørum;23;32;12
+Parcel-/rækkehus;2770 Kastrup;52;66;57
+Parcel-/rækkehus;2791 Dragør;39;48;18
+Parcel-/rækkehus;2800 Kgs.Lyngby;47;67;23
+Parcel-/rækkehus;2820 Gentofte;32;26;25
+Parcel-/rækkehus;2830 Virum;47;55;33
+Parcel-/rækkehus;2840 Holte;40;38;28
+Parcel-/rækkehus;2850 Nærum;7;6;10
+Parcel-/rækkehus;2860 Søborg;25;34;30
+Parcel-/rækkehus;2870 Dyssegård;11;11;7
+Parcel-/rækkehus;2880 Bagsværd;28;26;13
+Parcel-/rækkehus;2900 Hellerup;22;27;24
+Parcel-/rækkehus;2920 Charlottenlund;43;29;16
+Parcel-/rækkehus;2930 Klampenborg;6;12;9
+Parcel-/rækkehus;2942 Skodsborg;2;1;1
+Parcel-/rækkehus;2950 Vedbæk;14;13;16
+Parcel-/rækkehus;2960 Rungsted Kyst;8;16;9
+Parcel-/rækkehus;2970 Hørsholm;49;38;21
+Parcel-/rækkehus;2980 Kokkedal;30;17;21
+Parcel-/rækkehus;2990 Nivå;7;19;9
+Parcel-/rækkehus;3000 Helsingør;31;35;25
+Parcel-/rækkehus;3050 Humlebæk;16;12;7
+Parcel-/rækkehus;3060 Espergærde;24;28;20
+Parcel-/rækkehus;3070 Snekkersten;4;6;7
+Parcel-/rækkehus;3080 Tikøb;2;3;4
+Parcel-/rækkehus;3100 Hornbæk;4;8;5
+Parcel-/rækkehus;3120 Dronningmølle;3;2;3
+Parcel-/rækkehus;3140 Ålsgårde;11;15;6
+Parcel-/rækkehus;3150 Hellebæk;1;0;1
+Parcel-/rækkehus;3200 Helsinge;34;22;24
+Parcel-/rækkehus;3210 Vejby;4;4;0
+Parcel-/rækkehus;3220 Tisvildeleje;2;3;2
+Parcel-/rækkehus;3230 Græsted;14;22;17
+Parcel-/rækkehus;3250 Gilleleje;8;15;15
+Parcel-/rækkehus;3300 Frederiksværk;27;17;15
+Parcel-/rækkehus;3310 Ølsted;6;5;2
+Parcel-/rækkehus;3320 Skævinge;7;13;7
+Parcel-/rækkehus;3330 Gørløse;3;1;3
+Parcel-/rækkehus;3360 Liseleje;0;2;3
+Parcel-/rækkehus;3370 Melby;2;3;2
+Parcel-/rækkehus;3390 Hundested;22;16;21
+Parcel-/rækkehus;3400 Hillerød;49;50;42
+Parcel-/rækkehus;3450 Allerød;51;31;17
+Parcel-/rækkehus;3460 Birkerød;25;36;43
+Parcel-/rækkehus;3480 Fredensborg;25;20;23
+Parcel-/rækkehus;3490 Kvistgård;1;3;2
+Parcel-/rækkehus;3500 Værløse;36;43;28
+Parcel-/rækkehus;3520 Farum;32;34;22
+Parcel-/rækkehus;3540 Lynge;6;8;5
+Parcel-/rækkehus;3550 Slangerup;13;18;17
+Parcel-/rækkehus;3600 Frederikssund;31;45;19
+Parcel-/rækkehus;3630 Jægerspris;4;10;13
+Parcel-/rækkehus;3650 Ølstykke;42;41;27
+Parcel-/rækkehus;3660 Stenløse;21;14;23
+Parcel-/rækkehus;3670 Veksø Sjælland;6;3;3
+Parcel-/rækkehus;3700 Rønne;50;61;61
+Parcel-/rækkehus;3720 Aakirkeby;8;14;7
+Parcel-/rækkehus;3730 Nexø;22;15;14
+Parcel-/rækkehus;3740 Svaneke;6;9;5
+Parcel-/rækkehus;3751 Østermarie;6;1;1
+Parcel-/rækkehus;3760 Gudhjem;3;7;4
+Parcel-/rækkehus;3770 Allinge;8;12;6
+Parcel-/rækkehus;3782 Klemensker;4;2;6
+Parcel-/rækkehus;3790 Hasle;5;4;5
+Parcel-/rækkehus;4000 Roskilde;101;91;96
+Parcel-/rækkehus;4030 Tune;7;16;9
+Parcel-/rækkehus;4040 Jyllinge;19;14;15
+Parcel-/rækkehus;4050 Skibby;4;7;10
+Parcel-/rækkehus;4060 Kirke Såby;9;8;7
+Parcel-/rækkehus;4070 Kirke Hyllinge;15;16;12
+Parcel-/rækkehus;4100 Ringsted;51;66;36
+Parcel-/rækkehus;4130 Viby Sjælland;6;10;11
+Parcel-/rækkehus;4140 Borup;15;5;7
+Parcel-/rækkehus;4160 Herlufmagle;9;4;4
+Parcel-/rækkehus;4171 Glumsø;4;4;4
+Parcel-/rækkehus;4173 Fjenneslev;1;3;6
+Parcel-/rækkehus;4174 Jystrup Midtsj;2;2;0
+Parcel-/rækkehus;4180 Sorø;17;26;23
+Parcel-/rækkehus;4190 Munke Bjergby;1;1;0
+Parcel-/rækkehus;4200 Slagelse;67;51;33
+Parcel-/rækkehus;4220 Korsør;20;28;20
+Parcel-/rækkehus;4230 Skælskør;15;15;8
+Parcel-/rækkehus;4241 Vemmelev;8;9;4
+Parcel-/rækkehus;4242 Boeslunde;0;3;2
+Parcel-/rækkehus;4243 Rude;0;4;0
+Parcel-/rækkehus;4250 Fuglebjerg;3;15;4
+Parcel-/rækkehus;4261 Dalmose;7;5;5
+Parcel-/rækkehus;4262 Sandved;4;5;2
+Parcel-/rækkehus;4270 Høng;7;11;11
+Parcel-/rækkehus;4281 Gørlev;4;9;5
+Parcel-/rækkehus;4291 Ruds Vedby;4;2;4
+Parcel-/rækkehus;4293 Dianalund;8;11;8
+Parcel-/rækkehus;4295 Stenlille;4;7;4
+Parcel-/rækkehus;4296 Nyrup;0;3;0
+Parcel-/rækkehus;4300 Holbæk;46;44;41
+Parcel-/rækkehus;4320 Lejre;8;8;9
+Parcel-/rækkehus;4330 Hvalsø;8;13;2
+Parcel-/rækkehus;4340 Tølløse;12;5;11
+Parcel-/rækkehus;4350 Ugerløse;1;2;3
+Parcel-/rækkehus;4360 Kirke Eskilstrup;0;5;1
+Parcel-/rækkehus;4370 Store Merløse;3;1;1
+Parcel-/rækkehus;4390 Vipperød;5;6;5
+Parcel-/rækkehus;4400 Kalundborg;33;41;37
+Parcel-/rækkehus;4420 Regstrup;5;6;4
+Parcel-/rækkehus;4440 Mørkøv;9;6;5
+Parcel-/rækkehus;4450 Jyderup;12;12;9
+Parcel-/rækkehus;4460 Snertinge;4;2;5
+Parcel-/rækkehus;4470 Svebølle;6;5;7
+Parcel-/rækkehus;4480 Store Fuglede;0;4;0
+Parcel-/rækkehus;4490 Jerslev Sjælland;3;6;3
+Parcel-/rækkehus;4500 Nykøbing Sj;12;15;14
+Parcel-/rækkehus;4520 Svinninge;7;9;6
+Parcel-/rækkehus;4532 Gislinge;4;4;6
+Parcel-/rækkehus;4534 Hørve;3;3;3
+Parcel-/rækkehus;4540 Fårevejle;8;2;5
+Parcel-/rækkehus;4550 Asnæs;10;7;5
+Parcel-/rækkehus;4560 Vig;6;4;0
+Parcel-/rækkehus;4571 Grevinge;2;5;1
+Parcel-/rækkehus;4572 Nørre Asmindrup;2;0;1
+Parcel-/rækkehus;4573 Højby;2;4;1
+Parcel-/rækkehus;4581 Rørvig;4;6;2
+Parcel-/rækkehus;4583 Sjællands Odde;1;0;2
+Parcel-/rækkehus;4591 Føllenslev;1;4;2
+Parcel-/rækkehus;4592 Sejerø;0;2;1
+Parcel-/rækkehus;4593 Eskebjerg;2;0;2
+Parcel-/rækkehus;4600 Køge;51;56;34
+Parcel-/rækkehus;4621 Gadstrup;12;8;2
+Parcel-/rækkehus;4622 Havdrup;9;10;8
+Parcel-/rækkehus;4623 Lille Skensved;7;10;8
+Parcel-/rækkehus;4632 Bjæverskov;8;2;4
+Parcel-/rækkehus;4640 Faxe;10;10;3
+Parcel-/rækkehus;4652 Hårlev;5;8;6
+Parcel-/rækkehus;4653 Karise;6;3;3
+Parcel-/rækkehus;4654 Faxe Ladeplads;2;5;0
+Parcel-/rækkehus;4660 Store Heddinge;6;11;14
+Parcel-/rækkehus;4671 Strøby;1;3;1
+Parcel-/rækkehus;4672 Klippinge;2;0;1
+Parcel-/rækkehus;4673 Rødvig Stevns;4;3;2
+Parcel-/rækkehus;4681 Herfølge;7;11;4
+Parcel-/rækkehus;4682 Tureby;3;2;5
+Parcel-/rækkehus;4683 Rønnede;4;8;3
+Parcel-/rækkehus;4684 Holmegaard;19;16;11
+Parcel-/rækkehus;4690 Haslev;19;35;31
+Parcel-/rækkehus;4700 Næstved;78;73;67
+Parcel-/rækkehus;4720 Præstø;12;18;5
+Parcel-/rækkehus;4733 Tappernøje;5;8;8
+Parcel-/rækkehus;4735 Mern;3;1;0
+Parcel-/rækkehus;4736 Karrebæksminde;5;3;0
+Parcel-/rækkehus;4750 Lundby;7;6;3
+Parcel-/rækkehus;4760 Vordingborg;26;26;23
+Parcel-/rækkehus;4771 Kalvehave;2;5;1
+Parcel-/rækkehus;4772 Langebæk;1;2;2
+Parcel-/rækkehus;4773 Stensved;4;7;1
+Parcel-/rækkehus;4780 Stege;14;13;11
+Parcel-/rækkehus;4791 Borre;2;1;0
+Parcel-/rækkehus;4792 Askeby;3;5;2
+Parcel-/rækkehus;4793 Bogø By;3;0;2
+Parcel-/rækkehus;4800 Nykøbing F;35;45;41
+Parcel-/rækkehus;4840 Nørre Alslev;10;9;9
+Parcel-/rækkehus;4850 Stubbekøbing;6;9;5
+Parcel-/rækkehus;4862 Guldborg;2;0;7
+Parcel-/rækkehus;4863 Eskilstrup;4;4;2
+Parcel-/rækkehus;4871 Horbelev;5;2;2
+Parcel-/rækkehus;4872 Idestrup;3;0;1
+Parcel-/rækkehus;4873 Væggerløse;5;6;2
+Parcel-/rækkehus;4874 Gedser;7;4;2
+Parcel-/rækkehus;4880 Nysted;3;4;2
+Parcel-/rækkehus;4891 Toreby L;9;1;1
+Parcel-/rækkehus;4892 Kettinge;5;2;5
+Parcel-/rækkehus;4894 Øster Ulslev;0;3;1
+Parcel-/rækkehus;4895 Errindlev;1;1;2
+Parcel-/rækkehus;4900 Nakskov;28;23;19
+Parcel-/rækkehus;4912 Harpelunde;1;2;2
+Parcel-/rækkehus;4913 Horslunde;6;7;6
+Parcel-/rækkehus;4920 Søllested;4;7;3
+Parcel-/rækkehus;4930 Maribo;21;17;11
+Parcel-/rækkehus;4941 Bandholm;2;3;1
+Parcel-/rækkehus;4943 Torrig L;3;2;1
+Parcel-/rækkehus;4944 Fejø;2;1;4
+Parcel-/rækkehus;4951 Nørreballe;3;1;1
+Parcel-/rækkehus;4952 Stokkemarke;2;0;1
+Parcel-/rækkehus;4953 Vesterborg;2;1;0
+Parcel-/rækkehus;4960 Holeby;3;3;5
+Parcel-/rækkehus;4970 Rødby;11;10;10
+Parcel-/rækkehus;4983 Dannemare;0;3;1
+Parcel-/rækkehus;4990 Sakskøbing;14;11;13
+Parcel-/rækkehus;5000 Odense C;34;34;25
+Parcel-/rækkehus;5200 Odense V;16;4;9
+Parcel-/rækkehus;5210 Odense NV;27;42;36
+Parcel-/rækkehus;5220 Odense SØ;18;25;17
+Parcel-/rækkehus;5230 Odense M;29;30;29
+Parcel-/rækkehus;5240 Odense NØ;12;8;5
+Parcel-/rækkehus;5250 Odense SV;53;49;47
+Parcel-/rækkehus;5260 Odense S;31;33;23
+Parcel-/rækkehus;5270 Odense N;32;44;33
+Parcel-/rækkehus;5290 Marslev;0;2;1
+Parcel-/rækkehus;5300 Kerteminde;9;13;9
+Parcel-/rækkehus;5320 Agedrup;9;6;2
+Parcel-/rækkehus;5330 Munkebo;7;12;8
+Parcel-/rækkehus;5350 Rynkeby;0;1;2
+Parcel-/rækkehus;5370 Mesinge;2;0;1
+Parcel-/rækkehus;5380 Dalby;0;1;1
+Parcel-/rækkehus;5390 Martofte;0;1;2
+Parcel-/rækkehus;5400 Bogense;8;9;10
+Parcel-/rækkehus;5450 Otterup;29;16;17
+Parcel-/rækkehus;5462 Morud;3;0;5
+Parcel-/rækkehus;5463 Harndrup;3;3;0
+Parcel-/rækkehus;5464 Brenderup Fyn;1;2;9
+Parcel-/rækkehus;5466 Asperup;5;1;1
+Parcel-/rækkehus;5471 Søndersø;11;9;6
+Parcel-/rækkehus;5474 Veflinge;1;0;2
+Parcel-/rækkehus;5485 Skamby;1;4;2
+Parcel-/rækkehus;5491 Blommenslyst;3;6;1
+Parcel-/rækkehus;5492 Vissenbjerg;8;12;9
+Parcel-/rækkehus;5500 Middelfart;45;47;34
+Parcel-/rækkehus;5540 Ullerslev;13;8;12
+Parcel-/rækkehus;5550 Langeskov;10;15;11
+Parcel-/rækkehus;5560 Aarup;9;5;8
+Parcel-/rækkehus;5580 Nørre Aaby;1;8;3
+Parcel-/rækkehus;5591 Gelsted;3;5;4
+Parcel-/rækkehus;5592 Ejby;2;5;2
+Parcel-/rækkehus;5600 Faaborg;25;28;21
+Parcel-/rækkehus;5610 Assens;21;21;16
+Parcel-/rækkehus;5620 Glamsbjerg;12;16;6
+Parcel-/rækkehus;5631 Ebberup;4;2;4
+Parcel-/rækkehus;5642 Millinge;1;1;4
+Parcel-/rækkehus;5672 Broby;13;7;9
+Parcel-/rækkehus;5683 Haarby;11;8;7
+Parcel-/rækkehus;5690 Tommerup;9;11;12
+Parcel-/rækkehus;5700 Svendborg;68;59;51
+Parcel-/rækkehus;5750 Ringe;17;21;21
+Parcel-/rækkehus;5762 Vester Skerninge;9;9;8
+Parcel-/rækkehus;5771 Stenstrup;5;3;8
+Parcel-/rækkehus;5772 Kværndrup;4;2;4
+Parcel-/rækkehus;5792 Årslev;15;15;7
+Parcel-/rækkehus;5800 Nyborg;37;28;24
+Parcel-/rækkehus;5853 Ørbæk;10;9;12
+Parcel-/rækkehus;5854 Gislev;4;2;3
+Parcel-/rækkehus;5856 Ryslinge;4;6;0
+Parcel-/rækkehus;5863 Ferritslev Fyn;4;3;2
+Parcel-/rækkehus;5871 Frørup;1;7;2
+Parcel-/rækkehus;5874 Hesselager;2;6;3
+Parcel-/rækkehus;5881 Skårup Fyn;5;6;4
+Parcel-/rækkehus;5882 Vejstrup;1;1;1
+Parcel-/rækkehus;5883 Oure;2;0;2
+Parcel-/rækkehus;5884 Gudme;4;1;0
+Parcel-/rækkehus;5892 Gudbjerg Sydfyn;2;1;1
+Parcel-/rækkehus;5900 Rudkøbing;20;15;9
+Parcel-/rækkehus;5932 Humble;11;7;3
+Parcel-/rækkehus;5935 Bagenkop;3;3;1
+Parcel-/rækkehus;5953 Tranekær;8;12;3
+Parcel-/rækkehus;5960 Marstal;9;11;11
+Parcel-/rækkehus;5970 Ærøskøbing;9;6;3
+Parcel-/rækkehus;5985 Søby Ærø;4;2;2
+Parcel-/rækkehus;6000 Kolding;107;108;78
+Parcel-/rækkehus;6040 Egtved;14;14;13
+Parcel-/rækkehus;6051 Almind;8;0;4
+Parcel-/rækkehus;6052 Viuf;4;2;1
+Parcel-/rækkehus;6064 Jordrup;4;3;1
+Parcel-/rækkehus;6070 Christiansfeld;11;12;13
+Parcel-/rækkehus;6091 Bjert;5;4;2
+Parcel-/rækkehus;6092 Sønder Stenderup;2;2;1
+Parcel-/rækkehus;6093 Sjølund;1;1;2
+Parcel-/rækkehus;6094 Hejls;4;3;3
+Parcel-/rækkehus;6100 Haderslev;47;42;28
+Parcel-/rækkehus;6200 Aabenraa;38;57;31
+Parcel-/rækkehus;6230 Rødekro;19;30;8
+Parcel-/rækkehus;6240 Løgumkloster;11;5;11
+Parcel-/rækkehus;6261 Bredebro;6;7;8
+Parcel-/rækkehus;6270 Tønder;15;19;11
+Parcel-/rækkehus;6280 Højer;8;1;2
+Parcel-/rækkehus;6300 Gråsten;12;11;10
+Parcel-/rækkehus;6310 Broager;9;9;6
+Parcel-/rækkehus;6320 Egernsund;4;3;3
+Parcel-/rækkehus;6330 Padborg;7;5;9
+Parcel-/rækkehus;6340 Kruså;8;9;7
+Parcel-/rækkehus;6360 Tinglev;2;11;8
+Parcel-/rækkehus;6372 Bylderup-Bov;7;7;3
+Parcel-/rækkehus;6392 Bolderslev;3;1;0
+Parcel-/rækkehus;6400 Sønderborg;38;49;25
+Parcel-/rækkehus;6430 Nordborg;20;23;13
+Parcel-/rækkehus;6440 Augustenborg;10;14;9
+Parcel-/rækkehus;6470 Sydals;13;9;9
+Parcel-/rækkehus;6500 Vojens;15;24;19
+Parcel-/rækkehus;6510 Gram;7;12;6
+Parcel-/rækkehus;6520 Toftlund;4;4;9
+Parcel-/rækkehus;6534 Agerskov;0;2;3
+Parcel-/rækkehus;6535 Branderup J;0;1;0
+Parcel-/rækkehus;6541 Bevtoft;2;2;1
+Parcel-/rækkehus;6560 Sommersted;5;4;4
+Parcel-/rækkehus;6580 Vamdrup;12;12;8
+Parcel-/rækkehus;6600 Vejen;24;23;23
+Parcel-/rækkehus;6621 Gesten;1;4;3
+Parcel-/rækkehus;6622 Bække;3;2;1
+Parcel-/rækkehus;6623 Vorbasse;4;2;3
+Parcel-/rækkehus;6630 Rødding;20;14;16
+Parcel-/rækkehus;6640 Lunderskov;12;9;3
+Parcel-/rækkehus;6650 Brørup;9;9;18
+Parcel-/rækkehus;6660 Lintrup;1;1;1
+Parcel-/rækkehus;6670 Holsted;4;9;3
+Parcel-/rækkehus;6682 Hovborg;0;0;0
+Parcel-/rækkehus;6683 Føvling;0;1;0
+Parcel-/rækkehus;6690 Gørding;3;6;3
+Parcel-/rækkehus;6700 Esbjerg;28;41;21
+Parcel-/rækkehus;6705 Esbjerg Ø;24;20;13
+Parcel-/rækkehus;6710 Esbjerg V;41;51;39
+Parcel-/rækkehus;6715 Esbjerg N;14;27;17
+Parcel-/rækkehus;6720 Fanø;8;4;10
+Parcel-/rækkehus;6731 Tjæreborg;8;7;5
+Parcel-/rækkehus;6740 Bramming;36;22;20
+Parcel-/rækkehus;6752 Glejbjerg;0;2;1
+Parcel-/rækkehus;6753 Agerbæk;3;1;1
+Parcel-/rækkehus;6760 Ribe;25;27;28
+Parcel-/rækkehus;6771 Gredstedbro;2;8;2
+Parcel-/rækkehus;6780 Skærbæk;11;9;7
+Parcel-/rækkehus;6792 Rømø;1;2;1
+Parcel-/rækkehus;6800 Varde;30;47;42
+Parcel-/rækkehus;6818 Årre;2;6;7
+Parcel-/rækkehus;6823 Ansager;4;8;2
+Parcel-/rækkehus;6830 Nørre Nebel;3;6;1
+Parcel-/rækkehus;6840 Oksbøl;11;4;3
+Parcel-/rækkehus;6851 Janderup Vestj;2;6;3
+Parcel-/rækkehus;6852 Billum;2;0;1
+Parcel-/rækkehus;6853 Vejers Strand;0;0;0
+Parcel-/rækkehus;6854 Henne;1;0;1
+Parcel-/rækkehus;6855 Outrup;5;2;4
+Parcel-/rækkehus;6857 Blåvand;2;2;2
+Parcel-/rækkehus;6862 Tistrup;3;4;4
+Parcel-/rækkehus;6870 Ølgod;7;8;7
+Parcel-/rækkehus;6880 Tarm;13;14;10
+Parcel-/rækkehus;6893 Hemmet;1;8;2
+Parcel-/rækkehus;6900 Skjern;31;22;17
+Parcel-/rækkehus;6920 Videbæk;19;16;8
+Parcel-/rækkehus;6933 Kibæk;3;9;6
+Parcel-/rækkehus;6940 Lem St;2;2;2
+Parcel-/rækkehus;6950 Ringkøbing;9;23;9
+Parcel-/rækkehus;6960 Hvide Sande;9;7;7
+Parcel-/rækkehus;6971 Spjald;3;4;3
+Parcel-/rækkehus;6973 Ørnhøj;0;1;3
+Parcel-/rækkehus;6980 Tim;3;7;3
+Parcel-/rækkehus;6990 Ulfborg;13;10;6
+Parcel-/rækkehus;7000 Fredericia;67;76;62
+Parcel-/rækkehus;7080 Børkop;22;22;15
+Parcel-/rækkehus;7100 Vejle;80;75;62
+Parcel-/rækkehus;7120 Vejle Øst;29;21;10
+Parcel-/rækkehus;7130 Juelsminde;21;12;6
+Parcel-/rækkehus;7140 Stouby;6;4;2
+Parcel-/rækkehus;7150 Barrit;6;6;2
+Parcel-/rækkehus;7160 Tørring;11;11;9
+Parcel-/rækkehus;7171 Uldum;3;3;1
+Parcel-/rækkehus;7173 Vonge;1;4;1
+Parcel-/rækkehus;7182 Bredsten;8;5;2
+Parcel-/rækkehus;7183 Randbøl;1;3;4
+Parcel-/rækkehus;7184 Vandel;7;3;1
+Parcel-/rækkehus;7190 Billund;9;14;10
+Parcel-/rækkehus;7200 Grindsted;25;25;24
+Parcel-/rækkehus;7250 Hejnsvig;5;3;2
+Parcel-/rækkehus;7260 Sønder Omme;7;2;3
+Parcel-/rækkehus;7270 Stakroge;1;1;0
+Parcel-/rækkehus;7280 Sønder Felding;1;2;0
+Parcel-/rækkehus;7300 Jelling;16;8;16
+Parcel-/rækkehus;7321 Gadbjerg;6;4;1
+Parcel-/rækkehus;7323 Give;17;27;16
+Parcel-/rækkehus;7330 Brande;17;20;14
+Parcel-/rækkehus;7361 Ejstrupholm;5;6;2
+Parcel-/rækkehus;7362 Hampen;2;2;0
+Parcel-/rækkehus;7400 Herning;84;81;65
+Parcel-/rækkehus;7430 Ikast;8;25;22
+Parcel-/rækkehus;7441 Bording;2;9;3
+Parcel-/rækkehus;7442 Engesvang;3;4;6
+Parcel-/rækkehus;7451 Sunds;7;5;4
+Parcel-/rækkehus;7470 Karup J;9;11;8
+Parcel-/rækkehus;7480 Vildbjerg;13;13;9
+Parcel-/rækkehus;7490 Aulum;7;9;7
+Parcel-/rækkehus;7500 Holstebro;63;78;64
+Parcel-/rækkehus;7540 Haderup;4;2;1
+Parcel-/rækkehus;7550 Sørvad;6;4;1
+Parcel-/rækkehus;7560 Hjerm;4;0;0
+Parcel-/rækkehus;7570 Vemb;6;7;6
+Parcel-/rækkehus;7600 Struer;27;26;22
+Parcel-/rækkehus;7620 Lemvig;23;22;28
+Parcel-/rækkehus;7650 Bøvlingbjerg;0;2;1
+Parcel-/rækkehus;7660 Bækmarksbro;1;1;1
+Parcel-/rækkehus;7673 Harboøre;3;3;8
+Parcel-/rækkehus;7680 Thyborøn;9;10;2
+Parcel-/rækkehus;7700 Thisted;53;48;47
+Parcel-/rækkehus;7730 Hanstholm;6;7;6
+Parcel-/rækkehus;7741 Frøstrup;0;0;4
+Parcel-/rækkehus;7742 Vesløs;3;2;1
+Parcel-/rækkehus;7752 Snedsted;4;9;9
+Parcel-/rækkehus;7755 Bedsted Thy;8;3;7
+Parcel-/rækkehus;7760 Hurup Thy;13;11;8
+Parcel-/rækkehus;7770 Vestervig;6;4;3
+Parcel-/rækkehus;7790 Thyholm;4;4;4
+Parcel-/rækkehus;7800 Skive;28;30;32
+Parcel-/rækkehus;7830 Vinderup;12;14;9
+Parcel-/rækkehus;7840 Højslev;7;8;5
+Parcel-/rækkehus;7850 Stoholm Jyll;3;7;10
+Parcel-/rækkehus;7860 Spøttrup;9;12;3
+Parcel-/rækkehus;7870 Roslev;9;24;20
+Parcel-/rækkehus;7884 Fur;3;3;2
+Parcel-/rækkehus;7900 Nykøbing M;29;17;22
+Parcel-/rækkehus;7950 Erslev;5;9;1
+Parcel-/rækkehus;7960 Karby;2;1;3
+Parcel-/rækkehus;7970 Redsted M;2;1;0
+Parcel-/rækkehus;7980 Vils;2;1;1
+Parcel-/rækkehus;7990 Øster Assels;2;2;2
+Parcel-/rækkehus;8000 Århus C;7;7;8
+Parcel-/rækkehus;8200 Århus N;17;16;17
+Parcel-/rækkehus;8210 Århus V;28;20;22
+Parcel-/rækkehus;8220 Brabrand;23;30;17
+Parcel-/rækkehus;8230 Åbyhøj;11;24;10
+Parcel-/rækkehus;8240 Risskov;40;39;21
+Parcel-/rækkehus;8250 Egå;14;31;11
+Parcel-/rækkehus;8260 Viby J;31;41;19
+Parcel-/rækkehus;8270 Højbjerg;36;38;26
+Parcel-/rækkehus;8300 Odder;40;30;25
+Parcel-/rækkehus;8305 Samsø;9;10;11
+Parcel-/rækkehus;8310 Tranbjerg J;26;21;20
+Parcel-/rækkehus;8320 Mårslet;9;7;9
+Parcel-/rækkehus;8330 Beder;12;5;6
+Parcel-/rækkehus;8340 Malling;7;6;1
+Parcel-/rækkehus;8350 Hundslund;3;6;0
+Parcel-/rækkehus;8355 Solbjerg;7;10;8
+Parcel-/rækkehus;8361 Hasselager;12;17;8
+Parcel-/rækkehus;8362 Hørning;17;19;12
+Parcel-/rækkehus;8370 Hadsten;15;22;22
+Parcel-/rækkehus;8380 Trige;5;8;0
+Parcel-/rækkehus;8381 Tilst;10;14;23
+Parcel-/rækkehus;8382 Hinnerup;20;20;17
+Parcel-/rækkehus;8400 Ebeltoft;13;15;14
+Parcel-/rækkehus;8410 Rønde;20;21;7
+Parcel-/rækkehus;8420 Knebel;0;7;2
+Parcel-/rækkehus;8444 Balle;2;3;2
+Parcel-/rækkehus;8450 Hammel;22;17;16
+Parcel-/rækkehus;8462 Harlev J;3;6;9
+Parcel-/rækkehus;8464 Galten;27;25;17
+Parcel-/rækkehus;8471 Sabro;6;7;8
+Parcel-/rækkehus;8472 Sporup;2;2;7
+Parcel-/rækkehus;8500 Grenaa;33;39;29
+Parcel-/rækkehus;8520 Lystrup;22;34;10
+Parcel-/rækkehus;8530 Hjortshøj;6;14;7
+Parcel-/rækkehus;8541 Skødstrup;19;15;13
+Parcel-/rækkehus;8543 Hornslet;15;8;15
+Parcel-/rækkehus;8544 Mørke;7;12;11
+Parcel-/rækkehus;8550 Ryomgård;10;6;6
+Parcel-/rækkehus;8560 Kolind;4;9;4
+Parcel-/rækkehus;8570 Trustrup;3;5;4
+Parcel-/rækkehus;8581 Nimtofte;1;0;0
+Parcel-/rækkehus;8585 Glesborg;6;8;5
+Parcel-/rækkehus;8586 Ørum Djurs;2;3;3
+Parcel-/rækkehus;8592 Anholt;..;..;0
+Parcel-/rækkehus;8600 Silkeborg;77;96;70
+Parcel-/rækkehus;8620 Kjellerup;14;12;10
+Parcel-/rækkehus;8632 Lemming;3;1;4
+Parcel-/rækkehus;8641 Sorring;7;5;4
+Parcel-/rækkehus;8643 Ans By;2;10;3
+Parcel-/rækkehus;8653 Them;7;6;6
+Parcel-/rækkehus;8654 Bryrup;4;4;4
+Parcel-/rækkehus;8660 Skanderborg;41;44;38
+Parcel-/rækkehus;8670 Låsby;0;2;3
+Parcel-/rækkehus;8680 Ry;19;8;9
+Parcel-/rækkehus;8700 Horsens;104;98;84
+Parcel-/rækkehus;8721 Daugård;2;1;3
+Parcel-/rækkehus;8722 Hedensted;10;21;13
+Parcel-/rækkehus;8723 Løsning;15;11;12
+Parcel-/rækkehus;8732 Hovedgård;6;10;5
+Parcel-/rækkehus;8740 Brædstrup;16;15;12
+Parcel-/rækkehus;8751 Gedved;4;7;3
+Parcel-/rækkehus;8752 Østbirk;4;3;6
+Parcel-/rækkehus;8762 Flemming;3;2;2
+Parcel-/rækkehus;8763 Rask Mølle;5;3;0
+Parcel-/rækkehus;8765 Klovborg;2;1;2
+Parcel-/rækkehus;8766 Nørre Snede;2;6;1
+Parcel-/rækkehus;8781 Stenderup;2;1;3
+Parcel-/rækkehus;8783 Hornsyld;5;3;6
+Parcel-/rækkehus;8800 Viborg;81;78;65
+Parcel-/rækkehus;8830 Tjele;14;15;16
+Parcel-/rækkehus;8831 Løgstrup;4;4;2
+Parcel-/rækkehus;8832 Skals;9;4;3
+Parcel-/rækkehus;8840 Rødkærsbro;4;3;4
+Parcel-/rækkehus;8850 Bjerringbro;29;15;19
+Parcel-/rækkehus;8860 Ulstrup;7;6;8
+Parcel-/rækkehus;8870 Langå;14;13;10
+Parcel-/rækkehus;8881 Thorsø;9;2;4
+Parcel-/rækkehus;8882 Fårvang;4;9;3
+Parcel-/rækkehus;8883 Gjern;1;2;2
+Parcel-/rækkehus;8900 Randers C;6;3;2
+Parcel-/rækkehus;8920 Randers NV;35;42;42
+Parcel-/rækkehus;8930 Randers NØ;16;23;23
+Parcel-/rækkehus;8940 Randers SV;17;21;7
+Parcel-/rækkehus;8950 Ørsted;4;2;1
+Parcel-/rækkehus;8960 Randers SØ;20;17;20
+Parcel-/rækkehus;8961 Allingåbro;7;8;4
+Parcel-/rækkehus;8963 Auning;10;12;6
+Parcel-/rækkehus;8970 Havndal;4;3;5
+Parcel-/rækkehus;8981 Spentrup;10;7;6
+Parcel-/rækkehus;8983 Gjerlev J;12;3;8
+Parcel-/rækkehus;8990 Fårup;5;6;7
+Parcel-/rækkehus;9000 Aalborg;58;68;53
+Parcel-/rækkehus;9200 Aalborg SV;20;13;18
+Parcel-/rækkehus;9210 Aalborg SØ;27;29;21
+Parcel-/rækkehus;9220 Aalborg Øst;10;17;8
+Parcel-/rækkehus;9230 Svenstrup J;14;10;15
+Parcel-/rækkehus;9240 Nibe;23;15;13
+Parcel-/rækkehus;9260 Gistrup;7;18;7
+Parcel-/rækkehus;9270 Klarup;5;10;7
+Parcel-/rækkehus;9280 Storvorde;14;15;18
+Parcel-/rækkehus;9293 Kongerslev;3;2;2
+Parcel-/rækkehus;9300 Sæby;18;27;22
+Parcel-/rækkehus;9310 Vodskov;11;23;13
+Parcel-/rækkehus;9320 Hjallerup;9;13;10
+Parcel-/rækkehus;9330 Dronninglund;11;18;9
+Parcel-/rækkehus;9340 Asaa;4;10;4
+Parcel-/rækkehus;9352 Dybvad;1;0;4
+Parcel-/rækkehus;9362 Gandrup;4;5;4
+Parcel-/rækkehus;9370 Hals;13;15;13
+Parcel-/rækkehus;9380 Vestbjerg;5;5;6
+Parcel-/rækkehus;9381 Sulsted;3;10;4
+Parcel-/rækkehus;9382 Tylstrup;3;3;4
+Parcel-/rækkehus;9400 Nørresundby;23;28;30
+Parcel-/rækkehus;9430 Vadum;7;11;5
+Parcel-/rækkehus;9440 Aabybro;12;19;22
+Parcel-/rækkehus;9460 Brovst;8;17;10
+Parcel-/rækkehus;9480 Løkken;8;12;7
+Parcel-/rækkehus;9490 Pandrup;12;7;11
+Parcel-/rækkehus;9492 Blokhus;3;6;3
+Parcel-/rækkehus;9493 Saltum;1;3;3
+Parcel-/rækkehus;9500 Hobro;27;29;25
+Parcel-/rækkehus;9510 Arden;7;11;6
+Parcel-/rækkehus;9520 Skørping;7;11;9
+Parcel-/rækkehus;9530 Støvring;7;18;9
+Parcel-/rækkehus;9541 Suldrup;4;9;4
+Parcel-/rækkehus;9550 Mariager;3;12;12
+Parcel-/rækkehus;9560 Hadsund;12;21;19
+Parcel-/rækkehus;9574 Bælum;2;1;3
+Parcel-/rækkehus;9575 Terndrup;2;3;4
+Parcel-/rækkehus;9600 Aars;22;29;22
+Parcel-/rækkehus;9610 Nørager;5;5;7
+Parcel-/rækkehus;9620 Aalestrup;6;11;4
+Parcel-/rækkehus;9631 Gedsted;1;1;3
+Parcel-/rækkehus;9632 Møldrup;9;3;6
+Parcel-/rækkehus;9640 Farsø;9;11;15
+Parcel-/rækkehus;9670 Løgstør;13;9;14
+Parcel-/rækkehus;9681 Ranum;6;2;1
+Parcel-/rækkehus;9690 Fjerritslev;14;11;16
+Parcel-/rækkehus;9700 Brønderslev;40;30;28
+Parcel-/rækkehus;9740 Jerslev J;6;4;3
+Parcel-/rækkehus;9750 Østervrå;2;5;4
+Parcel-/rækkehus;9760 Vrå;10;8;6
+Parcel-/rækkehus;9800 Hjørring;52;67;52
+Parcel-/rækkehus;9830 Tårs;3;6;5
+Parcel-/rækkehus;9850 Hirtshals;12;20;11
+Parcel-/rækkehus;9870 Sindal;10;18;7
+Parcel-/rækkehus;9881 Bindslev;3;5;6
+Parcel-/rækkehus;9900 Frederikshavn;30;53;42
+Parcel-/rækkehus;9940 Læsø;5;5;2
+Parcel-/rækkehus;9970 Strandby;5;10;5
+Parcel-/rækkehus;9981 Jerup;0;5;1
+Parcel-/rækkehus;9982 Ålbæk;3;6;4
+Parcel-/rækkehus;9990 Skagen;18;19;13
+Ejerlejlighed;1000-1499 Kbh.K.;66;74;69
+Ejerlejlighed;1500-1799 Kbh.V.;48;52;68
+Ejerlejlighed;1800-1999 Frederiksberg C;85;59;52
+Ejerlejlighed;2000 Frederiksberg;152;133;131
+Ejerlejlighed;2100 København Ø;129;130;109
+Ejerlejlighed;2150 Nordhavn;..;..;..
+Ejerlejlighed;2200 København N;84;91;87
+Ejerlejlighed;2300 København S;193;210;211
+Ejerlejlighed;2400 København NV;34;37;41
+Ejerlejlighed;2450 København SV;39;45;41
+Ejerlejlighed;2500 Valby;53;60;57
+Ejerlejlighed;2600 Glostrup;7;10;12
+Ejerlejlighed;2605 Brøndby;4;3;3
+Ejerlejlighed;2610 Rødovre;24;20;23
+Ejerlejlighed;2620 Albertslund;1;9;2
+Ejerlejlighed;2625 Vallensbæk;2;0;6
+Ejerlejlighed;2630 Taastrup;38;40;42
+Ejerlejlighed;2635 Ishøj;11;7;6
+Ejerlejlighed;2640 Hedehusene;3;6;8
+Ejerlejlighed;2650 Hvidovre;21;16;29
+Ejerlejlighed;2660 Brøndby Strand;1;0;0
+Ejerlejlighed;2665 Vallensbæk Strand;16;9;10
+Ejerlejlighed;2670 Greve;15;13;9
+Ejerlejlighed;2680 Solrød Strand;7;6;10
+Ejerlejlighed;2690 Karlslunde;1;1;0
+Ejerlejlighed;2700 Brønshøj;24;19;27
+Ejerlejlighed;2720 Vanløse;44;47;32
+Ejerlejlighed;2730 Herlev;5;5;7
+Ejerlejlighed;2740 Skovlunde;0;1;2
+Ejerlejlighed;2750 Ballerup;3;7;5
+Ejerlejlighed;2760 Måløv;2;3;2
+Ejerlejlighed;2765 Smørum;5;5;3
+Ejerlejlighed;2770 Kastrup;13;16;6
+Ejerlejlighed;2791 Dragør;0;5;4
+Ejerlejlighed;2800 Kgs.Lyngby;26;42;32
+Ejerlejlighed;2820 Gentofte;34;24;20
+Ejerlejlighed;2830 Virum;9;17;13
+Ejerlejlighed;2840 Holte;8;11;11
+Ejerlejlighed;2850 Nærum;5;8;4
+Ejerlejlighed;2860 Søborg;9;23;26
+Ejerlejlighed;2870 Dyssegård;16;12;10
+Ejerlejlighed;2880 Bagsværd;2;8;7
+Ejerlejlighed;2900 Hellerup;44;52;33
+Ejerlejlighed;2920 Charlottenlund;33;39;30
+Ejerlejlighed;2930 Klampenborg;6;3;4
+Ejerlejlighed;2942 Skodsborg;2;6;1
+Ejerlejlighed;2950 Vedbæk;0;2;0
+Ejerlejlighed;2960 Rungsted Kyst;5;0;3
+Ejerlejlighed;2970 Hørsholm;8;9;7
+Ejerlejlighed;2980 Kokkedal;10;2;6
+Ejerlejlighed;2990 Nivå;1;3;0
+Ejerlejlighed;3000 Helsingør;40;25;21
+Ejerlejlighed;3050 Humlebæk;6;2;4
+Ejerlejlighed;3060 Espergærde;11;9;2
+Ejerlejlighed;3070 Snekkersten;1;0;0
+Ejerlejlighed;3080 Tikøb;..;0;0
+Ejerlejlighed;3100 Hornbæk;4;2;4
+Ejerlejlighed;3120 Dronningmølle;0;..;2
+Ejerlejlighed;3140 Ålsgårde;2;1;0
+Ejerlejlighed;3150 Hellebæk;1;0;0
+Ejerlejlighed;3200 Helsinge;2;3;2
+Ejerlejlighed;3210 Vejby;..;..;..
+Ejerlejlighed;3220 Tisvildeleje;0;1;3
+Ejerlejlighed;3230 Græsted;1;2;0
+Ejerlejlighed;3250 Gilleleje;0;0;0
+Ejerlejlighed;3300 Frederiksværk;5;6;0
+Ejerlejlighed;3310 Ølsted;..;..;..
+Ejerlejlighed;3320 Skævinge;0;0;0
+Ejerlejlighed;3330 Gørløse;..;..;..
+Ejerlejlighed;3360 Liseleje;0;0;0
+Ejerlejlighed;3370 Melby;..;..;..
+Ejerlejlighed;3390 Hundested;1;1;1
+Ejerlejlighed;3400 Hillerød;22;21;25
+Ejerlejlighed;3450 Allerød;9;3;4
+Ejerlejlighed;3460 Birkerød;13;9;15
+Ejerlejlighed;3480 Fredensborg;3;5;3
+Ejerlejlighed;3490 Kvistgård;..;0;0
+Ejerlejlighed;3500 Værløse;6;5;8
+Ejerlejlighed;3520 Farum;10;13;9
+Ejerlejlighed;3540 Lynge;0;1;..
+Ejerlejlighed;3550 Slangerup;1;1;0
+Ejerlejlighed;3600 Frederikssund;4;3;7
+Ejerlejlighed;3630 Jægerspris;0;0;1
+Ejerlejlighed;3650 Ølstykke;3;3;2
+Ejerlejlighed;3660 Stenløse;2;2;3
+Ejerlejlighed;3670 Veksø Sjælland;..;..;..
+Ejerlejlighed;3700 Rønne;1;1;2
+Ejerlejlighed;3720 Aakirkeby;..;..;11
+Ejerlejlighed;3730 Nexø;2;3;1
+Ejerlejlighed;3740 Svaneke;0;0;2
+Ejerlejlighed;3751 Østermarie;..;..;..
+Ejerlejlighed;3760 Gudhjem;0;1;4
+Ejerlejlighed;3770 Allinge;3;5;4
+Ejerlejlighed;3782 Klemensker;..;..;..
+Ejerlejlighed;3790 Hasle;1;2;3
+Ejerlejlighed;4000 Roskilde;37;52;44
+Ejerlejlighed;4030 Tune;..;..;..
+Ejerlejlighed;4040 Jyllinge;..;..;..
+Ejerlejlighed;4050 Skibby;0;1;1
+Ejerlejlighed;4060 Kirke Såby;..;..;..
+Ejerlejlighed;4070 Kirke Hyllinge;0;..;..
+Ejerlejlighed;4100 Ringsted;3;10;6
+Ejerlejlighed;4130 Viby Sjælland;..;2;0
+Ejerlejlighed;4140 Borup;1;0;0
+Ejerlejlighed;4160 Herlufmagle;..;..;..
+Ejerlejlighed;4171 Glumsø;0;1;0
+Ejerlejlighed;4173 Fjenneslev;..;..;..
+Ejerlejlighed;4174 Jystrup Midtsj;..;..;..
+Ejerlejlighed;4180 Sorø;3;4;1
+Ejerlejlighed;4190 Munke Bjergby;..;..;..
+Ejerlejlighed;4200 Slagelse;10;10;8
+Ejerlejlighed;4220 Korsør;6;5;5
+Ejerlejlighed;4230 Skælskør;1;1;0
+Ejerlejlighed;4241 Vemmelev;..;..;..
+Ejerlejlighed;4242 Boeslunde;..;..;..
+Ejerlejlighed;4243 Rude;..;..;..
+Ejerlejlighed;4250 Fuglebjerg;..;..;..
+Ejerlejlighed;4261 Dalmose;..;..;..
+Ejerlejlighed;4262 Sandved;..;..;..
+Ejerlejlighed;4270 Høng;0;0;0
+Ejerlejlighed;4281 Gørlev;1;..;..
+Ejerlejlighed;4291 Ruds Vedby;0;..;..
+Ejerlejlighed;4293 Dianalund;0;0;0
+Ejerlejlighed;4295 Stenlille;0;0;..
+Ejerlejlighed;4296 Nyrup;..;..;..
+Ejerlejlighed;4300 Holbæk;4;6;7
+Ejerlejlighed;4320 Lejre;..;0;..
+Ejerlejlighed;4330 Hvalsø;0;0;0
+Ejerlejlighed;4340 Tølløse;0;0;1
+Ejerlejlighed;4350 Ugerløse;..;..;..
+Ejerlejlighed;4360 Kirke Eskilstrup;..;..;..
+Ejerlejlighed;4370 Store Merløse;..;..;0
+Ejerlejlighed;4390 Vipperød;0;1;0
+Ejerlejlighed;4400 Kalundborg;3;5;2
+Ejerlejlighed;4420 Regstrup;..;..;..
+Ejerlejlighed;4440 Mørkøv;..;..;..
+Ejerlejlighed;4450 Jyderup;0;0;0
+Ejerlejlighed;4460 Snertinge;..;..;..
+Ejerlejlighed;4470 Svebølle;..;0;0
+Ejerlejlighed;4480 Store Fuglede;..;..;..
+Ejerlejlighed;4490 Jerslev Sjælland;..;..;..
+Ejerlejlighed;4500 Nykøbing Sj;4;0;1
+Ejerlejlighed;4520 Svinninge;1;1;0
+Ejerlejlighed;4532 Gislinge;..;..;0
+Ejerlejlighed;4534 Hørve;0;0;0
+Ejerlejlighed;4540 Fårevejle;0;0;1
+Ejerlejlighed;4550 Asnæs;0;0;0
+Ejerlejlighed;4560 Vig;0;1;0
+Ejerlejlighed;4571 Grevinge;..;..;..
+Ejerlejlighed;4572 Nørre Asmindrup;..;..;..
+Ejerlejlighed;4573 Højby;0;0;..
+Ejerlejlighed;4581 Rørvig;0;0;1
+Ejerlejlighed;4583 Sjællands Odde;..;..;..
+Ejerlejlighed;4591 Føllenslev;0;0;0
+Ejerlejlighed;4592 Sejerø;..;..;..
+Ejerlejlighed;4593 Eskebjerg;0;0;0
+Ejerlejlighed;4600 Køge;15;13;17
+Ejerlejlighed;4621 Gadstrup;0;..;0
+Ejerlejlighed;4622 Havdrup;0;0;1
+Ejerlejlighed;4623 Lille Skensved;1;0;1
+Ejerlejlighed;4632 Bjæverskov;2;1;..
+Ejerlejlighed;4640 Faxe;0;0;0
+Ejerlejlighed;4652 Hårlev;2;0;0
+Ejerlejlighed;4653 Karise;0;0;0
+Ejerlejlighed;4654 Faxe Ladeplads;0;..;0
+Ejerlejlighed;4660 Store Heddinge;2;0;2
+Ejerlejlighed;4671 Strøby;0;0;..
+Ejerlejlighed;4672 Klippinge;..;..;..
+Ejerlejlighed;4673 Rødvig Stevns;1;0;0
+Ejerlejlighed;4681 Herfølge;0;0;0
+Ejerlejlighed;4682 Tureby;..;..;..
+Ejerlejlighed;4683 Rønnede;..;..;..
+Ejerlejlighed;4684 Holmegaard;..;..;..
+Ejerlejlighed;4690 Haslev;0;1;3
+Ejerlejlighed;4700 Næstved;34;31;24
+Ejerlejlighed;4720 Præstø;0;1;1
+Ejerlejlighed;4733 Tappernøje;0;..;0
+Ejerlejlighed;4735 Mern;..;..;..
+Ejerlejlighed;4736 Karrebæksminde;0;2;0
+Ejerlejlighed;4750 Lundby;0;0;0
+Ejerlejlighed;4760 Vordingborg;5;4;2
+Ejerlejlighed;4771 Kalvehave;..;..;..
+Ejerlejlighed;4772 Langebæk;..;..;..
+Ejerlejlighed;4773 Stensved;..;..;..
+Ejerlejlighed;4780 Stege;1;0;1
+Ejerlejlighed;4791 Borre;0;4;1
+Ejerlejlighed;4792 Askeby;..;..;0
+Ejerlejlighed;4793 Bogø By;..;..;..
+Ejerlejlighed;4800 Nykøbing F;6;3;3
+Ejerlejlighed;4840 Nørre Alslev;1;0;0
+Ejerlejlighed;4850 Stubbekøbing;..;..;..
+Ejerlejlighed;4862 Guldborg;..;..;..
+Ejerlejlighed;4863 Eskilstrup;..;..;..
+Ejerlejlighed;4871 Horbelev;..;..;..
+Ejerlejlighed;4872 Idestrup;..;..;..
+Ejerlejlighed;4873 Væggerløse;1;1;4
+Ejerlejlighed;4874 Gedser;0;0;..
+Ejerlejlighed;4880 Nysted;0;0;0
+Ejerlejlighed;4891 Toreby L;..;..;..
+Ejerlejlighed;4892 Kettinge;..;..;..
+Ejerlejlighed;4894 Øster Ulslev;..;..;..
+Ejerlejlighed;4895 Errindlev;..;..;..
+Ejerlejlighed;4900 Nakskov;0;1;1
+Ejerlejlighed;4912 Harpelunde;..;..;..
+Ejerlejlighed;4913 Horslunde;..;..;..
+Ejerlejlighed;4920 Søllested;..;..;..
+Ejerlejlighed;4930 Maribo;0;2;1
+Ejerlejlighed;4941 Bandholm;..;0;..
+Ejerlejlighed;4943 Torrig L;..;..;..
+Ejerlejlighed;4944 Fejø;..;..;..
+Ejerlejlighed;4951 Nørreballe;..;..;..
+Ejerlejlighed;4952 Stokkemarke;..;..;..
+Ejerlejlighed;4953 Vesterborg;..;..;..
+Ejerlejlighed;4960 Holeby;..;..;..
+Ejerlejlighed;4970 Rødby;0;..;..
+Ejerlejlighed;4983 Dannemare;0;..;..
+Ejerlejlighed;4990 Sakskøbing;0;..;0
+Ejerlejlighed;5000 Odense C;66;65;42
+Ejerlejlighed;5200 Odense V;1;0;0
+Ejerlejlighed;5210 Odense NV;1;0;1
+Ejerlejlighed;5220 Odense SØ;..;0;1
+Ejerlejlighed;5230 Odense M;6;7;4
+Ejerlejlighed;5240 Odense NØ;0;1;0
+Ejerlejlighed;5250 Odense SV;4;5;7
+Ejerlejlighed;5260 Odense S;3;1;1
+Ejerlejlighed;5270 Odense N;8;4;3
+Ejerlejlighed;5290 Marslev;..;..;..
+Ejerlejlighed;5300 Kerteminde;0;0;0
+Ejerlejlighed;5320 Agedrup;..;..;..
+Ejerlejlighed;5330 Munkebo;..;..;..
+Ejerlejlighed;5350 Rynkeby;..;..;..
+Ejerlejlighed;5370 Mesinge;..;..;..
+Ejerlejlighed;5380 Dalby;..;..;..
+Ejerlejlighed;5390 Martofte;..;..;..
+Ejerlejlighed;5400 Bogense;6;2;1
+Ejerlejlighed;5450 Otterup;..;..;0
+Ejerlejlighed;5462 Morud;..;..;..
+Ejerlejlighed;5463 Harndrup;..;..;..
+Ejerlejlighed;5464 Brenderup Fyn;0;1;..
+Ejerlejlighed;5466 Asperup;..;..;..
+Ejerlejlighed;5471 Søndersø;0;0;..
+Ejerlejlighed;5474 Veflinge;..;..;..
+Ejerlejlighed;5485 Skamby;..;..;..
+Ejerlejlighed;5491 Blommenslyst;..;..;..
+Ejerlejlighed;5492 Vissenbjerg;..;..;..
+Ejerlejlighed;5500 Middelfart;1;2;2
+Ejerlejlighed;5540 Ullerslev;0;0;1
+Ejerlejlighed;5550 Langeskov;..;..;..
+Ejerlejlighed;5560 Aarup;..;0;0
+Ejerlejlighed;5580 Nørre Aaby;..;..;..
+Ejerlejlighed;5591 Gelsted;..;..;..
+Ejerlejlighed;5592 Ejby;..;..;..
+Ejerlejlighed;5600 Faaborg;3;7;3
+Ejerlejlighed;5610 Assens;0;1;0
+Ejerlejlighed;5620 Glamsbjerg;..;..;..
+Ejerlejlighed;5631 Ebberup;..;..;..
+Ejerlejlighed;5642 Millinge;..;..;..
+Ejerlejlighed;5672 Broby;..;0;..
+Ejerlejlighed;5683 Haarby;..;..;..
+Ejerlejlighed;5690 Tommerup;0;2;0
+Ejerlejlighed;5700 Svendborg;9;4;9
+Ejerlejlighed;5750 Ringe;0;0;3
+Ejerlejlighed;5762 Vester Skerninge;..;..;0
+Ejerlejlighed;5771 Stenstrup;..;..;..
+Ejerlejlighed;5772 Kværndrup;..;..;..
+Ejerlejlighed;5792 Årslev;..;1;1
+Ejerlejlighed;5800 Nyborg;4;4;3
+Ejerlejlighed;5853 Ørbæk;..;2;1
+Ejerlejlighed;5854 Gislev;..;..;..
+Ejerlejlighed;5856 Ryslinge;0;..;..
+Ejerlejlighed;5863 Ferritslev Fyn;..;..;..
+Ejerlejlighed;5871 Frørup;0;..;..
+Ejerlejlighed;5874 Hesselager;0;..;0
+Ejerlejlighed;5881 Skårup Fyn;..;0;0
+Ejerlejlighed;5882 Vejstrup;..;..;..
+Ejerlejlighed;5883 Oure;..;..;..
+Ejerlejlighed;5884 Gudme;..;..;..
+Ejerlejlighed;5892 Gudbjerg Sydfyn;..;..;..
+Ejerlejlighed;5900 Rudkøbing;0;0;0
+Ejerlejlighed;5932 Humble;..;..;..
+Ejerlejlighed;5935 Bagenkop;0;0;..
+Ejerlejlighed;5953 Tranekær;3;4;1
+Ejerlejlighed;5960 Marstal;..;..;..
+Ejerlejlighed;5970 Ærøskøbing;0;1;1
+Ejerlejlighed;5985 Søby Ærø;..;..;..
+Ejerlejlighed;6000 Kolding;21;9;16
+Ejerlejlighed;6040 Egtved;0;0;1
+Ejerlejlighed;6051 Almind;..;..;..
+Ejerlejlighed;6052 Viuf;..;..;..
+Ejerlejlighed;6064 Jordrup;..;..;..
+Ejerlejlighed;6070 Christiansfeld;..;..;..
+Ejerlejlighed;6091 Bjert;..;..;..
+Ejerlejlighed;6092 Sønder Stenderup;..;..;..
+Ejerlejlighed;6093 Sjølund;..;..;..
+Ejerlejlighed;6094 Hejls;..;1;0
+Ejerlejlighed;6100 Haderslev;5;6;8
+Ejerlejlighed;6200 Aabenraa;3;2;5
+Ejerlejlighed;6230 Rødekro;0;1;0
+Ejerlejlighed;6240 Løgumkloster;..;0;0
+Ejerlejlighed;6261 Bredebro;..;..;..
+Ejerlejlighed;6270 Tønder;0;1;0
+Ejerlejlighed;6280 Højer;0;..;0
+Ejerlejlighed;6300 Gråsten;0;1;2
+Ejerlejlighed;6310 Broager;1;0;0
+Ejerlejlighed;6320 Egernsund;2;0;0
+Ejerlejlighed;6330 Padborg;0;0;0
+Ejerlejlighed;6340 Kruså;0;0;1
+Ejerlejlighed;6360 Tinglev;..;..;..
+Ejerlejlighed;6372 Bylderup-Bov;..;..;..
+Ejerlejlighed;6392 Bolderslev;..;..;..
+Ejerlejlighed;6400 Sønderborg;10;6;6
+Ejerlejlighed;6430 Nordborg;..;..;0
+Ejerlejlighed;6440 Augustenborg;..;..;..
+Ejerlejlighed;6470 Sydals;..;..;..
+Ejerlejlighed;6500 Vojens;0;0;0
+Ejerlejlighed;6510 Gram;..;..;0
+Ejerlejlighed;6520 Toftlund;..;..;..
+Ejerlejlighed;6534 Agerskov;..;..;..
+Ejerlejlighed;6535 Branderup J;..;..;..
+Ejerlejlighed;6541 Bevtoft;..;..;..
+Ejerlejlighed;6560 Sommersted;..;..;..
+Ejerlejlighed;6580 Vamdrup;0;1;1
+Ejerlejlighed;6600 Vejen;0;3;0
+Ejerlejlighed;6621 Gesten;..;1;..
+Ejerlejlighed;6622 Bække;..;..;..
+Ejerlejlighed;6623 Vorbasse;0;0;0
+Ejerlejlighed;6630 Rødding;0;..;0
+Ejerlejlighed;6640 Lunderskov;..;..;..
+Ejerlejlighed;6650 Brørup;..;1;1
+Ejerlejlighed;6660 Lintrup;..;..;..
+Ejerlejlighed;6670 Holsted;0;0;..
+Ejerlejlighed;6682 Hovborg;..;..;..
+Ejerlejlighed;6683 Føvling;..;..;..
+Ejerlejlighed;6690 Gørding;1;..;..
+Ejerlejlighed;6700 Esbjerg;31;41;23
+Ejerlejlighed;6705 Esbjerg Ø;1;1;1
+Ejerlejlighed;6710 Esbjerg V;3;0;1
+Ejerlejlighed;6715 Esbjerg N;0;2;..
+Ejerlejlighed;6720 Fanø;0;3;1
+Ejerlejlighed;6731 Tjæreborg;..;..;..
+Ejerlejlighed;6740 Bramming;1;1;1
+Ejerlejlighed;6752 Glejbjerg;..;..;..
+Ejerlejlighed;6753 Agerbæk;..;..;..
+Ejerlejlighed;6760 Ribe;0;2;2
+Ejerlejlighed;6771 Gredstedbro;..;..;..
+Ejerlejlighed;6780 Skærbæk;0;1;..
+Ejerlejlighed;6792 Rømø;2;4;1
+Ejerlejlighed;6800 Varde;4;6;2
+Ejerlejlighed;6818 Årre;..;..;..
+Ejerlejlighed;6823 Ansager;..;..;..
+Ejerlejlighed;6830 Nørre Nebel;0;1;0
+Ejerlejlighed;6840 Oksbøl;1;..;0
+Ejerlejlighed;6851 Janderup Vestj;..;..;..
+Ejerlejlighed;6852 Billum;..;..;..
+Ejerlejlighed;6853 Vejers Strand;..;..;..
+Ejerlejlighed;6854 Henne;0;1;0
+Ejerlejlighed;6855 Outrup;..;..;..
+Ejerlejlighed;6857 Blåvand;2;4;1
+Ejerlejlighed;6862 Tistrup;..;..;..
+Ejerlejlighed;6870 Ølgod;..;0;0
+Ejerlejlighed;6880 Tarm;..;..;..
+Ejerlejlighed;6893 Hemmet;..;0;..
+Ejerlejlighed;6900 Skjern;0;1;0
+Ejerlejlighed;6920 Videbæk;2;1;1
+Ejerlejlighed;6933 Kibæk;0;1;0
+Ejerlejlighed;6940 Lem St;..;..;..
+Ejerlejlighed;6950 Ringkøbing;4;7;0
+Ejerlejlighed;6960 Hvide Sande;2;2;0
+Ejerlejlighed;6971 Spjald;3;..;..
+Ejerlejlighed;6973 Ørnhøj;..;..;..
+Ejerlejlighed;6980 Tim;..;..;..
+Ejerlejlighed;6990 Ulfborg;1;0;0
+Ejerlejlighed;7000 Fredericia;9;5;4
+Ejerlejlighed;7080 Børkop;0;3;2
+Ejerlejlighed;7100 Vejle;26;29;19
+Ejerlejlighed;7120 Vejle Øst;0;0;0
+Ejerlejlighed;7130 Juelsminde;3;1;0
+Ejerlejlighed;7140 Stouby;..;..;..
+Ejerlejlighed;7150 Barrit;..;..;..
+Ejerlejlighed;7160 Tørring;0;0;0
+Ejerlejlighed;7171 Uldum;..;..;..
+Ejerlejlighed;7173 Vonge;..;..;..
+Ejerlejlighed;7182 Bredsten;0;..;..
+Ejerlejlighed;7183 Randbøl;..;..;..
+Ejerlejlighed;7184 Vandel;..;..;..
+Ejerlejlighed;7190 Billund;..;..;..
+Ejerlejlighed;7200 Grindsted;2;1;0
+Ejerlejlighed;7250 Hejnsvig;..;..;..
+Ejerlejlighed;7260 Sønder Omme;..;..;..
+Ejerlejlighed;7270 Stakroge;..;..;..
+Ejerlejlighed;7280 Sønder Felding;..;..;0
+Ejerlejlighed;7300 Jelling;0;1;0
+Ejerlejlighed;7321 Gadbjerg;..;..;..
+Ejerlejlighed;7323 Give;0;0;0
+Ejerlejlighed;7330 Brande;3;2;1
+Ejerlejlighed;7361 Ejstrupholm;..;..;..
+Ejerlejlighed;7362 Hampen;..;..;..
+Ejerlejlighed;7400 Herning;15;22;15
+Ejerlejlighed;7430 Ikast;1;10;4
+Ejerlejlighed;7441 Bording;0;0;0
+Ejerlejlighed;7442 Engesvang;0;0;..
+Ejerlejlighed;7451 Sunds;0;0;1
+Ejerlejlighed;7470 Karup J;1;..;..
+Ejerlejlighed;7480 Vildbjerg;2;3;2
+Ejerlejlighed;7490 Aulum;0;0;1
+Ejerlejlighed;7500 Holstebro;3;3;3
+Ejerlejlighed;7540 Haderup;..;..;..
+Ejerlejlighed;7550 Sørvad;..;..;..
+Ejerlejlighed;7560 Hjerm;0;0;0
+Ejerlejlighed;7570 Vemb;..;..;..
+Ejerlejlighed;7600 Struer;3;3;1
+Ejerlejlighed;7620 Lemvig;3;7;1
+Ejerlejlighed;7650 Bøvlingbjerg;..;..;..
+Ejerlejlighed;7660 Bækmarksbro;..;..;..
+Ejerlejlighed;7673 Harboøre;0;0;0
+Ejerlejlighed;7680 Thyborøn;..;..;..
+Ejerlejlighed;7700 Thisted;3;5;5
+Ejerlejlighed;7730 Hanstholm;0;..;..
+Ejerlejlighed;7741 Frøstrup;..;..;..
+Ejerlejlighed;7742 Vesløs;..;..;..
+Ejerlejlighed;7752 Snedsted;0;1;..
+Ejerlejlighed;7755 Bedsted Thy;..;0;0
+Ejerlejlighed;7760 Hurup Thy;0;..;..
+Ejerlejlighed;7770 Vestervig;0;4;0
+Ejerlejlighed;7790 Thyholm;..;..;..
+Ejerlejlighed;7800 Skive;1;3;4
+Ejerlejlighed;7830 Vinderup;..;..;0
+Ejerlejlighed;7840 Højslev;..;..;..
+Ejerlejlighed;7850 Stoholm Jyll;..;..;..
+Ejerlejlighed;7860 Spøttrup;0;..;..
+Ejerlejlighed;7870 Roslev;0;0;0
+Ejerlejlighed;7884 Fur;..;..;..
+Ejerlejlighed;7900 Nykøbing M;0;0;0
+Ejerlejlighed;7950 Erslev;..;..;..
+Ejerlejlighed;7960 Karby;..;..;..
+Ejerlejlighed;7970 Redsted M;..;..;..
+Ejerlejlighed;7980 Vils;..;..;..
+Ejerlejlighed;7990 Øster Assels;..;..;..
+Ejerlejlighed;8000 Århus C;153;183;137
+Ejerlejlighed;8200 Århus N;51;46;40
+Ejerlejlighed;8210 Århus V;7;9;4
+Ejerlejlighed;8220 Brabrand;12;6;9
+Ejerlejlighed;8230 Åbyhøj;13;15;13
+Ejerlejlighed;8240 Risskov;24;18;13
+Ejerlejlighed;8250 Egå;1;6;3
+Ejerlejlighed;8260 Viby J;25;24;17
+Ejerlejlighed;8270 Højbjerg;8;20;10
+Ejerlejlighed;8300 Odder;3;9;4
+Ejerlejlighed;8305 Samsø;0;0;0
+Ejerlejlighed;8310 Tranbjerg J;0;2;0
+Ejerlejlighed;8320 Mårslet;0;1;0
+Ejerlejlighed;8330 Beder;..;1;2
+Ejerlejlighed;8340 Malling;..;1;0
+Ejerlejlighed;8350 Hundslund;..;..;..
+Ejerlejlighed;8355 Solbjerg;..;..;..
+Ejerlejlighed;8361 Hasselager;..;..;..
+Ejerlejlighed;8362 Hørning;1;1;2
+Ejerlejlighed;8370 Hadsten;1;3;3
+Ejerlejlighed;8380 Trige;1;0;1
+Ejerlejlighed;8381 Tilst;3;3;2
+Ejerlejlighed;8382 Hinnerup;0;0;3
+Ejerlejlighed;8400 Ebeltoft;6;3;8
+Ejerlejlighed;8410 Rønde;0;0;0
+Ejerlejlighed;8420 Knebel;..;..;0
+Ejerlejlighed;8444 Balle;..;..;..
+Ejerlejlighed;8450 Hammel;0;1;1
+Ejerlejlighed;8462 Harlev J;..;..;..
+Ejerlejlighed;8464 Galten;2;4;3
+Ejerlejlighed;8471 Sabro;0;0;1
+Ejerlejlighed;8472 Sporup;..;..;..
+Ejerlejlighed;8500 Grenaa;4;1;6
+Ejerlejlighed;8520 Lystrup;6;5;4
+Ejerlejlighed;8530 Hjortshøj;..;0;..
+Ejerlejlighed;8541 Skødstrup;5;2;2
+Ejerlejlighed;8543 Hornslet;0;0;0
+Ejerlejlighed;8544 Mørke;..;..;..
+Ejerlejlighed;8550 Ryomgård;..;..;..
+Ejerlejlighed;8560 Kolind;..;..;..
+Ejerlejlighed;8570 Trustrup;..;..;..
+Ejerlejlighed;8581 Nimtofte;..;..;..
+Ejerlejlighed;8585 Glesborg;1;0;0
+Ejerlejlighed;8586 Ørum Djurs;..;..;..
+Ejerlejlighed;8592 Anholt;..;..;..
+Ejerlejlighed;8600 Silkeborg;11;9;8
+Ejerlejlighed;8620 Kjellerup;0;0;0
+Ejerlejlighed;8632 Lemming;..;..;..
+Ejerlejlighed;8641 Sorring;..;..;..
+Ejerlejlighed;8643 Ans By;0;0;..
+Ejerlejlighed;8653 Them;0;0;0
+Ejerlejlighed;8654 Bryrup;0;0;0
+Ejerlejlighed;8660 Skanderborg;6;7;11
+Ejerlejlighed;8670 Låsby;..;..;..
+Ejerlejlighed;8680 Ry;2;1;2
+Ejerlejlighed;8700 Horsens;17;19;15
+Ejerlejlighed;8721 Daugård;..;..;..
+Ejerlejlighed;8722 Hedensted;4;1;1
+Ejerlejlighed;8723 Løsning;1;..;..
+Ejerlejlighed;8732 Hovedgård;..;..;0
+Ejerlejlighed;8740 Brædstrup;0;0;0
+Ejerlejlighed;8751 Gedved;..;..;0
+Ejerlejlighed;8752 Østbirk;1;1;0
+Ejerlejlighed;8762 Flemming;..;..;..
+Ejerlejlighed;8763 Rask Mølle;..;..;0
+Ejerlejlighed;8765 Klovborg;..;..;..
+Ejerlejlighed;8766 Nørre Snede;..;..;..
+Ejerlejlighed;8781 Stenderup;..;..;..
+Ejerlejlighed;8783 Hornsyld;..;0;0
+Ejerlejlighed;8800 Viborg;14;17;18
+Ejerlejlighed;8830 Tjele;..;0;1
+Ejerlejlighed;8831 Løgstrup;..;..;..
+Ejerlejlighed;8832 Skals;0;0;..
+Ejerlejlighed;8840 Rødkærsbro;..;..;..
+Ejerlejlighed;8850 Bjerringbro;1;0;1
+Ejerlejlighed;8860 Ulstrup;0;0;0
+Ejerlejlighed;8870 Langå;..;0;0
+Ejerlejlighed;8881 Thorsø;0;..;..
+Ejerlejlighed;8882 Fårvang;..;..;..
+Ejerlejlighed;8883 Gjern;..;..;..
+Ejerlejlighed;8900 Randers C;24;18;18
+Ejerlejlighed;8920 Randers NV;16;9;11
+Ejerlejlighed;8930 Randers NØ;12;7;11
+Ejerlejlighed;8940 Randers SV;4;6;5
+Ejerlejlighed;8950 Ørsted;..;..;..
+Ejerlejlighed;8960 Randers SØ;1;5;5
+Ejerlejlighed;8961 Allingåbro;1;0;0
+Ejerlejlighed;8963 Auning;0;0;..
+Ejerlejlighed;8970 Havndal;0;0;0
+Ejerlejlighed;8981 Spentrup;0;..;..
+Ejerlejlighed;8983 Gjerlev J;..;..;..
+Ejerlejlighed;8990 Fårup;..;..;..
+Ejerlejlighed;9000 Aalborg;116;128;111
+Ejerlejlighed;9200 Aalborg SV;3;6;4
+Ejerlejlighed;9210 Aalborg SØ;4;6;4
+Ejerlejlighed;9220 Aalborg Øst;2;0;1
+Ejerlejlighed;9230 Svenstrup J;1;1;1
+Ejerlejlighed;9240 Nibe;0;2;0
+Ejerlejlighed;9260 Gistrup;..;1;0
+Ejerlejlighed;9270 Klarup;0;0;0
+Ejerlejlighed;9280 Storvorde;0;0;0
+Ejerlejlighed;9293 Kongerslev;1;1;0
+Ejerlejlighed;9300 Sæby;3;0;1
+Ejerlejlighed;9310 Vodskov;1;..;1
+Ejerlejlighed;9320 Hjallerup;1;2;..
+Ejerlejlighed;9330 Dronninglund;..;0;0
+Ejerlejlighed;9340 Asaa;0;..;..
+Ejerlejlighed;9352 Dybvad;..;..;..
+Ejerlejlighed;9362 Gandrup;0;..;..
+Ejerlejlighed;9370 Hals;0;0;..
+Ejerlejlighed;9380 Vestbjerg;..;..;..
+Ejerlejlighed;9381 Sulsted;..;..;..
+Ejerlejlighed;9382 Tylstrup;..;..;..
+Ejerlejlighed;9400 Nørresundby;22;22;22
+Ejerlejlighed;9430 Vadum;0;0;0
+Ejerlejlighed;9440 Aabybro;0;0;1
+Ejerlejlighed;9460 Brovst;..;..;0
+Ejerlejlighed;9480 Løkken;0;4;0
+Ejerlejlighed;9490 Pandrup;1;1;0
+Ejerlejlighed;9492 Blokhus;0;0;4
+Ejerlejlighed;9493 Saltum;..;..;..
+Ejerlejlighed;9500 Hobro;2;4;3
+Ejerlejlighed;9510 Arden;..;..;..
+Ejerlejlighed;9520 Skørping;..;..;0
+Ejerlejlighed;9530 Støvring;2;1;3
+Ejerlejlighed;9541 Suldrup;..;..;..
+Ejerlejlighed;9550 Mariager;0;0;1
+Ejerlejlighed;9560 Hadsund;0;1;0
+Ejerlejlighed;9574 Bælum;..;..;..
+Ejerlejlighed;9575 Terndrup;..;1;0
+Ejerlejlighed;9600 Aars;0;0;0
+Ejerlejlighed;9610 Nørager;..;..;..
+Ejerlejlighed;9620 Aalestrup;0;..;0
+Ejerlejlighed;9631 Gedsted;..;..;..
+Ejerlejlighed;9632 Møldrup;..;..;..
+Ejerlejlighed;9640 Farsø;1;0;0
+Ejerlejlighed;9670 Løgstør;0;..;1
+Ejerlejlighed;9681 Ranum;0;..;..
+Ejerlejlighed;9690 Fjerritslev;..;..;..
+Ejerlejlighed;9700 Brønderslev;4;0;1
+Ejerlejlighed;9740 Jerslev J;..;..;..
+Ejerlejlighed;9750 Østervrå;..;..;..
+Ejerlejlighed;9760 Vrå;..;..;..
+Ejerlejlighed;9800 Hjørring;2;2;2
+Ejerlejlighed;9830 Tårs;..;0;0
+Ejerlejlighed;9850 Hirtshals;1;1;1
+Ejerlejlighed;9870 Sindal;..;1;1
+Ejerlejlighed;9881 Bindslev;0;0;0
+Ejerlejlighed;9900 Frederikshavn;4;6;3
+Ejerlejlighed;9940 Læsø;0;..;0
+Ejerlejlighed;9970 Strandby;..;..;..
+Ejerlejlighed;9981 Jerup;..;..;..
+Ejerlejlighed;9982 Ålbæk;1;0;0
+Ejerlejlighed;9990 Skagen;3;4;0
