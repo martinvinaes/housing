@@ -33,6 +33,9 @@ for (i in 1:nrow(af15)){
 
 saveRDS(af15,file="data/af15_2.rds")
 
+#throw out misplaced longitude
+af15$lon[af15$lon<0]<-NA
+
 #get nearest full adress by using the lon/lats to call the AWS API
 af15$zip<-NA
 af15$muninum<-NA
