@@ -119,9 +119,32 @@ ggplot(allaf,aes(x=hp_2yr,y=incsupport)) +
   theme_minimal()
 
 #run basic analyses
-m1yrlin<-lm(incsupport~hp_1yr+factor(muninum),data=af15)
-m1yrsplin<-lm(incsupport~hp_1yrposchange+hp_1yrnegchange+factor(muninum),data=af15)
-m2yrlin<-lm(incsupport~hp_2yr+factor(muninum),data=af15)
-m2yrsplin<-lm(incsupport~hp_2yrposchange+hp_2yrnegchange+factor(muninum),data=af15)
+m1yrlin<-lm(incsupport~hp_1yr+factor(muninum)+factor(year),data=allaf)
+m1yrsplin<-lm(incsupport~hp_1yrposchange+hp_1yrnegchange+factor(muninum)+factor(year),data=allaf)
+m2yrlin<-lm(incsupport~hp_2yr+factor(muninum)+factor(year),data=allaf)
+m2yrsplin<-lm(incsupport~hp_2yrposchange+hp_2yrnegchange+factor(muninum)+factor(year),data=allaf)
 
 stargazer(m1yrlin,m1yrsplin,m2yrlin,m2yrsplin,type="text",style="apsr",omit="factor")
+
+#fixed effects for polling places
+stargazer(lm(100*incsupport~hp_1yrposchange+hp_1yrnegchange+factor(valgstedid)+factor(year),data=allaf),type="text",style="apsr",omit="factor")
+
+stargazer(lm(100*incsupport~hp_1yrposchange*ejer+hp_1yrnegchange*ejer+factor(valgstedid)+factor(year),data=allaf),type="text",style="apsr",omit="factor")
+
+stargazer(lm(100*incsupport~hp_1yrposchange+hp_1yrnegchange+kontanthjaelp*factor(year)+indkomst*factor(year)+arbejd*factor(year)+factor(muninum),data=allaf),type="text",style="apsr",omit="factor")
+
+stargazer(lm(100*incsupport~hp_1yr+
+               kontanthjaelp*factor(year)+
+               indkomst*factor(year)+
+               indkomst_80pct*factor(year)+
+               ejer*factor(year)+
+               arbejd*factor(year),
+             data=allaf),type="text",style="apsr",omit="factor")
+
+stargazer(lm(100*(c+v)~hp_1yr+
+               kontanthjaelp+
+               indkomst+
+               indkomst_80pct+
+               ejer+
+               arbejd,
+             data=subset(allaf,year==2015)),type="text",style="apsr",omit="factor")
