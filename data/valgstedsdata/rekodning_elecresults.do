@@ -56,5 +56,5 @@ drop `x'1
 foreach x in a b c v{
 replace `x'=`x'/votes
 }
-export delim elecresults, delim(";") replace
+export excel elecresults,  replace
 
