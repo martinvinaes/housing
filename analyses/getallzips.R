@@ -5,6 +5,7 @@ require(ggmap)
 require(httr)
 require(rjson)
 require(readr)
+require(readxl)
 require(ggplot2)
 require(stargazer)
 
@@ -55,25 +56,27 @@ saveRDS(af15,file="data/af15_3.rds")
 af15<-readRDS("data/af15_3.rds")
 
 #read in zip prices data
-zipprices<-read.csv("data/zipprices_fv15.csv",sep=";",dec=",")
+zipprices<-read_delim("data/zipprices.csv",delim=";")
 
 #set missing prices to NA
-zipprices$Q2_13[zipprices$Q2_13==0]<-NA
-zipprices$Q2_14[zipprices$Q2_14==0]<-NA
-zipprices$Q2_15[zipprices$Q2_15==0]<-NA
+zipprices$t2[zipprices$t2==0]<-NA
+zipprices$t1[zipprices$t1==0]<-NA
+zipprices$t[zipprices$t==0]<-NA
 
 #number of trades
-ziptrades<-read.csv("data/ziptrades_fv15.csv",sep=";",dec=",")
+ziptrades<-read_delim("data/ziptrades.csv",delim=";")
 
+ps<-as.data.frame(subset(zipprices,zipy==uzips$zipy[5])[,3:5])
+ts<-as.data.frame(subset(ziptrades,zipy==uzips$zipy[5])[,3:5])
+weighted.mean(x=ps[,1],w=ts[,1],na.rm=T)
 
 #get zip prices weighted by trade frequency
-uzips<-data.frame(area=unique(zipprices$area))
-uzips$zip<-as.numeric(gsub("[^0-9]","",uzips$area))
+uzips<-data.frame(zipy=unique(zipprices$zipy))
 uzips$hp_1yr<-NA
 uzips$hp_2yr<-NA
 for (i in 1:nrow(uzips)){
-  ps<-subset(zipprices,area==uzips$area[i])[,3:5]
-  ts<-subset(ziptrades,area==uzips$area[i])[,3:5]
+  ps<-as.data.frame(subset(zipprices,zipy==uzips$zipy[i])[,3:5])
+  ts<-as.data.frame(subset(ziptrades,zipy==uzips$zipy[i])[,3:5])
   qminus2<-weighted.mean(x=ps[,1],w=ts[,1],na.rm=T)
   qminus1<-weighted.mean(x=ps[,2],w=ts[,2],na.rm=T)
   q0<-weighted.mean(x=ps[,3],w=ts[,3],na.rm=T)
@@ -81,30 +84,37 @@ for (i in 1:nrow(uzips)){
   uzips$hp_2yr[i]<-(q0/qminus2-1)*100
 }
 
+#back in the voting data set, merge in zips
+allaf<-left_join(allaf,select(af15,valgstedid,zip,muninum),by="valgstedid")
+
+#create zipy variable
+allaf$y<-as.numeric(substr(allaf$year,3,4))
+allaf$zipy<-paste(allaf$zip,allaf$y,sep="_")
+
 #merge back in
-af15<-left_join(af15,uzips,by="zip")
+allaf<-left_join(allaf,uzips,by="zipy")
 
 #incumbent support
-af15$incsupport<-100*(af15$A+af15$B)/af15$IAltGyldigeStemmer
+allaf<-mutate(allaf,incsupport=ifelse(year==2015,a+b,c+v))
 
 #split hp into poschange and negchange
-af15$hp_1yrposchange<-ifelse(af15$hp_1yr>0,af15$hp_1yr,0)
-af15$hp_1yrnegchange<-ifelse(af15$hp_1yr<=0,af15$hp_1yr*-1,0)
-af15$hp_2yrposchange<-ifelse(af15$hp_2yr>0,af15$hp_2yr,0)
-af15$hp_2yrnegchange<-ifelse(af15$hp_2yr<=0,af15$hp_2yr*-1,0)
+allaf$hp_1yrposchange<-ifelse(allaf$hp_1yr>0,allaf$hp_1yr,0)
+allaf$hp_1yrnegchange<-ifelse(allaf$hp_1yr<=0,allaf$hp_1yr*-1,0)
+allaf$hp_2yrposchange<-ifelse(allaf$hp_2yr>0,allaf$hp_2yr,0)
+allaf$hp_2yrnegchange<-ifelse(allaf$hp_2yr<=0,allaf$hp_2yr*-1,0)
 
 #save data
-saveRDS(af15,file="data/af15_4.rds")
+saveRDS(allaf,file="data/allaf_4.rds")
 
 #save to csv
-write_csv(af15,"data/af15.csv")
+write_csv(allaf,"data/allaf.csv")
 
 #plot changes
-ggplot(af15,aes(x=hp_2yr)) +
+ggplot(allaf,aes(x=hp_2yr)) +
   geom_histogram() +
   theme_minimal()
 
-ggplot(af15,aes(x=hp_2yr,y=incsupport)) +
+ggplot(allaf,aes(x=hp_2yr,y=incsupport)) +
   geom_point() +
   theme_minimal()
 
