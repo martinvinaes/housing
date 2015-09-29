@@ -14,7 +14,7 @@ summary(m_timefe<-glm(execvot.c~change1yr+factor(ivyear),data=sd,family="binomia
 
 summary(m_timemunife<-glm(execvot.c~change1yr+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
 
-summary(m_timemunifectrl<-glm(execvot.c~change1yr+factor(ivyear)+factor(newmuninum)+
+summary(m_timemunifectrl<-glm(execvot.c~change1yr*renter+factor(ivyear)+factor(newmuninum)+
                                 female+age+I(age^2)+edu+hinc+emp.pension+emp.student,
                               data=sd,family="binomial"))
 
@@ -51,15 +51,33 @@ sd$poschange<-ifelse(sd$change1yr>=0,sd$change1yr,0)
 sd$negchange<-ifelse(sd$change1yr<0,-sd$change1yr,0)
 
 #models with poschange and negchange separately
-summary(m_olspn<-glm(execvot.c~poschange+negchange,data=sd,family="binomial"))
+summary(m_olspn<-glm(execvot.c~poschange*renter+negchange*renter,data=sd,family="binomial"))
 
 summary(m_timefepn<-glm(execvot.c~poschange+negchange+factor(ivyear),data=sd,family="binomial"))
 
 summary(m_timemunifepn<-glm(execvot.c~poschange+negchange+factor(ivyear)+factor(newmuninum),data=sd,family="binomial"))
 
-summary(m_timemunifectrlpn<-glm(execvot.c~poschange+negchange+factor(ivyear)+factor(newmuninum)+
+summary(m_timemunifectrlpn<-glm(incgovvot.c~poschange*renter+negchange*renter+factor(ivyear)+factor(newmuninum)+
                                 female+age+I(age^2)+edu+hinc+emp.pension+emp.student,
                               data=sd,family="binomial"))
+
+#predictions
+preddf<-data.frame(poschange=rep(c(rep(0,25),0:25),2),negchange=rep(c(25:1,rep(0,26)),2),renter=c(rep(0,51),rep(1,51)),
+                   ivyear="2005",newmuninum="101",female=1,age=45,edu=.5,hinc=.5,emp.pension=0,emp.student=0)
+preds<-predict(m_timemunifectrlpn,newdata=preddf,type="response",se.fit=T)
+preddf$fit<-preds$fit
+preddf$se<-preds$se.fit
+preddf$change<-preddf$poschange-preddf$negchange
+preddf$renter<-factor(preddf$renter,labels=c("Owner","Renter"))
+
+require(ggplot2)
+ggplot(preddf,aes(x=change,y=fit,group=renter,color=renter)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=fit-1.96*se,ymax=fit+1.96*se,fill=renter),alpha=.4) +
+#  facet_grid(renter~.) +
+  theme_minimal()
+
+??geom
 
 effplot2<-data.frame(eff=rep(NA,8),se=NA,
                      mlab=c("OLS (-)","OLS (+)","Time FE (-)","Time FE (+)",
