@@ -68,10 +68,6 @@ zipprices$t[zipprices$t==0]<-NA
 #number of trades
 ziptrades<-read_delim("data/ziptrades.csv",delim=";")
 
-ps<-as.data.frame(subset(zipprices,zipy==uzips$zipy[5])[,3:5])
-ts<-as.data.frame(subset(ziptrades,zipy==uzips$zipy[5])[,3:5])
-weighted.mean(x=ps[,1],w=ts[,1],na.rm=T)
-
 #get zip prices weighted by trade frequency
 uzips<-data.frame(zipy=unique(zipprices$zipy))
 uzips$hp_1yr<-NA
