@@ -16,6 +16,7 @@ allaf<-read_csv("data/valgstedsdata/elecresults_utf8.csv")
 af15<-allaf %>%
   filter(year==2015) %>%
   select(valgstedid,vsnavn,kredsnavn) %>%
+  filter(vsnavn!="") %>% #remove empty names
   as.data.frame()
 
 #get address string to send to google
@@ -33,6 +34,7 @@ for (i in 1:nrow(af15)){
 }
 
 saveRDS(af15,file="data/af15_2.rds")
+af15<-readRDS(file="data/af15_2.rds")
 
 #throw out misplaced longitude
 af15$lon[af15$lon<0]<-NA
