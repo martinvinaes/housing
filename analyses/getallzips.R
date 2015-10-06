@@ -16,6 +16,7 @@ allaf<-read_csv("data/valgstedsdata/elecresults_utf8.csv")
 af15<-allaf %>%
   filter(year==2015) %>%
   select(valgstedid,vsnavn,kredsnavn) %>%
+  filter(vsnavn!="") %>% #remove empty names
   as.data.frame()
 
 #get address string to send to google
@@ -33,6 +34,7 @@ for (i in 1:nrow(af15)){
 }
 
 saveRDS(af15,file="data/af15_2.rds")
+af15<-readRDS(file="data/af15_2.rds")
 
 #throw out misplaced longitude
 af15$lon[af15$lon<0]<-NA
@@ -65,10 +67,6 @@ zipprices$t[zipprices$t==0]<-NA
 
 #number of trades
 ziptrades<-read_delim("data/ziptrades.csv",delim=";")
-
-ps<-as.data.frame(subset(zipprices,zipy==uzips$zipy[5])[,3:5])
-ts<-as.data.frame(subset(ziptrades,zipy==uzips$zipy[5])[,3:5])
-weighted.mean(x=ps[,1],w=ts[,1],na.rm=T)
 
 #get zip prices weighted by trade frequency
 uzips<-data.frame(zipy=unique(zipprices$zipy))
