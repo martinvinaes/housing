@@ -165,6 +165,7 @@ post results (`x') (_b[`x'._at]) (_se[`x'._at])
 }
 
 postclose results
+-
 
 *****Figurdataset*****
 use volaposneg.dta, clear
@@ -176,8 +177,12 @@ replace vola = 0 in `i'
 replace vola = 1 in `z'
 }
 
-gen ub=1.96*se+b
-gen lb=-1.96*se+b
+replace id=id-1 if vola==1
+
+gen ub95=1.96*se+b
+gen lb95=-1.96*se+b
+gen ub90=1.64*se+b
+gen lb90=-1.64*se+b
 replace id=id-3
 replace id=id*-1 if pb==1
 replace id=id*5
@@ -193,9 +198,13 @@ replace vola = 0 in `i'
 replace vola = 1 in `z'
 }
 
-replace id=id-7
-gen ub=1.96*se+b
-gen lb=-1.96*se+b
+replace id=id-1 if vola==1
+replace id=(id-13)*5
+
+gen ub95=1.96*se+b
+gen lb95=-1.96*se+b
+gen ub90=1.64*se+b
+gen lb90=-1.64*se+b
 
 export delim vola.csv, replace delim(,)
 
@@ -204,8 +213,10 @@ use posneg.dta, clear
 replace id=(id-2)*10
 replace id=id*-1 if pb==1
 
-gen ub=1.96*se+b
-gen lb=-1.96*se+b
+gen ub95=1.96*se+b
+gen lb95=-1.96*se+b
+gen ub90=1.64*se+b
+gen lb90=-1.64*se+b
 
 export delim posneg.csv, replace delim(,)
 
