@@ -1,0 +1,29 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Estimated effects of house prices on electoral support for governing parties across volatility.}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        &\multicolumn{1}{c}{(3)}        &\multicolumn{1}{c}{(4)}        \\
+\hline
+$\Delta$ house price&        0.12\sym{**}&        0.12\sym{**}&        0.01        &        0.02        \\
+                    &      (0.02)        &      (0.02)        &      (0.02)        &      (0.02)        \\
+[1em]
+Volatility          &       -7.01\sym{**}&        1.60        &        3.96        &       -4.21\sym{*} \\
+                    &      (2.44)        &      (2.53)        &      (2.37)        &      (1.71)        \\
+[1em]
+$\Delta$ house price $\times$ Volatility&       -0.06        &       -0.03        &        0.19\sym{**}&        0.16\sym{**}\\
+                    &      (0.06)        &      (0.07)        &      (0.06)        &      (0.05)        \\
+[1em]
+\hline Polling Station FE&                    &$\checkmark$        &$\checkmark$        &$\checkmark$        \\
+[1em]
+Year FE             &                    &                    &$\checkmark$        &$\checkmark$        \\
+[1em]
+Year FE * Structural factors&                    &                    &                    &$\checkmark$        \\
+\hline
+Observations        &        4188        &        4188        &        4188        &        4164        \\
+RMSE                &        8.45        &        7.17        &        5.71        &        4.76        \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
