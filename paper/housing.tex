@@ -16,26 +16,30 @@
 \usepackage{lmodern}
 \usepackage{multirow}
 \usepackage{multicol}
+
 %\usepackage{mathptmx} %times font
 %\usepackage{tgtermes} %times font
 \usepackage[protrusion=true,expansion=true]{microtype}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{hyperref}
 \usepackage{color,soul} %highlighting
-\usepackage[font={footnotesize}]{caption}
+\usepackage{caption}
+\captionsetup[figure]{labelfont=bf}
+\captionsetup[table]{labelfont=bf}
 
 %\usepackage{endnotes}
 %\usepackage[heads,nolists,tablesfirst]{endfloat} %places tables and figures at the end
 %
 
-\title{ Falling house prices hurt incumbents  }
-%What goes with whom? Group-centric policy attitudes and the role of casual observation
-%Context effects and ethnicized policy attitudes}
-%Contextual Ethnic Diversity \\ and Ethnicized Crime Attitudes
-%OR: Issue evolution and contextual learning?
+
+
+\usepackage{epstopdf}
+
+\title{\textbf{Housing Bubbles and \\Support for Governing Parties}}
+
 
 \author{
-Martin V. Larsen \\ Frederik Hjorth}
+Frederik Hjorth \and Martin V. Larsen}
 
 %, \textt{fh@ifs.ku.dk}, (+45) 26 27 24 41 }  } 
 
@@ -49,7 +53,8 @@ Martin V. Larsen \\ Frederik Hjorth}
 \end{center}
 
 \begin{abstract}
-\noindent In this paper we examine the extent to which house prices shape incumbent support in Danish elections. We link detailed data on local house prices to two different datasets of electoral behavior;  (1)  a population-based dataset on voting behavior at the precinct level and (2) a set of surveys on vote intentions. Across both datasets we find that house prices influence incumbent support asymmetrically, such that voters punish incumbents only when prices are falling. That is, voters seem to have a strong loss aversion in how they attribute responsibility for changes in housing prices. The findings hold important implications for the role personal economic grievances in voter behavior and for the political incentives faced by policy-makers.
+\noindent The real estate bubble which jump-started the great recession is one of the largest economic shocks that modern western economies have experienced. However, we know little about whether and how this housing bubble, or house prices in general, shape voters electoral behavior. In this paper we zoom in on one country, Denmark, which had one of the largest housing bubbles in the world, and examine how this rapid expansion and contraction of real estate prices shaped support for governing parties across four parliamentary elections. To do this, we link detailed data on local house prices to election returns at the precinct level. Across a wide range of demanding specifications we find that the when house prices increase governing parties get a higher vote share. Further, this relationship seems to be stronger in areas where house prices are very volatile, and when the change in house prices decrease. The findings hold important implications for the role of local economic conditions in voting behavior and for the political incentives faced by policy-makers.
+ 
 \end{abstract}
 
 %\begin{keyword}
@@ -65,6 +70,85 @@ Martin V. Larsen \\ Frederik Hjorth}
 %\doublespacing
 
 \section{Introduction}
+
+This is a study about how local economy shapes. Specifically, house prices.
+
+Several possible mechanisms: punish/reward, updating estimates of competence; updating estimates of national economy.
+
+Contributions to extant research.
+\begin{itemize}
+	\item Data: Small geographical units + multiple elections + population based data-
+	\item House prices: Almost never done - although Lenz and Healy sort of similar.
+	\item Empirical setting: Big bubble - Denmark (both pro and con - possibly least likely cf. general low economic voting)
+\end{itemize}
+
+These different factors make causal identification more likely in this study, than it has been before. 
+
+Add to this by also exploring negativity bias - especially important given the "bubblyness" of house prices. If voters respond uniformly or not this will present governments with widely different incentives. 
+
+
+
+\section{Empirical Setting}
+
+Denmark's housing market.
+
+Denmark's political situation.
+Peter Birch!
+
+
+\section{Data}
+
+How did we get data in IV and DV
+
+\section{Results}
+
+\input{../tables/tab1.tex}
+
+\subsection{Causal identification}
+
+\input{../tables/tab2.tex}
+
+\input{../tables/tab3.tex}
+
+\subsection{Evidence of a grievance asymmetry}
+
+\input{../tables/tab4.tex}
+
+\subsection{Evidence of a  bubblyness-effect}
+
+\input{../tables/tab5.tex}
+
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{../figures/volatilityinteraction.eps}
+	\centering
+	\caption{Marginal effect of $\Delta$house prices on incumbent support across levels of price volatility with 95 pct. Confidence Intervals. Rug plot signifies distribution of observations across the volatility variable.}
+\end{figure}
+
+\input{../tables/tab6.tex}
+
+
+
+
+\section{Discussion}
+
+How causally convincing is our results?
+
+Is the negativity bias really a bias? Maybe... maybe not.
+
+Implications for policy makers.
+
+Goodnight!
+
+
+
+%Appendikser
+%Overvej et om forhold mellem volatilitet og prisændringer
+%Overvej et på et andet kontekstuelt niveau - e.g. kommuner - jf. MAUP.
+%Overvej et om robusthed af interaktionsled - evt. lav kommuneinteraktioner, og se om effekten stadig holder
+%Overvej det samme som sidste om positiv-negativ
+
+
+
 
 
 \clearpage
