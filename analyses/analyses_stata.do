@@ -128,8 +128,8 @@ local i=0
 local z="n"
 foreach f in pos neg {
 xtreg incs  (c.hp_1yrpos c.hp_1yrneg)##c.pricevol i.year##(c.kontant c.indkomst c.arb c.formue), fe vce(cluster valgstedid)
-margins, at(hp_1yr`f'=(-10(10)50) hp_1yr`z'=0 pricevol=(0.1 0.55)) noestimcheck post coeflegend
-forvalues x=3/14{
+margins, at(hp_1yr`f'=(-2(2)50) hp_1yr`z'=0 pricevol=(0.1 0.55)) noestimcheck post coeflegend
+forvalues x=3/54{
 post results (`x') (_b[`x'._at]) (_se[`x'._at]) (`i')
 }
 local i=`i'+1
@@ -143,14 +143,14 @@ postfile results id b se pb using posneg.dta, replace
 local i=0
 local z="n"
 xtreg incs  (c.hp_1yrpos c.hp_1yrneg) i.year##(c.kontant c.indkomst c.arb c.formue), fe vce(cluster valgstedid)
-margins, at(hp_1yrpos=(-10(10)50) hp_1yrneg=0) noestimcheck post coeflegend
-forvalues x=2/7{
+margins, at(hp_1yrpos=(-2(2)50) hp_1yrneg=0) noestimcheck post coeflegend
+forvalues x=2/27{
 post results (`x') (_b[`x'._at]) (_se[`x'._at]) (`i')
 }
 local i=1
 xtreg incs  (c.hp_1yrpos c.hp_1yrneg) i.year##(c.kontant c.indkomst c.arb c.formue), fe vce(cluster valgstedid)
-margins, at(hp_1yrneg=(-10(10)50) hp_1yrpos=0) noestimcheck post coeflegend
-forvalues x=2/7{
+margins, at(hp_1yrneg=(-2(2)50) hp_1yrpos=0) noestimcheck post coeflegend
+forvalues x=2/27{
 post results (`x') (_b[`x'._at]) (_se[`x'._at]) (`i')
 }
 
@@ -159,8 +159,8 @@ postclose results
 
 postfile results id b se using vola.dta, replace
 xtreg incs  (c.hp_1yr)##c.pricevol i.year##(c.kontant c.indkomst c.arb c.formue), fe vce(cluster valgstedid)
-margins, at(hp_1yr=(-60(10)50) pricevol=(0.1 0.55)) noestimcheck post coeflegend
-forvalues x=3/24{
+margins, at(hp_1yr=(-52(2)50) pricevol=(0.1 0.55)) noestimcheck post coeflegend
+forvalues x=3/104{
 post results (`x') (_b[`x'._at]) (_se[`x'._at])
 }
 
@@ -171,7 +171,7 @@ postclose results
 use volaposneg.dta, clear
 
 gen vola=.
-forvalues i=1(2)24 {
+forvalues i=1(2)104 {
 local z=(`i'+1)
 replace vola = 0 in `i'
 replace vola = 1 in `z'
@@ -185,21 +185,21 @@ gen ub90=1.64*se+b
 gen lb90=-1.64*se+b
 replace id=id-3
 replace id=id*-1 if pb==1
-replace id=id*5
+replace id=id
 
 export delim volaposneg.csv, replace delim(,)
 
 use vola.dta, clear
 
 gen vola=.
-forvalues i=1(2)22 {
+forvalues i=1(2)102 {
 local z=(`i'+1)
 replace vola = 0 in `i'
 replace vola = 1 in `z'
 }
 
 replace id=id-1 if vola==1
-replace id=(id-13)*5
+replace id=(id-53)
 
 gen ub95=1.96*se+b
 gen lb95=-1.96*se+b
@@ -210,7 +210,7 @@ export delim vola.csv, replace delim(,)
 
 
 use posneg.dta, clear
-replace id=(id-2)*10
+replace id=(id-2)*2
 replace id=id*-1 if pb==1
 
 gen ub95=1.96*se+b
