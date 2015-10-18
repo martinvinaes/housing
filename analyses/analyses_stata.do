@@ -107,7 +107,7 @@ star("*" 0.05 "**" 0.01) se nomtitles label title(Estimated effects of house pri
 */
 
 **Figure1
-/*
+
 gen rugplot=-0.09
 gen ruglab="|"
 xtreg inc c.hp_1yr##c.pricevol i.year##(c.kontant c.indkomst c.arb c.formue), fe vce(cluster valgstedid)
@@ -116,7 +116,7 @@ marginsplot, scheme(s1mono) yline(0) addplot(scatter rugplot pricevol, msym(none
 legend(off) recastci(rline)recast(line) ylabel(-0.1 0 0.1 0.2 0.3) xlab(0(0.2)1) ///
 ytitle("Effect of changes in house prices" " ") title(" ") xtitle(" " "Volatility") ///
 plot1opts(lwidth(thick)) ciopts(lwidth(medthick))
-*/
+-
 cd "C:\Users\mvl\Documents\GitHub\housing\figures"
 *graph export volatilityinteraction.eps, replace 
 
