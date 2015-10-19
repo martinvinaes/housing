@@ -57,6 +57,10 @@ for (i in 1:nrow(af15)){
 saveRDS(af15,file="data/af15_3.rds")
 af15<-readRDS("data/af15_3.rds")
 
+af15<-readRDS("data/af15_3.rds")
+write.csv(af15,"data/lonlat.csv")
+
+
 #read in zip prices data
 zipprices<-read_delim("data/zipprices.csv",delim=";")
 

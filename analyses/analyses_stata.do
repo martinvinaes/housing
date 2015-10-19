@@ -1,5 +1,12 @@
 cd "C:\Users\mvl\Documents\GitHub\housing\data" 
 
+import delim lonlat.csv, delim(",") clear
+keep valgstedid lon lat
+sort valgstedid
+saveold lonlatdata.dta, replace
+
+
+
 *Creating dataset*
 import delim allvoldat.txt, delim(",") clear
 sort zipy
@@ -7,12 +14,20 @@ saveold statvol.dta, replace
 
 import delim housingdat2001.csv, delim(";") clear
 destring *, replace dpcomma
+foreach x in a b c v{
+replace `x'=`x'/votes
+}
+
 rename inc_support incsupport
 saveold elec01.dta, replace
 
 import delim allaf.csv, delim(",") clear
 sort zipy
 merge zipy using statvol.dta
+drop _merge
+sort valgstedid
+merge valgstedid using lonlatdata.dta
+
 foreach x of varlist * {
 capture replace `x'="." if `x'=="NA"
 capture replace `x'="." if `x'=="NaN"
@@ -21,6 +36,11 @@ destring *, replace
 
 append using elec01.dta
 
+
+**changing incsupport to exec party.
+replace incs=incs-c if year > 2001 & year!=2015
+replace incs=incs-b if year==2001 | year==2015
+-
 
 **setting up for ts analyses*
 
@@ -55,8 +75,6 @@ local z3="i.year 860028.valgstedid, fe vce(cluster valgstedid)"
 local z4="i.year 860028.valgstedid i.year#(c.kontant c.indkomst c.formue c.arb), fe vce(cluster valgstedid)"
 
 
-
-/*
 foreach x in 1 2 3 4{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
 }
@@ -74,12 +92,12 @@ label stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE"))  titl
 
 
 foreach x in 1 2 3 4{
-qui eststo m3`x': xtreg l.incs c.hp_1yr `z`x''
+eststo m3`x': xtreg l.incs c.hp_1yr `z`x''
 }
 esttab m31 m32 m33 m34 using tab3.tex, keep(hp_1yr) replace  ///
 star("*" 0.05 "**" 0.01) se b(%9.2f)  nomtitles indicate("\hline Polling Station FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst", labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties at t-1.)
-
+-
 
 
 foreach x in 1 2 3 4{
@@ -104,7 +122,7 @@ qui eststo m6`x': xtreg incs (c.hp_1yrpos c.hp_1yrneg)##c.pricevol `z`x''
 esttab m61 m62 m63 m64 using tab6.tex, keep(hp_1yrposchange hp_1yrnegchange pricevol c.hp_1yrposchange#c.pricevol c.hp_1yrnegchange#c.pricevol) replace b(%9.2f)  ///
 stats(N rmse, fmt(%8.0f %8.2f)  label( "Observations" "RMSE")) indicate("\hline Polling Station FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst", labels("$\checkmark$" " ")) ///
 star("*" 0.05 "**" 0.01) se nomtitles label title(Estimated effects of house prices on  electoral support for governing parties across volatility.)
-*/
+
 
 **Figure1
 
@@ -116,9 +134,9 @@ marginsplot, scheme(s1mono) yline(0) addplot(scatter rugplot pricevol, msym(none
 legend(off) recastci(rline)recast(line) ylabel(-0.1 0 0.1 0.2 0.3) xlab(0(0.2)1) ///
 ytitle("Effect of changes in house prices" " ") title(" ") xtitle(" " "Volatility") ///
 plot1opts(lwidth(thick)) ciopts(lwidth(medthick))
--
+
 cd "C:\Users\mvl\Documents\GitHub\housing\figures"
-*graph export volatilityinteraction.eps, replace 
+graph export volatilityinteraction.eps, replace 
 
 
 *Laver grafdataset
@@ -165,7 +183,7 @@ post results (`x') (_b[`x'._at]) (_se[`x'._at])
 }
 
 postclose results
--
+
 
 *****Figurdataset*****
 use volaposneg.dta, clear

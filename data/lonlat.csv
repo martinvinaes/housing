@@ -1,0 +1,1389 @@
+"","valgstedid","vsnavn","kredsnavn","adrstring","lon","lat","zip","muninum"
+"1",101001,"1. Østerbro","1. Østerbro"," �sterbro,  �sterbro, Denmark",12.5774983,55.7091548,2100,101
+"2",101002,"1. Nord","1. Østerbro"," Nord,  �sterbro, Denmark",12.5774983,55.7091548,2100,101
+"3",101003,"1. Syd","1. Østerbro"," Syd,  �sterbro, Denmark",12.5774983,55.7091548,2100,101
+"4",101005,"1. Vest","1. Østerbro"," Vest,  �sterbro, Denmark",12.5774983,55.7091548,2100,101
+"5",101006,"1. Nordvest","1. Østerbro"," Nordvest,  �sterbro, Denmark",12.5774983,55.7091548,2100,101
+"6",101007,"2. Sundbyvester","2. Sundbyvester"," Sundbyvester,  Sundbyvester, Denmark",12.6018202,55.6460064,2300,101
+"7",101008,"2. Nord","2. Sundbyvester"," Nord,  Sundbyvester, Denmark",12.6028559,55.6433,2300,101
+"8",101009,"2. Syd","2. Sundbyvester"," Syd,  Sundbyvester, Denmark",12.6028559,55.6433,2300,101
+"9",101010,"2. Vest","2. Sundbyvester"," Vest,  Sundbyvester, Denmark",12.6028559,55.6433,2300,101
+"10",101011,"3. Indre By","3. Indre By"," Indre By,  Indre By, Denmark",12.564123,55.6836565,1359,101
+"11",101012,"3. Nord","3. Indre By"," Nord,  Indre By, Denmark",12.5800086,55.6800939,1113,101
+"12",101013,"3. Syd","3. Indre By"," Syd,  Indre By, Denmark",12.5800086,55.6800939,1113,101
+"13",101014,"3. Øst","3. Indre By"," �st,  Indre By, Denmark",12.5800086,55.6800939,1113,101
+"14",101016,"4. Sundbyøster","4. Sundbyøster"," Sundby�ster,  Sundby�ster, Denmark",12.613007,55.652139,2300,101
+"15",101017,"4. Nord","4. Sundbyøster"," Nord,  Sundby�ster, Denmark",12.617226,55.653955,2300,101
+"16",101018,"4. Syd","4. Sundbyøster"," Syd,  Sundby�ster, Denmark",12.617226,55.653955,2300,101
+"17",101019,"4. Øst","4. Sundbyøster"," �st,  Sundby�ster, Denmark",12.617226,55.653955,2300,101
+"18",101020,"5. Nørrebro","5. Nørrebro"," N�rrebro,  N�rrebro, Denmark",12.5496268,55.6938193,2200,101
+"19",101021,"5. Nord","5. Nørrebro"," Nord,  N�rrebro, Denmark",12.5542484,55.6991166,2200,101
+"20",101022,"5. Syd","5. Nørrebro"," Syd,  N�rrebro, Denmark",12.5542484,55.6991166,2200,101
+"21",101023,"5. Øst","5. Nørrebro"," �st,  N�rrebro, Denmark",12.5542484,55.6991166,2200,101
+"22",101024,"5. Vest","5. Nørrebro"," Vest,  N�rrebro, Denmark",12.5542484,55.6991166,2200,101
+"23",101025,"5. Nordvest","5. Nørrebro"," Nordvest,  N�rrebro, Denmark",12.5542484,55.6991166,2200,101
+"24",101026,"5. Midt","5. Nørrebro"," Midt,  N�rrebro, Denmark",12.5542484,55.6991166,2200,101
+"25",101027,"6. Bispebjerg","6. Utterslev"," Bispebjerg,  Utterslev, Denmark",12.513811,55.710765,2400,101
+"26",101028,"6. Nord","6. Utterslev"," Nord,  Utterslev, Denmark",12.513811,55.710765,2400,101
+"27",101029,"6. Øst","6. Utterslev"," �st,  Utterslev, Denmark",12.513811,55.710765,2400,101
+"28",101030,"6. Syd","6. Utterslev"," Syd,  Utterslev, Denmark",12.513811,55.710765,2400,101
+"29",101031,"7. Brønshøj","7. Brønshøj"," Br�nsh�j,  Br�nsh�j, Denmark",12.4992189,55.7038746,2700,101
+"30",101032,"7. Nord","7. Brønshøj"," Nord,  Br�nsh�j, Denmark",12.4915226,55.7071732,2700,101
+"31",101033,"7. Syd","7. Brønshøj"," Syd,  Br�nsh�j, Denmark",12.4915226,55.7071732,2700,101
+"32",101034,"7. Øst","7. Brønshøj"," �st,  Br�nsh�j, Denmark",12.4915226,55.7071732,2700,101
+"33",101035,"7. Vest","7. Brønshøj"," Vest,  Br�nsh�j, Denmark",12.4915226,55.7071732,2700,101
+"34",101036,"7. Nordvest","7. Brønshøj"," Nordvest,  Br�nsh�j, Denmark",12.4915226,55.7071732,2700,101
+"35",101039,"7. Katrinedal","7. Brønshøj"," Katrinedal,  Br�nsh�j, Denmark",12.4950552,55.691026,2720,101
+"36",101040,"7. Kirkebjerg","7. Brønshøj"," Kirkebjerg,  Br�nsh�j, Denmark",12.4822169,55.6946423,2720,101
+"37",101041,"7. Vanløse","7. Brønshøj"," Vanl�se,  Br�nsh�j, Denmark",12.4915226,55.7071732,2700,101
+"38",101042,"8. Valby","8. Valby"," Valby,  Valby, Denmark",12.5167832,55.6616617,2500,101
+"39",101043,"8. Nord","8. Valby"," Nord,  Valby, Denmark",12.5167753,55.6616585,2500,101
+"40",101044,"8. Syd","8. Valby"," Syd,  Valby, Denmark",12.5167753,55.6616585,2500,101
+"41",101046,"8. Vest","8. Valby"," Vest,  Valby, Denmark",12.5167753,55.6616585,2500,101
+"42",101047,"8. Sydøst","8. Valby"," Syd�st,  Valby, Denmark",12.5167753,55.6616585,2500,101
+"43",101048,"8. Midt","8. Valby"," Midt,  Valby, Denmark",12.5167753,55.6616585,2500,101
+"44",101049,"9. Vesterbro","9. Vesterbro"," Vesterbro,  Vesterbro, Denmark",12.5508846,55.6726812,1620,101
+"45",101050,"9. Nord","9. Vesterbro"," Nord,  Vesterbro, Denmark",12.54254,55.6638947,1720,101
+"46",101051,"9. Syd","9. Vesterbro"," Syd,  Vesterbro, Denmark",12.54254,55.6638947,1720,101
+"47",101052,"9. Øst","9. Vesterbro"," �st,  Vesterbro, Denmark",12.54254,55.6638947,1720,101
+"48",101053,"9. Vest","9. Vesterbro"," Vest,  Vesterbro, Denmark",12.54254,55.6638947,1720,101
+"49",101054,"9. Midt","9. Vesterbro"," Midt,  Vesterbro, Denmark",12.54254,55.6638947,1720,101
+"50",101055,"9. Sydhavn","9. Vesterbro"," Sydhavn,  Vesterbro, Denmark",12.537174,55.6547563,2450,101
+"51",147001,"10. Kreds, Søerne","10. Falkoner"," S�erne,  Falkoner, Denmark",NA,NA,NA,NA
+"52",147002,"10. Kreds, Ny Hollænder","10. Falkoner"," Ny Holl�nder,  Falkoner, Denmark",NA,40.7127837,NA,NA
+"53",147003,"10. Kreds, Bülowsvej","10. Falkoner"," B�lowsvej,  Falkoner, Denmark",NA,NA,NA,NA
+"54",147004,"10. Kreds, Duevej","10. Falkoner"," Duevej,  Falkoner, Denmark",NA,NA,NA,NA
+"55",147005,"11. Kreds, Lindevang","11. Slots"," Lindevang,  Slots, Denmark",NA,NA,NA,NA
+"56",147006,"11. Kreds, Søndermark","11. Slots"," S�ndermark,  Slots, Denmark",9.5511244,55.6900714,7100,630
+"57",147007,"11. Kreds, Rådhuset","11. Slots"," R�dhuset,  Slots, Denmark",11.3560439,55.4054388,4200,330
+"58",147008,"11. Kreds, Nyelandsvej","11. Slots"," Nyelandsvej,  Slots, Denmark",NA,NA,NA,NA
+"59",151001,"Tapeten","8. Ballerup","Tapeten,  Ballerup, Denmark",12.3626107,55.7190905,2750,151
+"60",151002,"Rugvængets Skole","8. Ballerup","Rugvængets Skole,  Ballerup, Denmark",12.360638,55.7264676,2750,151
+"61",151003,"Højagerskolen","8. Ballerup","Højagerskolen,  Ballerup, Denmark",12.367113,55.7423258,2750,151
+"62",151004,"Grantoftehallen","8. Ballerup","Grantoftehallen,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"63",151005,"Rosenlundskolen","8. Ballerup","Rosenlundskolen,  Ballerup, Denmark",12.3989983,55.7169641,2740,151
+"64",151006,"Lundebjergskolen","8. Ballerup","Lundebjergskolen,  Ballerup, Denmark",12.414286,55.720977,2740,151
+"65",151007,"Tidl. Skovlunde Lokalkontor","8. Ballerup","Tidl Skovlunde Lokalkontor,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"66",151008,"Måløv Ny Hal","8. Ballerup","Måløv Ny Hal,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"67",151009,"Egebjerghallen","8. Ballerup","Egebjerghallen,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"68",151010,"Østerhøjhallen","8. Ballerup","Østerhøjhallen,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"69",153001,"Brøndbyvester Skole","6. Brøndby","Br�ndbyvester Skole,  Br�ndby, Denmark",12.4019956,55.6493093,2605,153
+"70",153002,"Tjørnehøjhallen","6. Brøndby","Tj�rneh�jhallen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"71",153003,"Lindelundshallen","6. Brøndby","Lindelundshallen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"72",153004,"Nørregård","6. Brøndby","N�rreg�rd,  Br�ndby, Denmark",12.449298,55.69084,2610,175
+"73",153005,"Kulturhuset Brønden","6. Brøndby","Kulturhuset Br�nden,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"74",155001,"Dragør Skole Syd","12. Tårnby","Drag�r Skole Syd,  T�rnby, Denmark",12.59532,55.5683661,2791,155
+"75",155004,"Hollænderhallen","12. Tårnby","Holl�nderhallen,  T�rnby, Denmark",12.594765,55.62552,2770,185
+"76",157001,"Jægersborg","1. Gentofte","Jægersborg,  Gentofte, Denmark",12.543824,55.763193,2820,157
+"77",157002,"Munkegård","1. Gentofte","Munkegård,  Gentofte, Denmark",12.5244124,55.7331372,2870,157
+"78",157003,"Rådhuset","1. Gentofte","Rådhuset,  Gentofte, Denmark",12.5685245,55.7494384,2920,157
+"79",157004,"Bakkegård","1. Gentofte","Bakkegård,  Gentofte, Denmark",12.5290071,55.7428539,2820,157
+"80",157005,"Dyssegård","1. Gentofte","Dyssegård,  Gentofte, Denmark",12.5270475,55.7331401,2870,157
+"81",157006,"Maglegård","1. Gentofte","Maglegård,  Gentofte, Denmark",12.5122772,55.7267394,2860,159
+"82",157007,"Hellerup","1. Gentofte","Hellerup,  Gentofte, Denmark",12.569196,55.736654,2900,157
+"83",157008,"Ordrup","1. Gentofte","Ordrup,  Gentofte, Denmark",12.579436,55.763123,2920,157
+"84",157009,"Skovshoved","1. Gentofte","Skovshoved,  Gentofte, Denmark",12.595307,55.761605,2920,157
+"85",157010,"Skovgård","1. Gentofte","Skovgård,  Gentofte, Denmark",12.5696751,55.7654717,2920,157
+"86",159001,"Bagsværd","3. Gladsaxe","Bagsværd,  Gladsaxe, Denmark",12.457244,55.765314,2880,159
+"87",159002,"Hovedbiblioteket","3. Gladsaxe","Hovedbiblioteket,  Gladsaxe, Denmark",12.49807,55.742222,2860,159
+"88",159003,"Egegård","3. Gladsaxe","Egegård,  Gladsaxe, Denmark",12.465947,55.7450144,2860,159
+"89",159004,"Grønnemose","3. Gladsaxe","Grønnemose,  Gladsaxe, Denmark",12.5226678,55.7225948,2400,101
+"90",159005,"Mørkhøj","3. Gladsaxe","Mørkhøj,  Gladsaxe, Denmark",12.460433,55.726316,2860,159
+"91",159006,"Stengård","3. Gladsaxe","Stengård,  Gladsaxe, Denmark",12.483325,55.754362,2800,159
+"92",159007,"Søborg","3. Gladsaxe","Søborg,  Gladsaxe, Denmark",12.488686,55.733461,2860,159
+"93",159008,"Vadgård","3. Gladsaxe","Vadgård,  Gladsaxe, Denmark",12.490199,55.748594,2860,159
+"94",159009,"Værebro","3. Gladsaxe","Værebro,  Gladsaxe, Denmark",12.4309395,55.7563108,2880,159
+"95",161001,"Nordvangskolen","8. Ballerup","Nordvangskolen,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"96",161002,"Sognegården","8. Ballerup","Sognegården,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"97",161003,"Søndervangskolen","8. Ballerup","Søndervangskolen,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"98",161004,"Vestervangskolen","8. Ballerup","Vestervangskolen,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"99",161005,"Ejbyskolen","8. Ballerup","Ejbyskolen,  Ballerup, Denmark",12.354765,55.724508,2750,151
+"100",161006,"Hvissingehallen","8. Ballerup","Hvissingehallen,  Ballerup, Denmark",12.4132633,55.6830997,2600,161
+"101",163001,"Herlev Medborgerhus","4. Rødovre","Herlev Medborgerhus,  R�dovre, Denmark",12.465726,55.673514,2610,175
+"102",163002,"Herlev Hallerne","4. Rødovre","Herlev Hallerne,  R�dovre, Denmark",12.465726,55.673514,2610,175
+"103",163003,"Kildegårdhallen","4. Rødovre","Kildeg�rdhallen,  R�dovre, Denmark",12.465726,55.673514,2610,175
+"104",165001,"Herstedøster Skole","7. Taastrup","Herstedøster Skole,  Taastrup, Denmark",12.3958852,55.666135,2600,161
+"105",165002,"Egelundskolen","7. Taastrup","Egelundskolen,  Taastrup, Denmark",12.2979366,55.6460162,2630,169
+"106",165003,"Herstedlund Skole","7. Taastrup","Herstedlund Skole,  Taastrup, Denmark",12.2979366,55.6460162,2630,169
+"107",165004,"Musikteatret","7. Taastrup","Musikteatret,  Taastrup, Denmark",12.2979366,55.6460162,2630,169
+"108",165005,"Herstedvester Skole","7. Taastrup","Herstedvester Skole,  Taastrup, Denmark",12.3035362,55.6449707,2630,169
+"109",167001,"Holmegårdshallen","5. Hvidovre","Holmegårdshallen,  Hvidovre, Denmark",12.475386,55.642522,2650,167
+"110",167002,"Præstemoseskolen","5. Hvidovre","Præstemoseskolen,  Hvidovre, Denmark",12.4664478,55.6545126,2650,167
+"111",167003,"Sønderkærskolen","5. Hvidovre","Sønderkærskolen,  Hvidovre, Denmark",12.4754161,55.6484215,2650,167
+"112",167004,"Medborgerhuset","5. Hvidovre","Medborgerhuset,  Hvidovre, Denmark",12.475386,55.642522,2650,167
+"113",167005,"Dansborghallen","5. Hvidovre","Dansborghallen,  Hvidovre, Denmark",12.4831585,55.6310925,2650,167
+"114",167006,"Frihedens Idrætscenter","5. Hvidovre","Frihedens Idrætscenter,  Hvidovre, Denmark",12.475386,55.642522,2650,167
+"115",167007,"Avedøre Skole","5. Hvidovre","Avedøre Skole,  Hvidovre, Denmark",12.4568292,55.6331042,2650,167
+"116",167008,"Avedøre Idrætscenter","5. Hvidovre","Avedøre Idrætscenter,  Hvidovre, Denmark",12.4454632,55.6275402,2650,167
+"117",169001,"Selsmoseskolen","7. Taastrup","Selsmoseskolen,  Taastrup, Denmark",12.2950734,55.6548282,2630,169
+"118",169002,"Parkskolen","7. Taastrup","Parkskolen,  Taastrup, Denmark",12.3137512,55.6516973,2630,169
+"119",169003,"Mølleholmskolen","7. Taastrup","Mølleholmskolen,  Taastrup, Denmark",12.3233057,55.6417425,2630,169
+"120",169004,"Taastrup Kulturcenter","7. Taastrup","Taastrup Kulturcenter,  Taastrup, Denmark",12.3086028,55.6459074,2630,169
+"121",169005,"Borgerskolen","7. Taastrup","Borgerskolen,  Taastrup, Denmark",12.2983554,55.6433968,2630,169
+"122",169006,"Gadehaveskolen","7. Taastrup","Gadehaveskolen,  Taastrup, Denmark",12.2689169,55.6520198,2630,169
+"123",169007,"Rønnevangshallen","7. Taastrup","Rønnevangshallen,  Taastrup, Denmark",12.2979366,55.6460162,2630,169
+"124",169008,"Torstorp Skole","7. Taastrup","Torstorp Skole,  Taastrup, Denmark",12.2739312,55.6381249,2630,169
+"125",169009,"Sengeløse","7. Taastrup","Sengeløse,  Taastrup, Denmark",12.246834,55.681832,2630,169
+"126",169010,"Charlotteskolen","7. Taastrup","Charlotteskolen,  Taastrup, Denmark",12.2979366,55.6460162,2630,169
+"127",169011,"Fritidscentret Hedehuset","7. Taastrup","Fritidscentret Hedehuset,  Taastrup, Denmark",12.2979366,55.6460162,2630,169
+"128",169012,"Fløng Hallen","7. Taastrup","Fløng Hallen,  Taastrup, Denmark",12.2979366,55.6460162,2630,169
+"129",169013,"Reerslev Skole","7. Taastrup","Reerslev Skole,  Taastrup, Denmark",12.1872585,55.6193906,2640,169
+"130",173001,"Lyngby Midt","2. Lyngby","Lyngby Midt,  Lyngby, Denmark",12.4949429,55.763516,2800,173
+"131",173002,"Lindegård","2. Lyngby","Lindegård,  Lyngby, Denmark",12.5691051,55.7568286,2920,157
+"132",173003,"Trongård","2. Lyngby","Trongård,  Lyngby, Denmark",12.5364369,55.7770822,2800,173
+"133",173004,"Engelsborg","2. Lyngby","Engelsborg,  Lyngby, Denmark",12.493865,55.7663861,2800,173
+"134",173005,"Taarbæk","2. Lyngby","Taarbæk,  Lyngby, Denmark",12.4949429,55.763516,2800,173
+"135",173006,"Virum","2. Lyngby","Virum,  Lyngby, Denmark",12.461796,55.794614,2830,173
+"136",173007,"Hummeltofte","2. Lyngby","Hummeltofte,  Lyngby, Denmark",12.4671985,55.7820396,2830,173
+"137",173008,"Fuglsanggård","2. Lyngby","Fuglsanggård,  Lyngby, Denmark",12.4819024,55.7907092,2830,173
+"138",173009,"Kongevej","2. Lyngby","Kongevej,  Lyngby, Denmark",12.5578026,55.7852254,2930,173
+"139",173010,"Lundtofte","2. Lyngby","Lundtofte,  Lyngby, Denmark",12.516196,55.794723,2800,173
+"140",175001,"Ørbygård","4. Rødovre","�rbyg�rd,  R�dovre, Denmark",12.4644129,55.6718049,2610,175
+"141",175003,"Rødovre","4. Rødovre","R�dovre,  R�dovre, Denmark",12.465726,55.673514,2610,175
+"142",175004,"Valhøj","4. Rødovre","Valh�j,  R�dovre, Denmark",12.4666667,55.6666667,2610,175
+"143",175005,"Rødovrehallen","4. Rødovre","R�dovrehallen,  R�dovre, Denmark",12.4414319,55.6798711,2610,175
+"144",175007,"Tinderhøj","4. Rødovre","Tinderh�j,  R�dovre, Denmark",12.4440985,55.6938687,2610,175
+"145",175008,"Islev","4. Rødovre","Islev,  R�dovre, Denmark",12.460478,55.697782,2610,175
+"146",183001,"Ishøj Landsby","6. Brøndby","Ish�j Landsby,  Br�ndby, Denmark",12.3653911,55.6366562,2625,187
+"147",183002,"Vibeholmskolen","6. Brøndby","Vibeholmskolen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"148",183003,"Gildbroskolen","6. Brøndby","Gildbroskolen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"149",183004,"Strandgårdskolen","6. Brøndby","Strandg�rdskolen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"150",183005,"Ishøj Bycenter","6. Brøndby","Ish�j Bycenter,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"151",185001,"Vestamager","12. Tårnby","Vestamager,  T�rnby, Denmark",12.5863241,55.6032977,2770,185
+"152",185002,"Pilegården","12. Tårnby","Pileg�rden,  T�rnby, Denmark",12.5864561,55.616267,2770,185
+"153",185003,"Tårnby","12. Tårnby","T�rnby,  T�rnby, Denmark",12.594765,55.62552,2770,185
+"154",185004,"Korsvejen","12. Tårnby","Korsvejen,  T�rnby, Denmark",12.6193778,55.6361261,2770,185
+"155",185005,"Løjtegården","12. Tårnby","L�jteg�rden,  T�rnby, Denmark",12.6147767,55.6226689,2770,185
+"156",185006,"Kastrup","12. Tårnby","Kastrup,  T�rnby, Denmark",12.594765,55.62552,2770,185
+"157",187001,"Vallensbæk Skole, Multisalen","6. Brøndby","Vallensb�k Skole, Multisalen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"158",187002,"Egholmskolen","6. Brøndby","Egholmskolen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"159",187003,"Pilehaveskolen","6. Brøndby","Pilehaveskolen,  Br�ndby, Denmark",12.414886,55.6473055,2605,153
+"160",190001,"Værløse","5. Egedal","Værløse,  Egedal, Denmark",12.3460148,55.7728839,3500,190
+"161",190002,"Hareskov","5. Egedal","Hareskov,  Egedal, Denmark",12.3994538,55.770255,3500,190
+"162",190003,"Søndersø","5. Egedal","Søndersø,  Egedal, Denmark",12.3499231,55.7767204,3500,190
+"163",190004,"Jonstrup","5. Egedal","Jonstrup,  Egedal, Denmark",12.33859,55.7596329,3500,190
+"164",190005,"Stavnsholt","5. Egedal","Stavnsholt,  Egedal, Denmark",12.3792292,55.8132908,3520,190
+"165",190006,"Solvang","5. Egedal","Solvang,  Egedal, Denmark",12.3565007,55.8147946,3520,190
+"166",190007,"Paltholm","5. Egedal","Paltholm,  Egedal, Denmark",12.3661296,55.8173917,3520,190
+"167",201001,"Blovstrød","6. Rudersdal","Blovstrød,  Rudersdal, Denmark",12.385742,55.869214,3450,201
+"168",201002,"Skovvang","6. Rudersdal","Skovvang,  Rudersdal, Denmark",12.4421003,55.8562093,3460,230
+"169",201003,"Lillerød","6. Rudersdal","Lillerød,  Rudersdal, Denmark",12.3429773,55.8684723,3450,201
+"170",201004,"Lynge","6. Rudersdal","Lynge,  Rudersdal, Denmark",12.2827589,55.8410507,3540,201
+"171",201005,"Ravnsholt","6. Rudersdal","Ravnsholt,  Rudersdal, Denmark",12.3547083,55.8539006,3450,201
+"172",210001,"Asminderød","2. Fredensborg","Asminderød,  Fredensborg, Denmark",12.416905,55.969526,3480,210
+"173",210002,"Fredensborg","2. Fredensborg","Fredensborg,  Fredensborg, Denmark",12.405835,55.974684,3480,210
+"174",210003,"Humlebæk","2. Fredensborg","Humlebæk,  Fredensborg, Denmark",12.526863,55.958374,3050,210
+"175",210004,"Baunebjerg","2. Fredensborg","Baunebjerg,  Fredensborg, Denmark",12.5199841,55.9622303,3050,210
+"176",210005,"Ullerød","2. Fredensborg","Ullerød,  Fredensborg, Denmark",12.4972308,55.9163488,2980,210
+"177",210006,"Brønsholm","2. Fredensborg","Brønsholm,  Fredensborg, Denmark",12.476938,55.909866,2980,210
+"178",210007,"Niverød","2. Fredensborg","Niverød,  Fredensborg, Denmark",12.497485,55.93627,2990,210
+"179",210008,"Karlebo","2. Fredensborg","Karlebo,  Fredensborg, Denmark",12.411821,55.919409,2980,210
+"180",210009,"Nivå","2. Fredensborg","Nivå,  Fredensborg, Denmark",12.507951,55.932079,2990,210
+"181",217001,"Helsingør Hallen","1. Helsingør","Helsing�r Hallen,  Helsing�r, Denmark",12.5836535,56.047569,3000,217
+"182",217002,"Montebello, Gurrevej 90","1. Helsingør","Montebello, Gurrevej ,  Helsing�r, Denmark",12.5623207,56.0277353,3000,217
+"183",217003,"Laden, Gl. Vapnagård","1. Helsingør","Laden, Gl Vapnag�rd,  Helsing�r, Denmark",12.592127,56.030787,3000,217
+"184",217004,"Bølgen","1. Helsingør","B�lgen,  Helsing�r, Denmark",12.592127,56.030787,3000,217
+"185",217005,"Hornbæk Skole","1. Helsingør","Hornb�k Skole,  Helsing�r, Denmark",12.5243805,56.0785589,3140,217
+"186",217006,"Nygård Skole, Helsingør","1. Helsingør","Nyg�rd Skole, Helsing�r,  Helsing�r, Denmark",12.5243805,56.0785589,3140,217
+"187",217007,"Tikøb Skole","1. Helsingør","Tik�b Skole,  Helsing�r, Denmark",12.4533352,56.021408,3080,217
+"188",217008,"Kvistgård Idrætsanlæg","1. Helsingør","Kvistg�rd Idr�tsanl�g,  Helsing�r, Denmark",12.592127,56.030787,3000,217
+"189",217009,"Snekkersten Hallen","1. Helsingør","Snekkersten Hallen,  Helsing�r, Denmark",12.592127,56.030787,3000,217
+"190",217010,"Administrationsbygningen, Esp","1. Helsingør","Administrationsbygningen, Esp,  Helsing�r, Denmark",12.592127,56.030787,3000,217
+"191",217011,"Mørdrupskolen, Espergærde","1. Helsingør","M�rdrupskolen, Esperg�rde,  Helsing�r, Denmark",12.541668,55.99097,3060,217
+"192",219001,"Frederiksborgcentret","3. Hillerød","Frederiksborgcentret,  Hiller�d, Denmark",12.300806,55.927909,3400,219
+"193",219002,"Hillerødsholmsskolen","3. Hillerød","Hiller�dsholmsskolen,  Hiller�d, Denmark",12.2892244,55.9392463,3400,219
+"194",219003,"Brødeskov","3. Hillerød","Br�deskov,  Hiller�d, Denmark",12.303178,55.892053,3400,219
+"195",219004,"Hammersholt","3. Hillerød","Hammersholt,  Hiller�d, Denmark",12.3282051,55.8938444,3400,219
+"196",219005,"Alsønderup","3. Hillerød","Als�nderup,  Hiller�d, Denmark",12.230878,55.970414,3400,219
+"197",219006,"Ullerød","3. Hillerød","Uller�d,  Hiller�d, Denmark",12.267591,55.940034,3400,219
+"198",219007,"Nødebo","3. Hillerød","N�debo,  Hiller�d, Denmark",12.346932,55.978672,3480,219
+"199",219008,"Gadevang","3. Hillerød","Gadevang,  Hiller�d, Denmark",12.28857,55.966198,3400,219
+"200",219009,"Grønnevang Skole, Jespervej","3. Hillerød","Gr�nnevang Skole, Jespervej,  Hiller�d, Denmark",12.3347788,55.9410482,3400,219
+"201",219010,"Grønnevang Skole, Østervang","3. Hillerød","Gr�nnevang Skole, �stervang,  Hiller�d, Denmark",12.342667,55.935849,3400,219
+"202",219011,"Lille Lyngby","3. Hillerød","Lille Lyngby,  Hiller�d, Denmark",12.139405,55.950752,3320,219
+"203",219012,"Skævinge, Harløse, Strø","3. Hillerød","Sk�vinge, Harl�se, Str�,  Hiller�d, Denmark",12.1517929,55.8942064,3320,219
+"204",219013,"Gørløse","3. Hillerød","G�rl�se,  Hiller�d, Denmark",12.199052,55.885314,3330,219
+"205",219014,"Uvelse","3. Hillerød","Uvelse,  Hiller�d, Denmark",12.236373,55.86743,3550,219
+"206",223001,"Hørsholm","2. Fredensborg","Hørsholm,  Fredensborg, Denmark",12.4719768,55.8786541,2970,223
+"207",223002,"Usserød","2. Fredensborg","Usserød,  Fredensborg, Denmark",12.500201,55.890211,2970,223
+"208",223003,"Rungsted","2. Fredensborg","Rungsted,  Fredensborg, Denmark",12.536435,55.888559,2960,223
+"209",223004,"Grønnegade","2. Fredensborg","Grønnegade,  Fredensborg, Denmark",12.290515,55.934642,3400,219
+"210",223005,"Vallerød","2. Fredensborg","Vallerød,  Fredensborg, Denmark",12.524271,55.894574,2960,223
+"211",230001,"Birkerød","6. Rudersdal","Birkerød,  Rudersdal, Denmark",12.422112,55.844295,3460,230
+"212",230003,"Ny Holte","6. Rudersdal","Ny Holte,  Rudersdal, Denmark",12.4253555,55.839427,3460,230
+"213",230004,"Nærum","6. Rudersdal","Nærum,  Rudersdal, Denmark",12.535531,55.816157,2850,230
+"214",230005,"Sjælsø","6. Rudersdal","Sjælsø,  Rudersdal, Denmark",12.4454217,55.8672446,3460,230
+"215",230006,"Skovly","6. Rudersdal","Skovly,  Rudersdal, Denmark",12.4932158,55.8218267,2840,230
+"216",230007,"Toftevang","6. Rudersdal","Toftevang,  Rudersdal, Denmark",12.50393,55.773637,2800,173
+"217",230008,"Trørød","6. Rudersdal","Trørød,  Rudersdal, Denmark",12.5398599,55.842913,2950,230
+"218",230009,"Vangebo","6. Rudersdal","Vangebo,  Rudersdal, Denmark",12.4930161,55.8092484,2840,230
+"219",230010,"Vedbæk","6. Rudersdal","Vedbæk,  Rudersdal, Denmark",12.5601636,55.8598884,2950,230
+"220",240001,"Ledøje Forsamlingshus","5. Egedal","Ledøje Forsamlingshus,  Egedal, Denmark",NA,NA,NA,NA
+"221",240002,"Ledøje-Smørum Idrætscenter","5. Egedal","Ledøje-Smørum Idrætscenter,  Egedal, Denmark",12.3034021,55.731621,2765,240
+"222",240003,"Stenløse","5. Egedal","Stenløse,  Egedal, Denmark",12.19831,55.768616,3660,240
+"223",240004,"Veksø","5. Egedal","Veksø,  Egedal, Denmark",12.237891,55.75297,3670,240
+"224",240005,"Ganløse","5. Egedal","Ganløse,  Egedal, Denmark",12.266358,55.792549,3660,240
+"225",240006,"Slagslunde","5. Egedal","Slagslunde,  Egedal, Denmark",12.222354,55.799697,3660,240
+"226",240007,"Toftehøjskolen","5. Egedal","Toftehøjskolen,  Egedal, Denmark",12.154518,55.79025,3650,240
+"227",240008,"Stengårdsskolen","5. Egedal","Stengårdsskolen,  Egedal, Denmark",12.1686505,55.7737824,3650,240
+"228",240009,"Bækkegårdsskolen","5. Egedal","Bækkegårdsskolen,  Egedal, Denmark",12.1802969,55.7777624,3650,240
+"229",250001,"Frederikssund Syd","4. Frederikssund","Frederikssund Syd,  Frederikssund, Denmark",12.062436,55.835592,3600,250
+"230",250002,"Frederikssund Nord","4. Frederikssund","Frederikssund Nord,  Frederikssund, Denmark",12.062436,55.835592,3600,250
+"231",250003,"Slangerup","4. Frederikssund","Slangerup,  Frederikssund, Denmark",12.169767,55.845994,3550,250
+"232",250004,"Skibby","4. Frederikssund","Skibby,  Frederikssund, Denmark",11.958831,55.750793,4050,250
+"233",250005,"Jægerspris","4. Frederikssund","Jægerspris,  Frederikssund, Denmark",11.991855,55.851987,3630,250
+"234",253001,"Arenaskolen","7. Greve","Arenaskolen,  Greve, Denmark",12.333029,55.594758,2670,253
+"235",253002,"Tjørnelyskolen","7. Greve","Tjørnelyskolen,  Greve, Denmark",12.3096494,55.601419,2670,253
+"236",253003,"Holmeagerskolen","7. Greve","Holmeagerskolen,  Greve, Denmark",12.2979229,55.5811435,2670,253
+"237",253004,"Mosedeskolen","7. Greve","Mosedeskolen,  Greve, Denmark",12.2771954,55.5785504,2670,253
+"238",253005,"Karlslundehallerne","7. Greve","Karlslundehallerne,  Greve, Denmark",12.241408,55.5985117,2670,253
+"239",253006,"Tunehallerne","7. Greve","Tunehallerne,  Greve, Denmark",12.1706387,55.5973926,4030,253
+"240",253007,"Hundigehallen","7. Greve","Hundigehallen,  Greve, Denmark",12.241408,55.5985117,2670,253
+"241",259001,"Køge By - Midt","6. Køge","K�ge By - Midt,  K�ge, Denmark",12.182181,55.457526,4600,259
+"242",259002,"Køge By - Vest","6. Køge","K�ge By - Vest,  K�ge, Denmark",12.182181,55.457526,4600,259
+"243",259003,"Lellinge","6. Køge","Lellinge,  K�ge, Denmark",12.109447,55.465407,4600,259
+"244",259004,"Højelse / Lille Skensved","6. Køge","H�jelse / Lille Skensved,  K�ge, Denmark",12.12419,55.496992,4623,259
+"245",259005,"Ølby","6. Køge","�lby,  K�ge, Denmark",12.1461539,55.48613,4600,259
+"246",259006,"Ølsemagle","6. Køge","�lsemagle,  K�ge, Denmark",12.162588,55.499482,4623,259
+"247",259007,"Herfølge","6. Køge","Herf�lge,  K�ge, Denmark",12.141007,55.411485,4681,259
+"248",259008,"Alkestrup","6. Køge","Alkestrup,  K�ge, Denmark",12.0579591,55.3401496,4690,320
+"249",259009,"Hastrup","6. Køge","Hastrup,  K�ge, Denmark",12.165611,55.441412,4600,259
+"250",259010,"Køge By - Nord","6. Køge","K�ge By - Nord,  K�ge, Denmark",12.182181,55.457526,4600,259
+"251",259011,"Herfølge - Syd","6. Køge","Herf�lge - Syd,  K�ge, Denmark",12.141007,55.411485,4681,259
+"252",259012,"Borup","6. Køge","Borup,  K�ge, Denmark",11.9777341,55.4959283,4140,259
+"253",259013,"Ejby","6. Køge","Ejby,  K�ge, Denmark",12.077157,55.48786,4623,259
+"254",259014,"Gørslev","6. Køge","G�rslev,  K�ge, Denmark",11.984011,55.427155,4100,259
+"255",259015,"Bjæverskov","6. Køge","Bj�verskov,  K�ge, Denmark",12.033552,55.457699,4632,259
+"256",259016,"Vemmedrup","6. Køge","Vemmedrup,  K�ge, Denmark",12.062734,55.463335,4632,259
+"257",260001,"Hundested Hallen","4. Frederikssund","Hundested Hallen,  Frederikssund, Denmark",12.062436,55.835592,3600,250
+"258",260002,"Enghave Hallen","4. Frederikssund","Enghave Hallen,  Frederikssund, Denmark",12.062436,55.835592,3600,250
+"259",260003,"Rådhuset","4. Frederikssund","Rådhuset,  Frederikssund, Denmark",12.1572793,55.7935016,3650,240
+"260",260004,"Ølsted Hallen","4. Frederikssund","Ølsted Hallen,  Frederikssund, Denmark",12.0769867,55.919231,3310,260
+"261",260005,"Melby Hallen","4. Frederikssund","Melby Hallen,  Frederikssund, Denmark",12.062436,55.835592,3600,250
+"262",265002,"Klostermarken","8. Roskilde","Klostermarken,  Roskilde, Denmark",12.0954322,55.6502344,4000,265
+"263",265003,"Sankt Jørgen","8. Roskilde","Sankt Jørgen,  Roskilde, Denmark",12.0715164,55.6428288,4000,265
+"264",265004,"Hedegårdene","8. Roskilde","Hedegårdene,  Roskilde, Denmark",12.099739,55.6398624,4000,265
+"265",265005,"Østervang","8. Roskilde","Østervang,  Roskilde, Denmark",12.098075,55.633817,4000,265
+"266",265006,"Himmelev","8. Roskilde","Himmelev,  Roskilde, Denmark",12.101895,55.659675,4000,265
+"267",265007,"Svogerslev","8. Roskilde","Svogerslev,  Roskilde, Denmark",12.01488,55.635065,4000,265
+"268",265008,"Vindinge","8. Roskilde","Vindinge,  Roskilde, Denmark",12.137755,55.623336,4000,265
+"269",265009,"Vor Frue","8. Roskilde","Vor Frue,  Roskilde, Denmark",12.096393,55.610887,4000,265
+"270",265010,"Æblehaven","8. Roskilde","Æblehaven,  Roskilde, Denmark",12.0619099,55.6296212,4000,265
+"271",265011,"Gundsølille","8. Roskilde","Gundsølille,  Roskilde, Denmark",12.160245,55.708009,4000,265
+"272",265013,"Jyllinge","8. Roskilde","Jyllinge,  Roskilde, Denmark",12.110293,55.748496,4040,265
+"273",265014,"Gundsømagle","8. Roskilde","Gundsømagle,  Roskilde, Denmark",12.1512058,55.7375357,4000,265
+"274",265015,"Baunehøj","8. Roskilde","Baunehøj,  Roskilde, Denmark",11.96641,55.57056,4320,350
+"275",265016,"Gadstrup","8. Roskilde","Gadstrup,  Roskilde, Denmark",12.094667,55.570777,4621,265
+"276",265017,"Viby","8. Roskilde","Viby,  Roskilde, Denmark",12.0237975,55.5486377,4130,265
+"277",265018,"Snoldelev","8. Roskilde","Snoldelev,  Roskilde, Denmark",12.133256,55.570344,4621,265
+"278",265020,"Dåstrup","8. Roskilde","Dåstrup,  Roskilde, Denmark",12.013643,55.557227,4130,265
+"279",265021,"Trekroner","8. Roskilde","Trekroner,  Roskilde, Denmark",12.138576,55.6499916,4000,265
+"280",269001,"Havdrup","7. Greve","Havdrup,  Greve, Denmark",12.121418,55.546281,4622,269
+"281",269004,"Det Nordlige Strandområde","7. Greve","Det Nordlige Strandområde,  Greve, Denmark",12.241408,55.5985117,2670,253
+"282",269005,"Det Sydlige Strandområde","7. Greve","Det Sydlige Strandområde,  Greve, Denmark",12.241408,55.5985117,2670,253
+"283",270001,"Blistrup","3. Hillerød","Blistrup,  Hiller�d, Denmark",12.300806,55.927909,3400,219
+"284",270002,"Esbønderup","3. Hillerød","Esb�nderup,  Hiller�d, Denmark",12.3440309,56.0754625,3250,270
+"285",270003,"Valby","3. Hillerød","Valby,  Hiller�d, Denmark",12.2443847,56.0239138,3200,270
+"286",270004,"Græsted","3. Hillerød","Gr�sted,  Hiller�d, Denmark",12.285583,56.0652,3230,270
+"287",270005,"Annisse","3. Hillerød","Annisse,  Hiller�d, Denmark",12.172798,55.980581,3200,270
+"288",270006,"Gilleleje","3. Hillerød","Gilleleje,  Hiller�d, Denmark",12.3422342,56.0202349,3230,270
+"289",270007,"Søborg","3. Hillerød","S�borg,  Hiller�d, Denmark",12.5270866,55.6967473,2200,101
+"290",270008,"Helsinge","3. Hillerød","Helsinge,  Hiller�d, Denmark",12.196873,56.020813,3200,270
+"291",270009,"Mårum","3. Hillerød","M�rum,  Hiller�d, Denmark",12.2386331,56.0111038,3200,270
+"292",270010,"Ramløse","3. Hillerød","Raml�se,  Hiller�d, Denmark",12.300806,55.927909,3400,219
+"293",270011,"Vejby","3. Hillerød","Vejby,  Hiller�d, Denmark",12.300806,55.927909,3400,219
+"294",270012,"Tibirke","3. Hillerød","Tibirke,  Hiller�d, Denmark",12.300806,55.927909,3400,219
+"295",306001,"Asnæs","10. Kalundborg","Asn�s,  Kalundborg, Denmark",10.9986111,55.6627778,4400,326
+"296",306002,"Fårevejle","10. Kalundborg","F�revejle,  Kalundborg, Denmark",11.4421178,55.8033647,4540,306
+"297",306003,"Grevinge","10. Kalundborg","Grevinge,  Kalundborg, Denmark",11.089188,55.686429,4400,326
+"298",306004,"Hørve","10. Kalundborg","H�rve,  Kalundborg, Denmark",11.451536,55.752028,4534,306
+"299",306005,"Odden","10. Kalundborg","Odden,  Kalundborg, Denmark",11.089188,55.686429,4400,326
+"300",306006,"Vig","10. Kalundborg","Vig,  Kalundborg, Denmark",11.1828558,55.7221362,4400,326
+"301",306007,"Nykøbing","10. Kalundborg","Nyk�bing,  Kalundborg, Denmark",11.3829532,55.4933325,4291,326
+"302",306008,"Rørvig","10. Kalundborg","R�rvig,  Kalundborg, Denmark",11.089188,55.686429,4400,326
+"303",306010,"Egebjerg","10. Kalundborg","Egebjerg,  Kalundborg, Denmark",11.089188,55.686429,4400,326
+"304",306011,"Højby","10. Kalundborg","H�jby,  Kalundborg, Denmark",11.089188,55.686429,4400,326
+"305",306012,"Lumsås","10. Kalundborg","Lums�s,  Kalundborg, Denmark",11.089188,55.686429,4400,326
+"306",306013,"Nr. Asmindrup","10. Kalundborg","Nr Asmindrup,  Kalundborg, Denmark",11.1874711,55.6865085,4400,326
+"307",316001,"Holbæk Øst","9. Holbæk","Holb�k �st,  Holb�k, Denmark",11.717578,55.7146554,4300,316
+"308",316002,"Holbæk Vest","9. Holbæk","Holb�k Vest,  Holb�k, Denmark",11.717578,55.7146554,4300,316
+"309",316003,"Holbæk Midt","9. Holbæk","Holb�k Midt,  Holb�k, Denmark",11.7125408,55.7163879,4300,316
+"310",316004,"Vipperød","9. Holbæk","Vipper�d,  Holb�k, Denmark",11.7347819,55.669033,4390,316
+"311",316005,"Tuse","9. Holbæk","Tuse,  Holb�k, Denmark",11.625044,55.711007,4300,316
+"312",316006,"Udby","9. Holbæk","Udby,  Holb�k, Denmark",11.7100329,55.757266,4300,316
+"313",316007,"Tølløse","9. Holbæk","T�ll�se,  Holb�k, Denmark",11.764458,55.614538,4340,316
+"314",316008,"St. Merløse","9. Holbæk","St Merl�se,  Holb�k, Denmark",11.7008637,55.6948231,4300,316
+"315",316009,"Regstrup","9. Holbæk","Regstrup,  Holb�k, Denmark",11.615899,55.674897,4420,316
+"316",316010,"Undløse","9. Holbæk","Undl�se,  Holb�k, Denmark",11.587638,55.603692,4340,316
+"317",316011,"Jyderup","9. Holbæk","Jyderup,  Holb�k, Denmark",11.408365,55.6615705,4450,316
+"318",316012,"Mørkøv","9. Holbæk","M�rk�v,  Holb�k, Denmark",11.501435,55.651708,4440,316
+"319",316013,"Svinninge","9. Holbæk","Svinninge,  Holb�k, Denmark",11.461991,55.7216122,4520,316
+"320",316014,"Gislinge","9. Holbæk","Gislinge,  Holb�k, Denmark",11.547583,55.732891,4532,316
+"321",316015,"Orø","9. Holbæk","Or�,  Holb�k, Denmark",11.8192247,55.7745484,4300,316
+"322",320001,"Haslev 01","5. Faxe","Haslev ,  Faxe, Denmark",11.9608589,55.326262,4690,320
+"323",320002,"Haslev 02","5. Faxe","Haslev ,  Faxe, Denmark",11.9608589,55.326262,4690,320
+"324",320003,"Faxe","5. Faxe","Faxe,  Faxe, Denmark",12.11381,55.255138,4640,320
+"325",320004,"Hylleholt","5. Faxe","Hylleholt,  Faxe, Denmark",12.1543819,55.2188157,4654,320
+"326",320005,"Karise","5. Faxe","Karise,  Faxe, Denmark",12.1985569,55.306879,4653,320
+"327",320006,"Dalby","5. Faxe","Dalby,  Faxe, Denmark",12.061307,55.310259,4690,320
+"328",320007,"Rønnede","5. Faxe","Rønnede,  Faxe, Denmark",12.025123,55.256553,4683,320
+"329",326001,"Snertinge","10. Kalundborg","Snertinge,  Kalundborg, Denmark",11.3792624,55.7113626,4460,326
+"330",326002,"Sejerø","10. Kalundborg","Sejer�,  Kalundborg, Denmark",11.1438679,55.8831492,4592,326
+"331",326003,"Svebølle","10. Kalundborg","Sveb�lle,  Kalundborg, Denmark",11.285092,55.651752,4470,326
+"332",326004,"Gørlev","10. Kalundborg","G�rlev,  Kalundborg, Denmark",11.226834,55.545382,4281,326
+"333",326005,"Kr. Helsinge","10. Kalundborg","Kr Helsinge,  Kalundborg, Denmark",11.1744329,55.4989261,4281,326
+"334",326006,"Reersø","10. Kalundborg","Reers�,  Kalundborg, Denmark",11.1100359,55.523111,4281,326
+"335",326007,"Svallerup","10. Kalundborg","Svallerup,  Kalundborg, Denmark",11.176254,55.607946,4400,326
+"336",326008,"Ubby","10. Kalundborg","Ubby,  Kalundborg, Denmark",11.218885,55.615962,4490,326
+"337",326009,"Høng","10. Kalundborg","H�ng,  Kalundborg, Denmark",11.290338,55.507129,4270,326
+"338",326010,"Buerup","10. Kalundborg","Buerup,  Kalundborg, Denmark",11.338848,55.594961,4450,326
+"339",326011,"Gierslev","10. Kalundborg","Gierslev,  Kalundborg, Denmark",11.32187,55.490784,4270,326
+"340",326012,"Kalundborghallen","10. Kalundborg","Kalundborghallen,  Kalundborg, Denmark",11.089188,55.686429,4400,326
+"341",326013,"Rynkevang","10. Kalundborg","Rynkevang,  Kalundborg, Denmark",11.1114182,55.6785494,4400,326
+"342",326014,"Tømmerup","10. Kalundborg","T�mmerup,  Kalundborg, Denmark",11.150843,55.679598,4400,326
+"343",326015,"Årby-Rørby","10. Kalundborg","�rby-R�rby,  Kalundborg, Denmark",11.1391318,55.6475495,4400,326
+"344",326016,"Raklev","10. Kalundborg","Raklev,  Kalundborg, Denmark",11.067358,55.695337,4400,326
+"345",326017,"Røsnæs","10. Kalundborg","R�sn�s,  Kalundborg, Denmark",10.9611111,55.7375,4400,326
+"346",326018,"Ulshøj","10. Kalundborg","Ulsh�j,  Kalundborg, Denmark",11.0832905,55.6862172,4400,326
+"347",329001,"Ringsted Nørretorv","11. Ringsted","Ringsted N�rretorv,  Ringsted, Denmark",11.7880673,55.4501839,4100,329
+"348",329002,"Bringstrup","11. Ringsted","Bringstrup,  Ringsted, Denmark",11.730106,55.448206,4100,329
+"349",329003,"Gyrstinge","11. Ringsted","Gyrstinge,  Ringsted, Denmark",11.685839,55.488353,4100,329
+"350",329004,"Benløse","11. Ringsted","Benl�se,  Ringsted, Denmark",11.807364,55.469443,4100,329
+"351",329005,"Haraldsted","11. Ringsted","Haraldsted,  Ringsted, Denmark",11.7687069,55.490754,4100,329
+"352",329006,"Ringsted Dagmarskolen","11. Ringsted","Ringsted Dagmarskolen,  Ringsted, Denmark",11.78389,55.439248,4100,329
+"353",329008,"Jystrup","11. Ringsted","Jystrup,  Ringsted, Denmark",11.8658743,55.5154163,4174,329
+"354",329009,"Kværkeby","11. Ringsted","Kv�rkeby,  Ringsted, Denmark",11.873766,55.462635,4100,329
+"355",329010,"Vetterslev","11. Ringsted","Vetterslev,  Ringsted, Denmark",11.766028,55.388085,4100,329
+"356",329011,"Sneslev","11. Ringsted","Sneslev,  Ringsted, Denmark",11.841942,55.389316,4100,329
+"357",329012,"Nordrup","11. Ringsted","Nordrup,  Ringsted, Denmark",11.886953,55.408071,4100,329
+"358",329013,"Vigersted","11. Ringsted","Vigersted,  Ringsted, Denmark",11.887562,55.48398,4100,329
+"359",329014,"Ørslev","11. Ringsted","�rslev,  Ringsted, Denmark",11.93689,55.387165,4100,329
+"360",330001,"Dalmose","12. Slagelse","Dalmose,  Slagelse, Denmark",11.418498,55.292912,4261,330
+"361",330002,"Flakkebjerg","12. Slagelse","Flakkebjerg,  Slagelse, Denmark",11.395274,55.312111,4200,330
+"362",330003,"Slots Bjergby","12. Slagelse","Slots Bjergby,  Slagelse, Denmark",11.3366209,55.372284,4200,330
+"363",330004,"Sørbymagle","12. Slagelse","S�rbymagle,  Slagelse, Denmark",11.440532,55.363197,4200,330
+"364",330005,"Korsør Søndre Bydel","12. Slagelse","Kors�r S�ndre Bydel,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"365",330006,"Korsør Nordre Bydel","12. Slagelse","Kors�r Nordre Bydel,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"366",330007,"Tårnborg","12. Slagelse","T�rnborg,  Slagelse, Denmark",11.1406855,55.3433105,4220,330
+"367",330008,"Vemmelev","12. Slagelse","Vemmelev,  Slagelse, Denmark",11.257955,55.362727,4241,330
+"368",330009,"Søndermark","12. Slagelse","S�ndermark,  Slagelse, Denmark",11.401329,55.3660466,4200,330
+"369",330010,"Rude","12. Slagelse","Rude,  Slagelse, Denmark",11.469648,55.232017,4243,330
+"370",330011,"Skælskør Vest","12. Slagelse","Sk�lsk�r Vest,  Slagelse, Denmark",11.296083,55.25233,4230,330
+"371",330012,"Agersø","12. Slagelse","Agers�,  Slagelse, Denmark",11.1844452,55.2142547,4230,330
+"372",330013,"Boeslunde","12. Slagelse","Boeslunde,  Slagelse, Denmark",11.264716,55.303168,4242,330
+"373",330014,"Eggeslevmagle Forsamlingshus","12. Slagelse","Eggeslevmagle Forsamlingshus,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"374",330015,"Skælskør Øst","12. Slagelse","Sk�lsk�r �st,  Slagelse, Denmark",11.296083,55.25233,4230,330
+"375",330016,"Magleby Forsamlingshus","12. Slagelse","Magleby Forsamlingshus,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"376",330017,"Omø","12. Slagelse","Om�,  Slagelse, Denmark",11.1539777,55.1611551,4230,330
+"377",330018,"Tjæreby Forsamlingshus","12. Slagelse","Tj�reby Forsamlingshus,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"378",330019,"Slagelse Hallen","12. Slagelse","Slagelse Hallen,  Slagelse, Denmark",11.361802,55.401224,4200,330
+"379",330020,"Antvorskov","12. Slagelse","Antvorskov,  Slagelse, Denmark",11.369027,55.390094,4200,330
+"380",330021,"Vesthallen","12. Slagelse","Vesthallen,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"381",330022,"Nordhallen","12. Slagelse","Nordhallen,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"382",330024,"Vestermose","12. Slagelse","Vestermose,  Slagelse, Denmark",11.4088033,55.4700532,4200,330
+"383",330025,"Stillinge","12. Slagelse","Stillinge,  Slagelse, Denmark",11.2569686,55.4367383,4200,330
+"384",330026,"Havrebjerg Heldagsskole","12. Slagelse","Havrebjerg Heldagsskole,  Slagelse, Denmark",11.355257,55.403692,4200,330
+"385",336001,"Hårlevhallen","5. Faxe","Hårlevhallen,  Faxe, Denmark",12.11381,55.255138,4640,320
+"386",336002,"Strøbyhallen","5. Faxe","Strøbyhallen,  Faxe, Denmark",12.11381,55.255138,4640,320
+"387",336003,"Stevnshallen","5. Faxe","Stevnshallen,  Faxe, Denmark",12.11381,55.255138,4640,320
+"388",336004,"Harmonien","5. Faxe","Harmonien,  Faxe, Denmark",12.11381,55.255138,4640,320
+"389",340001,"Dianalund","11. Ringsted","Dianalund,  Ringsted, Denmark",11.791372,55.442952,4100,329
+"390",340002,"Ruds Vedby","11. Ringsted","Ruds Vedby,  Ringsted, Denmark",11.791372,55.442952,4100,329
+"391",340004,"Alsted Fjenneslev","11. Ringsted","Alsted Fjenneslev,  Ringsted, Denmark",11.6715845,55.4064927,4173,340
+"392",340005,"Sorø","11. Ringsted","Sor�,  Ringsted, Denmark",11.791372,55.442952,4100,329
+"393",340006,"Frederiksberg","11. Ringsted","Frederiksberg,  Ringsted, Denmark",11.5899246,55.4432971,4180,340
+"394",340008,"Pedersborg","11. Ringsted","Pedersborg,  Ringsted, Denmark",11.5899246,55.4432971,4180,340
+"395",340010,"Stenlille","11. Ringsted","Stenlille,  Ringsted, Denmark",11.591681,55.540039,4295,340
+"396",350001,"Hyllinge-Lyndby","6. Køge","Hyllinge-Lyndby,  K�ge, Denmark",12.182181,55.457526,4600,259
+"397",350002,"Rye","6. Køge","Rye,  K�ge, Denmark",11.970975,55.510489,4140,259
+"398",350003,"Sæby-Gershøj","6. Køge","S�by-Gersh�j,  K�ge, Denmark",12.182181,55.457526,4600,259
+"399",350004,"Sonnerup","6. Køge","Sonnerup,  K�ge, Denmark",12.093899,55.377449,4682,259
+"400",350005,"Glim","6. Køge","Glim,  K�ge, Denmark",12.0913275,55.6264825,4000,265
+"401",350006,"Hvalsø","6. Køge","Hvals�,  K�ge, Denmark",11.8610174,55.5943189,4330,350
+"402",350008,"Kr.Såby","6. Køge","KrS�by,  K�ge, Denmark",12.182181,55.457526,4600,259
+"403",350009,"Gevninge","6. Køge","Gevninge,  K�ge, Denmark",12.182181,55.457526,4600,259
+"404",350011,"Lejre","6. Køge","Lejre,  K�ge, Denmark",11.964526,55.601292,4320,350
+"405",350012,"Osted","6. Køge","Osted,  K�ge, Denmark",11.9617295,55.5657522,4320,350
+"406",360001,"Errindlev","1. Lolland","Errindlev,  Lolland, Denmark",11.49468,54.668442,4895,360
+"407",360003,"Holeby","1. Lolland","Holeby,  Lolland, Denmark",11.4649319,54.710697,4960,360
+"408",360008,"Sandby","1. Lolland","Sandby,  Lolland, Denmark",11.087225,54.875236,4912,360
+"409",360011,"Søllested","1. Lolland","Søllested,  Lolland, Denmark",11.2704649,54.8104619,4920,360
+"410",360013,"Maribo","1. Lolland","Maribo,  Lolland, Denmark",11.50737,54.774717,4930,360
+"411",360014,"Askø","1. Lolland","Askø,  Lolland, Denmark",11.4928036,54.894788,4930,360
+"412",360019,"Østofte","1. Lolland","Østofte,  Lolland, Denmark",11.425617,54.801872,4951,360
+"413",360020,"Nakskov Idrætscenter","1. Lolland","Nakskov Idrætscenter,  Lolland, Denmark",11.1353983,54.8357472,4900,360
+"414",360021,"Nakskov Stormarkskolen","1. Lolland","Nakskov Stormarkskolen,  Lolland, Denmark",11.1540735,54.8377956,4900,360
+"415",360026,"Birket","1. Lolland","Birket,  Lolland, Denmark",11.331738,54.900472,4943,360
+"416",360027,"Fejø","1. Lolland","Fejø,  Lolland, Denmark",11.4233008,54.9488266,4944,360
+"417",360028,"Femø","1. Lolland","Femø,  Lolland, Denmark",11.5303256,54.972097,4930,360
+"418",360029,"Horslunde","1. Lolland","Horslunde,  Lolland, Denmark",11.216608,54.910733,4913,360
+"419",360035,"Dannemare","1. Lolland","Dannemare,  Lolland, Denmark",11.187451,54.760748,4983,360
+"420",360036,"Rødby","1. Lolland","Rødby,  Lolland, Denmark",11.389576,54.6937,4970,360
+"421",360037,"Rødbyhavn","1. Lolland","Rødbyhavn,  Lolland, Denmark",11.356621,54.662743,4970,360
+"422",370001,"Fuglebjerg Hallen","4. Næstved","Fuglebjerg Hallen,  N�stved, Denmark",11.759207,55.224613,4700,370
+"423",370002,"Everdrup","4. Næstved","Everdrup,  N�stved, Denmark",11.959554,55.204385,4733,370
+"424",370003,"Grønbro-Hallen","4. Næstved","Gr�nbro-Hallen,  N�stved, Denmark",11.759207,55.224613,4700,370
+"425",370004,"Næstelsø - Mogenstrup","4. Næstved","N�stels� - Mogenstrup,  N�stved, Denmark",11.864618,55.181468,4700,370
+"426",370005,"Tybjerg","4. Næstved","Tybjerg,  N�stved, Denmark",11.810172,55.34887,4160,370
+"427",370006,"Snesere","4. Næstved","Snesere,  N�stved, Denmark",11.9324429,55.164469,4733,370
+"428",370007,"Hammer - Vester Egesborg","4. Næstved","Hammer - Vester Egesborg,  N�stved, Denmark",11.8171873,55.1570149,4700,370
+"429",370008,"Fensmark","4. Næstved","Fensmark,  N�stved, Denmark",11.8042779,55.2771809,4684,370
+"430",370009,"Holme-Olstrup","4. Næstved","Holme-Olstrup,  N�stved, Denmark",11.846728,55.258996,4684,370
+"431",370010,"Toksværd","4. Næstved","Toksv�rd,  N�stved, Denmark",11.878316,55.252656,4684,370
+"432",370011,"Glumsø","4. Næstved","Glums�,  N�stved, Denmark",11.687912,55.356229,4171,370
+"433",370012,"Sandby","4. Næstved","Sandby,  N�stved, Denmark",11.7439,55.379254,4171,370
+"434",370013,"Skelby","4. Næstved","Skelby,  N�stved, Denmark",11.678807,55.314665,4160,370
+"435",370014,"Herlufmagle","4. Næstved","Herlufmagle,  N�stved, Denmark",11.751303,55.313832,4160,370
+"436",370020,"Ll. Næstved Skole-Karrebækvej","4. Næstved","Ll N�stved Skole-Karreb�kvej,  N�stved, Denmark",11.7112337,55.2144522,4700,370
+"437",370021,"Grønnegades Kaserne","4. Næstved","Gr�nnegades Kaserne,  N�stved, Denmark",11.7611486,55.2319207,4700,370
+"438",370022,"Kildemarkskolen","4. Næstved","Kildemarkskolen,  N�stved, Denmark",11.7809392,55.2313497,4700,370
+"439",370023,"Næstved Hallerne","4. Næstved","N�stved Hallerne,  N�stved, Denmark",11.8682272,55.1784323,4700,370
+"440",370024,"Sct. Jørgens Skole","4. Næstved","Sct J�rgens Skole,  N�stved, Denmark",11.7495282,55.2143679,4700,370
+"441",370025,"Kalbyrisskolen","4. Næstved","Kalbyrisskolen,  N�stved, Denmark",11.7728664,55.2427719,4700,370
+"442",370026,"Ll Næstved Skole-Herlufsholmve","4. Næstved","Ll N�stved Skole-Herlufsholmve,  N�stved, Denmark",11.759207,55.224613,4700,370
+"443",370027,"Herlufsholmhallen","4. Næstved","Herlufsholmhallen,  N�stved, Denmark",11.7577506,55.2473049,4700,370
+"444",370028,"Sydbyskolen","4. Næstved","Sydbyskolen,  N�stved, Denmark",11.7775488,55.2107696,4700,370
+"445",370029,"Rønnebæk","4. Næstved","R�nneb�k,  N�stved, Denmark",11.810904,55.218106,4700,370
+"446",370031,"Hyllinge","4. Næstved","Hyllinge,  N�stved, Denmark",11.600549,55.257281,4700,370
+"447",370032,"Karrebæk","4. Næstved","Karreb�k,  N�stved, Denmark",11.653487,55.191031,4736,370
+"448",376001,"Byen","2. Guldborgsund","Byen,  Guldborgsund, Denmark",11.8740687,54.7670385,4800,376
+"449",376002,"Østerbro","2. Guldborgsund","Østerbro,  Guldborgsund, Denmark",12.0319583,54.8678027,4850,376
+"450",376003,"Lindeskov","2. Guldborgsund","Lindeskov,  Guldborgsund, Denmark",NA,NA,NA,NA
+"451",376004,"Ejegod","2. Guldborgsund","Ejegod,  Guldborgsund, Denmark",11.8618298,54.7798582,4800,376
+"452",376005,"Kraghave","2. Guldborgsund","Kraghave,  Guldborgsund, Denmark",11.876132,54.802779,4800,376
+"453",376006,"Toreby","2. Guldborgsund","Toreby,  Guldborgsund, Denmark",11.7876049,54.753032,4891,376
+"454",376007,"Sundby","2. Guldborgsund","Sundby,  Guldborgsund, Denmark",11.848171,54.76643,4800,376
+"455",376008,"Nysted","2. Guldborgsund","Nysted,  Guldborgsund, Denmark",11.733383,54.664537,4880,376
+"456",376009,"Øster Ulslev","2. Guldborgsund","Øster Ulslev,  Guldborgsund, Denmark",11.6263016,54.6975139,4894,376
+"457",376010,"Nørre Alslev","2. Guldborgsund","Nørre Alslev,  Guldborgsund, Denmark",11.8779491,54.8959756,4840,376
+"458",376011,"Nørre Vedby","2. Guldborgsund","Nørre Vedby,  Guldborgsund, Denmark",11.827711,54.929702,4840,376
+"459",376012,"Eskilstrup","2. Guldborgsund","Eskilstrup,  Guldborgsund, Denmark",11.8851322,54.8554988,4863,376
+"460",376013,"Sakskøbing","2. Guldborgsund","Sakskøbing,  Guldborgsund, Denmark",11.631226,54.798236,4990,376
+"461",376014,"Majbølle","2. Guldborgsund","Majbølle,  Guldborgsund, Denmark",11.734466,54.833729,4862,376
+"462",376015,"Våbensted","2. Guldborgsund","Våbensted,  Guldborgsund, Denmark",11.581524,54.790786,4990,376
+"463",376016,"Stubbekøbing","2. Guldborgsund","Stubbekøbing,  Guldborgsund, Denmark",12.036023,54.888258,4850,376
+"464",376017,"Horreby","2. Guldborgsund","Horreby,  Guldborgsund, Denmark",11.993705,54.802117,4800,376
+"465",376018,"Idestrup","2. Guldborgsund","Idestrup,  Guldborgsund, Denmark",11.957476,54.741868,4872,376
+"466",376019,"Væggerløse","2. Guldborgsund","Væggerløse,  Guldborgsund, Denmark",11.9256689,54.710794,4873,376
+"467",376020,"Gedser","2. Guldborgsund","Gedser,  Guldborgsund, Denmark",11.931194,54.574422,4874,376
+"468",390001,"Vordingborg","3. Vordingborg","Vordingborg,  Vordingborg, Denmark",11.909363,55.008925,4760,390
+"469",390002,"Masnedsund","3. Vordingborg","Masnedsund,  Vordingborg, Denmark",11.8721446,55.0017992,4760,390
+"470",390003,"Nyråd","3. Vordingborg","Nyråd,  Vordingborg, Denmark",11.961216,55.002933,4760,390
+"471",390004,"Kastrup","3. Vordingborg","Kastrup,  Vordingborg, Denmark",11.899438,55.032882,4760,390
+"472",390005,"Bårse","3. Vordingborg","Bårse,  Vordingborg, Denmark",11.95159,55.126022,4720,390
+"473",390006,"Lundby","3. Vordingborg","Lundby,  Vordingborg, Denmark",11.8759046,55.1085988,4750,390
+"474",390007,"Ørslev","3. Vordingborg","Ørslev,  Vordingborg, Denmark",11.964033,55.042655,4760,390
+"475",390008,"Stege","3. Vordingborg","Stege,  Vordingborg, Denmark",12.286917,54.991021,4780,390
+"476",390009,"Østmøn","3. Vordingborg","Østmøn,  Vordingborg, Denmark",11.909363,55.008925,4760,390
+"477",390010,"Vestmøn","3. Vordingborg","Vestmøn,  Vordingborg, Denmark",12.1524012,54.8829093,4792,390
+"478",390011,"Bogø","3. Vordingborg","Bogø,  Vordingborg, Denmark",12.0509789,54.92685,4793,390
+"479",390012,"Præstø","3. Vordingborg","Præstø,  Vordingborg, Denmark",12.055145,55.118313,4720,390
+"480",390013,"Allerslev","3. Vordingborg","Allerslev,  Vordingborg, Denmark",12.035633,55.081697,4720,390
+"481",390014,"Jungshoved","3. Vordingborg","Jungshoved,  Vordingborg, Denmark",12.0645791,55.0544382,4735,390
+"482",390015,"Mern","3. Vordingborg","Mern,  Vordingborg, Denmark",12.056782,55.048411,4735,390
+"483",390016,"Kalvehave","3. Vordingborg","Kalvehave,  Vordingborg, Denmark",12.167687,54.9984257,4771,390
+"484",390017,"Stensved","3. Vordingborg","Stensved,  Vordingborg, Denmark",12.026348,54.998476,4773,390
+"485",400001,"Allinge","2. Aakirkeby","Allinge,  Aakirkeby, Denmark",14.920503,55.070084,3720,400
+"486",400002,"Østermarie","2. Aakirkeby","Østermarie,  Aakirkeby, Denmark",14.920503,55.070084,3720,400
+"487",400003,"Svaneke","2. Aakirkeby","Svaneke,  Aakirkeby, Denmark",14.9224514,55.0716685,3720,400
+"488",400004,"Nexø","2. Aakirkeby","Nexø,  Aakirkeby, Denmark",14.9722264,55.0690551,3720,400
+"489",400005,"Pedersker","2. Aakirkeby","Pedersker,  Aakirkeby, Denmark",14.99243,55.030893,3720,400
+"490",400006,"Aakirkeby","2. Aakirkeby","Aakirkeby,  Aakirkeby, Denmark",14.920503,55.070084,3720,400
+"491",400007,"Klemensker","1. Rønne","Klemensker,  R�nne, Denmark",14.7913073,55.2448621,3770,400
+"492",400008,"Rønne","1. Rønne","R�nne,  R�nne, Denmark",14.708329,55.101017,3700,400
+"493",400009,"Hasle","1. Rønne","Hasle,  R�nne, Denmark",14.7112295,55.124265,3700,400
+"494",410001,"Middelfart V","5. Middelfart","Middelfart V,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"495",410002,"Middelfart Ø","5. Middelfart","Middelfart Ø,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"496",410003,"Strib","5. Middelfart","Strib,  Middelfart, Denmark",9.77788,55.535661,5500,410
+"497",410004,"Hyllehøj","5. Middelfart","Hyllehøj,  Middelfart, Denmark",9.7876382,55.4883316,5500,410
+"498",410005,"Aulby","5. Middelfart","Aulby,  Middelfart, Denmark",9.8223369,55.500554,5500,410
+"499",410006,"Nørre Aaby","5. Middelfart","Nørre Aaby,  Middelfart, Denmark",9.873349,55.472362,5580,410
+"500",410007,"Baaring","5. Middelfart","Baaring,  Middelfart, Denmark",9.909763,55.490568,5466,410
+"501",410008,"Ejby","5. Middelfart","Ejby,  Middelfart, Denmark",9.9393639,55.4345817,5592,410
+"502",410009,"Gelsted","5. Middelfart","Gelsted,  Middelfart, Denmark",9.9733561,55.3988323,5591,410
+"503",410010,"Brenderup","5. Middelfart","Brenderup,  Middelfart, Denmark",9.9718267,55.4892666,5464,410
+"504",410011,"Fjelsted/Harndrup","5. Middelfart","Fjelsted/Harndrup,  Middelfart, Denmark",10.013285,55.441206,5463,410
+"505",411001,"Christiansø","2. Aakirkeby","Christiansø,  Aakirkeby, Denmark",14.920503,55.070084,3720,400
+"506",420001,"Assens","4. Assens","Assens,  Assens, Denmark",9.9008188,55.2702263,5610,420
+"507",420002,"Ebberup","4. Assens","Ebberup,  Assens, Denmark",9.98401,55.247802,5631,420
+"508",420003,"Turup","4. Assens","Turup,  Assens, Denmark",9.991631,55.300498,5610,420
+"509",420004,"Salbrovad","4. Assens","Salbrovad,  Assens, Denmark",9.9397219,55.3200505,5610,420
+"510",420005,"Helnæs","4. Assens","Helnæs,  Assens, Denmark",10.012142,55.1411794,5631,420
+"511",420007,"Køng","4. Assens","Køng,  Assens, Denmark",10.132558,55.257833,5620,420
+"512",420008,"Glamsbjerg","4. Assens","Glamsbjerg,  Assens, Denmark",10.107341,55.27769,5620,420
+"513",420009,"Flemløse","4. Assens","Flemløse,  Assens, Denmark",10.067179,55.248628,5620,420
+"514",420010,"Søllested","4. Assens","Søllested,  Assens, Denmark",10.049292,55.292526,5620,420
+"515",420011,"Ørsted","4. Assens","Ørsted,  Assens, Denmark",10.055381,55.331676,5620,420
+"516",420012,"Dreslette","4. Assens","Dreslette,  Assens, Denmark",10.036873,55.226383,5683,420
+"517",420013,"Haarby","4. Assens","Haarby,  Assens, Denmark",10.120556,55.21518,5683,420
+"518",420014,"Jordløse","4. Assens","Jordløse,  Assens, Denmark",10.155705,55.199307,5683,420
+"519",420015,"Brylle","4. Assens","Brylle,  Assens, Denmark",10.2520589,55.321906,5690,420
+"520",420016,"Tommerup","4. Assens","Tommerup,  Assens, Denmark",10.204504,55.320805,5690,420
+"521",420017,"Tommerup St","4. Assens","Tommerup St,  Assens, Denmark",10.213953,55.294761,5690,420
+"522",420018,"Verninge","4. Assens","Verninge,  Assens, Denmark",10.213291,55.292272,5690,420
+"523",420019,"Nårup","4. Assens","Nårup,  Assens, Denmark",10.1540839,55.304297,5690,420
+"524",420020,"Vissenbjerg","4. Assens","Vissenbjerg,  Assens, Denmark",10.125458,55.387431,5492,420
+"525",420021,"Aarup","4. Assens","Aarup,  Assens, Denmark",10.0483609,55.3791812,5560,420
+"526",420022,"Kerte","4. Assens","Kerte,  Assens, Denmark",9.993275,55.362854,5560,420
+"527",420023,"Orte","4. Assens","Orte,  Assens, Denmark",10.090354,55.350044,5560,420
+"528",420024,"Rørup","4. Assens","Rørup,  Assens, Denmark",10.0276789,55.412902,5560,420
+"529",430001,"Allested-Vejle","8. Faaborg","Allested-Vejle,  Faaborg, Denmark",10.3192872,55.2679187,5672,430
+"530",430002,"Brobyværk","8. Faaborg","Brobyværk,  Faaborg, Denmark",10.256175,55.230333,5672,430
+"531",430003,"Nørre Broby","8. Faaborg","Nørre Broby,  Faaborg, Denmark",10.215691,55.258054,5672,430
+"532",430004,"Vester Hæsinge","8. Faaborg","Vester Hæsinge,  Faaborg, Denmark",10.249677,55.196456,5672,430
+"533",430005,"Avernakø","8. Faaborg","Avernakø,  Faaborg, Denmark",10.2645949,55.0224739,5600,430
+"534",430007,"Faaborg","8. Faaborg","Faaborg,  Faaborg, Denmark",10.228725,55.104155,5600,430
+"535",430008,"Horne","8. Faaborg","Horne,  Faaborg, Denmark",10.166934,55.108379,5600,430
+"536",430009,"Korinth","8. Faaborg","Korinth,  Faaborg, Denmark",10.3294501,55.1437598,5600,430
+"537",430010,"Lyø","8. Faaborg","Lyø,  Faaborg, Denmark",10.1485807,55.0406389,5600,430
+"538",430011,"Svanninge","8. Faaborg","Svanninge,  Faaborg, Denmark",10.228526,55.125589,5600,430
+"539",430012,"Vester Aaby","8. Faaborg","Vester Aaby,  Faaborg, Denmark",10.376256,55.084049,5600,430
+"540",430013,"Espe","8. Faaborg","Espe,  Faaborg, Denmark",10.415473,55.203348,5750,430
+"541",430014,"Hillerslev","8. Faaborg","Hillerslev,  Faaborg, Denmark",10.347076,55.20755,5750,430
+"542",430015,"Ringe","8. Faaborg","Ringe,  Faaborg, Denmark",10.4796902,55.2361467,5750,430
+"543",430016,"Søllinge","8. Faaborg","Søllinge,  Faaborg, Denmark",10.536165,55.285673,5750,430
+"544",430017,"Gislev","8. Faaborg","Gislev,  Faaborg, Denmark",10.5978314,55.2189456,5854,430
+"545",430018,"Kværndrup","8. Faaborg","Kværndrup,  Faaborg, Denmark",10.524202,55.17883,5772,430
+"546",430019,"Ryslinge","8. Faaborg","Ryslinge,  Faaborg, Denmark",10.531065,55.238507,5856,430
+"547",430020,"Nr. Lyndelse","8. Faaborg","Nr Lyndelse,  Faaborg, Denmark",10.301042,55.207283,5672,430
+"548",430021,"Ferritslev","8. Faaborg","Ferritslev,  Faaborg, Denmark",10.587074,55.310243,5863,430
+"549",430022,"Årslev","8. Faaborg","Årslev,  Faaborg, Denmark",10.4789498,55.3065946,5792,430
+"550",440001,"Mesinge","6. Nyborg","Mesinge,  Nyborg, Denmark",10.799561,55.324169,5800,450
+"551",440002,"Kerteminde 1","6. Nyborg","Kerteminde 1,  Nyborg, Denmark",10.7276214,55.3542703,5800,450
+"552",440003,"Kerteminde 2","6. Nyborg","Kerteminde 2,  Nyborg, Denmark",10.7277348,55.3540304,5800,450
+"553",440004,"Nymarken","6. Nyborg","Nymarken,  Nyborg, Denmark",10.5946397,55.4099756,5300,440
+"554",440005,"Marslev","6. Nyborg","Marslev,  Nyborg, Denmark",10.519083,55.39127,5290,440
+"555",440006,"Langeskov","6. Nyborg","Langeskov,  Nyborg, Denmark",10.593153,55.3598167,5550,440
+"556",440007,"Munkebo","6. Nyborg","Munkebo,  Nyborg, Denmark",10.799561,55.324169,5800,450
+"557",450001,"Aunslev Forsamlingshus","6. Nyborg","Aunslev Forsamlingshus,  Nyborg, Denmark",10.799561,55.324169,5800,450
+"558",450002,"Nyborghallen","6. Nyborg","Nyborghallen,  Nyborg, Denmark",10.799561,55.324169,5800,450
+"559",450003,"Borgerforeningens Hus","6. Nyborg","Borgerforeningens Hus,  Nyborg, Denmark",10.799561,55.324169,5800,450
+"560",450004,"Vindinge Forsamlingshus","6. Nyborg","Vindinge Forsamlingshus,  Nyborg, Denmark",10.7370635,55.3111218,5800,450
+"561",450005,"Langå, Svindinge Og Øksendrup","6. Nyborg","Langå, Svindinge Og Øksendrup,  Nyborg, Denmark",10.7349739,55.2185361,5871,450
+"562",450006,"Ullerslev","6. Nyborg","Ullerslev,  Nyborg, Denmark",10.6647209,55.3625522,5540,450
+"563",450007,"Ellinge","6. Nyborg","Ellinge,  Nyborg, Denmark",10.622767,55.316197,5540,450
+"564",450008,"Skellerup","6. Nyborg","Skellerup,  Nyborg, Denmark",10.65706,55.335773,5540,450
+"565",450009,"Langtved","6. Nyborg","Langtved,  Nyborg, Denmark",10.688651,55.393475,5540,450
+"566",450010,"Ørbæk 1","6. Nyborg","Ørbæk 1,  Nyborg, Denmark",10.6727315,55.2587375,5853,450
+"567",450011,"Frørup Og Tårup","6. Nyborg","Frørup Og Tårup,  Nyborg, Denmark",10.773316,55.236263,5871,450
+"568",450012,"Ellested Og Herrested","6. Nyborg","Ellested Og Herrested,  Nyborg, Denmark",10.6107781,55.2608156,5853,450
+"569",450013,"Ørbæk 2","6. Nyborg","Ørbæk 2,  Nyborg, Denmark",10.6731056,55.2585452,5853,450
+"570",461001,"Skt. Jørgens Hallen","1. Odense Øst","Skt J�rgens Hallen,  Odense �st, Denmark",NA,NA,NA,NA
+"571",461002,"Sct. Hans Skole","1. Odense Øst","Sct Hans Skole,  Odense �st, Denmark",10.3967785,55.4147168,5000,461
+"572",461003,"Risingskolen","1. Odense Øst","Risingskolen,  Odense �st, Denmark",10.4137213,55.4078858,5000,461
+"573",461004,"Munkebjergskolen","1. Odense Øst","Munkebjergskolen,  Odense �st, Denmark",NA,NA,NA,NA
+"574",461005,"Ejerslykkeskolen","1. Odense Øst","Ejerslykkeskolen,  Odense �st, Denmark",10.4171836,55.386406,5230,461
+"575",461006,"Agedrup Skole","1. Odense Øst","Agedrup Skole,  Odense �st, Denmark",10.4793996,55.4293944,5320,461
+"576",461007,"Fjordager Hallen","1. Odense Øst","Fjordager Hallen,  Odense �st, Denmark",NA,NA,NA,NA
+"577",461009,"Fraugde Fritidscenter","1. Odense Øst","Fraugde Fritidscenter,  Odense �st, Denmark",NA,NA,NA,NA
+"578",461011,"Borgerservicecenter","2. Odense Vest","Borgerservicecenter,  Odense Vest, Denmark",NA,NA,NA,NA
+"579",461012,"Csv-Skolen","2. Odense Vest","Csv-Skolen,  Odense Vest, Denmark",NA,NA,NA,NA
+"580",461013,"Lumby Forsamlingshus","2. Odense Vest","Lumby Forsamlingshus,  Odense Vest, Denmark",NA,NA,NA,NA
+"581",461014,"Stige Skole","2. Odense Vest","Stige Skole,  Odense Vest, Denmark",10.3578544,55.4156836,5270,461
+"582",461016,"Spurvelundskolen","2. Odense Vest","Spurvelundskolen,  Odense Vest, Denmark",NA,NA,NA,NA
+"583",461017,"Kroggårdskolen","2. Odense Vest","Kroggårdskolen,  Odense Vest, Denmark",10.3511784,55.4255301,5270,461
+"584",461018,"Tarup Skole","2. Odense Vest","Tarup Skole,  Odense Vest, Denmark",10.3578544,55.4156836,5270,461
+"585",461019,"Paarup Hallen","2. Odense Vest","Paarup Hallen,  Odense Vest, Denmark",10.3518507,55.4165197,5270,461
+"586",461020,"Korup Skole","2. Odense Vest","Korup Skole,  Odense Vest, Denmark",10.2694306,55.4199269,5210,461
+"587",461021,"Ubberud Kultur & Bevægelseshus","2. Odense Vest","Ubberud Kultur & Bevægelseshus,  Odense Vest, Denmark",NA,NA,NA,NA
+"588",461023,"Rådhuset","3. Odense Syd","Rådhuset,  Odense Syd, Denmark",10.3885654,55.3960083,5000,461
+"589",461024,"Sct. Knuds Gymnasium","3. Odense Syd","Sct Knuds Gymnasium,  Odense Syd, Denmark",10.3829241,55.3775876,5230,461
+"590",461025,"Rosengårdskolen","3. Odense Syd","Rosengårdskolen,  Odense Syd, Denmark",10.4250223,55.3785619,5230,461
+"591",461026,"Fks-Hallen","3. Odense Syd","Fks-Hallen,  Odense Syd, Denmark",10.3354861,55.351405,5250,461
+"592",461028,"Rasmus Rask Skolen","3. Odense Syd","Rasmus Rask Skolen,  Odense Syd, Denmark",10.2903773,55.342737,5250,461
+"593",461029,"Tingløkkeskolen","3. Odense Syd","Tingløkkeskolen,  Odense Syd, Denmark",10.3689468,55.3709148,5250,461
+"594",461030,"Dalumskolen","3. Odense Syd","Dalumskolen,  Odense Syd, Denmark",10.380385,55.3580876,5260,461
+"595",461031,"Stenløse Forsamlingshus","3. Odense Syd","Stenløse Forsamlingshus,  Odense Syd, Denmark",12.19831,55.768616,3660,240
+"596",461032,"Fangel Forsamlingshus","3. Odense Syd","Fangel Forsamlingshus,  Odense Syd, Denmark",NA,NA,NA,NA
+"597",461033,"Højby Skole","3. Odense Syd","Højby Skole,  Odense Syd, Denmark",NA,NA,NA,NA
+"598",461035,"Camp U","1. Odense Øst","Camp U,  Odense �st, Denmark",10.3928595,55.369676,5260,461
+"599",461036,"Bækholmskolen","1. Odense Øst","B�kholmskolen,  Odense �st, Denmark",NA,NA,NA,NA
+"600",479001,"Byen","7. Svendborg","Byen,  Svendborg, Denmark",10.2069244,56.1449141,8000,751
+"601",479002,"Nordre","7. Svendborg","Nordre,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"602",479003,"Østre","7. Svendborg","Østre,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"603",479004,"Bjerreby","7. Svendborg","Bjerreby,  Svendborg, Denmark",10.6063639,54.970093,5700,479
+"604",479005,"Bregninge","7. Svendborg","Bregninge,  Svendborg, Denmark",10.606498,55.022384,5700,479
+"605",479006,"Drejø","7. Svendborg","Drejø,  Svendborg, Denmark",10.4190476,54.9702467,5700,479
+"606",479007,"Egense","7. Svendborg","Egense,  Svendborg, Denmark",10.525738,55.053247,5700,479
+"607",479008,"Landet","7. Svendborg","Landet,  Svendborg, Denmark",10.59628,54.998769,5700,479
+"608",479009,"Skårup","7. Svendborg","Skårup,  Svendborg, Denmark",10.691357,55.091871,5881,479
+"609",479010,"Thurø","7. Svendborg","Thurø,  Svendborg, Denmark",10.6886608,55.0469522,5700,479
+"610",479011,"Tved","7. Svendborg","Tved,  Svendborg, Denmark",10.62116,55.083653,5700,479
+"611",479014,"Kirkeby","7. Svendborg","Kirkeby,  Svendborg, Denmark",10.531553,55.113537,5771,479
+"612",479016,"Ollerup","7. Svendborg","Ollerup,  Svendborg, Denmark",10.498909,55.070071,5762,479
+"613",479017,"Stenstrup","7. Svendborg","Stenstrup,  Svendborg, Denmark",10.5035273,55.1327598,5771,479
+"614",479019,"V.Skerninge","7. Svendborg","VSkerninge,  Svendborg, Denmark",10.4494839,55.0732361,5762,479
+"615",479021,"Gudbjerg","7. Svendborg","Gudbjerg,  Svendborg, Denmark",10.668013,55.154121,5892,479
+"616",479023,"Gudme","7. Svendborg","Gudme,  Svendborg, Denmark",10.705565,55.150021,5884,479
+"617",479025,"Hesselager","7. Svendborg","Hesselager,  Svendborg, Denmark",10.7444089,55.1754419,5874,479
+"618",479027,"Oure","7. Svendborg","Oure,  Svendborg, Denmark",10.723862,55.119163,5883,479
+"619",480001,"Bogense","5. Middelfart","Bogense,  Middelfart, Denmark",10.094465,55.566962,5400,480
+"620",480002,"Klinte","5. Middelfart","Klinte,  Middelfart, Denmark",9.6327731,55.5129294,7000,607
+"621",480003,"Kongslund","5. Middelfart","Kongslund,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"622",480004,"Horsebæk","5. Middelfart","Horsebæk,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"623",480005,"Krogsbølle","5. Middelfart","Krogsbølle,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"624",480006,"Otterup","5. Middelfart","Otterup,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"625",480007,"Løkkemark","5. Middelfart","Løkkemark,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"626",480008,"Skovløkke","5. Middelfart","Skovløkke,  Middelfart, Denmark",9.8344354,55.4073464,5580,410
+"627",480009,"Veflinge","5. Middelfart","Veflinge,  Middelfart, Denmark",10.1597919,55.4727037,5474,480
+"628",480010,"Hårslev","5. Middelfart","Hårslev,  Middelfart, Denmark",10.095706,55.499305,5471,480
+"629",480011,"Morud","5. Middelfart","Morud,  Middelfart, Denmark",10.189484,55.448581,5462,480
+"630",480012,"Særslev","5. Middelfart","Særslev,  Middelfart, Denmark",9.747172,55.497204,5500,410
+"631",480013,"Søndersø","5. Middelfart","Søndersø,  Middelfart, Denmark",10.255263,55.484205,5471,480
+"632",482001,"Bagenkop","7. Svendborg","Bagenkop,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"633",482002,"Humble","7. Svendborg","Humble,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"634",482003,"Lindelse","7. Svendborg","Lindelse,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"635",482005,"Rudkøbing","7. Svendborg","Rudkøbing,  Svendborg, Denmark",10.718582,54.937878,5900,482
+"636",482006,"Strynø","7. Svendborg","Strynø,  Svendborg, Denmark",10.6074261,54.9037035,5900,482
+"637",482007,"Tullebølle","7. Svendborg","Tullebølle,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"638",482008,"Lejbølle","7. Svendborg","Lejbølle,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"639",482010,"Hou","7. Svendborg","Hou,  Svendborg, Denmark",10.607282,55.067434,5700,479
+"640",492001,"Marstal","8. Faaborg","Marstal,  Faaborg, Denmark",10.228725,55.104155,5600,430
+"641",492002,"Ærøskøbing","8. Faaborg","Ærøskøbing,  Faaborg, Denmark",10.1203024,55.0904176,5600,430
+"642",492003,"Søby","8. Faaborg","Søby,  Faaborg, Denmark",10.2374982,55.017504,5600,430
+"643",510001,"Gram","13. Haderslev","Gram,  Haderslev, Denmark",9.049475,55.2898343,6510,510
+"644",510002,"Arnum","13. Haderslev","Arnum,  Haderslev, Denmark",8.967435,55.247434,6510,510
+"645",510003,"Tiset","13. Haderslev","Tiset,  Haderslev, Denmark",9.00834,55.274002,6510,510
+"646",510004,"Fole","13. Haderslev","Fole,  Haderslev, Denmark",8.981574,55.316389,6510,510
+"647",510005,"Haderslev Syd-Vest","13. Haderslev","Haderslev Syd-Vest,  Haderslev, Denmark",9.48911,55.250072,6100,510
+"648",510006,"Haderslev Syd","13. Haderslev","Haderslev Syd,  Haderslev, Denmark",9.48911,55.250072,6100,510
+"649",510007,"Haderslev Midtby","13. Haderslev","Haderslev Midtby,  Haderslev, Denmark",9.48911,55.250072,6100,510
+"650",510008,"Haderslev Vest","13. Haderslev","Haderslev Vest,  Haderslev, Denmark",9.48911,55.250072,6100,510
+"651",510009,"Sommersted","13. Haderslev","Sommersted,  Haderslev, Denmark",9.295314,55.318355,6560,510
+"652",510010,"Haderslev Nord","13. Haderslev","Haderslev Nord,  Haderslev, Denmark",9.48911,55.250072,6100,510
+"653",510011,"Haderslev Øst","13. Haderslev","Haderslev �st,  Haderslev, Denmark",9.48911,55.250072,6100,510
+"654",510012,"Moltrup","13. Haderslev","Moltrup,  Haderslev, Denmark",9.4550889,55.284316,6100,510
+"655",510013,"Hoptrup","13. Haderslev","Hoptrup,  Haderslev, Denmark",9.455884,55.180444,6100,510
+"656",510014,"Starup","13. Haderslev","Starup,  Haderslev, Denmark",9.5381129,55.239135,6100,510
+"657",510015,"Vilstrup","13. Haderslev","Vilstrup,  Haderslev, Denmark",9.5032859,55.215342,6100,510
+"658",510016,"Kelstrup","13. Haderslev","Kelstrup,  Haderslev, Denmark",9.5533809,55.1984698,6100,510
+"659",510017,"Vonsbæk","13. Haderslev","Vonsb�k,  Haderslev, Denmark",9.601395,55.285151,6100,510
+"660",510018,"Aastrup","13. Haderslev","Aastrup,  Haderslev, Denmark",9.5551591,55.2664756,6100,510
+"661",510019,"Øsby","13. Haderslev","�sby,  Haderslev, Denmark",9.63989,55.252395,6100,510
+"662",510020,"Aarø","13. Haderslev","Aar�,  Haderslev, Denmark",9.7431329,55.2607332,6100,510
+"663",510021,"Marstrup","13. Haderslev","Marstrup,  Haderslev, Denmark",9.441174,55.209519,6100,510
+"664",510022,"Halk","13. Haderslev","Halk,  Haderslev, Denmark",9.641821,55.201777,6100,510
+"665",510024,"Fjelstrup","13. Haderslev","Fjelstrup,  Haderslev, Denmark",9.562295,55.321973,6100,510
+"666",510025,"Bevtoft","13. Haderslev","Bevtoft,  Haderslev, Denmark",9.208027,55.198328,6541,510
+"667",510026,"Vojens Øst","13. Haderslev","Vojens �st,  Haderslev, Denmark",9.3019649,55.249489,6500,510
+"668",510028,"Vojens Vest","13. Haderslev","Vojens Vest,  Haderslev, Denmark",9.3019649,55.249489,6500,510
+"669",510029,"Skrydstrup","13. Haderslev","Skrydstrup,  Haderslev, Denmark",9.251743,55.242055,6500,510
+"670",510030,"Hammelev","13. Haderslev","Hammelev,  Haderslev, Denmark",9.384774,55.245781,6500,510
+"671",510031,"Jegerup","13. Haderslev","Jegerup,  Haderslev, Denmark",9.294529,55.277943,6500,510
+"672",510032,"Simmersted","13. Haderslev","Simmersted,  Haderslev, Denmark",9.3750699,55.300774,6500,510
+"673",510033,"Nustrup","13. Haderslev","Nustrup,  Haderslev, Denmark",9.179248,55.272011,6500,510
+"674",510034,"Oksenvad","13. Haderslev","Oksenvad,  Haderslev, Denmark",9.24774,55.321149,6560,510
+"675",510035,"Vedsted","13. Haderslev","Vedsted,  Haderslev, Denmark",9.362804,55.196643,6500,510
+"676",510036,"Over Jerstal","13. Haderslev","Over Jerstal,  Haderslev, Denmark",9.302353,55.196785,6500,510
+"677",530001,"Billund","7. Vejen","Billund,  Vejen, Denmark",9.137997,55.479224,6600,575
+"678",530002,"Sdr. Omme","7. Vejen","Sdr Omme,  Vejen, Denmark",9.0440479,55.8858558,7330,756
+"679",530003,"Vorbasse","7. Vejen","Vorbasse,  Vejen, Denmark",9.0853583,55.6329975,6623,530
+"680",530004,"Filskov","7. Vejen","Filskov,  Vejen, Denmark",9.0310173,55.8553895,7330,756
+"681",530005,"St./Krogager","7. Vejen","St/Krogager,  Vejen, Denmark",9.137997,55.479224,6600,575
+"682",530006,"Grindsted","7. Vejen","Grindsted,  Vejen, Denmark",8.9249494,55.7583217,7200,530
+"683",530007,"Hejnsvig","7. Vejen","Hejnsvig,  Vejen, Denmark",8.998146,55.69455,7250,530
+"684",540001,"Nordborg","1. Sønderborg","Nordborg,  S�nderborg, Denmark",9.751009,55.055721,6430,540
+"685",540002,"Havnbjerg","1. Sønderborg","Havnbjerg,  S�nderborg, Denmark",9.788452,55.038441,6430,540
+"686",540003,"Egen","1. Sønderborg","Egen,  S�nderborg, Denmark",9.868705,54.981498,6430,540
+"687",540004,"Fynshav","1. Sønderborg","Fynshav,  S�nderborg, Denmark",9.981231,54.987793,6440,540
+"688",540005,"Augustenborg","1. Sønderborg","Augustenborg,  S�nderborg, Denmark",9.876871,54.95038,6440,540
+"689",540006,"Hørup","1. Sønderborg","H�rup,  S�nderborg, Denmark",9.893355,54.918168,6470,540
+"690",540007,"Sydals","1. Sønderborg","Sydals,  S�nderborg, Denmark",9.9674523,54.9166216,6470,540
+"691",540008,"Kegnæs","1. Sønderborg","Kegn�s,  S�nderborg, Denmark",9.9264713,54.8699835,6470,540
+"692",540009,"Humlehøj, Sønderborg","1. Sønderborg","Humleh�j, S�nderborg,  S�nderborg, Denmark",9.804357,54.919239,6400,540
+"693",540010,"Sønderskov, Sønderborg","1. Sønderborg","S�nderskov, S�nderborg,  S�nderborg, Denmark",9.8325323,54.9026856,6400,540
+"694",540011,"Biblioteket, Sønderborg","1. Sønderborg","Biblioteket, S�nderborg,  S�nderborg, Denmark",9.7959223,54.9102806,6400,540
+"695",540012,"Dybbøl","1. Sønderborg","Dybb�l,  S�nderborg, Denmark",9.721719,54.916381,6400,540
+"696",540013,"Vester Sottrup","1. Sønderborg","Vester Sottrup,  S�nderborg, Denmark",9.700137,54.950415,6400,540
+"697",540014,"Ullerup","1. Sønderborg","Ullerup,  S�nderborg, Denmark",9.660224,54.966603,6400,540
+"698",540015,"Broager","1. Sønderborg","Broager,  S�nderborg, Denmark",9.66989,54.890351,6310,540
+"699",540016,"Gråsten","1. Sønderborg","Gr�sten,  S�nderborg, Denmark",9.582813,54.918661,6300,540
+"700",540017,"Kværs","1. Sønderborg","Kv�rs,  S�nderborg, Denmark",9.496191,54.932716,6300,540
+"701",550001,"Bredebro","3. Tønder","Bredebro,  T�nder, Denmark",8.825295,55.055337,6261,550
+"702",550002,"Ballum","3. Tønder","Ballum,  T�nder, Denmark",8.67064,55.087817,6261,550
+"703",550003,"Visby","3. Tønder","Visby,  T�nder, Denmark",8.781598,55.009799,6261,550
+"704",550004,"Højer","3. Tønder","H�jer,  T�nder, Denmark",8.695165,54.965419,6280,550
+"705",550007,"Sdr. Sejerslev","3. Tønder","Sdr Sejerslev,  T�nder, Denmark",8.7218741,55.0042718,6280,550
+"706",550008,"Møgeltønder","3. Tønder","M�gelt�nder,  T�nder, Denmark",8.800613,54.944661,6270,550
+"707",550012,"Løgumkloster","3. Tønder","L�gumkloster,  T�nder, Denmark",8.953505,55.05908,6240,550
+"708",550014,"Nr. Løgum","3. Tønder","Nr L�gum,  T�nder, Denmark",8.8984252,54.9159117,6270,550
+"709",550015,"Bedsted","3. Tønder","Bedsted,  T�nder, Denmark",9.104755,55.061524,6240,550
+"710",550016,"Øster Højst","3. Tønder","�ster H�jst,  T�nder, Denmark",9.037418,55.001848,6240,550
+"711",550017,"Agerskov","3. Tønder","Agerskov,  T�nder, Denmark",9.129243,55.128751,6534,550
+"712",550018,"Arrild","3. Tønder","Arrild,  T�nder, Denmark",8.9581489,55.1541438,6520,550
+"713",550019,"Branderup","3. Tønder","Branderup,  T�nder, Denmark",9.068208,55.121225,6535,550
+"714",550021,"Døstrup","3. Tønder","D�strup,  T�nder, Denmark",8.808184,55.118845,6780,550
+"715",550023,"Toftlund","3. Tønder","Toftlund,  T�nder, Denmark",9.068543,55.188494,6520,550
+"716",550024,"Brøns","3. Tønder","Br�ns,  T�nder, Denmark",8.731603,55.194917,6780,550
+"717",550025,"Tønder","3. Tønder","T�nder,  T�nder, Denmark",8.864417,54.939615,6270,550
+"718",550027,"Abild","3. Tønder","Abild,  T�nder, Denmark",8.868625,54.979027,6270,550
+"719",550029,"Hostrup","3. Tønder","Hostrup,  T�nder, Denmark",8.964952,54.947278,6270,550
+"720",550051,"Rømø","3. Tønder","R�m�,  T�nder, Denmark",8.5138711,55.138886,6792,550
+"721",550061,"Skærbæk","3. Tønder","Sk�rb�k,  T�nder, Denmark",8.7684227,55.1564152,6780,550
+"722",550071,"Vodder","3. Tønder","Vodder,  T�nder, Denmark",8.843961,55.220426,6780,550
+"723",561002,"Esbjerg Rådhus","4. Esbjerg By","Esbjerg Rådhus,  Esbjerg By, Denmark",8.4529719,55.4724446,6700,561
+"724",561003,"Skovbo Centeret","4. Esbjerg By","Skovbo Centeret,  Esbjerg By, Denmark",8.459405,55.476466,6700,561
+"725",561004,"Rørkjær","4. Esbjerg By","Rørkjær,  Esbjerg By, Denmark",8.463275,55.468329,6700,561
+"726",561005,"Bakkeskolen","4. Esbjerg By","Bakkeskolen,  Esbjerg By, Denmark",8.4833581,55.4821854,6705,561
+"727",561006,"Boldesager","4. Esbjerg By","Boldesager,  Esbjerg By, Denmark",8.4599797,55.4784978,6700,561
+"728",561007,"Østerbycentret","4. Esbjerg By","Østerbycentret,  Esbjerg By, Denmark",8.484088,55.4640464,6700,561
+"729",561008,"Skads","5. Esbjerg Omegn","Skads,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"730",561011,"Vitaskolen","4. Esbjerg By","Vitaskolen,  Esbjerg By, Denmark",8.4388733,55.507192,6715,561
+"731",561012,"Bryndum","5. Esbjerg Omegn","Bryndum,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"732",561015,"Sædding","4. Esbjerg By","Sædding,  Esbjerg By, Denmark",8.3999894,55.5022076,6710,561
+"733",561016,"Hjerting","5. Esbjerg Omegn","Hjerting,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"734",561017,"Guldager","5. Esbjerg Omegn","Guldager,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"735",561020,"Tjæreborg","5. Esbjerg Omegn","Tjæreborg,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"736",561021,"Kvaglund","4. Esbjerg By","Kvaglund,  Esbjerg By, Denmark",8.486001,55.492132,6705,561
+"737",561022,"Ådalskolen","4. Esbjerg By","Ådalskolen,  Esbjerg By, Denmark",8.3988694,55.5080911,6710,561
+"738",561023,"Blåbjerggårdskolen","4. Esbjerg By","Blåbjerggårdskolen,  Esbjerg By, Denmark",8.44764,55.515536,6715,561
+"739",561024,"Sønderris","5. Esbjerg Omegn","Sønderris,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"740",561025,"Bramming","5. Esbjerg Omegn","Bramming,  Esbjerg Omegn, Denmark",8.701655,55.469177,6740,561
+"741",561028,"Ribe","5. Esbjerg Omegn","Ribe,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"742",561032,"Egebæk-Hviding","5. Esbjerg Omegn","Egebæk-Hviding,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"743",561033,"Gredstedbro","5. Esbjerg Omegn","Gredstedbro,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"744",561035,"Mandø","5. Esbjerg Omegn","Mandø,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"745",561038,"Høm","5. Esbjerg Omegn","Høm,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"746",561040,"Gørding","5. Esbjerg Omegn","Gørding,  Esbjerg Omegn, Denmark",NA,NA,NA,NA
+"747",563001,"Nordby","4. Esbjerg By","Nordby,  Esbjerg By, Denmark",8.393149,55.434949,6720,563
+"748",563002,"Sønderho","4. Esbjerg By","Sønderho,  Esbjerg By, Denmark",8.459405,55.476466,6700,561
+"749",573001,"Varde By","6. Varde","Varde By,  Varde, Denmark",8.48215,55.623151,6800,573
+"750",573004,"Sig","6. Varde","Sig,  Varde, Denmark",8.574296,55.666208,6800,573
+"751",573005,"Billum","6. Varde","Billum,  Varde, Denmark",8.331119,55.6157,6852,573
+"752",573006,"Tinghøj","6. Varde","Tinghøj,  Varde, Denmark",8.470465,55.66118,6800,573
+"753",573007,"Alslev","6. Varde","Alslev,  Varde, Denmark",8.418892,55.587609,6800,573
+"754",573008,"Horne","6. Varde","Horne,  Varde, Denmark",8.532052,55.723391,6800,573
+"755",573009,"Janderup","6. Varde","Janderup,  Varde, Denmark",8.371434,55.624976,6851,573
+"756",573010,"Lunde","6. Varde","Lunde,  Varde, Denmark",8.368187,55.75851,6830,573
+"757",573013,"Nørre Nebel","6. Varde","Nørre Nebel,  Varde, Denmark",8.2910159,55.7789382,6830,573
+"758",573014,"Henne","6. Varde","Henne,  Varde, Denmark",8.2276579,55.7161882,6854,573
+"759",573015,"Outrup","6. Varde","Outrup,  Varde, Denmark",8.3429152,55.7200381,6855,573
+"760",573018,"Oksbøl","6. Varde","Oksbøl,  Varde, Denmark",8.2801861,55.6280388,6840,573
+"761",573019,"Blåvand","6. Varde","Blåvand,  Varde, Denmark",8.1802254,55.5629035,6857,573
+"762",573022,"Årre","6. Varde","Årre,  Varde, Denmark",8.664659,55.572021,6818,573
+"763",573023,"Agerbæk","6. Varde","Agerbæk,  Varde, Denmark",8.800061,55.601977,6753,573
+"764",573024,"Fåborg","6. Varde","Fåborg,  Varde, Denmark",8.739093,55.586947,6818,573
+"765",573026,"Næsbjerg","6. Varde","Næsbjerg,  Varde, Denmark",8.598822,55.624383,6800,573
+"766",573027,"Starup","6. Varde","Starup,  Varde, Denmark",8.808553,55.645294,7200,573
+"767",573028,"Nordenskov","6. Varde","Nordenskov,  Varde, Denmark",8.684279,55.650896,6800,573
+"768",573030,"Ølgod","6. Varde","Ølgod,  Varde, Denmark",8.618423,55.807331,6870,573
+"769",573031,"Tistrup","6. Varde","Tistrup,  Varde, Denmark",8.605249,55.717983,6862,573
+"770",573032,"Ansager","6. Varde","Ansager,  Varde, Denmark",8.755025,55.703423,6823,573
+"771",573033,"Skovlund","6. Varde","Skovlund,  Varde, Denmark",8.707738,55.738079,6823,573
+"772",575001,"Brørup","7. Vejen","Brørup,  Vejen, Denmark",9.0184843,55.4828152,6650,575
+"773",575002,"Lindknud","7. Vejen","Lindknud,  Vejen, Denmark",9.017215,55.566014,6650,575
+"774",575003,"Holsted","7. Vejen","Holsted,  Vejen, Denmark",8.915697,55.508338,6670,575
+"775",575004,"Føvling","7. Vejen","Føvling,  Vejen, Denmark",8.93792,55.450539,6683,575
+"776",575005,"Glejbjerg","7. Vejen","Glejbjerg,  Vejen, Denmark",8.824762,55.557045,6752,575
+"777",575006,"Hovborg","7. Vejen","Hovborg,  Vejen, Denmark",8.939593,55.605464,6682,575
+"778",575007,"Rødding","7. Vejen","Rødding,  Vejen, Denmark",9.0585499,55.3667548,6630,575
+"779",575008,"Sdr. Hygum","7. Vejen","Sdr Hygum,  Vejen, Denmark",8.8999228,55.3780853,6760,561
+"780",575009,"Jels","7. Vejen","Jels,  Vejen, Denmark",9.204879,55.355115,6630,575
+"781",575010,"Lintrup","7. Vejen","Lintrup,  Vejen, Denmark",8.9699275,55.4099868,6660,575
+"782",575011,"Skodborg","7. Vejen","Skodborg,  Vejen, Denmark",9.151225,55.420725,6630,575
+"783",575012,"Københoved","7. Vejen","Københoved,  Vejen, Denmark",9.100062,55.420557,6630,575
+"784",575013,"Øster Lindet","7. Vejen","Øster Lindet,  Vejen, Denmark",9.148465,55.307302,6630,575
+"785",575014,"Vejen","7. Vejen","Vejen,  Vejen, Denmark",9.137997,55.479224,6600,575
+"786",575015,"Læborg","7. Vejen","Læborg,  Vejen, Denmark",9.1080478,55.5229361,6600,575
+"787",575016,"Askov-Malt","7. Vejen","Askov-Malt,  Vejen, Denmark",9.0853718,55.4729014,6600,575
+"788",575017,"Andst","7. Vejen","Andst,  Vejen, Denmark",9.230992,55.468145,6600,575
+"789",575018,"Gesten","7. Vejen","Gesten,  Vejen, Denmark",9.209803,55.525276,6621,575
+"790",575019,"Bække","7. Vejen","Bække,  Vejen, Denmark",9.138716,55.570342,6622,575
+"791",580001,"Hovslund","2. Aabenraa","Hovslund,  Aabenraa, Denmark",9.363441,55.140355,6230,580
+"792",580002,"Hellevad","2. Aabenraa","Hellevad,  Aabenraa, Denmark",9.212068,55.076288,6230,580
+"793",580003,"Rødekro","2. Aabenraa","Rødekro,  Aabenraa, Denmark",9.329015,55.072687,6230,580
+"794",580004,"Løjt","2. Aabenraa","Løjt,  Aabenraa, Denmark",9.496088,55.114173,6200,580
+"795",580005,"Hjordkær","2. Aabenraa","Hjordkær,  Aabenraa, Denmark",9.307321,55.028113,6230,580
+"796",580006,"Ravsted","2. Aabenraa","Ravsted,  Aabenraa, Denmark",9.126384,55.007364,6372,580
+"797",580007,"Bolderslev","2. Aabenraa","Bolderslev,  Aabenraa, Denmark",9.282406,54.990776,6392,580
+"798",580008,"Ensted","2. Aabenraa","Ensted,  Aabenraa, Denmark",9.4086081,54.9892093,6200,580
+"799",580009,"Felsted","2. Aabenraa","Felsted,  Aabenraa, Denmark",9.504916,54.979173,6200,580
+"800",580010,"Varnæs","2. Aabenraa","Varnæs,  Aabenraa, Denmark",9.568028,55.014441,6200,580
+"801",580011,"Bylderup","2. Aabenraa","Bylderup,  Aabenraa, Denmark",9.10273,54.945299,6372,580
+"802",580012,"Tinglev","2. Aabenraa","Tinglev,  Aabenraa, Denmark",9.250136,54.93447,6360,580
+"803",580013,"Kliplev","2. Aabenraa","Kliplev,  Aabenraa, Denmark",9.399995,54.937021,6200,580
+"804",580014,"Kruså","2. Aabenraa","Kruså,  Aabenraa, Denmark",9.401548,54.848754,6340,580
+"805",580015,"Padborg","2. Aabenraa","Padborg,  Aabenraa, Denmark",9.356859,54.833123,6330,580
+"806",580016,"Aabenraa Midt","2. Aabenraa","Aabenraa Midt,  Aabenraa, Denmark",9.2510123,54.9357554,6360,580
+"807",580017,"Aabenraa Syd","2. Aabenraa","Aabenraa Syd,  Aabenraa, Denmark",9.4151589,55.040852,6200,580
+"808",580018,"Aabenraa Nord","2. Aabenraa","Aabenraa Nord,  Aabenraa, Denmark",9.4151589,55.040852,6200,580
+"809",607001,"Gymnasiet","10. Fredericia","Gymnasiet,  Fredericia, Denmark",9.748115,55.577433,7000,607
+"810",607002,"Bredstrup-Pjedsted","10. Fredericia","Bredstrup-Pjedsted,  Fredericia, Denmark",9.6694761,55.5885991,7000,607
+"811",607003,"Erritsø","10. Fredericia","Errits�,  Fredericia, Denmark",9.715704,55.541367,7000,607
+"812",607004,"Herslev","10. Fredericia","Herslev,  Fredericia, Denmark",9.590711,55.583079,7000,607
+"813",607005,"Taulov","10. Fredericia","Taulov,  Fredericia, Denmark",9.610191,55.538146,7000,607
+"814",607006,"Søndermarken","10. Fredericia","S�ndermarken,  Fredericia, Denmark",9.5477006,55.691875,7100,630
+"815",607007,"Bøgeskov","10. Fredericia","B�geskov,  Fredericia, Denmark",9.757697,55.619292,7000,607
+"816",607008,"Indre By","10. Fredericia","Indre By,  Fredericia, Denmark",9.760648,55.5784614,7000,607
+"817",615001,"Sønderbro","10. Horsens","S�nderbro,  Horsens, Denmark",9.8365862,55.8566172,8700,615
+"818",615002,"Vestbyen","10. Horsens","Vestbyen,  Horsens, Denmark",9.8475881,55.8581302,8700,615
+"819",615003,"Midtbyen","10. Horsens","Midtbyen,  Horsens, Denmark",10.1939839,56.1452241,8000,751
+"820",615004,"Endelave","10. Horsens","Endelave,  Horsens, Denmark",10.2958585,55.7554349,8700,615
+"821",615005,"Forum","10. Horsens","Forum,  Horsens, Denmark",9.8559948,55.8720086,8700,615
+"822",615006,"Dagnæs","10. Horsens","Dagn�s,  Horsens, Denmark",9.84707,55.837505,8700,615
+"823",615007,"Torsted","10. Horsens","Torsted,  Horsens, Denmark",9.807851,55.839975,8700,615
+"824",615008,"Hatting","10. Horsens","Hatting,  Horsens, Denmark",9.763335,55.852586,8700,615
+"825",615009,"Lund","10. Horsens","Lund,  Horsens, Denmark",9.767296,55.895931,8700,615
+"826",615010,"Egebjerg","10. Horsens","Egebjerg,  Horsens, Denmark",9.836777,55.904981,8700,615
+"827",615011,"Stensballe","10. Horsens","Stensballe,  Horsens, Denmark",9.91291,55.868746,8700,615
+"828",615012,"Højvangen","10. Horsens","H�jvangen,  Horsens, Denmark",9.8582313,55.839591,8700,615
+"829",615013,"Brædstrup","10. Horsens","Br�dstrup,  Horsens, Denmark",9.611034,55.971645,8740,615
+"830",615014,"Nim","10. Horsens","Nim,  Horsens, Denmark",9.687032,55.926292,8740,615
+"831",615015,"Sdr.Vissing","10. Horsens","SdrVissing,  Horsens, Denmark",9.6423199,56.0231835,8740,615
+"832",615016,"Østbirk","10. Horsens","�stbirk,  Horsens, Denmark",9.751776,55.968146,8752,615
+"833",615017,"Gedved","10. Horsens","Gedved,  Horsens, Denmark",9.845595,55.931219,8751,615
+"834",615018,"Hovedgård","10. Horsens","Hovedg�rd,  Horsens, Denmark",9.959946,55.944874,8732,615
+"835",615019,"Søvind","10. Horsens","S�vind,  Horsens, Denmark",10.0014572,55.8937382,8700,615
+"836",615020,"Tønning-Træden","10. Horsens","T�nning-Tr�den,  Horsens, Denmark",9.609227,55.9632611,8740,615
+"837",615021,"Sundparken","10. Horsens","Sundparken,  Horsens, Denmark",9.8827939,55.8699395,8700,615
+"838",615022,"Sejet","10. Horsens","Sejet,  Horsens, Denmark",9.92669,55.81716,8700,615
+"839",621001,"Centrum Nord","11. Kolding Nord","Centrum Nord,  Kolding Nord, Denmark",9.4801488,55.5220727,6000,621
+"840",621002,"Nordbyen","11. Kolding Nord","Nordbyen,  Kolding Nord, Denmark",NA,NA,NA,NA
+"841",621003,"Vestbyen","11. Kolding Nord","Vestbyen,  Kolding Nord, Denmark",NA,NA,NA,NA
+"842",621004,"Strandhuse/Nr. Bjert/ Eltang","11. Kolding Nord","Strandhuse/Nr Bjert/ Eltang,  Kolding Nord, Denmark",9.5257702,55.5129857,6000,621
+"843",621005,"Bramdrupdam","11. Kolding Nord","Bramdrupdam,  Kolding Nord, Denmark",9.473185,55.52449,6000,621
+"844",621006,"Alminde-Viuf/Vester Nebel","11. Kolding Nord","Alminde-Viuf/Vester Nebel,  Kolding Nord, Denmark",NA,NA,NA,NA
+"845",621007,"Lunderskov/Jordrup","11. Kolding Nord","Lunderskov/Jordrup,  Kolding Nord, Denmark",9.3236876,55.5045804,6640,621
+"846",621008,"Centrum Syd","12. Kolding Syd","Centrum Syd,  Kolding Syd, Denmark",9.4801488,55.5220727,6000,621
+"847",621009,"Sydbyen","12. Kolding Syd","Sydbyen,  Kolding Syd, Denmark",NA,NA,NA,NA
+"848",621010,"Seest","12. Kolding Syd","Seest,  Kolding Syd, Denmark",9.440699,55.485281,6000,621
+"849",621011,"Dalby/Tved/Rebæk","12. Kolding Syd","Dalby/Tved/Reb�k,  Kolding Syd, Denmark",9.4962013,55.4840328,6000,621
+"850",621012,"S Bjert/S Stenderup/Vejstrup","12. Kolding Syd","S Bjert/S Stenderup/Vejstrup,  Kolding Syd, Denmark",NA,NA,NA,NA
+"851",621013,"Vonsild","12. Kolding Syd","Vonsild,  Kolding Syd, Denmark",9.475538,55.454761,6000,621
+"852",621014,"Vamdrup/Hjarup/Ødis","12. Kolding Syd","Vamdrup/Hjarup/�dis,  Kolding Syd, Denmark",9.3841502,55.4157331,6580,621
+"853",621015,"Chr.Feld/Stepping/Taps/Hejls","12. Kolding Syd","ChrFeld/Stepping/Taps/Hejls,  Kolding Syd, Denmark",NA,NA,NA,NA
+"854",630001,"Brejning Syd","9. Vejle Syd","Brejning Syd,  Vejle Syd, Denmark",9.6736587,55.6647368,7080,630
+"855",630002,"Børkop Syd","9. Vejle Syd","Børkop Syd,  Vejle Syd, Denmark",9.651806,55.640666,7080,630
+"856",630003,"Gårslev Syd","9. Vejle Syd","Gårslev Syd,  Vejle Syd, Denmark",9.7025539,55.638595,7080,630
+"857",630004,"Smidstrup Syd","9. Vejle Syd","Smidstrup Syd,  Vejle Syd, Denmark",9.567534,55.614341,7000,630
+"858",630005,"Ødsted Syd","9. Vejle Syd","Ødsted Syd,  Vejle Syd, Denmark",9.40041,55.656333,7100,630
+"859",630006,"Egtved Syd","9. Vejle Syd","Egtved Syd,  Vejle Syd, Denmark",9.312292,55.617559,6040,630
+"860",630007,"Jerlev Syd","9. Vejle Syd","Jerlev Syd,  Vejle Syd, Denmark",9.43987,55.672461,7100,630
+"861",630008,"Øster Starup Syd","9. Vejle Syd","Øster Starup Syd,  Vejle Syd, Denmark",9.4534587,55.6048485,6040,630
+"862",630009,"Dgi-Huset Syd","9. Vejle Syd","Dgi-Huset Syd,  Vejle Syd, Denmark",NA,NA,NA,NA
+"863",630010,"Multihuset Højen Syd","9. Vejle Syd","Multihuset Højen Syd,  Vejle Syd, Denmark",9.501569,55.656298,7100,630
+"864",630011,"Vindinghallen Syd","9. Vejle Syd","Vindinghallen Syd,  Vejle Syd, Denmark",NA,NA,NA,NA
+"865",630012,"Mølholmhallen Syd","9. Vejle Syd","Mølholmhallen Syd,  Vejle Syd, Denmark",NA,NA,NA,NA
+"866",630013,"Løget Kirke Syd","9. Vejle Syd","Løget Kirke Syd,  Vejle Syd, Denmark",NA,NA,NA,NA
+"867",630014,"Csv Syd","9. Vejle Syd","Csv Syd,  Vejle Syd, Denmark",NA,NA,NA,NA
+"868",630015,"Rødkilde Gymnasium Syd","9. Vejle Syd","Rødkilde Gymnasium Syd,  Vejle Syd, Denmark",9.5543853,55.7108354,7100,630
+"869",630016,"Skibethallen Nord","8. Vejle Nord","Skibethallen Nord,  Vejle Nord, Denmark",NA,NA,NA,NA
+"870",630017,"Give Nord","8. Vejle Nord","Give Nord,  Vejle Nord, Denmark",9.237394,55.844405,7323,630
+"871",630018,"Thyregod Nord","8. Vejle Nord","Thyregod Nord,  Vejle Nord, Denmark",9.259782,55.907213,7323,630
+"872",630019,"Gadbjerg Nord","8. Vejle Nord","Gadbjerg Nord,  Vejle Nord, Denmark",9.3230799,55.77121,7321,630
+"873",630020,"Givskud Nord","8. Vejle Nord","Givskud Nord,  Vejle Nord, Denmark",9.349232,55.816265,7323,630
+"874",630021,"Grønbjerg Nord","8. Vejle Nord","Grønbjerg Nord,  Vejle Nord, Denmark",9.122072,55.815832,7323,630
+"875",630022,"Lindeballe Nord","8. Vejle Nord","Lindeballe Nord,  Vejle Nord, Denmark",9.243306,55.770484,7321,630
+"876",630023,"Øster Nykirke Nord","8. Vejle Nord","Øster Nykirke Nord,  Vejle Nord, Denmark",9.4695875,55.6404009,7100,630
+"877",630024,"Jelling Nord","8. Vejle Nord","Jelling Nord,  Vejle Nord, Denmark",9.4168679,55.753119,7300,630
+"878",630025,"Kollerup-Sandvad Nord","8. Vejle Nord","Kollerup-Sandvad Nord,  Vejle Nord, Denmark",9.459792,55.781568,7300,630
+"879",630026,"Grejs Nord","8. Vejle Nord","Grejs Nord,  Vejle Nord, Denmark",9.546481,55.762458,7100,630
+"880",630027,"Bredsten Nord","8. Vejle Nord","Bredsten Nord,  Vejle Nord, Denmark",9.3842629,55.7028282,7182,630
+"881",630028,"Nørup Nord","8. Vejle Nord","Nørup Nord,  Vejle Nord, Denmark",9.303968,55.718632,7182,630
+"882",630029,"Randbøl Nord","8. Vejle Nord","Randbøl Nord,  Vejle Nord, Denmark",9.2476,55.694217,7183,630
+"883",630030,"Nørremarkshallen Nord","8. Vejle Nord","Nørremarkshallen Nord,  Vejle Nord, Denmark",NA,NA,NA,NA
+"884",630031,"Engum Nord","8. Vejle Nord","Engum Nord,  Vejle Nord, Denmark",9.657435,55.742323,7120,630
+"885",630032,"Hældagerhallen Nord","8. Vejle Nord","Hældagerhallen Nord,  Vejle Nord, Denmark",NA,NA,NA,NA
+"886",630033,"Grejsdalshallen Nord","8. Vejle Nord","Grejsdalshallen Nord,  Vejle Nord, Denmark",NA,NA,NA,NA
+"887",630034,"Petersmindehallen Nord","8. Vejle Nord","Petersmindehallen Nord,  Vejle Nord, Denmark",9.510912,55.7240228,7100,630
+"888",657001,"Herning","8. Herning Syd","Herning,  Herning Syd, Denmark",8.967322,56.138557,7400,657
+"889",657002,"Arnborg","8. Herning Syd","Arnborg,  Herning Syd, Denmark",9.0139919,56.0105126,7400,657
+"890",657005,"Kibæk","8. Herning Syd","Kibæk,  Herning Syd, Denmark",8.854738,56.035142,6933,657
+"891",657006,"Kølkær","8. Herning Syd","Kølkær,  Herning Syd, Denmark",9.0854199,56.06526,7400,657
+"892",657007,"Lind","8. Herning Syd","Lind,  Herning Syd, Denmark",8.980457,56.104826,7400,657
+"893",657008,"Sdr. Felding","8. Herning Syd","Sdr Felding,  Herning Syd, Denmark",8.7787478,55.96601,7280,657
+"894",657009,"Skarrild","8. Herning Syd","Skarrild,  Herning Syd, Denmark",8.898121,55.978326,6933,657
+"895",657011,"Studsgård","8. Herning Syd","Studsgård,  Herning Syd, Denmark",8.908508,56.090547,7400,657
+"896",657013,"Aulum","9. Herning Nord","Aulum,  Herning Nord, Denmark",8.793653,56.265781,7490,657
+"897",657014,"Feldborg","9. Herning Nord","Feldborg,  Herning Nord, Denmark",8.8714402,56.2983476,7490,657
+"898",657015,"Gullestrup","9. Herning Nord","Gullestrup,  Herning Nord, Denmark",8.9751,56.168628,7400,657
+"899",657016,"Haderup","9. Herning Nord","Haderup,  Herning Nord, Denmark",8.995795,56.388701,7540,657
+"900",657017,"Hammerum","9. Herning Nord","Hammerum,  Herning Nord, Denmark",9.061126,56.134587,7400,657
+"901",657018,"Hodsager","9. Herning Nord","Hodsager,  Herning Nord, Denmark",8.857039,56.315772,7490,657
+"902",657019,"Ilskov","9. Herning Nord","Ilskov,  Herning Nord, Denmark",9.089707,56.237378,7451,657
+"903",657020,"Simmelkær","9. Herning Nord","Simmelkær,  Herning Nord, Denmark",9.000022,56.268942,7451,657
+"904",657021,"Sinding","9. Herning Nord","Sinding,  Herning Nord, Denmark",8.851548,56.21424,7400,657
+"905",657022,"Skibbild/Nøvling","9. Herning Nord","Skibbild/Nøvling,  Herning Nord, Denmark",8.8530896,56.1768597,7480,657
+"906",657023,"Snejbjerg","9. Herning Nord","Snejbjerg,  Herning Nord, Denmark",8.899073,56.131568,7400,657
+"907",657024,"Sunds","9. Herning Nord","Sunds,  Herning Nord, Denmark",9.014758,56.204832,7451,657
+"908",657025,"Timring","9. Herning Nord","Timring,  Herning Nord, Denmark",8.739473,56.176431,7480,657
+"909",657026,"Tjørring","9. Herning Nord","Tjørring,  Herning Nord, Denmark",8.921957,56.161086,7400,657
+"910",657027,"Vildbjerg","9. Herning Nord","Vildbjerg,  Herning Nord, Denmark",8.766069,56.195461,7480,657
+"911",657028,"Vind","9. Herning Nord","Vind,  Herning Nord, Denmark",8.565334,56.257541,7500,657
+"912",657029,"Vinding","9. Herning Nord","Vinding,  Herning Nord, Denmark",8.745438,56.266386,7490,657
+"913",657030,"Ørnhøj","9. Herning Nord","Ørnhøj,  Herning Nord, Denmark",8.565246,56.199645,6973,657
+"914",661001,"Musikteatret","10. Holstebro","Musikteatret,  Holstebro, Denmark",8.621727,56.361534,7500,661
+"915",661002,"Mejdal","10. Holstebro","Mejdal,  Holstebro, Denmark",8.641387,56.348827,7500,661
+"916",661003,"Skave","10. Holstebro","Skave,  Holstebro, Denmark",8.801352,56.390792,7500,661
+"917",661004,"Mejrup","10. Holstebro","Mejrup,  Holstebro, Denmark",8.692907,56.363966,7500,661
+"918",661005,"Birkelundskolen","10. Holstebro","Birkelundskolen,  Holstebro, Denmark",8.5929222,56.3754204,7500,661
+"919",661006,"Vinderup","10. Holstebro","Vinderup,  Holstebro, Denmark",8.780706,56.478594,7830,661
+"920",661007,"Sevel","10. Holstebro","Sevel,  Holstebro, Denmark",8.87043,56.456179,7830,661
+"921",661008,"Ulfborg","10. Holstebro","Ulfborg,  Holstebro, Denmark",8.318263,56.273653,6990,661
+"922",661009,"Vemb","10. Holstebro","Vemb,  Holstebro, Denmark",8.340374,56.34394,7570,661
+"923",661010,"Sdr. Nissum","10. Holstebro","Sdr Nissum,  Holstebro, Denmark",8.1855035,56.3064632,6990,661
+"924",665001,"Lemvig","1. Struer","Lemvig,  Struer, Denmark",8.589933,56.48493,7600,671
+"925",665002,"Nørre Nissum","1. Struer","Nørre Nissum,  Struer, Denmark",8.5003103,56.6237671,7790,671
+"926",665003,"Klinkby","1. Struer","Klinkby,  Struer, Denmark",8.589933,56.48493,7600,671
+"927",665004,"Ramme","1. Struer","Ramme,  Struer, Denmark",8.589933,56.48493,7600,671
+"928",665005,"Bøvling","1. Struer","Bøvling,  Struer, Denmark",8.5861432,56.4808469,7600,671
+"929",665006,"Flynder","1. Struer","Flynder,  Struer, Denmark",8.589933,56.48493,7600,671
+"930",665007,"Thyborøn","1. Struer","Thyborøn,  Struer, Denmark",8.589933,56.48493,7600,671
+"931",665008,"Harboøre","1. Struer","Harboøre,  Struer, Denmark",8.589933,56.48493,7600,671
+"932",671001,"Struer","1. Struer","Struer,  Struer, Denmark",8.589933,56.48493,7600,671
+"933",671002,"Gimsing","1. Struer","Gimsing,  Struer, Denmark",8.5656141,56.4695102,7600,671
+"934",671003,"Hjerm","1. Struer","Hjerm,  Struer, Denmark",8.636616,56.437458,7560,671
+"935",671004,"Humlum","1. Struer","Humlum,  Struer, Denmark",8.551149,56.540272,7600,671
+"936",671005,"Bremdal","1. Struer","Bremdal,  Struer, Denmark",8.584726,56.508125,7600,671
+"937",671006,"Langhøj","1. Struer","Langhøj,  Struer, Denmark",8.5122362,56.4338212,7600,671
+"938",671007,"Hvidbjerg","1. Struer","Hvidbjerg,  Struer, Denmark",8.527533,56.649556,7790,671
+"939",706001,"Ebeltoft","5. Djurs","Ebeltoft,  Djurs, Denmark",10.6592488,56.1572155,8400,706
+"940",706002,"Mols","5. Djurs","Mols,  Djurs, Denmark",NA,NA,NA,NA
+"941",706003,"Tirstrup","5. Djurs","Tirstrup,  Djurs, Denmark",10.6852645,56.3014135,8400,706
+"942",706004,"Kolind","5. Djurs","Kolind,  Djurs, Denmark",10.636429,56.3446795,8560,706
+"943",706005,"Ryomgård","5. Djurs","Ryomgård,  Djurs, Denmark",NA,NA,NA,NA
+"944",706006,"Hornslet","5. Djurs","Hornslet,  Djurs, Denmark",10.3155211,56.318149,8543,706
+"945",706007,"Mørke","5. Djurs","Mørke,  Djurs, Denmark",NA,NA,NA,NA
+"946",706008,"Rønde","5. Djurs","Rønde,  Djurs, Denmark",10.4974823,56.2980157,8410,706
+"947",707001,"Kulturhuset Pavillonen","5. Djurs","Kulturhuset Pavillonen,  Djurs, Denmark",NA,NA,NA,NA
+"948",707002,"Anholt Skole","5. Djurs","Anholt Skole,  Djurs, Denmark",NA,NA,NA,NA
+"949",707003,"Kulturhuset Stationen","5. Djurs","Kulturhuset Stationen,  Djurs, Denmark",NA,NA,NA,NA
+"950",707004,"Grenaa Idrætscenter","5. Djurs","Grenaa Idrætscenter,  Djurs, Denmark",NA,NA,NA,NA
+"951",707005,"Glesborg","5. Djurs","Glesborg,  Djurs, Denmark",10.6845802,56.4436757,8586,707
+"952",707006,"Ørum","5. Djurs","Ørum,  Djurs, Denmark",10.6799094,56.4419863,8586,707
+"953",707007,"Ørsted","5. Djurs","Ørsted,  Djurs, Denmark",10.3316496,56.501231,8950,707
+"954",707008,"Allingåbro","5. Djurs","Allingåbro,  Djurs, Denmark",10.308321,56.449197,8961,707
+"955",707009,"Auning","5. Djurs","Auning,  Djurs, Denmark",10.376553,56.430596,8963,707
+"956",707010,"Vivild","5. Djurs","Vivild,  Djurs, Denmark",NA,NA,NA,NA
+"957",710001,"Hadsten Nord","8. Favrskov","Hadsten Nord,  Favrskov, Denmark",10.047763,56.329953,8370,710
+"958",710002,"Hadsten Syd","8. Favrskov","Hadsten Syd,  Favrskov, Denmark",10.047763,56.329953,8370,710
+"959",710003,"Hadbjerg","8. Favrskov","Hadbjerg,  Favrskov, Denmark",10.1032402,56.3307157,8370,710
+"960",710004,"Hammel Nord","8. Favrskov","Hammel Nord,  Favrskov, Denmark",9.864757,56.256349,8450,710
+"961",710005,"Hammel Syd","8. Favrskov","Hammel Syd,  Favrskov, Denmark",9.864757,56.256349,8450,710
+"962",710006,"Haldum-Hinnerup/Vitten","8. Favrskov","Haldum-Hinnerup/Vitten,  Favrskov, Denmark",10.0133331,56.2865347,8382,710
+"963",710007,"Rønbæk/Grundfør","8. Favrskov","Rønbæk/Grundfør,  Favrskov, Denmark",10.0935605,56.2530246,8382,710
+"964",710008,"Foldby","8. Favrskov","Foldby,  Favrskov, Denmark",10.023228,56.252251,8382,710
+"965",710009,"Ulstrup","8. Favrskov","Ulstrup,  Favrskov, Denmark",9.791858,56.388841,8860,710
+"966",710010,"Thorsø/Haurum/Sall","8. Favrskov","Thorsø/Haurum/Sall,  Favrskov, Denmark",9.8352921,56.2672096,8450,710
+"967",710011,"Laurbjerg/Houlbjerg","8. Favrskov","Laurbjerg/Houlbjerg,  Favrskov, Denmark",9.872512,56.344044,8870,710
+"968",710012,"Søften","8. Favrskov","Søften,  Favrskov, Denmark",10.084304,56.237113,8382,710
+"969",710013,"Voldum","8. Favrskov","Voldum,  Favrskov, Denmark",10.171556,56.365735,8370,710
+"970",710014,"Lading","8. Favrskov","Lading,  Favrskov, Denmark",9.979747,56.220504,8471,710
+"971",727001,"Odder","9. Skanderborg","Odder,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"972",727002,"Torrild","9. Skanderborg","Torrild,  Skanderborg, Denmark",10.0241003,55.987648,8660,746
+"973",727003,"Saksild - Nølev","9. Skanderborg","Saksild - Nølev,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"974",727004,"Randlev - Bjerager","9. Skanderborg","Randlev - Bjerager,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"975",727005,"Hou, Gosmer - Halling","9. Skanderborg","Hou, Gosmer - Halling,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"976",727006,"Gylling","9. Skanderborg","Gylling,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"977",727007,"Ørting-Falling","9. Skanderborg","Ørting-Falling,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"978",727008,"Hundslund","9. Skanderborg","Hundslund,  Skanderborg, Denmark",10.05298,55.914335,8350,727
+"979",727009,"Alrø","9. Skanderborg","Alrø,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"980",727010,"Tunø","9. Skanderborg","Tunø,  Skanderborg, Denmark",9.9511815,56.1620062,8464,746
+"981",730001,"Kulturhuset Langå","7. Randers Syd","Kulturhuset Langå,  Randers Syd, Denmark",NA,NA,NA,NA
+"982",730002,"Stevnstrup Forsamlingshus","7. Randers Syd","Stevnstrup Forsamlingshus,  Randers Syd, Denmark",NA,NA,NA,NA
+"983",730004,"Jebjerg Forsamlingshus","7. Randers Syd","Jebjerg Forsamlingshus,  Randers Syd, Denmark",NA,NA,NA,NA
+"984",730005,"Havndalhallen","6. Randers Nord","Havndalhallen,  Randers Nord, Denmark",10.1870294,56.5820954,8983,730
+"985",730006,"Råby Forsamlingshus","6. Randers Nord","Råby Forsamlingshus,  Randers Nord, Denmark",NA,NA,NA,NA
+"986",730007,"Øster Tørslev Fritidslokaler","6. Randers Nord","Øster Tørslev Fritidslokaler,  Randers Nord, Denmark",NA,NA,NA,NA
+"987",730008,"Korshøjskolen","6. Randers Nord","Korshøjskolen,  Randers Nord, Denmark",10.1338879,56.498706,8930,730
+"988",730009,"Hald Forsamlingshus","6. Randers Nord","Hald Forsamlingshus,  Randers Nord, Denmark",NA,NA,NA,NA
+"989",730010,"Gjerlev Enslev Skole","6. Randers Nord","Gjerlev Enslev Skole,  Randers Nord, Denmark",NA,NA,NA,NA
+"990",730011,"Rismølleskolen","6. Randers Nord","Rismølleskolen,  Randers Nord, Denmark",10.0675346,56.4752374,8930,730
+"991",730012,"Rytterskolen","6. Randers Nord","Rytterskolen,  Randers Nord, Denmark",9.9638233,56.5038935,8920,730
+"992",730013,"Hornbækhallen","6. Randers Nord","Hornbækhallen,  Randers Nord, Denmark",NA,NA,NA,NA
+"993",730014,"Blicherskolen","6. Randers Nord","Blicherskolen,  Randers Nord, Denmark",10.037006,56.541293,8981,730
+"994",730015,"Kultur-Aktivitetshuset Gassum","6. Randers Nord","Kultur-Aktivitetshuset Gassum,  Randers Nord, Denmark",NA,NA,NA,NA
+"995",730016,"Asferg Forsamlingshus","7. Randers Syd","Asferg Forsamlingshus,  Randers Syd, Denmark",NA,NA,NA,NA
+"996",730017,"Purhushallen","7. Randers Syd","Purhushallen,  Randers Syd, Denmark",NA,NA,NA,NA
+"997",730021,"Ø. Bjerregrav Forsamlingshus","7. Randers Syd","� Bjerregrav Forsamlingshus,  Randers Syd, Denmark",NA,NA,NA,NA
+"998",730024,"Hadsundvejens Skole","7. Randers Syd","Hadsundvejens Skole,  Randers Syd, Denmark",10.0392696,56.4659861,8900,730
+"999",730025,"Hobrovejens Skole","7. Randers Syd","Hobrovejens Skole,  Randers Syd, Denmark",10.0231329,56.4668046,8900,730
+"1000",730026,"Nyvangsskolen","6. Randers Nord","Nyvangsskolen,  Randers Nord, Denmark",10.024084,56.475273,8920,730
+"1001",730027,"Nørrevangsskolen","6. Randers Nord","Nørrevangsskolen,  Randers Nord, Denmark",10.0376637,56.4769569,8930,730
+"1002",730028,"Fritidscentret","7. Randers Syd","Fritidscentret,  Randers Syd, Denmark",NA,NA,NA,NA
+"1003",730029,"Vestervangsskolen","6. Randers Nord","Vestervangsskolen,  Randers Nord, Denmark",10.008028,56.472808,8920,730
+"1004",730030,"Østervangsskolen","6. Randers Nord","Østervangsskolen,  Randers Nord, Denmark",NA,NA,NA,NA
+"1005",730031,"Søndermarkskolen","7. Randers Syd","Søndermarkskolen,  Randers Syd, Denmark",NA,NA,NA,NA
+"1006",730032,"Kristrup Skole","7. Randers Syd","Kristrup Skole,  Randers Syd, Denmark",10.057266,56.445793,8960,730
+"1007",730033,"Paderup Gymnasium","7. Randers Syd","Paderup Gymnasium,  Randers Syd, Denmark",10.07437,56.4320004,8960,730
+"1008",730034,"Romalt Aktivitetshal","7. Randers Syd","Romalt Aktivitetshal,  Randers Syd, Denmark",NA,NA,NA,NA
+"1009",730036,"Assentofthallen","7. Randers Syd","Assentofthallen,  Randers Syd, Denmark",10.1611606,56.4464201,8960,730
+"1010",730037,"Uggelhuse Forsamlingshus","7. Randers Syd","Uggelhuse Forsamlingshus,  Randers Syd, Denmark",NA,NA,NA,NA
+"1011",740001,"Ans","5. Silkeborg Nord","Ans,  Silkeborg Nord, Denmark",9.5877459,56.307347,8643,740
+"1012",740002,"Funder","5. Silkeborg Nord","Funder,  Silkeborg Nord, Denmark",9.47578,56.149343,8600,740
+"1013",740003,"Fårvang","5. Silkeborg Nord","Fårvang,  Silkeborg Nord, Denmark",9.727426,56.267286,8882,740
+"1014",740004,"Gjern","5. Silkeborg Nord","Gjern,  Silkeborg Nord, Denmark",9.7375498,56.2299583,8883,740
+"1015",740005,"Grauballe","5. Silkeborg Nord","Grauballe,  Silkeborg Nord, Denmark",9.633686,56.226705,8600,740
+"1016",740006,"Gødvad","5. Silkeborg Nord","Gødvad,  Silkeborg Nord, Denmark",9.606769,56.184483,8600,740
+"1017",740007,"Kjellerup","5. Silkeborg Nord","Kjellerup,  Silkeborg Nord, Denmark",9.435532,56.284643,8620,740
+"1018",740008,"Kragelund","5. Silkeborg Nord","Kragelund,  Silkeborg Nord, Denmark",9.4088239,56.194912,8600,740
+"1019",740009,"Lemming","5. Silkeborg Nord","Lemming,  Silkeborg Nord, Denmark",9.5466721,56.2397988,8632,740
+"1020",740010,"Linå","5. Silkeborg Nord","Linå,  Silkeborg Nord, Denmark",9.68866,56.15387,8600,740
+"1021",740011,"Resenbro","5. Silkeborg Nord","Resenbro,  Silkeborg Nord, Denmark",9.650196,56.182433,8600,740
+"1022",740012,"Sejling","5. Silkeborg Nord","Sejling,  Silkeborg Nord, Denmark",9.5187709,56.217341,8600,740
+"1023",740013,"Sejs","5. Silkeborg Nord","Sejs,  Silkeborg Nord, Denmark",9.60668,56.138756,8600,740
+"1024",740014,"Sjørslev","5. Silkeborg Nord","Sjørslev,  Silkeborg Nord, Denmark",9.442887,56.328379,8620,740
+"1025",740015,"Sorring","5. Silkeborg Nord","Sorring,  Silkeborg Nord, Denmark",9.776233,56.177425,8641,740
+"1026",740016,"Thorning","5. Silkeborg Nord","Thorning,  Silkeborg Nord, Denmark",9.330974,56.284124,8620,740
+"1027",740017,"Vinderslev","5. Silkeborg Nord","Vinderslev,  Silkeborg Nord, Denmark",9.42891,56.254696,8620,740
+"1028",740018,"Voel","5. Silkeborg Nord","Voel,  Silkeborg Nord, Denmark",9.693059,56.190116,8600,740
+"1029",740021,"Balle","6. Silkeborg Syd","Balle,  Silkeborg Syd, Denmark",9.5307756,56.1824083,8600,740
+"1030",740022,"Bryrup","6. Silkeborg Syd","Bryrup,  Silkeborg Syd, Denmark",9.522354,56.023154,8654,740
+"1031",740023,"Buskelund","6. Silkeborg Syd","Buskelund,  Silkeborg Syd, Denmark",9.4964245,56.1733691,8600,740
+"1032",740024,"Gjessø","6. Silkeborg Syd","Gjessø,  Silkeborg Syd, Denmark",9.493921,56.116001,8600,740
+"1033",740025,"Hjøllund","6. Silkeborg Syd","Hjøllund,  Silkeborg Syd, Denmark",9.378141,56.070727,7362,740
+"1034",740026,"Langsøskolen","6. Silkeborg Syd","Langsøskolen,  Silkeborg Syd, Denmark",9.5645053,56.1728915,8600,740
+"1035",740027,"Lysbro","6. Silkeborg Syd","Lysbro,  Silkeborg Syd, Denmark",9.504668,56.156431,8600,740
+"1036",740028,"Nordre","6. Silkeborg Syd","Nordre,  Silkeborg Syd, Denmark",9.5549216,56.176362,8600,740
+"1037",740029,"Jysk Arena","6. Silkeborg Syd","Jysk Arena,  Silkeborg Syd, Denmark",9.5734063,56.1843298,8600,740
+"1038",740030,"Them","6. Silkeborg Syd","Them,  Silkeborg Syd, Denmark",9.548351,56.092279,8653,740
+"1039",740031,"Vestergadehallen","6. Silkeborg Syd","Vestergadehallen,  Silkeborg Syd, Denmark",NA,NA,NA,NA
+"1040",740032,"Virklund","6. Silkeborg Syd","Virklund,  Silkeborg Syd, Denmark",9.559089,56.130797,8600,740
+"1041",741001,"Tranebjerg","9. Skanderborg","Tranebjerg,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"1042",741002,"Nordby","9. Skanderborg","Nordby,  Skanderborg, Denmark",9.9297989,56.037247,8660,746
+"1043",746001,"Ejer Bavnehøj","9. Skanderborg","Ejer Bavnehøj,  Skanderborg, Denmark",9.8306501,55.9770665,8660,746
+"1044",746002,"Galten","9. Skanderborg","Galten,  Skanderborg, Denmark",9.907665,56.154126,8464,746
+"1045",746003,"Gl. Rye","9. Skanderborg","Gl Rye,  Skanderborg, Denmark",9.69787,56.074078,8680,746
+"1046",746004,"Hørning","9. Skanderborg","Hørning,  Skanderborg, Denmark",10.037798,56.087627,8362,746
+"1047",746005,"Låsby","9. Skanderborg","Låsby,  Skanderborg, Denmark",9.808828,56.151738,8670,746
+"1048",746006,"Morten Børup","9. Skanderborg","Morten Børup,  Skanderborg, Denmark",9.923182,56.035156,8660,746
+"1049",746007,"Niels Ebbesen","9. Skanderborg","Niels Ebbesen,  Skanderborg, Denmark",9.9341972,56.0451865,8660,746
+"1050",746008,"Ry","9. Skanderborg","Ry,  Skanderborg, Denmark",9.7665915,56.0906735,8680,746
+"1051",746009,"Skovby","9. Skanderborg","Skovby,  Skanderborg, Denmark",9.949989,56.159837,8464,746
+"1052",746010,"Stilling","9. Skanderborg","Stilling,  Skanderborg, Denmark",9.986171,56.058218,8660,746
+"1053",746011,"Stjær","9. Skanderborg","Stjær,  Skanderborg, Denmark",9.953814,56.118417,8464,746
+"1054",746012,"Virring","9. Skanderborg","Virring,  Skanderborg, Denmark",10.03355,56.031216,8660,746
+"1055",751001,"Frederiksbjerg Hallerne","1. Århus Syd","Frederiksbjerg Hallerne,  �rhus Syd, Denmark",10.2002028,56.1448463,8000,751
+"1056",751002,"Lokalcenter Fr.Bjerg/Langenæs","1. Århus Syd","Lokalcenter FrBjerg/Langen�s,  �rhus Syd, Denmark",NA,NA,NA,NA
+"1057",751003,"Rundhøjhallen,Holme","1. Århus Syd","Rundh�jhallen,Holme,  �rhus Syd, Denmark",NA,NA,NA,NA
+"1058",751004,"Kragelundskolen,Højbjerg","1. Århus Syd","Kragelundskolen,H�jbjerg,  �rhus Syd, Denmark",10.200594,56.11519,8270,751
+"1059",751006,"Tranbjerg Skole","1. Århus Syd","Tranbjerg Skole,  �rhus Syd, Denmark",10.1389253,56.0875258,8310,751
+"1060",751007,"Rosenvangskolen,Viby J","2. Århus Vest","Rosenvangskolen,Viby J,  �rhus Vest, Denmark",10.1826711,56.1312018,8260,751
+"1061",751008,"Viby Hallen","2. Århus Vest","Viby Hallen,  �rhus Vest, Denmark",NA,NA,NA,NA
+"1062",751009,"Beder Skole","1. Århus Syd","Beder Skole,  �rhus Syd, Denmark",10.2111856,56.0631681,8330,751
+"1063",751011,"Malling Skole","1. Århus Syd","Malling Skole,  �rhus Syd, Denmark",10.2111856,56.0631681,8330,751
+"1064",751012,"Mårslet Skole","1. Århus Syd","M�rslet Skole,  �rhus Syd, Denmark",10.2111856,56.0631681,8330,751
+"1065",751013,"Solbjergskolen","1. Århus Syd","Solbjergskolen,  �rhus Syd, Denmark",10.084387,56.042567,8355,751
+"1066",751016,"Ormslev Præstegård","2. Århus Vest","Ormslev Pr�steg�rd,  �rhus Vest, Denmark",NA,NA,NA,NA
+"1067",751018,"Hasselager Hallen","2. Århus Vest","Hasselager Hallen,  �rhus Vest, Denmark",10.082407,56.10946,8361,751
+"1068",751019,"Højvangskolen,Stavtrup","2. Århus Vest","H�jvangskolen,Stavtrup,  �rhus Vest, Denmark",10.113768,56.1300155,8260,751
+"1069",751021,"Rådhushallen","4. Århus Øst","R�dhushallen,  �rhus �st, Denmark",NA,NA,NA,NA
+"1070",751022,"Gammelgårdskolen,Åbyhøj","3. Århus Nord","Gammelg�rdskolen,�byh�j,  �rhus Nord, Denmark",10.156984,56.159365,8230,751
+"1071",751023,"Hasle Skole","3. Århus Nord","Hasle Skole,  �rhus Nord, Denmark",10.1638021,56.1686119,8210,751
+"1072",751024,"Brabrand Hallen,Brabrand","2. Århus Vest","Brabrand Hallen,Brabrand,  �rhus Vest, Denmark",NA,NA,NA,NA
+"1073",751025,"Globus 1, Brabrand","2. Århus Vest","Globus  Brabrand,  �rhus Vest, Denmark",10.1423858,56.1582036,8220,751
+"1074",751026,"Skjoldhøjskolen","2. Århus Vest","Skjoldh�jskolen,  �rhus Vest, Denmark",10.1149482,56.1743144,8381,751
+"1075",751028,"Tilst Skole,Tilst","2. Århus Vest","Tilst Skole,Tilst,  �rhus Vest, Denmark",10.1077123,56.1880867,8381,751
+"1076",751030,"Næshøj Hallen, Harlev","2. Århus Vest","N�sh�j Hallen, Harlev,  �rhus Vest, Denmark",9.9970793,56.1446536,8462,751
+"1077",751031,"Borum Forsamlingshus","2. Århus Vest","Borum Forsamlingshus,  �rhus Vest, Denmark",NA,NA,NA,NA
+"1078",751033,"Sabro-Korsvejskolen,Sabro","2. Århus Vest","Sabro-Korsvejskolen,Sabro,  �rhus Vest, Denmark",10.023611,56.211784,8471,751
+"1079",751041,"Samsøgades Skole","4. Århus Øst","Sams�gades Skole,  �rhus �st, Denmark",10.2026842,56.162278,8000,751
+"1080",751042,"Skovvangskolen","3. Århus Nord","Skovvangskolen,  �rhus Nord, Denmark",10.208847,56.1751938,8200,751
+"1081",751043,"Møllevangskolen","3. Århus Nord","M�llevangskolen,  �rhus Nord, Denmark",10.1832038,56.1649116,8210,751
+"1082",751044,"Lisbjergskolen","3. Århus Nord","Lisbjergskolen,  �rhus Nord, Denmark",NA,NA,NA,NA
+"1083",751045,"Bellevue-Hallen","4. Århus Øst","Bellevue-Hallen,  �rhus �st, Denmark",10.247143,56.193846,8240,751
+"1084",751047,"Lystrup Skole","3. Århus Nord","Lystrup Skole,  �rhus Nord, Denmark",10.2781716,56.2089915,8250,751
+"1085",751048,"Virupskolen,Hjortshøj","4. Århus Øst","Virupskolen,Hjortsh�j,  �rhus �st, Denmark",NA,NA,NA,NA
+"1086",751049,"Sølystskolen,Egå","4. Århus Øst","S�lystskolen,Eg�,  �rhus �st, Denmark",10.283211,56.211717,8250,751
+"1087",751050,"Skæring Skole","4. Århus Øst","Sk�ring Skole,  �rhus �st, Denmark",10.2781716,56.2089915,8250,751
+"1088",751051,"Skødstrup Hallen","4. Århus Øst","Sk�dstrup Hallen,  �rhus �st, Denmark",NA,NA,NA,NA
+"1089",751053,"Bjørnshøjcentret,Trige","3. Århus Nord","Bj�rnsh�jcentret,Trige,  �rhus Nord, Denmark",NA,NA,NA,NA
+"1090",751055,"Spørring Fælleshus","3. Århus Nord","Sp�rring F�lleshus,  �rhus Nord, Denmark",NA,NA,NA,NA
+"1091",751056,"Hårup Hallen","3. Århus Nord","H�rup Hallen,  �rhus Nord, Denmark",NA,NA,NA,NA
+"1092",751061,"Vejlby Risskov Hallen","4. Århus Øst","Vejlby Risskov Hallen,  �rhus �st, Denmark",10.2077683,56.1927056,8240,751
+"1093",751062,"Søndervangskolen,Viby J","2. Århus Vest","S�ndervangskolen,Viby J,  �rhus Vest, Denmark",NA,NA,NA,NA
+"1094",751063,"Center -10 (Frydenlundskolen)","3. Århus Nord","Center - (Frydenlundskolen),  �rhus Nord, Denmark",10.1741057,56.1635132,8210,751
+"1095",751064,"Åby Skole","2. Århus Vest","�by Skole,  �rhus Vest, Denmark",10.2114429,56.155468,8000,751
+"1096",751065,"Ellevangskolen,Risskov","4. Århus Øst","Ellevangskolen,Risskov,  �rhus �st, Denmark",10.2179638,56.2034085,8240,751
+"1097",751066,"Skåde Skole","1. Århus Syd","Sk�de Skole,  �rhus Syd, Denmark",10.2114429,56.155468,8000,751
+"1098",751067,"Katrinebjergskolen","3. Århus Nord","Katrinebjergskolen,  �rhus Nord, Denmark",10.1961819,56.1737699,8200,751
+"1099",751068,"Vorrevangskolen","3. Århus Nord","Vorrevangskolen,  �rhus Nord, Denmark",10.1993681,56.1856812,8200,751
+"1100",756001,"Ejstrup","7. Ikast","Ejstrup,  Ikast, Denmark",9.2153056,56.0791112,7430,756
+"1101",756002,"Gludsted","7. Ikast","Gludsted,  Ikast, Denmark",9.2561091,56.0723131,7430,756
+"1102",756003,"Nørre-Snede","7. Ikast","Nørre-Snede,  Ikast, Denmark",9.3927797,55.9650638,8766,756
+"1103",756004,"Hampen","7. Ikast","Hampen,  Ikast, Denmark",9.355584,56.018296,7362,756
+"1104",756005,"Klovborg","7. Ikast","Klovborg,  Ikast, Denmark",9.492799,55.931336,8765,756
+"1105",756006,"Pårup","7. Ikast","Pårup,  Ikast, Denmark",9.349422,56.136468,7442,756
+"1106",756007,"Brande By","7. Ikast","Brande By,  Ikast, Denmark",9.154597,56.136371,7430,756
+"1107",756008,"Blåhøj","7. Ikast","Blåhøj,  Ikast, Denmark",9.033243,55.874511,7330,756
+"1108",756009,"Uhre","7. Ikast","Uhre,  Ikast, Denmark",9.137651,56.119956,7430,756
+"1109",756010,"Drantum","7. Ikast","Drantum,  Ikast, Denmark",9.105693,55.91481,7330,756
+"1110",756011,"Ikast","7. Ikast","Ikast,  Ikast, Denmark",9.154597,56.136371,7430,756
+"1111",756012,"Isenvad","7. Ikast","Isenvad,  Ikast, Denmark",9.205162,56.098356,7430,756
+"1112",756013,"Bording","7. Ikast","Bording,  Ikast, Denmark",9.276602,56.144374,7441,756
+"1113",756014,"Agerskov-Stubkjær","7. Ikast","Agerskov-Stubkjær,  Ikast, Denmark",9.154597,56.136371,7430,756
+"1114",756015,"Engesvang","7. Ikast","Engesvang,  Ikast, Denmark",9.349179,56.170154,7442,756
+"1115",760001,"Tarm","11. Ringkøbing","Tarm,  Ringk�bing, Denmark",8.520293,55.9066,6880,760
+"1116",760002,"Holmsland","11. Ringkøbing","Holmsland,  Ringk�bing, Denmark",8.1235651,56.0903367,6950,760
+"1117",760003,"Hoven","11. Ringkøbing","Hoven,  Ringk�bing, Denmark",8.762796,55.851362,6880,760
+"1118",760005,"Lyne","11. Ringkøbing","Lyne,  Ringk�bing, Denmark",8.493355,55.800878,6880,760
+"1119",760008,"Bork","11. Ringkøbing","Bork,  Ringk�bing, Denmark",8.30645,56.099446,6950,760
+"1120",760009,"Lønborg","11. Ringkøbing","L�nborg,  Ringk�bing, Denmark",8.443813,55.903328,6880,760
+"1121",760010,"Hvide Sande","11. Ringkøbing","Hvide Sande,  Ringk�bing, Denmark",8.127935,56.011793,6960,760
+"1122",760012,"Velling","11. Ringkøbing","Velling,  Ringk�bing, Denmark",8.313427,56.052721,6950,760
+"1123",760013,"Ølstrup","11. Ringkøbing","�lstrup,  Ringk�bing, Denmark",8.422993,56.112696,6950,760
+"1124",760014,"Ringkøbing","11. Ringkøbing","Ringk�bing,  Ringk�bing, Denmark",8.257633,56.088054,6950,760
+"1125",760016,"Hee","11. Ringkøbing","Hee,  Ringk�bing, Denmark",8.2916496,56.1422043,6950,760
+"1126",760019,"Stadil","11. Ringkøbing","Stadil,  Ringk�bing, Denmark",8.213276,56.199033,6980,760
+"1127",760020,"Højmark","11. Ringkøbing","H�jmark,  Ringk�bing, Denmark",8.4014469,56.054287,6940,760
+"1128",760021,"Lem","11. Ringkøbing","Lem,  Ringk�bing, Denmark",8.3877754,56.0294157,6940,760
+"1129",760022,"Tim","11. Ringkøbing","Tim,  Ringk�bing, Denmark",8.306523,56.1956,6980,760
+"1130",760024,"Skjern","11. Ringkøbing","Skjern,  Ringk�bing, Denmark",8.257633,56.088054,6950,760
+"1131",760025,"Borris","11. Ringkøbing","Borris,  Ringk�bing, Denmark",8.647713,55.958293,6900,760
+"1132",760026,"Faster","11. Ringkøbing","Faster,  Ringk�bing, Denmark",8.593262,55.985249,6900,760
+"1133",760027,"Rækker Mølle","11. Ringkøbing","R�kker M�lle,  Ringk�bing, Denmark",8.5408639,56.021134,6900,760
+"1134",760028,"Stauning","11. Ringkøbing","Stauning,  Ringk�bing, Denmark",8.370522,55.96518,6900,760
+"1135",760030,"Videbæk","11. Ringkøbing","Videb�k,  Ringk�bing, Denmark",8.626757,56.09002,6920,760
+"1136",760031,"Nr.Vium","11. Ringkøbing","NrVium,  Ringk�bing, Denmark",8.7174311,56.0283292,6920,760
+"1137",760032,"Troldhede","11. Ringkøbing","Troldhede,  Ringk�bing, Denmark",8.741793,55.993205,6920,760
+"1138",760033,"Vorgod-Barde","11. Ringkøbing","Vorgod-Barde,  Ringk�bing, Denmark",8.6303598,56.0987077,6920,760
+"1139",760035,"Spjald","11. Ringkøbing","Spjald,  Ringk�bing, Denmark",8.506574,56.127221,6971,760
+"1140",766001,"Hedensted, St.Dalby Og Urlev","11. Hedensted","Hedensted, StDalby Og Urlev,  Hedensted, Denmark",9.7452011,55.7683931,8722,766
+"1141",766002,"Løsning Sogn","11. Hedensted","L�sning Sogn,  Hedensted, Denmark",9.6996006,55.7741178,8722,766
+"1142",766003,"Ø. Snede Sogn","11. Hedensted","� Snede Sogn,  Hedensted, Denmark",9.70228,55.771718,8722,766
+"1143",766004,"Daugård Og Ørum Sogne","11. Hedensted","Daug�rd Og �rum Sogne,  Hedensted, Denmark",9.70228,55.771718,8722,766
+"1144",766005,"Korning Sogn","11. Hedensted","Korning Sogn,  Hedensted, Denmark",9.70228,55.771718,8722,766
+"1145",766006,"Ølsted Og Eriknauer-Området","11. Hedensted","�lsted Og Eriknauer-Omr�det,  Hedensted, Denmark",9.70228,55.771718,8722,766
+"1146",766007,"Juelsminde/Klakring","11. Hedensted","Juelsminde/Klakring,  Hedensted, Denmark",9.966194,55.708174,7130,766
+"1147",766008,"As","11. Hedensted","As,  Hedensted, Denmark",10.0079145,55.7670208,7130,766
+"1148",766010,"Barrit","11. Hedensted","Barrit,  Hedensted, Denmark",9.884672,55.714053,7150,766
+"1149",766011,"Bjerre","11. Hedensted","Bjerre,  Hedensted, Denmark",9.855085,55.786107,8783,766
+"1150",766012,"Hornsyld","11. Hedensted","Hornsyld,  Hedensted, Denmark",9.855973,55.755502,8783,766
+"1151",766013,"Stouby","11. Hedensted","Stouby,  Hedensted, Denmark",9.790619,55.702049,7140,766
+"1152",766014,"Rårup","11. Hedensted","R�rup,  Hedensted, Denmark",9.930178,55.774733,7130,766
+"1153",766015,"Glud","11. Hedensted","Glud,  Hedensted, Denmark",9.998522,55.807641,7130,766
+"1154",766016,"Hjarnø","11. Hedensted","Hjarn�,  Hedensted, Denmark",10.083544,55.8265562,7130,766
+"1155",766017,"Rask Mølle","11. Hedensted","Rask M�lle,  Hedensted, Denmark",9.612288,55.871906,8763,766
+"1156",766018,"Hvirring","11. Hedensted","Hvirring,  Hedensted, Denmark",9.65587,55.89239,8762,766
+"1157",766019,"Hornborg","11. Hedensted","Hornborg,  Hedensted, Denmark",9.665084,55.852931,8762,766
+"1158",766020,"Lindved","11. Hedensted","Lindved,  Hedensted, Denmark",9.578431,55.79358,7100,766
+"1159",766021,"Tørring","11. Hedensted","T�rring,  Hedensted, Denmark",9.4845234,55.8536684,7160,766
+"1160",766022,"Uldum","11. Hedensted","Uldum,  Hedensted, Denmark",9.589485,55.847805,7171,766
+"1161",766023,"Aale","11. Hedensted","Aale,  Hedensted, Denmark",9.562375,55.887013,7160,766
+"1162",766024,"Ølholm","11. Hedensted","�lholm,  Hedensted, Denmark",9.530276,55.835835,7160,766
+"1163",766025,"Hjortsvang","11. Hedensted","Hjortsvang,  Hedensted, Denmark",9.500486,55.888441,7160,766
+"1164",773001,"Sejerslev","4. Thisted","Sejerslev,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1165",773002,"Flade","4. Thisted","Flade,  Thisted, Denmark",8.2586485,56.7972224,7770,787
+"1166",773003,"Bjergby","4. Thisted","Bjergby,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1167",773004,"Sundby","4. Thisted","Sundby,  Thisted, Denmark",8.592596,56.889071,7752,787
+"1168",773005,"Solbjerg","4. Thisted","Solbjerg,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1169",773006,"Thorup","4. Thisted","Thorup,  Thisted, Denmark",9.1270138,57.1168397,9690,849
+"1170",773007,"Ø. Jølby","4. Thisted","� J�lby,  Thisted, Denmark",8.650311,56.826595,7950,773
+"1171",773008,"Erslev","4. Thisted","Erslev,  Thisted, Denmark",8.7507711,56.8296756,7950,773
+"1172",773009,"Tødsø","4. Thisted","Tødsø,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1173",773010,"Frøslev","4. Thisted","Frøslev,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1174",773011,"Tæbring","4. Thisted","Tæbring,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1175",773012,"Fredsø","4. Thisted","Fredsø,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1176",773013,"Vils","4. Thisted","Vils,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1177",773014,"Karby","4. Thisted","Karby,  Thisted, Denmark",8.560238,56.753254,7960,773
+"1178",773015,"Redsted","4. Thisted","Redsted,  Thisted, Denmark",8.650421,56.739945,7970,773
+"1179",773016,"Ørding","4. Thisted","Ørding,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1180",773017,"Ø. Assels","4. Thisted","� Assels,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1181",773018,"Nykøbing","4. Thisted","Nykøbing,  Thisted, Denmark",8.8574417,56.7955597,7900,773
+"1182",779001,"Aakjær","2. Skive","Aakjær,  Skive, Denmark",9.022482,56.566533,7800,779
+"1183",779002,"Skivehus","2. Skive","Skivehus,  Skive, Denmark",9.0370757,56.5814952,7800,779
+"1184",779003,"Brårup","2. Skive","Brårup,  Skive, Denmark",9.0404,56.548403,7800,779
+"1185",779004,"Højslev","2. Skive","Højslev,  Skive, Denmark",9.135541,56.582635,7840,779
+"1186",779005,"Ørslevkloster","2. Skive","Ørslevkloster,  Skive, Denmark",9.217986,56.599243,7840,779
+"1187",779006,"Rønbjerg","2. Skive","Rønbjerg,  Skive, Denmark",8.934431,56.534703,7800,779
+"1188",779007,"Hem","2. Skive","Hem,  Skive, Denmark",8.958725,56.595561,7800,779
+"1189",779008,"Lihme","2. Skive","Lihme,  Skive, Denmark",8.731763,56.600075,7860,779
+"1190",779009,"Oddense - Otting","2. Skive","Oddense - Otting,  Skive, Denmark",8.904679,56.6487262,7860,779
+"1191",779010,"Rødding","2. Skive","Rødding,  Skive, Denmark",8.808999,56.644795,7860,779
+"1192",779011,"Glyngøre","2. Skive","Glyngøre,  Skive, Denmark",8.87571,56.756884,7870,779
+"1193",779012,"Durup","2. Skive","Durup,  Skive, Denmark",8.950585,56.744028,7870,779
+"1194",779013,"Roslev","2. Skive","Roslev,  Skive, Denmark",8.985066,56.702825,7870,779
+"1195",779014,"Jebjerg-Lyby","2. Skive","Jebjerg-Lyby,  Skive, Denmark",9.008249,56.6546767,7870,779
+"1196",779015,"Balling","2. Skive","Balling,  Skive, Denmark",8.878765,56.615024,7860,779
+"1197",779016,"Breum","2. Skive","Breum,  Skive, Denmark",9.068589,56.687859,7870,779
+"1198",779017,"Håsum-Ramsing","2. Skive","Håsum-Ramsing,  Skive, Denmark",8.8528377,56.6037553,7860,779
+"1199",779018,"Selde","2. Skive","Selde,  Skive, Denmark",9.046244,56.780021,7870,779
+"1200",779019,"Lem-Vejby","2. Skive","Lem-Vejby,  Skive, Denmark",8.792677,56.6038122,7860,779
+"1201",779020,"Fur","2. Skive","Fur,  Skive, Denmark",9.0190386,56.8264232,7884,779
+"1202",787001,"Thisted By","4. Thisted","Thisted By,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1203",787002,"Harring-Stagstrup","4. Thisted","Harring-Stagstrup,  Thisted, Denmark",8.5871739,56.872757,7752,787
+"1204",787003,"Hillerslev-Kåstrup","4. Thisted","Hillerslev-Kåstrup,  Thisted, Denmark",8.7069997,57.0176913,7700,787
+"1205",787004,"Hundborg-Jannerup","4. Thisted","Hundborg-Jannerup,  Thisted, Denmark",8.4952813,56.9345681,7700,787
+"1206",787005,"Vorupør","4. Thisted","Vorupør,  Thisted, Denmark",8.3821275,56.953218,7700,787
+"1207",787006,"Nors-Tved","4. Thisted","Nors-Tved,  Thisted, Denmark",8.6784425,57.0324109,7700,787
+"1208",787007,"Sennels","4. Thisted","Sennels,  Thisted, Denmark",8.795407,56.965804,7700,787
+"1209",787008,"Sjørring-Thorsted","4. Thisted","Sjørring-Thorsted,  Thisted, Denmark",8.6312153,56.9685686,7700,787
+"1210",787009,"Skjoldborg-Kallerup","4. Thisted","Skjoldborg-Kallerup,  Thisted, Denmark",8.5837647,56.9179053,7700,787
+"1211",787010,"Snedsted-Nørhå","4. Thisted","Snedsted-Nørhå,  Thisted, Denmark",8.440297,56.902321,7752,787
+"1212",787011,"Sønderhå-Hørsted","4. Thisted","Sønderhå-Hørsted,  Thisted, Denmark",8.4834108,56.8709574,7752,787
+"1213",787012,"Thisted Landsogn","4. Thisted","Thisted Landsogn,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1214",787013,"Vang-Tvorup","4. Thisted","Vang-Tvorup,  Thisted, Denmark",8.4960034,56.9691723,7700,787
+"1215",787014,"Skinnerup, V Og Ø Vandet","4. Thisted","Skinnerup, V Og Ø Vandet,  Thisted, Denmark",8.703492,56.959168,7700,787
+"1216",787015,"Øsløs, Vesløs Og Arup","4. Thisted","Øsløs, Vesløs Og Arup,  Thisted, Denmark",8.483273,56.893283,7752,787
+"1217",787016,"Østerild, Hunstrup","4. Thisted","Østerild, Hunstrup,  Thisted, Denmark",8.8056886,57.0449844,7700,787
+"1218",787017,"Hanstholm","4. Thisted","Hanstholm,  Thisted, Denmark",8.617668,57.112861,7730,787
+"1219",787018,"Ræhr/Vigsø","4. Thisted","Ræhr/Vigsø,  Thisted, Denmark",8.7208222,57.1063721,7730,787
+"1220",787019,"Klitmøller","4. Thisted","Klitmøller,  Thisted, Denmark",8.4932873,57.0400556,7700,787
+"1221",787020,"Frøstrup","4. Thisted","Frøstrup,  Thisted, Denmark",8.9935406,57.0868986,7741,787
+"1222",787021,"Lild","4. Thisted","Lild,  Thisted, Denmark",9.0293736,57.1269978,7741,787
+"1223",787023,"Bedsted","4. Thisted","Bedsted,  Thisted, Denmark",8.4061374,56.8092395,7755,787
+"1224",787024,"Hurup","4. Thisted","Hurup,  Thisted, Denmark",8.4195679,56.7513337,7760,787
+"1225",787025,"Koldby","4. Thisted","Koldby,  Thisted, Denmark",8.526604,56.846174,7752,787
+"1226",787026,"Vestervig","4. Thisted","Vestervig,  Thisted, Denmark",8.317716,56.762566,7770,787
+"1227",787027,"Ydby","4. Thisted","Ydby,  Thisted, Denmark",8.410997,56.709078,7760,787
+"1228",791001,"Frederiks","3. Viborg Vest","Frederiks,  Viborg Vest, Denmark",9.254291,56.341216,7470,791
+"1229",791002,"Hald Ege","3. Viborg Vest","Hald Ege,  Viborg Vest, Denmark",9.3458301,56.4126342,8800,791
+"1230",791003,"Karup","3. Viborg Vest","Karup,  Viborg Vest, Denmark",9.1676629,56.307765,7470,791
+"1231",791004,"Løgstrup","3. Viborg Vest","Løgstrup,  Viborg Vest, Denmark",9.33389,56.510003,8831,791
+"1232",791005,"Mønsted","3. Viborg Vest","Mønsted,  Viborg Vest, Denmark",9.189004,56.445096,8800,791
+"1233",791006,"Stoholm","3. Viborg Vest","Stoholm,  Viborg Vest, Denmark",9.149108,56.483835,7850,791
+"1234",791007,"Vridsted","3. Viborg Vest","Vridsted,  Viborg Vest, Denmark",9.0059539,56.444264,7800,791
+"1235",791008,"Viborg","3. Viborg Vest","Viborg,  Viborg Vest, Denmark",9.396347,56.452027,8800,791
+"1236",791009,"Bjerringbro Nord","4. Viborg Øst","Bjerringbro Nord,  Viborg �st, Denmark",9.655211,56.377449,8850,791
+"1237",791010,"Bjerringbro Syd","4. Viborg Øst","Bjerringbro Syd,  Viborg �st, Denmark",9.655211,56.377449,8850,791
+"1238",791011,"Hammershøj","4. Viborg Øst","Hammersh�j,  Viborg �st, Denmark",9.749345,56.500281,8830,791
+"1239",791012,"Møldrup","4. Viborg Øst","M�ldrup,  Viborg �st, Denmark",9.5003771,56.6169742,9632,791
+"1240",791013,"Overlund","4. Viborg Øst","Overlund,  Viborg �st, Denmark",9.444886,56.454011,8800,791
+"1241",791014,"Rødding","4. Viborg Øst","R�dding,  Viborg �st, Denmark",9.507544,56.499675,8830,791
+"1242",791015,"Rødkærsbro","4. Viborg Øst","R�dk�rsbro,  Viborg �st, Denmark",9.501775,56.350851,8840,791
+"1243",791016,"Skals","4. Viborg Øst","Skals,  Viborg �st, Denmark",9.40245,56.557497,8832,791
+"1244",791017,"Ørum","4. Viborg Øst","�rum,  Viborg �st, Denmark",9.62398,56.480722,8830,791
+"1245",810001,"Agersted","3. Brønderslev","Agersted,  Br�nderslev, Denmark",10.379485,57.196422,9330,810
+"1246",810002,"Asaa","3. Brønderslev","Asaa,  Br�nderslev, Denmark",10.404291,57.148881,9340,810
+"1247",810003,"Dronninglund","3. Brønderslev","Dronninglund,  Br�nderslev, Denmark",10.289422,57.158363,9330,810
+"1248",810004,"Flauenskjold","3. Brønderslev","Flauenskjold,  Br�nderslev, Denmark",10.2894159,57.249001,9330,810
+"1249",810005,"Hjallerup","3. Brønderslev","Hjallerup,  Br�nderslev, Denmark",10.147852,57.166266,9320,810
+"1250",810006,"Klokkerholm","3. Brønderslev","Klokkerholm,  Br�nderslev, Denmark",10.154819,57.209834,9320,810
+"1251",810010,"Brønderslev","3. Brønderslev","Br�nderslev,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1252",810034,"Stenum","3. Brønderslev","Stenum,  Br�nderslev, Denmark",9.864006,57.321363,9700,810
+"1253",810040,"Thise","3. Brønderslev","Thise,  Br�nderslev, Denmark",9.803564,57.296732,9700,810
+"1254",810050,"Ø. Brønderslev","3. Brønderslev","� Br�nderslev,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1255",810056,"Hallund","3. Brønderslev","Hallund,  Br�nderslev, Denmark",10.1031479,57.23956,9700,810
+"1256",810070,"Jerslev","3. Brønderslev","Jerslev,  Br�nderslev, Denmark",10.0914248,57.284678,9740,810
+"1257",810080,"Serritslev","3. Brønderslev","Serritslev,  Br�nderslev, Denmark",9.973091,57.314456,9700,810
+"1258",813001,"Skagen","1. Frederikshavn","Skagen,  Frederikshavn, Denmark",10.579186,57.725004,9990,813
+"1259",813002,"Hulsig","1. Frederikshavn","Hulsig,  Frederikshavn, Denmark",10.464544,57.660928,9990,813
+"1260",813003,"Ålbæk","1. Frederikshavn","Ålbæk,  Frederikshavn, Denmark",10.4130619,57.5939127,9982,813
+"1261",813004,"Jerup","1. Frederikshavn","Jerup,  Frederikshavn, Denmark",10.4183679,57.533272,9981,813
+"1262",813005,"Elling","1. Frederikshavn","Elling,  Frederikshavn, Denmark",10.4778643,57.4768018,9900,813
+"1263",813006,"Strandby","1. Frederikshavn","Strandby,  Frederikshavn, Denmark",10.494117,57.4937533,9970,813
+"1264",813007,"Frederikshavn Nord","1. Frederikshavn","Frederikshavn Nord,  Frederikshavn, Denmark",10.521006,57.442711,9900,813
+"1265",813008,"Frederikshavn Midt","1. Frederikshavn","Frederikshavn Midt,  Frederikshavn, Denmark",10.5079646,57.4312635,9900,813
+"1266",813009,"Frederikshavn Syd","1. Frederikshavn","Frederikshavn Syd,  Frederikshavn, Denmark",10.521006,57.442711,9900,813
+"1267",813010,"Ravnshøj","1. Frederikshavn","Ravnshøj,  Frederikshavn, Denmark",10.425652,57.451636,9900,813
+"1268",813011,"Gærum","1. Frederikshavn","Gærum,  Frederikshavn, Denmark",10.434852,57.401927,9900,813
+"1269",813012,"Sæby","1. Frederikshavn","Sæby,  Frederikshavn, Denmark",10.5166278,57.3308698,9300,813
+"1270",813013,"Brønden","1. Frederikshavn","Brønden,  Frederikshavn, Denmark",10.2350429,57.284363,9352,813
+"1271",813014,"Dybvad","1. Frederikshavn","Dybvad,  Frederikshavn, Denmark",10.360934,57.275477,9352,813
+"1272",813015,"Hørby","1. Frederikshavn","Hørby,  Frederikshavn, Denmark",10.382782,57.323688,9300,813
+"1273",813016,"Præstbro","1. Frederikshavn","Præstbro,  Frederikshavn, Denmark",10.387116,57.233689,9330,813
+"1274",813017,"Thorshøj","1. Frederikshavn","Thorshøj,  Frederikshavn, Denmark",10.3076899,57.336743,9750,813
+"1275",813018,"Understed","1. Frederikshavn","Understed,  Frederikshavn, Denmark",10.460181,57.367524,9300,813
+"1276",813019,"Voerså","1. Frederikshavn","Voerså,  Frederikshavn, Denmark",10.486346,57.208406,9300,813
+"1277",813020,"Volstrup","1. Frederikshavn","Volstrup,  Frederikshavn, Denmark",10.439295,57.31852,9300,813
+"1278",813021,"Østervrå","1. Frederikshavn","Østervrå,  Frederikshavn, Denmark",10.2382091,57.3411787,9750,813
+"1279",813022,"Lyngså","1. Frederikshavn","Lyngså,  Frederikshavn, Denmark",10.514551,57.244941,9300,813
+"1280",820001,"Aalestrup","5. Himmerland","Aalestrup,  Himmerland, Denmark",NA,NA,NA,NA
+"1281",820002,"Farsø","5. Himmerland","Farsø,  Himmerland, Denmark",9.3371275,56.7770126,9640,820
+"1282",820003,"Strandby","5. Himmerland","Strandby,  Himmerland, Denmark",NA,NA,NA,NA
+"1283",820004,"Aars","5. Himmerland","Aars,  Himmerland, Denmark",9.4230596,56.8415182,9600,820
+"1284",820005,"Hvalpsund","5. Himmerland","Hvalpsund,  Himmerland, Denmark",NA,NA,NA,NA
+"1285",820006,"Gislum-Vognsild","5. Himmerland","Gislum-Vognsild,  Himmerland, Denmark",NA,NA,NA,NA
+"1286",820007,"Gedsted","5. Himmerland","Gedsted,  Himmerland, Denmark",NA,NA,NA,NA
+"1287",820008,"Hornum-Ulstrup","5. Himmerland","Hornum-Ulstrup,  Himmerland, Denmark",NA,NA,NA,NA
+"1288",820009,"Vester Hornum","5. Himmerland","Vester Hornum,  Himmerland, Denmark",NA,NA,NA,NA
+"1289",820010,"Løgstør","5. Himmerland","Løgstør,  Himmerland, Denmark",9.267801,56.968732,9670,820
+"1290",820011,"Ranum","5. Himmerland","Ranum,  Himmerland, Denmark",NA,NA,NA,NA
+"1291",820012,"Salling","5. Himmerland","Salling,  Himmerland, Denmark",NA,NA,NA,NA
+"1292",820013,"Overlade","5. Himmerland","Overlade,  Himmerland, Denmark",NA,NA,NA,NA
+"1293",820014,"Skivum-Giver","5. Himmerland","Skivum-Giver,  Himmerland, Denmark",NA,NA,NA,NA
+"1294",825015,"Læsø","1. Frederikshavn","Læsø,  Frederikshavn, Denmark",10.5344087,57.4366321,9900,813
+"1295",840001,"Støvring","5. Himmerland","Støvring,  Himmerland, Denmark",9.75,56.8333333,9520,840
+"1296",840002,"Skørping","5. Himmerland","Skørping,  Himmerland, Denmark",9.75,56.8333333,9520,840
+"1297",840003,"Terndrup","5. Himmerland","Terndrup,  Himmerland, Denmark",10.105788,56.7194896,9560,846
+"1298",840004,"Suldrup","5. Himmerland","Suldrup,  Himmerland, Denmark",9.75,56.8333333,9520,840
+"1299",840005,"Nørager","5. Himmerland","Nørager,  Himmerland, Denmark",9.75,56.8333333,9520,840
+"1300",840006,"Haverslev","5. Himmerland","Haverslev,  Himmerland, Denmark",NA,NA,NA,NA
+"1301",840007,"Øster Hornum","5. Himmerland","Øster Hornum,  Himmerland, Denmark",NA,NA,NA,NA
+"1302",840008,"Bælum","5. Himmerland","Bælum,  Himmerland, Denmark",NA,NA,NA,NA
+"1303",840009,"Ravnkilde","5. Himmerland","Ravnkilde,  Himmerland, Denmark",NA,NA,NA,NA
+"1304",840010,"Blenstrup","5. Himmerland","Blenstrup,  Himmerland, Denmark",NA,NA,NA,NA
+"1305",840011,"Veggerby","5. Himmerland","Veggerby,  Himmerland, Denmark",NA,NA,NA,NA
+"1306",846002,"Assens","6. Mariagerfjord","Assens,  Mariagerfjord, Denmark",10.062625,56.675887,9550,846
+"1307",846003,"Mariager","6. Mariagerfjord","Mariager,  Mariagerfjord, Denmark",9.977344,56.649996,9550,846
+"1308",846004,"Arden","6. Mariagerfjord","Arden,  Mariagerfjord, Denmark",9.856832,56.769043,9510,846
+"1309",846008,"Valsgaard","6. Mariagerfjord","Valsgaard,  Mariagerfjord, Denmark",9.850052,56.673223,9500,846
+"1310",846009,"Vebbestrup","6. Mariagerfjord","Vebbestrup,  Mariagerfjord, Denmark",9.819482,56.725522,9500,846
+"1311",846011,"Hadsund","6. Mariagerfjord","Hadsund,  Mariagerfjord, Denmark",10.112897,56.721437,9560,846
+"1312",846014,"Veddum-Skelund","6. Mariagerfjord","Veddum-Skelund,  Mariagerfjord, Denmark",10.1759781,56.7748739,9560,846
+"1313",846018,"Als","6. Mariagerfjord","Als,  Mariagerfjord, Denmark",10.287372,56.755434,9560,846
+"1314",846020,"Hørby","6. Mariagerfjord","Hørby,  Mariagerfjord, Denmark",9.746442,56.651628,9500,846
+"1315",846022,"Onsild","6. Mariagerfjord","Onsild,  Mariagerfjord, Denmark",9.7928558,56.6340531,9500,846
+"1316",846027,"Hobro","6. Mariagerfjord","Hobro,  Mariagerfjord, Denmark",9.797648,56.6391392,9500,846
+"1317",849001,"Aabybro","3. Brønderslev","Aabybro,  Br�nderslev, Denmark",9.734749,57.160205,9440,849
+"1318",849002,"Biersted","3. Brønderslev","Biersted,  Br�nderslev, Denmark",9.8168233,57.1986791,9440,849
+"1319",849003,"Nørhalne","3. Brønderslev","N�rhalne,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1320",849004,"Vedsted","3. Brønderslev","Vedsted,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1321",849005,"Gjøl","3. Brønderslev","Gj�l,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1322",849006,"Ingstrup","3. Brønderslev","Ingstrup,  Br�nderslev, Denmark",9.753376,57.2933502,9700,849
+"1323",849007,"V. Hjermitslev","3. Brønderslev","V Hjermitslev,  Br�nderslev, Denmark",9.8802469,57.2779347,9700,810
+"1324",849008,"Brovst","3. Brønderslev","Brovst,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1325",849009,"Halvrimmen","3. Brønderslev","Halvrimmen,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1326",849010,"Arentsminde","3. Brønderslev","Arentsminde,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1327",849011,"Tranum","3. Brønderslev","Tranum,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1328",849012,"Skovsgård","3. Brønderslev","Skovsg�rd,  Br�nderslev, Denmark",10.1764321,57.2664185,9740,810
+"1329",849013,"Fjerritslev","3. Brønderslev","Fjerritslev,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1330",849014,"Thorup","3. Brønderslev","Thorup,  Br�nderslev, Denmark",10.22441,57.18513,9330,810
+"1331",849015,"Ørebro","3. Brønderslev","�rebro,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1332",849016,"Trekroner","3. Brønderslev","Trekroner,  Br�nderslev, Denmark",9.733964,57.2832027,9700,849
+"1333",849018,"Pandrup","3. Brønderslev","Pandrup,  Br�nderslev, Denmark",9.671769,57.215885,9490,849
+"1334",849019,"Kaas","3. Brønderslev","Kaas,  Br�nderslev, Denmark",9.945168,57.270904,9700,810
+"1335",849020,"Hune","3. Brønderslev","Hune,  Br�nderslev, Denmark",9.6426275,57.2528463,9492,849
+"1336",849021,"Saltum","3. Brønderslev","Saltum,  Br�nderslev, Denmark",9.6973559,57.271724,9493,849
+"1337",851003,"Gl. Lindholm Skole, Kulturhus","9. Aalborg Nord","Gl Lindholm Skole, Kulturhus,  Aalborg Nord, Denmark",NA,NA,NA,NA
+"1338",851005,"Løvvanghallen","9. Aalborg Nord","Løvvanghallen,  Aalborg Nord, Denmark",NA,NA,NA,NA
+"1339",851007,"Vadumhallen","9. Aalborg Nord","Vadumhallen,  Aalborg Nord, Denmark",NA,NA,NA,NA
+"1340",851010,"Sulsted Skolehal","9. Aalborg Nord","Sulsted Skolehal,  Aalborg Nord, Denmark",9.9643184,57.157161,9381,851
+"1341",851011,"Vodskov Kultur & Idrætscenter","9. Aalborg Nord","Vodskov Kultur & Idrætscenter,  Aalborg Nord, Denmark",10.027154,57.108387,9310,851
+"1342",851014,"Vesterkærets Skole","8. Aalborg Vest","Vesterkærets Skole,  Aalborg Vest, Denmark",9.8906037,57.0552925,9000,851
+"1343",851015,"Haraldslund","8. Aalborg Vest","Haraldslund,  Aalborg Vest, Denmark",9.8988024,57.0538957,9000,851
+"1344",851016,"Aalborghallen","9. Aalborg Nord","Aalborghallen,  Aalborg Nord, Denmark",NA,NA,NA,NA
+"1345",851017,"Kærbyskolen","8. Aalborg Vest","Kærbyskolen,  Aalborg Vest, Denmark",9.9173582,57.0283985,9000,851
+"1346",851018,"Hallen Ved Skalborggård","8. Aalborg Vest","Hallen Ved Skalborggård,  Aalborg Vest, Denmark",NA,NA,NA,NA
+"1347",851019,"Kfum - Hallen","8. Aalborg Vest","Kfum - Hallen,  Aalborg Vest, Denmark",NA,NA,NA,NA
+"1348",851022,"Frejlev Skoles Idrætshal","8. Aalborg Vest","Frejlev Skoles Idrætshal,  Aalborg Vest, Denmark",NA,NA,NA,NA
+"1349",851024,"Svenstruphallen","8. Aalborg Vest","Svenstruphallen,  Aalborg Vest, Denmark",NA,NA,NA,NA
+"1350",851027,"Sønderbroskolen","7. Aalborg Øst","S�nderbroskolen,  Aalborg �st, Denmark",9.9325955,57.0394924,9000,851
+"1351",851029,"Gigantium","7. Aalborg Øst","Gigantium,  Aalborg �st, Denmark",9.9635877,57.0187311,9220,851
+"1352",851030,"Vejgaardhallen","7. Aalborg Øst","Vejgaardhallen,  Aalborg �st, Denmark",9.9956378,57.0527023,9220,851
+"1353",851031,"Vejgaard Østre Skole","7. Aalborg Øst","Vejgaard �stre Skole,  Aalborg �st, Denmark",9.9504511,57.039838,9000,851
+"1354",851032,"Mellervangskolens Idrætshal","7. Aalborg Øst","Mellervangskolens Idr�tshal,  Aalborg �st, Denmark",9.9956378,57.0527023,9220,851
+"1355",851033,"Klaruphallen","7. Aalborg Øst","Klaruphallen,  Aalborg �st, Denmark",10.0476907,57.0114462,9270,851
+"1356",851034,"Gughallen","7. Aalborg Øst","Gughallen,  Aalborg �st, Denmark",9.9344409,57.0058202,9210,851
+"1357",851035,"Gistrup Skoles Idrætshal","7. Aalborg Øst","Gistrup Skoles Idr�tshal,  Aalborg �st, Denmark",9.9956378,57.0527023,9220,851
+"1358",851038,"Ferslev Skolehal","8. Aalborg Vest","Ferslev Skolehal,  Aalborg Vest, Denmark",9.8658917,56.9284134,9230,851
+"1359",851040,"Tornhøjskolen, Hallen","7. Aalborg Øst","Tornh�jskolen, Hallen,  Aalborg �st, Denmark",9.9956378,57.0527023,9220,851
+"1360",851043,"Vester Hassing Hallen","9. Aalborg Nord","Vester Hassing Hallen,  Aalborg Nord, Denmark",NA,NA,NA,NA
+"1361",851044,"Hals Skole","9. Aalborg Nord","Hals Skole,  Aalborg Nord, Denmark",10.3716446,57.0579586,9370,851
+"1362",851046,"Ulstedhallen","9. Aalborg Nord","Ulstedhallen,  Aalborg Nord, Denmark",NA,NA,NA,NA
+"1363",851047,"Nibe Hallen","8. Aalborg Vest","Nibe Hallen,  Aalborg Vest, Denmark",9.814011,56.9667442,9230,851
+"1364",851052,"Farstruphallen","8. Aalborg Vest","Farstruphallen,  Aalborg Vest, Denmark",NA,NA,NA,NA
+"1365",851056,"Idrætscentret Kongerslev","7. Aalborg Øst","Idr�tscentret Kongerslev,  Aalborg �st, Denmark",10.1129231,56.8890787,9293,851
+"1366",851058,"Mou Hotel","7. Aalborg Øst","Mou Hotel,  Aalborg �st, Denmark",9.9956378,57.0527023,9220,851
+"1367",851061,"Båndby - Hallen","7. Aalborg Øst","B�ndby - Hallen,  Aalborg �st, Denmark",10.1007056,56.9954192,9280,851
+"1368",860001,"Horne","2. Hjørring","Horne,  Hj�rring, Denmark",9.9886,57.561151,9850,860
+"1369",860003,"Hirtshals","2. Hjørring","Hirtshals,  Hj�rring, Denmark",9.9668379,57.586953,9850,860
+"1370",860004,"Hjørring - Centrum","2. Hjørring","Hj�rring - Centrum,  Hj�rring, Denmark",9.9957635,57.4567788,9800,860
+"1371",860006,"Tornby","2. Hjørring","Tornby,  Hj�rring, Denmark",9.9476859,57.530561,9850,860
+"1372",860007,"Bindslev","2. Hjørring","Bindslev,  Hj�rring, Denmark",10.199232,57.541566,9881,860
+"1373",860008,"Tversted","2. Hjørring","Tversted,  Hj�rring, Denmark",10.188126,57.58692,9881,860
+"1374",860011,"Taars","2. Hjørring","Taars,  Hj�rring, Denmark",10.1140349,57.3850732,9830,860
+"1375",860012,"Vrejlev-Hæstrup","2. Hjørring","Vrejlev-H�strup,  Hj�rring, Denmark",10.0051761,57.3769867,9760,860
+"1376",860013,"Bjergby-Mygdal","2. Hjørring","Bjergby-Mygdal,  Hj�rring, Denmark",10.0863763,57.5232813,9800,860
+"1377",860014,"Skallerup","2. Hjørring","Skallerup,  Hj�rring, Denmark",9.883492,57.4723905,9800,860
+"1378",860015,"Hjørring - Nord","2. Hjørring","Hj�rring - Nord,  Hj�rring, Denmark",9.9957635,57.4567788,9800,860
+"1379",860016,"Hjørring - Syd","2. Hjørring","Hj�rring - Syd,  Hj�rring, Denmark",9.9957635,57.4567788,9800,860
+"1380",860018,"Hjørring - Vest","2. Hjørring","Hj�rring - Vest,  Hj�rring, Denmark",9.9957635,57.4567788,9800,860
+"1381",860019,"Vrå","2. Hjørring","Vr�,  Hj�rring, Denmark",9.9396856,57.3530553,9760,860
+"1382",860020,"Hundelev","2. Hjørring","Hundelev,  Hj�rring, Denmark",9.842917,57.426213,9480,860
+"1383",860021,"Løkken","2. Hjørring","L�kken,  Hj�rring, Denmark",9.7174846,57.3706773,9480,860
+"1384",860022,"Sindal","2. Hjørring","Sindal,  Hj�rring, Denmark",10.197153,57.475752,9870,860
+"1385",860023,"Astrup","2. Hjørring","Astrup,  Hj�rring, Denmark",10.093226,57.479141,9800,860
+"1386",860026,"Tolne","2. Hjørring","Tolne,  Hj�rring, Denmark",10.309144,57.484873,9870,860
+"1387",860027,"Ugilt","2. Hjørring","Ugilt,  Hj�rring, Denmark",10.136842,57.423675,9800,860
+"1388",860028,"Lendum","2. Hjørring","Lendum,  Hj�rring, Denmark",10.297487,57.409097,9870,860

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  16 OCT 2015 16:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  19 OCT 2015 15:57
 entering extended mode
 **housing.tex
 (C:\Users\mvl\Documents\GitHub\housing\paper\housing.tex
@@ -851,15 +851,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 82.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 82.
-
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
 (C:\Users\mvl\Documents\GitHub\housing\tables\tab1.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 4.
@@ -873,63 +865,66 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (C:\Users\mvl\Documents\GitHub\housing\tables\tab4.tex)
 (C:\Users\mvl\Documents\GitHub\housing\tables\tab5.tex)
 Package epstopdf Info: Source file: <../figures/volatilityinteraction.eps>
-(epstopdf)                    date: 2015-10-16 16:44:28
-(epstopdf)                    size: 1040401 bytes
+(epstopdf)                    date: 2015-10-19 10:28:23
+(epstopdf)                    size: 1040162 bytes
 (epstopdf)             Output file: <../figures/volatilityinteraction-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2015-10-16 16:44:52
-(epstopdf)                    size: 14774 bytes
+(epstopdf)                    date: 2015-10-19 10:28:53
+(epstopdf)                    size: 14744 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/volatilityintera
 ction-eps-converted-to.pdf ../figures/volatilityinteraction.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/volatilityinteraction-eps-converted-to.pdf, id=45, 397.485pt x 289.
-08pt>
+<../figures/volatilityinteraction-eps-converted-to.pdf, id=100, 397.485pt x 289
+.08pt>
 File: ../figures/volatilityinteraction-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use ../figures/volatilityinteraction-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/volatilityinteraction-eps-converted-to.pdf 
-used on input line 124.
+used on input line 132.
 (pdftex.def)             Requested size: 362.37569pt x 263.55283pt.
 
-(C:\Users\mvl\Documents\GitHub\housing\tables\tab6.tex) [2] [3] [4] [5]
-[6 <C:/Users/mvl/Documents/GitHub/housing/figures/volatilityinteraction-eps-con
+(C:\Users\mvl\Documents\GitHub\housing\tables\tab6.tex) [4] [5] [6] [7]
+[8 <C:/Users/mvl/Documents/GitHub/housing/figures/volatilityinteraction-eps-con
 verted-to.pdf>] (C:\Users\mvl\Documents\GitHub\housing\paper\housing.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
 
-(C:\Users\mvl\Documents\GitHub\housing\paper\housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+[9
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+ (C:\Users\mvl\Documents\GitHub\housing\paper\housing.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `housing.out' has not changed.
 (rerunfilecheck)             Checksum: 4ACE5D92CECA532FEDA0E0230F0D38F1;465.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
- 10336 strings out of 493921
- 158443 string characters out of 3144882
- 300211 words of memory out of 3000000
- 13339 multiletter control sequences out of 15000+200000
- 77371 words of font info for 93 fonts, out of 3000000 for 9000
+ 10430 strings out of 493921
+ 160269 string characters out of 3144882
+ 299719 words of memory out of 3000000
+ 13372 multiletter control sequences out of 15000+200000
+ 83863 words of font info for 116 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,15n,40p,1121b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+ 37i,15n,40p,1592b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-mathit.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
 12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy
-8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
-am10.pfb>
-Output written on housing.pdf (6 pages, 187814 bytes).
+ts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
+y7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on housing.pdf (9 pages, 226457 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 23110 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 25158 words of extra memory for PDF output out of 29859 (max. 10000000)
 
