@@ -28,19 +28,22 @@ drop _merge
 sort valgstedid
 merge valgstedid using lonlatdata.dta
 
+
 foreach x of varlist * {
 capture replace `x'="." if `x'=="NA"
 capture replace `x'="." if `x'=="NaN"
 }
 destring *, replace
+gen noskift=0
+replace noskift =1 if mod(votes,1)==0
 
 append using elec01.dta
 
 
 **changing incsupport to exec party.
-replace incs=incs-c if year > 2001 & year!=2015
-replace incs=incs-b if year==2001 | year==2015
--
+*replace incs=incs-c if year > 2001 & year!=2015
+*replace incs=incs-b if year==2001 | year==2015
+
 
 **setting up for ts analyses*
 
@@ -74,7 +77,7 @@ local z2="860028.valgstedid, fe vce(cluster valgstedid)"
 local z3="i.year 860028.valgstedid, fe vce(cluster valgstedid)"
 local z4="i.year 860028.valgstedid i.year#(c.kontant c.indkomst c.formue c.arb), fe vce(cluster valgstedid)"
 
-
+-
 foreach x in 1 2 3 4{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
 }
