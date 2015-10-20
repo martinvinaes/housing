@@ -126,42 +126,76 @@ In order to examine the relationship between electoral support for governing par
 As can be seen from table \ref{tab1}, there is a statistically significant and positive effect estimate of one-year changes in house prices, indicating that a larger fraction of the electorate casts their vote for governing parties in precincts where house prices increase. In the most demanding specification, model 4, the effect is roughly 0.05. this signifies that if house prices increase one percentage points, governing politicians get 0.05 percentage point fewer votes. A small but meaningful average effect.
 
 
-
 \input{../tables/tab1.tex}
 
-
+Is this effect a product of unobservable confounders? The year and precinct fixed effects should control for a host of unobservable confounder's. However, it is still possible. In tables \ref{tab2} and \ref{tab3} we try to test this by using a one-period lag or a lead of the dependent variable, using these different dependent variables as placebo-tests.
 
 \input{../tables/tab2.tex}
 
 \input{../tables/tab3.tex}
 
+
+The lead dependent variable show no statistically significant effect of house prices, and the point estimate 
+becomes negative. The lag dependent variable, however, does show a statistically significant and positive effect. This is a little weird, and suggest that our models might be missing something. 
+
+
+
 \subsection{Heterogeneity}
+
+We examine two different sources of heterogeneity in the effect of house prices. Analyzing heterogeneity in the effect is important as it help us understand the implications  of the effect for reelection-minded governing politicians. Specifically, it tells us whether politicians have a interest in promoting or avoiding  specific types of house-price changes in designing economic policy with implications for the housing market. %However, it is also somewhat dangerous as issues of multiple comparisons and over-fitting becomes prevalent. To avoid this we limit our selfs to examining types of heterogeneity, which are firmly based on previous literature on economic voting.
+
+The first source of heterogeneity is the sign of the changes in house prices. A small literature in economic voting have identified a negativity bias in economic voting, in that voters react more strongly to negative economic outcomes, than they do to positive economic outcomes \citep[e.g.][]{bloom1975voter}. In order to investigate whether a similar negativity bias is present in our dataset, we decompose our house price variable into two different variables. A variable which records positive changes in house prices, and which is zero if the changes are negative, and a variable which records negative changes in house prices (numerically), and which is zero if changes in house prices are positive. In table \ref{tab4} we estimate the same models as above, but with our new positive and negative house price change variables. We also include a statistical test of whether the effect of the two variables are numerically similar. 
+
+As can be seen from table \ref{tab4} the negative changes have a significantly larger effect than the positve changes in the most demanding specification (model 4). This indicates that there is a negativity bias in the effect of house prices; negative changes are more likely to affect election results than positive changes. This asymmetric effect is plotted in figure \ref{posneg}.
+
+
+
 
 \input{../tables/tab4.tex}
 
+\begin{figure}[htbp]
+	\includegraphics[page=1,width=0.8\textwidth]{../figures/posnegplot}
+	\centering
+	\caption{Predicted electoral support for governing parties across changes in house prices with 90 and 95 pct. confidence intervals. Derived from model (4) in table \ref{tab4}}
+	\label{posneg}
+\end{figure}
+
+The second source of heterogeneity is volatility in house prices. In table \ref{tab5} we look at differences in the effect of changes in house prices across different levels of volatility in the house prices.  We do this by extending the models estimated above with an interaction between the house price variable and our volatility variable. The interaction is statistically significant in the two most demanding specifications (models 3 and 4). This suggests, that house prices have a greater impact on election results in areas were house prices are generally more volatile. This interaction effect is plotted in figure \ref{vola}.
+
 \input{../tables/tab5.tex}
 
-\begin{figure}
-	\includegraphics[width=0.8\textwidth]{../figures/volatilityinteraction.eps}
+\begin{figure}[htbp]
+	\includegraphics[page=1,width=0.8\textwidth]{../figures/volaplot}
 	\centering
-	\caption{Marginal effect of $\Delta$house prices on incumbent support across levels of price volatility with 95 pct. Confidence Intervals. Rug plot signifies distribution of observations across the volatility variable.}
+	\caption{Predicted electoral support for governing parties across changes in house prices at the 5th and 95th percentile of the volatility variable with 90 and 95 pct. confidence intervals. Derived from model (4) in table \ref{tab5}}
+	\label{vola}
 \end{figure}
+
+
+In table \ref{tab6} and figure \ref{volaposneg} we look at the relationship between both types of heterogeneity. The picture which emerges is one where house prices are very important for the succes of incumbent government parties if house prices decrease in more volatile areas, however, if they increase or if the changes happen in less volatile areas, they are less important.
+
 
 
 \input{../tables/tab6.tex}
 
 
+\begin{figure}[htbp]
+	\includegraphics[page=1,width=0.8\textwidth]{../figures/volaposnegplot}
+	\centering
+	\caption{Predicted electoral support for governing parties across changes in house prices at the 5th and 95th percentile of the volatility variable with 90 and 95 pct. confidence intervals. Derived from model (4) in table \ref{tab6}}
+	\label{volaposneg}
+\end{figure}
 
 
-\section{Discussion}
 
-How causally convincing is our results?
 
-Is the negativity bias really a bias? Maybe... maybe not.  ff
+\section{Conclusion}
+Short summary
 
-Implications for policy makers.
+Implications for policy-makers
 
-Goodnight!
+Shortcomings
+
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  20 OCT 2015 18:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  20 OCT 2015 19:59
 entering extended mode
 **housing.tex
 (C:\Users\mvl\Documents\GitHub\housing\paper\housing.tex
@@ -869,52 +869,63 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [5] [6 <C:/Users/mvl/Documents/GitHub/housing/figures/intcomparison.png>]
 (C:\Users\mvl\Documents\GitHub\housing\tables\tab1.tex)
 (C:\Users\mvl\Documents\GitHub\housing\tables\tab2.tex)
-(C:\Users\mvl\Documents\GitHub\housing\tables\tab3.tex)
+(C:\Users\mvl\Documents\GitHub\housing\tables\tab3.tex) [7] [8]
 (C:\Users\mvl\Documents\GitHub\housing\tables\tab4.tex)
-(C:\Users\mvl\Documents\GitHub\housing\tables\tab5.tex)
-Package epstopdf Info: Source file: <../figures/volatilityinteraction.eps>
-(epstopdf)                    date: 2015-10-20 16:43:52
-(epstopdf)                    size: 1040400 bytes
-(epstopdf)             Output file: <../figures/volatilityinteraction-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2015-10-20 16:46:14
-(epstopdf)                    size: 14775 bytes
-(epstopdf)             Command: <epstopdf --outfile=../figures/volatilityintera
-ction-eps-converted-to.pdf ../figures/volatilityinteraction.eps>
-(epstopdf)             \includegraphics on input line 145.
-Package epstopdf Info: Output file is already uptodate.
+<../figures/posnegplot.pdf, id=174, page=1, 433.62pt x 289.08pt>
+File: ../figures/posnegplot.pdf Graphic file (type pdf)
 
-<../figures/volatilityinteraction-eps-converted-to.pdf, id=149, 397.485pt x 289
-.08pt>
-File: ../figures/volatilityinteraction-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use ../figures/volatilityinteraction-eps-converted-to.pdf>
-Package pdftex.def Info: ../figures/volatilityinteraction-eps-converted-to.pdf 
-used on input line 145.
-(pdftex.def)             Requested size: 362.37569pt x 263.55283pt.
+<use ../figures/posnegplot.pdf, page 1>
+Package pdftex.def Info: ../figures/posnegplot.pdf, page1 used on input line 15
+7.
+(pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
 
-(C:\Users\mvl\Documents\GitHub\housing\tables\tab6.tex) [7] [8] [9] [10]
-[11 <C:/Users/mvl/Documents/GitHub/housing/figures/volatilityinteraction-eps-co
-nverted-to.pdf>] (C:\Users\mvl\Documents\GitHub\housing\paper\housing.bbl
-[12
+(C:\Users\mvl\Documents\GitHub\housing\tables\tab5.tex [9] [10 <C:/Users/mvl/Do
+cuments/GitHub/housing/figures/posnegplot.pdf>])
+<../figures/volaplot.pdf, id=198, page=1, 433.62pt x 289.08pt>
+File: ../figures/volaplot.pdf Graphic file (type pdf)
+
+<use ../figures/volaplot.pdf, page 1>
+Package pdftex.def Info: ../figures/volaplot.pdf, page1 used on input line 168.
+
+(pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
+
+(C:\Users\mvl\Documents\GitHub\housing\tables\tab6.tex)
+<../figures/volaposnegplot.pdf, id=203, page=1, 433.62pt x 289.08pt>
+File: ../figures/volaposnegplot.pdf Graphic file (type pdf)
+
+<use ../figures/volaposnegplot.pdf, page 1>
+Package pdftex.def Info: ../figures/volaposnegplot.pdf, page1 used on input lin
+e 183.
+(pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
+ [11] [12 <C:/Users/mvl/Documents/GitHub/housing/figures/volaplot.pdf>] [13 <C:
+/Users/mvl/Documents/GitHub/housing/figures/volaposnegplot.pdf>]
+(C:\Users\mvl\Documents\GitHub\housing\paper\housing.bbl [14
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
- (C:\Users\mvl\Documents\GitHub\housing\paper\housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `housing.out' has not changed.
-(rerunfilecheck)             Checksum: A7AC2EA5359514380ACB6EFED1320148;293.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+
+(C:\Users\mvl\Documents\GitHub\housing\paper\housing.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+
+
+Package rerunfilecheck Warning: File `housing.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `housing.out':
+(rerunfilecheck)             Before: 02C3DE80E67734DFB0BF7682BA352E95;293
+(rerunfilecheck)             After:  93AE75F7C46EDC1B45A9B8EA41DB6CB0;293.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 10517 strings out of 493921
- 161736 string characters out of 3144882
- 301737 words of memory out of 3000000
- 13406 multiletter control sequences out of 15000+200000
- 88523 words of font info for 135 fonts, out of 3000000 for 9000
+ 10531 strings out of 493921
+ 161966 string characters out of 3144882
+ 289438 words of memory out of 3000000
+ 13417 multiletter control sequences out of 15000+200000
+ 88436 words of font info for 134 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,15n,40p,1592b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
@@ -932,9 +943,9 @@ pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on housing.pdf (13 pages, 374214 bytes).
+Output written on housing.pdf (15 pages, 388689 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 25659 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 25669 words of extra memory for PDF output out of 29859 (max. 10000000)
 
