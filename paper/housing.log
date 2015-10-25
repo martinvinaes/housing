@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.23)  25 OCT 2015 13:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.23)  25 OCT 2015 13:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -787,17 +787,25 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 110.
- [6] (../tables/tab1.tex) [7] (../tables/tab2.tex) (../tables/tab3.tex) [8] [9] (../tables/tab4.tex) <../figures/posnegplot.pdf, id=183, page=1, 433.62pt x 289.08pt>
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 114.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [6] (../tables/tab1.tex) [7] (../tables/tab2.tex) (../tables/tab3.tex) [8] [9] (../tables/tab4.tex) <../figures/posnegplot.pdf, id=186, page=1, 433.62pt x 289.08pt>
 File: ../figures/posnegplot.pdf Graphic file (type pdf)
  <use ../figures/posnegplot.pdf, page 1>
 Package pdftex.def Info: ../figures/posnegplot.pdf, page1 used on input line 155.
 (pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
- (../tables/tab5.tex) <../figures/volaplot.pdf, id=188, page=1, 433.62pt x 289.08pt>
+ (../tables/tab5.tex) <../figures/volaplot.pdf, id=191, page=1, 433.62pt x 289.08pt>
 File: ../figures/volaplot.pdf Graphic file (type pdf)
  <use ../figures/volaplot.pdf, page 1>
 Package pdftex.def Info: ../figures/volaplot.pdf, page1 used on input line 166.
 (pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
- (../tables/tab6.tex) <../figures/volaposnegplot.pdf, id=193, 433.62pt x 289.08pt>
+ (../tables/tab6.tex) <../figures/volaposnegplot.pdf, id=196, 433.62pt x 289.08pt>
 File: ../figures/volaposnegplot.pdf Graphic file (type pdf)
  <use ../figures/volaposnegplot.pdf>
 Package pdftex.def Info: ../figures/volaposnegplot.pdf used on input line 181.
@@ -816,18 +824,18 @@ Package rerunfilecheck Info: File `housing.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 10533 strings out of 493308
- 161251 string characters out of 6137822
+ 10577 strings out of 493308
+ 161962 string characters out of 6137822
  297730 words of memory out of 5000000
- 13586 multiletter control sequences out of 15000+600000
- 88436 words of font info for 134 fonts, out of 8000000 for 9000
+ 13625 multiletter control sequences out of 15000+600000
+ 88755 words of font info for 135 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,15n,40p,1591b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on housing.pdf (15 pages, 356640 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on housing.pdf (15 pages, 377820 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
+ 322 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
  59 named destinations out of 1000 (max. 500000)
- 25669 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 26181 words of extra memory for PDF output out of 29859 (max. 10000000)
 
