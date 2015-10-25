@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.23)  25 OCT 2015 11:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.23)  25 OCT 2015 13:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -773,60 +773,61 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
  [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] <../figures/intcomparison.png, id=125, 1072.75781pt x 506.6428pt>
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] <../figures/intcomparison.png, id=126, 1072.75781pt x 506.6428pt>
 File: ../figures/intcomparison.png Graphic file (type png)
  <use ../figures/intcomparison.png>
-Package pdftex.def Info: ../figures/intcomparison.png used on input line 105.
-(pdftex.def)             Requested size: 362.37569pt x 171.14305pt.
+Package pdftex.def Info: ../figures/intcomparison.png used on input line 103.
+(pdftex.def)             Requested size: 407.66833pt x 192.534pt.
+ [5 <../figures/intcomparison.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 112.
+(Font)              <12> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 112.
+(Font)              <8> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 112.
+(Font)              <6> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 112.
- [5 <../figures/intcomparison.png>] [6] (../tables/tab1.tex) [7] (../tables/tab2.tex) (../tables/tab3.tex) [8] (../tables/tab4.tex) <../figures/posnegplot.pdf, id=177, page=1, 433.62pt x 289.08pt>
+(Font)              <5> on input line 110.
+ [6] (../tables/tab1.tex) [7] (../tables/tab2.tex) (../tables/tab3.tex) [8] [9] (../tables/tab4.tex) <../figures/posnegplot.pdf, id=183, page=1, 433.62pt x 289.08pt>
 File: ../figures/posnegplot.pdf Graphic file (type pdf)
  <use ../figures/posnegplot.pdf, page 1>
-Package pdftex.def Info: ../figures/posnegplot.pdf, page1 used on input line 157.
+Package pdftex.def Info: ../figures/posnegplot.pdf, page1 used on input line 155.
 (pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
- (../tables/tab5.tex) <../figures/volaplot.pdf, id=182, page=1, 433.62pt x 289.08pt>
+ (../tables/tab5.tex) <../figures/volaplot.pdf, id=188, page=1, 433.62pt x 289.08pt>
 File: ../figures/volaplot.pdf Graphic file (type pdf)
  <use ../figures/volaplot.pdf, page 1>
-Package pdftex.def Info: ../figures/volaplot.pdf, page1 used on input line 168.
+Package pdftex.def Info: ../figures/volaplot.pdf, page1 used on input line 166.
 (pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
- [9] [10 <../figures/posnegplot.pdf>] [11 <../figures/volaplot.pdf>] (../tables/tab6.tex) <../figures/volaposnegplot.pdf, id=222, 433.62pt x 289.08pt>
+ (../tables/tab6.tex) <../figures/volaposnegplot.pdf, id=193, 433.62pt x 289.08pt>
 File: ../figures/volaposnegplot.pdf Graphic file (type pdf)
  <use ../figures/volaposnegplot.pdf>
-Package pdftex.def Info: ../figures/volaposnegplot.pdf used on input line 183.
+Package pdftex.def Info: ../figures/volaposnegplot.pdf used on input line 181.
 (pdftex.def)             Requested size: 362.37569pt x 241.59486pt.
- [12] [13 <../figures/volaposnegplot.pdf>] (./housing.bbl [14
+ [10] [11 <../figures/posnegplot.pdf>] [12 <../figures/volaplot.pdf>] [13 <../figures/volaposnegplot.pdf>] (./housing.bbl [14
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
  (./housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
 Package rerunfilecheck Info: File `housing.out' has not changed.
 (rerunfilecheck)             Checksum: F20CED0363A47615CD0B86CD3EB0DC63;287.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 10532 strings out of 493308
- 161246 string characters out of 6137822
- 294667 words of memory out of 5000000
- 13585 multiletter control sequences out of 15000+600000
+ 10533 strings out of 493308
+ 161251 string characters out of 6137822
+ 297730 words of memory out of 5000000
+ 13586 multiletter control sequences out of 15000+600000
  88436 words of font info for 134 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,15n,40p,1591b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on housing.pdf (15 pages, 355447 bytes).
+Output written on housing.pdf (15 pages, 356640 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
+ 317 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
  59 named destinations out of 1000 (max. 500000)
  25669 words of extra memory for PDF output out of 29859 (max. 10000000)
 
