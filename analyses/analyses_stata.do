@@ -75,14 +75,14 @@ cd "C:\Users\mvl\Documents\GitHub\housing\tables"
 local z1=", vce(cluster valgstedid)"
 local z2="860028.valgstedid, fe vce(cluster valgstedid)"
 local z3="i.year 860028.valgstedid, fe vce(cluster valgstedid)"
-local z4="i.year 860028.valgstedid i.year#(i.kom), fe vce(cluster valgstedid)"
--
+local z5="i.year 860028.valgstedid i.year#(i.muni c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
 
-foreach x in 1 2 3 4{
+
+foreach x in 1 2 3 4 5{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
 }
 esttab m11 m12 m13 m14 using tab1.tex, keep(hp_1yr) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.2f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst", labels("$\checkmark$" " ")) ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.2f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * StruMuniciplaity FE", labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{tab1)
 
 
