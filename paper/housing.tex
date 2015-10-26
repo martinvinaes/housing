@@ -184,7 +184,7 @@ As can be seen from the tables \ref{tab2} and \ref{tab3} neither the lead nor th
 
 \subsection{Heterogeneity}
 
-We examine two different sources of heterogeneity in the effect of house prices. Analyzing heterogeneity in the effect is important as it help us understand the implications  of the effect for reelection-minded governing politicians. Specifically, it tells us whether politicians have a interest in promoting or avoiding  specific types of house-price changes in designing economic policy with implications for the housing market. %However, it is also somewhat dangerous as issues of multiple comparisons and over-fitting becomes prevalent. To avoid this we limit our selfs to examining types of heterogeneity, which are firmly based on previous literature on economic voting.
+We examine two different sources of heterogeneity in the effect of house prices; asymmetry across positive and negative changes and heterogeneity across high- and low-volatility areas.  It is important to understand how the effect of house prices vary. As such, if we know what type of house price changes voters react more strongly too, we know which type of changes which politicians might have a interest in promoting or avoiding,  when designing economic policy which influences the housing market. %However, it is also somewhat dangerous as issues of multiple comparisons and over-fitting becomes prevalent. To avoid this we limit our selfs to examining types of heterogeneity, which are firmly based on previous literature on economic voting.
 
 The first source of heterogeneity is the sign of the changes in house prices. A small literature in economic voting have identified a negativity bias in economic voting, in that voters react more strongly to negative economic outcomes, than they do to positive economic outcomes \citep[e.g.][]{bloom1975voter}. In order to investigate whether a similar negativity bias is present in our dataset, we decompose our house price variable into two different variables. A variable which records positive changes in house prices, and which is zero if the changes are negative, and a variable which records negative changes in house prices (numerically), and which is zero if changes in house prices are positive. In table \ref{tab4} we estimate the same models as above, but with our new positive and negative house price change variables. We also include a statistical test of whether the effect of the two variables are numerically similar. 
 
@@ -201,7 +201,9 @@ This asymmetric effect is plotted in figure \ref{posneg}.
 	\label{posneg}
 \end{figure}
 
-The second source of heterogeneity is volatility in house prices. In table \ref{tab5} we look at differences in the effect of changes in house prices across different levels of volatility in the house prices.  We do this by extending the models estimated above with an interaction between the house price variable and our volatility variable. The interaction is statistically significant in the two most demanding specifications (models 3 and 4). This suggests, that house prices have a greater impact on election results in areas were house prices are generally more volatile. 
+
+
+ In table \ref{tab5} we look at differences in the effect of changes in house prices across different levels of volatility in the house prices.  We do this by extending the models estimated above with an interaction between the house price variable and our volatility variable. The interaction is statistically significant in the two most demanding specifications (models 3 and 4). This suggests, that house prices have a greater impact on election results in areas were house prices are generally more volatile. 
 
 \input{../tables/tab5.tex}
 
@@ -215,16 +217,6 @@ This interaction effect is plotted in figure \ref{vola}.
 \end{figure}
 
 
-In table \ref{tab6} and figure \ref{volaposneg} we look at the relationship between both types of heterogeneity. The picture which emerges is one where house prices are very important for the succes of incumbent government parties if house prices decrease in more volatile areas, however, if they increase or if the changes happen in less volatile areas, they are less important.
-
-\input{../tables/tab6.tex}
-
-\begin{figure}[htbp]
-	\includegraphics[width=0.8\textwidth]{../figures/volaposnegplot}
-	\centering
-	\caption{Predicted electoral support for governing parties across changes in house prices at the 5th and 95th percentile of the volatility variable with 90 and 95 pct. confidence intervals. Derived from model (4) in table \ref{tab6}}
-	\label{volaposneg}
-\end{figure}
 
 
 
