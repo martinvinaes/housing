@@ -75,8 +75,8 @@ cd "C:\Users\mvl\Documents\GitHub\housing\tables"
 local z1=", vce(cluster valgstedid)"
 local z2="860028.valgstedid, fe vce(cluster valgstedid)"
 local z3="i.year 860028.valgstedid, fe vce(cluster valgstedid)"
-local z4="i.year 860028.valgstedid i.year#(c.kontant c.indkomst c.formue c.arb), fe vce(cluster valgstedid)"
-
+local z4="i.year 860028.valgstedid i.year#(i.kom), fe vce(cluster valgstedid)"
+-
 
 foreach x in 1 2 3 4{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
@@ -131,7 +131,7 @@ star("*" 0.05 "**" 0.01) se nomtitles label title(Estimated effects of house pri
 
 gen rugplot=-0.09
 gen ruglab="|"
-xtreg inc c.hp_1yr##c.pricevol i.year##(c.kontant c.indkomst c.arb c.formue), fe vce(cluster valgstedid)
+xtreg inc c.hp_1yr##c.pricevol i.year##(c.kontant c.indkomst c.arb c.formue i.kom), fe vce(cluster valgstedid)
 margins, dydx(hp_1yr) at(pricevol=(0.05(.05)0.95)) noestimcheck
 marginsplot, scheme(s1mono) yline(0) addplot(scatter rugplot pricevol, msym(none) mlab(ruglab)) ///
 legend(off) recastci(rline)recast(line) ylabel(-0.1 0 0.1 0.2 0.3) xlab(0(0.2)1) ///
