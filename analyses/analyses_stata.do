@@ -65,9 +65,9 @@ replace d_inc=d_vc if year==2005 | year==2007 | year==2011
 **labeling variables
 
 label var pricevol "Volatility"
-label var hp_1yr "$\Delta$ house price"
-label var hp_1yrneg "$\Delta$ house price (negative)"
-label var hp_1yrpos "$\Delta$ house price (positive)"
+label var hp_1yr "$\Delta$ housing price"
+label var hp_1yrneg "$\Delta$ housing price (negative)"
+label var hp_1yrpos "$\Delta$ housing price (positive)"
 
 
 ***ANALYSES****
@@ -77,10 +77,11 @@ local z2="860028.valgstedid, fe vce(cluster valgstedid)"
 local z3="i.year 860028.valgstedid, fe vce(cluster valgstedid)"
 local z4="i.year 860028.valgstedid i.year#(c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
 local z5="i.year 860028.valgstedid i.year#(i.muni c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
--
+
 
 foreach x in 1 2 3 4 5{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
+qui margins, dydx(hp_1yr) saving(m1`x')
 }
 esttab m11 m12 m13 m14 m15 using tab1.tex, keep(hp_1yr) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.2f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
@@ -97,6 +98,8 @@ label stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE"))  titl
 
 foreach x in 1 2 3 4 5{
 eststo m3`x': xtreg l.incs c.hp_1yr `z`x''
+qui margins, dydx(hp_1y) saving(m3`x')
+
 }
 esttab m31 m32 m33 m34 m35 using tab3.tex, keep(hp_1yr) replace  ///
 star("*" 0.05 "**" 0.01) se b(%9.2f)  nomtitles indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
@@ -126,21 +129,31 @@ qui eststo m6`x': xtreg incs (c.hp_1yrpos c.hp_1yrneg)##c.pricevol `z`x''
 esttab m61 m62 m63 m64 m65 using tab6.tex, keep(hp_1yrposchange hp_1yrnegchange pricevol c.hp_1yrposchange#c.pricevol c.hp_1yrnegchange#c.pricevol) replace b(%9.2f)  ///
 stats(N rmse, fmt(%8.0f %8.2f)  label( "Observations" "RMSE")) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
 star("*" 0.05 "**" 0.01) se nomtitles label title(Estimated effects of house prices on  electoral support for governing parties across volatility.} \label{tab6)
+-
+
+**Figure_presentation
+cd "C:\Users\mvl\Documents\GitHub\housing\figures" 
+local z1=", vce(cluster valgstedid)"
+local z2="860028.valgstedid, fe vce(cluster valgstedid)"
+local z3="i.year 860028.valgstedid, fe vce(cluster valgstedid)"
+local z4="i.year 860028.valgstedid i.year#(c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
+local z5="i.year 860028.valgstedid i.year#(i.muni c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
 
 
-**Figure1
+foreach x in 1 2 3 4 5{
+qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
+qui margins, dydx(hp_1yr) saving(m1`x', replace) noestimcheck
+}
 
-gen rugplot=-0.09
-gen ruglab="|"
-xtreg inc c.hp_1yr##c.pricevol i.year##(c.kontant c.indkomst c.arb c.formue i.muni), fe vce(cluster valgstedid)
-margins, dydx(hp_1yr) at(pricevol=(0.05(.05)0.95)) noestimcheck
-marginsplot, scheme(s1mono) yline(0) addplot(scatter rugplot pricevol, msym(none) mlab(ruglab)) ///
-legend(off) recastci(rline)recast(line) ylabel(-0.1 0 0.1 0.2 0.3) xlab(0(0.2)1) ///
-ytitle("Effect of changes in house prices" " ") title(" ") xtitle(" " "Volatility") ///
-plot1opts(lwidth(thick)) ciopts(lwidth(medthick))
+foreach x in 1 2 3 4 5{
+eststo m3`x': xtreg l.incs c.hp_1yr `z`x''
+qui margins, dydx(hp_1y) saving(m3`x', replace) noestimcheck
 
-cd "C:\Users\mvl\Documents\GitHub\housing\figures"
-graph export volatilityinteraction.eps, replace 
+}
+
+combomarginsplot  m1 1m12 m13 m14 m15, scheme(s1mono) horizontal recast(scatter)
+
+combomarginsplot m31 m32 m33 m34 m35, scheme(s1mono) horizontal recast(scatter)
 
 
 *Laver grafdataset
@@ -241,7 +254,7 @@ gen ub90=1.64*se+b
 gen lb90=-1.64*se+b
 
 export delim posneg.csv, replace delim(,)
-
+-
 
 
 

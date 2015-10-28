@@ -1,0 +1,211 @@
+\documentclass[aspectratio=169]{beamer}
+
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+\mode<presentation>
+{
+  \usetheme[compress]{Ilmenau}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{beaver} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{tikz} \usetikzlibrary{snakes}
+\usepackage{epstopdf}
+\usepackage[round]{natbib}
+\setbeamertemplate{enumerate items}[circle]
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{blocks}[rounded][shadow=false] 
+\usepackage{remreset}% tiny package containing just the \@removefromreset command
+\makeatletter
+\@removefromreset{subsection}{section}
+\makeatother
+\setcounter{subsection}{1}
+\setbeamertemplate{section in toc}[sections numbered]
+
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\title[Housing bubbles]{Housing Bubbles and \\Support for Governing Parties}
+\author{\textbf{Frederik G. Hjorth} \and \textbf{Martin V. Larsen}}
+\institute[UCPH]{\small Department of Political Science \\ University of Copenhagen}
+\date[Octoboer 2015]{ 47th annual meeting of the DPSA \\ October 30th 2015}
+
+
+\begin{document}
+	
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	
+\section{Politicized homes?}
+
+	\begin{frame}
+	%{Politicized homes}
+	Key economic feature of post-industrial societies: mass home ownership.
+	
+	\vspace{0.2in} 
+
+	\begin{itemize}
+		\item main form of capital ordinary people have.
+		\item key part of one's control over one's immediate context.
+		\item often the focus of political rhetoric.
+	\end{itemize}
+	
+		\vspace{0.2in} \pause
+		
+	$\rightsquigarrow$ but: relatively little research on how home ownership shapes political behavior.
+		\end{frame}	
+	
+		\begin{frame}
+		\citet{ansell2014political}: house price appreciation reduces preferences for social insurance. 
+		
+		$\rightsquigarrow$ see also \citet{di2007formation}.
+						
+		\vspace{0.3in}	\pause
+						
+		Here: \emph{local house prices} and \emph{incumbent government support}	.					
+		
+		\vspace{0.3in} \pause	
+		
+		Feeds into literature on effect of local economy on incumbent support.
+       			
+		\end{frame}	
+		
+		
+	\begin{frame}
+
+	Slide on extant literature.	
+
+			
+	\end{frame}	
+	
+	\begin{frame}
+			
+	Note of caution...	
+			
+	We do not know what the mechanism is. Simply, establish an effect.
+	\end{frame}	
+	
+\section{Empirical setting}	
+\begin{frame}
+In international comparison, DK's housing bubble exceptionally volatile:
+
+\begin{center}
+\includegraphics<1>[width=0.8\textwidth]{../../figures/intcomparison.png}
+\end{center}
+\end{frame}	
+	
+	\begin{frame}
+However, still great variation within DK (municipalities).
+
+	\begin{center}
+\includegraphics<1>[width=0.9\textwidth]{../../figures/manylines_oneplot.eps}	
+		\end{center}
+	\end{frame}	
+	
+	\begin{frame}
+		However, still great variation within DK (municipalities).
+		
+		\begin{center}
+			\includegraphics<1>[width=0.9\textwidth]{../../figures/manylines_oneplot.eps}	
+		\end{center}
+	\end{frame}	
+	
+	
+\section{Data}	
+\begin{frame}
+%{Data on house prices I}
+House prices are hard to measure
+\begin{itemize}
+\item for individual home, unobserved outside of purchase/sale \pause
+\item plausible proxy: realized house prices in local context \pause
+
+$\rightsquigarrow$ context effect \emph{and} personal experience
+\end{itemize}
+% - no one knows exactly what a house costs until it is on the market - but good proxy is how much houses in the same area costs. 
+
+\vspace{0.2in} \pause
+
+Data on municipal selling prices from the Danish Mortgage Banks' Federation covering twenty years (1992:2013). 
+%Covers important housing-bubble. 
+
+%\vspace{0.2in}
+%The data is on the municipal level and covers the average selling price of houses and condos in the municipality in a given quarter (mean number of sales per quarter is 112).
+
+%\vspace{0.2in}
+%This gives us a good indicator of what we want to know; namely, whether home-owners should expect the value of their house (or condo) to have appreciated or depreciated. 
+
+\end{frame}	
+
+\begin{frame}
+%{Data on house prices II}
+\begin{center}
+\includegraphics<1>[width=0.9\textwidth]{../../figures/priceacrossmuni.eps}
+\includegraphics<2>[width=0.9\textwidth]{../../figures/manylines_oneplot.eps}	
+\includegraphics<3>[width=0.9\textwidth]{../../figures/prices_histogram.eps}	
+\pause[3]
+
+$\mu=0.05$ \hspace{0.1in} $\sigma=0.11$
+\end{center}
+\end{frame}	
+
+\begin{frame}
+
+\end{frame}	
+
+\begin{frame}
+
+\end{frame}	
+
+
+\section{Results}
+\begin{frame}
+	\footnotesize
+		\only<1>{\input{../../tables/tab1.tex}}
+		\only<2>{\input{../../tables/tab2.tex}}
+		\only<3>{\input{../../tables/tab3.tex}}
+\end{frame}		
+
+\begin{frame}
+\begin{center}
+	\includegraphics<1>[width=0.6\textwidth]{../../figures/posnegplot}
+	\includegraphics<2>[width=0.6\textwidth]{../../figures/volaplot}
+\end{center}
+
+\end{frame}	
+
+\section{Discussion}
+
+	\begin{frame}
+	%{What is going on?}
+	We have shown evidence suggesting that falling - but not rising - house prices hurt incumbents in Denmark.
+	
+	\vspace{0.2in} \pause
+	
+	\begin{itemize}
+		\item is this convincing?
+		\item what other analyses would you like to see?
+		\item which interesting (theoretical and real world) implications do you think this has?
+		\item do you think this is a case where personal economic grievances matter? 
+	\end{itemize}	
+		
+	\end{frame}		
+
+\begin{frame}
+	\bibliography{litliste}
+		\bibliographystyle{apsr}
+\end{frame}
+
+
+\end{document}
