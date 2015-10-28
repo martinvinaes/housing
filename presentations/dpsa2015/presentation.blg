@@ -1,3 +1,9 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: presentation.aux
 The style file: apsr.bst
 Database file #1: litliste.bib
+Database file #2: ../../paper/library.bib
+Repeated entry---line 1 of file ../../paper/library.bib
+ : @article{ansell2014political
+ :                             ,
+I'm skipping whatever remains of this entry
+(There was 1 error message)

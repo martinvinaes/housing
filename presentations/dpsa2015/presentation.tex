@@ -35,10 +35,10 @@
 
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
-\title[Housing bubbles]{Housing Bubbles and \\Support for Governing Parties}
+\title[Housing bubbles]{Housing Bubbles and \\Support for Incumbents}
 \author{\textbf{Frederik G. Hjorth} \and \textbf{Martin V. Larsen}}
 \institute[UCPH]{\small Department of Political Science \\ University of Copenhagen}
-\date[Octoboer 2015]{ 47th annual meeting of the DPSA \\ October 30th 2015}
+\date[October 2015]{ 47th annual meeting of the DPSA \\ October 30th 2015}
 
 
 \begin{document}
@@ -47,6 +47,10 @@
 		\titlepage
 	\end{frame}
 	
+	
+	\AtBeginSection[]{\begin{frame}{Outline}
+			\tableofcontents[currentsection] 
+		\end{frame}}
 	
 \section{Politicized homes?}
 
@@ -74,30 +78,51 @@
 						
 		\vspace{0.3in}	\pause
 						
-		Here: \emph{local house prices} and \emph{incumbent government support}	.					
+		Here: \emph{local house prices} and \emph{incumbent government support}.					
 		
 		\vspace{0.3in} \pause	
 		
-		Feeds into literature on effect of local economy on incumbent support.
+		Feeds into litrature on effect of local economic conditions \textit{vis-à-vis} personal or national.
        			
 		\end{frame}	
 		
 		
 	\begin{frame}
 
-	Slide on extant literature.	
+Usually, this literature on the effects of local economy uses...
 
+		\vspace{0.3in}	\pause
+		
+		\begin{enumerate}[<+->]
+			\item large contextual units: does not necessarily map on to voters' local community.
+			\item within-unit variation: potentially confounding for several reasons.
+			\item sample-based measures of local economy (although see \citealt{healy2014presidential})
+		\end{enumerate}
+
+		\vspace{0.3in}	\pause
+
+ \pause These data constraints potentially make for unreliable effect estimates. \pause
+
+$\rightsquigarrow$ which is in fact what we usually see.
 			
 	\end{frame}	
 	
 	\begin{frame}
 			
-	Note of caution...	
+	The data and methods used in this paper try to break these usual data constraints.
+	
+\vspace{0.3in}	\pause
+
+We do so by focusing on the Danish case, for which we have zip-code lvl population based measures of house prices over time.
 			
-	We do not know what the mechanism is. Simply, establish an effect.
+\vspace{0.3in}	\pause
+			
+	Caveat: We cant discern the exact mechanism is. Could be ego-, socio- or geotropic.
+	$\rightsquigarrow$ We focus on establishing an effect.
+	
 	\end{frame}	
 	
-\section{Empirical setting}	
+\section{About the Danish Case}	
 \begin{frame}
 In international comparison, DK's housing bubble exceptionally volatile:
 
@@ -107,65 +132,57 @@ In international comparison, DK's housing bubble exceptionally volatile:
 \end{frame}	
 	
 	\begin{frame}
-However, still great variation within DK (municipalities).
+However, still great variation within DK (across municipalities below).
 
 	\begin{center}
-\includegraphics<1>[width=0.9\textwidth]{../../figures/manylines_oneplot.eps}	
+\includegraphics<1-2>[width=0.9\textwidth]{../../figures/manylines_oneplot.eps}	
 		\end{center}
+		
+		\pause Our focus is on parliamentary elections in 2005, '07, '11 and '15.
 	\end{frame}	
 	
-	\begin{frame}
-		However, still great variation within DK (municipalities).
-		
-		\begin{center}
-			\includegraphics<1>[width=0.9\textwidth]{../../figures/manylines_oneplot.eps}	
-		\end{center}
-	\end{frame}	
 	
 	
 \section{Data}	
 \begin{frame}
-%{Data on house prices I}
-House prices are hard to measure
-\begin{itemize}
-\item for individual home, unobserved outside of purchase/sale \pause
-\item plausible proxy: realized house prices in local context \pause
+DV is electoral support for governing parties at individual precincts across the four Parliamentary elections.
 
-$\rightsquigarrow$ context effect \emph{and} personal experience
-\end{itemize}
-% - no one knows exactly what a house costs until it is on the market - but good proxy is how much houses in the same area costs. 
+\vspace{0.2in} \pause
+Data is from Political-Ecological Data Archive (PEDA)  \pause
+
+$\rightsquigarrow$ using this database we can create a balanced panel of precincts across elections.
 
 \vspace{0.2in} \pause
 
-Data on municipal selling prices from the Danish Mortgage Banks' Federation covering twenty years (1992:2013). 
-%Covers important housing-bubble. 
+PEDA also gives info on: avg. income, avg. wealth, pct. working and pct. on benefits. \pause
 
-%\vspace{0.2in}
-%The data is on the municipal level and covers the average selling price of houses and condos in the municipality in a given quarter (mean number of sales per quarter is 112).
-
-%\vspace{0.2in}
-%This gives us a good indicator of what we want to know; namely, whether home-owners should expect the value of their house (or condo) to have appreciated or depreciated. 
+$\rightsquigarrow$ at the district level, only measured in 2011!
 
 \end{frame}	
 
 \begin{frame}
-%{Data on house prices II}
+IV is year-over-year changes in the price of real-estate sold in the precinct's zip code.
+
+\vspace{0.2in} \pause
+Data is from the Danish Mortgage federation (Realkreditfordeling).  \pause
+
+$\rightsquigarrow$ i.e. we have weighted avg. price of each quarter of condos and houses sold in zip. \pause
+
+$\rightsquigarrow$ use price difference btwn prices in election-quarter and prices one year before. \pause
+
+$\rightsquigarrow$ also measure price volatility; std. dev. of prices across the last eight quarters. 
+
+\vspace{0.2in} \pause
+We link precincts to zip-codes by identifying the zip code of the precinct's polling place.
+
+\end{frame}	
+
+\begin{frame}
 \begin{center}
-\includegraphics<1>[width=0.9\textwidth]{../../figures/priceacrossmuni.eps}
-\includegraphics<2>[width=0.9\textwidth]{../../figures/manylines_oneplot.eps}	
-\includegraphics<3>[width=0.9\textwidth]{../../figures/prices_histogram.eps}	
-\pause[3]
+\includegraphics[width=0.9\textwidth]{../../figures/hphist.eps}	
 
-$\mu=0.05$ \hspace{0.1in} $\sigma=0.11$
+$\mu=0.04$ \hspace{0.1in} $\sigma=0.14$
 \end{center}
-\end{frame}	
-
-\begin{frame}
-
-\end{frame}	
-
-\begin{frame}
-
 \end{frame}	
 
 
@@ -178,6 +195,21 @@ $\mu=0.05$ \hspace{0.1in} $\sigma=0.11$
 \end{frame}		
 
 \begin{frame}
+We examine two types of heterogeneity in this effect: negativity and volatility.
+
+\vspace{0.3in} \pause
+
+Negativity bias is prevalent in economic voting literature \citep[e.g.][]{bloom1975voter}.
+
+\vspace{0.3in} \pause
+
+The second is volatility in the precinct's house prices: ``bubblyness''.
+
+
+$\rightsquigarrow$ mechanisms: priming and clarity of responsibility.
+
+\end{frame}	
+\begin{frame}
 \begin{center}
 	\includegraphics<1>[width=0.6\textwidth]{../../figures/posnegplot}
 	\includegraphics<2>[width=0.6\textwidth]{../../figures/volaplot}
@@ -185,25 +217,26 @@ $\mu=0.05$ \hspace{0.1in} $\sigma=0.11$
 
 \end{frame}	
 
-\section{Discussion}
+\section{Conclusion}
 
 	\begin{frame}
 	%{What is going on?}
-	We have shown evidence suggesting that falling - but not rising - house prices hurt incumbents in Denmark.
-	
-	\vspace{0.2in} \pause
-	
-	\begin{itemize}
-		\item is this convincing?
-		\item what other analyses would you like to see?
-		\item which interesting (theoretical and real world) implications do you think this has?
-		\item do you think this is a case where personal economic grievances matter? 
-	\end{itemize}	
+	We have shown evidence suggesting that house prices affect support for governing parties in Denmark.
 		
-	\end{frame}		
+	\vspace{0.3in} \pause
+	Evidence that the local economy, like the national, can influence incumbent support.
+	
+	
+		\vspace{0.3in} \pause
+	Interesting implications for reelection-minded politicians.
+	
+	
+	$\rightsquigarrow$ they should care about house-prices, but they should try to avoid bubbles.
 
+\end{frame}
+	
 \begin{frame}
-	\bibliography{litliste}
+	\bibliography{litliste,../../paper/library}
 		\bibliographystyle{apsr}
 \end{frame}
 

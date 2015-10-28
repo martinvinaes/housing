@@ -1,7 +1,7 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Politicized homes?}{2}{0}{1}
-\beamer@sectionintoc {2}{Empirical setting}{9}{0}{2}
-\beamer@sectionintoc {3}{Data}{12}{0}{3}
-\beamer@sectionintoc {4}{Results}{21}{0}{4}
-\beamer@sectionintoc {5}{Discussion}{26}{0}{5}
+\beamer@sectionintoc {2}{About the Danish Case}{19}{0}{2}
+\beamer@sectionintoc {3}{Data}{23}{0}{3}
+\beamer@sectionintoc {4}{Results}{36}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{45}{0}{5}
