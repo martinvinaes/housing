@@ -1,0 +1,32 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Linear Regression of Voting for Governing party } \label{indlagiv}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{10 Closest}&\multicolumn{1}{c}{20 Closest}&\multicolumn{1}{c}{40 Closest}&\multicolumn{1}{c}{500 metres}&\multicolumn{1}{c}{1000 metres}&\multicolumn{1}{c}{1500 metres}\\
+\hline
+Lag $\Delta$ housing prices&       0.010       &      -0.003       &      -0.010       &      -0.010       &       0.012       &      -0.012       \\
+                    &     (0.013)       &     (0.020)       &     (0.023)       &     (0.016)       &     (0.026)       &     (0.010)       \\
+[1em]
+Unemployment rate   &      -0.002       &       0.005       &       0.006       &      -0.328       &       0.174       &       1.051\sym{*}\\
+                    &     (0.292)       &     (0.291)       &     (0.292)       &     (0.472)       &     (0.522)       &     (0.527)       \\
+[1em]
+Average income      &      -0.004       &      -0.004       &      -0.004       &      -0.003       &      -0.003       &      -0.004       \\
+                    &     (0.003)       &     (0.003)       &     (0.003)       &     (0.004)       &     (0.006)       &     (0.006)       \\
+[1em]
+Personal income     &      -0.000       &      -0.000       &      -0.000       &      -0.001\sym{*}&      -0.001       &      -0.001       \\
+                    &     (0.000)       &     (0.000)       &     (0.000)       &     (0.000)       &     (0.000)       &     (0.000)       \\
+[1em]
+Unnemployed (household)&      -0.028       &      -0.028       &      -0.028       &      -0.081\sym{*}&      -0.034       &      -0.020       \\
+                    &     (0.036)       &     (0.036)       &     (0.036)       &     (0.041)       &     (0.038)       &     (0.038)       \\
+[1em]
+\hline  Round FE    &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+[1em]
+Voter FE            &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+\hline
+Observations        &        3301       &        3301       &        3301       &        2717       &        3034       &        3160       \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{+} \(p<0.1\), \sym{*} \(p<0.05\)}\\
+\end{tabular}
+\end{table}

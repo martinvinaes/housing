@@ -1,0 +1,33 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Conditional Logit Model of Voting for Governing party } \label{indaltspec}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{10 Closest}&\multicolumn{1}{c}{20 Closest}&\multicolumn{1}{c}{40 Closest}&\multicolumn{1}{c}{500 metres}&\multicolumn{1}{c}{1000 metres}&\multicolumn{1}{c}{1500 metres}\\
+\hline
+%incumbent support  &                   &                   &                   &                   &                   &                   \\
+$\Delta$ housing prices&       0.687       &       0.631       &       1.015       &       0.557       &       0.752       &       0.837       \\
+                    &     (0.431)       &     (0.559)       &     (0.766)       &     (0.627)       &     (0.871)       &     (0.962)       \\
+[1em]
+Unemployment rate   &      -1.950       &      -2.044       &      -2.109       &      -9.478       &       2.381       &      15.116\sym{+}\\
+                    &     (3.126)       &     (3.142)       &     (3.068)       &     (6.613)       &     (6.747)       &     (7.775)       \\
+[1em]
+Average income      &      -0.040       &      -0.035       &      -0.036       &      -0.046       &      -0.055       &      -0.081       \\
+                    &     (0.040)       &     (0.039)       &     (0.039)       &     (0.071)       &     (0.059)       &     (0.075)       \\
+[1em]
+Personal income     &      -0.001       &      -0.001       &      -0.001       &      -0.009       &      -0.002       &      -0.003       \\
+                    &     (0.004)       &     (0.004)       &     (0.004)       &     (0.017)       &     (0.004)       &     (0.005)       \\
+[1em]
+Years of Education  &       0.042       &       0.030       &       0.017       &       0.128       &       0.023       &       0.027       \\
+                    &     (0.171)       &     (0.170)       &     (0.171)       &     (0.206)       &     (0.210)       &     (0.218)       \\
+[1em]
+\hline  Round FE    &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+[1em]
+Voter FE            &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+\hline
+Observations        &         562       &         562       &         562       &         420       &         504       &         528       \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{+} \(p<0.1\), \sym{*} \(p<0.05\)}\\
+\end{tabular}
+\end{table}

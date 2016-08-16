@@ -18,7 +18,7 @@
 \usepackage{multicol}
 
 %\usepackage{mathptmx} %times font
-%\usepackage{tgtermes} %times font
+\usepackage{tgpagella} %times font
 \usepackage[protrusion=true,expansion=true]{microtype}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{hyperref}
@@ -31,7 +31,15 @@
 %\usepackage[heads,nolists,tablesfirst]{endfloat} %places tables and figures at the end
 %
 
+%%making use of footnotesize in all tables
+\usepackage{floatrow}
+\DeclareFloatFont{tiny}{\footnotesize}% "scriptsize" is defined by floatrow, "tiny" not
+\floatsetup[table]{font=footnotesize}
 
+%putting caption on top
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
 
 \usepackage{epstopdf}
 
@@ -39,7 +47,7 @@
 
 
 \author{
-Frederik Hjorth \and Martin V. Larsen}
+Martin Vinæs Larsen \and Frederik Hjorth \and Peter Thisted Dinesen \and Kim Mannemar Sønderskov    }
 
 %, \textt{fh@ifs.ku.dk}, (+45) 26 27 24 41 }  } 
 
@@ -52,8 +60,8 @@ Frederik Hjorth \and Martin V. Larsen}
 \textsc{early draft - please do not quote, cite, or circulate}
 \end{center}
 
-\begin{abstract}
-\noindent When the real estate bubble burst in 2007 it had profound consequences for the state of the world economy. However, we know little about whether or how this housing bubble affected voting behavior. Studying the electoral consequences is important, because it helps us understand how voters react to economic shocks which affect their immediate environment and, in turn, the incentives reelection-minded politicians face when trying to deal with economic bubbles. In this paper, we zoom in on one country, Denmark, a country which had exceptionally volatile housing prices, and examine how this rapid expansion and contraction of real estate prices shaped support for governing parties across four parliamentary elections. To do this, we link detailed data on local housing prices to election returns at the precinct level. Across a wide range of demanding specifications, we find that the when housing prices change so does the governing parties vote share. Further, this relationship seems to be stronger in areas where housing prices are very volatile, and when the change in housing prices are negative.
+\begin{abstract} Abstract here
+\noindent %When the real estate bubble burst in 2007 it had profound consequences for the state of the world economy. However, we know little about whether or how this housing bubble affected voting behavior. Studying the electoral consequences is important, because it helps us understand how voters react to economic shocks which affect their immediate environment and, in turn, the incentives reelection-minded politicians face when trying to deal with economic bubbles. In this paper, we zoom in on one country, Denmark, a country which had exceptionally volatile housing prices, and examine how this rapid expansion and contraction of real estate prices shaped support for governing parties across four parliamentary elections. To do this, we link detailed data on local housing prices to election returns at the precinct level. Across a wide range of demanding specifications, we find that the when housing prices change so does the governing parties vote share. Further, this relationship seems to be stronger in areas where housing prices are very volatile, and when the change in housing prices are negative.
  
 \end{abstract}
 
@@ -70,177 +78,235 @@ Frederik Hjorth \and Martin V. Larsen}
 \doublespacing
 
 \section{Introduction}
-In this article we examine how local housing prices shaped the electoral success of governing parties in Danish parliamentary elections from 2005 till 2015. A period in which the real-estate market in Denmark experienced a dramatic boom and bust \citep{dam2011housing}. Specifically, we want to examine whether voters held governing politicians electorally accountable, in the sense of electorally punishing and rewarding them, for changes in house-prices in their local community. That is, whether a decline in housing prices in a community meant that voters in this community were less likely to support governing parties. 
 
-Compared to other features of the economy, the quality and status of one's home has recieved scant attention in extant literature on economic voting. A small literature exists on patrimonial economic voting \citep{nadeau2010patrimonial,stubager2013reaching}, that is the extent to which owning assets, like real estate, makes it more likely that you will vote for right-wing parties \citep[see][for a similar argument]{ansell2014political}. However, very few studies and have focused on whether housing prices, similarly to other economic indicators like unemployment and GDP per capita, influence electoral support for governing parties. Further, in the few studies which do examine housing prices, their effects are rarely examined in detail \citep[e.g.,][]{hopkins2015economic}. 
+%motivation
+In this article we examine whether local changes in property values play a part in shaping the electoral success of incumbents. Our focus is on Danish Parliamentary elections between 2005 and 2015. A period in which the Danish real-estate market  experienced a dramatic boom and bust, the extent of which was largely driven by policies which deregulated the housing market \citep{dam2011housing}. Following the literature on economic voting \citep{healy2013retrospective,lewis2013vp}, we want to examine whether voters held governing parties electorally accountable for how the housing bubble played out in their local context . 
 
-Understanding how the housing bubble affected support for governing parties is important for at least two reasons. First of all, just like we can learn about political business cycles from studying voter myopia \citep{healy2014substituting,tufte1980political}, or learn about the prevalence of disaster relief vis-à-vis disaster prevention by looking at how voters reward spending on one or the other \citep{healy2009myopic,ashworth2012electoral}, studying how voters react to housing bubbles tells us something about the political antecedents of these bubbles. Specifically, it highlights the incentives reelection-minded politicians face when developing policies which influence the formation of economic bubbles.
+We do this using two complementary empirical approaches. First, we link detailed registry data on local housing prices to election results at the precinct-level across five national elections, allowing us to study whether within-district differences in property values are related to changes in support for governing parties. Second, to test the hypothesized causal mechanism, that voters are able to make inferences about government based on the state of their local housing market, we zoom in on individual voters’ local contexts. Specifically, we link a two-period panel survey to uniquely detailed data from the Danish administrative registries, which allows for precise measures of how individuals’ neighborhoods --measured at very low levels of aggregation-- were affected by changes in house prices.
 
-Second of all, studying housing prices allows us to understand how local economic conditions shape electoral support for governing politicians. Something which is interesting in light of the fact that most studies of the electoral effects of the economy have focused on the national economy or, to a lesser extent, personal economic conditions \citep[290]{healy2013retrospective}. To the extent that we find that voters do hold politicians accountable for the state of economy in their local community, this means that reelection minded politicians cannot simply be attentive to the economy as a whole, but have to worry about the geographic distribution of economic grievances \citep[cf.][11]{ferejohn1986incumbent}. 
+Analyzing these data, we find that changes in housing prices do leads to a change in support for governing parties; a relationship which is consistent across precinct-level and individual-level data. In particular we find that support for governing parties is 3-5 pct. higher in contexts where the price of property has increased 50 pct the last year than it is in contexts where the price of property has decreased 50 pct.
 
-A number of existing studies have examined the political effects played by local economic conditions. One set of studies have looked at whether local economic conditions affect voters' perceptions of the national economy; they generally find mixed or small effects (\citealt{books1999contextual,reeves2012ecologies,anderson2011local,ansolabehere2014mecro}, though see \citealt{dinesen2015reconsidering}). Another set of studies have looked at consequences for support for governing parties, finding mixed or statistically insignificant effects of local economic conditions \citep{hansford2015reevaluating,eisenberg2004economic,kim2003spatial}. As such, the existing literature has not been able to show strong effects of local economic conditions. There are two ways to interpret these results. The first is that local economic conditions do not matter to voters. The second is that the  previous literature has simply not been unable to identify these effects. If one examines previous literature on local economic conditions in detail, there are some indications, that the latter might be the case.
+We are not the first to investigate, whether voters might draw inferences about policy outcomes from local economic conditions. A number of studies have examined the extent to which voters draw inferences about national economic conditions from local economic conditions \citep{books1999contextual,reeves2012ecologies,anderson2011local,ansolabehere2014mecro,dinesen2015reconsidering}, and a number of studies have examined the extent to which voters draw inferences about whether to support incumbent politicians  \citep{hansford2015reevaluating,eisenberg2004economic,kim2003spatial,healy2014presidential}. The results from these studies are somewhat mixed, but on balance they find that voters do make inferences based on local economic conditions; asserting that the national economy declining or that incumbent politicians are doing a bad job when local economic conditions are declining. 
 
-First, the previous studies have generally relied on rather large geographical units (e.g. US counties) when estimating the effects of local economic conditions. This is potentially problematic, as the local context voters react to might not map on to these (typically large) geographical areas. Second, the studies do not generally take structural differences between local contexts into account when relating economic conditions to  attitudes or voting behavior. This is potentially problematic, since it seems likely that voters will at least take some structural factors into account. In the present case, voters are probably not likely to infer much about the government based on the fact that there are differences in housing prices between cities and rural areas. They are more likely to infer based on the fact that their housing prices are declining, or that they are rising less than they usually do. Related to this, one risks conflating re-distributive concerns, i.e. voters in comparatively less well off areas having different demands from government than those in well of areas, with inferential concerns, i.e. the question of what my local contexts tell me about the national economy or about the quality of the government. Third,  measures of local economic conditions are often based on samples which, while large enough to estimate precise national economic conditions, are not sufficiently precise on geographical levels. Taken together, these factors make it likely that previous studies do not estimate an reasonably efficient estimate of the effect of local economic conditions \citep{healy2014presidential}. 
+Our study adds to these literature in two ways. It does so by examining a new type of local economic condition: property values. Compared to other features of the economy, the quality and status of one's home has received scant attention in extant literature on economic voting. A small literature exists on patrimonial economic voting \citep{nadeau2010patrimonial,stubager2013reaching}, that is the extent to which owning assets, like real estate, makes it more likely that you will vote for right-wing parties \citep[see][for a similar argument]{ansell2014political}. However, very few studies and have focused on whether housing prices, similarly to other economic indicators like unemployment and GDP per capita, influence electoral support for governing parties \citep[e.g.][]{hopkins2015economic}, and no studies have looked at how local differences in property values affect economic conditions.
 
-In the present study we address all of these shortcomings by (1) using data on a small geographical level of aggregation (precincts), (2) using panel data which removes influence from context-specific and time-invariant confounders, and (3) using detailed register data on all real estate transactions in the period under investigation.\footnote{One study, \cite{healy2014presidential}, also address several of these concerns, and find a statistically significant effect, however, since their data does not cover as extensive a period of time, and fewer observations, we can introduce more detailed controls.} 
+We also adds to the existing literature by addressing some methodological shortcomings with previous studies. First, previous studies have generally relied on rather large geographical units (e.g. US counties) when estimating the effects of local economic conditions. This is potentially problematic, as the local context voters react to might not map on to these (typically large) geographical areas. Further, to the extent that these larger geographical units map unto media markets the effect of local economic conditions may be confounded with the effect of mass media communications about these issues \citep[][]{dinesen2015reconsidering}. Second, the studies do not generally take structural differences between local contexts into account when relating economic conditions to  attitudes or voting behavior. This is potentially problematic, since it seems likely that voters will at least take some structural factors into account. In the present case, voters are probably not likely to infer much about the government based on the fact that there are differences in property values between cities and rural areas. They are more likely to infer based on the fact that properties are selling for more (or less) than they used too in their own area. More broadly, if one does not take structural differences into account, one risks conflating re-distributive concerns, i.e. voters in comparatively less well off areas having different demands from government than those in well of areas, with inferential concerns, i.e. the question of what my local contexts tell me about the national economy or about the quality of the government. Third,  measures of local economic conditions are often based on samples which, while large enough to estimate precise national economic conditions, are not sufficiently precise on geographical levels \citep[][]{healy2014presidential}. 
 
-Analyzing these data, we find that changes in housing prices do lead to changes in support for governing parties; a relationship which is quite robust. Further, we find that voters react more strongly to negative changes in housing prices than positive changes, and that the effect is larger in areas where housing prices have been volatile in the past. 
-
-This heterogeneity in the effect of housing prices makes sense in light of previous literature on the economic vote. Studies have long found that economic conditions matter more for election results when they are deteriorating \citep[e.g.][]{bloom1975voter,headrick1991attention,nannestad1997grievance,olsen2015negativity}. Further, to the extent that less volatility means that the policy-elasticity for housing prices in this area is low, it makes sense that these prices also have a smaller effect. That is, if the effects of policy does not easily translate into outcomes (i.e. prices) in these areas, previous research suggests that outcomes should have a smaller impact on incumbent voting \citep{duch2008economic}.
-
-What implications do these findings have? Most importantly, politicians should care about housing prices and the policies that influence them.  Further, the asymmetry in responses to negative and positive changes means that politicians seemingly have little incentive to create housing bubbles. These results suggest that the rewards for rising house-prices are minimal, yet the punishment if the bubble bursts are quite large. More generally, these findings suggests that it might be interesting to look more at housing prices as a driver of political behavior.
-%Relatedly, they are more likely to be punished for the quality of housing prices in more volatile areas, and since bubbles create volatility. 
-
-Before moving on it is important to note an important limitation of the present study. What we find is an aggregate level correlation. As such, we do not know whether voters punish and reward the government for the quality of local housing prices  because (1) their own house loses some of its value (egotropic), (2) they fear for the future of their community (geotropic) or (3) they infer something about the state of the national economy from their local area (sociotropic). The aggregate-level data used in this study cannot distinguish between these competing models of individual-level cognition. However, given the state of the extant literature on housing prices and the effects of the local economy, simply establishing an effect and describing how this effect varies is substantial step forward. 
-
-\section{Empirical Setting}
-
-In this study we focus on how the housing bubble affected support for governing parties in Denmark. Denmark is privileged as a case for two reasons.
-
-The first is that Denmark had a very large housing bubble. As \citet[][49]{dam2011housing} explain concerning the housing bubble of the late 2000's ``developments in the Danish housing market in those years were unusually hectic, both in a historical and an international perspective''. This is also evident from Figure \ref{dam}, adapted from their paper. 
-
-\begin{figure}[htbp!]
-	\includegraphics[width=0.9\textwidth]{../figures/intcomparison}
-	\centering
-	\caption{Taken from \citet[50]{dam2011housing}}\label{dam}
-\end{figure}
-
-The second reason we focus on Denmark, is that it is possible to obtain precise and comprehensive data on housing price changes, voting returns, and socio-economic controls at a very small geographic level. Existing approaches typically examine housing price returns at high levels of aggregation corresponding to either counties or entire states. In contrast, we observe housing price changes at the zip code level and voting returns and socio-economic controls at the precinct (i.e., polling place) level. This allows for much more precise measurements of the variables of interest and accordingly less attenuation of observed associations. We elaborate on the specifics of the data in the next section.
-
-Turning to the political context, the government in the entire period we investigate (2005-2015) consisted of two different parties. From 2001 to 2011 the Liberal party was in government along with the Conservative party, and from 2011 till 2015 the Social Democratic party and the Liberal party was in power.\footnote{An additional party, the Socialist party, was in government from 2011 to 2013, however, since this party left government before the election, it is excluded when looking at electoral support for the governing party. To get data on electoral support at the previous election, we also use some data from the 2001 election in which the Social Democratic party and the Liberal party was in power.} This change in party incumbency is useful, since it allows us to distinguish effects on incumbent government support from effects on macropartisanship. 
+It is important to note that some previous studies do  address some of these methodological challenges, however, our study contributes by addressing all of these shortcomings at once. We do so by (1) employing data on a very small geographical level of aggregation, (2) using panel data which removes influence of time invariant structural factors, and (3) by using detailed register data on all real estate transactions in the period under investigation.
 
 
-\section{Data}
-The key dependent variable in our study is \textit{percent of votes cast for government parties} in each voting precinct.\footnote{Results are similar for only using the prime minister's party.} Each voting precinct corresponds to a single polling place and is this the smallest unit at which voting returns can be observed. We measure this for all precincts in five elections: 2001, 2005, 2007, 2011 and 2015. A number of precincts are redistricted between each election. This is problematic, as we want to use  the precincts as part of a panel data set. There are two ways to deal with this. We can drop precincts, as their geographical boundaries get altered. This would mean dropping roughly 15 pct. of the data on the dependent variable. The other option is to fix the precincts geographical boundaries at one reference election (i.e. 2015), and then recalculate vote returns in any changed precincts, so they match up with the precincts in the reference election.  As many of the changes in geographical boundaries are minor, we opt to do the latter.\footnote{For details of how returns from the redistricted precincts are calculated, see Søren Risbjerg Thomsen's research note at \texttt{\href{http://bit.ly/205OlPi}{bit.ly/205OlPi}}. We will eventually show results for the other option in an appendix.}. 
-
-The key independent variable is \textit{year-over-year change in local housing prices}. We obtain housing price data from The Danish Mortgage Banks' Federation (\textit{Realkreditforeningen}), which publishes quarterly data on all housing price sales at the zip code level.\footnote{Available at \texttt{\href{http://statistik.realkreditforeningen.dk/}{statistik.realkreditforeningen.dk}}.} Data is presented for houses and apartments separately, so for each zip code we calculate an average of house and apartment price changes weighted by the volume of sales in each category. For each election, we calculate change in housing prices as the percentage change in the quarter of the election compared to the same quarter one year before.
-
-In addition to change in housing prices, we also calculate a measure of \textit{housing price volatility} for each election-year zip code. We calculate volatility as the sales volume-weighted average of the standard deviations of house and apartment price levels over the past eight quarters. In short, the volatility measure captures how much prices change overall in a given election-year zip code. Although large changes in housing prices will mechanically translate into higher observed volatility, the absolute year-over-year change is only moderately strongly correlated with volatility ($r=0.22$). This divergence is due to a substantial number of zip codes where housing prices fluctuate over time but exhibit little systematic change. We construct the volatility measure to capture precisely this `bubblyness' which characterizes housing prices in some localities at some points in time.
-
-As an illustration of the housing price volatility measure, consider Figure \ref{volcases}, which plots the highest and lowest levels of observed volatility, respectively Rungsted Kyst (left) and Roslev (right), both in 2007.
-
-\begin{figure}[htbp!]
-	\includegraphics[width=0.9\textwidth]{../figures/volcases}
-	\centering
-	\caption{Illustration of housing price volatility measure: the election year zip codes with the highest and lowest levels of observed volatility, respectively Rungsted Kyst (left) and Roslev (right), both in 2007.}\label{volcases}
-\end{figure}
-
-We observe both the change and volatility measures at the zip code level. Since the dependent variable is observed at the voting precinct level, merging these observations is not trivial. The easiest solution would be to extract the zip code of the address of each polling place and link the polling place to housing prices in that zip code. Unfortunately, full addresses are not available for all polling places. Instead, we take a three-stage approach to linking polling places to zip codes. First, we extract the street address and higher-level voting district of each polling place and add `Denmark' at the end of the string (the full resulting string is of the format `Streetname X, City, Denmark'). Second, we pass this string to the Google Maps API, which geocodes the string and returns latitude-longitude coordinates.\footnote{Available at \texttt{\href{https://developers.google.com/maps/documentation/geocoding/intro}{developers.google.com/maps/documentation/geocoding/intro}}.} Third and last, we pass these coordinates to the Danish Addresses Web API (DAWA), a public service provided by the Danish Geodata Agency.\footnote{Available at \texttt{\href{http://dawa.aws.dk/}{dawa.aws.dk}}.} The DAWA returns the zip code for each address, allowing us to link the two sources of data. Since voting returns are thus statistically speaking nested inside zip codes, we estimate models using standard errors clustered at the zip code level.
-
-In addition to the main independent variables, we measure a number of structural factors at voting precinct. These are population based measures of economic characteristics of the precincts, which are originally from Statistics Denmark. These are only available at one point in time (2011), and as such cannot be modeled dynamically. The variables are income, average household income in the precinct in DKK, employment, the percentage of people in the precinct who are on the job market, benefits, the percentage of people in the precinct who are on unemployment benefits (`kontanthjælp' and `dagpenge'), and wealth, average household wealth in the precinct in DKK.  
 
 
-\section{The effect of housing prices}
+ %A contribution to extant research which has focused on the extent to which voters draw such inference from how policy affects the national economy \citep[e.g.][]{fiorina1981retrospective,duch2008economic}, and to a lesser extent, their own personal economy \citep[e.g.][]{kinder1981sociotropic,markus1988impact}. 
+
+
+
+
+ %First of all, just like we can learn about political business cycles from studying voter myopia \citep{healy2014substituting,tufte1980political}, or learn about the prevalence of disaster relief vis-à-vis disaster prevention by looking at how voters reward spending on one or the other \citep{healy2009myopic,ashworth2012electoral}, studying how voters react to housing bubbles tells us something about the political antecedents of these bubbles. Specifically, it highlights the incentives reelection-minded politicians face when developing policies which influence the formation of economic bubbles.
+
+%What implications do these findings have? First,  politicians should care about housing prices and the policies that influence them.  More generally, these findings suggests that it might be interesting to look more at housing prices as a driver of political behavior.
+  %Second of all, studying housing prices allows us to understand how local economic conditions shape electoral support for governing politicians. Something which is interesting in light of the fact that most studies of the electoral effects of the economy have focused on the national economy or, to a lesser extent, personal economic conditions \citep[290]{healy2013retrospective}. To the extent that we find that voters do hold politicians accountable for the state of economy in their local community, this means that reelection minded politicians cannot simply be attentive to the economy as a whole, but have to worry about the geographic distribution of economic grievances \citep[cf.][11]{ferejohn1986incumbent}. 
+
+ %To the extent that we find that voters do hold politicians accountable for the state of economy in their local community, this means that reelection minded politicians cannot simply be attentive to the economy as a whole, but have to worry about the geographic distribution of economic grievances \citep[cf.][11]{ferejohn1986incumbent}. 
+
+
+
+
+\section{Empirical Setting: A Policy Driven Boom and Bust}
+
+This is an excellent setting because:
+
+\begin{enumerate}
+	\item Housing bubble was induced by policy. As such, not strange that voters infer something about government based on local changes in house prices.
+	\item We have kick-ass administrative data - all house sale registered, we can link these houses to individuals local contexts (e.g zipcodes or survey respondents).
+	\item We witnessed a really volatile bubble - there is gonna be a lot of changes in IV.
+\end{enumerate}
+
+%In this study we focus on how the housing bubble affected support for governing parties in Denmark. Denmark is privileged as a case for two reasons.
+
+%The first is that Denmark had a very large housing bubble. As \citet[][49]{dam2011housing} explain concerning the housing bubble of the late 2000's ``developments in the Danish housing market in those years were unusually hectic, both in a historical and an international perspective''. This is also evident from Figure \ref{dam}, adapted from their paper. 
+
+%\begin{figure}[htbp!]
+%	\includegraphics[width=0.9\textwidth]{../figures/intcomparison}
+%	\centering
+%	\caption{Taken from \citet[50]{dam2011housing}}\label{dam}
+%\end{figure}
+
+%The second reason we focus on Denmark, is that it is possible to obtain precise and comprehensive data on housing price changes, voting returns, and socio-economic controls at a very small geographic level. Existing approaches typically examine housing price returns at high levels of aggregation corresponding to either counties or entire states. In contrast, we observe housing price changes at the zip code level and voting returns and socio-economic controls at the precinct (i.e., polling place) level. This allows for much more precise measurements of the variables of interest and accordingly less attenuation of observed associations. We elaborate on the specifics of the data in the next section.
+
+%Turning to the political context, the government in the entire period we investigate (2005-2015) consisted of two different parties. From 2001 to 2011 the Liberal party was in government along with the Conservative party, and from 2011 till 2015 the Social Democratic party and the Liberal party was in power.\footnote{An additional party, the Socialist party, was in government from 2011 to 2013, however, since this party left government before the election, it is excluded when looking at electoral support for the governing party. To get data on electoral support at the previous election, we also use some data from the 2001 election in which the Social Democratic party and the Liberal party was in power.} This change in party incumbency is useful, since it allows us to distinguish effects on incumbent government support from effects on macropartisanship. 
 
 \subsection{Identification strategy}
 
-In this article we want to identify the causal effect of recent changes in precinct level housing prices on electoral support for governing parties. Ideally, we would like to compare support for governing parties in the same district at a specific election across different levels of house-prices. As precincts were only assigned one change in housing prices per election, this is obviously not feasible. Instead, we need to construct a feasible observable counterfactual to a precinct with a specific change in housing prices, which we can use to difference out the effect of housing prices. 
+We use a difference-in-difference approach controlling for other economic factors. 
 
-One way to do this is to simply compare incumbent support at different levels of housing price changes across elections and within precincts. Here the counterfactual for any given precinct is the incumbent support of an cross-elections average precinct. A key challenge to causal identification in this case is that certain structural features of precincts in which housing prices are likely to increase might make incumbents more popular. 
+Use two different empirical approaches: Precinct level and Individual level data.
 
-We can begin to deal with this problem by examining the historical precinct-specific levels of incumbent support. As such, instead of simply using an average of all precincts as our counterfactual, we can use the average for the individual precinct. Comparing incumbent support within precincts and across different levels of housing prices. This takes into account that certain precincts might be historically more inclined to support incumbents and have increasing housing prices. However, it does not take into account that when housing prices are relatively high in a district in a particular election, it is also likely to be high in other precincts as well. This is problematic if incumbents do systematically better or worse, in general, when housing prices are doing well.
 
-To address this problem, we can examine levels of incumbents support, not just relative to the precincts history, but also relative to the level of incumbent support across districts. In this case, our counterfactual for any given precinct is the electoral support that governing parties typically obtain in that precinct, plus or minus the overall change in electoral support for governing parties across all precincts. This gives us a difference-in-differences approach to identifying the effect of housing prices. As such, we look at differences within elections in differences between the individual precincts typical and actual outcome.
+%difference in difference - control for other economic conditions. Problem is - however way better than earlier...
 
-The difference-in-differences approach makes it possible to compare with a very reasonable counterfactual situation -- what is the typical incumbent support we could expect in a precinct given the overall popularity of the incumbent. However, since the the governing parties change from election to election, and since the priorities of the same parties might change from election to election, different types of precincts might prefer government parties at  different elections. This poses a challenge to causal identification. As such,  these changes in election and precinct-specific preferences might not be the same across types of precincts which experience increasing and decreasing in housing prices. We cannot completely deal with this problem: As mentioned in the beginning of this section, we have only one piece of information on the assigned housing price change for a precinct at an individual election. However, we can create an even more appropriate counter-factual by taking into account how precincts of a specific type do at specific elections.
+%Limitation
+%Before moving on it is important to note an important limitation of the present study. What we find is an aggregate level correlation. As such, we do not know whether voters punish and reward the government for the quality of local housing prices  because (1) their own house loses some of its value (egotropic), (2) they fear for the future of their community (geotropic) or (3) they infer something about the state of the national economy from their local area (sociotropic). The aggregate-level data used in this study cannot distinguish between these competing models of individual-level cognition. However, given the state of the extant literature on housing prices and the effects of the local economy, simply establishing an effect and describing how this effect varies is substantial step forward. 
 
-First, we can take the precincts economic status into account. That is, how the incumbent scores on the four structural variables mentioned above: income, wealth, employment and benefits. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts with a similar economic make-up.
+\section{Precinct-level Evidence}
 
-Second, we can take the precincts geographical location into account. Specifically, we can look at what municipality,  the smallest local administrative unit in Denmark, the municipality is located in. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts in the same municipality.
 
-This counter-factual can be expressed using the following linear equation.
+\subsection{Data sources and indicators}
+Data description
+%The key dependent variable in our study is \textit{percent of votes cast for government parties} in each voting precinct.\footnote{Results are similar for only using the prime minister's party.} Each voting precinct corresponds to a single polling place and is this the smallest unit at which voting returns can be observed. We measure this for all precincts in five elections: 2001, 2005, 2007, 2011 and 2015. A number of precincts are redistricted between each election. This is problematic, as we want to use  the precincts as part of a panel data set. There are two ways to deal with this. We can drop precincts, as their geographical boundaries get altered. This would mean dropping roughly 15 pct. of the data on the dependent variable. The other option is to fix the precincts geographical boundaries at one reference election (i.e. 2015), and then recalculate vote returns in any changed precincts, so they match up with the precincts in the reference election.  As many of the changes in geographical boundaries are minor, we opt to do the latter.\footnote{For details of how returns from the redistricted precincts are calculated, see Søren Risbjerg Thomsen's research note at \texttt{\href{http://bit.ly/205OlPi}{bit.ly/205OlPi}}. We will eventually show results for the other option in an appendix.}. 
 
-\begin{equation}
-y_{it}= \delta houseprices_{it} + \pi_i + year_{it} + \epsilon_{it}
-\end{equation}
+%The key independent variable is \textit{year-over-year change in local housing prices}. We obtain housing price data from The Danish Mortgage Banks' Federation (\textit{Realkreditforeningen}), which publishes quarterly data on all housing price sales at the zip code level.\footnote{Available at \texttt{\href{http://statistik.realkreditforeningen.dk/}{statistik.realkreditforeningen.dk}}.} Data is presented for houses and apartments separately, so for each zip code we calculate an average of house and apartment price changes weighted by the volume of sales in each category. For each election, we calculate change in housing prices as the percentage change in the quarter of the election compared to the same quarter one year before.
 
-Where $y_{it}$ is incumbent support at election $t$ in precinct $i$ and $houseprices_{it}$ is year-over-year changes in housing prices. $\delta$ is the coefficient of interest, as it represents the effect of housing prices on incumbent support.  $\pi_i$ represent precinct fixed-effects and $\epsilon_{it}$ is an error term. $year_{it}$ is a year and precinct specific term, which signifies how much more or less popular, we would expect the incumbent to be in an individual precinct at a specific election, given its geographical location and economic status. It is defined as
+%In addition to change in housing prices, we also calculate a measure of \textit{housing price volatility} for each election-year zip code. We calculate volatility as the sales volume-weighted average of the standard deviations of house and apartment price levels over the past eight quarters. In short, the volatility measure captures how much prices change overall in a given election-year zip code. Although large changes in housing prices will mechanically translate into higher observed volatility, the absolute year-over-year change is only moderately strongly correlated with volatility ($r=0.22$). This divergence is due to a substantial number of zip codes where housing prices fluctuate over time but exhibit little systematic change. We construct the volatility measure to capture precisely this `bubblyness' which characterizes housing prices in some localities at some points in time.
 
-\begin{equation}
-year_{it}=\mathbf{X_i\beta_t + Z_i\gamma_t}
-\end{equation}
+%As an illustration of the housing price volatility measure, consider Figure \ref{volcases}, which plots the highest and lowest levels of observed volatility, respectively Rungsted Kyst (left) and Roslev (right), both in 2007.
 
-$ \mathbf{X_i}$ is a vector of the four economic variables and $\mathbf{\beta_t}$ is a vector of coefficients attached to these variables, which specify the relationship between these variables and incumbent popularity at time $t$. $\mathbf{Z_i}$ is a vector of 98 dummy variables indicating which of 98 municipalities the precinct lies within. $\mathbf{\gamma_t}$ is a vector of coefficients attached to these dummy variables, which specify the cross-precinct municipal average of incumbent popularity at time $t$.
+%\begin{figure}[htbp!]
+%	\includegraphics[width=0.9\textwidth]{../figures/volcases}
+%	\centering
+%	\caption{Illustration of housing price volatility measure: the election year zip codes with the highest and lowest levels of observed volatility, respectively Rungsted Kyst (left) and Roslev (right), both in 2007.}\label{volcases}
+%\end{figure}
+
+%We observe both the change and volatility measures at the zip code level. Since the dependent variable is observed at the voting precinct level, merging these observations is not trivial. The easiest solution would be to extract the zip code of the address of each polling place and link the polling place to housing prices in that zip code. Unfortunately, full addresses are not available for all polling places. Instead, we take a three-stage approach to linking polling places to zip codes. First, we extract the street address and higher-level voting district of each polling place and add `Denmark' at the end of the string (the full resulting string is of the format `Streetname X, City, Denmark'). Second, we pass this string to the Google Maps API, which geocodes the string and returns latitude-longitude coordinates.\footnote{Available at \texttt{\href{https://developers.google.com/maps/documentation/geocoding/intro}{developers.google.com/maps/documentation/geocoding/intro}}.} Third and last, we pass these coordinates to the Danish Addresses Web API (DAWA), a public service provided by the Danish Geodata Agency.\footnote{Available at \texttt{\href{http://dawa.aws.dk/}{dawa.aws.dk}}.} The DAWA returns the zip code for each address, allowing us to link the two sources of data. Since voting returns are thus statistically speaking nested inside zip codes, we estimate models using standard errors clustered at the zip code level.
+
+%In addition to the main independent variables, we measure a number of structural factors at voting precinct. These are population based measures of economic characteristics of the precincts, which are originally from Statistics Denmark. These are only available at one point in time (2011), and as such cannot be modeled dynamically. The variables are income, average household income in the precinct in DKK, employment, the percentage of people in the precinct who are on the job market, benefits, the percentage of people in the precinct who are on unemployment benefits (`kontanthjælp' and `dagpenge'), and wealth, average household wealth in the precinct in DKK.  
+
+
+
+%\subsection{Identification strategy}
+
+%In this article we want to identify the causal effect of recent changes in precinct level housing prices on electoral support for governing parties. Ideally, we would like to compare support for governing parties in the same district at a specific election across different levels of house-prices. As precincts were only assigned one change in housing prices per election, this is obviously not feasible. Instead, we need to construct a feasible observable counterfactual to a precinct with a specific change in housing prices, which we can use to difference out the effect of housing prices. 
+
+%One way to do this is to simply compare incumbent support at different levels of housing price changes across elections and within precincts. Here the counterfactual for any given precinct is the incumbent support of an cross-elections average precinct. A key challenge to causal identification in this case is that certain structural features of precincts in which housing prices are likely to increase might make incumbents more popular. 
+
+%We can begin to deal with this problem by examining the historical precinct-specific levels of incumbent support. As such, instead of simply using an average of all precincts as our counterfactual, we can use the average for the individual precinct. Comparing incumbent support within precincts and across different levels of housing prices. This takes into account that certain precincts might be historically more inclined to support incumbents and have increasing housing prices. However, it does not take into account that when housing prices are relatively high in a district in a particular election, it is also likely to be high in other precincts as well. This is problematic if incumbents do systematically better or worse, in general, when housing prices are doing well.
+
+%To address this problem, we can examine levels of incumbents support, not just relative to the precincts history, but also relative to the level of incumbent support across districts. In this case, our counterfactual for any given precinct is the electoral support that governing parties typically obtain in that precinct, plus or minus the overall change in electoral support for governing parties across all precincts. This gives us a difference-in-differences approach to identifying the effect of housing prices. As such, we look at differences within elections in differences between the individual precincts typical and actual outcome.
+
+%The difference-in-differences approach makes it possible to compare with a very reasonable counterfactual situation -- what is the typical incumbent support we could expect in a precinct given the overall popularity of the incumbent. However, since the the governing parties change from election to election, and since the priorities of the same parties might change from election to election, different types of precincts might prefer government parties at  different elections. This poses a challenge to causal identification. As such,  these changes in election and precinct-specific preferences might not be the same across types of precincts which experience increasing and decreasing in housing prices. We cannot completely deal with this problem: As mentioned in the beginning of this section, we have only one piece of information on the assigned housing price change for a precinct at an individual election. However, we can create an even more appropriate counter-factual by taking into account how precincts of a specific type do at specific elections.
+
+%First, we can take the precincts economic status into account. That is, how the incumbent scores on the four structural variables mentioned above: income, wealth, employment and benefits. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts with a similar economic make-up.
+
+%Second, we can take the precincts geographical location into account. Specifically, we can look at what municipality,  the smallest local administrative unit in Denmark, the municipality is located in. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts in the same municipality.
+
+%This counter-factual can be expressed using the following linear equation.
+
+%\begin{equation}
+%y_{it}= \delta houseprices_{it} + \pi_i + year_{it} + \epsilon_{it}
+%\end{equation}
+
+%Where $y_{it}$ is incumbent support at election $t$ in precinct $i$ and $houseprices_{it}$ is year-over-year changes in housing prices. $\delta$ is the coefficient of interest, as it represents the effect of housing prices on incumbent support.  $\pi_i$ represent precinct fixed-effects and $\epsilon_{it}$ is an error term. $year_{it}$ is a year and precinct specific term, which signifies how much more or less popular, we would expect the incumbent to be in an individual precinct at a specific election, given its geographical location and economic status. It is defined as
+
+%\begin{equation}
+%year_{it}=\mathbf{X_i\beta_t + Z_i\gamma_t}
+%\end{equation}
+
+%$ \mathbf{X_i}$ is a vector of the four economic variables and $\mathbf{\beta_t}$ is a vector of coefficients attached to these variables, which specify the relationship between these variables and incumbent popularity at time $t$. $\mathbf{Z_i}$ is a vector of 98 dummy variables indicating which of 98 municipalities the precinct lies within. $\mathbf{\gamma_t}$ is a vector of coefficients attached to these dummy variables, which specify the cross-precinct municipal average of incumbent popularity at time $t$.
 
 
 \subsection{Estimating the average effect of housing prices}
-In order to examine the relationship between electoral support for governing parties and local housing prices, we estimate a number of different versions of equation (1) in table \ref{tab1}. In model 1 we simply look at the bivariate relationship between electoral support and housing prices. In model 2 we include precinct fixed effects. In model 3 we include year fixed effects; this gives us the difference-in difference model. In model 4 we include year by structural factors. In model 5 we include year by municipality fixed effects. The standard errors are robust and clustered at the precinct level.\footnote{Since all precincts are nested within zip-codes, this is more restrictive than zip-code clustering.}
+%In order to examine the relationship between electoral support for governing parties and local housing prices, we estimate a number of different versions of equation (1) in table \ref{tab1}. In model 1 we simply look at the bivariate relationship between electoral support and housing prices. In model 2 we include precinct fixed effects. In model 3 we include year fixed effects; this gives us the difference-in difference model. In model 4 we include year by structural factors. In model 5 we include year by municipality fixed effects. The standard errors are robust and clustered at the precinct level.\footnote{Since all precincts are nested within zip-codes, this is more restrictive than zip-code clustering.}
 
-As can be seen from table \ref{tab1}, there is a statistically significant and positive effect estimate of one-year changes in housing prices, indicating that a larger fraction of the electorate casts their vote for governing parties in precincts where housing prices increase. In the most demanding specification, model 5, the effect is roughly 0.01.  This implies that moving across the range of observed changes in housing prices translates into an increase in support for  governing parties of 1.7 percentage points. A small, but meaningful average effect.
+%As can be seen from table \ref{tab1}, there is a statistically significant and positive effect estimate of one-year changes in housing prices, indicating that a larger fraction of the electorate casts their vote for governing parties in precincts where housing prices increase. In the most demanding specification, model 5, the effect is roughly 0.01.  This implies that moving across the range of observed changes in housing prices translates into an increase in support for  governing parties of 1.7 percentage points. A small, but meaningful average effect.
 
-
-\input{../tables/tab1.tex}
-
-If we have identified a causal effect of housing prices in model (1) of table 1, we would not expect there to be any systematic difference in incumbent support over time between those precincts which happen to have increasing housing prices at any given election and those who happen to have decreasing housing prices at any given election.  In tables \ref{tab2} and \ref{tab3} we try to test this by using a one-period lag and one-period lead of the dependent variable respectively.
-
-\input{../tables/tab2.tex}
-
-\input{../tables/tab3.tex}
+Table \ref{predv} shows the effect og house prices adding controls, precinct FEs and year FE. Use lag house prices as a placebo-test in \ref{prelagiv}.
 
 
-As can be seen from the tables \ref{tab2} and \ref{tab3} neither the lead nor the lag dependent variable models show a significant  effect of housing prices in the most demanding models. This suggests that the above models do in fact identity the causal effect.
+\input{../tables/predv.tex}
+
+\input{../tables/prelagiv.tex}
+
+In appendix S2 we examine the common trends assumption.
+
+%If we have identified a causal effect of housing prices in model (1) of table 1, we would not expect there to be any systematic difference in incumbent support over time between those precincts which happen to have increasing housing prices at any given election and those who happen to have decreasing housing prices at any given election.  In tables \ref{tab2} and \ref{tab3} we try to test this by using a one-period lag and one-period lead of the dependent variable respectively.
+
+
+
+
+
+
+%As can be seen from the tables \ref{tab2} and \ref{tab3} neither the lead nor the lag dependent variable models show a significant  effect of housing prices in the most demanding models. This suggests that the above models do in fact identity the causal effect.
 
 
 
 \subsection{Heterogeneity}
 
-We examine two different sources of heterogeneity in the effect of housing prices: asymmetry across positive and negative changes and heterogeneity across high- and low-volatility areas.  It is important to understand how the effect of housing prices vary. As such, if we know what type of housing price changes voters react more strongly too, we know which type of changes which politicians might have a interest in promoting or avoiding,  when designing economic policy which influences the housing market. %However, it is also somewhat dangerous as issues of multiple comparisons and over-fitting becomes prevalent. To avoid this we limit our selfs to examining types of heterogeneity, which are firmly based on previous literature on economic voting.
-
-The first source of heterogeneity is the sign of the changes in housing prices. A small literature in economic voting have identified a negativity bias in economic voting, in that voters react more strongly to negative economic outcomes, than they do to positive economic outcomes \citep[e.g.][]{bloom1975voter}. In order to investigate whether a similar negativity bias is present in our dataset, we decompose our housing price variable into two different variables. A variable which records positive changes in housing prices, and which is zero if the changes are negative, and a variable which records negative changes in housing prices (numerically), and which is zero if changes in housing prices are positive. In table \ref{tab4} we estimate the same models as above, but with our new positive and negative housing price change variables. We also include a statistical test of whether the effect of the two variables are numerically similar. 
-
-As can be seen from table \ref{tab4}, the negative changes have a significantly larger effect than the positve changes in the most demanding specification (model 4). This indicates that there is a negativity bias in the effect of housing prices; negative changes are more likely to affect election results than positive changes. 
-
-\input{../tables/tab4.tex}
-
-This asymmetric effect is plotted in figure \ref{posneg}.
-
-\begin{figure}[htbp]
-	\includegraphics[page=1,width=0.8\textwidth]{../figures/posnegplot}
-	\centering
-	\caption{Predicted electoral support for governing parties across changes in housing prices with 90 and 95 pct. confidence intervals. Derived from model (5) in table \ref{tab4}}
-	\label{posneg}
-\end{figure}
+Brief discussion of heterogeneity. We find (1) no difference in effects between positive and negative changes, but (2) larger effects in more densely populated areas. 
 
 
-The second source of heterogeneity is volatility of housing prices in the area. One that voters would focus less on changes in housing prices in areas with a great deal of housing price volatility. As such, in these areas a given change in housing prices seem less likely to be lasting. However, we believe that volatility magnifies the effect of changes in housing prices. For several reasons. First, if the price of houses in your local area have experienced dramatic increases and decreases  over the past few years, it seems more likely that you will pay attention to housing prices. That is, volatility has a priming effect. Second, things which change might seem more manipulable, and as such it might be easier to imagine politicians doing something about housing prices if they change a lot. Third, and most importantly, the policy-elasticity, that is the actual effect of policy on house-price changes are, all else equal, going to be larger in areas with higher levels of volatility. This makes it easier to detect these policy effect for voters \cite{duch2008economic}, and this might make it more likely for voters to respond to house prices.
 
-In table \ref{tab5} we look at differences in the effect of changes in housing prices across different levels of volatility in the housing prices.  We do this by extending the models estimated above with an interaction between the housing price variable and our volatility variable. The interaction is statistically significant in the two most demanding specifications (models 3 and 4). This suggests, that housing prices have a greater impact on election results in areas were housing prices are generally more volatile. 
+%We examine two different sources of heterogeneity in the effect of housing prices: asymmetry across positive and negative changes and heterogeneity across high- and low-volatility areas.  It is important to understand how the effect of housing prices vary. As such, if we know what type of housing price changes voters react more strongly too, we know which type of changes which politicians might have a interest in promoting or avoiding,  when designing economic policy which influences the housing market. %However, it is also somewhat dangerous as issues of multiple comparisons and over-fitting becomes prevalent. To avoid this we limit our selfs to examining types of heterogeneity, which are firmly based on previous literature on economic voting.
 
-\input{../tables/tab5.tex}
+%The first source of heterogeneity is the sign of the changes in housing prices. A small literature in economic voting have identified a negativity bias in economic voting, in that voters react more strongly to negative economic outcomes, than they do to positive economic outcomes \citep[e.g.][]{bloom1975voter}. In order to investigate whether a similar negativity bias is present in our dataset, we decompose our housing price variable into two different variables. A variable which records positive changes in housing prices, and which is zero if the changes are negative, and a variable which records negative changes in housing prices (numerically), and which is zero if changes in housing prices are positive. In table \ref{tab4} we estimate the same models as above, but with our new positive and negative housing price change variables. We also include a statistical test of whether the effect of the two variables are numerically similar. 
 
-This interaction effect is plotted in figure \ref{vola}.
+%As can be seen from table \ref{tab4}, the negative changes have a significantly larger effect than the positve changes in the most demanding specification (model 4). This indicates that there is a negativity bias in the effect of housing prices; negative changes are more likely to affect election results than positive changes. 
 
-\begin{figure}[htbp]
-	\includegraphics[page=1,width=0.8\textwidth]{../figures/volaplot}
-	\centering
-	\caption{Predicted electoral support for governing parties across changes in housing prices at the 5th and 95th percentile of the volatility variable with 90 and 95 pct. confidence intervals. Derived from model (5) in table \ref{tab5}}
-	\label{vola}
-\end{figure}
+
+%This asymmetric effect is plotted in figure \ref{posneg}.
+
+
+
+%The second source of heterogeneity is volatility of housing prices in the area. One that voters would focus less on changes in housing prices in areas with a great deal of housing price volatility. As such, in these areas a given change in housing prices seem less likely to be lasting. However, we believe that volatility magnifies the effect of changes in housing prices. For several reasons. First, if the price of houses in your local area have experienced dramatic increases and decreases  over the past few years, it seems more likely that you will pay attention to housing prices. That is, volatility has a priming effect. Second, things which change might seem more manipulable, and as such it might be easier to imagine politicians doing something about housing prices if they change a lot. Third, and most importantly, the policy-elasticity, that is the actual effect of policy on house-price changes are, all else equal, going to be larger in areas with higher levels of volatility. This makes it easier to detect these policy effect for voters \cite{duch2008economic}, and this might make it more likely for voters to respond to house prices.
+
+%In table \ref{tab5} we look at differences in the effect of changes in housing prices across different levels of volatility in the housing prices.  We do this by extending the models estimated above with an interaction between the housing price variable and our volatility variable. The interaction is statistically significant in the two most demanding specifications (models 3 and 4). This suggests, that housing prices have a greater impact on election results in areas were housing prices are generally more volatile. 
 
 
 
 
+\section{Individual-level evidence}
+
+
+
+\subsection{Data Sources and indicators}
+Description of data sources.
+
+\subsection{Average Effect}
+
+
+
+Table \ref{inddv} shows the effect og house prices.
+
+We use a linear probability model of support for governing parties. Independent variable is year on year change in house prices measured in different ways. For the first three columns we look at changes in prices for the closest 10, 20 and 40 house sales. For the next three columns we look at changes in the price of houses sold within 500, 1000 and 1500 metres.
+
+In table \ref{indlagiv} we use lag house prices as a placebo test.
+
+\input{../tables/inddv.tex}
+
+\input{../tables/indlagiv.tex}
+
+\subsection{Heterogeneity}
+Brief discussion of heterogeneity. We find (1) no difference in effects between positive and negative changes, but (2) larger effects in more densely populated areas (not significant). 
+
+\subsection{Comparing effect sizes}
+Here we will have figure comparing effect sizes for precinct level and individual level data. 
+
+
+
+\section{An Alternative Explanation: Ideology not Inference}
+\citet{ansell2014political} and others find that house prices affect ideology. In our study the DV is primarily a right-wing government. Can the effects we find be explained by house prices affecting governmetn support thorugh ideologY?
+
+Tables \ref{prealtdv} and \ref{prealtdv} examine whether this is the case substituting incumbent support for a measure of voters ideological orientation. For precinct level data this is net support for right wing government, for individual level data this is self placement on ideological left right scale. We find no 
+
+\input{../tables/prealtdv.tex}
+
+\input{../tables/indaltdv.tex}
 
 
 \section{Conclusion}
-Housing prices tell you something fundamental about the economic situation of  a local community. Just like unemployment or local economic growth, housing prices shape the experience and the fate of a community. Therefore housing prices might play an important role in politics. In this article we wanted to examine one possible political effect of changes in local housing prices -- that on support for governing parties in Denmark. Using precinct-level data on four Danish Parliamentary elections bookended by a dramatic economic bubble in real-estate prices, we found a positive effect of changes in housing prices on electoral support. Our results suggest that as housing prices increase, so does electoral support for governing parties. Does this reflect a causal relationship? While it is notoriously hard to know for sure using observational data, we have shown suggestive evidence that the effect is in fact causal. We have also shown that there is substantial heterogeneity in the effect. Specifically, negative changes seem to have larger effects than positive changes, and changes in areas where prices are more volatile seem to have larger effects than changes in areas, in which prices are less volatile.
+Conclusion
 
-The observed heterogeneities in the effects of housing prices lend themselves easily to conclusions about the motivations of voters punishing or rewarding government parties. Specifically, the stronger observed effect for negative changes over positive ones might lead one to conclude that voters suffer from negativity bias. Conversely, the stronger observed effect in high-volatility areas suggests that voters attempt to parse out the `policy-elasticity' of observed housing price changes. 
+%Housing prices tell you something fundamental about the economic situation of  a local community. Just like unemployment or local economic growth, housing prices shape the experience and the fate of a community. Therefore housing prices might play an important role in politics. In this article we wanted to examine one possible political effect of changes in local housing prices -- that on support for governing parties in Denmark. Using precinct-level data on four Danish Parliamentary elections bookended by a dramatic economic bubble in real-estate prices, we found a positive effect of changes in housing prices on electoral support. Our results suggest that as housing prices increase, so does electoral support for governing parties. Does this reflect a causal relationship? While it is notoriously hard to know for sure using observational data, we have shown suggestive evidence that the effect is in fact causal. We have also shown that there is substantial heterogeneity in the effect. Specifically, negative changes seem to have larger effects than positive changes, and changes in areas where prices are more volatile seem to have larger effects than changes in areas, in which prices are less volatile.
 
-Both of these explanations may account for the effects observed here, but caution is warranted when inferring individual-level motivations from aggregate-level effects. Instead, we would argue that the main implications of these findings is not about the rationality of individual voters, but rather the incentives faced by governments. Specifically, the results of this study suggest that even for narrowly office-seeking, myopic governments would not benefit from policies that inflate housing bubbles. Regardless of their motivations, voters systematically react strongly to bubble-like housing price volatility and punish downturns significantly more than they reward upturns. The evidence thus implies that the expected ballot box gains of inflating housing bubbles are negative.
+%The observed heterogeneities in the effects of housing prices lend themselves easily to conclusions about the motivations of voters punishing or rewarding government parties. Specifically, the stronger observed effect for negative changes over positive ones might lead one to conclude that voters suffer from negativity bias. Conversely, the stronger observed effect in high-volatility areas suggests that voters attempt to parse out the `policy-elasticity' of observed housing price changes. 
 
-Though the data used in this study is a clear improvement compared to those in earlier studies, its major shortcoming is that the data is nonetheless observational. In the absence of fully or quasi-experimental variation in housing prices, we cannot be sure that the estimated effects are not confounded by unobserved heterogeneity. This concern remains even though we apply highly stringent tests to the effect estimate. Hence, a promising avenue for future research is to identify settings with plausibly exogenous variation. Ideally, future studies would also utilize individual-level data, which would allow for a closer look at the mechanism by which voters reward and punish incumbents for changes in local housing prices. 
+%Both of these explanations may account for the effects observed here, but caution is warranted when inferring individual-level motivations from aggregate-level effects. Instead, we would argue that the main implications of these findings is not about the rationality of individual voters, but rather the incentives faced by governments. Specifically, the results of this study suggest that even for narrowly office-seeking, myopic governments would not benefit from policies that inflate housing bubbles. Regardless of their motivations, voters systematically react strongly to bubble-like housing price volatility and punish downturns significantly more than they reward upturns. The evidence thus implies that the expected ballot box gains of inflating housing bubbles are negative.
+
+%Though the data used in this study is a clear improvement compared to those in earlier studies, its major shortcoming is that the data is nonetheless observational. In the absence of fully or quasi-experimental variation in housing prices, we cannot be sure that the estimated effects are not confounded by unobserved heterogeneity. This concern remains even though we apply highly stringent tests to the effect estimate. Hence, a promising avenue for future research is to identify settings with plausibly exogenous variation. Ideally, future studies would also utilize individual-level data, which would allow for a closer look at the mechanism by which voters reward and punish incumbents for changes in local housing prices. 
 
 
 
 
-%Appendikser
-%Overvej et om forhold mellem volatilitet og prisændringer
-%Overvej et på et andet kontekstuelt niveau - e.g. kommuner - jf. MAUP.
-%Overvej et om robusthed af interaktionsled - evt. lav kommuneinteraktioner, og se om effekten stadig holder
-%Overvej det samme som sidste om positiv-negativ
-%Overvej om vi skal lave et datasæt med "stabile valgsteder" 
-%Overvej om vi får samme resultater med statsministerpartiet.
+.
 
 
 
@@ -253,4 +319,45 @@ Though the data used in this study is a clear improvement compared to those in e
 \bibliographystyle{apa}
 \bibliography{library}
 
+\newpage
+
+\section*{Supplementary materials}
+
+\subsection*{S1:Descriptive statistics}
+
+Table of descriptive statistics
+
+\newpage
+
+\subsection*{S2: Common trends in precinct-level data}
+In table \ref{prelagdv} we look at whether housing prices can predict changes in support for governing parties in the last period. 
+
+
+\input{../tables/prelagdv.tex}
+
+\newpage
+
+\subsection*{S3: Alternative estimation in individual-level data}
+In table \ref{indaltspec} we estimate a conditional logit model on the panel data. We find similar effects as in linear model above.
+
+\input{../tables/indaltspec.tex}
+
+\newpage
+
+\subsection*{S3: Heterogeneous effects in precinct-level data}
+Tables \ref{preposneg} and \ref{predens} examines the heterogeneity of the effects in the precinct level data.
+
+\input{../tables/preposneg.tex}
+
+\input{../tables/predens.tex}
+
+\newpage
+
+
+\subsection*{S4: Heterogeneous treatment effects in individual-level data}
+Tables \ref{indposneg} and \ref{inddens} examines the heterogeneity of the effects in the individual level data.
+
+\input{../tables/indposneg.tex}
+
+\input{../tables/inddens.tex}
 \end{document}

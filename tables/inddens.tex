@@ -1,0 +1,38 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Linear Regression of Voting for Governing party } \label{inddens}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{10 Closest}&\multicolumn{1}{c}{20 Closest}&\multicolumn{1}{c}{40 Closest}&\multicolumn{1}{c}{500 metres}&\multicolumn{1}{c}{1000 metres}&\multicolumn{1}{c}{1500 metres}\\
+\hline
+$\Delta$ housing prices&      -0.007       &      -0.084       &      -0.166       &       0.014       &      -0.127       &      -0.115       \\
+                    &     (0.078)       &     (0.107)       &     (0.137)       &     (0.173)       &     (0.157)       &     (0.161)       \\
+[1em]
+Log(No. of ppl in context)&      -0.010       &      -0.010       &      -0.010       &       0.006       &      -0.001       &      -0.001       \\
+                    &     (0.010)       &     (0.010)       &     (0.010)       &     (0.020)       &     (0.015)       &     (0.015)       \\
+[1em]
+$\Delta$ housing prices $\times$ Log(No. of ppl in context)&       0.008       &       0.021       &       0.031\sym{+}&       0.006       &       0.024       &       0.025       \\
+                    &     (0.010)       &     (0.014)       &     (0.019)       &     (0.023)       &     (0.019)       &     (0.020)       \\
+[1em]
+Unemployment rate   &       0.098       &       0.102       &       0.114       &      -0.580       &       0.035       &       0.857       \\
+                    &     (0.297)       &     (0.295)       &     (0.293)       &     (0.484)       &     (0.557)       &     (0.571)       \\
+[1em]
+Average income      &      -0.004       &      -0.004       &      -0.004       &      -0.004       &      -0.007       &      -0.006       \\
+                    &     (0.003)       &     (0.003)       &     (0.003)       &     (0.004)       &     (0.006)       &     (0.006)       \\
+[1em]
+Personal income     &      -0.000       &      -0.000       &      -0.000       &      -0.001\sym{*}&      -0.000       &      -0.000       \\
+                    &     (0.000)       &     (0.000)       &     (0.000)       &     (0.000)       &     (0.001)       &     (0.000)       \\
+[1em]
+Unnemployed (household)&      -0.034       &      -0.034       &      -0.034       &      -0.081\sym{+}&      -0.050       &      -0.043       \\
+                    &     (0.035)       &     (0.035)       &     (0.035)       &     (0.042)       &     (0.038)       &     (0.037)       \\
+[1em]
+\hline  Round FE    &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+[1em]
+Voter FE            &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+\hline
+Observations        &        3473       &        3473       &        3473       &        2846       &        3173       &        3313       \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{+} \(p<0.1\), \sym{*} \(p<0.05\)}\\
+\end{tabular}
+\end{table}

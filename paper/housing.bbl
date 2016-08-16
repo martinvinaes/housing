@@ -22,6 +22,12 @@ Ashworth, S. (2012).
 \newblock Electoral accountability: recent theoretical and empirical work.
 \newblock {\em Annual Review of Political Science}, 15:183--201.
 
+\bibitem[\protect\astroncite{Bisgaard et~al.}{2015}]{dinesen2015reconsidering}
+Bisgaard, M., Dinesen, P.~T., and Sønderskov, K.~M. (2015).
+\newblock Reconsidering the neighborhood effect: Does exposure to residential
+  unemployment influence voters' perceptions of the national economy?
+\newblock {\em Working paper}.
+
 \bibitem[\protect\astroncite{Bloom and Price}{1975}]{bloom1975voter}
 Bloom, H.~S. and Price, H.~D. (1975).
 \newblock Voter response to short-run economic conditions: The asymmetric
@@ -33,13 +39,6 @@ Books, J. and Prysby, C. (1999).
 \newblock Contextual effects on retrospective economic evaluations the impact
   of the state and local economy.
 \newblock {\em Political Behavior}, 21(1):1--16.
-
-\bibitem[\protect\astroncite{Christiansen
-  et~al.}{2015}]{dinesen2015reconsidering}
-Christiansen, M.~B., Dinesen, P.~T., and Sønderskov, K.~M. (2015).
-\newblock Reconsidering the neighborhood effect: Does exposure to residential
-  unemployment influence voters' perceptions of the national economy?
-\newblock {\em Working paper}.
 
 \bibitem[\protect\astroncite{Dam et~al.}{2011}]{dam2011housing}
 Dam, N.~A., Hvolb{\o}l, T.~S., Pedersen, E.~H., and Birch, P. (2011).
@@ -64,6 +63,11 @@ Eisenberg, D. and Ketcham, J. (2004).
 Ferejohn, J. (1986).
 \newblock Incumbent performance and electoral control.
 \newblock {\em Public choice}, 50(1):5--25.
+
+\bibitem[\protect\astroncite{Fiorina}{1981}]{fiorina1981retrospective}
+Fiorina, M.~P. (1981).
+\newblock {\em Retrospective voting in American national elections}, volume~5.
+\newblock Yale University Press New Haven.
 
 \bibitem[\protect\astroncite{Hansford and
   Gomez}{2015}]{hansford2015reevaluating}
@@ -107,6 +111,23 @@ Kim, J., Elliott, E., and Wang, D.-M. (2003).
 \newblock A spatial analysis of county-level outcomes in us presidential
   elections: 1988--2000.
 \newblock {\em Electoral Studies}, 22(4):741--761.
+
+\bibitem[\protect\astroncite{Kinder and Kiewiet}{1981}]{kinder1981sociotropic}
+Kinder, D.~R. and Kiewiet, D.~R. (1981).
+\newblock Sociotropic politics: the american case.
+\newblock {\em British Journal of Political Science}, 11(02):129--161.
+
+\bibitem[\protect\astroncite{Lewis-Beck and Stegmaier}{2013}]{lewis2013vp}
+Lewis-Beck, M.~S. and Stegmaier, M. (2013).
+\newblock The vp-function revisited: a survey of the literature on vote and
+  popularity functions after over 40 years.
+\newblock {\em Public Choice}, 157(3-4):367--385.
+
+\bibitem[\protect\astroncite{Markus}{1988}]{markus1988impact}
+Markus, G.~B. (1988).
+\newblock The impact of personal and national economic conditions on the
+  presidential vote: A pooled cross-sectional analysis.
+\newblock {\em American Journal of Political Science}, pages 137--154.
 
 \bibitem[\protect\astroncite{Nadeau et~al.}{2010}]{nadeau2010patrimonial}
 Nadeau, R., Foucault, M., and Lewis-Beck, M.~S. (2010).

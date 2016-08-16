@@ -1,25 +1,27 @@
 \begin{table}[htbp]\centering
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 \caption{Estimated effects of house prices on electoral support for governing parties at t-1.} \label{tab3}
-\begin{tabular}{l*{5}{c}}
+\begin{tabular}{l*{4}{c}}
 \hline\hline
-                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        &\multicolumn{1}{c}{(3)}        &\multicolumn{1}{c}{(4)}        &\multicolumn{1}{c}{(5)}        \\
+                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        &\multicolumn{1}{c}{(3)}        &\multicolumn{1}{c}{(4)}        \\
 \hline
-$\Delta$ housing price&       -0.03\sym{**}&       -0.04\sym{**}&        0.07\sym{**}&        0.08\sym{**}&       -0.00        \\
-                    &      (0.01)        &      (0.01)        &      (0.01)        &      (0.01)        &      (0.01)        \\
+$\Delta$ housing price&       -0.02\sym{**}&       -0.04\sym{**}&       -0.04\sym{**}&        0.01        \\
+                    &      (0.01)        &      (0.00)        &      (0.00)        &      (0.00)        \\
 [1em]
-\hline Precinct FE  &                    &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        \\
+Unemployment rate   &                    &       -0.96\sym{**}&        0.17\sym{*} &       -0.11        \\
+                    &                    &      (0.06)        &      (0.07)        &      (0.07)        \\
 [1em]
-Year FE             &                    &                    &$\checkmark$        &$\checkmark$        &$\checkmark$        \\
+Median income       &                    &      -30.32\sym{**}&      -42.84\sym{**}&      -20.39\sym{**}\\
+                    &                    &      (0.81)        &      (0.91)        &      (2.73)        \\
 [1em]
-Year FE * Structural factors&                    &                    &                    &$\checkmark$        &$\checkmark$        \\
+\hline Precinct FE  &                    &                    &$\checkmark$        &$\checkmark$        \\
 [1em]
-Year FE * Municipality FE&                    &                    &                    &                    &$\checkmark$        \\
+Year FE             &                    &                    &                    &$\checkmark$        \\
 \hline
-Observations        &        4198        &        4198        &        4198        &        4175        &        4175        \\
-RMSE                &        8.80        &        7.50        &        6.46        &        5.04        &        3.13        \\
+Observations        &        3101        &        3091        &        3091        &        3091        \\
+RMSE                &        4.43        &        2.32        &        1.72        &        1.47        \\
 \hline\hline
-\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
-\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
 \end{tabular}
 \end{table}

@@ -3,11 +3,17 @@ cd "C:\Users\mvl\Documents\GitHub\housing\data\valgstedsdata"
 import delimited valgdat, delim(";") clear colrange(1:21) 
 rename valgid year
 drop blank
-keep valgstedid asocial b cdetkons vvenstre afgiv stemmebe year
+keep valgstedid asocialdemokratiet bdetradikalevenstre cdetkonservativefolkeparti dcentrumdemokraterne fsfsocialistiskfolkeparti kkristendemokraterne iliberalalliance odanskfolkeparti vvenstredanmarksliberaleparti mminoritetspartiet kredsnr afgiv stemmebe year
 rename asoc a
 rename b b
 rename cdet c
+rename dcent d
+rename fsf f
+rename kkrist k
+rename ilib i
+rename odansk o
 rename vvens v
+rename mm m
 rename afgiv votes
 rename stemmeb voters
 saveold cleanvalg, replace
@@ -58,3 +64,6 @@ replace `x'=`x'/votes
 }
 export excel elecresults,  replace
 
+destring valgstedid year, replace i(;)
+sort valgstedid year
+saveold elecresults, replace

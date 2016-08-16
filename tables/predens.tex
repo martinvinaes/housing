@@ -1,0 +1,27 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Estimated effects of house prices on electoral support for governing parties across volatility.} \label{predens}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        &\multicolumn{1}{c}{(3)}        &\multicolumn{1}{c}{(4)}        \\
+\hline
+$\Delta$ housing price&       -0.01        &       -0.20\sym{**}&       -0.18\sym{**}&       -0.17\sym{**}\\
+                    &      (0.03)        &      (0.02)        &      (0.02)        &      (0.03)        \\
+[1em]
+Log(density)        &       -5.49\sym{**}&       -2.69\sym{**}&        0.00        &        0.00        \\
+                    &      (0.37)        &      (0.41)        &         (.)        &         (.)        \\
+[1em]
+$\Delta$ housing price $\times$ Log(density)&        0.05\sym{**}&        0.12\sym{**}&        0.10\sym{**}&        0.10\sym{**}\\
+                    &      (0.01)        &      (0.01)        &      (0.01)        &      (0.01)        \\
+[1em]
+\hline Precinct FE  &                    &                    &$\checkmark$        &$\checkmark$        \\
+[1em]
+Year FE             &                    &                    &                    &$\checkmark$        \\
+\hline
+Observations        &        4192        &        4172        &        4172        &        4172        \\
+RMSE                &        8.42        &        6.80        &        5.50        &        5.40        \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

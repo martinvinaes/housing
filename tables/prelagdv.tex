@@ -1,0 +1,27 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Estimated effects of house prices on electoral support for governing parties at t-1.} \label{prelagdv}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        &\multicolumn{1}{c}{(3)}        &\multicolumn{1}{c}{(4)}        \\
+\hline
+$\Delta$ housing price&       -0.02\sym{**}&       -0.04\sym{**}&       -0.04\sym{**}&        0.01        \\
+                    &      (0.01)        &      (0.00)        &      (0.00)        &      (0.00)        \\
+[1em]
+Unemployment rate   &                    &       -0.96\sym{**}&        0.17\sym{*} &       -0.11        \\
+                    &                    &      (0.06)        &      (0.07)        &      (0.07)        \\
+[1em]
+Median income       &                    &      -30.30\sym{**}&      -42.83\sym{**}&      -20.49\sym{**}\\
+                    &                    &      (0.81)        &      (0.91)        &      (2.73)        \\
+[1em]
+\hline Precinct FE  &                    &                    &$\checkmark$        &$\checkmark$        \\
+[1em]
+Year FE             &                    &                    &                    &$\checkmark$        \\
+\hline
+Observations        &        3100        &        3090        &        3090        &        3090        \\
+RMSE                &       4.431        &       2.320        &       1.720        &       1.465        \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

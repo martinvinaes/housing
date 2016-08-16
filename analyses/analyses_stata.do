@@ -1,10 +1,16 @@
 cd "C:\Users\mvl\Documents\GitHub\housing\data" 
-
+clear
 import delim lonlat.csv, delim(",") clear
 keep valgstedid lon lat
 sort valgstedid
-saveold lonlatdata.dta, replace
 
+replace lon="." if lon=="NA"
+replace lat="." if lat=="NA"
+
+destring *, dpcomma replace
+
+saveold lonlatdata.dta, replace
+-
 
 
 *Creating dataset*
@@ -41,7 +47,7 @@ append using elec01.dta
 
 
 **changing incsupport to exec party.
-*replace incs=incs-c if year > 2001 & year!=2015
+*replaceincs=incs-c if year > 2001 & year!=2015
 *replace incs=incs-b if year==2001 | year==2015
 
 
@@ -76,15 +82,25 @@ local z1=", vce(cluster valgstedid)"
 local z2="860028.valgstedid, fe vce(cluster valgstedid)"
 local z3="i.year 860028.valgstedid, fe vce(cluster valgstedid)"
 local z4="i.year 860028.valgstedid i.year#(c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
-local z5="i.year 860028.valgstedid i.year#(i.muni c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
+local z5="i.year 860028.valgstedid c.year#i.muni i.year#(c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)"
 
+qui xtreg incs hp_1yrpos hp_1yrneg i.year##i.kredsnum, fe vce(cluster valgstedid)
+margins, dydx(hp_1yr*) noestimcheck
+qui xtreg incs hp_1yrpos hp_1yrneg  c.year##i.muni c.year#(c.indkomst c.formue c.arbejd c.kontant), fe vce(cluster valgstedid)
+margins, dydx(hp_1yrpos hp_1yrneg) noestimcheck
+- //think
+
+
+ 860028.valgstedid  c.year#(), fe vce(cluster valgstedid)
+
+gen delta=incs-l.incs
 
 foreach x in 1 2 3 4 5{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
-qui margins, dydx(hp_1yr) saving(m1`x')
+qui margins, dydx(hp_1yr) saving(m1`x', replace)
 }
 esttab m11 m12 m13 m14 m15 using tab1.tex, keep(hp_1yr) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.2f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.2f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year * Municipality FE=316.muninum#c.year", labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{tab1)
 
 
@@ -92,7 +108,7 @@ foreach x in 1 2 3 4 5{
 qui eststo m2`x': xtreg f.incs c.hp_1yr `z`x''
 }
 esttab m21 m22 m23 m24 m25 using tab2.tex, keep(hp_1yr) replace ///
-star("*" 0.05 "**" 0.01) se b(%9.2f)  nomtitles indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
+star("*" 0.05 "**" 0.01) se b(%9.2f)  nomtitles indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year * Municipality FE=316.muninum#c.year", labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties at t+1.} \label{tab2)
 
 
@@ -102,7 +118,7 @@ qui margins, dydx(hp_1y) saving(m3`x')
 
 }
 esttab m31 m32 m33 m34 m35 using tab3.tex, keep(hp_1yr) replace  ///
-star("*" 0.05 "**" 0.01) se b(%9.2f)  nomtitles indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
+star("*" 0.05 "**" 0.01) se b(%9.2f)  nomtitles indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year * Municipality FE=316.muninum#c.year", labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties at t-1.} \label{tab3)
 
 
@@ -113,24 +129,27 @@ test hp_1yrneg==hp_1yrpos*-1
 estadd scalar pstat=r(p)
 }
 esttab m41 m42 m43 m44 m45 using tab4.tex, replace keep(hp_1yrnegchange hp_1yrposchange) stats(pstat N rmse, fmt(%8.2f %8.0f %8.2f %8.2f) ///
-label("Test of no difference (p)" "Observations" "RMSE")) b(%9.2f)  indicate("\hline Precinct  FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
+label("Test of no difference (p)" "Observations" "RMSE")) b(%9.2f)  indicate("\hline Precinct  FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year * Municipality FE=316.muninum#c.year", labels("$\checkmark$" " ")) ///
 label se nomtitles title(Estimated effects of house prices on  electoral support for governing parties across positive and negative changes.} \label{tab4)
 
 foreach x in 1 2 3 4 5{
 qui eststo m5`x': xtreg incs c.hp_1yr##c.pricevol `z`x''
 }
 esttab m51 m52 m53 m54 m55 using tab5.tex, keep(hp_1yr pricevol c.hp_1yr#c.pricevol) replace b(%9.2f)  ///
-stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE")) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
+stats(N rmse, fmt(%8.0f %8.2f %8.2f)  label( "Observations" "RMSE")) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year * Municipality FE=316.muninum#c.year", labels("$\checkmark$" " ")) ///
 star("*" 0.05 "**" 0.01) se nomtitles label title(Estimated effects of house prices on  electoral support for governing parties across volatility.} \label{tab5)
 
 foreach x in 1 2 3 4 5{
 qui eststo m6`x': xtreg incs (c.hp_1yrpos c.hp_1yrneg)##c.pricevol `z`x''
 }
 esttab m61 m62 m63 m64 m65 using tab6.tex, keep(hp_1yrposchange hp_1yrnegchange pricevol c.hp_1yrposchange#c.pricevol c.hp_1yrnegchange#c.pricevol) replace b(%9.2f)  ///
-stats(N rmse, fmt(%8.0f %8.2f)  label( "Observations" "RMSE")) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year FE * Municipality FE=2007.year#270.muninum", labels("$\checkmark$" " ")) ///
+stats(N rmse, fmt(%8.0f %8.2f)  label( "Observations" "RMSE")) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" "Year FE * Structural factors= 2007.year#c.indkomst" " Year * Municipality FE=316.muninum#c.year", labels("$\checkmark$" " ")) ///
 star("*" 0.05 "**" 0.01) se nomtitles label title(Estimated effects of house prices on  electoral support for governing parties across volatility.} \label{tab6)
 -
-
+cd "C:\Users\mvl\Documents\GitHub\housing\figures" 
+**histogram
+hist hp_1yr, scheme(s1mono) xlabel(-150 -50 -25 0 25 50 150) width(1) xsize(10) xtitle(" " "Year-over-year changes in housing prices (pct.)") ytitle("Density" " ")
+graph export hphist.eps, replace
 **Figure_presentation
 cd "C:\Users\mvl\Documents\GitHub\housing\figures" 
 local z1=", vce(cluster valgstedid)"
