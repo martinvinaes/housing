@@ -1,0 +1,1786 @@
+type;area;Q3_13;Q4_13;Q1_14;Q2_14;Q3_14;Q4_14;Q1_15;Q2_15
+Parcel- og rækkehuse;1000 København K;1;0;2;1;0;1;4;1
+Parcel- og rækkehuse;1500 København V;0;1;0;2;0;0;0;2
+Parcel- og rækkehuse;1800 Frederiksberg C;1;2;1;1;5;0;1;2
+Parcel- og rækkehuse;2000 Frederiksberg;10;8;11;20;14;7;19;16
+Parcel- og rækkehuse;2100 København Ø;8;12;9;10;10;10;14;12
+Parcel- og rækkehuse;2200 København N;0;0;0;0;0;0;0;0
+Parcel- og rækkehuse;2300 København S;49;45;42;51;55;57;67;47
+Parcel- og rækkehuse;2400 København NV;17;14;15;12;7;6;6;12
+Parcel- og rækkehuse;2450 København SV;0;0;0;0;0;0;0;1
+Parcel- og rækkehuse;2500 Valby;37;25;30;45;34;32;35;48
+Parcel- og rækkehuse;2600 Glostrup;28;34;25;28;40;42;54;49
+Parcel- og rækkehuse;2605 Brøndby;35;23;23;31;34;22;33;35
+Parcel- og rækkehuse;2610 Rødovre;55;50;45;66;44;57;65;81
+Parcel- og rækkehuse;2620 Albertslund;20;15;23;19;17;21;21;36
+Parcel- og rækkehuse;2625 Vallensbæk;10;9;7;15;27;9;16;15
+Parcel- og rækkehuse;2630 Taastrup;37;35;37;57;45;32;62;62
+Parcel- og rækkehuse;2633 Returpost;0;0;0;0;0;0;0;0
+Parcel- og rækkehuse;2635 Ishøj;26;23;19;27;27;28;41;32
+Parcel- og rækkehuse;2640 Hedehusene;22;19;21;23;21;19;19;30
+Parcel- og rækkehuse;2650 Hvidovre;71;64;76;98;109;92;114;103
+Parcel- og rækkehuse;2660 Brøndby Strand;15;17;19;18;13;14;13;25
+Parcel- og rækkehuse;2665 Vallensbæk Strand;13;20;15;24;15;16;27;30
+Parcel- og rækkehuse;2670 Greve;56;42;43;71;75;60;82;112
+Parcel- og rækkehuse;2680 Solrød Strand;39;42;46;37;38;37;44;57
+Parcel- og rækkehuse;2690 Karlslunde;18;17;23;18;19;19;23;54
+Parcel- og rækkehuse;2700 Brønshøj;38;33;48;50;45;33;55;50
+Parcel- og rækkehuse;2720 Vanløse;27;22;26;19;29;25;29;28
+Parcel- og rækkehuse;2730 Herlev;46;43;39;45;49;44;53;56
+Parcel- og rækkehuse;2740 Skovlunde;15;17;13;22;24;18;20;34
+Parcel- og rækkehuse;2750 Ballerup;28;20;22;26;30;36;28;41
+Parcel- og rækkehuse;2760 Måløv;10;6;6;3;1;8;9;9
+Parcel- og rækkehuse;2765 Smørum;28;25;26;33;37;16;21;34
+Parcel- og rækkehuse;2770 Kastrup;57;57;70;80;88;68;71;103
+Parcel- og rækkehuse;2791 Dragør;40;31;51;60;51;41;55;62
+Parcel- og rækkehuse;2800 Kongens Lyngby;51;44;49;41;65;53;77;59
+Parcel- og rækkehuse;2820 Gentofte;44;38;25;44;25;40;30;48
+Parcel- og rækkehuse;2830 Virum;47;47;32;61;46;44;57;55
+Parcel- og rækkehuse;2840 Holte;38;32;43;40;39;33;46;50
+Parcel- og rækkehuse;2850 Nærum;17;7;7;5;4;14;7;15
+Parcel- og rækkehuse;2860 Søborg;33;23;29;28;58;39;47;61
+Parcel- og rækkehuse;2870 Dyssegård;10;9;8;13;10;11;10;9
+Parcel- og rækkehuse;2880 Bagsværd;25;29;31;30;38;33;23;47
+Parcel- og rækkehuse;2900 Hellerup;32;27;26;26;37;40;42;47
+Parcel- og rækkehuse;2920 Charlottenlund;26;22;33;36;29;34;43;54
+Parcel- og rækkehuse;2930 Klampenborg;7;12;12;16;16;7;13;12
+Parcel- og rækkehuse;2942 Skodsborg;2;1;0;3;4;2;1;1
+Parcel- og rækkehuse;2950 Vedbæk;22;23;17;20;18;14;27;31
+Parcel- og rækkehuse;2960 Rungsted Kyst;15;17;16;24;17;10;22;20
+Parcel- og rækkehuse;2970 Hørsholm;46;42;41;50;47;38;43;59
+Parcel- og rækkehuse;2980 Kokkedal;29;20;15;17;19;16;24;33
+Parcel- og rækkehuse;2990 Nivå;8;18;12;19;17;16;10;22
+Parcel- og rækkehuse;3000 Helsingør;27;23;28;24;20;29;42;34
+Parcel- og rækkehuse;3050 Humlebæk;11;9;17;17;25;13;15;21
+Parcel- og rækkehuse;3060 Espergærde;24;20;25;27;21;26;37;39
+Parcel- og rækkehuse;3070 Snekkersten;10;9;11;5;10;16;10;7
+Parcel- og rækkehuse;3080 Tikøb;2;0;2;2;4;1;2;3
+Parcel- og rækkehuse;3100 Hornbæk;6;6;11;12;15;15;9;16
+Parcel- og rækkehuse;3120 Dronningmølle;0;5;0;2;1;0;2;6
+Parcel- og rækkehuse;3140 Ålsgårde;8;12;11;18;13;14;18;24
+Parcel- og rækkehuse;3150 Hellebæk;0;0;0;1;2;0;3;3
+Parcel- og rækkehuse;3200 Helsinge;31;30;12;31;33;26;29;42
+Parcel- og rækkehuse;3210 Vejby;2;5;6;3;7;6;3;2
+Parcel- og rækkehuse;3220 Tisvildeleje;3;4;3;0;5;4;4;5
+Parcel- og rækkehuse;3230 Græsted;13;12;10;13;14;12;17;21
+Parcel- og rækkehuse;3250 Gilleleje;13;11;16;10;18;18;23;29
+Parcel- og rækkehuse;3300 Frederiksværk;28;27;20;19;29;32;26;45
+Parcel- og rækkehuse;3310 Ølsted;3;4;2;5;4;2;3;2
+Parcel- og rækkehuse;3320 Skævinge;3;7;15;8;10;8;9;13
+Parcel- og rækkehuse;3330 Gørløse;6;3;1;3;4;0;5;3
+Parcel- og rækkehuse;3360 Liseleje;3;0;4;7;3;0;6;5
+Parcel- og rækkehuse;3370 Melby;1;1;3;1;4;0;0;1
+Parcel- og rækkehuse;3390 Hundested;18;25;22;19;20;21;17;41
+Parcel- og rækkehuse;3400 Hillerød;47;47;60;57;58;53;62;87
+Parcel- og rækkehuse;3450 Allerød;42;35;38;43;43;35;50;47
+Parcel- og rækkehuse;3460 Birkerød;40;39;35;51;38;40;44;52
+Parcel- og rækkehuse;3480 Fredensborg;21;25;24;25;19;21;32;31
+Parcel- og rækkehuse;3490 Kvistgård;0;6;3;3;1;1;2;3
+Parcel- og rækkehuse;3500 Værløse;45;38;39;48;45;37;56;60
+Parcel- og rækkehuse;3520 Farum;36;24;33;34;34;44;34;25
+Parcel- og rækkehuse;3540 Lynge;10;6;11;5;10;9;12;12
+Parcel- og rækkehuse;3550 Slangerup;19;11;12;31;19;24;20;28
+Parcel- og rækkehuse;3600 Frederikssund;31;21;26;47;42;35;52;62
+Parcel- og rækkehuse;3630 Jægerspris;13;7;18;9;15;16;11;15
+Parcel- og rækkehuse;3650 Ølstykke;38;35;37;43;45;27;49;51
+Parcel- og rækkehuse;3660 Stenløse;16;18;24;25;27;30;33;39
+Parcel- og rækkehuse;3670 Veksø Sjælland;6;4;1;9;6;11;5;7
+Parcel- og rækkehuse;3700 Rønne;32;39;41;43;48;53;59;42
+Parcel- og rækkehuse;3720 Aakirkeby;10;6;10;4;10;10;15;9
+Parcel- og rækkehuse;3730 Nexø;14;10;9;17;13;11;11;22
+Parcel- og rækkehuse;3740 Svaneke;8;6;7;6;12;4;11;7
+Parcel- og rækkehuse;3751 Østermarie;2;2;1;4;2;2;2;1
+Parcel- og rækkehuse;3760 Gudhjem;8;7;5;3;9;4;3;2
+Parcel- og rækkehuse;3770 Allinge;8;6;8;12;10;14;10;11
+Parcel- og rækkehuse;3782 Klemensker;2;0;2;1;4;2;0;4
+Parcel- og rækkehuse;3790 Hasle;5;5;3;8;9;10;3;8
+Parcel- og rækkehuse;4000 Roskilde;92;101;88;123;104;98;129;142
+Parcel- og rækkehuse;4030 Tune;16;9;15;13;14;14;23;25
+Parcel- og rækkehuse;4040 Jyllinge;24;20;15;19;26;29;23;40
+Parcel- og rækkehuse;4050 Skibby;11;15;9;5;13;14;11;18
+Parcel- og rækkehuse;4060 Kirke Såby;5;10;6;10;4;7;4;7
+Parcel- og rækkehuse;4070 Kirke Hyllinge;16;6;15;15;13;10;12;15
+Parcel- og rækkehuse;4100 Ringsted;43;32;43;52;48;46;55;75
+Parcel- og rækkehuse;4105 Ringsted;0;0;0;0;0;0;0;0
+Parcel- og rækkehuse;4130 Viby Sjælland;6;11;4;18;12;14;10;14
+Parcel- og rækkehuse;4140 Borup;4;8;12;10;8;10;7;15
+Parcel- og rækkehuse;4160 Herlufmagle;8;11;4;5;9;4;9;6
+Parcel- og rækkehuse;4171 Glumsø;3;7;3;3;4;4;2;6
+Parcel- og rækkehuse;4173 Fjenneslev;2;3;7;2;2;3;3;4
+Parcel- og rækkehuse;4174 Jystrup Midtsj;2;5;3;0;4;4;3;2
+Parcel- og rækkehuse;4180 Sorø;29;15;12;18;32;20;33;34
+Parcel- og rækkehuse;4190 Munke Bjergby;2;1;0;0;1;2;2;1
+Parcel- og rækkehuse;4200 Slagelse;40;49;49;58;45;54;65;69
+Parcel- og rækkehuse;4220 Korsør;21;13;14;20;21;16;20;35
+Parcel- og rækkehuse;4230 Skælskør;12;13;12;13;12;13;11;15
+Parcel- og rækkehuse;4241 Vemmelev;4;9;10;9;6;9;7;6
+Parcel- og rækkehuse;4242 Boeslunde;1;0;2;0;0;1;1;2
+Parcel- og rækkehuse;4243 Rude;1;1;1;3;3;2;3;2
+Parcel- og rækkehuse;4250 Fuglebjerg;7;2;4;3;9;5;4;8
+Parcel- og rækkehuse;4261 Dalmose;4;5;2;2;3;2;3;5
+Parcel- og rækkehuse;4262 Sandved;4;1;2;3;1;1;2;2
+Parcel- og rækkehuse;4270 Høng;11;9;3;11;10;11;7;13
+Parcel- og rækkehuse;4281 Gørlev;6;4;4;9;6;11;7;9
+Parcel- og rækkehuse;4291 Ruds Vedby;3;4;5;1;2;3;3;4
+Parcel- og rækkehuse;4293 Dianalund;9;13;7;13;6;10;8;7
+Parcel- og rækkehuse;4295 Stenlille;4;7;6;7;4;4;6;8
+Parcel- og rækkehuse;4296 Nyrup;0;0;0;2;2;1;3;4
+Parcel- og rækkehuse;4300 Holbæk;41;34;51;43;38;44;42;57
+Parcel- og rækkehuse;4320 Lejre;10;12;13;10;13;9;17;16
+Parcel- og rækkehuse;4330 Hvalsø;3;7;4;14;11;15;14;18
+Parcel- og rækkehuse;4340 Tølløse;9;7;4;8;13;6;14;14
+Parcel- og rækkehuse;4350 Ugerløse;1;2;1;0;3;2;3;3
+Parcel- og rækkehuse;4360 Kirke Eskilstrup;1;3;0;2;0;1;2;3
+Parcel- og rækkehuse;4370 Store Merløse;1;1;1;2;1;3;7;4
+Parcel- og rækkehuse;4390 Vipperød;1;4;5;5;7;3;15;8
+Parcel- og rækkehuse;4400 Kalundborg;34;18;32;39;31;41;35;37
+Parcel- og rækkehuse;4420 Regstrup;5;2;3;5;6;3;9;3
+Parcel- og rækkehuse;4440 Mørkøv;5;7;10;3;1;4;5;8
+Parcel- og rækkehuse;4450 Jyderup;3;9;14;5;8;13;7;8
+Parcel- og rækkehuse;4460 Snertinge;2;2;2;0;2;1;2;3
+Parcel- og rækkehuse;4470 Svebølle;5;8;4;5;3;2;3;8
+Parcel- og rækkehuse;4480 Store Fuglede;1;3;0;0;0;1;1;2
+Parcel- og rækkehuse;4490 Jerslev Sjælland;5;4;5;3;3;7;5;2
+Parcel- og rækkehuse;4500 Nykøbing Sj;19;15;16;10;14;13;10;11
+Parcel- og rækkehuse;4520 Svinninge;6;6;6;7;3;10;8;9
+Parcel- og rækkehuse;4532 Gislinge;2;0;3;0;1;4;3;5
+Parcel- og rækkehuse;4534 Hørve;1;3;4;6;4;3;6;6
+Parcel- og rækkehuse;4540 Fårevejle;8;4;3;5;8;5;6;12
+Parcel- og rækkehuse;4550 Asnæs;2;5;1;6;5;10;8;9
+Parcel- og rækkehuse;4560 Vig;0;2;5;4;5;6;6;2
+Parcel- og rækkehuse;4571 Grevinge;2;3;0;3;3;2;2;1
+Parcel- og rækkehuse;4572 Nørre Asmindrup;0;2;2;0;0;0;2;1
+Parcel- og rækkehuse;4573 Højby;5;2;2;5;4;2;5;5
+Parcel- og rækkehuse;4581 Rørvig;2;5;2;3;6;5;4;4
+Parcel- og rækkehuse;4583 Sjællands Odde;0;1;3;1;2;3;3;5
+Parcel- og rækkehuse;4591 Føllenslev;1;1;1;2;3;3;2;1
+Parcel- og rækkehuse;4592 Sejerø;0;0;0;0;1;0;0;1
+Parcel- og rækkehuse;4593 Eskebjerg;1;1;1;2;2;1;2;2
+Parcel- og rækkehuse;4600 Køge;51;50;50;64;69;59;68;91
+Parcel- og rækkehuse;4621 Gadstrup;5;8;6;8;9;8;10;6
+Parcel- og rækkehuse;4622 Havdrup;12;7;11;8;18;12;20;18
+Parcel- og rækkehuse;4623 Lille Skensved;6;6;9;3;8;11;17;17
+Parcel- og rækkehuse;4632 Bjæverskov;11;4;13;10;10;12;13;20
+Parcel- og rækkehuse;4640 Faxe;10;11;9;6;6;9;13;11
+Parcel- og rækkehuse;4652 Hårlev;10;13;8;8;8;6;8;18
+Parcel- og rækkehuse;4653 Karise;5;6;8;3;7;7;3;10
+Parcel- og rækkehuse;4654 Faxe Ladeplads;5;3;7;7;6;9;8;6
+Parcel- og rækkehuse;4660 Store Heddinge;4;9;7;11;16;10;7;13
+Parcel- og rækkehuse;4671 Strøby;2;1;3;0;5;1;1;4
+Parcel- og rækkehuse;4672 Klippinge;1;1;1;1;5;4;2;4
+Parcel- og rækkehuse;4673 Rødvig Stevns;5;6;1;4;6;3;4;5
+Parcel- og rækkehuse;4681 Herfølge;6;5;9;8;4;7;10;18
+Parcel- og rækkehuse;4682 Tureby;7;3;4;3;4;2;2;4
+Parcel- og rækkehuse;4683 Rønnede;6;4;3;8;5;12;5;7
+Parcel- og rækkehuse;4684 Holmegaard;10;5;8;14;18;7;16;15
+Parcel- og rækkehuse;4690 Haslev;29;32;26;30;24;22;31;34
+Parcel- og rækkehuse;4700 Næstved;73;52;66;73;66;86;99;107
+Parcel- og rækkehuse;4720 Præstø;7;11;12;9;13;17;18;10
+Parcel- og rækkehuse;4733 Tappernøje;6;5;3;7;9;7;10;10
+Parcel- og rækkehuse;4735 Mern;2;2;4;0;7;5;1;7
+Parcel- og rækkehuse;4736 Karrebæksminde;4;1;1;1;5;4;3;2
+Parcel- og rækkehuse;4750 Lundby;7;3;4;5;4;4;8;3
+Parcel- og rækkehuse;4760 Vordingborg;18;23;35;22;21;25;22;26
+Parcel- og rækkehuse;4771 Kalvehave;3;7;3;2;8;6;3;4
+Parcel- og rækkehuse;4772 Langebæk;0;2;0;2;1;1;1;0
+Parcel- og rækkehuse;4773 Stensved;6;9;2;2;2;3;3;6
+Parcel- og rækkehuse;4780 Stege;15;16;17;9;15;9;17;21
+Parcel- og rækkehuse;4791 Borre;4;0;3;6;5;2;4;2
+Parcel- og rækkehuse;4792 Askeby;2;4;1;3;6;0;3;4
+Parcel- og rækkehuse;4793 Bogø By;1;3;2;3;0;2;4;1
+Parcel- og rækkehuse;4800 Nykøbing F;44;29;38;36;46;37;30;55
+Parcel- og rækkehuse;4840 Nørre Alslev;12;10;11;11;15;14;10;17
+Parcel- og rækkehuse;4850 Stubbekøbing;4;7;7;7;10;6;6;11
+Parcel- og rækkehuse;4862 Guldborg;4;3;3;2;3;4;4;2
+Parcel- og rækkehuse;4863 Eskilstrup;1;2;4;7;5;4;6;5
+Parcel- og rækkehuse;4871 Horbelev;5;2;3;2;3;1;3;4
+Parcel- og rækkehuse;4872 Idestrup;3;3;2;2;2;2;1;6
+Parcel- og rækkehuse;4873 Væggerløse;7;2;5;4;3;3;6;9
+Parcel- og rækkehuse;4874 Gedser;4;2;1;6;7;3;0;3
+Parcel- og rækkehuse;4880 Nysted;8;7;5;6;6;3;6;3
+Parcel- og rækkehuse;4891 Toreby L;3;0;2;4;1;2;3;4
+Parcel- og rækkehuse;4892 Kettinge;2;4;4;0;7;2;5;6
+Parcel- og rækkehuse;4894 Øster Ulslev;3;2;0;1;1;1;1;2
+Parcel- og rækkehuse;4895 Errindlev;0;1;0;1;1;1;2;2
+Parcel- og rækkehuse;4900 Nakskov;31;21;18;32;22;19;23;26
+Parcel- og rækkehuse;4912 Harpelunde;1;0;1;1;1;1;0;1
+Parcel- og rækkehuse;4913 Horslunde;9;3;3;1;4;8;2;1
+Parcel- og rækkehuse;4920 Søllested;1;6;6;3;5;5;3;3
+Parcel- og rækkehuse;4930 Maribo;13;7;12;14;15;12;10;18
+Parcel- og rækkehuse;4941 Bandholm;0;2;3;3;4;2;4;2
+Parcel- og rækkehuse;4943 Torrig L;0;1;1;3;2;0;1;0
+Parcel- og rækkehuse;4944 Fejø;1;0;1;0;1;2;2;0
+Parcel- og rækkehuse;4951 Nørreballe;1;1;0;1;2;0;2;0
+Parcel- og rækkehuse;4952 Stokkemarke;0;0;2;3;1;1;1;0
+Parcel- og rækkehuse;4953 Vesterborg;0;0;1;1;0;1;0;0
+Parcel- og rækkehuse;4960 Holeby;2;2;9;1;5;1;6;4
+Parcel- og rækkehuse;4970 Rødby;9;8;8;18;10;9;16;8
+Parcel- og rækkehuse;4983 Dannemare;1;5;2;4;5;2;2;2
+Parcel- og rækkehuse;4990 Sakskøbing;13;11;19;13;11;16;9;14
+Parcel- og rækkehuse;5000 Odense C;36;27;33;33;34;28;27;41
+Parcel- og rækkehuse;5200 Odense V;7;7;9;8;4;7;9;18
+Parcel- og rækkehuse;5210 Odense NV;30;37;42;38;44;47;52;61
+Parcel- og rækkehuse;5220 Odense SØ;17;19;14;25;21;17;17;34
+Parcel- og rækkehuse;5230 Odense M;36;25;28;44;29;37;48;42
+Parcel- og rækkehuse;5240 Odense NØ;10;8;9;14;15;16;9;14
+Parcel- og rækkehuse;5250 Odense SV;42;39;50;59;54;44;46;76
+Parcel- og rækkehuse;5260 Odense S;31;25;27;50;34;29;35;49
+Parcel- og rækkehuse;5270 Odense N;34;23;23;35;30;28;39;56
+Parcel- og rækkehuse;5290 Marslev;1;0;1;3;0;2;2;3
+Parcel- og rækkehuse;5300 Kerteminde;8;9;10;12;12;10;12;13
+Parcel- og rækkehuse;5320 Agedrup;1;6;4;6;7;5;5;11
+Parcel- og rækkehuse;5330 Munkebo;2;10;7;8;12;10;8;18
+Parcel- og rækkehuse;5350 Rynkeby;0;1;0;1;3;2;0;0
+Parcel- og rækkehuse;5370 Mesinge;1;1;3;2;0;1;1;1
+Parcel- og rækkehuse;5380 Dalby;1;0;1;0;1;2;1;2
+Parcel- og rækkehuse;5390 Martofte;1;1;1;1;3;1;0;0
+Parcel- og rækkehuse;5400 Bogense;9;7;7;12;13;8;11;17
+Parcel- og rækkehuse;5450 Otterup;17;13;17;12;16;26;17;20
+Parcel- og rækkehuse;5462 Morud;1;4;3;7;3;6;1;3
+Parcel- og rækkehuse;5463 Harndrup;3;1;3;2;0;3;5;3
+Parcel- og rækkehuse;5464 Brenderup Fyn;2;2;8;2;4;1;4;4
+Parcel- og rækkehuse;5466 Asperup;2;4;2;2;2;1;6;3
+Parcel- og rækkehuse;5471 Søndersø;15;10;7;6;9;9;10;9
+Parcel- og rækkehuse;5474 Veflinge;2;0;1;0;1;4;1;1
+Parcel- og rækkehuse;5485 Skamby;1;3;1;1;1;1;0;0
+Parcel- og rækkehuse;5491 Blommenslyst;0;1;3;1;2;3;4;3
+Parcel- og rækkehuse;5492 Vissenbjerg;5;11;5;4;6;4;7;17
+Parcel- og rækkehuse;5500 Middelfart;57;36;40;27;50;39;52;83
+Parcel- og rækkehuse;5540 Ullerslev;7;4;3;8;9;6;7;9
+Parcel- og rækkehuse;5550 Langeskov;10;8;9;9;3;11;13;23
+Parcel- og rækkehuse;5560 Aarup;3;6;6;9;12;3;10;12
+Parcel- og rækkehuse;5580 Nørre Aaby;3;5;4;9;6;4;10;7
+Parcel- og rækkehuse;5591 Gelsted;3;1;7;10;1;5;3;4
+Parcel- og rækkehuse;5592 Ejby;6;2;1;3;9;5;4;10
+Parcel- og rækkehuse;5600 Faaborg;14;20;21;29;19;23;21;22
+Parcel- og rækkehuse;5610 Assens;16;9;14;13;13;15;7;11
+Parcel- og rækkehuse;5620 Glamsbjerg;2;10;8;8;3;7;14;10
+Parcel- og rækkehuse;5631 Ebberup;4;3;4;6;7;3;2;4
+Parcel- og rækkehuse;5642 Millinge;2;0;2;0;2;1;1;2
+Parcel- og rækkehuse;5672 Broby;7;6;6;10;11;5;8;11
+Parcel- og rækkehuse;5683 Haarby;9;6;3;6;11;3;8;10
+Parcel- og rækkehuse;5690 Tommerup;13;12;7;8;15;17;17;12
+Parcel- og rækkehuse;5700 Svendborg;62;53;53;66;64;68;66;93
+Parcel- og rækkehuse;5750 Ringe;17;17;18;23;15;17;13;26
+Parcel- og rækkehuse;5762 Vester Skerninge;10;2;9;6;6;9;8;8
+Parcel- og rækkehuse;5771 Stenstrup;2;4;5;6;6;6;8;3
+Parcel- og rækkehuse;5772 Kværndrup;3;2;2;3;2;3;4;10
+Parcel- og rækkehuse;5792 Årslev;11;11;7;16;20;9;18;19
+Parcel- og rækkehuse;5800 Nyborg;29;28;19;27;41;20;32;37
+Parcel- og rækkehuse;5853 Ørbæk;5;5;6;2;7;3;9;6
+Parcel- og rækkehuse;5854 Gislev;3;1;4;3;1;3;7;3
+Parcel- og rækkehuse;5856 Ryslinge;3;3;7;6;2;2;2;1
+Parcel- og rækkehuse;5863 Ferritslev Fyn;2;2;2;2;2;2;4;4
+Parcel- og rækkehuse;5871 Frørup;1;1;1;3;3;2;3;4
+Parcel- og rækkehuse;5874 Hesselager;1;1;2;5;2;3;1;3
+Parcel- og rækkehuse;5881 Skårup Fyn;3;2;3;7;4;4;6;4
+Parcel- og rækkehuse;5882 Vejstrup;3;2;1;2;1;2;3;2
+Parcel- og rækkehuse;5883 Oure;1;1;0;0;0;0;0;0
+Parcel- og rækkehuse;5884 Gudme;2;2;1;1;4;0;2;4
+Parcel- og rækkehuse;5892 Gudbjerg Sydfyn;1;2;1;0;1;3;1;1
+Parcel- og rækkehuse;5900 Rudkøbing;13;13;7;9;10;12;9;15
+Parcel- og rækkehuse;5932 Humble;1;5;0;3;5;4;4;6
+Parcel- og rækkehuse;5935 Bagenkop;2;3;5;1;1;1;4;2
+Parcel- og rækkehuse;5953 Tranekær;6;7;7;6;8;8;4;10
+Parcel- og rækkehuse;5960 Marstal;8;3;4;8;6;11;5;13
+Parcel- og rækkehuse;5970 Ærøskøbing;5;1;4;8;6;4;3;2
+Parcel- og rækkehuse;5985 Søby Ærø;0;0;1;1;1;3;3;4
+Parcel- og rækkehuse;6000 Kolding;75;84;87;89;104;90;108;122
+Parcel- og rækkehuse;6040 Egtved;14;8;10;11;8;10;14;16
+Parcel- og rækkehuse;6051 Almind;3;1;2;3;0;2;6;6
+Parcel- og rækkehuse;6052 Viuf;1;3;3;0;3;0;1;0
+Parcel- og rækkehuse;6064 Jordrup;1;0;0;0;1;0;0;2
+Parcel- og rækkehuse;6070 Christiansfeld;8;6;6;7;10;5;7;6
+Parcel- og rækkehuse;6091 Bjert;4;6;6;5;2;1;3;5
+Parcel- og rækkehuse;6092 Sønder Stenderup;1;1;1;1;2;1;2;1
+Parcel- og rækkehuse;6093 Sjølund;4;1;0;1;2;3;0;2
+Parcel- og rækkehuse;6094 Hejls;0;2;0;0;3;4;1;1
+Parcel- og rækkehuse;6100 Haderslev;31;29;36;41;39;40;34;53
+Parcel- og rækkehuse;6200 Aabenraa;39;33;26;31;36;38;36;49
+Parcel- og rækkehuse;6230 Rødekro;9;10;19;12;14;17;10;29
+Parcel- og rækkehuse;6240 Løgumkloster;5;5;9;4;6;3;9;15
+Parcel- og rækkehuse;6261 Bredebro;5;5;3;5;2;5;4;5
+Parcel- og rækkehuse;6270 Tønder;14;13;18;20;12;17;12;12
+Parcel- og rækkehuse;6280 Højer;3;2;4;2;1;4;3;2
+Parcel- og rækkehuse;6300 Gråsten;15;5;6;14;12;8;9;13
+Parcel- og rækkehuse;6310 Broager;6;8;7;11;8;4;7;11
+Parcel- og rækkehuse;6320 Egernsund;2;2;2;3;2;2;4;2
+Parcel- og rækkehuse;6330 Padborg;5;3;6;6;8;8;8;13
+Parcel- og rækkehuse;6340 Kruså;9;5;2;9;10;3;6;8
+Parcel- og rækkehuse;6360 Tinglev;2;4;0;3;5;6;6;4
+Parcel- og rækkehuse;6372 Bylderup-Bov;8;4;1;4;4;2;5;0
+Parcel- og rækkehuse;6392 Bolderslev;2;1;5;0;2;1;0;5
+Parcel- og rækkehuse;6400 Sønderborg;33;36;31;47;32;49;38;50
+Parcel- og rækkehuse;6430 Nordborg;8;9;12;14;11;11;6;16
+Parcel- og rækkehuse;6440 Augustenborg;7;10;7;10;5;5;9;8
+Parcel- og rækkehuse;6470 Sydals;10;10;5;12;7;7;10;15
+Parcel- og rækkehuse;6500 Vojens;7;14;16;15;13;20;18;25
+Parcel- og rækkehuse;6510 Gram;7;4;4;5;6;5;8;9
+Parcel- og rækkehuse;6520 Toftlund;7;3;3;4;8;9;4;7
+Parcel- og rækkehuse;6534 Agerskov;5;1;2;3;2;1;2;2
+Parcel- og rækkehuse;6535 Branderup J;0;0;0;0;0;1;0;0
+Parcel- og rækkehuse;6541 Bevtoft;1;3;2;1;0;2;1;2
+Parcel- og rækkehuse;6560 Sommersted;5;5;1;0;0;5;2;0
+Parcel- og rækkehuse;6580 Vamdrup;11;9;10;15;8;11;17;8
+Parcel- og rækkehuse;6600 Vejen;17;25;22;23;26;21;37;24
+Parcel- og rækkehuse;6621 Gesten;0;0;2;1;2;4;1;5
+Parcel- og rækkehuse;6622 Bække;2;1;1;6;1;2;2;3
+Parcel- og rækkehuse;6623 Vorbasse;0;1;1;2;3;3;2;4
+Parcel- og rækkehuse;6630 Rødding;17;10;8;17;18;12;16;15
+Parcel- og rækkehuse;6640 Lunderskov;5;5;6;7;8;8;8;4
+Parcel- og rækkehuse;6650 Brørup;8;8;7;16;8;9;13;10
+Parcel- og rækkehuse;6660 Lintrup;0;1;1;2;1;0;0;1
+Parcel- og rækkehuse;6670 Holsted;7;5;4;5;6;7;6;4
+Parcel- og rækkehuse;6682 Hovborg;1;0;2;1;1;0;1;1
+Parcel- og rækkehuse;6683 Føvling;1;1;1;0;0;1;2;2
+Parcel- og rækkehuse;6690 Gørding;1;0;3;5;1;4;6;4
+Parcel- og rækkehuse;6700 Esbjerg;34;22;36;44;18;24;35;36
+Parcel- og rækkehuse;6705 Esbjerg Ø;19;15;14;28;19;17;18;20
+Parcel- og rækkehuse;6710 Esbjerg V;47;35;48;36;44;38;42;52
+Parcel- og rækkehuse;6715 Esbjerg N;17;16;11;16;10;22;32;16
+Parcel- og rækkehuse;6720 Fanø;3;4;4;8;3;7;8;3
+Parcel- og rækkehuse;6731 Tjæreborg;2;11;4;9;4;8;6;7
+Parcel- og rækkehuse;6740 Bramming;20;12;22;20;19;24;27;26
+Parcel- og rækkehuse;6752 Glejbjerg;1;1;0;1;2;0;3;2
+Parcel- og rækkehuse;6753 Agerbæk;5;1;1;3;0;0;2;3
+Parcel- og rækkehuse;6760 Ribe;18;14;24;21;23;22;25;28
+Parcel- og rækkehuse;6771 Gredstedbro;2;7;1;3;5;0;6;6
+Parcel- og rækkehuse;6780 Skærbæk;7;10;5;7;7;6;10;9
+Parcel- og rækkehuse;6792 Rømø;1;4;2;0;2;1;2;0
+Parcel- og rækkehuse;6800 Varde;33;32;30;47;31;41;34;45
+Parcel- og rækkehuse;6818 Årre;0;2;8;5;5;5;3;3
+Parcel- og rækkehuse;6823 Ansager;5;4;4;4;1;6;4;6
+Parcel- og rækkehuse;6830 Nørre Nebel;1;3;5;6;6;4;4;6
+Parcel- og rækkehuse;6840 Oksbøl;5;5;2;3;5;2;7;3
+Parcel- og rækkehuse;6851 Janderup Vestj;0;0;0;4;4;2;1;2
+Parcel- og rækkehuse;6852 Billum;2;2;1;0;1;0;0;0
+Parcel- og rækkehuse;6853 Vejers Strand;0;0;0;0;0;0;0;0
+Parcel- og rækkehuse;6854 Henne;0;0;0;1;1;3;0;1
+Parcel- og rækkehuse;6855 Outrup;1;2;2;3;3;0;1;1
+Parcel- og rækkehuse;6857 Blåvand;1;1;0;2;2;1;1;2
+Parcel- og rækkehuse;6862 Tistrup;2;2;2;3;2;4;3;5
+Parcel- og rækkehuse;6870 Ølgod;4;3;7;10;5;11;7;5
+Parcel- og rækkehuse;6880 Tarm;8;5;10;9;16;9;12;16
+Parcel- og rækkehuse;6893 Hemmet;0;1;1;4;4;3;2;2
+Parcel- og rækkehuse;6900 Skjern;16;16;17;16;19;28;32;17
+Parcel- og rækkehuse;6920 Videbæk;6;9;8;11;12;10;14;18
+Parcel- og rækkehuse;6933 Kibæk;7;4;9;13;5;8;6;4
+Parcel- og rækkehuse;6940 Lem St;2;0;1;5;4;2;2;4
+Parcel- og rækkehuse;6950 Ringkøbing;19;13;23;24;19;25;18;23
+Parcel- og rækkehuse;6960 Hvide Sande;8;1;2;4;6;6;8;5
+Parcel- og rækkehuse;6971 Spjald;5;3;4;5;5;4;3;5
+Parcel- og rækkehuse;6973 Ørnhøj;0;4;2;1;2;2;0;1
+Parcel- og rækkehuse;6980 Tim;2;2;1;2;1;2;1;3
+Parcel- og rækkehuse;6990 Ulfborg;8;7;6;7;12;6;5;8
+Parcel- og rækkehuse;7000 Fredericia;60;63;66;82;86;68;95;124
+Parcel- og rækkehuse;7007 Fredericia;0;0;0;0;0;0;0;0
+Parcel- og rækkehuse;7080 Børkop;18;17;18;22;18;20;25;30
+Parcel- og rækkehuse;7100 Vejle;74;60;57;83;72;60;78;104
+Parcel- og rækkehuse;7120 Vejle Øst;13;15;17;35;12;14;27;34
+Parcel- og rækkehuse;7130 Juelsminde;17;11;16;13;14;9;14;15
+Parcel- og rækkehuse;7140 Stouby;2;1;4;1;3;2;5;2
+Parcel- og rækkehuse;7150 Barrit;5;4;2;2;1;5;4;3
+Parcel- og rækkehuse;7160 Tørring;15;10;8;8;9;14;10;8
+Parcel- og rækkehuse;7171 Uldum;3;4;2;2;5;2;7;6
+Parcel- og rækkehuse;7173 Vonge;1;1;0;2;1;4;1;0
+Parcel- og rækkehuse;7182 Bredsten;2;4;2;5;0;5;4;6
+Parcel- og rækkehuse;7183 Randbøl;0;0;1;2;0;2;2;4
+Parcel- og rækkehuse;7184 Vandel;2;1;2;2;2;3;1;2
+Parcel- og rækkehuse;7190 Billund;12;11;12;16;12;12;8;16
+Parcel- og rækkehuse;7200 Grindsted;13;21;23;22;25;25;33;22
+Parcel- og rækkehuse;7250 Hejnsvig;4;4;2;3;2;2;1;3
+Parcel- og rækkehuse;7260 Sønder Omme;2;5;4;1;2;3;5;6
+Parcel- og rækkehuse;7270 Stakroge;0;0;1;0;0;0;2;0
+Parcel- og rækkehuse;7280 Sønder Felding;3;4;3;3;3;1;3;4
+Parcel- og rækkehuse;7300 Jelling;5;7;8;11;10;6;10;12
+Parcel- og rækkehuse;7321 Gadbjerg;0;3;0;3;2;2;3;3
+Parcel- og rækkehuse;7323 Give;18;13;15;22;17;13;13;16
+Parcel- og rækkehuse;7330 Brande;11;16;10;17;11;18;9;20
+Parcel- og rækkehuse;7361 Ejstrupholm;1;1;6;1;9;3;3;5
+Parcel- og rækkehuse;7362 Hampen;0;1;0;2;0;1;1;1
+Parcel- og rækkehuse;7400 Herning;63;69;62;95;73;86;87;113
+Parcel- og rækkehuse;7430 Ikast;26;25;23;19;28;15;23;25
+Parcel- og rækkehuse;7441 Bording;6;6;5;2;8;6;5;6
+Parcel- og rækkehuse;7442 Engesvang;6;8;3;4;2;5;3;4
+Parcel- og rækkehuse;7451 Sunds;9;4;6;9;11;7;13;13
+Parcel- og rækkehuse;7470 Karup J;8;6;5;5;6;9;10;7
+Parcel- og rækkehuse;7480 Vildbjerg;11;2;8;7;11;6;10;13
+Parcel- og rækkehuse;7490 Aulum;4;6;4;8;6;6;10;8
+Parcel- og rækkehuse;7500 Holstebro;71;68;68;77;75;55;64;104
+Parcel- og rækkehuse;7540 Haderup;3;0;1;5;1;4;0;5
+Parcel- og rækkehuse;7550 Sørvad;0;0;0;2;1;1;5;0
+Parcel- og rækkehuse;7560 Hjerm;4;0;4;0;5;4;3;2
+Parcel- og rækkehuse;7570 Vemb;2;1;9;4;1;7;1;1
+Parcel- og rækkehuse;7600 Struer;13;23;14;15;13;27;24;34
+Parcel- og rækkehuse;7620 Lemvig;16;19;16;16;20;17;18;12
+Parcel- og rækkehuse;7650 Bøvlingbjerg;0;2;1;2;0;3;4;2
+Parcel- og rækkehuse;7660 Bækmarksbro;0;1;5;3;1;0;3;0
+Parcel- og rækkehuse;7673 Harboøre;1;4;0;1;4;3;2;1
+Parcel- og rækkehuse;7680 Thyborøn;3;1;2;3;2;1;5;6
+Parcel- og rækkehuse;7700 Thisted;41;22;34;50;47;29;43;40
+Parcel- og rækkehuse;7730 Hanstholm;2;5;1;6;2;5;2;2
+Parcel- og rækkehuse;7741 Frøstrup;2;1;2;1;3;2;5;3
+Parcel- og rækkehuse;7742 Vesløs;3;2;1;0;1;1;0;1
+Parcel- og rækkehuse;7752 Snedsted;6;7;5;6;8;12;1;6
+Parcel- og rækkehuse;7755 Bedsted Thy;5;5;7;1;4;4;4;4
+Parcel- og rækkehuse;7760 Hurup Thy;3;9;8;8;9;6;12;5
+Parcel- og rækkehuse;7770 Vestervig;2;2;2;6;2;4;3;1
+Parcel- og rækkehuse;7790 Thyholm;5;3;7;6;4;8;7;9
+Parcel- og rækkehuse;7800 Skive;33;27;25;35;37;41;30;27
+Parcel- og rækkehuse;7830 Vinderup;8;8;11;8;6;5;7;12
+Parcel- og rækkehuse;7840 Højslev;5;1;6;10;7;6;5;7
+Parcel- og rækkehuse;7850 Stoholm Jyll;7;3;2;5;9;7;3;6
+Parcel- og rækkehuse;7860 Spøttrup;4;5;4;5;9;8;4;6
+Parcel- og rækkehuse;7870 Roslev;11;17;8;11;6;12;7;10
+Parcel- og rækkehuse;7884 Fur;0;1;1;2;0;3;0;3
+Parcel- og rækkehuse;7900 Nykøbing M;19;15;19;22;21;20;24;21
+Parcel- og rækkehuse;7950 Erslev;5;7;1;6;9;3;3;5
+Parcel- og rækkehuse;7960 Karby;1;0;3;1;1;0;1;3
+Parcel- og rækkehuse;7970 Redsted M;1;2;1;0;1;1;0;0
+Parcel- og rækkehuse;7980 Vils;2;1;0;0;0;2;0;0
+Parcel- og rækkehuse;7990 Øster Assels;0;4;0;0;3;2;1;1
+Parcel- og rækkehuse;8000 Århus C;6;8;12;7;13;6;9;5
+Parcel- og rækkehuse;8200 Århus N;12;21;8;18;12;10;21;21
+Parcel- og rækkehuse;8210 Århus V;19;22;12;27;30;25;20;33
+Parcel- og rækkehuse;8220 Brabrand;20;13;28;35;24;17;30;31
+Parcel- og rækkehuse;8230 Åbyhøj;19;13;12;22;26;16;20;19
+Parcel- og rækkehuse;8240 Risskov;40;41;24;53;44;40;62;67
+Parcel- og rækkehuse;8245 Risskov Ø;0;0;0;0;0;0;0;0
+Parcel- og rækkehuse;8250 Egå;15;20;16;19;7;19;21;37
+Parcel- og rækkehuse;8260 Viby J;28;28;24;43;37;33;31;56
+Parcel- og rækkehuse;8270 Højbjerg;40;28;34;48;37;38;37;63
+Parcel- og rækkehuse;8300 Odder;35;28;18;33;33;23;28;48
+Parcel- og rækkehuse;8305 Samsø;11;6;4;14;14;9;8;7
+Parcel- og rækkehuse;8310 Tranbjerg J;23;9;15;21;17;39;26;27
+Parcel- og rækkehuse;8320 Mårslet;8;13;14;20;11;12;17;11
+Parcel- og rækkehuse;8330 Beder;4;9;7;13;11;9;7;13
+Parcel- og rækkehuse;8340 Malling;10;5;11;8;4;4;6;15
+Parcel- og rækkehuse;8350 Hundslund;0;4;2;1;0;1;4;1
+Parcel- og rækkehuse;8355 Solbjerg;13;8;6;9;8;12;10;11
+Parcel- og rækkehuse;8361 Hasselager;12;9;13;16;21;7;10;23
+Parcel- og rækkehuse;8362 Hørning;5;16;14;20;18;17;13;24
+Parcel- og rækkehuse;8370 Hadsten;25;23;17;23;19;17;26;39
+Parcel- og rækkehuse;8380 Trige;6;6;5;5;4;6;11;8
+Parcel- og rækkehuse;8381 Tilst;25;20;16;21;18;21;33;23
+Parcel- og rækkehuse;8382 Hinnerup;27;12;19;25;23;23;21;18
+Parcel- og rækkehuse;8400 Ebeltoft;15;17;9;17;10;13;19;26
+Parcel- og rækkehuse;8410 Rønde;10;12;8;15;14;18;12;22
+Parcel- og rækkehuse;8420 Knebel;5;2;0;2;5;5;2;6
+Parcel- og rækkehuse;8444 Balle;1;1;1;3;1;1;1;4
+Parcel- og rækkehuse;8450 Hammel;20;16;19;15;22;10;18;23
+Parcel- og rækkehuse;8462 Harlev J;8;12;7;12;7;9;13;7
+Parcel- og rækkehuse;8464 Galten;13;13;13;22;18;13;22;33
+Parcel- og rækkehuse;8471 Sabro;4;12;9;9;20;12;10;10
+Parcel- og rækkehuse;8472 Sporup;0;1;0;0;2;3;0;2
+Parcel- og rækkehuse;8500 Grenaa;25;16;20;35;21;27;33;31
+Parcel- og rækkehuse;8520 Lystrup;17;18;19;23;23;24;33;39
+Parcel- og rækkehuse;8530 Hjortshøj;7;9;11;7;8;12;9;10
+Parcel- og rækkehuse;8541 Skødstrup;8;16;12;9;16;14;19;24
+Parcel- og rækkehuse;8543 Hornslet;13;17;13;10;15;11;15;21
+Parcel- og rækkehuse;8544 Mørke;6;3;0;8;11;6;3;3
+Parcel- og rækkehuse;8550 Ryomgård;7;6;11;5;2;4;15;9
+Parcel- og rækkehuse;8560 Kolind;6;6;7;4;3;3;13;3
+Parcel- og rækkehuse;8570 Trustrup;3;3;4;5;6;2;3;2
+Parcel- og rækkehuse;8581 Nimtofte;1;2;1;3;0;2;2;0
+Parcel- og rækkehuse;8585 Glesborg;4;2;2;1;8;5;5;4
+Parcel- og rækkehuse;8586 Ørum Djurs;3;3;0;2;0;3;5;4
+Parcel- og rækkehuse;8592 Anholt;0;0;0;0;0;0;0;1
+Parcel- og rækkehuse;8600 Silkeborg;90;93;88;86;97;93;109;146
+Parcel- og rækkehuse;8620 Kjellerup;14;12;15;9;22;17;14;17
+Parcel- og rækkehuse;8632 Lemming;3;0;1;1;1;1;2;0
+Parcel- og rækkehuse;8641 Sorring;5;3;2;3;4;5;6;0
+Parcel- og rækkehuse;8643 Ans By;4;4;3;4;4;1;3;4
+Parcel- og rækkehuse;8653 Them;5;6;4;6;6;3;5;10
+Parcel- og rækkehuse;8654 Bryrup;3;3;2;3;4;3;6;5
+Parcel- og rækkehuse;8660 Skanderborg;49;33;41;59;43;40;52;59
+Parcel- og rækkehuse;8670 Låsby;4;2;5;4;2;8;3;6
+Parcel- og rækkehuse;8680 Ry;16;13;12;20;13;16;14;17
+Parcel- og rækkehuse;8700 Horsens;104;87;87;111;95;108;113;159
+Parcel- og rækkehuse;8721 Daugård;0;2;1;5;5;3;3;1
+Parcel- og rækkehuse;8722 Hedensted;13;16;8;18;12;18;16;19
+Parcel- og rækkehuse;8723 Løsning;16;12;6;14;12;12;14;20
+Parcel- og rækkehuse;8732 Hovedgård;4;2;3;6;4;3;8;6
+Parcel- og rækkehuse;8740 Brædstrup;19;10;9;11;10;10;13;15
+Parcel- og rækkehuse;8751 Gedved;3;3;5;8;2;3;5;2
+Parcel- og rækkehuse;8752 Østbirk;1;3;3;8;6;7;2;8
+Parcel- og rækkehuse;8762 Flemming;0;0;1;0;2;4;2;2
+Parcel- og rækkehuse;8763 Rask Mølle;1;4;3;3;2;2;2;1
+Parcel- og rækkehuse;8765 Klovborg;3;0;1;0;0;2;1;2
+Parcel- og rækkehuse;8766 Nørre Snede;3;4;4;7;2;1;1;3
+Parcel- og rækkehuse;8781 Stenderup;2;0;2;2;3;1;1;1
+Parcel- og rækkehuse;8783 Hornsyld;5;1;4;5;5;3;8;7
+Parcel- og rækkehuse;8800 Viborg;62;65;78;72;71;76;84;92
+Parcel- og rækkehuse;8830 Tjele;13;9;8;15;15;19;19;19
+Parcel- og rækkehuse;8831 Løgstrup;5;3;4;0;2;6;5;2
+Parcel- og rækkehuse;8832 Skals;5;3;7;6;3;1;6;6
+Parcel- og rækkehuse;8840 Rødkærsbro;2;2;2;2;2;3;5;3
+Parcel- og rækkehuse;8850 Bjerringbro;16;11;14;14;19;17;15;28
+Parcel- og rækkehuse;8860 Ulstrup;8;6;8;9;8;12;11;5
+Parcel- og rækkehuse;8870 Langå;17;8;11;15;13;13;12;18
+Parcel- og rækkehuse;8881 Thorsø;5;4;2;6;8;8;5;7
+Parcel- og rækkehuse;8882 Fårvang;1;2;5;1;0;5;5;6
+Parcel- og rækkehuse;8883 Gjern;1;3;4;4;5;3;4;5
+Parcel- og rækkehuse;8900 Randers C;5;3;4;7;2;1;6;5
+Parcel- og rækkehuse;8920 Randers NV;36;41;38;44;36;41;43;53
+Parcel- og rækkehuse;8930 Randers NØ;17;12;29;10;13;11;33;20
+Parcel- og rækkehuse;8940 Randers SV;15;17;13;17;10;19;21;15
+Parcel- og rækkehuse;8950 Ørsted;2;5;5;5;5;6;1;8
+Parcel- og rækkehuse;8960 Randers SØ;27;25;18;30;26;23;19;42
+Parcel- og rækkehuse;8961 Allingåbro;4;6;7;4;7;6;13;8
+Parcel- og rækkehuse;8963 Auning;1;7;9;6;3;9;9;8
+Parcel- og rækkehuse;8970 Havndal;4;6;2;4;3;8;6;5
+Parcel- og rækkehuse;8981 Spentrup;2;5;6;11;10;9;12;22
+Parcel- og rækkehuse;8983 Gjerlev J;3;1;6;4;3;4;0;4
+Parcel- og rækkehuse;8990 Fårup;5;3;5;5;3;3;2;9
+Parcel- og rækkehuse;9000 Aalborg;53;54;65;63;65;55;79;82
+Parcel- og rækkehuse;9200 Aalborg SV;23;13;20;22;29;22;30;27
+Parcel- og rækkehuse;9210 Aalborg SØ;30;17;21;27;40;33;32;37
+Parcel- og rækkehuse;9220 Aalborg Øst;13;9;8;14;7;12;14;18
+Parcel- og rækkehuse;9230 Svenstrup J;18;12;16;19;13;24;20;25
+Parcel- og rækkehuse;9240 Nibe;18;10;20;22;18;28;24;30
+Parcel- og rækkehuse;9260 Gistrup;10;6;6;9;16;9;10;19
+Parcel- og rækkehuse;9270 Klarup;8;9;9;10;7;15;10;25
+Parcel- og rækkehuse;9280 Storvorde;11;8;4;18;17;12;20;18
+Parcel- og rækkehuse;9293 Kongerslev;5;3;1;1;14;3;2;3
+Parcel- og rækkehuse;9300 Sæby;17;15;22;21;17;21;14;28
+Parcel- og rækkehuse;9310 Vodskov;11;10;17;17;20;24;30;22
+Parcel- og rækkehuse;9320 Hjallerup;5;6;10;6;7;5;8;15
+Parcel- og rækkehuse;9330 Dronninglund;11;18;8;14;8;10;11;9
+Parcel- og rækkehuse;9340 Asaa;2;2;2;4;2;0;2;0
+Parcel- og rækkehuse;9352 Dybvad;1;2;0;1;1;1;1;1
+Parcel- og rækkehuse;9362 Gandrup;4;5;3;6;7;5;6;3
+Parcel- og rækkehuse;9370 Hals;11;10;2;9;7;6;8;11
+Parcel- og rækkehuse;9380 Vestbjerg;6;5;6;6;5;4;8;5
+Parcel- og rækkehuse;9381 Sulsted;3;7;5;8;2;4;8;4
+Parcel- og rækkehuse;9382 Tylstrup;4;1;3;2;3;3;4;1
+Parcel- og rækkehuse;9400 Nørresundby;24;28;16;31;33;19;37;42
+Parcel- og rækkehuse;9430 Vadum;8;9;13;14;13;6;13;12
+Parcel- og rækkehuse;9440 Aabybro;22;23;18;25;20;21;27;32
+Parcel- og rækkehuse;9460 Brovst;10;16;13;10;10;13;12;11
+Parcel- og rækkehuse;9480 Løkken;14;8;7;7;11;10;12;14
+Parcel- og rækkehuse;9490 Pandrup;9;7;8;11;13;18;11;17
+Parcel- og rækkehuse;9492 Blokhus;4;3;2;9;4;6;7;5
+Parcel- og rækkehuse;9493 Saltum;0;1;5;0;1;5;1;1
+Parcel- og rækkehuse;9500 Hobro;27;24;16;26;25;24;24;29
+Parcel- og rækkehuse;9510 Arden;8;4;5;11;6;5;5;7
+Parcel- og rækkehuse;9520 Skørping;6;11;12;10;9;9;6;14
+Parcel- og rækkehuse;9530 Støvring;16;11;23;25;13;16;16;23
+Parcel- og rækkehuse;9541 Suldrup;3;5;4;5;4;4;4;6
+Parcel- og rækkehuse;9550 Mariager;5;7;2;7;4;5;6;11
+Parcel- og rækkehuse;9560 Hadsund;18;15;8;17;15;9;18;15
+Parcel- og rækkehuse;9574 Bælum;0;1;1;2;2;0;3;3
+Parcel- og rækkehuse;9575 Terndrup;1;4;5;7;4;1;5;1
+Parcel- og rækkehuse;9600 Aars;27;16;10;22;17;19;27;31
+Parcel- og rækkehuse;9610 Nørager;6;4;6;12;2;1;4;3
+Parcel- og rækkehuse;9620 Aalestrup;14;2;1;1;5;11;12;9
+Parcel- og rækkehuse;9631 Gedsted;0;1;0;0;0;4;3;4
+Parcel- og rækkehuse;9632 Møldrup;4;2;5;1;2;5;4;4
+Parcel- og rækkehuse;9640 Farsø;8;11;13;14;10;4;8;6
+Parcel- og rækkehuse;9670 Løgstør;10;6;8;14;12;11;18;16
+Parcel- og rækkehuse;9681 Ranum;3;4;4;4;3;2;1;4
+Parcel- og rækkehuse;9690 Fjerritslev;8;9;5;9;10;7;12;8
+Parcel- og rækkehuse;9700 Brønderslev;33;25;19;30;29;33;31;38
+Parcel- og rækkehuse;9740 Jerslev J;2;2;3;4;6;3;3;3
+Parcel- og rækkehuse;9750 Østervrå;3;1;3;3;2;7;2;0
+Parcel- og rækkehuse;9760 Vrå;3;8;10;6;4;6;10;5
+Parcel- og rækkehuse;9800 Hjørring;57;51;50;64;58;60;61;73
+Parcel- og rækkehuse;9830 Tårs;5;1;7;4;9;1;6;8
+Parcel- og rækkehuse;9850 Hirtshals;16;12;9;12;16;11;11;17
+Parcel- og rækkehuse;9870 Sindal;7;6;8;8;9;8;9;8
+Parcel- og rækkehuse;9881 Bindslev;4;1;4;3;4;10;5;10
+Parcel- og rækkehuse;9900 Frederikshavn;36;35;32;42;31;30;44;56
+Parcel- og rækkehuse;9940 Læsø;3;4;3;4;6;0;3;8
+Parcel- og rækkehuse;9970 Strandby;5;6;2;1;1;5;1;9
+Parcel- og rækkehuse;9981 Jerup;2;2;1;1;1;1;1;1
+Parcel- og rækkehuse;9982 Ålbæk;3;5;3;1;6;5;7;3
+Parcel- og rækkehuse;9990 Skagen;35;13;22;24;17;20;17;25
+Ejerlejligheder;1000 København K;89;100;80;119;139;111;130;141
+Ejerlejligheder;1500 København V;76;59;101;84;84;77;99;84
+Ejerlejligheder;1800 Frederiksberg C;88;81;83;110;88;93;86;91
+Ejerlejligheder;2000 Frederiksberg;174;154;157;173;197;184;226;230
+Ejerlejligheder;2100 København Ø;233;202;176;214;225;231;249;258
+Ejerlejligheder;2200 København N;98;101;117;130;123;137;132;158
+Ejerlejligheder;2300 København S;216;251;268;306;381;349;436;414
+Ejerlejligheder;2400 København NV;58;51;48;75;87;73;117;106
+Ejerlejligheder;2450 København SV;64;49;42;58;80;75;77;77
+Ejerlejligheder;2500 Valby;79;66;87;90;97;106;121;140
+Ejerlejligheder;2600 Glostrup;18;11;20;16;8;27;25;32
+Ejerlejligheder;2605 Brøndby;1;3;2;3;4;1;1;5
+Ejerlejligheder;2610 Rødovre;24;23;31;44;35;48;49;66
+Ejerlejligheder;2620 Albertslund;7;5;4;4;8;7;11;15
+Ejerlejligheder;2625 Vallensbæk;1;1;2;6;3;1;4;2
+Ejerlejligheder;2630 Taastrup;38;42;45;48;61;68;82;85
+Ejerlejligheder;2633 Returpost;0;0;0;0;0;0;0;0
+Ejerlejligheder;2635 Ishøj;5;14;10;17;17;17;11;18
+Ejerlejligheder;2640 Hedehusene;11;8;6;7;10;7;4;10
+Ejerlejligheder;2650 Hvidovre;16;17;30;25;35;29;36;37
+Ejerlejligheder;2660 Brøndby Strand;0;0;0;0;0;0;0;1
+Ejerlejligheder;2665 Vallensbæk Strand;10;15;12;16;19;16;19;21
+Ejerlejligheder;2670 Greve;9;6;8;10;12;8;9;11
+Ejerlejligheder;2680 Solrød Strand;14;4;8;10;5;9;8;16
+Ejerlejligheder;2690 Karlslunde;0;1;1;1;0;2;2;1
+Ejerlejligheder;2700 Brønshøj;27;22;41;43;35;60;58;44
+Ejerlejligheder;2720 Vanløse;52;50;62;69;66;82;84;105
+Ejerlejligheder;2730 Herlev;8;10;9;10;10;7;7;8
+Ejerlejligheder;2740 Skovlunde;0;1;0;0;1;0;1;1
+Ejerlejligheder;2750 Ballerup;7;8;9;14;10;10;11;6
+Ejerlejligheder;2760 Måløv;1;2;7;3;7;3;13;6
+Ejerlejligheder;2765 Smørum;10;3;5;9;3;8;14;6
+Ejerlejligheder;2770 Kastrup;28;23;21;31;30;39;34;36
+Ejerlejligheder;2791 Dragør;3;4;8;5;2;2;7;10
+Ejerlejligheder;2800 Kongens Lyngby;47;42;45;52;62;57;65;78
+Ejerlejligheder;2820 Gentofte;23;26;30;30;34;41;28;34
+Ejerlejligheder;2830 Virum;19;19;19;19;18;22;22;26
+Ejerlejligheder;2840 Holte;22;19;16;16;17;22;38;33
+Ejerlejligheder;2850 Nærum;10;9;11;7;12;11;12;9
+Ejerlejligheder;2860 Søborg;33;36;39;54;48;48;67;65
+Ejerlejligheder;2870 Dyssegård;10;19;17;22;13;15;26;29
+Ejerlejligheder;2880 Bagsværd;7;13;19;22;13;16;21;27
+Ejerlejligheder;2900 Hellerup;43;49;61;57;69;52;59;62
+Ejerlejligheder;2920 Charlottenlund;44;45;52;43;56;53;66;70
+Ejerlejligheder;2930 Klampenborg;6;5;1;8;2;3;6;6
+Ejerlejligheder;2942 Skodsborg;3;4;5;9;9;4;16;8
+Ejerlejligheder;2950 Vedbæk;3;4;1;1;1;2;3;2
+Ejerlejligheder;2960 Rungsted Kyst;5;4;2;2;5;0;1;6
+Ejerlejligheder;2970 Hørsholm;21;13;16;21;14;21;21;19
+Ejerlejligheder;2980 Kokkedal;6;7;2;6;7;12;4;12
+Ejerlejligheder;2990 Nivå;2;0;4;3;4;1;7;5
+Ejerlejligheder;3000 Helsingør;23;26;33;33;20;24;33;51
+Ejerlejligheder;3050 Humlebæk;8;2;5;3;6;4;7;4
+Ejerlejligheder;3060 Espergærde;6;9;6;10;8;12;10;13
+Ejerlejligheder;3070 Snekkersten;0;2;1;2;7;4;5;3
+Ejerlejligheder;3080 Tikøb;0;0;0;0;1;0;0;0
+Ejerlejligheder;3100 Hornbæk;0;0;1;2;2;2;1;1
+Ejerlejligheder;3120 Dronningmølle;2;0;0;0;1;0;0;0
+Ejerlejligheder;3140 Ålsgårde;0;0;0;0;1;0;0;2
+Ejerlejligheder;3150 Hellebæk;1;1;1;0;0;0;1;0
+Ejerlejligheder;3200 Helsinge;2;5;4;1;5;1;3;6
+Ejerlejligheder;3210 Vejby;0;0;1;1;0;0;0;0
+Ejerlejligheder;3220 Tisvildeleje;2;0;1;0;2;0;2;1
+Ejerlejligheder;3230 Græsted;0;1;0;1;1;0;0;1
+Ejerlejligheder;3250 Gilleleje;3;1;0;0;1;1;5;4
+Ejerlejligheder;3300 Frederiksværk;7;3;2;2;4;1;3;8
+Ejerlejligheder;3310 Ølsted;0;0;0;0;0;0;0;0
+Ejerlejligheder;3320 Skævinge;1;0;0;0;1;0;0;0
+Ejerlejligheder;3330 Gørløse;0;0;0;0;0;0;0;0
+Ejerlejligheder;3360 Liseleje;0;0;0;0;0;0;0;1
+Ejerlejligheder;3370 Melby;0;0;0;0;0;0;1;0
+Ejerlejligheder;3390 Hundested;1;2;0;0;1;1;1;4
+Ejerlejligheder;3400 Hillerød;15;22;30;31;36;33;33;30
+Ejerlejligheder;3450 Allerød;6;4;7;2;6;6;2;10
+Ejerlejligheder;3460 Birkerød;20;12;17;18;30;24;33;25
+Ejerlejligheder;3480 Fredensborg;6;2;8;3;8;7;6;9
+Ejerlejligheder;3490 Kvistgård;0;0;0;0;0;0;0;0
+Ejerlejligheder;3500 Værløse;7;4;9;10;16;7;8;15
+Ejerlejligheder;3520 Farum;11;15;19;14;19;10;14;20
+Ejerlejligheder;3540 Lynge;0;0;0;0;0;0;0;2
+Ejerlejligheder;3550 Slangerup;0;1;0;0;0;1;0;0
+Ejerlejligheder;3600 Frederikssund;6;9;8;3;9;5;15;13
+Ejerlejligheder;3630 Jægerspris;0;0;0;0;0;0;2;1
+Ejerlejligheder;3650 Ølstykke;3;4;3;4;2;4;4;6
+Ejerlejligheder;3660 Stenløse;1;2;3;1;2;1;0;3
+Ejerlejligheder;3670 Veksø Sjælland;0;0;1;0;0;0;0;0
+Ejerlejligheder;3700 Rønne;2;0;4;1;3;2;2;1
+Ejerlejligheder;3720 Aakirkeby;0;0;0;0;0;0;0;0
+Ejerlejligheder;3730 Nexø;2;1;0;4;2;2;0;4
+Ejerlejligheder;3740 Svaneke;1;0;0;0;1;0;1;1
+Ejerlejligheder;3751 Østermarie;0;0;0;0;0;0;0;0
+Ejerlejligheder;3760 Gudhjem;2;1;2;5;4;1;3;2
+Ejerlejligheder;3770 Allinge;4;7;0;5;2;5;3;3
+Ejerlejligheder;3782 Klemensker;0;0;0;0;0;0;0;0
+Ejerlejligheder;3790 Hasle;2;0;2;2;1;0;2;1
+Ejerlejligheder;4000 Roskilde;48;52;51;53;58;58;63;66
+Ejerlejligheder;4030 Tune;0;0;0;0;0;0;0;0
+Ejerlejligheder;4040 Jyllinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;4050 Skibby;2;1;2;1;0;2;1;2
+Ejerlejligheder;4060 Kirke Såby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4070 Kirke Hyllinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;4100 Ringsted;5;8;8;13;16;7;10;13
+Ejerlejligheder;4105 Ringsted;0;0;0;0;0;0;0;0
+Ejerlejligheder;4130 Viby Sjælland;1;0;1;1;0;0;2;0
+Ejerlejligheder;4140 Borup;0;0;0;0;0;0;0;0
+Ejerlejligheder;4160 Herlufmagle;0;0;0;0;0;0;0;0
+Ejerlejligheder;4171 Glumsø;0;0;0;0;0;1;1;0
+Ejerlejligheder;4173 Fjenneslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;4174 Jystrup Midtsj;0;0;0;0;0;0;0;0
+Ejerlejligheder;4180 Sorø;1;3;4;1;3;5;7;3
+Ejerlejligheder;4190 Munke Bjergby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4200 Slagelse;6;9;9;7;9;10;14;9
+Ejerlejligheder;4220 Korsør;7;7;3;4;14;2;9;9
+Ejerlejligheder;4230 Skælskør;2;1;3;1;3;1;1;1
+Ejerlejligheder;4241 Vemmelev;0;0;0;0;0;0;0;0
+Ejerlejligheder;4242 Boeslunde;0;0;0;0;0;0;0;0
+Ejerlejligheder;4243 Rude;0;0;0;0;0;0;0;0
+Ejerlejligheder;4250 Fuglebjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;4261 Dalmose;0;0;0;0;0;0;0;0
+Ejerlejligheder;4262 Sandved;0;0;0;0;0;0;0;0
+Ejerlejligheder;4270 Høng;0;0;0;0;0;0;0;1
+Ejerlejligheder;4281 Gørlev;0;0;0;0;0;1;0;0
+Ejerlejligheder;4291 Ruds Vedby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4293 Dianalund;0;0;0;0;0;0;0;0
+Ejerlejligheder;4295 Stenlille;0;0;0;0;0;0;0;0
+Ejerlejligheder;4296 Nyrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;4300 Holbæk;6;10;5;8;7;9;13;17
+Ejerlejligheder;4320 Lejre;2;0;0;1;1;0;0;0
+Ejerlejligheder;4330 Hvalsø;1;0;0;0;1;1;0;1
+Ejerlejligheder;4340 Tølløse;0;0;0;1;0;2;1;0
+Ejerlejligheder;4350 Ugerløse;0;0;0;0;0;0;0;0
+Ejerlejligheder;4360 Kirke Eskilstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;4370 Store Merløse;0;0;0;0;0;0;0;0
+Ejerlejligheder;4390 Vipperød;1;0;0;0;0;0;0;0
+Ejerlejligheder;4400 Kalundborg;2;3;2;6;1;1;2;0
+Ejerlejligheder;4420 Regstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;4440 Mørkøv;0;0;0;0;0;0;0;0
+Ejerlejligheder;4450 Jyderup;0;0;0;0;1;0;1;0
+Ejerlejligheder;4460 Snertinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;4470 Svebølle;0;0;0;0;0;0;0;0
+Ejerlejligheder;4480 Store Fuglede;0;0;0;0;0;0;0;0
+Ejerlejligheder;4490 Jerslev Sjælland;0;0;0;0;0;0;0;0
+Ejerlejligheder;4500 Nykøbing Sj;0;0;2;1;2;1;4;4
+Ejerlejligheder;4520 Svinninge;1;2;2;0;0;0;1;0
+Ejerlejligheder;4532 Gislinge;1;1;0;1;0;0;0;0
+Ejerlejligheder;4534 Hørve;0;0;0;0;1;0;0;1
+Ejerlejligheder;4540 Fårevejle;0;0;0;0;0;0;0;0
+Ejerlejligheder;4550 Asnæs;1;0;1;1;1;0;2;0
+Ejerlejligheder;4560 Vig;0;0;0;0;0;1;0;0
+Ejerlejligheder;4571 Grevinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;4572 Nørre Asmindrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;4573 Højby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4581 Rørvig;0;0;0;0;0;0;0;0
+Ejerlejligheder;4583 Sjællands Odde;0;0;0;0;0;0;0;0
+Ejerlejligheder;4591 Føllenslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;4592 Sejerø;0;0;0;0;0;0;0;0
+Ejerlejligheder;4593 Eskebjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;4600 Køge;15;14;18;19;14;24;18;21
+Ejerlejligheder;4621 Gadstrup;0;2;0;1;0;0;0;0
+Ejerlejligheder;4622 Havdrup;0;0;1;1;0;0;1;1
+Ejerlejligheder;4623 Lille Skensved;0;0;0;0;0;0;0;0
+Ejerlejligheder;4632 Bjæverskov;0;0;0;0;0;0;1;0
+Ejerlejligheder;4640 Faxe;0;0;0;1;0;0;0;0
+Ejerlejligheder;4652 Hårlev;0;0;0;0;2;1;2;0
+Ejerlejligheder;4653 Karise;0;0;0;0;0;0;0;0
+Ejerlejligheder;4654 Faxe Ladeplads;0;0;0;0;0;0;0;1
+Ejerlejligheder;4660 Store Heddinge;0;0;0;0;1;0;1;0
+Ejerlejligheder;4671 Strøby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4672 Klippinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;4673 Rødvig Stevns;1;1;0;0;0;0;1;0
+Ejerlejligheder;4681 Herfølge;0;0;2;4;1;1;2;0
+Ejerlejligheder;4682 Tureby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4683 Rønnede;0;0;0;0;0;0;0;0
+Ejerlejligheder;4684 Holmegaard;0;0;0;0;0;0;0;0
+Ejerlejligheder;4690 Haslev;2;2;0;0;1;2;2;1
+Ejerlejligheder;4700 Næstved;16;29;18;14;30;21;33;28
+Ejerlejligheder;4720 Præstø;0;5;1;1;1;3;0;1
+Ejerlejligheder;4733 Tappernøje;0;0;1;0;0;0;0;0
+Ejerlejligheder;4735 Mern;0;0;0;0;0;0;0;0
+Ejerlejligheder;4736 Karrebæksminde;1;1;0;0;1;0;0;0
+Ejerlejligheder;4750 Lundby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4760 Vordingborg;5;2;5;5;2;2;2;2
+Ejerlejligheder;4771 Kalvehave;0;0;0;0;0;0;0;0
+Ejerlejligheder;4772 Langebæk;0;0;0;0;0;0;0;0
+Ejerlejligheder;4773 Stensved;0;0;0;0;0;0;0;0
+Ejerlejligheder;4780 Stege;0;0;1;1;1;0;1;1
+Ejerlejligheder;4791 Borre;0;0;0;0;0;0;0;0
+Ejerlejligheder;4792 Askeby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4793 Bogø By;0;0;0;0;0;0;0;0
+Ejerlejligheder;4800 Nykøbing F;7;2;4;5;3;4;6;5
+Ejerlejligheder;4840 Nørre Alslev;0;0;1;0;0;0;0;0
+Ejerlejligheder;4850 Stubbekøbing;0;0;0;0;0;0;0;0
+Ejerlejligheder;4862 Guldborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;4863 Eskilstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;4871 Horbelev;0;0;0;0;0;0;0;0
+Ejerlejligheder;4872 Idestrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;4873 Væggerløse;0;1;1;1;1;2;2;2
+Ejerlejligheder;4874 Gedser;0;0;0;0;0;0;0;0
+Ejerlejligheder;4880 Nysted;1;1;1;0;0;0;0;2
+Ejerlejligheder;4891 Toreby L;0;0;0;0;0;0;0;0
+Ejerlejligheder;4892 Kettinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;4894 Øster Ulslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;4895 Errindlev;0;0;0;0;0;0;0;0
+Ejerlejligheder;4900 Nakskov;1;0;0;0;0;1;2;1
+Ejerlejligheder;4912 Harpelunde;0;0;0;0;0;0;0;0
+Ejerlejligheder;4913 Horslunde;0;0;0;0;0;0;0;0
+Ejerlejligheder;4920 Søllested;0;0;0;0;0;0;0;0
+Ejerlejligheder;4930 Maribo;2;2;3;2;0;0;0;1
+Ejerlejligheder;4941 Bandholm;0;0;0;0;0;0;0;0
+Ejerlejligheder;4943 Torrig L;0;0;0;0;0;0;0;0
+Ejerlejligheder;4944 Fejø;0;0;0;0;0;0;0;0
+Ejerlejligheder;4951 Nørreballe;0;0;0;0;0;0;0;0
+Ejerlejligheder;4952 Stokkemarke;0;0;0;0;0;0;0;0
+Ejerlejligheder;4953 Vesterborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;4960 Holeby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4970 Rødby;0;0;0;0;0;0;0;0
+Ejerlejligheder;4983 Dannemare;0;0;0;0;0;0;0;0
+Ejerlejligheder;4990 Sakskøbing;0;0;0;0;0;0;0;0
+Ejerlejligheder;5000 Odense C;57;54;49;63;75;66;96;74
+Ejerlejligheder;5200 Odense V;2;1;2;2;2;1;3;2
+Ejerlejligheder;5210 Odense NV;3;1;1;1;2;1;0;2
+Ejerlejligheder;5220 Odense SØ;0;1;0;0;0;0;1;3
+Ejerlejligheder;5230 Odense M;8;3;7;6;6;13;4;6
+Ejerlejligheder;5240 Odense NØ;0;0;0;0;0;0;0;0
+Ejerlejligheder;5250 Odense SV;9;5;4;4;8;5;12;9
+Ejerlejligheder;5260 Odense S;1;0;0;0;2;2;0;2
+Ejerlejligheder;5270 Odense N;7;0;1;3;4;4;1;6
+Ejerlejligheder;5290 Marslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;5300 Kerteminde;1;0;0;0;0;1;0;1
+Ejerlejligheder;5320 Agedrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5330 Munkebo;0;0;0;0;0;0;0;0
+Ejerlejligheder;5350 Rynkeby;0;0;0;0;0;0;0;0
+Ejerlejligheder;5370 Mesinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;5380 Dalby;0;0;0;0;0;0;0;0
+Ejerlejligheder;5390 Martofte;0;0;0;0;0;0;0;0
+Ejerlejligheder;5400 Bogense;2;3;2;1;1;0;3;5
+Ejerlejligheder;5450 Otterup;0;0;0;1;0;0;0;0
+Ejerlejligheder;5462 Morud;0;0;0;0;0;0;0;0
+Ejerlejligheder;5463 Harndrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5464 Brenderup Fyn;0;0;0;0;0;0;0;0
+Ejerlejligheder;5466 Asperup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5471 Søndersø;0;0;0;0;0;1;0;1
+Ejerlejligheder;5474 Veflinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;5485 Skamby;0;0;0;0;0;0;0;0
+Ejerlejligheder;5491 Blommenslyst;0;0;0;0;0;0;0;0
+Ejerlejligheder;5492 Vissenbjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;5500 Middelfart;1;2;1;3;4;4;4;8
+Ejerlejligheder;5540 Ullerslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;5550 Langeskov;0;0;0;0;0;0;0;0
+Ejerlejligheder;5560 Aarup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5580 Nørre Aaby;0;0;0;0;0;0;0;0
+Ejerlejligheder;5591 Gelsted;0;0;0;0;0;0;0;0
+Ejerlejligheder;5592 Ejby;0;0;0;0;0;0;0;0
+Ejerlejligheder;5600 Faaborg;1;2;4;2;1;4;3;3
+Ejerlejligheder;5610 Assens;1;0;1;2;2;0;1;1
+Ejerlejligheder;5620 Glamsbjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;5631 Ebberup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5642 Millinge;0;0;0;0;0;0;0;0
+Ejerlejligheder;5672 Broby;0;0;0;0;0;0;0;0
+Ejerlejligheder;5683 Haarby;0;0;0;0;0;0;0;0
+Ejerlejligheder;5690 Tommerup;0;1;0;0;1;1;2;0
+Ejerlejligheder;5700 Svendborg;7;2;2;2;5;8;5;6
+Ejerlejligheder;5750 Ringe;1;1;1;0;0;0;0;0
+Ejerlejligheder;5762 Vester Skerninge;0;0;0;0;0;0;0;0
+Ejerlejligheder;5771 Stenstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5772 Kværndrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5792 Årslev;1;0;0;0;1;1;1;0
+Ejerlejligheder;5800 Nyborg;6;2;3;4;3;8;6;7
+Ejerlejligheder;5853 Ørbæk;0;0;1;0;0;0;0;0
+Ejerlejligheder;5854 Gislev;0;0;0;0;0;0;0;0
+Ejerlejligheder;5856 Ryslinge;0;1;0;1;0;0;0;0
+Ejerlejligheder;5863 Ferritslev Fyn;0;0;0;0;0;0;0;0
+Ejerlejligheder;5871 Frørup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5874 Hesselager;1;0;0;0;0;0;0;0
+Ejerlejligheder;5881 Skårup Fyn;0;0;0;0;0;0;0;0
+Ejerlejligheder;5882 Vejstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;5883 Oure;0;0;0;0;0;0;0;0
+Ejerlejligheder;5884 Gudme;0;0;0;0;0;0;0;0
+Ejerlejligheder;5892 Gudbjerg Sydfyn;0;0;0;0;0;0;0;0
+Ejerlejligheder;5900 Rudkøbing;0;0;0;4;1;0;0;3
+Ejerlejligheder;5932 Humble;0;0;0;0;0;0;0;0
+Ejerlejligheder;5935 Bagenkop;0;0;0;0;0;0;0;0
+Ejerlejligheder;5953 Tranekær;2;0;0;0;0;0;0;1
+Ejerlejligheder;5960 Marstal;0;0;0;0;0;0;0;0
+Ejerlejligheder;5970 Ærøskøbing;0;1;0;0;0;0;0;0
+Ejerlejligheder;5985 Søby Ærø;0;0;0;0;0;0;0;0
+Ejerlejligheder;6000 Kolding;14;9;10;9;12;8;15;12
+Ejerlejligheder;6040 Egtved;0;0;0;0;0;0;0;0
+Ejerlejligheder;6051 Almind;0;0;0;0;0;0;0;0
+Ejerlejligheder;6052 Viuf;0;0;0;0;0;0;0;0
+Ejerlejligheder;6064 Jordrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;6070 Christiansfeld;0;0;0;0;0;0;0;0
+Ejerlejligheder;6091 Bjert;0;0;0;0;0;0;0;0
+Ejerlejligheder;6092 Sønder Stenderup;0;0;0;0;0;0;0;0
+Ejerlejligheder;6093 Sjølund;0;0;0;0;0;0;0;0
+Ejerlejligheder;6094 Hejls;1;0;0;0;0;0;1;0
+Ejerlejligheder;6100 Haderslev;10;6;2;5;2;7;12;3
+Ejerlejligheder;6200 Aabenraa;3;4;2;7;3;2;7;2
+Ejerlejligheder;6230 Rødekro;0;0;0;0;1;1;0;0
+Ejerlejligheder;6240 Løgumkloster;0;0;0;0;0;1;0;0
+Ejerlejligheder;6261 Bredebro;0;0;0;0;0;0;0;0
+Ejerlejligheder;6270 Tønder;1;0;1;0;0;0;0;0
+Ejerlejligheder;6280 Højer;0;0;0;0;0;0;0;0
+Ejerlejligheder;6300 Gråsten;3;2;0;1;0;2;1;3
+Ejerlejligheder;6310 Broager;0;0;0;0;0;0;0;0
+Ejerlejligheder;6320 Egernsund;0;0;0;0;1;0;0;0
+Ejerlejligheder;6330 Padborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;6340 Kruså;0;1;0;0;0;1;0;1
+Ejerlejligheder;6360 Tinglev;0;0;0;0;0;0;0;0
+Ejerlejligheder;6372 Bylderup-Bov;0;0;0;0;0;0;0;0
+Ejerlejligheder;6392 Bolderslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;6400 Sønderborg;5;13;5;11;7;6;6;8
+Ejerlejligheder;6430 Nordborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;6440 Augustenborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;6470 Sydals;0;0;0;0;0;0;0;0
+Ejerlejligheder;6500 Vojens;0;0;0;0;0;0;0;0
+Ejerlejligheder;6510 Gram;0;0;0;0;0;0;0;0
+Ejerlejligheder;6520 Toftlund;0;0;0;0;0;0;0;0
+Ejerlejligheder;6534 Agerskov;0;0;0;0;0;0;0;0
+Ejerlejligheder;6535 Branderup J;0;0;0;0;0;0;0;0
+Ejerlejligheder;6541 Bevtoft;0;0;0;0;0;0;0;0
+Ejerlejligheder;6560 Sommersted;0;0;0;0;0;0;0;0
+Ejerlejligheder;6580 Vamdrup;0;0;0;0;0;2;0;2
+Ejerlejligheder;6600 Vejen;0;0;1;1;3;1;2;0
+Ejerlejligheder;6621 Gesten;0;0;0;0;0;0;0;0
+Ejerlejligheder;6622 Bække;0;0;0;0;0;0;0;0
+Ejerlejligheder;6623 Vorbasse;0;0;0;0;0;0;0;0
+Ejerlejligheder;6630 Rødding;0;0;0;0;0;1;0;0
+Ejerlejligheder;6640 Lunderskov;0;0;0;0;0;0;0;0
+Ejerlejligheder;6650 Brørup;0;1;1;0;0;0;0;0
+Ejerlejligheder;6660 Lintrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;6670 Holsted;0;0;0;1;1;0;0;0
+Ejerlejligheder;6682 Hovborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;6683 Føvling;0;0;0;0;0;0;0;0
+Ejerlejligheder;6690 Gørding;0;0;0;0;0;0;1;0
+Ejerlejligheder;6700 Esbjerg;41;22;26;22;33;35;39;34
+Ejerlejligheder;6705 Esbjerg Ø;6;2;2;0;4;1;0;0
+Ejerlejligheder;6710 Esbjerg V;4;0;0;2;4;3;5;1
+Ejerlejligheder;6715 Esbjerg N;1;0;1;3;2;4;3;3
+Ejerlejligheder;6720 Fanø;2;2;2;3;3;4;4;4
+Ejerlejligheder;6731 Tjæreborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;6740 Bramming;1;0;5;0;1;0;0;0
+Ejerlejligheder;6752 Glejbjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;6753 Agerbæk;0;0;0;0;0;0;0;0
+Ejerlejligheder;6760 Ribe;0;1;2;1;1;1;3;2
+Ejerlejligheder;6771 Gredstedbro;0;0;0;0;0;0;0;0
+Ejerlejligheder;6780 Skærbæk;0;0;0;0;0;0;0;0
+Ejerlejligheder;6792 Rømø;8;3;1;6;6;1;6;3
+Ejerlejligheder;6800 Varde;4;2;2;2;2;1;5;5
+Ejerlejligheder;6818 Årre;0;0;0;0;0;0;0;0
+Ejerlejligheder;6823 Ansager;0;1;0;0;0;0;0;0
+Ejerlejligheder;6830 Nørre Nebel;1;0;0;1;5;2;0;0
+Ejerlejligheder;6840 Oksbøl;1;0;0;0;0;0;0;0
+Ejerlejligheder;6851 Janderup Vestj;0;0;0;0;0;0;0;0
+Ejerlejligheder;6852 Billum;0;0;0;0;0;0;0;0
+Ejerlejligheder;6853 Vejers Strand;1;0;0;1;0;0;0;0
+Ejerlejligheder;6854 Henne;0;3;0;3;1;2;2;2
+Ejerlejligheder;6855 Outrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;6857 Blåvand;4;0;5;2;5;1;9;2
+Ejerlejligheder;6862 Tistrup;0;0;0;0;1;0;0;0
+Ejerlejligheder;6870 Ølgod;0;0;0;0;0;0;0;2
+Ejerlejligheder;6880 Tarm;0;0;0;0;0;0;0;0
+Ejerlejligheder;6893 Hemmet;0;0;0;0;0;0;0;0
+Ejerlejligheder;6900 Skjern;1;1;0;0;0;0;0;1
+Ejerlejligheder;6920 Videbæk;2;2;2;2;0;0;1;0
+Ejerlejligheder;6933 Kibæk;0;0;0;0;0;0;0;2
+Ejerlejligheder;6940 Lem St;0;0;0;0;0;0;0;0
+Ejerlejligheder;6950 Ringkøbing;3;1;1;5;3;2;3;6
+Ejerlejligheder;6960 Hvide Sande;3;2;1;2;2;2;0;3
+Ejerlejligheder;6971 Spjald;0;0;0;0;0;0;0;0
+Ejerlejligheder;6973 Ørnhøj;0;0;0;0;0;0;0;0
+Ejerlejligheder;6980 Tim;0;0;0;0;0;0;0;0
+Ejerlejligheder;6990 Ulfborg;0;0;0;0;2;2;0;0
+Ejerlejligheder;7000 Fredericia;10;12;8;7;6;7;7;8
+Ejerlejligheder;7007 Fredericia;0;0;0;0;0;0;0;0
+Ejerlejligheder;7080 Børkop;1;0;1;0;1;1;0;1
+Ejerlejligheder;7100 Vejle;17;20;13;21;18;18;35;27
+Ejerlejligheder;7120 Vejle Øst;1;0;0;0;1;0;0;1
+Ejerlejligheder;7130 Juelsminde;0;0;3;2;1;2;2;2
+Ejerlejligheder;7140 Stouby;0;0;0;0;0;0;0;0
+Ejerlejligheder;7150 Barrit;0;0;0;0;0;0;0;0
+Ejerlejligheder;7160 Tørring;0;0;0;0;0;0;0;0
+Ejerlejligheder;7171 Uldum;0;0;0;0;0;0;0;0
+Ejerlejligheder;7173 Vonge;0;0;0;0;0;0;0;0
+Ejerlejligheder;7182 Bredsten;0;0;0;0;0;0;0;0
+Ejerlejligheder;7183 Randbøl;0;0;0;0;0;0;0;0
+Ejerlejligheder;7184 Vandel;0;0;0;0;0;0;0;0
+Ejerlejligheder;7190 Billund;1;0;0;0;0;0;0;0
+Ejerlejligheder;7200 Grindsted;1;3;1;0;0;1;2;0
+Ejerlejligheder;7250 Hejnsvig;0;0;0;0;0;0;0;0
+Ejerlejligheder;7260 Sønder Omme;0;0;0;0;0;0;0;0
+Ejerlejligheder;7270 Stakroge;0;0;0;0;0;0;0;0
+Ejerlejligheder;7280 Sønder Felding;0;0;0;0;0;0;0;0
+Ejerlejligheder;7300 Jelling;1;1;1;0;0;0;0;0
+Ejerlejligheder;7321 Gadbjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;7323 Give;0;1;2;1;0;1;0;1
+Ejerlejligheder;7330 Brande;0;0;0;0;0;0;1;0
+Ejerlejligheder;7361 Ejstrupholm;0;0;0;0;0;0;0;0
+Ejerlejligheder;7362 Hampen;0;0;0;0;0;0;0;0
+Ejerlejligheder;7400 Herning;16;9;19;25;16;23;25;29
+Ejerlejligheder;7430 Ikast;3;8;4;6;3;1;8;4
+Ejerlejligheder;7441 Bording;0;0;0;0;1;0;0;0
+Ejerlejligheder;7442 Engesvang;0;1;0;0;0;3;0;0
+Ejerlejligheder;7451 Sunds;0;1;1;0;0;0;0;1
+Ejerlejligheder;7470 Karup J;0;0;0;0;0;0;0;0
+Ejerlejligheder;7480 Vildbjerg;1;1;0;2;1;0;3;0
+Ejerlejligheder;7490 Aulum;1;0;0;0;0;0;0;0
+Ejerlejligheder;7500 Holstebro;3;7;5;9;11;5;2;11
+Ejerlejligheder;7540 Haderup;0;0;0;0;0;0;0;0
+Ejerlejligheder;7550 Sørvad;0;0;0;0;0;0;0;0
+Ejerlejligheder;7560 Hjerm;0;2;0;0;0;0;1;0
+Ejerlejligheder;7570 Vemb;0;0;0;0;0;0;0;0
+Ejerlejligheder;7600 Struer;2;4;3;1;2;2;0;2
+Ejerlejligheder;7620 Lemvig;2;0;0;3;3;0;3;0
+Ejerlejligheder;7650 Bøvlingbjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;7660 Bækmarksbro;0;0;0;0;0;0;0;0
+Ejerlejligheder;7673 Harboøre;0;0;0;0;0;0;0;0
+Ejerlejligheder;7680 Thyborøn;0;0;0;0;0;0;0;0
+Ejerlejligheder;7700 Thisted;2;3;1;2;2;4;4;4
+Ejerlejligheder;7730 Hanstholm;1;0;1;0;0;0;0;0
+Ejerlejligheder;7741 Frøstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;7742 Vesløs;0;0;0;0;0;0;0;0
+Ejerlejligheder;7752 Snedsted;0;0;0;0;0;0;0;0
+Ejerlejligheder;7755 Bedsted Thy;0;0;0;0;0;0;0;0
+Ejerlejligheder;7760 Hurup Thy;0;0;0;0;0;0;0;0
+Ejerlejligheder;7770 Vestervig;3;1;1;2;0;0;0;4
+Ejerlejligheder;7790 Thyholm;0;0;0;0;0;0;0;0
+Ejerlejligheder;7800 Skive;1;0;0;2;2;1;3;2
+Ejerlejligheder;7830 Vinderup;1;0;0;0;0;0;0;0
+Ejerlejligheder;7840 Højslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;7850 Stoholm Jyll;0;0;0;0;0;0;0;0
+Ejerlejligheder;7860 Spøttrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;7870 Roslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;7884 Fur;0;0;0;0;0;0;0;0
+Ejerlejligheder;7900 Nykøbing M;0;0;0;0;0;0;0;0
+Ejerlejligheder;7950 Erslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;7960 Karby;0;0;0;0;0;0;0;0
+Ejerlejligheder;7970 Redsted M;0;0;0;0;0;0;0;0
+Ejerlejligheder;7980 Vils;0;0;0;0;0;0;0;0
+Ejerlejligheder;7990 Øster Assels;0;0;0;0;0;0;0;0
+Ejerlejligheder;8000 Århus C;155;112;143;166;204;173;241;292
+Ejerlejligheder;8200 Århus N;41;29;35;50;48;36;53;83
+Ejerlejligheder;8210 Århus V;10;8;5;10;10;4;9;10
+Ejerlejligheder;8220 Brabrand;9;7;12;8;10;13;7;13
+Ejerlejligheder;8230 Åbyhøj;21;14;8;8;29;8;9;19
+Ejerlejligheder;8240 Risskov;24;16;22;18;17;23;22;26
+Ejerlejligheder;8245 Risskov Ø;0;0;0;0;0;0;0;0
+Ejerlejligheder;8250 Egå;2;4;7;2;5;12;6;6
+Ejerlejligheder;8260 Viby J;20;18;18;19;24;19;22;25
+Ejerlejligheder;8270 Højbjerg;16;11;11;7;14;18;14;22
+Ejerlejligheder;8300 Odder;4;4;3;1;7;2;6;7
+Ejerlejligheder;8305 Samsø;0;0;1;0;0;0;1;0
+Ejerlejligheder;8310 Tranbjerg J;0;1;0;0;1;2;1;0
+Ejerlejligheder;8320 Mårslet;0;1;0;1;0;0;0;1
+Ejerlejligheder;8330 Beder;2;0;2;1;0;2;2;2
+Ejerlejligheder;8340 Malling;0;0;0;0;0;1;0;0
+Ejerlejligheder;8350 Hundslund;0;0;0;0;0;0;0;0
+Ejerlejligheder;8355 Solbjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;8361 Hasselager;0;0;0;1;0;0;1;1
+Ejerlejligheder;8362 Hørning;1;2;1;1;2;3;0;4
+Ejerlejligheder;8370 Hadsten;3;1;5;0;0;1;4;1
+Ejerlejligheder;8380 Trige;1;0;0;1;0;1;0;2
+Ejerlejligheder;8381 Tilst;3;0;1;1;3;0;3;2
+Ejerlejligheder;8382 Hinnerup;1;1;0;0;0;0;1;0
+Ejerlejligheder;8400 Ebeltoft;2;2;3;7;7;5;9;4
+Ejerlejligheder;8410 Rønde;1;0;2;1;0;0;0;0
+Ejerlejligheder;8420 Knebel;0;0;0;0;0;0;0;0
+Ejerlejligheder;8444 Balle;0;0;0;0;0;0;0;0
+Ejerlejligheder;8450 Hammel;0;0;0;1;2;0;1;0
+Ejerlejligheder;8462 Harlev J;0;0;0;0;0;0;0;0
+Ejerlejligheder;8464 Galten;0;2;3;1;3;1;4;5
+Ejerlejligheder;8471 Sabro;1;0;0;1;0;1;0;1
+Ejerlejligheder;8472 Sporup;0;0;0;0;0;0;0;0
+Ejerlejligheder;8500 Grenaa;4;2;4;2;4;6;5;1
+Ejerlejligheder;8520 Lystrup;3;4;2;3;3;2;4;5
+Ejerlejligheder;8530 Hjortshøj;0;0;1;1;0;0;0;0
+Ejerlejligheder;8541 Skødstrup;6;3;5;0;3;4;3;11
+Ejerlejligheder;8543 Hornslet;0;0;0;0;0;0;0;1
+Ejerlejligheder;8544 Mørke;0;1;0;0;0;0;0;0
+Ejerlejligheder;8550 Ryomgård;0;0;0;0;0;0;0;0
+Ejerlejligheder;8560 Kolind;1;0;0;0;0;0;0;0
+Ejerlejligheder;8570 Trustrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;8581 Nimtofte;0;2;0;0;0;0;0;0
+Ejerlejligheder;8585 Glesborg;0;2;0;0;1;0;1;1
+Ejerlejligheder;8586 Ørum Djurs;0;0;0;0;0;0;0;0
+Ejerlejligheder;8592 Anholt;0;0;0;0;0;0;0;0
+Ejerlejligheder;8600 Silkeborg;7;10;11;8;4;13;16;17
+Ejerlejligheder;8620 Kjellerup;1;0;1;0;0;0;0;0
+Ejerlejligheder;8632 Lemming;0;0;0;0;0;0;0;0
+Ejerlejligheder;8641 Sorring;0;0;0;0;0;0;0;0
+Ejerlejligheder;8643 Ans By;0;0;0;0;0;0;0;0
+Ejerlejligheder;8653 Them;0;0;0;0;0;0;0;0
+Ejerlejligheder;8654 Bryrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;8660 Skanderborg;1;4;11;15;5;10;9;4
+Ejerlejligheder;8670 Låsby;0;0;0;0;0;0;0;0
+Ejerlejligheder;8680 Ry;2;2;0;2;2;0;2;1
+Ejerlejligheder;8700 Horsens;10;15;14;13;17;20;24;24
+Ejerlejligheder;8721 Daugård;0;0;0;0;0;0;0;0
+Ejerlejligheder;8722 Hedensted;0;0;2;2;0;2;0;2
+Ejerlejligheder;8723 Løsning;0;0;1;0;0;0;0;0
+Ejerlejligheder;8732 Hovedgård;0;0;0;0;0;0;0;0
+Ejerlejligheder;8740 Brædstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;8751 Gedved;0;0;0;0;0;0;0;0
+Ejerlejligheder;8752 Østbirk;0;0;0;0;0;0;0;0
+Ejerlejligheder;8762 Flemming;0;0;0;0;0;0;0;0
+Ejerlejligheder;8763 Rask Mølle;0;0;0;0;0;0;0;0
+Ejerlejligheder;8765 Klovborg;0;0;0;0;0;0;0;0
+Ejerlejligheder;8766 Nørre Snede;0;0;0;0;0;0;0;0
+Ejerlejligheder;8781 Stenderup;0;0;0;0;0;0;0;0
+Ejerlejligheder;8783 Hornsyld;0;0;0;0;0;0;0;0
+Ejerlejligheder;8800 Viborg;11;13;13;15;13;9;11;13
+Ejerlejligheder;8830 Tjele;0;0;0;0;0;0;0;1
+Ejerlejligheder;8831 Løgstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;8832 Skals;0;0;0;0;0;0;0;0
+Ejerlejligheder;8840 Rødkærsbro;0;0;0;0;0;0;0;0
+Ejerlejligheder;8850 Bjerringbro;0;0;2;0;0;0;1;0
+Ejerlejligheder;8860 Ulstrup;0;0;0;0;1;0;0;0
+Ejerlejligheder;8870 Langå;0;0;1;0;0;0;0;0
+Ejerlejligheder;8881 Thorsø;0;0;0;0;0;0;0;0
+Ejerlejligheder;8882 Fårvang;0;0;0;0;0;0;0;0
+Ejerlejligheder;8883 Gjern;0;0;0;0;0;0;0;0
+Ejerlejligheder;8900 Randers C;9;15;18;13;19;12;22;20
+Ejerlejligheder;8920 Randers NV;14;5;10;16;14;11;18;11
+Ejerlejligheder;8930 Randers NØ;9;11;15;8;8;4;11;10
+Ejerlejligheder;8940 Randers SV;1;7;6;4;3;5;8;8
+Ejerlejligheder;8950 Ørsted;0;0;0;0;0;0;0;0
+Ejerlejligheder;8960 Randers SØ;6;3;5;5;6;10;2;6
+Ejerlejligheder;8961 Allingåbro;0;0;0;0;0;0;0;0
+Ejerlejligheder;8963 Auning;0;0;0;1;0;0;0;0
+Ejerlejligheder;8970 Havndal;0;0;0;0;0;0;0;0
+Ejerlejligheder;8981 Spentrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;8983 Gjerlev J;0;0;0;0;0;0;0;0
+Ejerlejligheder;8990 Fårup;0;0;0;0;0;0;0;0
+Ejerlejligheder;9000 Aalborg;129;129;118;124;165;129;171;169
+Ejerlejligheder;9200 Aalborg SV;5;4;3;5;3;6;8;2
+Ejerlejligheder;9210 Aalborg SØ;9;4;3;6;4;5;8;5
+Ejerlejligheder;9220 Aalborg Øst;0;0;1;0;0;0;0;1
+Ejerlejligheder;9230 Svenstrup J;0;1;0;0;2;1;0;0
+Ejerlejligheder;9240 Nibe;0;0;0;1;1;0;1;0
+Ejerlejligheder;9260 Gistrup;1;0;0;0;0;0;0;0
+Ejerlejligheder;9270 Klarup;1;0;1;0;0;0;0;0
+Ejerlejligheder;9280 Storvorde;0;0;0;1;1;0;0;0
+Ejerlejligheder;9293 Kongerslev;0;0;0;0;0;1;0;0
+Ejerlejligheder;9300 Sæby;1;1;2;1;0;2;1;4
+Ejerlejligheder;9310 Vodskov;0;0;1;1;0;0;1;0
+Ejerlejligheder;9320 Hjallerup;0;0;0;1;0;0;0;0
+Ejerlejligheder;9330 Dronninglund;0;0;0;1;0;0;0;0
+Ejerlejligheder;9340 Asaa;0;0;0;0;0;0;0;0
+Ejerlejligheder;9352 Dybvad;0;0;0;0;0;0;0;0
+Ejerlejligheder;9362 Gandrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;9370 Hals;1;0;0;0;0;0;0;0
+Ejerlejligheder;9380 Vestbjerg;0;0;0;0;0;0;0;0
+Ejerlejligheder;9381 Sulsted;0;0;0;0;0;0;0;0
+Ejerlejligheder;9382 Tylstrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;9400 Nørresundby;32;21;28;29;34;30;30;32
+Ejerlejligheder;9430 Vadum;0;1;0;0;3;1;0;1
+Ejerlejligheder;9440 Aabybro;0;0;0;1;0;0;0;0
+Ejerlejligheder;9460 Brovst;0;0;0;0;0;0;0;0
+Ejerlejligheder;9480 Løkken;4;4;1;7;4;2;4;0
+Ejerlejligheder;9490 Pandrup;0;0;3;0;3;1;0;4
+Ejerlejligheder;9492 Blokhus;3;6;2;3;5;3;5;9
+Ejerlejligheder;9493 Saltum;0;0;0;0;0;0;0;0
+Ejerlejligheder;9500 Hobro;1;3;1;2;0;1;1;3
+Ejerlejligheder;9510 Arden;0;0;0;0;0;0;0;0
+Ejerlejligheder;9520 Skørping;0;0;0;0;0;0;0;0
+Ejerlejligheder;9530 Støvring;0;1;4;1;0;2;2;1
+Ejerlejligheder;9541 Suldrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;9550 Mariager;0;0;0;0;0;0;0;0
+Ejerlejligheder;9560 Hadsund;0;0;1;0;0;1;2;2
+Ejerlejligheder;9574 Bælum;0;0;0;0;0;0;0;0
+Ejerlejligheder;9575 Terndrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;9600 Aars;0;0;2;0;0;1;1;1
+Ejerlejligheder;9610 Nørager;0;0;0;0;0;0;0;0
+Ejerlejligheder;9620 Aalestrup;1;0;0;0;0;1;0;0
+Ejerlejligheder;9631 Gedsted;0;0;0;0;0;0;0;0
+Ejerlejligheder;9632 Møldrup;0;0;0;0;0;0;0;0
+Ejerlejligheder;9640 Farsø;0;0;0;0;0;0;1;0
+Ejerlejligheder;9670 Løgstør;0;1;0;0;0;0;0;0
+Ejerlejligheder;9681 Ranum;4;4;4;2;1;1;1;6
+Ejerlejligheder;9690 Fjerritslev;0;0;0;0;0;0;0;0
+Ejerlejligheder;9700 Brønderslev;0;0;0;1;0;1;1;4
+Ejerlejligheder;9740 Jerslev J;0;0;0;0;0;0;0;0
+Ejerlejligheder;9750 Østervrå;0;0;0;0;0;0;1;0
+Ejerlejligheder;9760 Vrå;0;0;0;0;0;0;0;0
+Ejerlejligheder;9800 Hjørring;4;4;3;0;7;2;5;4
+Ejerlejligheder;9830 Tårs;0;0;0;0;0;0;0;2
+Ejerlejligheder;9850 Hirtshals;3;3;10;7;8;5;5;2
+Ejerlejligheder;9870 Sindal;0;0;0;0;0;0;0;0
+Ejerlejligheder;9881 Bindslev;0;0;3;0;4;1;1;1
+Ejerlejligheder;9900 Frederikshavn;3;3;7;1;2;1;6;3
+Ejerlejligheder;9940 Læsø;1;0;0;0;0;0;0;0
+Ejerlejligheder;9970 Strandby;0;0;0;0;0;0;0;0
+Ejerlejligheder;9981 Jerup;0;0;0;0;0;0;0;0
+Ejerlejligheder;9982 Ålbæk;0;0;0;0;0;0;0;0
+Ejerlejligheder;9990 Skagen;4;3;3;2;3;3;4;5
+Fritidshuse;1000 København K;0;0;0;0;0;0;0;0
+Fritidshuse;1500 København V;0;0;0;0;0;0;0;0
+Fritidshuse;1800 Frederiksberg C;0;0;0;0;0;0;0;0
+Fritidshuse;2000 Frederiksberg;0;0;0;0;0;0;0;0
+Fritidshuse;2100 København Ø;0;0;0;0;0;0;0;0
+Fritidshuse;2200 København N;0;0;0;0;0;0;0;0
+Fritidshuse;2300 København S;0;0;0;0;0;0;0;0
+Fritidshuse;2400 København NV;0;0;0;0;0;0;0;0
+Fritidshuse;2450 København SV;0;0;0;0;0;0;0;0
+Fritidshuse;2500 Valby;0;0;0;0;0;0;0;0
+Fritidshuse;2600 Glostrup;0;0;0;0;0;0;0;0
+Fritidshuse;2605 Brøndby;0;0;0;0;0;0;0;0
+Fritidshuse;2610 Rødovre;0;0;0;0;0;0;0;0
+Fritidshuse;2620 Albertslund;0;0;0;0;0;0;0;0
+Fritidshuse;2625 Vallensbæk;0;0;0;0;0;0;0;0
+Fritidshuse;2630 Taastrup;0;0;0;1;1;0;0;3
+Fritidshuse;2633 Returpost;0;0;0;0;0;0;0;0
+Fritidshuse;2635 Ishøj;0;0;0;0;1;0;0;0
+Fritidshuse;2640 Hedehusene;0;0;0;0;0;0;0;0
+Fritidshuse;2650 Hvidovre;3;1;0;1;1;0;2;2
+Fritidshuse;2660 Brøndby Strand;0;0;0;0;0;0;0;0
+Fritidshuse;2665 Vallensbæk Strand;0;0;0;0;0;0;0;0
+Fritidshuse;2670 Greve;0;0;0;1;0;0;0;0
+Fritidshuse;2680 Solrød Strand;0;0;0;0;0;0;2;1
+Fritidshuse;2690 Karlslunde;0;0;0;1;1;0;0;0
+Fritidshuse;2700 Brønshøj;0;0;0;0;0;0;0;0
+Fritidshuse;2720 Vanløse;0;0;0;0;0;0;0;0
+Fritidshuse;2730 Herlev;0;0;0;0;0;1;0;0
+Fritidshuse;2740 Skovlunde;0;0;0;0;0;0;0;0
+Fritidshuse;2750 Ballerup;0;0;0;0;0;0;1;1
+Fritidshuse;2760 Måløv;0;0;0;0;0;0;0;0
+Fritidshuse;2765 Smørum;0;0;0;0;0;0;0;0
+Fritidshuse;2770 Kastrup;0;0;0;0;0;0;0;0
+Fritidshuse;2791 Dragør;2;2;1;0;0;0;0;1
+Fritidshuse;2800 Kongens Lyngby;0;0;0;0;0;0;0;0
+Fritidshuse;2820 Gentofte;0;0;0;0;0;0;0;0
+Fritidshuse;2830 Virum;0;0;0;0;0;0;0;0
+Fritidshuse;2840 Holte;0;0;0;0;0;0;0;0
+Fritidshuse;2850 Nærum;0;0;0;0;0;0;0;0
+Fritidshuse;2860 Søborg;0;0;0;0;0;0;0;0
+Fritidshuse;2870 Dyssegård;0;0;0;0;0;0;0;0
+Fritidshuse;2880 Bagsværd;0;0;0;0;0;0;0;0
+Fritidshuse;2900 Hellerup;0;0;0;0;0;0;0;0
+Fritidshuse;2920 Charlottenlund;0;0;0;0;0;0;0;0
+Fritidshuse;2930 Klampenborg;0;0;0;1;0;0;0;0
+Fritidshuse;2942 Skodsborg;0;0;0;0;0;0;0;0
+Fritidshuse;2950 Vedbæk;0;0;0;1;0;0;0;0
+Fritidshuse;2960 Rungsted Kyst;0;0;0;0;0;0;0;0
+Fritidshuse;2970 Hørsholm;4;2;0;1;2;1;2;2
+Fritidshuse;2980 Kokkedal;0;0;0;0;0;0;0;0
+Fritidshuse;2990 Nivå;0;0;0;0;0;0;0;0
+Fritidshuse;3000 Helsingør;0;1;0;1;0;0;0;0
+Fritidshuse;3050 Humlebæk;1;0;0;0;0;1;0;0
+Fritidshuse;3060 Espergærde;0;1;0;1;1;0;0;0
+Fritidshuse;3070 Snekkersten;0;0;0;0;0;0;0;0
+Fritidshuse;3080 Tikøb;7;0;0;3;4;1;2;4
+Fritidshuse;3100 Hornbæk;15;8;13;21;22;17;24;36
+Fritidshuse;3120 Dronningmølle;11;8;12;19;23;7;13;26
+Fritidshuse;3140 Ålsgårde;1;0;1;0;2;1;0;1
+Fritidshuse;3150 Hellebæk;0;0;0;0;1;0;0;0
+Fritidshuse;3200 Helsinge;1;0;0;3;3;2;1;5
+Fritidshuse;3210 Vejby;47;27;34;48;36;23;33;55
+Fritidshuse;3220 Tisvildeleje;15;12;5;11;15;10;11;21
+Fritidshuse;3230 Græsted;17;12;18;17;19;10;12;25
+Fritidshuse;3250 Gilleleje;41;16;20;41;44;34;22;48
+Fritidshuse;3300 Frederiksværk;29;21;16;33;26;19;20;31
+Fritidshuse;3310 Ølsted;7;6;9;19;8;6;11;19
+Fritidshuse;3320 Skævinge;0;0;0;0;0;0;0;0
+Fritidshuse;3330 Gørløse;0;0;0;0;0;0;0;0
+Fritidshuse;3360 Liseleje;17;8;7;9;6;6;16;7
+Fritidshuse;3370 Melby;10;9;9;13;24;5;12;20
+Fritidshuse;3390 Hundested;16;5;5;17;14;12;8;24
+Fritidshuse;3400 Hillerød;0;0;1;4;1;0;1;1
+Fritidshuse;3450 Allerød;0;0;0;0;0;0;0;1
+Fritidshuse;3460 Birkerød;0;0;2;0;1;0;0;0
+Fritidshuse;3480 Fredensborg;1;1;2;0;0;1;4;3
+Fritidshuse;3490 Kvistgård;0;0;0;0;0;1;0;0
+Fritidshuse;3500 Værløse;0;0;0;0;0;0;0;0
+Fritidshuse;3520 Farum;0;2;0;1;3;0;3;0
+Fritidshuse;3540 Lynge;0;0;0;0;0;0;0;0
+Fritidshuse;3550 Slangerup;4;2;3;3;3;3;2;3
+Fritidshuse;3600 Frederikssund;0;0;0;0;0;0;0;0
+Fritidshuse;3630 Jægerspris;40;21;17;42;45;24;26;53
+Fritidshuse;3650 Ølstykke;1;1;0;0;0;0;0;2
+Fritidshuse;3660 Stenløse;0;0;0;0;0;0;0;0
+Fritidshuse;3670 Veksø Sjælland;3;0;0;2;1;0;1;1
+Fritidshuse;3700 Rønne;1;2;0;1;2;0;1;1
+Fritidshuse;3720 Aakirkeby;2;5;0;2;6;4;8;5
+Fritidshuse;3730 Nexø;3;7;14;5;7;6;8;11
+Fritidshuse;3740 Svaneke;1;1;1;1;2;0;1;2
+Fritidshuse;3751 Østermarie;2;0;1;1;1;0;0;0
+Fritidshuse;3760 Gudhjem;0;0;1;0;0;2;0;2
+Fritidshuse;3770 Allinge;0;1;1;2;1;5;2;3
+Fritidshuse;3782 Klemensker;0;0;0;0;0;0;0;0
+Fritidshuse;3790 Hasle;1;1;1;0;2;2;1;1
+Fritidshuse;4000 Roskilde;4;2;1;3;2;2;3;5
+Fritidshuse;4030 Tune;0;0;0;0;0;0;0;0
+Fritidshuse;4040 Jyllinge;3;2;2;1;2;1;3;3
+Fritidshuse;4050 Skibby;12;13;6;8;12;5;6;14
+Fritidshuse;4060 Kirke Såby;3;0;0;1;2;2;3;2
+Fritidshuse;4070 Kirke Hyllinge;10;9;10;14;12;10;11;13
+Fritidshuse;4100 Ringsted;2;0;0;1;1;0;0;0
+Fritidshuse;4105 Ringsted;0;0;0;0;0;0;0;0
+Fritidshuse;4130 Viby Sjælland;0;0;0;0;0;0;0;0
+Fritidshuse;4140 Borup;2;0;0;2;0;0;0;2
+Fritidshuse;4160 Herlufmagle;0;0;0;0;0;0;0;0
+Fritidshuse;4171 Glumsø;0;0;0;0;0;0;0;0
+Fritidshuse;4173 Fjenneslev;0;0;0;0;0;0;0;0
+Fritidshuse;4174 Jystrup Midtsj;0;0;0;0;0;0;0;0
+Fritidshuse;4180 Sorø;0;0;0;0;0;0;1;0
+Fritidshuse;4190 Munke Bjergby;0;0;0;1;1;0;0;0
+Fritidshuse;4200 Slagelse;21;7;4;20;33;13;9;36
+Fritidshuse;4220 Korsør;2;0;3;2;3;2;2;5
+Fritidshuse;4230 Skælskør;4;0;1;1;6;1;0;5
+Fritidshuse;4241 Vemmelev;0;0;0;0;0;0;0;0
+Fritidshuse;4242 Boeslunde;0;0;0;0;0;0;0;0
+Fritidshuse;4243 Rude;1;0;1;3;1;1;0;5
+Fritidshuse;4250 Fuglebjerg;0;0;0;0;0;0;0;0
+Fritidshuse;4261 Dalmose;0;0;0;0;0;0;0;0
+Fritidshuse;4262 Sandved;0;0;0;0;0;0;0;0
+Fritidshuse;4270 Høng;0;0;0;0;0;0;0;0
+Fritidshuse;4281 Gørlev;5;5;2;12;13;2;2;8
+Fritidshuse;4291 Ruds Vedby;0;0;0;0;0;0;0;0
+Fritidshuse;4293 Dianalund;0;0;0;0;0;0;1;0
+Fritidshuse;4295 Stenlille;1;0;0;0;0;0;0;0
+Fritidshuse;4296 Nyrup;0;0;0;0;0;0;0;0
+Fritidshuse;4300 Holbæk;24;14;10;22;9;11;12;36
+Fritidshuse;4320 Lejre;0;0;0;0;0;0;0;0
+Fritidshuse;4330 Hvalsø;0;0;0;0;0;0;2;0
+Fritidshuse;4340 Tølløse;0;0;0;0;0;0;0;0
+Fritidshuse;4350 Ugerløse;0;0;0;0;0;0;0;0
+Fritidshuse;4360 Kirke Eskilstrup;0;0;0;0;0;0;0;0
+Fritidshuse;4370 Store Merløse;0;0;0;0;0;0;0;0
+Fritidshuse;4390 Vipperød;0;0;0;0;0;0;0;0
+Fritidshuse;4400 Kalundborg;9;4;7;6;11;8;7;16
+Fritidshuse;4420 Regstrup;0;0;2;0;0;0;1;0
+Fritidshuse;4440 Mørkøv;0;0;0;0;0;0;0;0
+Fritidshuse;4450 Jyderup;0;0;0;0;0;1;0;0
+Fritidshuse;4460 Snertinge;0;0;0;0;0;0;0;0
+Fritidshuse;4470 Svebølle;0;0;0;0;0;0;0;0
+Fritidshuse;4480 Store Fuglede;4;7;4;12;11;3;4;5
+Fritidshuse;4490 Jerslev Sjælland;0;0;0;0;0;0;0;0
+Fritidshuse;4500 Nykøbing Sj;52;25;30;63;63;29;39;78
+Fritidshuse;4520 Svinninge;0;0;0;0;0;0;0;0
+Fritidshuse;4532 Gislinge;0;0;0;0;0;0;0;0
+Fritidshuse;4534 Hørve;0;0;0;1;1;0;0;0
+Fritidshuse;4540 Fårevejle;20;14;11;21;16;10;18;34
+Fritidshuse;4550 Asnæs;5;6;2;7;11;13;12;12
+Fritidshuse;4560 Vig;16;13;8;23;30;15;19;33
+Fritidshuse;4571 Grevinge;9;1;2;5;14;8;7;7
+Fritidshuse;4572 Nørre Asmindrup;0;0;0;1;0;0;0;0
+Fritidshuse;4573 Højby;28;16;11;24;21;11;26;36
+Fritidshuse;4581 Rørvig;13;10;3;13;16;13;11;19
+Fritidshuse;4583 Sjællands Odde;21;15;14;19;20;11;11;28
+Fritidshuse;4591 Føllenslev;5;1;1;3;1;2;4;3
+Fritidshuse;4592 Sejerø;0;1;0;3;2;1;0;1
+Fritidshuse;4593 Eskebjerg;6;5;2;7;9;3;6;15
+Fritidshuse;4600 Køge;0;0;0;2;4;0;4;3
+Fritidshuse;4621 Gadstrup;1;0;0;0;0;0;0;0
+Fritidshuse;4622 Havdrup;0;0;0;0;0;0;0;0
+Fritidshuse;4623 Lille Skensved;0;0;0;0;0;0;0;0
+Fritidshuse;4632 Bjæverskov;0;0;0;0;0;0;0;0
+Fritidshuse;4640 Faxe;2;1;0;1;1;0;0;2
+Fritidshuse;4652 Hårlev;0;0;0;0;0;0;0;0
+Fritidshuse;4653 Karise;0;0;0;0;0;0;0;0
+Fritidshuse;4654 Faxe Ladeplads;3;3;2;4;2;2;0;3
+Fritidshuse;4660 Store Heddinge;0;1;0;1;0;0;0;0
+Fritidshuse;4671 Strøby;9;3;5;6;4;6;4;16
+Fritidshuse;4672 Klippinge;0;0;0;0;0;0;0;0
+Fritidshuse;4673 Rødvig Stevns;4;1;2;1;2;0;1;2
+Fritidshuse;4681 Herfølge;0;0;0;0;0;0;0;0
+Fritidshuse;4682 Tureby;0;0;0;0;0;0;0;0
+Fritidshuse;4683 Rønnede;0;0;0;0;0;0;0;0
+Fritidshuse;4684 Holmegaard;0;0;0;0;0;0;0;0
+Fritidshuse;4690 Haslev;0;0;0;0;0;0;0;0
+Fritidshuse;4700 Næstved;0;0;0;0;0;0;1;0
+Fritidshuse;4720 Præstø;0;1;0;4;8;4;3;3
+Fritidshuse;4733 Tappernøje;0;0;0;0;0;0;0;0
+Fritidshuse;4735 Mern;0;0;0;0;1;0;2;1
+Fritidshuse;4736 Karrebæksminde;12;3;9;12;10;5;7;9
+Fritidshuse;4750 Lundby;3;0;1;2;1;2;0;1
+Fritidshuse;4760 Vordingborg;8;4;6;10;9;7;5;12
+Fritidshuse;4771 Kalvehave;0;0;1;1;0;1;0;1
+Fritidshuse;4772 Langebæk;0;0;0;0;0;0;0;1
+Fritidshuse;4773 Stensved;0;0;0;0;0;0;0;0
+Fritidshuse;4780 Stege;7;4;7;13;10;9;7;8
+Fritidshuse;4791 Borre;0;0;0;0;0;0;0;0
+Fritidshuse;4792 Askeby;0;0;1;1;1;0;1;3
+Fritidshuse;4793 Bogø By;6;3;5;3;7;0;4;2
+Fritidshuse;4800 Nykøbing F;0;0;0;1;0;0;0;0
+Fritidshuse;4840 Nørre Alslev;0;0;0;0;0;0;0;0
+Fritidshuse;4850 Stubbekøbing;1;0;4;4;3;1;0;4
+Fritidshuse;4862 Guldborg;0;0;0;0;0;0;0;0
+Fritidshuse;4863 Eskilstrup;0;0;0;0;0;0;0;0
+Fritidshuse;4871 Horbelev;0;0;0;0;0;0;0;0
+Fritidshuse;4872 Idestrup;11;8;9;8;4;2;4;9
+Fritidshuse;4873 Væggerløse;26;22;22;40;40;31;30;49
+Fritidshuse;4874 Gedser;11;3;0;3;10;9;3;9
+Fritidshuse;4880 Nysted;0;0;0;2;1;1;3;0
+Fritidshuse;4891 Toreby L;0;0;0;0;0;0;0;0
+Fritidshuse;4892 Kettinge;0;0;0;0;0;0;0;0
+Fritidshuse;4894 Øster Ulslev;0;0;0;0;0;0;0;0
+Fritidshuse;4895 Errindlev;0;0;0;0;0;0;0;0
+Fritidshuse;4900 Nakskov;3;1;2;2;3;2;3;5
+Fritidshuse;4912 Harpelunde;0;1;0;0;0;0;0;0
+Fritidshuse;4913 Horslunde;0;0;0;0;0;0;0;0
+Fritidshuse;4920 Søllested;0;0;0;0;1;0;0;0
+Fritidshuse;4930 Maribo;2;1;2;3;3;1;1;2
+Fritidshuse;4941 Bandholm;0;1;0;0;0;0;0;1
+Fritidshuse;4943 Torrig L;1;0;0;0;0;0;0;0
+Fritidshuse;4944 Fejø;1;1;0;0;2;1;1;1
+Fritidshuse;4951 Nørreballe;0;0;0;0;0;0;0;0
+Fritidshuse;4952 Stokkemarke;0;0;0;0;0;0;0;0
+Fritidshuse;4953 Vesterborg;0;0;0;0;0;0;0;0
+Fritidshuse;4960 Holeby;0;0;0;0;0;0;0;0
+Fritidshuse;4970 Rødby;15;7;16;21;13;13;15;16
+Fritidshuse;4983 Dannemare;4;1;2;1;2;3;7;7
+Fritidshuse;4990 Sakskøbing;0;0;0;0;0;0;0;0
+Fritidshuse;5000 Odense C;0;0;0;0;0;0;0;0
+Fritidshuse;5200 Odense V;0;0;0;0;0;0;0;0
+Fritidshuse;5210 Odense NV;0;0;0;0;0;0;0;0
+Fritidshuse;5220 Odense SØ;0;0;0;0;0;0;0;0
+Fritidshuse;5230 Odense M;0;0;0;0;0;0;0;0
+Fritidshuse;5240 Odense NØ;0;0;0;0;0;0;0;0
+Fritidshuse;5250 Odense SV;0;0;0;0;0;0;0;0
+Fritidshuse;5260 Odense S;0;0;0;0;0;0;0;0
+Fritidshuse;5270 Odense N;0;0;0;0;0;0;0;0
+Fritidshuse;5290 Marslev;0;0;0;0;0;0;0;0
+Fritidshuse;5300 Kerteminde;1;0;0;0;0;0;0;0
+Fritidshuse;5320 Agedrup;0;0;0;0;0;0;0;0
+Fritidshuse;5330 Munkebo;0;0;0;1;0;0;0;0
+Fritidshuse;5350 Rynkeby;0;0;0;0;0;0;0;0
+Fritidshuse;5370 Mesinge;0;1;1;1;0;1;0;0
+Fritidshuse;5380 Dalby;0;0;0;0;0;0;0;0
+Fritidshuse;5390 Martofte;4;1;1;4;3;1;2;6
+Fritidshuse;5400 Bogense;2;6;1;2;2;4;3;8
+Fritidshuse;5450 Otterup;13;5;6;13;9;7;4;13
+Fritidshuse;5462 Morud;0;0;0;0;0;0;0;0
+Fritidshuse;5463 Harndrup;0;0;0;0;0;0;0;0
+Fritidshuse;5464 Brenderup Fyn;1;2;0;1;1;1;0;1
+Fritidshuse;5466 Asperup;1;3;1;2;7;0;0;5
+Fritidshuse;5471 Søndersø;0;0;0;0;0;0;0;0
+Fritidshuse;5474 Veflinge;0;0;0;0;0;0;0;0
+Fritidshuse;5485 Skamby;0;0;0;0;0;0;0;0
+Fritidshuse;5491 Blommenslyst;0;0;0;0;0;0;0;0
+Fritidshuse;5492 Vissenbjerg;0;0;0;0;0;1;0;0
+Fritidshuse;5500 Middelfart;1;4;0;6;6;4;3;6
+Fritidshuse;5540 Ullerslev;1;0;0;0;0;0;0;1
+Fritidshuse;5550 Langeskov;0;0;0;0;0;0;0;0
+Fritidshuse;5560 Aarup;0;0;0;0;0;0;0;0
+Fritidshuse;5580 Nørre Aaby;0;0;0;0;0;0;1;0
+Fritidshuse;5591 Gelsted;0;0;0;0;0;0;0;0
+Fritidshuse;5592 Ejby;0;0;0;0;0;0;0;0
+Fritidshuse;5600 Faaborg;4;2;1;7;5;4;3;7
+Fritidshuse;5610 Assens;2;0;0;2;3;2;0;4
+Fritidshuse;5620 Glamsbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;5631 Ebberup;1;1;1;1;2;1;0;2
+Fritidshuse;5642 Millinge;1;0;0;2;1;1;0;0
+Fritidshuse;5672 Broby;0;0;0;0;0;0;0;0
+Fritidshuse;5683 Haarby;1;1;0;0;1;0;1;1
+Fritidshuse;5690 Tommerup;0;0;0;0;0;0;0;1
+Fritidshuse;5700 Svendborg;3;1;0;3;1;2;1;0
+Fritidshuse;5750 Ringe;0;0;0;0;0;0;0;0
+Fritidshuse;5762 Vester Skerninge;0;0;0;0;0;0;0;0
+Fritidshuse;5771 Stenstrup;0;0;0;0;0;1;0;0
+Fritidshuse;5772 Kværndrup;0;0;0;0;0;0;0;0
+Fritidshuse;5792 Årslev;0;0;0;0;0;0;0;0
+Fritidshuse;5800 Nyborg;2;2;2;6;3;1;0;2
+Fritidshuse;5853 Ørbæk;0;0;0;0;0;0;0;0
+Fritidshuse;5854 Gislev;0;0;0;0;0;0;0;0
+Fritidshuse;5856 Ryslinge;0;0;0;0;0;0;0;0
+Fritidshuse;5863 Ferritslev Fyn;0;0;0;0;0;0;0;0
+Fritidshuse;5871 Frørup;0;3;0;1;1;2;3;3
+Fritidshuse;5874 Hesselager;0;1;0;1;3;2;0;1
+Fritidshuse;5881 Skårup Fyn;1;0;0;0;0;0;0;0
+Fritidshuse;5882 Vejstrup;0;0;0;0;0;0;0;0
+Fritidshuse;5883 Oure;0;0;0;0;0;0;0;0
+Fritidshuse;5884 Gudme;0;0;0;0;0;0;0;0
+Fritidshuse;5892 Gudbjerg Sydfyn;0;0;0;0;0;0;0;0
+Fritidshuse;5900 Rudkøbing;2;1;1;0;5;3;2;1
+Fritidshuse;5932 Humble;9;3;5;9;8;7;4;10
+Fritidshuse;5935 Bagenkop;0;0;0;0;0;0;0;0
+Fritidshuse;5953 Tranekær;4;2;4;8;8;5;3;7
+Fritidshuse;5960 Marstal;0;0;0;0;0;0;0;0
+Fritidshuse;5970 Ærøskøbing;0;1;0;0;0;0;1;0
+Fritidshuse;5985 Søby Ærø;0;0;0;0;0;0;0;0
+Fritidshuse;6000 Kolding;0;0;0;0;0;0;0;0
+Fritidshuse;6040 Egtved;0;1;0;0;0;0;0;0
+Fritidshuse;6051 Almind;0;0;0;0;0;0;0;0
+Fritidshuse;6052 Viuf;0;0;0;0;0;0;0;0
+Fritidshuse;6064 Jordrup;0;0;0;0;0;0;0;0
+Fritidshuse;6070 Christiansfeld;0;0;0;0;0;0;0;0
+Fritidshuse;6091 Bjert;0;1;1;2;1;1;0;2
+Fritidshuse;6092 Sønder Stenderup;0;0;0;0;0;0;0;0
+Fritidshuse;6093 Sjølund;3;1;1;3;1;1;2;4
+Fritidshuse;6094 Hejls;4;4;7;7;8;6;5;12
+Fritidshuse;6100 Haderslev;12;11;3;11;8;5;5;9
+Fritidshuse;6200 Aabenraa;3;4;0;5;5;0;2;3
+Fritidshuse;6230 Rødekro;0;0;0;0;0;0;0;0
+Fritidshuse;6240 Løgumkloster;0;0;0;0;0;0;0;0
+Fritidshuse;6261 Bredebro;0;0;0;0;0;0;0;0
+Fritidshuse;6270 Tønder;0;0;0;0;0;0;0;0
+Fritidshuse;6280 Højer;0;0;0;0;0;0;0;0
+Fritidshuse;6300 Gråsten;0;0;0;0;0;0;0;0
+Fritidshuse;6310 Broager;2;0;0;0;0;0;5;0
+Fritidshuse;6320 Egernsund;5;1;0;4;4;0;2;3
+Fritidshuse;6330 Padborg;0;0;0;0;0;0;0;0
+Fritidshuse;6340 Kruså;0;0;0;0;0;0;0;0
+Fritidshuse;6360 Tinglev;0;0;0;0;0;0;0;0
+Fritidshuse;6372 Bylderup-Bov;0;0;0;0;0;0;0;0
+Fritidshuse;6392 Bolderslev;0;0;0;0;0;0;0;0
+Fritidshuse;6400 Sønderborg;0;0;0;0;0;0;0;0
+Fritidshuse;6430 Nordborg;0;0;1;1;2;1;0;0
+Fritidshuse;6440 Augustenborg;1;0;0;0;2;0;1;1
+Fritidshuse;6470 Sydals;3;6;1;1;6;2;4;6
+Fritidshuse;6500 Vojens;0;0;0;0;0;0;0;0
+Fritidshuse;6510 Gram;0;0;0;0;0;0;0;0
+Fritidshuse;6520 Toftlund;2;3;2;2;4;3;1;1
+Fritidshuse;6534 Agerskov;0;0;0;0;0;0;0;0
+Fritidshuse;6535 Branderup J;0;0;0;0;0;0;0;0
+Fritidshuse;6541 Bevtoft;0;0;0;0;0;0;0;0
+Fritidshuse;6560 Sommersted;0;0;0;0;0;0;0;0
+Fritidshuse;6580 Vamdrup;0;0;0;0;0;0;0;0
+Fritidshuse;6600 Vejen;0;0;0;0;0;0;0;0
+Fritidshuse;6621 Gesten;0;0;0;0;0;0;0;0
+Fritidshuse;6622 Bække;0;0;0;0;0;0;0;0
+Fritidshuse;6623 Vorbasse;0;0;0;0;0;0;0;0
+Fritidshuse;6630 Rødding;0;0;0;0;0;0;0;0
+Fritidshuse;6640 Lunderskov;0;0;0;0;0;0;0;0
+Fritidshuse;6650 Brørup;0;0;0;0;0;0;0;0
+Fritidshuse;6660 Lintrup;0;0;0;0;0;0;0;0
+Fritidshuse;6670 Holsted;0;0;0;0;0;0;0;0
+Fritidshuse;6682 Hovborg;0;0;0;0;0;1;1;0
+Fritidshuse;6683 Føvling;0;0;0;0;0;0;0;0
+Fritidshuse;6690 Gørding;0;0;0;0;0;0;0;0
+Fritidshuse;6700 Esbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;6705 Esbjerg Ø;0;0;0;0;0;0;0;0
+Fritidshuse;6710 Esbjerg V;0;1;1;2;2;2;2;2
+Fritidshuse;6715 Esbjerg N;0;0;0;0;0;0;0;0
+Fritidshuse;6720 Fanø;14;8;7;12;22;4;11;23
+Fritidshuse;6731 Tjæreborg;0;0;0;0;0;0;0;0
+Fritidshuse;6740 Bramming;0;0;0;0;0;0;0;0
+Fritidshuse;6752 Glejbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;6753 Agerbæk;0;0;0;0;0;0;0;0
+Fritidshuse;6760 Ribe;0;0;0;0;0;0;0;0
+Fritidshuse;6771 Gredstedbro;0;0;0;0;0;0;0;0
+Fritidshuse;6780 Skærbæk;0;0;0;0;0;0;0;0
+Fritidshuse;6792 Rømø;9;10;7;7;5;6;9;8
+Fritidshuse;6800 Varde;0;0;0;0;0;0;0;0
+Fritidshuse;6818 Årre;0;0;0;0;0;0;0;0
+Fritidshuse;6823 Ansager;0;1;0;2;1;1;0;0
+Fritidshuse;6830 Nørre Nebel;7;9;4;8;6;8;7;7
+Fritidshuse;6840 Oksbøl;10;4;1;8;3;10;4;17
+Fritidshuse;6851 Janderup Vestj;0;0;0;0;0;0;0;0
+Fritidshuse;6852 Billum;0;0;0;0;0;0;0;0
+Fritidshuse;6853 Vejers Strand;8;0;3;2;5;2;5;6
+Fritidshuse;6854 Henne;8;4;9;14;7;4;12;9
+Fritidshuse;6855 Outrup;0;0;0;0;0;0;0;0
+Fritidshuse;6857 Blåvand;11;13;16;25;23;18;29;31
+Fritidshuse;6862 Tistrup;0;0;0;0;0;0;0;0
+Fritidshuse;6870 Ølgod;0;0;0;0;0;0;0;0
+Fritidshuse;6880 Tarm;1;5;3;4;5;5;1;3
+Fritidshuse;6893 Hemmet;15;5;4;17;12;7;11;12
+Fritidshuse;6900 Skjern;1;2;2;5;2;0;2;2
+Fritidshuse;6920 Videbæk;0;0;0;0;0;0;0;0
+Fritidshuse;6933 Kibæk;0;0;0;0;0;0;0;0
+Fritidshuse;6940 Lem St;0;0;0;0;0;0;0;0
+Fritidshuse;6950 Ringkøbing;22;17;19;19;19;17;22;39
+Fritidshuse;6960 Hvide Sande;17;13;9;12;18;11;30;26
+Fritidshuse;6971 Spjald;0;1;0;0;0;0;0;0
+Fritidshuse;6973 Ørnhøj;0;0;0;0;0;0;0;0
+Fritidshuse;6980 Tim;1;0;0;0;0;0;0;0
+Fritidshuse;6990 Ulfborg;14;8;9;13;10;9;10;17
+Fritidshuse;7000 Fredericia;3;0;0;2;0;1;2;1
+Fritidshuse;7007 Fredericia;0;0;0;0;0;0;0;0
+Fritidshuse;7080 Børkop;8;4;5;10;3;6;4;5
+Fritidshuse;7100 Vejle;0;0;0;0;0;0;0;0
+Fritidshuse;7120 Vejle Øst;0;0;0;0;0;0;0;0
+Fritidshuse;7130 Juelsminde;14;10;6;12;9;7;6;10
+Fritidshuse;7140 Stouby;0;0;0;0;0;0;0;0
+Fritidshuse;7150 Barrit;0;0;0;0;0;0;0;0
+Fritidshuse;7160 Tørring;0;0;0;0;0;0;0;0
+Fritidshuse;7171 Uldum;0;0;0;0;0;0;0;0
+Fritidshuse;7173 Vonge;0;0;0;0;0;0;0;0
+Fritidshuse;7182 Bredsten;0;0;0;0;0;0;0;0
+Fritidshuse;7183 Randbøl;0;0;0;0;0;0;0;0
+Fritidshuse;7184 Vandel;0;1;0;1;0;0;2;1
+Fritidshuse;7190 Billund;9;3;3;2;3;3;6;4
+Fritidshuse;7200 Grindsted;0;0;0;0;0;0;0;0
+Fritidshuse;7250 Hejnsvig;0;0;0;0;0;0;0;0
+Fritidshuse;7260 Sønder Omme;0;0;0;0;0;0;0;0
+Fritidshuse;7270 Stakroge;0;0;0;0;0;0;0;0
+Fritidshuse;7280 Sønder Felding;0;0;0;0;0;0;0;0
+Fritidshuse;7300 Jelling;0;0;1;0;0;0;0;0
+Fritidshuse;7321 Gadbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;7323 Give;0;2;0;2;0;0;1;0
+Fritidshuse;7330 Brande;0;0;0;0;0;0;0;0
+Fritidshuse;7361 Ejstrupholm;0;1;0;0;0;0;0;0
+Fritidshuse;7362 Hampen;0;0;0;0;0;0;0;0
+Fritidshuse;7400 Herning;0;1;1;0;0;0;0;1
+Fritidshuse;7430 Ikast;0;0;0;0;0;0;0;0
+Fritidshuse;7441 Bording;0;1;0;0;1;0;1;0
+Fritidshuse;7442 Engesvang;0;1;0;1;0;0;0;0
+Fritidshuse;7451 Sunds;1;0;0;1;1;1;1;3
+Fritidshuse;7470 Karup J;0;0;0;0;0;0;0;0
+Fritidshuse;7480 Vildbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;7490 Aulum;0;0;0;0;0;0;0;0
+Fritidshuse;7500 Holstebro;0;0;0;0;0;0;0;0
+Fritidshuse;7540 Haderup;0;0;0;0;0;0;1;0
+Fritidshuse;7550 Sørvad;0;0;0;0;0;0;0;0
+Fritidshuse;7560 Hjerm;1;0;0;0;0;0;0;0
+Fritidshuse;7570 Vemb;1;0;0;2;0;2;0;0
+Fritidshuse;7600 Struer;3;2;1;8;6;2;2;8
+Fritidshuse;7620 Lemvig;10;3;2;5;8;2;3;6
+Fritidshuse;7650 Bøvlingbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;7660 Bækmarksbro;0;0;0;0;0;0;0;0
+Fritidshuse;7673 Harboøre;6;7;5;4;2;6;5;7
+Fritidshuse;7680 Thyborøn;0;0;0;0;0;0;0;0
+Fritidshuse;7700 Thisted;15;12;3;9;9;10;11;13
+Fritidshuse;7730 Hanstholm;1;0;0;0;0;0;0;0
+Fritidshuse;7741 Frøstrup;0;0;0;0;0;3;1;1
+Fritidshuse;7742 Vesløs;1;0;1;0;0;0;1;1
+Fritidshuse;7752 Snedsted;0;1;0;0;1;1;0;1
+Fritidshuse;7755 Bedsted Thy;0;0;0;0;1;1;0;0
+Fritidshuse;7760 Hurup Thy;3;0;2;3;7;1;3;3
+Fritidshuse;7770 Vestervig;2;2;1;3;3;1;5;1
+Fritidshuse;7790 Thyholm;3;0;1;3;4;1;1;7
+Fritidshuse;7800 Skive;0;0;0;0;0;0;0;0
+Fritidshuse;7830 Vinderup;0;4;1;5;4;2;3;3
+Fritidshuse;7840 Højslev;6;7;5;5;5;2;2;7
+Fritidshuse;7850 Stoholm Jyll;0;0;0;0;0;0;0;0
+Fritidshuse;7860 Spøttrup;2;1;3;6;5;2;3;6
+Fritidshuse;7870 Roslev;4;5;3;9;12;2;2;7
+Fritidshuse;7884 Fur;2;0;3;1;3;2;2;2
+Fritidshuse;7900 Nykøbing M;1;0;2;1;1;0;0;1
+Fritidshuse;7950 Erslev;0;0;0;0;0;0;0;0
+Fritidshuse;7960 Karby;0;0;0;0;0;0;0;0
+Fritidshuse;7970 Redsted M;0;0;0;0;0;0;0;0
+Fritidshuse;7980 Vils;0;0;0;0;0;0;0;0
+Fritidshuse;7990 Øster Assels;3;0;0;3;1;0;0;1
+Fritidshuse;8000 Århus C;0;0;0;0;0;0;0;0
+Fritidshuse;8200 Århus N;0;0;0;0;0;0;0;0
+Fritidshuse;8210 Århus V;0;0;0;0;0;0;0;0
+Fritidshuse;8220 Brabrand;0;0;0;0;0;0;0;0
+Fritidshuse;8230 Åbyhøj;0;0;0;0;0;0;0;0
+Fritidshuse;8240 Risskov;0;0;0;0;0;0;0;0
+Fritidshuse;8245 Risskov Ø;0;0;0;0;0;0;0;0
+Fritidshuse;8250 Egå;6;8;5;10;6;4;8;13
+Fritidshuse;8260 Viby J;0;0;0;0;0;0;0;0
+Fritidshuse;8270 Højbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;8300 Odder;12;10;6;14;15;14;5;13
+Fritidshuse;8305 Samsø;4;1;1;3;3;3;2;6
+Fritidshuse;8310 Tranbjerg J;0;0;0;0;0;0;0;0
+Fritidshuse;8320 Mårslet;0;0;0;0;0;0;0;0
+Fritidshuse;8330 Beder;0;3;2;1;2;1;1;1
+Fritidshuse;8340 Malling;6;2;2;5;2;7;1;5
+Fritidshuse;8350 Hundslund;0;0;0;0;0;0;0;0
+Fritidshuse;8355 Solbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;8361 Hasselager;0;0;0;0;0;0;0;0
+Fritidshuse;8362 Hørning;0;0;0;0;0;0;0;0
+Fritidshuse;8370 Hadsten;0;0;0;0;0;0;0;0
+Fritidshuse;8380 Trige;0;0;0;0;0;0;0;0
+Fritidshuse;8381 Tilst;0;0;0;0;0;0;0;0
+Fritidshuse;8382 Hinnerup;0;0;0;0;0;0;0;0
+Fritidshuse;8400 Ebeltoft;38;27;29;43;45;23;31;60
+Fritidshuse;8410 Rønde;10;3;1;5;11;4;4;9
+Fritidshuse;8420 Knebel;15;7;8;14;15;10;17;19
+Fritidshuse;8444 Balle;0;0;0;0;0;0;0;0
+Fritidshuse;8450 Hammel;0;0;0;0;0;0;0;0
+Fritidshuse;8462 Harlev J;0;0;0;0;0;0;0;0
+Fritidshuse;8464 Galten;0;0;0;0;0;0;0;0
+Fritidshuse;8471 Sabro;0;0;0;0;0;0;0;0
+Fritidshuse;8472 Sporup;0;0;0;0;0;0;0;0
+Fritidshuse;8500 Grenaa;12;7;7;8;12;5;3;6
+Fritidshuse;8520 Lystrup;0;0;0;0;0;0;0;0
+Fritidshuse;8530 Hjortshøj;0;0;0;0;0;0;0;0
+Fritidshuse;8541 Skødstrup;0;0;0;0;0;0;0;0
+Fritidshuse;8543 Hornslet;0;0;0;2;1;0;0;1
+Fritidshuse;8544 Mørke;0;0;0;0;0;0;0;0
+Fritidshuse;8550 Ryomgård;0;0;0;1;0;0;0;0
+Fritidshuse;8560 Kolind;0;1;1;0;2;0;1;1
+Fritidshuse;8570 Trustrup;0;0;0;0;0;0;0;0
+Fritidshuse;8581 Nimtofte;0;2;0;1;1;1;1;0
+Fritidshuse;8585 Glesborg;15;4;5;17;20;10;8;18
+Fritidshuse;8586 Ørum Djurs;0;1;0;0;0;0;0;0
+Fritidshuse;8592 Anholt;2;0;0;0;1;0;0;1
+Fritidshuse;8600 Silkeborg;0;4;2;5;3;2;3;1
+Fritidshuse;8620 Kjellerup;0;0;0;0;0;0;0;0
+Fritidshuse;8632 Lemming;0;0;0;0;0;0;0;0
+Fritidshuse;8641 Sorring;0;0;0;0;0;0;0;0
+Fritidshuse;8643 Ans By;2;0;2;0;1;0;0;0
+Fritidshuse;8653 Them;0;0;0;0;0;0;0;0
+Fritidshuse;8654 Bryrup;0;0;1;0;1;0;0;0
+Fritidshuse;8660 Skanderborg;0;0;1;2;0;0;1;1
+Fritidshuse;8670 Låsby;0;0;0;0;0;0;0;0
+Fritidshuse;8680 Ry;0;0;0;0;2;1;0;0
+Fritidshuse;8700 Horsens;1;0;1;2;0;1;0;1
+Fritidshuse;8721 Daugård;0;0;0;0;0;0;0;1
+Fritidshuse;8722 Hedensted;0;0;0;0;0;0;0;0
+Fritidshuse;8723 Løsning;0;0;0;0;0;0;0;0
+Fritidshuse;8732 Hovedgård;0;0;0;0;0;0;0;0
+Fritidshuse;8740 Brædstrup;2;0;2;0;0;1;0;0
+Fritidshuse;8751 Gedved;0;0;0;0;0;0;0;0
+Fritidshuse;8752 Østbirk;0;0;0;0;0;0;0;0
+Fritidshuse;8762 Flemming;0;0;0;0;0;0;0;0
+Fritidshuse;8763 Rask Mølle;0;0;0;0;0;0;0;0
+Fritidshuse;8765 Klovborg;0;0;0;0;0;0;0;0
+Fritidshuse;8766 Nørre Snede;0;0;0;0;0;0;0;0
+Fritidshuse;8781 Stenderup;0;0;0;0;0;0;0;0
+Fritidshuse;8783 Hornsyld;0;0;0;0;0;0;0;0
+Fritidshuse;8800 Viborg;0;0;0;0;0;0;1;0
+Fritidshuse;8830 Tjele;0;0;0;0;0;0;0;0
+Fritidshuse;8831 Løgstrup;1;2;1;0;0;0;2;0
+Fritidshuse;8832 Skals;2;1;1;2;2;0;0;0
+Fritidshuse;8840 Rødkærsbro;0;0;0;0;0;0;0;0
+Fritidshuse;8850 Bjerringbro;1;1;2;2;2;0;0;1
+Fritidshuse;8860 Ulstrup;0;0;0;0;0;0;0;0
+Fritidshuse;8870 Langå;0;0;0;0;0;0;0;0
+Fritidshuse;8881 Thorsø;0;0;0;0;0;0;0;0
+Fritidshuse;8882 Fårvang;2;2;4;1;2;1;2;2
+Fritidshuse;8883 Gjern;1;0;0;3;0;0;0;4
+Fritidshuse;8900 Randers C;0;0;0;0;0;0;0;0
+Fritidshuse;8920 Randers NV;0;0;0;0;0;0;0;0
+Fritidshuse;8930 Randers NØ;0;0;0;0;0;0;0;0
+Fritidshuse;8940 Randers SV;1;0;0;0;0;0;0;0
+Fritidshuse;8950 Ørsted;1;5;0;4;9;6;2;5
+Fritidshuse;8960 Randers SØ;0;0;0;0;0;0;0;0
+Fritidshuse;8961 Allingåbro;1;4;0;3;4;1;1;4
+Fritidshuse;8963 Auning;0;0;0;0;0;0;0;0
+Fritidshuse;8970 Havndal;0;1;0;2;0;0;1;0
+Fritidshuse;8981 Spentrup;0;0;0;0;0;0;0;0
+Fritidshuse;8983 Gjerlev J;0;0;0;0;0;0;0;0
+Fritidshuse;8990 Fårup;0;0;0;0;0;0;0;0
+Fritidshuse;9000 Aalborg;0;0;1;1;1;2;1;1
+Fritidshuse;9200 Aalborg SV;0;0;0;0;0;0;0;0
+Fritidshuse;9210 Aalborg SØ;0;0;0;0;0;0;0;0
+Fritidshuse;9220 Aalborg Øst;0;0;0;0;0;0;0;0
+Fritidshuse;9230 Svenstrup J;0;1;0;1;0;0;0;0
+Fritidshuse;9240 Nibe;3;1;2;7;0;3;2;2
+Fritidshuse;9260 Gistrup;4;0;2;0;2;0;0;4
+Fritidshuse;9270 Klarup;0;0;0;0;0;0;0;0
+Fritidshuse;9280 Storvorde;9;6;0;10;7;4;7;9
+Fritidshuse;9293 Kongerslev;0;0;0;0;0;0;0;0
+Fritidshuse;9300 Sæby;8;3;5;6;6;12;4;6
+Fritidshuse;9310 Vodskov;0;0;0;0;0;0;0;0
+Fritidshuse;9320 Hjallerup;0;0;0;0;0;0;0;0
+Fritidshuse;9330 Dronninglund;0;0;0;0;0;0;0;0
+Fritidshuse;9340 Asaa;0;0;0;0;0;0;0;2
+Fritidshuse;9352 Dybvad;0;1;0;0;0;0;0;0
+Fritidshuse;9362 Gandrup;0;0;0;0;0;0;0;0
+Fritidshuse;9370 Hals;28;18;14;32;34;21;22;27
+Fritidshuse;9380 Vestbjerg;0;0;0;0;0;0;0;0
+Fritidshuse;9381 Sulsted;0;0;0;0;0;0;0;0
+Fritidshuse;9382 Tylstrup;0;0;0;0;0;0;0;0
+Fritidshuse;9400 Nørresundby;0;0;0;0;0;0;0;0
+Fritidshuse;9430 Vadum;0;0;0;0;0;0;0;0
+Fritidshuse;9440 Aabybro;4;0;0;1;1;0;2;0
+Fritidshuse;9460 Brovst;3;0;3;2;1;1;3;1
+Fritidshuse;9480 Løkken;17;12;9;19;22;13;10;26
+Fritidshuse;9490 Pandrup;4;5;1;6;6;5;4;7
+Fritidshuse;9492 Blokhus;13;12;7;29;15;12;11;28
+Fritidshuse;9493 Saltum;9;6;2;11;10;5;8;10
+Fritidshuse;9500 Hobro;0;0;0;0;1;0;0;0
+Fritidshuse;9510 Arden;0;0;0;0;0;0;0;0
+Fritidshuse;9520 Skørping;0;0;0;0;0;0;0;0
+Fritidshuse;9530 Støvring;1;0;0;0;0;0;0;0
+Fritidshuse;9541 Suldrup;0;0;0;0;0;0;0;0
+Fritidshuse;9550 Mariager;1;0;0;1;0;1;0;0
+Fritidshuse;9560 Hadsund;17;12;11;26;25;14;17;27
+Fritidshuse;9574 Bælum;0;0;0;0;0;0;0;0
+Fritidshuse;9575 Terndrup;0;0;0;0;0;0;0;0
+Fritidshuse;9600 Aars;0;0;0;0;0;1;0;0
+Fritidshuse;9610 Nørager;0;0;0;0;0;0;0;0
+Fritidshuse;9620 Aalestrup;0;0;0;0;0;0;0;0
+Fritidshuse;9631 Gedsted;0;0;1;0;0;0;0;0
+Fritidshuse;9632 Møldrup;0;0;0;0;0;0;0;0
+Fritidshuse;9640 Farsø;12;6;4;10;4;7;8;7
+Fritidshuse;9670 Løgstør;5;6;2;3;7;4;3;3
+Fritidshuse;9681 Ranum;0;1;0;0;1;0;0;0
+Fritidshuse;9690 Fjerritslev;8;8;4;3;5;8;4;6
+Fritidshuse;9700 Brønderslev;0;0;0;0;0;0;0;0
+Fritidshuse;9740 Jerslev J;0;0;0;0;0;0;0;0
+Fritidshuse;9750 Østervrå;0;0;0;0;0;0;0;0
+Fritidshuse;9760 Vrå;0;0;0;0;0;0;0;0
+Fritidshuse;9800 Hjørring;14;13;6;15;14;10;11;10
+Fritidshuse;9830 Tårs;0;0;0;0;0;0;0;0
+Fritidshuse;9850 Hirtshals;4;3;1;4;2;3;3;6
+Fritidshuse;9870 Sindal;0;0;0;0;0;0;0;0
+Fritidshuse;9881 Bindslev;2;0;1;4;5;2;3;8
+Fritidshuse;9900 Frederikshavn;0;0;1;0;0;1;1;0
+Fritidshuse;9940 Læsø;3;3;0;2;7;3;0;8
+Fritidshuse;9970 Strandby;4;1;1;1;4;2;3;0
+Fritidshuse;9981 Jerup;2;0;1;3;3;2;2;4
+Fritidshuse;9982 Ålbæk;5;7;1;7;10;3;5;7
+Fritidshuse;9990 Skagen;4;1;2;4;5;2;2;7

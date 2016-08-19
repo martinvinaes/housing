@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  15 AUG 2016 18:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  16 AUG 2016 15:28
 entering extended mode
 **housing.tex
 (C:\Users\mvl\Documents\GitHub\housing\paper\housing.tex
@@ -986,7 +986,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 363.
 Here is how much of TeX's memory you used:
  11113 strings out of 493921
  171385 string characters out of 3144882
- 301351 words of memory out of 3000000
+ 301334 words of memory out of 3000000
  13982 multiletter control sequences out of 15000+200000
  71908 words of font info for 104 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1004,7 +1004,7 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x
 X 2.9/fonts/type1/public/tex-gyre/qplb.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/tex-gyre/qplr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/tex-gyre/qplri.pfb>
-Output written on housing.pdf (17 pages, 193979 bytes).
+Output written on housing.pdf (17 pages, 193961 bytes).
 PDF statistics:
  297 PDF objects out of 1000 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
