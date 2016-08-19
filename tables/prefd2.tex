@@ -1,19 +1,19 @@
 \begin{table}[htbp]\centering
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\caption{Estimated effects of house prices on electoral support for governing parties.} \label{prelagiv}
+\caption{Estimated effects of house prices on electoral support for governing parties at t-1.} \label{prelagdv}
 \begin{tabular}{l*{4}{c}}
 \hline\hline
                     &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        &\multicolumn{1}{c}{(3)}        &\multicolumn{1}{c}{(4)}        \\
 \hline
-$\Delta$ housing price (2 years)&       0.130\sym{**}&       0.037\sym{**}&       0.023\sym{**}&       0.021\sym{**}\\
-                    &     (0.007)        &     (0.007)        &     (0.007)        &     (0.007)        \\
+$\Delta$ housing price (FD DV)&       0.037\sym{**}&       0.034\sym{**}&       0.052\sym{**}&       0.019\sym{**}\\
+                    &     (0.004)        &     (0.004)        &     (0.005)        &     (0.004)        \\
 [1em]
 \hline Precinct FE  &                    &                    &$\checkmark$        &$\checkmark$        \\
 [1em]
 Year FE             &                    &                    &                    &$\checkmark$        \\
 \hline
-Observations        &        4177        &        4157        &        4157        &        4157        \\
-RMSE                &       8.059        &       6.683        &       5.453        &       5.245        \\
+Observations        &        3095        &        3085        &        3085        &        3085        \\
+RMSE                &       2.805        &       2.766        &       2.317        &       2.142        \\
 \hline\hline
 \multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
 \multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
