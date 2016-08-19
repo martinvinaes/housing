@@ -114,7 +114,7 @@ It is important to note that some previous studies do  address some of these met
 
 \section{Empirical Setting: A Policy Driven Boom and Bust}
 
-This is an excellent setting because:
+This is an excellent setting because: 
 
 \begin{enumerate}
 	\item Housing bubble was induced by policy. As such, not strange that voters infer something about government based on local changes in house prices.
@@ -138,40 +138,10 @@ This is an excellent setting because:
 
 \subsection{Identification strategy}
 
+
 We use a difference-in-difference approach controlling for other economic factors. 
 
 Use two different empirical approaches: Precinct level and Individual level data.
-
-
-%difference in difference - control for other economic conditions. Problem is - however way better than earlier...
-
-%Limitation
-%Before moving on it is important to note an important limitation of the present study. What we find is an aggregate level correlation. As such, we do not know whether voters punish and reward the government for the quality of local housing prices  because (1) their own house loses some of its value (egotropic), (2) they fear for the future of their community (geotropic) or (3) they infer something about the state of the national economy from their local area (sociotropic). The aggregate-level data used in this study cannot distinguish between these competing models of individual-level cognition. However, given the state of the extant literature on housing prices and the effects of the local economy, simply establishing an effect and describing how this effect varies is substantial step forward. 
-
-\section{Precinct-level Evidence}
-
-
-\subsection{Data sources and indicators}
-Data description
-%The key dependent variable in our study is \textit{percent of votes cast for government parties} in each voting precinct.\footnote{Results are similar for only using the prime minister's party.} Each voting precinct corresponds to a single polling place and is this the smallest unit at which voting returns can be observed. We measure this for all precincts in five elections: 2001, 2005, 2007, 2011 and 2015. A number of precincts are redistricted between each election. This is problematic, as we want to use  the precincts as part of a panel data set. There are two ways to deal with this. We can drop precincts, as their geographical boundaries get altered. This would mean dropping roughly 15 pct. of the data on the dependent variable. The other option is to fix the precincts geographical boundaries at one reference election (i.e. 2015), and then recalculate vote returns in any changed precincts, so they match up with the precincts in the reference election.  As many of the changes in geographical boundaries are minor, we opt to do the latter.\footnote{For details of how returns from the redistricted precincts are calculated, see Søren Risbjerg Thomsen's research note at \texttt{\href{http://bit.ly/205OlPi}{bit.ly/205OlPi}}. We will eventually show results for the other option in an appendix.}. 
-
-%The key independent variable is \textit{year-over-year change in local housing prices}. We obtain housing price data from The Danish Mortgage Banks' Federation (\textit{Realkreditforeningen}), which publishes quarterly data on all housing price sales at the zip code level.\footnote{Available at \texttt{\href{http://statistik.realkreditforeningen.dk/}{statistik.realkreditforeningen.dk}}.} Data is presented for houses and apartments separately, so for each zip code we calculate an average of house and apartment price changes weighted by the volume of sales in each category. For each election, we calculate change in housing prices as the percentage change in the quarter of the election compared to the same quarter one year before.
-
-%In addition to change in housing prices, we also calculate a measure of \textit{housing price volatility} for each election-year zip code. We calculate volatility as the sales volume-weighted average of the standard deviations of house and apartment price levels over the past eight quarters. In short, the volatility measure captures how much prices change overall in a given election-year zip code. Although large changes in housing prices will mechanically translate into higher observed volatility, the absolute year-over-year change is only moderately strongly correlated with volatility ($r=0.22$). This divergence is due to a substantial number of zip codes where housing prices fluctuate over time but exhibit little systematic change. We construct the volatility measure to capture precisely this `bubblyness' which characterizes housing prices in some localities at some points in time.
-
-%As an illustration of the housing price volatility measure, consider Figure \ref{volcases}, which plots the highest and lowest levels of observed volatility, respectively Rungsted Kyst (left) and Roslev (right), both in 2007.
-
-%\begin{figure}[htbp!]
-%	\includegraphics[width=0.9\textwidth]{../figures/volcases}
-%	\centering
-%	\caption{Illustration of housing price volatility measure: the election year zip codes with the highest and lowest levels of observed volatility, respectively Rungsted Kyst (left) and Roslev (right), both in 2007.}\label{volcases}
-%\end{figure}
-
-%We observe both the change and volatility measures at the zip code level. Since the dependent variable is observed at the voting precinct level, merging these observations is not trivial. The easiest solution would be to extract the zip code of the address of each polling place and link the polling place to housing prices in that zip code. Unfortunately, full addresses are not available for all polling places. Instead, we take a three-stage approach to linking polling places to zip codes. First, we extract the street address and higher-level voting district of each polling place and add `Denmark' at the end of the string (the full resulting string is of the format `Streetname X, City, Denmark'). Second, we pass this string to the Google Maps API, which geocodes the string and returns latitude-longitude coordinates.\footnote{Available at \texttt{\href{https://developers.google.com/maps/documentation/geocoding/intro}{developers.google.com/maps/documentation/geocoding/intro}}.} Third and last, we pass these coordinates to the Danish Addresses Web API (DAWA), a public service provided by the Danish Geodata Agency.\footnote{Available at \texttt{\href{http://dawa.aws.dk/}{dawa.aws.dk}}.} The DAWA returns the zip code for each address, allowing us to link the two sources of data. Since voting returns are thus statistically speaking nested inside zip codes, we estimate models using standard errors clustered at the zip code level.
-
-%In addition to the main independent variables, we measure a number of structural factors at voting precinct. These are population based measures of economic characteristics of the precincts, which are originally from Statistics Denmark. These are only available at one point in time (2011), and as such cannot be modeled dynamically. The variables are income, average household income in the precinct in DKK, employment, the percentage of people in the precinct who are on the job market, benefits, the percentage of people in the precinct who are on unemployment benefits (`kontanthjælp' and `dagpenge'), and wealth, average household wealth in the precinct in DKK.  
-
-
 
 %\subsection{Identification strategy}
 
@@ -204,19 +174,53 @@ Data description
 %$ \mathbf{X_i}$ is a vector of the four economic variables and $\mathbf{\beta_t}$ is a vector of coefficients attached to these variables, which specify the relationship between these variables and incumbent popularity at time $t$. $\mathbf{Z_i}$ is a vector of 98 dummy variables indicating which of 98 municipalities the precinct lies within. $\mathbf{\gamma_t}$ is a vector of coefficients attached to these dummy variables, which specify the cross-precinct municipal average of incumbent popularity at time $t$.
 
 
+%difference in difference - control for other economic conditions. Problem is - however way better than earlier...
+
+%Limitation
+%Before moving on it is important to note an important limitation of the present study. What we find is an aggregate level correlation. As such, we do not know whether voters punish and reward the government for the quality of local housing prices  because (1) their own house loses some of its value (egotropic), (2) they fear for the future of their community (geotropic) or (3) they infer something about the state of the national economy from their local area (sociotropic). The aggregate-level data used in this study cannot distinguish between these competing models of individual-level cognition. However, given the state of the extant literature on housing prices and the effects of the local economy, simply establishing an effect and describing how this effect varies is substantial step forward. 
+
+\section{Precinct-level Evidence}
+We begin our exploration of the relationship between local housing prices and incumbent support by looking at precinct-level election returns in the Danish Parliamentary elections between 2005 and 2015. In particular, we match support for governing parties in precincts with changes in the prices of houses sold in the proximity of the precinct. 
+
+\subsection{Data sources and indicators}
+The key dependent variable in our study is \textit{percent of votes cast for government parties} in each voting precinct.\footnote{Results are similar for only using the prime minister's party.} Each voting precinct corresponds to a single polling place and is this the smallest unit at which voting returns can be observed. We measure this for all precincts in five elections: 2001, 2005, 2007, 2011 and 2015. A number of precincts are redistricted between each election. This is problematic, as we want to use  the precincts as part of a panel data set. There are two ways to deal with this. We can drop precincts, as their geographical boundaries get altered. This would mean dropping roughly 15 pct. of the data on the dependent variable. The other option is to fix the precincts geographical boundaries at one reference election (i.e. 2015), and then recalculate vote returns in any changed precincts, so they match up with the precincts in the reference election. Since there are a lot of minor changes in geographical boundaries from election to election, but only a few major changes, we opt for the latter, which allows us to keep these slightly  altered districts.\footnote{For details of how returns from the redistricted precincts are calculated, see Søren Risbjerg Thomsen's research note at \texttt{\href{http://bit.ly/205OlPi}{bit.ly/205OlPi}}.  We use 2015 as a reference elections}. 
+
+The key independent variable is \textit{change in local housing prices}. We obtain housing price data from The Danish Mortgage Banks' Federation (\textit{Realkreditforeningen}), which publishes quarterly data on the average price per square meters of all sales at the zip code level.\footnote{Available at \texttt{\href{http://statistik.realkreditforeningen.dk/}{statistik.realkreditforeningen.dk}}.} For each election, we calculate change in housing prices as the percentage change in the quarter of the election compared to the same quarter one year before. 
+
+Zip codes are a substantively interesting level of aggregation when it comes to the price of housing, as it is the level at which house prices are most often reported in Denmark (cf. the fact they are published by The Danish Mortgage Banks' Federation). However, since the dependent variable is observed at the voting precinct level, merging these observations is not trivial. The easiest solution would be to extract the zip code of the address of each polling place and link the polling place to housing prices in that zip code. Unfortunately, full addresses are not available for all polling places. Instead, we take a three-stage approach to linking polling places to zip codes. First, we extract the street address and higher-level voting district of each polling place and add `Denmark' at the end of the string (the full resulting string is of the format `Streetname X, City, Denmark'). Second, we pass this string to the Google Maps API, which geocodes the string and returns latitude-longitude coordinates.\footnote{Available at \texttt{\href{https://developers.google.com/maps/documentation/geocoding/intro}{developers.google.com/maps/documentation/geocoding/intro}}.} Third and last, we pass these coordinates to the Danish Addresses Web API (DAWA), a public service provided by the Danish Geodata Agency.\footnote{Available at \texttt{\href{http://dawa.aws.dk/}{dawa.aws.dk}}.} The DAWA returns the zip code for each address, allowing us to link the two sources of data. Since voting returns are thus statistically speaking nested inside zip codes, we estimate models using standard errors clustered at the zip code level.
+
+We use changes in housing prices rather than the level of housing prices. This is in part because previous literature on economic voting has focused on prices they have focused on changes (i.e. inflation) rather than levels, and in part because changes in housing prices should be more salient than the level. As such, changes in the house price will mean either very short or very long turnaround time for house sales, as sellers and buyers try to adjust to the new prices, leaving visible traces in the immediate context -- such as the amount of for sale signs, and stories from neighbors about the speed at which their house was sold.
+
+In addition to the main independent variable, we measure both the unemployment rate and median income at the zip-code level. We also measure the population density ($log(inhabitants/km^2)$) of the municipality in which the precinct is located. These are all population based measures calculated from registers provided by Statistics Denmark. 
+
+
 \subsection{Estimating the average effect of housing prices}
-%In order to examine the relationship between electoral support for governing parties and local housing prices, we estimate a number of different versions of equation (1) in table \ref{tab1}. In model 1 we simply look at the bivariate relationship between electoral support and housing prices. In model 2 we include precinct fixed effects. In model 3 we include year fixed effects; this gives us the difference-in difference model. In model 4 we include year by structural factors. In model 5 we include year by municipality fixed effects. The standard errors are robust and clustered at the precinct level.\footnote{Since all precincts are nested within zip-codes, this is more restrictive than zip-code clustering.}
+In table \ref{predv}  we report estimates from a set of linear regression of electoral support for governing parties using changes in local housing prices as the primary independent variable.
 
-%As can be seen from table \ref{tab1}, there is a statistically significant and positive effect estimate of one-year changes in housing prices, indicating that a larger fraction of the electorate casts their vote for governing parties in precincts where housing prices increase. In the most demanding specification, model 5, the effect is roughly 0.01.  This implies that moving across the range of observed changes in housing prices translates into an increase in support for  governing parties of 1.7 percentage points. A small, but meaningful average effect.
-
-Table \ref{predv} shows the effect og house prices adding controls, precinct FEs and year FE. Use lag house prices as a placebo-test in \ref{prelagiv}.
-
+In model 1 we simply look at the bivariate relationship between electoral support and changes in housing prices. In model 2 we include controls for the state of the economy in the precinct. In model 3 we include precinct fixed effects. In model 4 we include year fixed effects; this gives us the difference-in difference model with structural controls. In model 4 we include year by structural factors. 
 
 \input{../tables/predv.tex}
 
-\input{../tables/prelagiv.tex}
 
-In appendix S2 we examine the common trends assumption.
+As can be seen from table \ref{predv}, there is a statistically significant and positive effect estimate of one-year changes in housing prices, indicating that a larger fraction of the electorate casts their vote for governing parties in precincts where housing prices increase. In the most demanding specification, model 5, the effect is 0.032. This implies that if the price of housing sold in the municipality in the last quarter before the election is twice that of the housing sold in the same quarter the year before, governing parties will get 3.2 percentage points support.
+
+\subsection{Robustness}
+
+Linje 1 - Kontrol for differenced
+Linje 2 - Differenced afhængig
+Linje 3 - Lagget afhængig
+Linje 4/5 - Positive/Negative  
+
+
+%Table \ref{predv} shows the effect og house prices adding controls, precinct FEs and year FE. Use lag house prices as a placebo-test in \ref{prelagiv}.
+
+%\input{../tables/prelagiv.tex}
+
+%
+
+
+
+%In appendix S2 we examine the common trends assumption.
 
 %If we have identified a causal effect of housing prices in model (1) of table 1, we would not expect there to be any systematic difference in incumbent support over time between those precincts which happen to have increasing housing prices at any given election and those who happen to have decreasing housing prices at any given election.  In tables \ref{tab2} and \ref{tab3} we try to test this by using a one-period lag and one-period lead of the dependent variable respectively.
 
@@ -229,9 +233,13 @@ In appendix S2 we examine the common trends assumption.
 
 
 
-\subsection{Heterogeneity}
+
 
 Brief discussion of heterogeneity. We find (1) no difference in effects between positive and negative changes, but (2) larger effects in more densely populated areas. 
+
+Figure 3
+
+Figure 4
 
 
 
@@ -251,38 +259,57 @@ Brief discussion of heterogeneity. We find (1) no difference in effects between 
 %In table \ref{tab5} we look at differences in the effect of changes in housing prices across different levels of volatility in the housing prices.  We do this by extending the models estimated above with an interaction between the housing price variable and our volatility variable. The interaction is statistically significant in the two most demanding specifications (models 3 and 4). This suggests, that housing prices have a greater impact on election results in areas were housing prices are generally more volatile. 
 
 
-
-
 \section{Individual-level evidence}
-
+We continue our study of how local housing prices shape incumbent support by tracking individuals intent to vote for governing parties in a two wave panel survey collected between 2002 and 2011. We link these individuals to the prices of houses sold in their residential context using the national Danish registers. The registers contain very detailed information about all individuals legally residing in Denmark, including the exact geographical location of their residence, the price of any real estate they sell, and a range of other characteristics \citep{thygesen2011introduction}. This makes it possible to calculate the distance between the individuals in the survey and all other individuals in Denmark and, in turn, the distance to any individuals who are selling their home. 
+ 
+Before describing these data in more detail, It is important to highlight what we hope to gain from using an additional data set. While it is always desirable to try and replicate findings using a different methodology and a different set of data, linking individual level data to these detailed registers has some advantages over the the precinct-level data used above. The flexibility and detail of the Danish registers makes it possible to look at multiple levels of aggregation -- not just the official levels of aggregation such as zip codes. This makes it possible to eliminate concerns related to the modifiable area unit problem (MAUP), in that we can rule out that the findings are linked to a specific way of measuring 'local housing prices'.  This approach also makes  it is possible to link house prices to individual level characteristics such as attitudes, home ownership etc. This is important, because we can use these variables to rule out alternative explanations and to explore moderators of the housing price effects, which might, in turn, make it possible to get at the causal mechanism underlying the effect.
 
 
 \subsection{Data Sources and indicators}
-Description of data sources.
+%describe survey
+%describe DV
+
+Our independent variable is once again year-over-year changes in housing prices in the residential context of the respondent. We measure the change by comparing the price of housing sold in the quarter prior to the data collection and the price of housing sold in the same quarter the year before. Unlike for the data used above we do not have data on prices per square meter. This makes our change measure more sensitive to random variation in the types of houses put up for sales in the two time periods we compare. That is, some of the change from year to year might be due to the fact that larger houses were put up for sale. To take this, as well as other structural differences in the type of houses put up for sale, into account we divide the sales price of each house by its publicly valued price , before.\footnote{The Danish government makes a conservative estimate of the price of all houses in Denmark every two years which is used to calculate property taxes. The public evaluation was constant across the time periods we use to estimate house price changes.} As such, we calculate a price change adjusted for the public valuation of the housing sold in the particular quarter. \footnote{We make the following exceptions: (1) Sales of part of a house or apartment (10 pct. of all sales). (2) Sales of commercial real estate (9 pct). (3) Sales of apartments or houses valued at more than DKK 10 million (0.2 pct. of all sales)  (4) Sales with what `Statistics Denmark' calls an irregular price (i.e. if the sales price is more than three times the valuation or less than forty percent of the valuation, 6 pct. of all sales).} 
+
+We estimate these changes in house prices within each survey respondents residential context, measuring residential context  in three different ways. First, and similar to what we did for the precinct-data, we use the respondents zip-code, comparing houses sold within the same zip code a year apart. Second, we look at the prices of the 20 or 40 units of housing sold closest to the respondents own home, comparing the prices of houses sold in the immediate proximity of the respondent to that of houses sold one year earlier. Third, we look at the price of houses sold within a fixed radius of 500 or 1500 meters of the respondent. 
+
+Both of these latter methods are superior to the zip code level in that they do not.... bla bla - differ in important ways too. One take sales fixed varies size, the other takes size fixed varies sales.
+
+  
 
 \subsection{Average Effect}
 
-
+%present results
 
 Table \ref{inddv} shows the effect og house prices.
 
-We use a linear probability model of support for governing parties. Independent variable is year on year change in house prices measured in different ways. For the first three columns we look at changes in prices for the closest 10, 20 and 40 house sales. For the next three columns we look at changes in the price of houses sold within 500, 1000 and 1500 metres.
+We use a linear probability model of support for governing parties. Independent variable is year on year change in house prices measured in different ways. For the first three columns we look at changes in prices for the closest 10, 20 and 40 house sales. For the next three columns we look at changes in the price of houses sold within a radius of 500 and 1500 meters.
 
 In table \ref{indlagiv} we use lag house prices as a placebo test.
 
 \input{../tables/inddv.tex}
 
-\input{../tables/indlagiv.tex}
 
-\subsection{Heterogeneity}
-Brief discussion of heterogeneity. We find (1) no difference in effects between positive and negative changes, but (2) larger effects in more densely populated areas (not significant). 
+
 
 \subsection{Comparing effect sizes}
+These effects are not all significant, vut point in the rigt direction. Consistent. IN figure x we compare with b
+
 Here we will have figure comparing effect sizes for precinct level and individual level data. 
 
+\subsection{The Causal mechanism}
+
+Ideology, Self Interest or Inference
+
+(1) Home-ownership
+
+(2) Moving
+
+(3) Ideology
 
 
-\section{An Alternative Explanation: Ideology not Inference}
+
+%\subsection{Alternative Explanations: Ideology and Inference}
 \citet{ansell2014political} and others find that house prices affect ideology. In our study the DV is primarily a right-wing government. Can the effects we find be explained by house prices affecting governmetn support thorugh ideologY?
 
 Tables \ref{prealtdv} and \ref{prealtdv} examine whether this is the case substituting incumbent support for a measure of voters ideological orientation. For precinct level data this is net support for right wing government, for individual level data this is self placement on ideological left right scale. We find no 
