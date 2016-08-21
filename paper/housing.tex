@@ -195,113 +195,98 @@ In addition to the main independent variable, we measure both the unemployment r
 
 
 \subsection{Estimating the average effect of housing prices}
-In table \ref{predv}  we report estimates from a set of linear regression of electoral support for governing parties using changes in local housing prices as the primary independent variable.
+In table \ref{predv}  we report estimates from a set of linear regression of electoral support for governing parties using changes in local housing prices as the primary independent variable. For all models we use robust standard errors clustered at the precinct-level.
 
-In model 1 we simply look at the bivariate relationship between electoral support and changes in housing prices. In model 2 we include controls for the state of the economy in the precinct. In model 3 we include precinct fixed effects. In model 4 we include year fixed effects; this gives us the difference-in difference model with structural controls. In model 4 we include year by structural factors. 
+In the first column we present a simple linear regression between electoral support and changes in housing prices. In the second column we include the unemployment rate and median income as controls for the state of the economy in the precinct. In model 3 we add precinct fixed effects. In model 4 we add year fixed effects, which gives us a difference-in-difference model with controls for trends in the economic situation. 
 
 \input{../tables/predv.tex}
 
 
-As can be seen from table \ref{predv}, there is a statistically significant and positive effect estimate of one-year changes in housing prices, indicating that a larger fraction of the electorate casts their vote for governing parties in precincts where housing prices increase. In the most demanding specification, model 5, the effect is 0.032. This implies that if the price of housing sold in the municipality in the last quarter before the election is twice that of the housing sold in the same quarter the year before, governing parties will get 3.2 percentage points support.
+As can be seen from table \ref{predv}, there is a statistically significant and positive effect of changes in housing prices, indicating that a larger fraction of the electorate casts their vote for governing parties in precincts where housing prices are on the rise. In the most demanding specification the effect is 0.03. This implies that if the price of housing sold in the municipality in the last quarter before the election is twice that of the housing sold in the same quarter the year before, governing parties will get 3.2 percentage points support.
 
-\subsection{Robustness}
-
-Linje 1 - Kontrol for differenced
-Linje 2 - Differenced afhængig
-Linje 3 - Lagget afhængig
-Linje 4/5 - Positive/Negative  
+Unsurprisingly, the effect is larger in the models which use fewer controls --  the effect size drops from 0.1 to 0.06 when introducing the economic controls, and drops the additional 0.2 when introducing the time and precinct fixed effects. This seems to suggest that having a difference in difference approach and detailed information about other aspects of the local economy is, in fact, important when identifying the effect of local housing markets.
 
 
-%Table \ref{predv} shows the effect og house prices adding controls, precinct FEs and year FE. Use lag house prices as a placebo-test in \ref{prelagiv}.
+\input{../tables/robustness.tex}
 
-%\input{../tables/prelagiv.tex}
+How robust are these results? In table \ref{robustness} we try to reanalyze the models above in different ways, to get a more complete picture of the statistical evidence for (or against) the importance of local housing markets for incumbent support. 
 
-%
+We begin by looking at whether the time period, i.e. year-over-year changes, matter for the result. To do so we reestimate the models from table \ref{predv} using the change over two years instead of one. The results are fairly similar using this measure of more long run changes in housing prices, however, the estimated effects tend to be smaller than what we found above. This fits nicely with previous work showing that voters are, by and large, myopic when it comes to relating economic indicators to incumbent support \citep{healy2009myopic}. 
 
+Next, we look at whether the governing parties were already getting more popular in places where house prices would eventually go up and getting less popular in places where house prices would eventually go down. This is important, because a key assumption underlying the difference-in-difference design, is that no such prior trends are present (i.e. the parallel trends assumption). To do this we estimate the same models as before, using support for the governing party at the last election as the dependent variable -- the lag of the dependent variable. As can be seen from the second row of table \ref{robustness} there is an significant effect of housing prices in the less restrictive models. However, in the final model the estimated effect of housing prices is 0.005, less than a sixth of the estimate in the previous model, indicating that their was no identifiable difference in how incumbent support trended in areas where house prices would increase in the future and in areas where house prices would decrease.
 
+As mentioned above, we use changes in house prices rather than levels. However, in our models we control for the level of income and the level of unemployment. One could imagine, that this means that we fail to capture something important about how the economic status of the precinct is changing, which could, in turn, be driving our results. To test this we re-estimate the different models using first-differenced (FD) controls. If anything this strengthens the results, with the estimated effects of housing prices roughly doubling in size, as can be seen in the fourth row of table \ref{robustness}.  We also estimated a complete change model, using a first-difference dependent variable as well. The results from these can be seen in the fifth row of table \ref{robustness}. The estimated effect size of housing prices in the completely differenced model is somewhat smaller than what was identified in table \ref{predv}, but it remains statistically significant.
 
-%In appendix S2 we examine the common trends assumption.
+As a final robustness test we split the housing price variable in two, creating one variable which measures the size of positive changes, and which is zero if there is a negative change, and one variable which measures the size of negative changes, and which is zero if there is a positive change. This makes it possible to study the effect of increases and decreases in housing prices separately. We report the result of these analyses in the the two last rows of table \ref{robustness}. As can be seen the effect of negative changes an postive changes do not differ - they are roughly 0.03. This is important because it suggests that incumbent politicians are not only rewarded for the boom or punished for the bust. Instead, voters seem to first reward governing politicians when house prices are on the rise, and then punish them when they fall.
 
-%If we have identified a causal effect of housing prices in model (1) of table 1, we would not expect there to be any systematic difference in incumbent support over time between those precincts which happen to have increasing housing prices at any given election and those who happen to have decreasing housing prices at any given election.  In tables \ref{tab2} and \ref{tab3} we try to test this by using a one-period lag and one-period lead of the dependent variable respectively.
-
-
-
-
-
-
-%As can be seen from the tables \ref{tab2} and \ref{tab3} neither the lead nor the lag dependent variable models show a significant  effect of housing prices in the most demanding models. This suggests that the above models do in fact identity the causal effect.
-
-
-
-
-
-Brief discussion of heterogeneity. We find (1) no difference in effects between positive and negative changes, but (2) larger effects in more densely populated areas. 
-
-Figure 3
-
-Figure 4
-
-
-
-%We examine two different sources of heterogeneity in the effect of housing prices: asymmetry across positive and negative changes and heterogeneity across high- and low-volatility areas.  It is important to understand how the effect of housing prices vary. As such, if we know what type of housing price changes voters react more strongly too, we know which type of changes which politicians might have a interest in promoting or avoiding,  when designing economic policy which influences the housing market. %However, it is also somewhat dangerous as issues of multiple comparisons and over-fitting becomes prevalent. To avoid this we limit our selfs to examining types of heterogeneity, which are firmly based on previous literature on economic voting.
-
-%The first source of heterogeneity is the sign of the changes in housing prices. A small literature in economic voting have identified a negativity bias in economic voting, in that voters react more strongly to negative economic outcomes, than they do to positive economic outcomes \citep[e.g.][]{bloom1975voter}. In order to investigate whether a similar negativity bias is present in our dataset, we decompose our housing price variable into two different variables. A variable which records positive changes in housing prices, and which is zero if the changes are negative, and a variable which records negative changes in housing prices (numerically), and which is zero if changes in housing prices are positive. In table \ref{tab4} we estimate the same models as above, but with our new positive and negative housing price change variables. We also include a statistical test of whether the effect of the two variables are numerically similar. 
-
-%As can be seen from table \ref{tab4}, the negative changes have a significantly larger effect than the positve changes in the most demanding specification (model 4). This indicates that there is a negativity bias in the effect of housing prices; negative changes are more likely to affect election results than positive changes. 
-
-
-%This asymmetric effect is plotted in figure \ref{posneg}.
-
-
-
-%The second source of heterogeneity is volatility of housing prices in the area. One that voters would focus less on changes in housing prices in areas with a great deal of housing price volatility. As such, in these areas a given change in housing prices seem less likely to be lasting. However, we believe that volatility magnifies the effect of changes in housing prices. For several reasons. First, if the price of houses in your local area have experienced dramatic increases and decreases  over the past few years, it seems more likely that you will pay attention to housing prices. That is, volatility has a priming effect. Second, things which change might seem more manipulable, and as such it might be easier to imagine politicians doing something about housing prices if they change a lot. Third, and most importantly, the policy-elasticity, that is the actual effect of policy on house-price changes are, all else equal, going to be larger in areas with higher levels of volatility. This makes it easier to detect these policy effect for voters \cite{duch2008economic}, and this might make it more likely for voters to respond to house prices.
-
-%In table \ref{tab5} we look at differences in the effect of changes in housing prices across different levels of volatility in the housing prices.  We do this by extending the models estimated above with an interaction between the housing price variable and our volatility variable. The interaction is statistically significant in the two most demanding specifications (models 3 and 4). This suggests, that housing prices have a greater impact on election results in areas were housing prices are generally more volatile. 
-
+Taken together, these analyses suggest that there was a positive effect of housing prices on support for governing parties, and that we have been successful in identifying the effect.
 
 \section{Individual-level evidence}
 We continue our study of how local housing prices shape incumbent support by tracking individuals intent to vote for governing parties in a two wave panel survey collected between 2002 and 2011. We link these individuals to the prices of houses sold in their residential context using the national Danish registers. The registers contain very detailed information about all individuals legally residing in Denmark, including the exact geographical location of their residence, the price of any real estate they sell, and a range of other characteristics \citep{thygesen2011introduction}. This makes it possible to calculate the distance between the individuals in the survey and all other individuals in Denmark and, in turn, the distance to any individuals who are selling their home. 
  
-Before describing these data in more detail, It is important to highlight what we hope to gain from using an additional data set. While it is always desirable to try and replicate findings using a different methodology and a different set of data, linking individual level data to these detailed registers has some advantages over the the precinct-level data used above. The flexibility and detail of the Danish registers makes it possible to look at multiple levels of aggregation -- not just the official levels of aggregation such as zip codes. This makes it possible to eliminate concerns related to the modifiable area unit problem (MAUP), in that we can rule out that the findings are linked to a specific way of measuring 'local housing prices'.  This approach also makes  it is possible to link house prices to individual level characteristics such as attitudes, home ownership etc. This is important, because we can use these variables to rule out alternative explanations and to explore moderators of the housing price effects, which might, in turn, make it possible to get at the causal mechanism underlying the effect.
+Before describing these data in more detail, It is important to highlight what we hope to gain from using an additional data set. While it is always desirable to try and replicate findings using a different methodology and a different set of data, linking individual level data to these detailed registers has some advantages over the the precinct-level data used above. The flexibility and detail of the Danish registers makes it possible to look at multiple levels of aggregation -- not just official levels of aggregation, such as zip codes. This makes it possible to eliminate concerns related to the modifiable area unit problem (MAUP), in that we can rule out that the findings are tied to a specific way of geographically aggregating house prices.  This approach also makes  it is possible to link house prices to individual level characteristics such as attitudes, home ownership etc. This is important, because we can use these variables to rule out alternative explanations and to explore moderators of the housing price effects, which might, in turn, make it possible to get at the causal mechanism underlying the effect.
 
 
-\subsection{Data Sources and indicators}
-%describe survey
-%describe DV
 
+
+\subsection{Data Sources and Indicators}
 Our independent variable is once again year-over-year changes in housing prices in the residential context of the respondent. We measure the change by comparing the price of housing sold in the quarter prior to the data collection and the price of housing sold in the same quarter the year before. Unlike for the data used above we do not have data on prices per square meter. This makes our change measure more sensitive to random variation in the types of houses put up for sales in the two time periods we compare. That is, some of the change from year to year might be due to the fact that larger houses were put up for sale. To take this, as well as other structural differences in the type of houses put up for sale, into account we divide the sales price of each house by its publicly valued price , before.\footnote{The Danish government makes a conservative estimate of the price of all houses in Denmark every two years which is used to calculate property taxes. The public evaluation was constant across the time periods we use to estimate house price changes.} As such, we calculate a price change adjusted for the public valuation of the housing sold in the particular quarter. \footnote{We make the following exceptions: (1) Sales of part of a house or apartment (10 pct. of all sales). (2) Sales of commercial real estate (9 pct). (3) Sales of apartments or houses valued at more than DKK 10 million (0.2 pct. of all sales)  (4) Sales with what `Statistics Denmark' calls an irregular price (i.e. if the sales price is more than three times the valuation or less than forty percent of the valuation, 6 pct. of all sales).} 
 
-We estimate these changes in house prices within each survey respondents residential context, measuring residential context  in three different ways. First, and similar to what we did for the precinct-data, we use the respondents zip-code, comparing houses sold within the same zip code a year apart. Second, we look at the prices of the 20 or 40 units of housing sold closest to the respondents own home, comparing the prices of houses sold in the immediate proximity of the respondent to that of houses sold one year earlier. Third, we look at the price of houses sold within a fixed radius of 500 or 1500 meters of the respondent. 
+We estimate these changes in house prices within each survey respondents residential context, measuring residential context  in three different ways. First, and similar to what we did for the precinct-data, we use the respondents zip-code, comparing houses sold within the same zip code a year apart. Second, we look at the prices of the 20 or 40 units of housing sold closest to the respondents own home, comparing the prices of houses sold in the immediate proximity of the respondent to that of houses sold one year earlier. Third, we look at the price of houses sold within a fixed radius of 500 or 1500 meters of the respondent. These latter ways of defining the respondents residential contexts have the benefit of being centered on the respondent, alleviating the problem that the context of a respondent living on the rim of one zip-code might be better represented by an adjoining zip-code. Note also that these two types of residential context is different in other important ways too -- whereas the first method takes number of sales as fixed, but varies the geographical dispersion of these sales, the second method holds geographical dispersion fixed, but varies the number of sales. Since it is not obvious which of the three ways of measuring the state local housing market is superior, we use all three in the analysis below.
 
-Both of these latter methods are superior to the zip code level in that they do not.... bla bla - differ in important ways too. One take sales fixed varies size, the other takes size fixed varies sales.
+To get at support for governing parties at the individual level we utilize a two-wave panel survey, constructed by re-interviewing respondents who had participated in the Danish Version of the European Social Survey (ESS);  a nationally representative survey. All in all 1,745 people were re-interviewed in the winter of 2011-12, with some of these having been interviewed for the first time in 2007-8, some in 2003-4 and some in 2001-2 -- corresponding to rounds five, three and one of the ESS. 
 
-  
+The respondents in the ESS in Denmark are randomly sampled from the national civil registry, and therefore the civil registration numbers were retained by the data collection agency. This made it possible to identify the respondents for a second interview, and made it possible to link the respondents to the national registers. From the survey, we use the following question: ``What party did you vote for at the last parliamentary election?'' Respondents were presented with all the parties which ran at the previous election. For the analyses we create a dummy variable indicating whether the respondent voted for the incumbent party. 
+
+In addition to these primary variables from the survey and the registers we also include a number of additional variables which we use in the analysis for statistical control, interactive analyses and placebo tests. From the registers we include unemployment and income both for the individual respondent and in this respondents immediate context, we include whether the respondent owns his or her own home, and how long a period expired between the day the respondent was surveyed and the day that this individual relocated. From the survey we include an item on the respondents ideological orientation, measured on a ten point scale going from `Left' to `Right', and rescaled to go between zero and one.
 
 \subsection{Average Effect}
+In table \ref{inddv}  we report estimates from a set of linear probability models (LPM), setting the probability of voting for for a party in government as a function of changes in local housing prices. We estimate the models using a linear regression with fixed effects for the respondent, and fixed effect for which of the four different survey rounds the respondent is participating  (ESS round 1, 3, 5 or the re-interview). All models include controls for the average income and unemployment rate in the respondents context, as well as indicators of the respondent's own income and whether someone in the household is unemployed. As such, we end up with a difference-in-difference model which controls for trends in the economic situation -- however, unlike for the precinct level data we can now control for trends in both the individuals personal economy and for the economy of the larger context. We use robust standard errors, clustered at the individual level.
 
-%present results
+All models include the same set of variables, but they differ in how the contextual variables are operationalized. In column one we present a model where housing price change is calculated based on the 20 closest sales (cf. above), and the other contextual variables -- average income and unemployment rate -- is measured within a 500 meter radius of the respondent. In column two we use the 40 closest houses, but leaves the remaining variables operationalized as in column one. In column three and four we operationalize all contextual variables, sales, unemployment rate and average income, as 1000 and 1500 meter radii around the respondent. Finally, in column five, we examine sales at the level of zip-codes, but the other contextual variables are calculated based on people within a 1500 meter radii around the respondent.
 
-Table \ref{inddv} shows the effect og house prices.
+\input{../tables/inddv}
 
-We use a linear probability model of support for governing parties. Independent variable is year on year change in house prices measured in different ways. For the first three columns we look at changes in prices for the closest 10, 20 and 40 house sales. For the next three columns we look at changes in the price of houses sold within a radius of 500 and 1500 meters.
+The estimated effect sizes across these different models is consistently positive, although the size of the effect varies somewhat, going from 0.04 in column one to 0.11 in column 4. The effect is only statistical in one of the five specification -- the one which focus on the 1500 meter context. 
 
-In table \ref{indlagiv} we use lag house prices as a placebo test.
+It is hard to say for sure that these results did not happen. However, as can be seen from the large standard errors
 
-\input{../tables/inddv.tex}
-
-
+Figure \ref{comparison} examines differences between the two...
 
 
-\subsection{Comparing effect sizes}
-These effects are not all significant, vut point in the rigt direction. Consistent. IN figure x we compare with b
 
-Here we will have figure comparing effect sizes for precinct level and individual level data. 
+\begin{figure}[htbp!]
+	\includegraphics[width=0.9\textwidth]{../figures/comparison.eps}
+	\centering
+	\caption{Effects of Housing Prices across levels of analysis with 90  and 95 pct. Confidence Intervals}\label{comparison}
+\end{figure}
 
-\subsection{The Causal mechanism}
+
+\subsection{Self Interest, Ideology and Inference}
 
 Ideology, Self Interest or Inference
 
 (1) Home-ownership
+
+\begin{figure}[htbp!]
+	\includegraphics[width=0.9\textwidth]{../figures/ideology.eps}
+	\centering
+	\caption{Effects of Housing Prices on Ideological Orientation and Support for Governing Parties with 90  and 95 pct. Confidence Intervals}\label{ideology}
+\end{figure}
+
+\begin{figure}[htbp!]
+	\includegraphics[width=0.9\textwidth]{../figures/homeown.eps}
+	\centering
+	\caption{Effects of Housing Prices for those who own their home and those who do not with 90  and 95 pct. Confidence Intervals}\label{homeown}
+\end{figure}
+
+\begin{figure}[htbp!]
+	\includegraphics[width=0.9\textwidth]{../figures/moving.eps}
+	\centering
+	\caption{Effects of Housing Prices for those who had just or were going to move soon and those who did not with 90 and 95 pct. Confidence Intervals}\label{move}
+\end{figure}
+
+
 
 (2) Moving
 
@@ -309,14 +294,7 @@ Ideology, Self Interest or Inference
 
 
 
-%\subsection{Alternative Explanations: Ideology and Inference}
-\citet{ansell2014political} and others find that house prices affect ideology. In our study the DV is primarily a right-wing government. Can the effects we find be explained by house prices affecting governmetn support thorugh ideologY?
 
-Tables \ref{prealtdv} and \ref{prealtdv} examine whether this is the case substituting incumbent support for a measure of voters ideological orientation. For precinct level data this is net support for right wing government, for individual level data this is self placement on ideological left right scale. We find no 
-
-\input{../tables/prealtdv.tex}
-
-\input{../tables/indaltdv.tex}
 
 
 \section{Conclusion}
@@ -330,6 +308,11 @@ Conclusion
 
 %Though the data used in this study is a clear improvement compared to those in earlier studies, its major shortcoming is that the data is nonetheless observational. In the absence of fully or quasi-experimental variation in housing prices, we cannot be sure that the estimated effects are not confounded by unobserved heterogeneity. This concern remains even though we apply highly stringent tests to the effect estimate. Hence, a promising avenue for future research is to identify settings with plausibly exogenous variation. Ideally, future studies would also utilize individual-level data, which would allow for a closer look at the mechanism by which voters reward and punish incumbents for changes in local housing prices. 
 
+%\begin{figure}[htbp!]
+%	\includegraphics[width=0.9\textwidth]{../figures/intcomparison}
+%	\centering
+%	\caption{Taken from \citet[50]{dam2011housing}}\label{dam}
+%\end{figure}
 
 
 
@@ -379,6 +362,7 @@ Tables \ref{preposneg} and \ref{predens} examines the heterogeneity of the effec
 \input{../tables/predens.tex}
 
 \newpage
+
 
 
 \subsection*{S4: Heterogeneous treatment effects in individual-level data}
