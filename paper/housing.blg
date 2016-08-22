@@ -1,5 +1,27 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: housing.aux
 The style file: apa.bst
 Database file #1: library.bib
+I was expecting a `,' or a `}'---line 98 of file library.bib
+ : 
+ : =======
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 108 of file library.bib
+ : 
+ : >>>>>>> origin/master
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 164 of file library.bib
+ : @article{bisgaard2016reconsidering
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 309 of file library.bib
+ : @article{lewis2013vp
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 384 of file library.bib
+ : @article{thygesen2011introduction
+ :                                  ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in healy2014presidential
-(There was 1 warning)
+(There were 5 error messages)

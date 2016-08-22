@@ -17,24 +17,16 @@ Ansolabehere, S., Meredith, M., and Snowberg, E. (2014).
   macro-economy.
 \newblock {\em Economics \& Politics}, 26(3):380--410.
 
-<<<<<<< HEAD
-\bibitem[\protect\astroncite{Bisgaard et~al.}{2016}]{bisgaard2016reconsidering}
-Bisgaard, M., Dinesen, P.~T., and Sønderskov, K.~M. (2016).
-\newblock Reconsidering the neighborhood effect: Does exposure to residential
-  unemployment influence voters' perceptions of the national economy?
-\newblock {\em Journal of Politics}.
-=======
 \bibitem[\protect\astroncite{Ashworth}{2012}]{ashworth2012electoral}
 Ashworth, S. (2012).
 \newblock Electoral accountability: recent theoretical and empirical work.
 \newblock {\em Annual Review of Political Science}, 15:183--201.
 
 \bibitem[\protect\astroncite{Bisgaard et~al.}{2016}]{bisgaard2016reconsidering}
-Bisgaard, M., S{\o}nderskov, K.~M., and Dinesen, P.~T. (2016).
+Bisgaard, M., Dinesen, P.~T., and Sønderskov, K.~M. (2016).
 \newblock Reconsidering the neighborhood effect: Does exposure to residential
-  unemployment influence voters’ perceptions of the national economy?
-\newblock {\em The Journal of Politics}, 78(3):000--000.
->>>>>>> 499c2c8b99db616ebcd23a6d146d107b91551ee7
+  unemployment influence voters' perceptions of the national economy?
+\newblock {\em Journal of Politics}.
 
 \bibitem[\protect\astroncite{Bloom and Price}{1975}]{bloom1975voter}
 Bloom, H.~S. and Price, H.~D. (1975).
@@ -42,11 +34,35 @@ Bloom, H.~S. and Price, H.~D. (1975).
   effect of prosperity and recession.
 \newblock {\em American Political Science Review}, 69(04):1240--1254.
 
+\bibitem[\protect\astroncite{Books and Prysby}{1999}]{books1999contextual}
+Books, J. and Prysby, C. (1999).
+\newblock Contextual effects on retrospective economic evaluations the impact
+  of the state and local economy.
+\newblock {\em Political Behavior}, 21(1):1--16.
+
 \bibitem[\protect\astroncite{Dam et~al.}{2011}]{dam2011housing}
 Dam, N.~A., Hvolb{\o}l, T.~S., Pedersen, E.~H., and Birch, P. (2011).
 \newblock The housing bubble that burst: Can house prices be explained? and can
   their fluctuations be dampened?
 \newblock {\em Danmarks Nationalbank Monetary Review 1st Quarter Part}.
+
+\bibitem[\protect\astroncite{Eisenberg and
+  Ketcham}{2004}]{eisenberg2004economic}
+Eisenberg, D. and Ketcham, J. (2004).
+\newblock Economic voting in us presidential elections: Who blames whom for
+  what.
+\newblock {\em Topics in Economic Analysis \& Policy}, 4(1).
+
+\bibitem[\protect\astroncite{Ferejohn}{1986}]{ferejohn1986incumbent}
+Ferejohn, J. (1986).
+\newblock Incumbent performance and electoral control.
+\newblock {\em Public choice}, 50(1):5--25.
+
+\bibitem[\protect\astroncite{Hansford and
+  Gomez}{2015}]{hansford2015reevaluating}
+Hansford, T.~G. and Gomez, B.~T. (2015).
+\newblock Reevaluating the sociotropic economic voting hypothesis.
+\newblock {\em Electoral Studies}, 39:15--25.
 
 \bibitem[\protect\astroncite{Headrick and Lanoue}{1991}]{headrick1991attention}
 Headrick, B. and Lanoue, D.~J. (1991).
@@ -73,10 +89,28 @@ Healy, A. and Malhotra, N. (2013).
 \newblock Retrospective voting reconsidered.
 \newblock {\em Annual Review of Political Science}, 16:285--306.
 
+\bibitem[\protect\astroncite{Hopkins and
+  Pettingill}{2015}]{hopkins2015economic}
+Hopkins, D.~J. and Pettingill, L.~M. (2015).
+\newblock Economic voting in big-city us mayoral elections.
+\newblock {\em Available at SSRN 2567294}.
+
+\bibitem[\protect\astroncite{Kim et~al.}{2003}]{kim2003spatial}
+Kim, J., Elliott, E., and Wang, D.-M. (2003).
+\newblock A spatial analysis of county-level outcomes in us presidential
+  elections: 1988--2000.
+\newblock {\em Electoral Studies}, 22(4):741--761.
+
 \bibitem[\protect\astroncite{Kramer}{1971}]{kramer1971short}
 Kramer, G.~H. (1971).
 \newblock Short-term fluctuations in us voting behavior, 1896--1964.
 \newblock {\em American political science review}, 65(01):131--143.
+
+\bibitem[\protect\astroncite{Lewis-Beck and Stegmaier}{2013}]{lewis2013vp}
+Lewis-Beck, M.~S. and Stegmaier, M. (2013).
+\newblock The vp-function revisited: a survey of the literature on vote and
+  popularity functions after over 40 years.
+\newblock {\em Public Choice}, 157(3-4):367--385.
 
 \bibitem[\protect\astroncite{Nadeau et~al.}{2010}]{nadeau2010patrimonial}
 Nadeau, R., Foucault, M., and Lewis-Beck, M.~S. (2010).
