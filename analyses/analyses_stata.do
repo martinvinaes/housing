@@ -182,15 +182,16 @@ esttab m21 m22 m23 m24 using prealtiv.tex, keep(hp_2yr) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prelagiv)
 
-la var  hp_1yr "$\Delta$ housing price (lag DV)"
+la var  hp_2yr "$\Delta$ housing price (lag DV)"
 
 foreach x in 1 2 3 4{
- eststo m3`x': xtreg l.inc c.hp_1yr `z`x''
-qui margins, dydx(hp_1yr) saving(m3`x', replace)
+ eststo m3`x': xtreg l.inc hp_2yr   `z`x''
+qui margins, dydx(hp_2yr) saving(m3`x', replace)
 
 }
+-
 
-esttab m31 m32 m33 m34  using prelagdv.tex, keep(hp_1yr) replace ///
+esttab m31 m32 m33 m34  using prelagdv.tex, keep(hp_2yr) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties at t-1.} \label{prelagdv)
 
