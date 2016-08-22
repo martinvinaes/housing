@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Empirical Setting: A Policy Driven Boom and Bust}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Identification strategy}{section.2}% 3
@@ -9,3 +10,19 @@
 \BOOKMARK [2][-]{subsection.4.2}{Average Effect}{section.4}% 9
 \BOOKMARK [2][-]{subsection.4.3}{Self Interest, Ideology and Inference}{section.4}% 10
 \BOOKMARK [1][-]{section.5}{Conclusion}{}% 11
+=======
+\BOOKMARK [1][-]{section.1}{Introduction 1}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction 2}{}% 2
+\BOOKMARK [1][-]{section.3}{Empirical Setting: A Policy Driven Boom and Bust}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Identification strategy}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Precinct-level Evidence}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Data sources and indicators}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{Estimating the average effect of housing prices}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{Robustness}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Individual-level evidence}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Data Sources and indicators}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Average Effect}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.3}{Comparing effect sizes}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.4}{The Causal mechanism}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 14
+>>>>>>> origin/master
