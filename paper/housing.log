@@ -1,29 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  22 AUG 2016 16:13
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  22 AUG 2016 15:59
-entering extended mode
-**housing.tex
-(C:\Users\mvl\Documents\GitHub\housing\paper\housing.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  22 AUG 2016 15:17
->>>>>>> 499c2c8b99db616ebcd23a6d146d107b91551ee7
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.23)  22 AUG 2016 16:42
 entering extended mode
 **housing.tex
 (housing.tex
@@ -33,7 +8,6 @@ Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
->>>>>>> origin/master
 )
 \c@part=\count79
 \c@section=\count80
@@ -47,15 +21,6 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
@@ -63,20 +28,14 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
->>>>>>> origin/master
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
->>>>>>> origin/master
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -234,14 +193,9 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
->>>>>>> origin/master
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AD (decimal 173)
@@ -280,13 +234,8 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
->>>>>>> origin/master
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -309,43 +258,24 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
->>>>>>> origin/master
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
->>>>>>> origin/master
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen104
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
->>>>>>> origin/master
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -386,36 +316,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
->>>>>>> origin/master
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
@@ -433,20 +340,10 @@ Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
->>>>>>> origin/master
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
@@ -454,7 +351,6 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
->>>>>>> origin/master
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
@@ -462,11 +358,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
->>>>>>> origin/master
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen114
 \lightrulewidth=\dimen115
@@ -486,48 +378,24 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count103
 \@thisrulewidth=\dimen126
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
->>>>>>> origin/master
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count104
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\dcolumn.sty"
-Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\dcolumn.sty"
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
->>>>>>> origin/master
 \col@sep=\dimen127
 \extrarowheight=\dimen128
 \NC@list=\toks22
 \extratabsurround=\skip48
 \backup@length=\skip49
 ))
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -538,21 +406,11 @@ Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
->>>>>>> origin/master
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
@@ -560,15 +418,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
->>>>>>> origin/master
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
->>>>>>> origin/master
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -603,19 +456,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen129
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen129
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
->>>>>>> origin/master
 \c@tracingmulticols=\count105
 \mult@box=\box28
 \multicol@leftmargin=\dimen130
@@ -663,21 +508,6 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \colbreak@box=\box53
 \mc@col@check@num=\count113
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tex-gyre\tgpagella.sty"
-Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
@@ -1004,7 +834,6 @@ Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
->>>>>>> origin/master
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -1013,18 +842,6 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))))
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
-Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks23
-\MT@count=\count114
-LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen138
-LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count115
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks37
@@ -1035,49 +852,10 @@ LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count139
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
->>>>>>> origin/master
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-<<<<<<< HEAD
-\MT@outer@space=\skip52
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
-File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-\Gm@cnth=\count116
-\Gm@cntv=\count117
-\c@Gm@tempcnt=\count118
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
-\Gm@dimlist=\toks24
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-=======
 \MT@outer@space=\skip55
 )
 Package microtype Info: Loading configuration file microtype.cfg.
@@ -1114,7 +892,6 @@ Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
->>>>>>> origin/master
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1148,33 +925,21 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
->>>>>>> origin/master
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen196
 \Hy@linkcounter=\count143
 \Hy@pagecounter=\count144
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
->>>>>>> origin/master
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count145
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
->>>>>>> origin/master
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -1186,11 +951,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count146
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
->>>>>>> origin/master
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1215,33 +976,18 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
->>>>>>> origin/master
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count151
 \c@bookmark@seq@number=\count152
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
->>>>>>> origin/master
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip56
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks39
@@ -1253,7 +999,6 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen256
 \SOUL@uldp=\dimen257
 \SOUL@ulht=\dimen258
->>>>>>> origin/master
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
@@ -1269,43 +1014,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen264
 \caption@hangindent=\dimen265
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\soul\soul.sty"
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks25
-\SOUL@lasttoken=\toks26
-\SOUL@cmds=\toks27
-\SOUL@buffer=\toks28
-\SOUL@token=\toks29
-\SOUL@spaceskip=\skip54
-\SOUL@ttwidth=\dimen151
-\SOUL@uldp=\dimen152
-\SOUL@ulht=\dimen153
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen154
-\captionmargin@=\dimen155
-\captionwidth=\dimen156
-\caption@tempdima=\dimen157
-\caption@indent=\dimen158
-\caption@parindent=\dimen159
-\caption@hangindent=\dimen160
-)
-\c@ContinuedFloat=\count129
-Package caption Info: hyperref package is loaded.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
-=======
 \c@ContinuedFloat=\count153
 Package caption Info: hyperref package is loaded.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
->>>>>>> origin/master
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 \c@float@type=\count154
 \float@exts=\toks44
@@ -1314,44 +1026,6 @@ Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
-<<<<<<< HEAD
-\FR@everyfloat=\toks31
-\flrow@foot=\insert233
-\FB@wd=\dimen161
-\FBo@wd=\dimen162
-\FBc@wd=\dimen163
-\FBo@ht=\skip55
-\FBc@ht=\skip56
-\FBf@ht=\skip57
-\FBo@max=\skip58
-\FBc@max=\skip59
-\FBf@max=\skip60
-\c@FBl@b=\count131
-\floatbox@depth=\count132
-\c@FRobj=\count133
-\c@FRsobj=\count134
-\Xhsize=\skip61
-\sXhsize=\skip62
-\Zhsize=\skip63
-\sZhsize=\skip64
-\flrow@rowbox=\box56
-\FR@Zunitlength=\dimen164
-\c@FBcnt=\count135
-\FPOScnt=\count136
-\LTleft=\skip65
-\LTright=\skip66
-\LTleft=\skip67
-\LTright=\skip68
-\flrow@types=\toks32
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-=======
 \FR@everyfloat=\toks45
 \flrow@foot=\insert252
 \FB@wd=\dimen266
@@ -1388,23 +1062,17 @@ Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
->>>>>>> origin/master
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-<<<<<<< HEAD
-))
-(C:\Users\mvl\Documents\GitHub\housing\paper\housing.aux)
-=======
 )) (housing.aux
 
-LaTeX Warning: Label `prelagdv' multiply defined.
+Package natbib Warning: Citation `bisgaard2016reconsidering' multiply defined.
 
 )
->>>>>>> origin/master
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
@@ -1420,18 +1088,10 @@ LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Try loading font information for T1+qpl on input line 55.
-<<<<<<< HEAD
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tex-gyre\t1qpl.fd"
-File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-=======
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tex-gyre\t1qpl.fd"
 File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
->>>>>>> origin/master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count161
 \scratchdimen=\dimen270
@@ -1455,12 +1115,8 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-<<<<<<< HEAD
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-ppl.cfg"
-=======
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ppl.cfg"
->>>>>>> origin/master
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 *geometry* driver: auto-detecting
@@ -1499,17 +1155,10 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 
 \AtBeginShipoutBox=\box69
 Package hyperref Info: Link coloring OFF on input line 55.
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
->>>>>>> origin/master
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count167
@@ -1518,61 +1167,35 @@ LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
 
-<<<<<<< HEAD
-(C:\Users\mvl\Documents\GitHub\housing\paper\housing.out)
-(C:\Users\mvl\Documents\GitHub\housing\paper\housing.out)
-\@outlinefile=\write3
-=======
 (housing.out) (housing.out)
 \@outlinefile=\write4
->>>>>>> origin/master
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: floatrow package is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 58.
-<<<<<<< HEAD
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
-=======
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
->>>>>>> origin/master
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 58.
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
->>>>>>> origin/master
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 58.
 
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
->>>>>>> origin/master
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 58.
 
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
->>>>>>> origin/master
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1583,337 +1206,262 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 58.
 LaTeX Font Info:    Try loading font information for U+msa on input line 58.
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
->>>>>>> origin/master
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 58.
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
->>>>>>> origin/master
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Try loading font information for OMS+qpl on input line 58.
 LaTeX Font Info:    No file OMSqpl.fd. on input line 58.
 
-<<<<<<< HEAD
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 163.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 163.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 163.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 163.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 163.
-=======
->>>>>>> origin/master
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textasteriskcentered' on input line 58.
 
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-=======
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 58.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 58.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
->>>>>>> origin/master
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<<<<<<< HEAD
- [5] [6]
-(C:\Users\mvl\Documents\GitHub\housing\tables\predv.tex) [7]
-(C:\Users\mvl\Documents\GitHub\housing\tables\robustness.tex) [8] [9] [10]
-[11] [12] [13] (C:\Users\mvl\Documents\GitHub\housing\tables\inddv.tex)
-Package epstopdf Info: Source file: <../figures/comparison.eps>
-(epstopdf)                    date: 2016-08-21 23:41:40
-(epstopdf)                    size: 56857 bytes
-(epstopdf)             Output file: <../figures/comparison-eps-converted-to.pdf
->
-(epstopdf)                    date: 2016-08-21 23:41:43
-(epstopdf)                    size: 14663 bytes
-(epstopdf)             Command: <epstopdf --outfile=../figures/comparison-eps-c
-onverted-to.pdf ../figures/comparison.eps>
-(epstopdf)             \includegraphics on input line 234.
-Package epstopdf Info: Output file is already uptodate.
-
-<../figures/comparison-eps-converted-to.pdf, id=211, 505.89pt x 289.08pt>
-File: ../figures/comparison-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ../figures/comparison-eps-converted-to.pdf>
-Package pdftex.def Info: ../figures/comparison-eps-converted-to.pdf used on inp
-ut line 234.
-(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [14]
-Package epstopdf Info: Source file: <../figures/ideology.eps>
-(epstopdf)                    date: 2016-08-21 23:37:00
-(epstopdf)                    size: 44152 bytes
-(epstopdf)             Output file: <../figures/ideology-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-21 23:39:35
-(epstopdf)                    size: 12442 bytes
-(epstopdf)             Command: <epstopdf --outfile=../figures/ideology-eps-con
-verted-to.pdf ../figures/ideology.eps>
-(epstopdf)             \includegraphics on input line 247.
-Package epstopdf Info: Output file is already uptodate.
-
-<../figures/ideology-eps-converted-to.pdf, id=218, 505.89pt x 289.08pt>
-File: ../figures/ideology-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ../figures/ideology-eps-converted-to.pdf>
-Package pdftex.def Info: ../figures/ideology-eps-converted-to.pdf used on input
- line 247.
-(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
-Package epstopdf Info: Source file: <../figures/homeown.eps>
-(epstopdf)                    date: 2016-08-21 23:37:01
-(epstopdf)                    size: 52030 bytes
-(epstopdf)             Output file: <../figures/homeown-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-21 23:39:36
-(epstopdf)                    size: 14380 bytes
-(epstopdf)             Command: <epstopdf --outfile=../figures/homeown-eps-conv
-erted-to.pdf ../figures/homeown.eps>
-(epstopdf)             \includegraphics on input line 253.
-Package epstopdf Info: Output file is already uptodate.
-
-<../figures/homeown-eps-converted-to.pdf, id=219, 505.89pt x 289.08pt>
-File: ../figures/homeown-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ../figures/homeown-eps-converted-to.pdf>
-Package pdftex.def Info: ../figures/homeown-eps-converted-to.pdf used on input 
-line 253.
-(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
-Package epstopdf Info: Source file: <../figures/moving.eps>
-(epstopdf)                    date: 2016-08-21 23:37:02
-(epstopdf)                    size: 47918 bytes
-(epstopdf)             Output file: <../figures/moving-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-21 23:39:36
-(epstopdf)                    size: 13455 bytes
-(epstopdf)             Command: <epstopdf --outfile=../figures/moving-eps-conve
-rted-to.pdf ../figures/moving.eps>
-(epstopdf)             \includegraphics on input line 259.
-Package epstopdf Info: Output file is already uptodate.
-
-<../figures/moving-eps-converted-to.pdf, id=220, 505.89pt x 289.08pt>
-File: ../figures/moving-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ../figures/moving-eps-converted-to.pdf>
-Package pdftex.def Info: ../figures/moving-eps-converted-to.pdf used on input l
-ine 259.
-(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [15 <C:/Users/mvl/Documents/GitHub/housing/figures/comparison-eps-converted-to
-.pdf> <C:/Users/mvl/Documents/GitHub/housing/figures/ideology-eps-converted-to.
-pdf>] [16 <C:/Users/mvl/Documents/GitHub/housing/figures/homeown-eps-converted-
-to.pdf> <C:/Users/mvl/Documents/GitHub/housing/figures/moving-eps-converted-to.
-pdf>] [17]
-(C:\Users\mvl\Documents\GitHub\housing\paper\housing.bbl [18
-
-]) [19] [20]
-(C:\Users\mvl\Documents\GitHub\housing\tables\prelagdv.tex) [21]
-(C:\Users\mvl\Documents\GitHub\housing\tables\indaltspec.tex
-=======
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/qpl/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
  [1
 
-{C:/Users/fh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5
-]
+{C:/Users/fh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+
+Package natbib Warning: Citation `books1999contextual' on page 4 undefined on i
+nput line 119.
+
+
+Package natbib Warning: Citation `hansford2015reevaluating' on page 4 undefined
+ on input line 119.
+
+
+Package natbib Warning: Citation `eisenberg2004economic' on page 4 undefined on
+ input line 119.
+
+
+Package natbib Warning: Citation `kim2003spatial' on page 4 undefined on input 
+line 119.
+
+[4]
+
+Package natbib Warning: Citation `hopkins2015economic' on page 5 undefined on i
+nput line 121.
+
+[5] [6]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 129.
+ine 135.
 
-Overfull \hbox (0.52135pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.52135pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) skriv 
  []
 
 
-Overfull \hbox (0.91614pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.91614pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) mere 
  []
 
 
-Overfull \hbox (0.52135pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.52135pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) skriv 
  []
 
 
-Overfull \hbox (0.91614pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.91614pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) mere 
  []
 
 
-Overfull \hbox (0.52135pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.52135pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) skriv 
  []
 
 
-Overfull \hbox (0.91614pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.91614pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) mere 
  []
 
 
-Overfull \hbox (0.52135pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.52135pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) skriv 
  []
 
 
-Overfull \hbox (0.91614pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.91614pt too wide) in paragraph at lines 135--135
 \T1/qpl/m/n/12 (-20) mere 
  []
 
-[6]
+[7]
+
+LaTeX Warning: Marginpar on page 8 moved.
+
+
+Package natbib Warning: Citation `lewis2013vp' on page 8 undefined on input lin
+e 138.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 207.
+(Font)              <12> on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 207.
+(Font)              <8> on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 207.
- [7] [8] (../tables/predv.tex) [9] [10] [11]
+(Font)              <6> on input line 211.
+[8] [9] [10] (../tables/predv.tex) [11] (../tables/robustness.tex) [12]
+[13] [14] [15] [16] (../tables/inddv.tex) [17]
+Package epstopdf Info: Source file: <../figures/comparison.eps>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 56857 bytes
+(epstopdf)             Output file: <../figures/comparison-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 14663 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/comparison-eps-c
+onverted-to.pdf ../figures/comparison.eps>
+(epstopdf)             \includegraphics on input line 286.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `indlagiv' on page 12 undefined on input line 309.
+<../figures/comparison-eps-converted-to.pdf, id=267, 505.89pt x 289.08pt>
+File: ../figures/comparison-eps-converted-to.pdf Graphic file (type pdf)
 
-(../tables/inddv.tex
-Overfull \hbox (34.61166pt too wide) in paragraph at lines 4--32
- [][] 
- []
+<use ../figures/comparison-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/comparison-eps-converted-to.pdf used on inp
+ut line 286.
+(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
+Package epstopdf Info: Source file: <../figures/ideology.eps>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 44152 bytes
+(epstopdf)             Output file: <../figures/ideology-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 12442 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/ideology-eps-con
+verted-to.pdf ../figures/ideology.eps>
+(epstopdf)             \includegraphics on input line 299.
+Package epstopdf Info: Output file is already uptodate.
 
-) [12]
+<../figures/ideology-eps-converted-to.pdf, id=268, 505.89pt x 289.08pt>
+File: ../figures/ideology-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `prealtdv' on page 13 undefined on input line 336.
+<use ../figures/ideology-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/ideology-eps-converted-to.pdf used on input
+ line 299.
+(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
+Package epstopdf Info: Source file: <../figures/homeown.eps>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 52030 bytes
+(epstopdf)             Output file: <../figures/homeown-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 14380 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/homeown-eps-conv
+erted-to.pdf ../figures/homeown.eps>
+(epstopdf)             \includegraphics on input line 305.
+Package epstopdf Info: Output file is already uptodate.
 
+<../figures/homeown-eps-converted-to.pdf, id=269, 505.89pt x 289.08pt>
+File: ../figures/homeown-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `prealtdv' on page 13 undefined on input line 336.
+<use ../figures/homeown-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/homeown-eps-converted-to.pdf used on input 
+line 305.
+(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
+Package epstopdf Info: Source file: <../figures/moving.eps>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 47918 bytes
+(epstopdf)             Output file: <../figures/moving-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-22 16:18:58
+(epstopdf)                    size: 13455 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/moving-eps-conve
+rted-to.pdf ../figures/moving.eps>
+(epstopdf)             \includegraphics on input line 311.
+Package epstopdf Info: Output file is already uptodate.
 
-(../tables/prealtdv.tex) (../tables/indaltdv.tex
-Overfull \hbox (34.61166pt too wide) in paragraph at lines 4--32
- [][] 
- []
+<../figures/moving-eps-converted-to.pdf, id=270, 505.89pt x 289.08pt>
+File: ../figures/moving-eps-converted-to.pdf Graphic file (type pdf)
 
-) [13] [14] [15] (housing.bbl [16
+<use ../figures/moving-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/moving-eps-converted-to.pdf used on input l
+ine 311.
+(pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
+ [18] [19 <../figures/comparison-eps-converted-to.pdf> <../figures/ideology-eps
+-converted-to.pdf>] [20 <../figures/homeown-eps-converted-to.pdf> <../figures/m
+oving-eps-converted-to.pdf>]
+(housing.bbl [21
 
-]) [17] [18] (../tables/prelagdv.tex) [19]
-(../tables/indaltspec.tex
->>>>>>> origin/master
+pdfTeX warning (ext4): destination with the same identifier (name{cite.bisgaard
+2016reconsidering}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.91 ...es and Gimpel}{2012}]{reeves2012ecologies}
+                                                  ]) [22] [23]
+(../tables/prelagdv.tex) [24] (../tables/indaltspec.tex
 Overfull \hbox (4.49164pt too wide) in paragraph at lines 4--33
  [][] 
  []
 
-<<<<<<< HEAD
-) [22] (C:\Users\mvl\Documents\GitHub\housing\tables\preposneg.tex)
-(C:\Users\mvl\Documents\GitHub\housing\tables\predens.tex) [23]
-(C:\Users\mvl\Documents\GitHub\housing\tables\indposneg.tex
-=======
-) [20] (../tables/preposneg.tex) (../tables/predens.tex) [21]
+) [25] (../tables/preposneg.tex) (../tables/predens.tex) [26]
 (../tables/indposneg.tex
->>>>>>> origin/master
 Overfull \hbox (38.0347pt too wide) in paragraph at lines 4--35
  [][] 
  []
 
-) (C:\Users\mvl\Documents\GitHub\housing\tables\inddens.tex
+) (../tables/inddens.tex
 Overfull \hbox (119.65244pt too wide) in paragraph at lines 4--38
  [][] 
  []
 
 )
-<<<<<<< HEAD
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
- [24] [25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
- (C:\Users\mvl\Documents\GitHub\housing\paper\housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
-Package rerunfilecheck Info: File `housing.out' has not changed.
-(rerunfilecheck)             Checksum: F09F2BC8C1F3CC07CA522CA75AAC97AF;775.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
- ) 
-Here is how much of TeX's memory you used:
- 11198 strings out of 493921
- 172370 string characters out of 3144882
- 297336 words of memory out of 3000000
- 14045 multiletter control sequences out of 15000+200000
- 88005 words of font info for 127 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 37i,15n,39p,2103b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
-/tex-gyre/q-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/
-q-ec-sc.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
-y10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplb.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplr.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on housing.pdf (25 pages, 318151 bytes).
-PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
- 21613 words of extra memory for PDF output out of 24883 (max. 10000000)
-=======
 
-Package caption Warning: Unused \captionsetup[figure] on input line 28.
-See the caption package documentation for explanation.
+Package natbib Warning: There were undefined citations.
 
-[22] [23]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
- (housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
+
+Package natbib Warning: There were multiply defined citations.
+
+[27] [28]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+ (housing.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
 Package rerunfilecheck Info: File `housing.out' has not changed.
-(rerunfilecheck)             Checksum: 5DF0C193449038A6D2C4CACF6B546C5B;960.
+(rerunfilecheck)             Checksum: 7B7D6ED376E4F79C3963FF44D7D9690F;843.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 411.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
  ) 
 Here is how much of TeX's memory you used:
- 21630 strings out of 493636
- 391466 string characters out of 3143764
- 502568 words of memory out of 3000000
- 24350 multiletter control sequences out of 15000+200000
- 87727 words of font info for 125 fonts, out of 3000000 for 9000
+ 21678 strings out of 493636
+ 392655 string characters out of 3143764
+ 500195 words of memory out of 3000000
+ 24380 multiletter control sequences out of 15000+200000
+ 88271 words of font info for 129 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,15n,92p,1916b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,92p,2103b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre
@@ -1926,16 +1474,16 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplb.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplr.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on housing.pdf (23 pages, 282113 bytes).
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplb.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplr.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/tex-gyre/qplri.pfb>
+Output written on housing.pdf (28 pages, 375069 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 21629 words of extra memory for PDF output out of 24883 (max. 10000000)
->>>>>>> origin/master
+ 439 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 21633 words of extra memory for PDF output out of 24883 (max. 10000000)
 
