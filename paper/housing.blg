@@ -1,6 +1,49 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: housing.aux
+This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: housing.aux
 The style file: apa.bst
 Database file #1: library.bib
 Warning--I didn't find a database entry for "pierson1993effect"
 Warning--empty journal in healy2014presidential
+You've used 24 entries,
+            1940 wiz_defined-function locations,
+            626 strings with 7646 characters,
+and the built_in function-call counts, 9342 in all, are:
+= -- 936
+> -- 327
+< -- 18
++ -- 113
+- -- 104
+* -- 855
+:= -- 1606
+add.period$ -- 71
+call.type$ -- 24
+change.case$ -- 171
+chr.to.int$ -- 23
+cite$ -- 25
+duplicate$ -- 339
+empty$ -- 666
+format.name$ -- 152
+if$ -- 1791
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 25
+newline$ -- 122
+num.names$ -- 72
+pop$ -- 122
+preamble$ -- 1
+purify$ -- 172
+quote$ -- 0
+skip$ -- 266
+stack$ -- 0
+substring$ -- 746
+swap$ -- 54
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 142
+warning$ -- 1
+while$ -- 87
+width$ -- 0
+write$ -- 308
 (There were 2 warnings)
