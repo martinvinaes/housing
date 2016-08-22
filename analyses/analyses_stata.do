@@ -151,8 +151,8 @@ xsmle incs hp_1yr, robust model(sar) fe  wmat(dvalgsted)
 ***ANALYSES****
 cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
 local z1=", vce(cluster valgstedid)"
-local z2="c.unemprate c.medianinc , vce(cluster valgstedid)"
-local z3="c.unemprate c.medianinc 860028.valgstedid, fe vce(cluster valgstedid)"
+local z2="i.year  , vce(cluster valgstedid)"
+local z3="i.year 860028.valgstedid ,  fe vce(cluster valgstedid)"
 local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)"
 
 
@@ -161,8 +161,9 @@ foreach x in 1 2 3 4{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
 qui margins, dydx(hp_1yr) saving(m1`x', replace)
 }
+
 esttab m11 m12 m13 m14  using predv.tex, keep(hp_1yr unemprate medianinc) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Year FE=2007.year " " Precinct FE=860028.valgstedid " , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{predv)
 
 foreach x in 1 2 3 4{
@@ -188,24 +189,26 @@ foreach x in 1 2 3 4{
  eststo m3`x': xtreg l.inc hp_2yr   `z`x''
 qui margins, dydx(hp_2yr) saving(m3`x', replace)
 
-}
--
+ }
+
 
 esttab m31 m32 m33 m34  using prelagdv.tex, keep(hp_2yr) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties at t-1.} \label{prelagdv)
 
 
+local z2="i.year  , vce(cluster valgstedid)"
+local z3="i.year 860028.valgstedid ,  fe vce(cluster valgstedid)"
+local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster valgstedid)"
+
+
+
 la var  hp_1yr "$\Delta$ housing price (FD controls)"
 
-local z2="c.unemprate_fd c.medianinc_fd , vce(cluster valgstedid)"
-local z3="c.unemprate_fd c.medianinc_fd 860028.valgstedid, fe vce(cluster valgstedid)"
-local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster valgstedid)"
 
 
 foreach x in 1 2 3 4{
  eststo m3`x': xtreg inc c.hp_1yr `z`x''
-qui margins, dydx(hp_1yr) saving(m3`x', replace)
 
 }
 
@@ -219,7 +222,6 @@ la var  hp_1yr "$\Delta$ housing price (FD DV)"
 
 foreach x in 1 2 3 4{
  eststo m3`x': xtreg d_inc c.hp_1yr `z`x''
-qui margins, dydx(hp_1yr) saving(m3`x', replace)
 
 }
 
