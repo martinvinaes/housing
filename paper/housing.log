@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  24 AUG 2016 16:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  24 AUG 2016 17:28
 entering extended mode
 **housing.tex
 (C:\Users\mvl\Documents\GitHub\housing\paper\housing.tex
@@ -1241,23 +1241,20 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 91.
- [2] [3] [4]
-<../figures/intcomparison.png, id=141, 1072.75781pt x 506.6428pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
+<../figures/intcomparison.png, id=140, 1072.75781pt x 506.6428pt>
 File: ../figures/intcomparison.png Graphic file (type png)
 
 <use ../figures/intcomparison.png>
-Package pdftex.def Info: ../figures/intcomparison.png used on input line 128.
+Package pdftex.def Info: ../figures/intcomparison.png used on input line 131.
 (pdftex.def)             Requested size: 407.66833pt x 192.534pt.
- [5 <C:/Users/mvl/Documents/GitHub/housing/figures/intcomparison.png>] [6]
+ [5] [6 <C:/Users/mvl/Documents/GitHub/housing/figures/intcomparison.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 207.
+(Font)              <12> on input line 210.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 207.
+(Font)              <8> on input line 210.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 207.
+(Font)              <6> on input line 210.
  [7] [8]
 (C:\Users\mvl\Documents\GitHub\housing\tables\predv.tex) [9]
 (C:\Users\mvl\Documents\GitHub\housing\tables\robustness.tex) [10] [11]
@@ -1269,18 +1266,18 @@ Package epstopdf Info: Source file: <../figures/lagdv.eps>
 (epstopdf)                    size: 13608 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/lagdv-eps-conver
 ted-to.pdf ../figures/lagdv.eps>
-(epstopdf)             \includegraphics on input line 247.
+(epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/lagdv-eps-converted-to.pdf, id=230, 505.89pt x 289.08pt>
+<../figures/lagdv-eps-converted-to.pdf, id=228, 505.89pt x 289.08pt>
 File: ../figures/lagdv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/lagdv-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/lagdv-eps-converted-to.pdf used on input li
-ne 247.
+ne 250.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [12 <C:/Users/mvl/Documents/GitHub/housing/figures/lagdv-eps-converted-to.pdf>
-] [13] [14] [15]
+ [12] [13 <C:/Users/mvl/Documents/GitHub/housing/figures/lagdv-eps-converted-to
+.pdf>] [14] [15]
 (C:\Users\mvl\Documents\GitHub\housing\tables\inddv.tex) [16]
 Package epstopdf Info: Source file: <../figures/comparison.eps>
 (epstopdf)                    date: 2016-08-24 14:28:40
@@ -1291,15 +1288,15 @@ Package epstopdf Info: Source file: <../figures/comparison.eps>
 (epstopdf)                    size: 16423 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/comparison-eps-c
 onverted-to.pdf ../figures/comparison.eps>
-(epstopdf)             \includegraphics on input line 285.
+(epstopdf)             \includegraphics on input line 288.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/comparison-eps-converted-to.pdf, id=272, 433.62pt x 289.08pt>
+<../figures/comparison-eps-converted-to.pdf, id=270, 433.62pt x 289.08pt>
 File: ../figures/comparison-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/comparison-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/comparison-eps-converted-to.pdf used on inp
-ut line 285.
+ut line 288.
 (pdftex.def)             Requested size: 407.66833pt x 271.79257pt.
 Package epstopdf Info: Source file: <../figures/ideology.eps>
 (epstopdf)                    date: 2016-08-24 14:28:38
@@ -1309,18 +1306,16 @@ Package epstopdf Info: Source file: <../figures/ideology.eps>
 (epstopdf)                    size: 12442 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/ideology-eps-con
 verted-to.pdf ../figures/ideology.eps>
-(epstopdf)             \includegraphics on input line 299.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/ideology-eps-converted-to.pdf, id=273, 505.89pt x 289.08pt>
+<../figures/ideology-eps-converted-to.pdf, id=271, 505.89pt x 289.08pt>
 File: ../figures/ideology-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/ideology-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/ideology-eps-converted-to.pdf used on input
- line 299.
+ line 302.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [17 <C:/Users/mvl/Documents/GitHub/housing/figures/comparison-eps-converted-to
-.pdf>]
 Package epstopdf Info: Source file: <../figures/homeown.eps>
 (epstopdf)                    date: 2016-08-24 14:28:38
 (epstopdf)                    size: 52030 bytes
@@ -1329,15 +1324,15 @@ Package epstopdf Info: Source file: <../figures/homeown.eps>
 (epstopdf)                    size: 14380 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/homeown-eps-conv
 erted-to.pdf ../figures/homeown.eps>
-(epstopdf)             \includegraphics on input line 305.
+(epstopdf)             \includegraphics on input line 311.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/homeown-eps-converted-to.pdf, id=283, 505.89pt x 289.08pt>
+<../figures/homeown-eps-converted-to.pdf, id=272, 505.89pt x 289.08pt>
 File: ../figures/homeown-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/homeown-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/homeown-eps-converted-to.pdf used on input 
-line 305.
+line 311.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
 Package epstopdf Info: Source file: <../figures/moving.eps>
 (epstopdf)                    date: 2016-08-24 14:28:39
@@ -1347,41 +1342,42 @@ Package epstopdf Info: Source file: <../figures/moving.eps>
 (epstopdf)                    size: 13455 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/moving-eps-conve
 rted-to.pdf ../figures/moving.eps>
-(epstopdf)             \includegraphics on input line 311.
+(epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/moving-eps-converted-to.pdf, id=284, 505.89pt x 289.08pt>
+<../figures/moving-eps-converted-to.pdf, id=273, 505.89pt x 289.08pt>
 File: ../figures/moving-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/moving-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/moving-eps-converted-to.pdf used on input l
-ine 311.
+ine 317.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [18 <C:/Users/mvl/Documents/GitHub/housing/figures/ideology-eps-converted-to.p
-df> <C:/Users/mvl/Documents/GitHub/housing/figures/homeown-eps-converted-to.pdf
->] [19 <C:/Users/mvl/Documents/GitHub/housing/figures/moving-eps-converted-to.p
-df>] [20]
+ [17] [18 <C:/Users/mvl/Documents/GitHub/housing/figures/comparison-eps-convert
+ed-to.pdf> <C:/Users/mvl/Documents/GitHub/housing/figures/ideology-eps-converte
+d-to.pdf>] [19 <C:/Users/mvl/Documents/GitHub/housing/figures/homeown-eps-conve
+rted-to.pdf> <C:/Users/mvl/Documents/GitHub/housing/figures/moving-eps-converte
+d-to.pdf>] [20]
 (C:\Users\mvl\Documents\GitHub\housing\paper\housing.bbl [21
 
 ]) [22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
 
 (C:\Users\mvl\Documents\GitHub\housing\paper\housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
 Package rerunfilecheck Info: File `housing.out' has not changed.
 (rerunfilecheck)             Checksum: AA722E08BD490195A64C1599CE243B4E;831.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
  ) 
 Here is how much of TeX's memory you used:
- 21520 strings out of 493921
- 392476 string characters out of 3144882
- 486559 words of memory out of 3000000
- 24159 multiletter control sequences out of 15000+200000
- 88410 words of font info for 130 fonts, out of 3000000 for 9000
+ 21465 strings out of 493921
+ 391063 string characters out of 3144882
+ 489478 words of memory out of 3000000
+ 24093 multiletter control sequences out of 15000+200000
+ 89208 words of font info for 136 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,15n,92p,1947b,703s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,92p,1947b,582s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9
@@ -1399,9 +1395,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program
 Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplb.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplr.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on housing.pdf (22 pages, 425652 bytes).
+Output written on housing.pdf (22 pages, 426687 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  21643 words of extra memory for PDF output out of 24883 (max. 10000000)
 
