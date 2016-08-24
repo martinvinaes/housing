@@ -187,10 +187,11 @@ la var  hp_2yr "$\Delta$ housing price (lag DV)"
 
 foreach x in 1 2 3 4{
  eststo m3`x': xtreg l.inc hp_2yr   `z`x''
-qui margins, dydx(hp_2yr) saving(m3`x', replace)
+*qui margins, dydx(hp_2yr) saving(m3`x', replace)
 
  }
-
+-
+xtreg inc hp_1yr i.year#i.region unemprate medianinc i.year, fe vce(cluster valgstedid)
 
 esttab m31 m32 m33 m34  using prelagdv.tex, keep(hp_2yr) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
@@ -221,7 +222,7 @@ la var  hp_1yr "$\Delta$ housing price (FD DV)"
 
 
 foreach x in 1 2 3 4{
- eststo m3`x': xtreg d_inc c.hp_1yr `z`x''
+ eststo m3`x': xtreg d_inc c.l.hp_1yr `z`x''
 
 }
 
