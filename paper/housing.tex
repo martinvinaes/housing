@@ -294,8 +294,9 @@ As can bee seen from the figure, the effect sizes are pretty similar across leve
 
 \subsection{Self-interest, Ideology or Inference}\label{inference}
 
-In the introduction
+In a recent study \cite{ansell2014political} finds that people become more right-wing, , in the sense of being less supportive of redistribution, when the price of their home increases. Since their is a Conservative government in much of the period we study (2001-2011), it is interesting to ask whether our results are driven by voters becoming more conservative as local housing prices increase. 
 
+To examine this we run the same models as in table \ref{inddv} substituting incumbent support for ideological self placement on a ten point scale going from left to right as the dependent variable. For the analysis we rescale the variable to go between zero and one. We report the estimated effects of changes in housing prices on ideological orientation in figure \ref{ideology}. For comparison, we also plot the effects on incumbent support. As can be seen from this figure there is no discernible effect on ideology, the estimated effects being very close to zero in all models.
 
 
 \begin{figure}[htbp!]
@@ -304,8 +305,11 @@ In the introduction
 	\caption{Effects of Housing Prices on Ideological Orientation and Support for Governing Parties with 90  and 95 pct. Confidence Intervals}\label{ideology}
 \end{figure}
 
+A related question is whether voters reaction to housing prices is shaped by self-interest. That is, are people responsive to changes local housing prices because they believe these changes indicate that their own home will be worth more. 
 
-The scon
+To examine this we re-estimated the different models, including an interaction between whether voters owned their own home (i.e. rented), and changes in housing prices. We then derived the estimated marginal effects of changes in housing prices for home owners and others. These marginal effects are plotted in figure \ref{homeown}.
+
+The results are a bit mixed with some models showing effects to be slightly larger for home owners, and other models showing no difference. On balance, however, there does not seem to be any systematic evidence for the conjecture that it is only home owners that are affected by changes in housing prices.
 
 \begin{figure}[htbp!]
 	\includegraphics[width=0.9\textwidth]{../figures/homeown.eps}
@@ -313,18 +317,26 @@ The scon
 	\caption{Effects of Housing Prices for those who own their home and those who do not with 90  and 95 pct. Confidence Intervals}\label{homeown}
 \end{figure}
 
+Why might people who do not own a house be affected by changes in local housing prices? One reason, which we alluded to in the beginning of the paper, is that local housing markets serve as a signal of incumbents competence. As such, even though you do not own your home, you might infer from a booming local housing market, that incumbent politicians are doing a good job keeping your local community economically well off.
+
+If voters are in fact using local housing markets as a signal of incumbent quality, we would expect those who are more finely attuned to this signal to be more affected by local housing prices.
+
+To test this, we construct a variable from the national registers, which measures whether the respondent was likely to be attuned to the housing market. In particular, we measure whether the respondent moved within two years before or after being surveyed. To take into account that respondents who moved within one year of being surveyed were probably more attuned than those who moved within two years, we gave respondents a score of one if they moved out the day after or before being surveyed, and then we let the score steadily declines until after two years it was zero (i.e. if you moved within exactly one year you had a score of 0.5).
+
+In figure \ref{move} we derive marginal effects from these models for those who have not moved in two years (i.e. scores 0) and the effect for those who move day before or after the survey (ie. scores 1). The estimated effect of housing prices is very large for those respondents who are on the cusp of moving, and, importantly, is statistically significant in all specifications ($p<.05$ for all models except the one for zip-codes for which $p<.1$). The marginal effects for the movers are also significantly larger than the effects for the stayers ($p<0.05$) in four out of the five specifications.
+
 \begin{figure}[htbp!]
 	\includegraphics[width=0.9\textwidth]{../figures/moving.eps}
 	\centering
-	\caption{Effects of Housing Prices for those who had just or were going to move soon and those who did not with 90 and 95 pct. Confidence Intervals}\label{move}
+	\caption{Effects of Changes in Housing Prices for those who had just or were going to move and those who did not with 90 and 95 pct. Confidence Intervals}\label{move}
 \end{figure}
 
-
+Taken together, these analyses suggest that the housing price effect is not related to ideology or `simple' self-interest. Instead, voters the importance of local housing prices seems to be that they, to the extent that voters are attuned to the local housing market, gives present voters with a signal of the incumbent competence in handling the economy.
 
 
 
 \section{Conclusion}
-Housing prices tell you something fundamental about the economic situation of a local community. Just like unemployment or local economic growth, housing prices shape the experience and the fate of a community. Therefore housing prices might play an important role in politics. In this article we wanted to examine one possible political effect of changes in local housing prices – that on support for governing parties in Denmark. Using precinct-level data on four Danish Parliamentary elections bookended by a dramatic economic bubble in real-estate prices, we found a positive effect of changes in housing prices on electoral support. Our results suggest that as housing prices increase, so does electoral support for governing parties. Linking a two-wave panel survey of Danish voters to the national Danish registers, we then replicated this finding, identifying a comparable effect. Analyzing the panel data in more detail, we found that the effect of housing prices was especially pronounced among those who were more likely to be attuned to the state of their local housing market. Taken together, our results suggest that voters make inferences about the quality of the incumbents based on the status of their local housing market.
+Housing prices tell you something fundamental about the economic situation of a local community. Just like unemployment or local economic growth, housing prices shape the experience and the fate of a community. Therefore housing prices might play an important role in politics. In this article we wanted to examine one possible political effect of changes in local housing prices – that on support for governing parties in Denmark. Using precinct-level data on four Danish Parliamentary elections bookended by a dramatic economic bubble in real-estate prices, we found a positive effect of changes in housing prices on electoral support. Our results suggest that as housing prices increase, so does electoral support for governing parties. Linking a two-wave panel survey of Danish voters to the national Danish registers, we then replicated this finding, identifying a comparable effect. Analyzing the panel data in more detail, we found that the effect of housing prices was especially pronounced among those who were more likely to be attuned to the state of their local housing market. 
 
 Though the data used in this study is a clear improvement compared to those in earlier studies, its major shortcoming is that the data is nonetheless observational. In the absence of fully or quasi-experimental variation in housing prices, we cannot be sure that the estimated effects are not confounded by unobserved heterogeneity. This concern remains even though we apply highly stringent tests to the effect estimate. Hence, a promising avenue for future research is to identify settings with plausibly exogenous variation. 
 
