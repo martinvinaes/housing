@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.5.8)  24 AUG 2016 23:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.5.8)  25 AUG 2016 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1295,7 +1295,8 @@ File: ../figures/homeown-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/homeown-eps-converted-to.pdf used on input 
 line 315.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [19 <../figures/ideology-eps-converted-to.pdf>]
+ [19 <../figures/ideology-eps-converted-to.pdf>] [20 <../figures/homeown-eps-co
+nverted-to.pdf>]
 Package epstopdf Info: Source file: <../figures/moving.eps>
 (epstopdf)                    date: 2016-08-22 19:48:49
 (epstopdf)                    size: 47918 bytes
@@ -1307,16 +1308,14 @@ erted-to.pdf ../figures/moving.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/moving-eps-converted-to.pdf, id=308, 505.89pt x 289.08pt>
+<../figures/moving-eps-converted-to.pdf, id=317, 505.89pt x 289.08pt>
 File: ../figures/moving-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/moving-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/moving-eps-converted-to.pdf used on input l
 ine 329.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [20 <../figures/homeown-eps-converted-to.pdf>] [21 <../figures/moving-eps-conv
-erted-to.pdf>] [22] (./housing.bbl
-[23
+ [21 <../figures/moving-eps-converted-to.pdf>] [22] (./housing.bbl [23
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
@@ -1330,10 +1329,10 @@ Package rerunfilecheck Info: File `housing.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 417.
  ) 
 Here is how much of TeX's memory you used:
- 19922 strings out of 493481
- 345010 string characters out of 3144420
- 455174 words of memory out of 3000000
- 22577 multiletter control sequences out of 15000+200000
+ 19926 strings out of 493481
+ 345111 string characters out of 3144420
+ 455212 words of memory out of 3000000
+ 22580 multiletter control sequences out of 15000+200000
  89208 words of font info for 136 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,15n,92p,1947b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1352,10 +1351,10 @@ dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/publi
 c/tex-gyre/qplb.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/tex-gyre/qpl
 r.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on housing.pdf (24 pages, 406150 bytes).
+Output written on housing.pdf (24 pages, 408172 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 363 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
  21643 words of extra memory for PDF output out of 24883 (max. 10000000)
 
