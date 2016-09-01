@@ -1,0 +1,43 @@
+		\begin{tikzpicture}
+	\filldraw(0,-3) circle (5pt);
+	\filldraw(16,16) circle (5pt);
+		\filldraw (5,0) circle (5pt);
+		\filldraw (1,6) circle (5pt);
+		\filldraw (0,7) circle (5pt);
+		\filldraw (7,0) circle (5pt);
+		\filldraw (2,7) circle (5pt);
+		\filldraw (9,1) circle (5pt);
+		\draw (5,5) circle (5pt);
+		\filldraw (2,9) circle (5pt);
+		\draw (7,6) circle (5pt);
+		\draw (8,5) circle (5pt);
+		\draw (6,7) circle (5pt);
+		\filldraw (1,13) circle (5pt);
+		\filldraw (11,3) circle (5pt);
+		\filldraw (3,11) circle (5pt);
+		\filldraw (11.5,3) circle (5pt);
+		\filldraw (14,0) circle (5pt);
+		\filldraw (14,1) circle (5pt);
+		\filldraw (3,12) circle (5pt);
+		\draw (5,10) circle (5pt);
+		\filldraw (12,3) circle (5pt);
+		
+		\draw (8,8) circle (10pt);
+		\draw (8,8) circle (5cm);
+		
+		
+		\filldraw (12,4) circle (5pt);
+		\filldraw (3,15) circle (5pt);
+		\draw (12,6) circle (5pt);
+		\draw (7,11) circle (5pt);
+		\filldraw (3,15) circle (5pt);
+		\draw (7,12) circle (5pt);
+		\draw (9,12) circle (5pt);
+		\filldraw (14,9) circle (5pt);
+		\filldraw (10,14) circle (5pt);
+		\filldraw (14,12) circle (5pt);
+		\end{tikzpicture}
+		
+		
+
+	
