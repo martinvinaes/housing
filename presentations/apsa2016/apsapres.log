@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  1 SEP 2016 23:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.17)  14 SEP 2016 12:19
 entering extended mode
 **apsapres.tex
 (C:\Users\mvl\Documents\GitHub\housing\presentations\apsa2016\apsapres.tex
@@ -1509,37 +1509,37 @@ Package pdftex.def Info: ../../figures/lagd6-eps-converted-to.pdf used on input
 
 ]
 (C:\Users\mvl\Documents\GitHub\housing\figures\illustrate1.txt)
-Overfull \vbox (24.96704pt too high) detected at line 199
+Overfull \vbox (24.96704pt too high) detected at line 197
  []
 
 [46
 
 ] (C:\Users\mvl\Documents\GitHub\housing\figures\illustrate2.txt)
-Overfull \vbox (24.96704pt too high) detected at line 199
+Overfull \vbox (24.96704pt too high) detected at line 197
  []
 
 [47
 
 ] (C:\Users\mvl\Documents\GitHub\housing\figures\illustrate3.txt)
-Overfull \vbox (24.96704pt too high) detected at line 199
+Overfull \vbox (24.96704pt too high) detected at line 197
  []
 
 [48
 
 ] (C:\Users\mvl\Documents\GitHub\housing\figures\illustrate4.txt)
-Overfull \vbox (24.96704pt too high) detected at line 199
+Overfull \vbox (24.96704pt too high) detected at line 197
  []
 
 [49
 
 ] (C:\Users\mvl\Documents\GitHub\housing\figures\illustrate5.txt)
-Overfull \vbox (24.96704pt too high) detected at line 199
+Overfull \vbox (24.96704pt too high) detected at line 197
  []
 
 [50
 
 ] (C:\Users\mvl\Documents\GitHub\housing\figures\illustrate6.txt)
-Overfull \vbox (24.96704pt too high) detected at line 199
+Overfull \vbox (24.96704pt too high) detected at line 197
  []
 
 [51
@@ -1564,7 +1564,7 @@ Package epstopdf Info: Source file: <../../figures/comparison1.eps>
 (epstopdf)                    size: 14111 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison1-e
 ps-converted-to.pdf ../../figures/comparison1.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/comparison1-eps-converted-to.pdf, id=1884, 433.62pt x 289.08pt>
@@ -1572,10 +1572,10 @@ File: ../../figures/comparison1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison1-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison1-eps-converted-to.pdf used on
- input line 226.
+ input line 224.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (5.38521pt too high) detected at line 226
+Overfull \vbox (5.38521pt too high) detected at line 224
  []
 
 [57
@@ -1591,7 +1591,7 @@ Package epstopdf Info: Source file: <../../figures/comparison2.eps>
 (epstopdf)                    size: 14826 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison2-e
 ps-converted-to.pdf ../../figures/comparison2.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/comparison2-eps-converted-to.pdf, id=1920, 433.62pt x 289.08pt>
@@ -1599,10 +1599,10 @@ File: ../../figures/comparison2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison2-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison2-eps-converted-to.pdf used on
- input line 226.
+ input line 224.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (5.38521pt too high) detected at line 226
+Overfull \vbox (5.38521pt too high) detected at line 224
  []
 
 [58
@@ -1618,7 +1618,7 @@ Package epstopdf Info: Source file: <../../figures/comparison3.eps>
 (epstopdf)                    size: 14361 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison3-e
 ps-converted-to.pdf ../../figures/comparison3.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/comparison3-eps-converted-to.pdf, id=1956, 433.62pt x 289.08pt>
@@ -1626,10 +1626,10 @@ File: ../../figures/comparison3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison3-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison3-eps-converted-to.pdf used on
- input line 226.
+ input line 224.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (5.38521pt too high) detected at line 226
+Overfull \vbox (5.38521pt too high) detected at line 224
  []
 
 [59
@@ -1645,7 +1645,7 @@ Package epstopdf Info: Source file: <../../figures/comparison4.eps>
 (epstopdf)                    size: 14472 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison4-e
 ps-converted-to.pdf ../../figures/comparison4.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/comparison4-eps-converted-to.pdf, id=1992, 433.62pt x 289.08pt>
@@ -1653,10 +1653,10 @@ File: ../../figures/comparison4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison4-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison4-eps-converted-to.pdf used on
- input line 226.
+ input line 224.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (5.38521pt too high) detected at line 226
+Overfull \vbox (5.38521pt too high) detected at line 224
  []
 
 [60
@@ -1672,7 +1672,7 @@ Package epstopdf Info: Source file: <../../figures/comparison5.eps>
 (epstopdf)                    size: 14583 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison5-e
 ps-converted-to.pdf ../../figures/comparison5.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/comparison5-eps-converted-to.pdf, id=2028, 433.62pt x 289.08pt>
@@ -1680,10 +1680,10 @@ File: ../../figures/comparison5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison5-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison5-eps-converted-to.pdf used on
- input line 226.
+ input line 224.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (5.38521pt too high) detected at line 226
+Overfull \vbox (5.38521pt too high) detected at line 224
  []
 
 [61
@@ -1699,7 +1699,7 @@ Package epstopdf Info: Source file: <../../figures/comparison6.eps>
 (epstopdf)                    size: 14697 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison6-e
 ps-converted-to.pdf ../../figures/comparison6.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/comparison6-eps-converted-to.pdf, id=2065, 433.62pt x 289.08pt>
@@ -1707,10 +1707,10 @@ File: ../../figures/comparison6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison6-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison6-eps-converted-to.pdf used on
- input line 226.
+ input line 224.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (5.38521pt too high) detected at line 226
+Overfull \vbox (5.38521pt too high) detected at line 224
  []
 
 [62
@@ -1726,7 +1726,7 @@ Package epstopdf Info: Source file: <../../figures/comparison7.eps>
 (epstopdf)                    size: 16423 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison7-e
 ps-converted-to.pdf ../../figures/comparison7.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/comparison7-eps-converted-to.pdf, id=2101, 433.62pt x 289.08pt>
@@ -1734,10 +1734,10 @@ File: ../../figures/comparison7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison7-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison7-eps-converted-to.pdf used on
- input line 226.
+ input line 224.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (5.38521pt too high) detected at line 226
+Overfull \vbox (5.38521pt too high) detected at line 224
  []
 
 [63
@@ -1753,7 +1753,7 @@ pdf>
 (epstopdf)                    size: 15185 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator1-ep
 s-converted-to.pdf ../../figures/moderator1.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/moderator1-eps-converted-to.pdf, id=2136, 650.43pt x 289.08pt>
@@ -1761,7 +1761,7 @@ File: ../../figures/moderator1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator1-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator1-eps-converted-to.pdf used on 
-input line 235.
+input line 233.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
  [64
 
@@ -1776,7 +1776,7 @@ pdf>
 (epstopdf)                    size: 15791 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator2-ep
 s-converted-to.pdf ../../figures/moderator2.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/moderator2-eps-converted-to.pdf, id=2172, 650.43pt x 289.08pt>
@@ -1784,7 +1784,7 @@ File: ../../figures/moderator2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator2-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator2-eps-converted-to.pdf used on 
-input line 235.
+input line 233.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
  [65
 
@@ -1799,7 +1799,7 @@ pdf>
 (epstopdf)                    size: 16354 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator3-ep
 s-converted-to.pdf ../../figures/moderator3.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/moderator3-eps-converted-to.pdf, id=2208, 650.43pt x 289.08pt>
@@ -1807,7 +1807,7 @@ File: ../../figures/moderator3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator3-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator3-eps-converted-to.pdf used on 
-input line 235.
+input line 233.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
  [66
 
@@ -1822,7 +1822,7 @@ pdf>
 (epstopdf)                    size: 18646 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator4-ep
 s-converted-to.pdf ../../figures/moderator4.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/moderator4-eps-converted-to.pdf, id=2244, 650.43pt x 289.08pt>
@@ -1830,7 +1830,7 @@ File: ../../figures/moderator4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator4-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator4-eps-converted-to.pdf used on 
-input line 235.
+input line 233.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
  [67
 
@@ -1845,7 +1845,7 @@ pdf>
 (epstopdf)                    size: 19808 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator5-ep
 s-converted-to.pdf ../../figures/moderator5.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/moderator5-eps-converted-to.pdf, id=2281, 650.43pt x 289.08pt>
@@ -1853,7 +1853,7 @@ File: ../../figures/moderator5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator5-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator5-eps-converted-to.pdf used on 
-input line 235.
+input line 233.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
  [68
 
@@ -1868,7 +1868,7 @@ pdf>
 (epstopdf)                    size: 20339 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator6-ep
 s-converted-to.pdf ../../figures/moderator6.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/moderator6-eps-converted-to.pdf, id=2317, 650.43pt x 289.08pt>
@@ -1876,7 +1876,7 @@ File: ../../figures/moderator6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator6-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator6-eps-converted-to.pdf used on 
-input line 235.
+input line 233.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
  [69
 
@@ -1891,7 +1891,7 @@ pdf>
 (epstopdf)                    size: 21658 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator7-ep
 s-converted-to.pdf ../../figures/moderator7.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <../../figures/moderator7-eps-converted-to.pdf, id=2353, 650.43pt x 289.08pt>
@@ -1899,7 +1899,7 @@ File: ../../figures/moderator7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator7-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator7-eps-converted-to.pdf used on 
-input line 235.
+input line 233.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
  [70
 
@@ -1926,12 +1926,12 @@ input line 235.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
 
 (C:\Users\mvl\Documents\GitHub\housing\presentations\apsa2016\apsapres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `apsapres.out' has not changed.
 (rerunfilecheck)             Checksum: C133B7657C730F0B92EB763F330FEADA;266.
 
@@ -1942,7 +1942,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
  22768 strings out of 493921
@@ -1963,7 +1963,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi17.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on apsapres.pdf (78 pages, 2468147 bytes).
+Output written on apsapres.pdf (78 pages, 2467866 bytes).
 PDF statistics:
  2712 PDF objects out of 2984 (max. 8388607)
  162 named destinations out of 1000 (max. 500000)

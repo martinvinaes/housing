@@ -1,5 +1,8 @@
 
+****Creating dataset for analysis
 
+
+*importaing and saving dataset on municipal level density
 import excel  "C:\Users\mvl\Dropbox\Economic voting\Clarity of responsibility\Data\Treatmentoversigt + kom variable.xlsx", sheet(taet) first clear
 
 
@@ -8,6 +11,9 @@ cd "C:\Users\mvl\Documents\GitHub\housing\data"
 saveold taet.dta, replace
 *****
 
+
+
+*Importing and saving data of lon and lat for polling places
 cd "C:\Users\mvl\Documents\GitHub\housing\data" 
 clear all
 import delim lonlat.csv, delim(",") clear
@@ -23,32 +29,30 @@ saveold lonlatdata.dta, replace
 
 
 
-*Creating dataset*
+
+*importing and saving dataset fhjorth has created in R on volatility
 import delim allvoldat.txt, delim(",") clear
 sort zipy
 saveold statvol.dta, replace
 
-import delim housingdat2001.csv, delim(";") clear
-destring *, replace dpcomma
-foreach x in a b c v{
-replace `x'=`x'/votes
-}
 
 
 
-rename inc_support incsupport
-saveold elec01.dta, replace
-
+*importing dataset on electoral support and housing prices fhjorth has created in R
 import delim allaf.csv, delim(",") clear
 sort zipy
+
+
+*merging with volatility data
 merge zipy using statvol.dta
 drop _merge
 sort valgstedid
-merge valgstedid using lonlatdata.dta
 
+*merging with data on lon and lat
+merge valgstedid using lonlatdata.dta
 drop _merge
 
-
+* fixing missing (i.e. replacing NA and NaN with "." for all variables)
 foreach x of varlist * {
 capture replace `x'="." if `x'=="NA"
 capture replace `x'="." if `x'=="NaN"
@@ -57,40 +61,57 @@ destring *, replace
 gen noskift=0
 replace noskift =1 if mod(votes,1)==0
 
-*append using elec01.dta
 
+
+
+
+
+ta muninum
+sort muninum
+*merging with data on density on municipal level
 merge m:1 muninum using taet.dta
 
+
+*merging dataset with extra controls for unemprate and median inc
 replace y=y+2000
 sort zip y
 drop _merge
 merge m:1 zip y using zips_allyrs.dta
 replace y=y-2000
 
+
+*merging with dataset which has different definition og house price change (full year on year)
 drop _merge
 sort zipy
 merge zipy using "C:\Users\mvl\Documents\GitHub\housing\data\yearlyzipprice\finalzipdata.dta"
 
-**changing incsupport to exec party.
+***recodes
+**changing incsupport to exec party (optional)
 *replaceincs=incs-c if year > 2001 & year!=2015
 *replace incs=incs-b if year==2001 | year==2015
 
 
 **setting up for ts analyses*
-
+*generating an election count variable
 recode year 2001=1 2005=2 2007=3 2011=4 2015=5, gen(eleccount)
 
-*still have to drop duplicates - what is that about?
+*dropping duplicates (38)
+duplicates report eleccount valgstedid
 duplicates drop valgstedid eleccount , force
-tsset valgstedid eleccount
 
-*generating normalized pricevol and incsup
+
+
+*recoding incsup
 replace pricevol=pricevol/5000
 replace incsupport=incsupport*100
 
 gen netblue=(c+v-a-b)*100
 
 
+*setting time and panel variables
+tsset valgstedid eleccount
+
+*alternative and lagged dependent variables
 gen d_ab=(a+b)-(l.a+l.b)
 gen d_vc=(v+c)-(l.v+l.c)
 gen d_inc=d_ab*100 if year==2001 | year==2015
@@ -98,24 +119,14 @@ replace d_inc=d_vc*100 if year==2005 | year==2007 | year==2011
 gen lag_inc=(l.a +l.b)*100 if year==2001 | year==2015
 replace lag_inc=(l.v+l.c)*100 if year==2005 | year==2007 | year==2011
 
-****
-gen bigcity=0
-foreach x in 101 147 461 851 751 {
-replace bigcity=1 if muninum==`x'
-}
-
+*recoding control variables so they make sense
 replace unemprate=unemprate*100 // 0 to 100
 replace medianinc=medianinc/1000 //in thousands
 replace unemprate_fd=unemprate_fd*100
 replace medianinc_fd=medianinc_fd*100
-recode region (1 2 3 4=1)  (5=2) (6 7=3) (8 9=4) (10=5)
-
-*kredsnumre
-encode kredsnavn, gen(kredsnum)
 
 
-**labeling variables
-
+*labeling variables
 label var pricevol "Volatility"
 label var hp_1yr "$\Delta$ housing price"
 label var hp_2yr "$\Delta$ housing price (2 years)"
@@ -127,36 +138,22 @@ label var logtaet "Log(density)"
 label var netblue "Net support for Right Wing government"
 
 
-
-/* SKRALD - forsøgte at få spatial til at gungere
-drop if lon==.
-drop if lat==.
-
-drop if incs==.
-drop if hp_1yr==.
+*this creates dataset
 
 
-tempvar q
-bysort valgstedid: gen `q' = _n
-gen byte balanced = 0
-replace balanced = 1 if `q'==4
-bysort valgstedid: egen meanbal=sum(balanced)
-keep if meanbal==1
-xtset valgstedid eleccount
 
-
-xsmle incs hp_1yr, robust model(sar) fe  wmat(dvalgsted)
-*/
-
-***ANALYSES****
+***ANALYSES
 cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
+
+
+*sets up the models
 local z1=", vce(cluster valgstedid)"
 local z2="i.year  , vce(cluster valgstedid)"
 local z3="i.year 860028.valgstedid ,  fe vce(cluster valgstedid)"
 local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)"
 
 
-
+*standard
 foreach x in 1 2 3 4{
 qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
 qui margins, dydx(hp_1yr) saving(m1`x', replace)
@@ -166,6 +163,8 @@ esttab m11 m12 m13 m14  using predv.tex, keep(hp_1yr unemprate medianinc) replac
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Year FE=2007.year " " Precinct FE=860028.valgstedid " , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{predv)
 
+
+*positive v negative changes
 foreach x in 1 2 3 4{
 qui eststo m4`x': xtreg incs c.hp_1yrneg c.hp_1yrpos `z`x''
 test hp_1yrneg==hp_1yrpos*-1
@@ -175,7 +174,7 @@ esttab m41 m42 m43 m44  using preposneg.tex, replace keep(hp_1yrnegchange hp_1yr
 label("Test of no difference (p)" "Observations" "RMSE")) b(%9.3f)  indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label se nomtitles title(Estimated effects of house prices on  electoral support for governing parties across positive and negative changes.} \label{preposneg)
 
-
+*alt iv
 foreach x in 1 2 3 4{
 qui eststo m2`x': xtreg incs c.hp_2yr `z`x''
 }
@@ -185,28 +184,21 @@ label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  titl
 
 la var  hp_2yr "$\Delta$ housing price (lag DV)"
 
+
+*lag dv
 foreach x in 1 2 3 4{
- eststo m3`x': xtreg l.inc hp_2yr   `z`x''
+ eststo m3`x': xtreg l.inc c.hp_1yr   `z`x''
 *qui margins, dydx(hp_2yr) saving(m3`x', replace)
 
  }
--
-xtreg inc hp_1yr i.year#i.region unemprate medianinc i.year, fe vce(cluster valgstedid)
 
-esttab m31 m32 m33 m34  using prelagdv.tex, keep(hp_2yr) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties at t-1.} \label{prelagdv)
+ 
 
 
-local z2="i.year  , vce(cluster valgstedid)"
-local z3="i.year 860028.valgstedid ,  fe vce(cluster valgstedid)"
-local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster valgstedid)"
-
-
-
-la var  hp_1yr "$\Delta$ housing price (FD controls)"
-
-
+ 
+ 
+****JUNK**********
+-------
 
 foreach x in 1 2 3 4{
  eststo m3`x': xtreg inc c.hp_1yr `z`x''
