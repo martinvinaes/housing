@@ -140,6 +140,7 @@ label var netblue "Net support for Right Wing government"
 
 *this creates dataset
 
+saveold raplidata.dta
 
 
 ***ANALYSES
