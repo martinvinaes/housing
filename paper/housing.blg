@@ -1,48 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: housing.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: housing.aux
 The style file: apa.bst
 Database file #1: library.bib
 Warning--empty journal in healy2014presidential
-You've used 27 entries,
-            1940 wiz_defined-function locations,
-            638 strings with 7986 characters,
-and the built_in function-call counts, 10365 in all, are:
-= -- 1040
-> -- 354
-< -- 21
-+ -- 121
-- -- 112
-* -- 941
-:= -- 1786
-add.period$ -- 80
-call.type$ -- 27
-change.case$ -- 190
-chr.to.int$ -- 26
-cite$ -- 28
-duplicate$ -- 380
-empty$ -- 743
-format.name$ -- 165
-if$ -- 1987
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 137
-num.names$ -- 81
-pop$ -- 134
-preamble$ -- 1
-purify$ -- 191
-quote$ -- 0
-skip$ -- 299
-stack$ -- 0
-substring$ -- 826
-swap$ -- 60
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 160
-warning$ -- 1
-while$ -- 97
-width$ -- 0
-write$ -- 346
 (There was 1 warning)
