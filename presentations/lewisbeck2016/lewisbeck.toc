@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Local Housing Markets}{3}{0}{1}
+\beamer@sectionintoc {2}{The Danish Case}{16}{0}{2}
+\beamer@sectionintoc {3}{Precinct-level data}{24}{0}{3}
+\beamer@sectionintoc {4}{Individual-level data}{39}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{71}{0}{5}
