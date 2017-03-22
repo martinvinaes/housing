@@ -14,7 +14,8 @@ saveold taet.dta, replace
 
 
 *Importing and saving data of lon and lat for polling places
-cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+*cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+cd "C:\Users\kzc744\Documents\GitHub\housing\data"
 clear all
 import delim lonlat.csv, delim(",") clear
 keep valgstedid lon lat
@@ -62,13 +63,8 @@ gen noskift=0
 replace noskift =1 if mod(votes,1)==0
 
 
-
-
-
-
-ta muninum
-sort muninum
 *merging with data on density on municipal level
+sort muninum
 merge m:1 muninum using taet.dta
 
 
@@ -83,7 +79,7 @@ replace y=y-2000
 *merging with dataset which has different definition og house price change (full year on year)
 drop _merge
 sort zipy
-merge zipy using "C:\Users\mvl\Documents\GitHub\housing\data\yearlyzipprice\finalzipdata.dta"
+merge zipy using "C:\Users\kzc744\Documents\GitHub\housing\data\yearlyzipprice\finalzipdata.dta"
 
 ***recodes
 **changing incsupport to exec party (optional)
@@ -140,12 +136,12 @@ label var netblue "Net support for Right Wing government"
 
 *this creates dataset
 
-saveold raplidata.dta
+saveold replidata.dta, replace
 
 
 ***ANALYSES
-cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
-
+*cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
+cd "C:\Users\kzc744\Documents\GitHub\housing\tables" 
 
 *sets up the models
 local z1=", vce(cluster valgstedid)"
