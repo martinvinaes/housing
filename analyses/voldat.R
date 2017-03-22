@@ -84,5 +84,5 @@ allvoldat<-rbind(readRDS(voldatfiles[1]),
                  readRDS(voldatfiles[4]))
 
 #save to csv
-write_csv(allvoldat[,c(1:2,15:18)],path="data/allvoldat.csv")
-write_delim(allvoldat[,c(1:2,15:18)],path="data/allvoldat.txt",delim=",")
+write_csv(allvoldat[,c(1:2,14:18)],path="data/allvoldat.csv")
+write_delim(allvoldat[,c(1:2,14:18)],path="data/allvoldat.txt",delim=",")

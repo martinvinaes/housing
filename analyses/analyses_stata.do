@@ -138,6 +138,18 @@ label var netblue "Net support for Right Wing government"
 
 saveold replidata.dta, replace
 
+*log nt
+gen logntrades=ln(nt0)
+
+
+*test full model
+xtreg incs c.hp_1yr c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)
+
+*full model w interaction
+xtreg incs c.hp_1yr##c.logntrades c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)
+
+margins, dydx (hp_1yr) at (logntrades=(0(1)6))
+
 
 ***ANALYSES
 *cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
