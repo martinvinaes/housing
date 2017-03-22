@@ -1,5 +1,7 @@
 setwd("~/GitHub/housing")
 require(readxl)
+require(readr)
+
 
 #set year
 elecyears<-c(5,7,11,15)
@@ -32,6 +34,14 @@ for (i in elecyears){
   uzips$qm2<-NA
   uzips$qm1<-NA
   uzips$q0<-NA
+  uzips$ntm7<-NA
+  uzips$ntm6<-NA
+  uzips$ntm5<-NA
+  uzips$ntm4<-NA
+  uzips$ntm3<-NA
+  uzips$ntm2<-NA
+  uzips$ntm1<-NA
+  uzips$nt0<-NA
   
   #get weighted prices by area
   for (j in 1:nrow(uzips)){
@@ -49,14 +59,17 @@ for (i in elecyears){
     #weighted mean volatility
     uzips$pricevol[j]<-weighted.mean(x=c(vol1,vol2),w=c(sum(ps[1,3:10],na.rm=T),sum(ps[2,3:10],na.rm=T)),na.rm=T)
     
-    #get prices by quarter
+    #get prices (q) and number of trades (nt) by quarter
     qseq<-rep(NA,8)
+    ntseq<-rep(NA,8)
     for (k in 1:8){
       qseq[k]<-weighted.mean(x=ps[,k+2],w=ts[,k+2],na.rm=T)
+      ntseq[k]<-sum(ts[,k+2],na.rm=T)
       }
     if (sum(!is.na(qseq))>3){
       uzips[j,3:10]<-qseq
     }
+    uzips[j,11:18]<-ntseq
   }
   
   saveRDS(uzips,file=paste("data/voldat",2000+i,".rds",sep=""))
@@ -71,5 +84,5 @@ allvoldat<-rbind(readRDS(voldatfiles[1]),
                  readRDS(voldatfiles[4]))
 
 #save to csv
-write.csv(allvoldat[,1:2],file="data/allvoldat.csv")
-
+write_csv(allvoldat[,c(1:2,15:18)],path="data/allvoldat.csv")
+write_delim(allvoldat[,c(1:2,15:18)],path="data/allvoldat.txt",delim=",")
