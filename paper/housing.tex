@@ -18,8 +18,8 @@
 \usepackage{multicol}
 \usepackage{todonotes}
 
-%\usepackage{mathptmx} %times font
-\usepackage{tgpagella} %times font
+\usepackage{mathptmx} %times font
+%\usepackage{tgpagella} %palatino font
 \usepackage[protrusion=true,expansion=true]{microtype}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
@@ -44,7 +44,8 @@
 
 \usepackage{epstopdf}
 
-\title{\textbf{Housing Bubbles and \\Support for Incumbents}}
+\title{\textbf{The Conditional Impact of Local Economic Conditions on Incumbent Support}}
+%\title{\textbf{Housing Bubbles and \\Support for Incumbents}}
 
 
 \author{Martin Vinæs Larsen\thanks{Corresponding author. \href{mailto:mvl@ifs.ku.dk}{\texttt{mvl@ifs.ku.dk}}. } \qquad Frederik Hjorth \qquad Peter Thisted  Dinesen \\Department of Political Science \\ University of Copenhagen \and Kim Mannemar  Sønderskov  \\Department of Political Science \\ Aarhus University   }
@@ -81,8 +82,8 @@
 
 \newpage
 
-%\onehalfspacing
-\doublespacing
+\onehalfspacing
+%\doublespacing
 
 \section{Introduction}
 
@@ -119,6 +120,9 @@ Third, the panel set-up of data enables us to rule out time-invariant structural
 
 While some previous studies do  some of these methodological challenges, our study is to the best of our knowledge the first to address all of these shortcomings at once. 
 
+\section{Understanding when local economic conditions matter}
+
+Here, we present a theory of \textit{contextual priming}, emphasizing the conditional role...
 
 
 \section{Empirical setting: a policy-driven boom and bust}
@@ -218,7 +222,7 @@ We examine changes in prices rather than price levels. This is in part because p
 In addition to the main independent variable, we measure both the unemployment rate and median income at the zip-code level. We also measure the population density ($log(inhabitants/km^2)$) of the municipality in which the precinct is located. These are all population based measures calculated from national registers provided by Statistics Denmark.
 
 
-\subsection{Estimating the average effect of housing prices}
+\subsection{The average effect of local housing prices}
 In table \ref{predv}  we report estimates from a set of linear regression of electoral support for governing parties using changes in local housing prices as the primary independent variable. For all models we use robust standard errors clustered at the precinct-level. In the first column we present a simple linear regression between electoral support and changes in housing prices. In the second column we add year fixed effects, holding trends in incumbent support and rates of housing price changes constant. In column 3 we add precinct fixed effects. In effect, model 3 evaluates if differences in within-precinct changes in housing prices is related to changes in support. This setup hold averages rates of change constant, and thus effectively eliminate confounding by time-invariant circumstances at the precinct level that may lead to different trajectories in housing prices over time. In column 4 we we include the unemployment rate and median income as controls for the trend of the state of the economy in the precinct.
 
 
@@ -242,6 +246,10 @@ As mentioned above, we use changes in house prices rather than levels. However, 
 As a final robustness test we split the housing price variable in two, creating one variable which measures the size of positive changes, which is zero if there is a negative change, and one variable which measures the size of negative changes, which is zero if there is a positive change. This makes it possible to study the effect of increases and decreases in housing prices separately. We report the result of these analyses in the two last rows of table \ref{robustness}. Interestingly, the effect of negative changes an positive changes do not seem to differ - they are roughly 0.03. This is both important and somewhat surprising. Important, because it suggests that incumbent politicians are not only rewarded for the boom or punished for the bust. Instead, voters seem to first reward governing politicians when house prices are on the rise, and then punish them when they fall. Somewhat surprising, because much previous research have found that voters respond more strongly to negative economic conditions \citep[e.g.][]{bloom1975voter,headrick1991attention,soroka2014negativity}.
 
 Taken together, these analyses suggest that there is a robust, positive effect of local housing prices on support for governing parties.
+
+\subsection{Local economic activity as moderator}
+
+xxx
 
 \subsection{Placebo test}
 Next, we look at whether  governing parties were already getting more popular in places where housing prices would eventually increase and getting less popular in places where housing prices would eventually decrease. To do this we estimate the same type of models as in table \ref{predv}, using support for the governing party at the last election as the dependent variable -- the lag of the dependent variable. We plot the estimated effects of housing prices on the lag of the dependent variable, as well as on the dependent variable, in figure \ref{placebo}. As can be seen from this figure there is an significant effect of housing prices on the lagged dependent variable in the less restrictive models, however, in the final model, the estimated effect of housing prices is 0.005 -- less than a sixth of the estimate in the corresponding model in table \ref{predv} -- and statistically insignificant. This is important, because a key assumption underlying the difference-in-difference design employed here is that prior trends in the dependent variable are uncorrelated with the independent variable  (i.e. the parallel trends assumption). This analysis seems to suggest that there was no such correlation.
@@ -273,7 +281,7 @@ The respondents in the ESS in Denmark are randomly sampled from the national civ
 
 In addition to these central variables, we also use a number of supporting variables in the analysis for statistical control, interaction analyses and placebo tests. As controls, we include unemployment and income both for the individual respondent and in the respondents immediate context. We present the remaining variables as we introduce them in the analysis.
 
-\subsection{Average effect}
+\subsection{The average effect of local housing prices}
 In table \ref{inddv}  we report estimates from a set of linear probability models (LPM), setting the probability of voting for for a party in government as a function of changes in local housing prices. We estimate the models using a linear regression with fixed effects for the respondent, and fixed effect for which of the four different survey rounds the respondent is participating  (ESS round one, two, four or the re-interview). All models include controls for the average income and unemployment rate in the respondents context, as well as indicators of the respondent's own income and whether someone in the household is unemployed. As such, we end up with a difference-in-difference model which controls for trends in the economic situation -- however, unlike for the precinct level data we can now control for trends in both the individuals personal economy and for the economy of the larger context. We use robust standard errors, clustered at the individual level.
 
 All models include the same set of variables, but they differ in how the contextual variables are operationalized. In column one we present a model where housing price change is calculated based on the 20 closest sales (cf. above), and the other contextual variables -- average income and unemployment rate -- is measured within a 500 meter radius of the respondent. In column two we use the 40 closest sales, but leaves the remaining variables operationalized as in column one. In column three and four we operationalize all contextual variables, sales, unemployment rate and average income, as 1000 and 1500 meter radii around the respondent. Finally, in column five, we examine sales at the level of zip-codes, but the other contextual variables are calculated based on people within a 1500 meter radii around the respondent.
@@ -292,30 +300,36 @@ One interpretation of these findings is that the lack of systematic statisticall
 
 As can bee seen from the figure, the effect sizes are pretty similar across levels of analysis - if anything they are larger for the individual level data. Put differently, a one reason that we cannot identify statistically significant effects in the individual level data is that that the housing price effects are not as precisely estimated. This interpretation, that the estimated coefficients do not represent a null-effect, but rather an imprecisely estimated effect, is further corroborated in the next section when we do find a statistically significant effect for a sub-group which should be especially attuned to hosing prices.
 
-\subsection{Self-interest, Ideology or Inference}\label{inference}
+\subsection{Own economic activity as moderator}
 
-In a recent study \cite{ansell2014political} finds that people become more right-wing, in the sense of being less supportive of redistribution, if the price of their home increases. Since there was a Conservative government in office for most of the period we study (2001-2011), it is interesting to ask whether our results can be explained by a link between voters ideological position and changes in local housing prices (i.e. that people voted for the conservative government when housing prices increased because they became more conservative).
-
-To investigate whether this is the case we run the same models as in table \ref{inddv}, substituting incumbent support for ideological self placement on a ten point scale going from `Left' to `Right'. For this analysis we rescale the ideology variable to go between zero and one. We plot the estimated effects of changes in housing prices on ideological orientation in figure \ref{ideology}. For comparison, we also plot the effects on incumbent support. As can be seen from the figure there is no discernible effect on ideology, the estimated effects being very close to zero in all models.
+xxx
 
 
-\begin{figure}[htbp!]
-	\includegraphics[width=0.9\textwidth]{../figures/ideology.eps}
-	\centering
-	\caption{Effects of Housing Prices on Ideological Orientation and Support for Governing Parties with 90  and 95 pct. Confidence Intervals}\label{ideology}
-\end{figure}
 
-A related question is whether voters reaction to housing prices are shaped by self-interest. That is, are voters responsive to changes local housing prices because they believe these changes indicate that their own home is be worth more. 
-
-To examine this we re-estimated the different individual-level models, including an interaction between whether voters owned their own home (i.e. owned or rented), and changes in housing prices. We then derived the estimated marginal effects of changes in housing prices for home owners and others. These marginal effects are plotted in figure \ref{homeown}.
-
-The results are a bit mixed with some models showing effects to be slightly larger for home owners, and other models showing no difference. On balance, however, there does not seem to be any systematic evidence for the conjecture that it is only home owners that are affected by changes in housing prices.
-
-\begin{figure}[htbp!]
-	\includegraphics[width=0.9\textwidth]{../figures/homeown.eps}
-	\centering
-	\caption{Effects of Housing Prices for those who own their home and those who do not with 90  and 95 pct. Confidence Intervals}\label{homeown}
-\end{figure}
+%\subsection{Self-interest, Ideology or Inference}\label{inference}
+%
+%In a recent study \cite{ansell2014political} finds that people become more right-wing, in the sense of being less supportive of redistribution, if the price of their home increases. Since there was a Conservative government in office for most of the period we study (2001-2011), it is interesting to ask whether our results can be explained by a link between voters ideological position and changes in local housing prices (i.e. that people voted for the conservative government when housing prices increased because they became more conservative).
+%
+%To investigate whether this is the case we run the same models as in table \ref{inddv}, substituting incumbent support for ideological self placement on a ten point scale going from `Left' to `Right'. For this analysis we rescale the ideology variable to go between zero and one. We plot the estimated effects of changes in housing prices on ideological orientation in figure \ref{ideology}. For comparison, we also plot the effects on incumbent support. As can be seen from the figure there is no discernible effect on ideology, the estimated effects being very close to zero in all models.
+%
+%
+%\begin{figure}[htbp!]
+%	\includegraphics[width=0.9\textwidth]{../figures/ideology.eps}
+%	\centering
+%	\caption{Effects of Housing Prices on Ideological Orientation and Support for Governing Parties with 90  and 95 pct. Confidence Intervals}\label{ideology}
+%\end{figure}
+%
+%A related question is whether voters reaction to housing prices are shaped by self-interest. That is, are voters responsive to changes local housing prices because they believe these changes indicate that their own home is be worth more. 
+%
+%To examine this we re-estimated the different individual-level models, including an interaction between whether voters owned their own home (i.e. owned or rented), and changes in housing prices. We then derived the estimated marginal effects of changes in housing prices for home owners and others. These marginal effects are plotted in figure \ref{homeown}.
+%
+%The results are a bit mixed with some models showing effects to be slightly larger for home owners, and other models showing no difference. On balance, however, there does not seem to be any systematic evidence for the conjecture that it is only home owners that are affected by changes in housing prices.
+%
+%\begin{figure}[htbp!]
+%	\includegraphics[width=0.9\textwidth]{../figures/homeown.eps}
+%	\centering
+%	\caption{Effects of Housing Prices for those who own their home and those who do not with 90  and 95 pct. Confidence Intervals}\label{homeown}
+%\end{figure}
 
 Why might people who do not own any housing be affected by changes in local housing prices? One reason, which we alluded to in the beginning of the paper, is that local housing markets serve as a signal of the incumbents' competence. As such, even though you do not own your home, you might infer from a booming local housing market, that incumbent politicians are doing a good job keeping your local community economically vibrant.
 
