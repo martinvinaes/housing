@@ -44,6 +44,8 @@
 
 \usepackage{epstopdf}
 
+\usepackage{etoc}
+
 \title{\textbf{The Conditional Impact of Local Economic Conditions on Incumbent Support}}
 %\title{\textbf{Housing Bubbles and \\Support for Incumbents}}
 
@@ -106,15 +108,15 @@ We find the hypothesized positive relationship between local housing prices and 
 
 We are not the first to investigate, whether voters might draw inferences about policy outcomes from local economic conditions. A number of studies have examined the extent to which voters draw inferences about national economic conditions from local economic conditions \citep{books1999contextual,reeves2012ecologies,anderson2011local,ansolabehere2014mecro,bisgaard2016reconsidering}, and a number of studies have examined the extent to which voters draw inferences about whether to support incumbent politicians  \citep{hansford2015reevaluating,eisenberg2004economic,kim2003spatial,healy2014presidential}. The results from these studies are somewhat mixed, but on balance they find that voters do make inferences based on local economic conditions; asserting that the national economy declining or that incumbent politicians are doing a bad job when local economic conditions are declining. 
 
-Our study distinguishes itself from these previous efforts by focusing specifically on the role of local housing markets, not just individual home ownership and the personal economic asset it constitutes, in shaping support for incumbents. Theoretically, we thus highlight how housing markets -- in addition to concerns over personal finances already established in the literature -- shape voting by providing locally derivable information about incumbent politicians’ capacity to manage the economy.
+Our study distinguishes itself from these previous efforts by focusing specifically on the role of local housing markets, not just individual home ownership and the personal economic asset it constitutes, in shaping support for incumbents. Theoretically, we thus highlight how housing markets -- in addition to concerns over personal finances already established in the literature -- shape voting by providing locally derivable information about incumbent politicians' capacity to manage the economy. Drawing on the political psychology literature on priming, we develop a theoretical account of when local housing markets are likely to matter most and test its key observable implications.
 
-In doing so, our study ties into several neighboring literatures. First, a recently emerged strand of research in political economy highlighting the influence of home ownership -- in itself or as part of a portfolio of economic assets -- on redistribution and social policy preference as well as voting \citep{ansell2014political,nadeau2010patrimonial,stubager2013reaching}. Second, by conceptualizing housing bubbles as the result of government policy, our study also relates to the policy feedback literature \citep{campbell2012policy,mettler2004consequences,pierson1993effect}, which emphasizes how policies shape mass political behavior by providing incentives and conveying information to citizens.
+In doing so, our study ties into several neighboring literatures. First, a recently emerged strand of research in political economy highlighting the influence of home ownership -- in itself or as part of a portfolio of economic assets -- on redistribution and social policy preference as well as voting \citep{ansell2014political,nadeau2010patrimonial,stubager2013reaching}. Second, by conceptualizing housing bubbles as the result of government policy, our study also relates to the policy feedback literature \citep{campbell2012policy,mettler2004consequences,pierson1993effect}, which emphasizes how policies shape mass political behavior by providing incentives and conveying information to citizens.\todo{skal vi ikke droppe dette? det virker som en lidt soegt kobling} Second, our studies ties into a growing literature on `context effects' exploring the various ways in which political behavior and conditions is shaped by local contexts. %\citep{}
 
 At the methodological level, we contribute to the existing literature by exploiting uniquely detailed and comprehensive data on housing market transactions available in Danish public registries. Specifically, we can link highly detailed register data on local housing prices to both precinct-level panel data on national election outcomes as well as individual-level panel survey data. These data ameliorate three immanent methodological challenges confronting the broader class of studies scrutinizing local influences on political attitudes and behavior.
 
-First, using extremely precise and highly local measures of house prices enables us to address the common problem of confounding of local context with local media market—a very different mechanism—typically arising in previous studies focusing on local economic conditions in highly aggregate geographical contexts (due to limited data availability) \citep[][]{bisgaard2016reconsidering}.  
+First, using extremely precise and highly local measures of house prices enables us to address the common problem of confounding of local context with local media markets -- a very different mechanism -- typically arising in previous studies focusing on local economic conditions in highly aggregated geographical contexts (due to limited data availability) \citep[][]{bisgaard2016reconsidering}.  
 
-Second, and related to the previous point,  measures of local economic conditions are often based on samples which, while large enough to estimate precise national economic conditions, typically suffer from insufficient precision when estimating conditions at lower geographical levels \citep[][]{healy2014presidential}. 
+Second, and related to the previous point, measures of local economic conditions are often based on samples which, while large enough to precisely estimate national economic conditions, typically suffer from insufficient precision when estimating conditions at lower geographical levels \citep[][]{healy2014presidential}. The availability of full-population data allows us to estimate local house prices with high precision.
 
 Third, the panel set-up of data enables us to rule out time-invariant structural differences between local contexts as explanations of any observed relationship between local house prices and support for incumbents by using only within-precinct/individual variation in local housing prices (by means of fixed effects). This is particularly important given the strong urban-rural gradient in local property values, which would very likely confound any observed cross-sectional relationship with support for the sitting government. 
 
@@ -127,21 +129,23 @@ Here, we present a theory of \textit{contextual priming}, emphasizing the condit
 
 \section{Empirical setting: a policy-driven boom and bust}
 
-The setting of our study is Denmark in the years surrounding the onset of the Great Recession. The precinct-level data (cf. Section \ref{precinctlevel}) covers the election years of 2005, 2007, 2011, and 2015, whereas the individual-level data (cf. Section \ref{individuallevel}) covers panel survey responses from 2004, 2008, and 2011. Studying the relationship between changes in housing prices and support for the incumbent government in Denmark in this period of time is useful due to large temporal variations in these prices. The boom and bust of the Danish real-estate market before and during the great recession was very dramatic, even by international standards. Figure \ref{hpd} shows the trajectory of Denmark's housing bubble compared with other international cases.
+The setting of our study is Denmark in the years surrounding the onset of the Great Recession. The precinct-level data (cf. Section \ref{precinctlevel}) covers the election years of 2005, 2007, 2011, and 2015, whereas the individual-level data (cf. Section \ref{individuallevel}) covers panel survey responses from 2004, 2008, and 2011. Studying the relationship between changes in housing prices and support for the incumbent government in Denmark in this period of time is useful due to large temporal variations in these prices. The boom and bust of the Danish real-estate market before and during the great recession was very dramatic, even by international standards. Figure \ref{hpd} shows the trajectory of Denmark's housing bubble compared with other prominent international cases.
 
 
 
 \begin{figure}[htbp!]
 	\includegraphics[width=0.9\textwidth]{../figures/timeplot}
 	\centering
-	\caption{ Trends in real house prices in Denmark (black line) and selected countries, 2000-2016 (2000 level = 100). Based on the International House Price Database maintained by the Dallas Fed. The authors acknowledge use of the dataset described in Mack and Martínez-García (2011).}\label{hpd}
+	\caption{ Trends in real house prices in Denmark (black line), Spain, the UK, and the US (dark gray lines) and selected other countries (light gray lines), 2000-2016 (2000 level = 100). Based on the International House Price Database maintained by the Dallas Fed. The authors acknowledge use of the dataset described in Mack and Martinez-Garcia (2011).}\label{hpd}
 \end{figure}
 
-As shown in Figure \ref{hpd}, although many economies experienced large increases in real house prices, Denmark's housing bubble was exceptionally volatile, characterized by a late, rapid increase quickly succeeded by a crash. The bulk of Denmark's housing boom and bust occurred in just four years, from 2005 to 2009. In contrast, the housing bubble in the United States (shown in the light gray line in the left panel of Figure \ref{hpd}), though far bigger in absolute terms, was relatively protracted in comparison. As a consequence, local housing markets in Denmark saw year-to-year changes in housing prices that were, even by the standards of a globally economically volatile period, unusually large. This provides us with ample variation in the independent variable of interest.
+As shown in Figure \ref{hpd}, although many economies experienced large increases in real house prices, Denmark's housing bubble was exceptionally volatile, characterized by a late, rapid increase quickly succeeded by a crash. The bulk of Denmark's housing boom and bust occurred in just four years, from 2005 to 2009. In contrast, the housing bubble in the United States (shown in dark gray line in Figure \ref{hpd}), though far bigger in absolute terms, was relatively protracted in comparison. As a consequence, local housing markets in Denmark saw year-to-year changes in housing prices that were, even by the standards of a globally economically volatile period, unusually large. This provides us with ample variation in the independent variable of interest.
 
-Notably, Denmark's housing bubble was not merely a product of changes in the international business cycle. In fact, a majority of the housing bubble is typically attributed to national government policy. In 2002, the newly elected conservative government implemented a nominal freeze on property taxes, in effect cutting the real tax rate on property over time. The year after, the government introduced new loan types including deferred-amortisation loans which allowed homeowners to take out larger mortgage loans. In a study estimating the contribution of these domestic policies to the housing bubble, \citet[p. 62]{dam2011housing} conclude that ``two  thirds  of  the  additional  cyclical  fluctuations  that  accompanied  the  housing  bubble  can  be  attributed to the deferred-amortisation loans and the nominal tax freeze''.
+Notably, Denmark's housing bubble was not merely a product of changes in the international business cycle. In fact, a majority of the housing bubble is typically attributed to national government policy. In 2002, the newly elected conservative government implemented a nominal freeze on property taxes, in effect cutting the real tax rate on property over time. The year after, the government introduced new loan types including deferred-amortization loans which allowed homeowners to take out larger mortgage loans. In a study estimating the contribution of these domestic policies to the housing bubble, \citet[p. 62]{dam2011housing} conclude that ``two  thirds  of  the  additional  cyclical  fluctuations  that  accompanied  the  housing  bubble  can  be  attributed to the deferred-amortization loans and the nominal tax freeze''.
 
-The role of national government policy in driving the housing bubble is important, since it means voters have a reason to view house prices changes as a relevant informational source when evaluating government performance. The government's role in exacerbating the housing bubble was a politically salient issue in the aftermath of the Great Recession, so voters are likely to be aware of this link. However, although the policies exacerbating the housing bubble were implemented by the conservative government, which held office from 2001 to 2011, our argument does not cover only evaluations of the conservative government. If that were the case, evaluations of the government would be observationally indistinguishable from voters becoming more ideologically conservative, a plausible consequence of increases in housing wealth. In Section \ref{inference}, we exploit the change in incumbency in 2011-2015 to show that housing price changes affect support for the incumbent government per se, not merely support for a conservative government.
+The role of national government policy in driving the housing bubble is important, since it means voters have a reason to view house prices changes as a relevant informational source when evaluating government performance. The government's role in exacerbating the housing bubble was a politically salient issue in the aftermath of the Great Recession, so voters are likely to be aware of this link. However, although the policies exacerbating the housing bubble were implemented by the conservative government, which held office from 2001 to 2011, our argument does not cover only evaluations of the conservative government. If that were the case, evaluations of the government would be observationally indistinguishable from voters becoming more ideologically conservative, a plausible consequence of increases in housing wealth. 
+
+%In Section \ref{inference}, we exploit the change in incumbency in 2011-2015 to show that housing price changes affect support for the incumbent government per se, not merely support for a conservative government.
 
 %Turning to the political context, the government in the entire period we investigate (2005-2015) consisted of two different parties. From 2001 to 2011 the Liberal party was in government along with the Conservative party, and from 2011 till 2015 the Social Democratic party and the Liberal party was in power.\footnote{An additional party, the Socialist party, was in government from 2011 to 2013, however, since this party left government before the election, it is excluded when looking at electoral support for the governing party. To get data on electoral support at the previous election, we also use some data from the 2001 election in which the Social Democratic party and the Liberal party was in power.} This change in party incumbency is useful, since it allows us to distinguish effects on incumbent government support from effects on macropartisanship. 
 
@@ -170,36 +174,6 @@ The role of national government policy in driving the housing bubble is importan
 %We use a difference-in-difference approach controlling for other economic factors. 
 %
 %Use two different empirical approaches: Precinct level and Individual level data.
-
-%\subsection{Identification strategy}
-
-%In this article we want to identify the causal effect of recent changes in precinct level housing prices on electoral support for governing parties. Ideally, we would like to compare support for governing parties in the same district at a specific election across different levels of house-prices. As precincts were only assigned one change in housing prices per election, this is obviously not feasible. Instead, we need to construct a feasible observable counterfactual to a precinct with a specific change in housing prices, which we can use to difference out the effect of housing prices. 
-
-%One way to do this is to simply compare incumbent support at different levels of housing price changes across elections and within precincts. Here the counterfactual for any given precinct is the incumbent support of an cross-elections average precinct. A key challenge to causal identification in this case is that certain structural features of precincts in which housing prices are likely to increase might make incumbents more popular. 
-
-%We can begin to deal with this problem by examining the historical precinct-specific levels of incumbent support. As such, instead of simply using an average of all precincts as our counterfactual, we can use the average for the individual precinct. Comparing incumbent support within precincts and across different levels of housing prices. This takes into account that certain precincts might be historically more inclined to support incumbents and have increasing housing prices. However, it does not take into account that when housing prices are relatively high in a district in a particular election, it is also likely to be high in other precincts as well. This is problematic if incumbents do systematically better or worse, in general, when housing prices are doing well.
-
-%To address this problem, we can examine levels of incumbents support, not just relative to the precincts history, but also relative to the level of incumbent support across districts. In this case, our counterfactual for any given precinct is the electoral support that governing parties typically obtain in that precinct, plus or minus the overall change in electoral support for governing parties across all precincts. This gives us a difference-in-differences approach to identifying the effect of housing prices. As such, we look at differences within elections in differences between the individual precincts typical and actual outcome.
-
-%The difference-in-differences approach makes it possible to compare with a very reasonable counterfactual situation -- what is the typical incumbent support we could expect in a precinct given the overall popularity of the incumbent. However, since the the governing parties change from election to election, and since the priorities of the same parties might change from election to election, different types of precincts might prefer government parties at  different elections. This poses a challenge to causal identification. As such,  these changes in election and precinct-specific preferences might not be the same across types of precincts which experience increasing and decreasing in housing prices. We cannot completely deal with this problem: As mentioned in the beginning of this section, we have only one piece of information on the assigned housing price change for a precinct at an individual election. However, we can create an even more appropriate counter-factual by taking into account how precincts of a specific type do at specific elections.
-
-%First, we can take the precincts economic status into account. That is, how the incumbent scores on the four structural variables mentioned above: income, wealth, employment and benefits. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts with a similar economic make-up.
-
-%Second, we can take the precincts geographical location into account. Specifically, we can look at what municipality,  the smallest local administrative unit in Denmark, the municipality is located in. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts in the same municipality.
-
-%This counter-factual can be expressed using the following linear equation.
-
-%\begin{equation}
-%y_{it}= \delta houseprices_{it} + \pi_i + year_{it} + \epsilon_{it}
-%\end{equation}
-
-%Where $y_{it}$ is incumbent support at election $t$ in precinct $i$ and $houseprices_{it}$ is year-over-year changes in housing prices. $\delta$ is the coefficient of interest, as it represents the effect of housing prices on incumbent support.  $\pi_i$ represent precinct fixed-effects and $\epsilon_{it}$ is an error term. $year_{it}$ is a year and precinct specific term, which signifies how much more or less popular, we would expect the incumbent to be in an individual precinct at a specific election, given its geographical location and economic status. It is defined as
-
-%\begin{equation}
-%year_{it}=\mathbf{X_i\beta_t + Z_i\gamma_t}
-%\end{equation}
-
-%$ \mathbf{X_i}$ is a vector of the four economic variables and $\mathbf{\beta_t}$ is a vector of coefficients attached to these variables, which specify the relationship between these variables and incumbent popularity at time $t$. $\mathbf{Z_i}$ is a vector of 98 dummy variables indicating which of 98 municipalities the precinct lies within. $\mathbf{\gamma_t}$ is a vector of coefficients attached to these dummy variables, which specify the cross-precinct municipal average of incumbent popularity at time $t$.
 
 
 %difference in difference - control for other economic conditions. Problem is - however way better than earlier...
@@ -386,46 +360,81 @@ What implications do these findings have? First, politicians should care about h
 \bibliographystyle{apa}
 \bibliography{library}
 
-%\newpage
+\newpage
 
-%\section*{Supplementary materials}
+\appendix
+\section*{Appendix}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\renewcommand{\thetable}{\Alph{subsection}\arabic{table}}
 
-%\subsection*{S1:Descriptive statistics}
+\localtableofcontents
 
-%Table of descriptive statistics
+\subsection{Descriptive statistics}
+\setcounter{table}{0}
 
-%\newpage
+Table of descriptive statistics
 
-%\subsection*{S2: Common trends in precinct-level data}
-%In table \ref{prelagdv} we look at whether housing prices can predict changes in support for governing parties in the last period. 
+\newpage
+
+\subsection{Identification strategy}
+
+In this article we want to identify the causal effect of recent changes in precinct level housing prices on electoral support for governing parties. Ideally, we would like to compare support for governing parties in the same district at a specific election across different levels of house-prices. As precincts were only assigned one change in housing prices per election, this is obviously not feasible. Instead, we need to construct a feasible observable counterfactual to a precinct with a specific change in housing prices, which we can use to difference out the effect of housing prices. 
+
+One way to do this is to simply compare incumbent support at different levels of housing price changes across elections and within precincts. Here the counterfactual for any given precinct is the incumbent support of an cross-elections average precinct. A key challenge to causal identification in this case is that certain structural features of precincts in which housing prices are likely to increase might make incumbents more popular. 
+
+We can begin to deal with this problem by examining the historical precinct-specific levels of incumbent support. As such, instead of simply using an average of all precincts as our counterfactual, we can use the average for the individual precinct. Comparing incumbent support within precincts and across different levels of housing prices. This takes into account that certain precincts might be historically more inclined to support incumbents and have increasing housing prices. However, it does not take into account that when housing prices are relatively high in a district in a particular election, it is also likely to be high in other precincts as well. This is problematic if incumbents do systematically better or worse, in general, when housing prices are doing well.
+
+To address this problem, we can examine levels of incumbents support, not just relative to the precincts history, but also relative to the level of incumbent support across districts. In this case, our counterfactual for any given precinct is the electoral support that governing parties typically obtain in that precinct, plus or minus the overall change in electoral support for governing parties across all precincts. This gives us a difference-in-differences approach to identifying the effect of housing prices. As such, we look at differences within elections in differences between the individual precincts typical and actual outcome.
+
+The difference-in-differences approach makes it possible to compare with a very reasonable counterfactual situation -- what is the typical incumbent support we could expect in a precinct given the overall popularity of the incumbent. However, since the the governing parties change from election to election, and since the priorities of the same parties might change from election to election, different types of precincts might prefer government parties at  different elections. This poses a challenge to causal identification. As such,  these changes in election and precinct-specific preferences might not be the same across types of precincts which experience increasing and decreasing in housing prices. We cannot completely deal with this problem: As mentioned in the beginning of this section, we have only one piece of information on the assigned housing price change for a precinct at an individual election. However, we can create an even more appropriate counter-factual by taking into account how precincts of a specific type do at specific elections.
+
+First, we can take the precincts economic status into account. That is, how the incumbent scores on the four structural variables mentioned above: income, wealth, employment and benefits. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts with a similar economic make-up.
+
+Second, we can take the precincts geographical location into account. Specifically, we can look at what municipality,  the smallest local administrative unit in Denmark, the municipality is located in. In this case our counterfactual for any precinct will be be the typical incumbent support we would expect a precinct to have given how popular the incumbent is at this specific election in precincts in the same municipality.
+
+This counter-factual can be expressed using the following linear equation.
+
+\begin{equation}
+y_{it}= \delta houseprices_{it} + \pi_i + year_{it} + \epsilon_{it}
+\end{equation}
+
+Where $y_{it}$ is incumbent support at election $t$ in precinct $i$ and $houseprices_{it}$ is year-over-year changes in housing prices. $\delta$ is the coefficient of interest, as it represents the effect of housing prices on incumbent support.  $\pi_i$ represent precinct fixed-effects and $\epsilon_{it}$ is an error term. $year_{it}$ is a year and precinct specific term, which signifies how much more or less popular, we would expect the incumbent to be in an individual precinct at a specific election, given its geographical location and economic status. It is defined as
+
+\begin{equation}
+year_{it}=\mathbf{X_i\beta_t + Z_i\gamma_t}
+\end{equation}
+
+$ \mathbf{X_i}$ is a vector of the four economic variables and $\mathbf{\beta_t}$ is a vector of coefficients attached to these variables, which specify the relationship between these variables and incumbent popularity at time $t$. $\mathbf{Z_i}$ is a vector of 98 dummy variables indicating which of 98 municipalities the precinct lies within. $\mathbf{\gamma_t}$ is a vector of coefficients attached to these dummy variables, which specify the cross-precinct municipal average of incumbent popularity at time $t$.
+
+As a test of the parallel trends assumption, in Table \ref{prelagdv} we look at whether housing prices can predict changes in support for governing parties in the last period. 
 
 
-%\input{../tables/prelagdv.tex}
+\input{../tables/prelagdv.tex}
 
-%\newpage
+\newpage
 
-%\subsection*{S3: Alternative estimation in individual-level data}
-%In table \ref{indaltspec} we estimate a conditional logit model on the panel data. We find similar effects as in linear model above.
+\subsection{Alternative estimation in individual-level data}
+In Table \ref{indaltspec} we estimate a conditional logit model on the panel data. We find similar effects as in linear model above.
 
-%\input{../tables/indaltspec.tex}
+\input{../tables/indaltspec.tex}
 
-%\newpage
+\newpage
 
-%\subsection*{S3: Heterogeneous effects in precinct-level data}
-%Tables \ref{preposneg} and \ref{predens} examines the heterogeneity of the effects in the precinct level data.
+\subsection{Heterogeneous effects}
+\setcounter{table}{0}
 
-%\input{../tables/preposneg.tex}
+Tables \ref{preposneg} and \ref{predens} examines the heterogeneity of the effects in the precinct-level data.
 
-%\input{../tables/predens.tex}
+\input{../tables/preposneg.tex}
 
-%\newpage
+\input{../tables/predens.tex}
 
+%\subsection{Heterogeneous treatment effects in individual-level data}
+%\setcounter{table}{0}
 
+Tables \ref{indposneg} and \ref{inddens} examines the heterogeneity of the effects in the individual-level data.
 
-%\subsection*{S4: Heterogeneous treatment effects in individual-level data}
-%Tables \ref{indposneg} and \ref{inddens} examines the heterogeneity of %the effects in the individual level data.
+\input{../tables/indposneg.tex}
+\input{../tables/inddens.tex}
 
-%\input{../tables/indposneg.tex}
-
-%\input{../tables/inddens.tex}
 \end{document}
