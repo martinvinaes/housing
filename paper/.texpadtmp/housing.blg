@@ -4,45 +4,45 @@ The top-level auxiliary file: /Users/frederikhjorth/GitHub/housing/paper/.texpad
 The style file: apa.bst
 Database file #1: ../library.bib
 Warning--empty journal in healy2014presidential
-You've used 27 entries,
+You've used 35 entries,
             1940 wiz_defined-function locations,
-            638 strings with 8097 characters,
-and the built_in function-call counts, 10365 in all, are:
-= -- 1040
-> -- 354
-< -- 21
-+ -- 121
-- -- 112
-* -- 941
-:= -- 1786
-add.period$ -- 80
-call.type$ -- 27
-change.case$ -- 190
-chr.to.int$ -- 26
-cite$ -- 28
-duplicate$ -- 380
-empty$ -- 743
-format.name$ -- 165
-if$ -- 1987
+            690 strings with 9415 characters,
+and the built_in function-call counts, 13441 in all, are:
+= -- 1353
+> -- 444
+< -- 28
++ -- 149
+- -- 140
+* -- 1227
+:= -- 2311
+add.period$ -- 104
+call.type$ -- 35
+change.case$ -- 244
+chr.to.int$ -- 34
+cite$ -- 36
+duplicate$ -- 492
+empty$ -- 976
+format.name$ -- 207
+if$ -- 2580
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 137
-num.names$ -- 81
-pop$ -- 134
+missing$ -- 36
+newline$ -- 177
+num.names$ -- 105
+pop$ -- 165
 preamble$ -- 1
-purify$ -- 191
+purify$ -- 245
 quote$ -- 0
-skip$ -- 299
+skip$ -- 386
 stack$ -- 0
-substring$ -- 826
-swap$ -- 60
+substring$ -- 1100
+swap$ -- 76
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 160
+type$ -- 208
 warning$ -- 1
-while$ -- 97
+while$ -- 128
 width$ -- 0
-write$ -- 346
+write$ -- 450
 (There was 1 warning)
