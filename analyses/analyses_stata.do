@@ -14,8 +14,8 @@ saveold taet.dta, replace
 
 
 *Importing and saving data of lon and lat for polling places
-*cd "C:\Users\mvl\Documents\GitHub\housing\data" 
-cd "C:\Users\kzc744\Documents\GitHub\housing\data"
+cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+*cd "C:\Users\kzc744\Documents\GitHub\housing\data"
 clear all
 import delim lonlat.csv, delim(",") clear
 keep valgstedid lon lat
@@ -79,7 +79,7 @@ replace y=y-2000
 *merging with dataset which has different definition og house price change (full year on year)
 drop _merge
 sort zipy
-merge zipy using "C:\Users\kzc744\Documents\GitHub\housing\data\yearlyzipprice\finalzipdata.dta"
+merge zipy using "C:\Users\mvl\Documents\GitHub\housing\data\yearlyzipprice\finalzipdata.dta"
 
 ***recodes
 **changing incsupport to exec party (optional)
@@ -152,8 +152,8 @@ margins, dydx (hp_1yr) at (logntrades=(0(1)6))
 
 
 ***ANALYSES
-*cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
-cd "C:\Users\kzc744\Documents\GitHub\housing\tables" 
+cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
+*cd "C:\Users\kzc744\Documents\GitHub\housing\tables" 
 
 *sets up the models
 local z1=", vce(cluster valgstedid)"
@@ -168,9 +168,9 @@ qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
 qui margins, dydx(hp_1yr) saving(m1`x', replace)
 }
 
-esttab m11 m12 m13 m14  using predv.tex, keep(hp_1yr unemprate medianinc) replace ///
+esttab m11 m12 m13 m14  using predv.tex, keep(hp_1yr) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Year FE=2007.year " " Precinct FE=860028.valgstedid " , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{predv)
+label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of housing prices on  electoral support for governing parties.} \label{predv)
 
 
 *positive v negative changes
@@ -194,6 +194,21 @@ label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  titl
 la var  hp_2yr "$\Delta$ housing price (lag DV)"
 
 
+**only lw incumbent
+preserve
+drop if year!=2015 & year!=2011
+eststo m71: xtreg inc c.hp_1yr , vce(cluster valgstedid)
+eststo m72: xtreg inc c.hp_1yr i.year, vce(cluster valgstedid)
+eststo m73: xtreg inc c.hp_1yr i.year 860028.valgstedid, vce(cluster valgstedid) fe
+eststo m74: xtreg inc c.hp_1yr i.year c.unemprate c.medianinc 860028.valgstedid, fe vce(cluster valgstedid)
+restore
+esttab m71 m72 m73 m74  using only1115.tex, keep(hp_1yr) replace ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Year FE=2015.year " " Precinct FE=860028.valgstedid " , labels("$\checkmark$" " ")) ///
+label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of housing prices on  electoral support for governing parties.} \label{predv)
+
+
+
+
 *lag dv
 foreach x in 1 2 3 4{
  eststo m3`x': xtreg l.inc c.hp_1yr   `z`x''
@@ -202,6 +217,99 @@ foreach x in 1 2 3 4{
  }
 
  
+*lag dv
+foreach x in 1 2 3 4{
+ eststo m3`x': xtreg l.inc c.hp_1yr   `z`x''
+
+ }
+ 
+ foreach x in 1 2 3 4{
+ eststo m5`x': xtreg inc c.hp_1yr##c.logntrades   `z`x''
+}
+
+esttab m51 m52 m53 m54 using econactivity.tex, keep(hp_1yr c.hp_1yr#c.logntrades unemprate medianinc) replace ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
+label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Estimated effects of housing price across number of trades.} \ref{table:econactivity}} \label{prelagiv)
+
+
+ta logntrades if e(sample)==1
+
+gen terciles=0
+replace terciles =1 if logntrades > 3.091043
+replace terciles =2 if logntrades >  4.043051
+
+tabstat logntrades, stats(p50) by(terciles)
+
+gen logntrades_dif= (logntrades-2.197225) if tercile==0
+replace logntrades_dif= (logntrades-3.583519) if tercile==1
+replace logntrades_dif= (logntrades-4.543295) if tercile==2
+
+ 
+foreach x in 1 2 3 4{
+ *xtreg inc (c.logntrades_dif c.hp_1yr c.hp_1yr#c.logntrades_dif)##tercile   `z`x''
+  xtreg inc c.hp_1yr##c.logntrades    `z`x''
+
+ margins, dydx(hp_1yr) at(logntrades=(2.197225 3.583519 4.543295)) level(95) saving(margin`x', replace) noestimcheck
+
+}
+
+use margin1, clear
+append using margin2
+append using margin3
+append using  margin4
+
+gen model=_n
+replace model=model+2 if _n >3
+replace model=model+2 if _n >6
+replace model=model+2 if _n >9
+
+
+gen _ci_lb2=-_se*1.64+_margin
+gen _ci_ub2=_se*1.64+_margin
+
+drop if _at==2
+
+twoway rspike _ci_lb _ci_ub model,  lcolor(black)  || ///
+rspike _ci_lb2 _ci_ub2 model, scheme(plotplain) lcolor(black) lwidth(thick) || ///
+scatter _margin model if _at==1, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(white) ||  ///
+scatter _margin model if _at==3, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(black)  ///
+ylab(-0.1(0.1)0.3,  labsize(medlarge)) xtitle(" ")    ///
+xlab(2 "Bivariate" 7 "+ Year FE" 12 "+ Precinct FE" 17 "+ Controls",labsize(medlarge)) ///
+ytitle("Marginal Effect", size(medlarge)) ylines(0) ///
+legend( order (4 3)  label(3 "Lower Third of Log(trades)") label(4 "Upper Third of Log(Trades)")  pos(4) )
+
+
+cd "C:\Users\mvl\Documents\GitHub\housing\figures" 
+
+graph export localactivity.eps, replace
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
@@ -215,7 +323,7 @@ foreach x in 1 2 3 4{
 }
 
 
-esttab m31 m32 m33 m34  using prefd1.tex, keep(hp_1yr) replace ///
+esttab m31 m32 m33 m34  using prefd1.tex, keep(hp_1yr ) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties at t-1.} \label{prelagdv)
 
@@ -223,7 +331,7 @@ la var  hp_1yr "$\Delta$ housing price (FD DV)"
 
 
 foreach x in 1 2 3 4{
- eststo m3`x': xtreg d_inc c.l.hp_1yr `z`x''
+ eststo m3`x': xtreg d_inc c.l.hp_1yr##logntrades `z`x''
 
 }
 
