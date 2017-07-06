@@ -1,0 +1,19 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble }{}
+\contentsline {section}{\numberline {1}When local economic conditions affect incumbent support}{3}{section.1}
+\contentsline {section}{\numberline {2}Empirical setting}{4}{section.2}
+\contentsline {section}{\numberline {3}Research design}{5}{section.3}
+\contentsline {section}{\numberline {4}Precinct-level evidence}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Data sources and indicators}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}The average effect of local housing prices}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Local economic activity as moderator}{10}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}The parrallel trends assumption}{11}{subsection.4.4}
+\contentsline {section}{\numberline {5}Individual-level evidence}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Data sources and indicators}{13}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}The average effect of local housing prices}{14}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Own economic activity as moderator}{16}{subsection.5.3}
+\contentsline {section}{\numberline {6}Conclusion}{17}{section.6}
+\etoc@startlocaltoc {1}
+\contentsline {subsection}{\numberline {A}Descriptive statistics}{21}{subsection.Alph0.1}
+\contentsline {subsection}{\numberline {B}Identification strategy}{22}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {C}Alternative estimation in individual-level data}{24}{subsection.Alph0.3}
+\contentsline {subsection}{\numberline {D}Heterogeneous effects}{25}{subsection.Alph0.4}

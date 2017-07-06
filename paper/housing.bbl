@@ -40,17 +40,6 @@ Books, J. and Prysby, C. (1999).
   of the state and local economy.
 \newblock {\em Political Behavior}, 21(1):1--16.
 
-\bibitem[\protect\astroncite{Campbell}{2012}]{campbell2012policy}
-Campbell, A.~L. (2012).
-\newblock Policy makes mass politics.
-\newblock {\em Annual Review of Political Science}, 15:333--351.
-
-\bibitem[\protect\astroncite{Dam et~al.}{2011}]{dam2011housing}
-Dam, N.~A., Hvolb{\o}l, T.~S., Pedersen, E.~H., and Birch, P. (2011).
-\newblock The housing bubble that burst: Can house prices be explained? and can
-  their fluctuations be dampened?
-\newblock {\em Danmarks Nationalbank Monetary Review 1st Quarter Part}.
-
 \bibitem[\protect\astroncite{Eisenberg and
   Ketcham}{2004}]{eisenberg2004economic}
 Eisenberg, D. and Ketcham, J. (2004).
@@ -62,6 +51,11 @@ Eisenberg, D. and Ketcham, J. (2004).
 Ferejohn, J. (1986).
 \newblock Incumbent performance and electoral control.
 \newblock {\em Public choice}, 50(1):5--25.
+
+\bibitem[\protect\astroncite{Fiorina}{1981}]{fiorina1981retrospective}
+Fiorina, M.~P. (1981).
+\newblock {\em Retrospective voting in American national elections}, volume~5.
+\newblock Yale University Press New Haven.
 
 \bibitem[\protect\astroncite{Hansford and
   Gomez}{2015}]{hansford2015reevaluating}
@@ -111,21 +105,21 @@ Kramer, G.~H. (1971).
 \newblock Short-term fluctuations in us voting behavior, 1896--1964.
 \newblock {\em American political science review}, 65(01):131--143.
 
-\bibitem[\protect\astroncite{Mettler and Soss}{2004}]{mettler2004consequences}
-Mettler, S. and Soss, J. (2004).
-\newblock The consequences of public policy for democratic citizenship:
-  Bridging policy studies and mass politics.
-\newblock {\em Perspectives on politics}, 2(01):55--73.
+\bibitem[\protect\astroncite{Lippmann}{1946}]{lippmann1946public}
+Lippmann, W. (1946).
+\newblock {\em Public opinion}, volume~1.
+\newblock Transaction Publishers.
 
 \bibitem[\protect\astroncite{Nadeau et~al.}{2010}]{nadeau2010patrimonial}
 Nadeau, R., Foucault, M., and Lewis-Beck, M.~S. (2010).
 \newblock Patrimonial economic voting: Legislative elections in france.
 \newblock {\em West European Politics}, 33(6):1261--1277.
 
-\bibitem[\protect\astroncite{Pierson}{1993}]{pierson1993effect}
-Pierson, P. (1993).
-\newblock When effect becomes cause: Policy feedback and political change.
-\newblock {\em World politics}, 45(04):595--628.
+\bibitem[\protect\astroncite{Popkin}{1994}]{popkin1994reasoning}
+Popkin, S.~L. (1994).
+\newblock {\em The reasoning voter: Communication and persuasion in
+  presidential campaigns}.
+\newblock University of Chicago Press.
 
 \bibitem[\protect\astroncite{Reeves and Gimpel}{2012}]{reeves2012ecologies}
 Reeves, A. and Gimpel, J.~G. (2012).
@@ -149,5 +143,10 @@ Thygesen, L.~C., Daasnes, C., Thaulow, I., and Br{\o}nnum-Hansen, H. (2011).
 \newblock Introduction to danish (nationwide) registers on health and social
   issues: structure, access, legislation, and archiving.
 \newblock {\em Scandinavian Journal of Public Health}, 39(7 suppl):12--16.
+
+\bibitem[\protect\astroncite{Zaller}{1992}]{zaller1992nature}
+Zaller, J. (1992).
+\newblock {\em The nature and origins of mass opinion}.
+\newblock Cambridge university press.
 
 \end{thebibliography}
