@@ -1,7 +1,7 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble }{}
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
 \contentsline {section}{\numberline {2}When local economic conditions affect incumbent support}{3}{section.2}
-\contentsline {section}{\numberline {3}Empirical setting}{4}{section.3}
+\contentsline {section}{\numberline {3}Empirical setting}{5}{section.3}
 \contentsline {section}{\numberline {4}Research design}{6}{section.4}
 \contentsline {subsection}{\numberline {4.1}Precinct-level data}{6}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Individual-level data}{8}{subsection.4.2}
