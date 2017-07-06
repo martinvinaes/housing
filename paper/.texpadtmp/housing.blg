@@ -3,46 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/frederikhjorth/GitHub/housing/paper/.texpadtmp/housing.aux
 The style file: apa.bst
 Database file #1: ../library.bib
+Warning--I didn't find a database entry for "hall2017economic"
+Warning--I didn't find a database entry for "elinder2010local"
+Warning--I didn't find a database entry for "auberger2005influence"
+Warning--can't use both volume and number fields in fiorina1981retrospective
 Warning--empty journal in healy2014presidential
-You've used 35 entries,
+You've used 27 entries,
             1940 wiz_defined-function locations,
-            690 strings with 9415 characters,
-and the built_in function-call counts, 13441 in all, are:
-= -- 1353
-> -- 444
-< -- 28
-+ -- 149
-- -- 140
-* -- 1227
-:= -- 2311
-add.period$ -- 104
-call.type$ -- 35
-change.case$ -- 244
-chr.to.int$ -- 34
-cite$ -- 36
-duplicate$ -- 492
-empty$ -- 976
-format.name$ -- 207
-if$ -- 2580
+            642 strings with 7953 characters,
+and the built_in function-call counts, 10018 in all, are:
+= -- 993
+> -- 332
+< -- 24
++ -- 113
+- -- 104
+* -- 893
+:= -- 1732
+add.period$ -- 80
+call.type$ -- 27
+change.case$ -- 182
+chr.to.int$ -- 26
+cite$ -- 29
+duplicate$ -- 381
+empty$ -- 728
+format.name$ -- 155
+if$ -- 1924
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 36
-newline$ -- 177
-num.names$ -- 105
-pop$ -- 165
+missing$ -- 32
+newline$ -- 137
+num.names$ -- 81
+pop$ -- 144
 preamble$ -- 1
-purify$ -- 245
+purify$ -- 187
 quote$ -- 0
-skip$ -- 386
+skip$ -- 298
 stack$ -- 0
-substring$ -- 1100
-swap$ -- 76
-text.length$ -- 1
+substring$ -- 757
+swap$ -- 63
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 208
-warning$ -- 1
-while$ -- 128
+type$ -- 152
+warning$ -- 2
+while$ -- 91
 width$ -- 0
-write$ -- 450
-(There was 1 warning)
+write$ -- 345
+(There were 5 warnings)

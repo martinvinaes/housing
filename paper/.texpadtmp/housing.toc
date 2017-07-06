@@ -1,20 +1,16 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble }{}
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {section}{\numberline {2}Relation to existing literature}{3}{section.2}
-\contentsline {section}{\numberline {3}Understanding when local economic conditions matter}{4}{section.3}
-\contentsline {section}{\numberline {4}Empirical setting: a policy-driven boom and bust}{4}{section.4}
-\contentsline {section}{\numberline {5}Precinct-level evidence}{6}{section.5}
-\contentsline {subsection}{\numberline {5.1}Data sources and indicators}{6}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}The average effect of local housing prices}{7}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Local economic activity as moderator}{9}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Placebo test}{10}{subsection.5.4}
-\contentsline {section}{\numberline {6}Individual-level evidence}{10}{section.6}
-\contentsline {subsection}{\numberline {6.1}Data sources and indicators}{11}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}The average effect of local housing prices}{12}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Own economic activity as moderator}{14}{subsection.6.3}
-\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}
+\contentsline {section}{\numberline {2}When local economic conditions affect incumbent support}{3}{section.2}
+\contentsline {section}{\numberline {3}Empirical setting}{4}{section.3}
+\contentsline {section}{\numberline {4}Research design}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Precinct-level data}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Individual-level data}{8}{subsection.4.2}
+\contentsline {section}{\numberline {5}Results}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Precinct-level results}{10}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Individual-level results}{14}{subsection.5.2}
+\contentsline {section}{\numberline {6}Conclusion}{17}{section.6}
 \etoc@startlocaltoc {1}
-\contentsline {subsection}{\numberline {A}Descriptive statistics}{19}{subsection.Alph0.1}
-\contentsline {subsection}{\numberline {B}Identification strategy}{20}{subsection.Alph0.2}
-\contentsline {subsection}{\numberline {C}Alternative estimation in individual-level data}{22}{subsection.Alph0.3}
-\contentsline {subsection}{\numberline {D}Heterogeneous effects}{23}{subsection.Alph0.4}
+\contentsline {subsection}{\numberline {A}Descriptive statistics}{21}{subsection.Alph0.1}
+\contentsline {subsection}{\numberline {B}Identification strategy}{22}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {C}Alternative estimation in individual-level data}{24}{subsection.Alph0.3}
+\contentsline {subsection}{\numberline {D}Heterogeneous effects}{25}{subsection.Alph0.4}
