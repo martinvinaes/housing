@@ -1,9 +1,19 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: housing.aux
 The style file: apa.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for "hall2017economic"
-Warning--I didn't find a database entry for "elinder2010local"
-Warning--I didn't find a database entry for "auberger2005influence"
+I was expecting a `,' or a `}'---line 166 of file library.bib
+ :  
+ :  journal={Working paper}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 213 of file library.bib
+ :  
+ :  journal={The Journal of Politics}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "healy2014presidential"
 Warning--can't use both volume and number fields in fiorina1981retrospective
-Warning--empty journal in healy2014presidential
-(There were 5 warnings)
+Warning--empty journal in hall2017economic
+Warning--empty journal in healy2017presidential
+Warning--empty journal in warshaw2017economic
+(There were 2 error messages)

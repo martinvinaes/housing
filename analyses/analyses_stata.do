@@ -227,11 +227,13 @@ foreach x in 1 2 3 4{
  eststo m5`x': xtreg inc c.hp_1yr##c.logntrades   `z`x''
 }
 
-esttab m51 m52 m53 m54 using econactivity.tex, keep(hp_1yr c.hp_1yr#c.logntrades unemprate medianinc) replace ///
+la var logntrades "Log(trades)"
+
+esttab m51 m52 m53 m54 using econactivity.tex, keep(hp_1yr c.hp_1yr#c.logntrades logntrades unemprate medianinc) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Estimated effects of housing price across number of trades.} \ref{table:econactivity}} \label{prelagiv)
+label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Estimated effects of housing price across number of trades.} \label{table:econactivity}}
 
-
+-
 ta logntrades if e(sample)==1
 
 gen terciles=0
@@ -244,6 +246,8 @@ gen logntrades_dif= (logntrades-2.197225) if tercile==0
 replace logntrades_dif= (logntrades-3.583519) if tercile==1
 replace logntrades_dif= (logntrades-4.543295) if tercile==2
 
+ 
+ 
  
 foreach x in 1 2 3 4{
  *xtreg inc (c.logntrades_dif c.hp_1yr c.hp_1yr#c.logntrades_dif)##tercile   `z`x''

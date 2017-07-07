@@ -22,6 +22,12 @@ Ashworth, S. (2012).
 \newblock Electoral accountability: recent theoretical and empirical work.
 \newblock {\em Annual Review of Political Science}, 15:183--201.
 
+\bibitem[\protect\astroncite{Auberger and Dubois}{2005}]{auberger2005influence}
+Auberger, A. and Dubois, E. (2005).
+\newblock The influence of local and national economic conditions on french
+  legislative elections.
+\newblock {\em Public Choice}, 125(3):363--383.
+
 \bibitem[\protect\astroncite{Bisgaard et~al.}{2016}]{bisgaard2016reconsidering}
 Bisgaard, M., Dinesen, P.~T., and Sønderskov, K.~M. (2016).
 \newblock Reconsidering the neighborhood effect: Does exposure to residential
@@ -47,6 +53,12 @@ Eisenberg, D. and Ketcham, J. (2004).
   what.
 \newblock {\em Topics in Economic Analysis \& Policy}, 4(1).
 
+\bibitem[\protect\astroncite{Elinder}{2010}]{elinder2010local}
+Elinder, M. (2010).
+\newblock Local economies and general elections: The influence of municipal and
+  regional economic conditions on voting in sweden 1985--2002.
+\newblock {\em European Journal of Political Economy}, 26(2):279--292.
+
 \bibitem[\protect\astroncite{Ferejohn}{1986}]{ferejohn1986incumbent}
 Ferejohn, J. (1986).
 \newblock Incumbent performance and electoral control.
@@ -56,6 +68,11 @@ Ferejohn, J. (1986).
 Fiorina, M.~P. (1981).
 \newblock {\em Retrospective voting in American national elections}, volume~5.
 \newblock Yale University Press New Haven.
+
+\bibitem[\protect\astroncite{Hall et~al.}{2017}]{hall2017economic}
+Hall, A.~B., Yoder, J., and Karandikar, N. (2017).
+\newblock Economic distress and voting: Evidence from the subprime mortgage
+  crisis.
 
 \bibitem[\protect\astroncite{Hansford and
   Gomez}{2015}]{hansford2015reevaluating}
@@ -68,15 +85,15 @@ Headrick, B. and Lanoue, D.~J. (1991).
 \newblock Attention, asymmetry, and government popularity in britain.
 \newblock {\em The Western Political Quarterly}, pages 67--86.
 
-\bibitem[\protect\astroncite{Healy and Lenz}{2014a}]{healy2014presidential}
-Healy, A. and Lenz, G.~S. (2014a).
-\newblock Presidential voting and the local economy.
-
-\bibitem[\protect\astroncite{Healy and Lenz}{2014b}]{healy2014substituting}
-Healy, A. and Lenz, G.~S. (2014b).
+\bibitem[\protect\astroncite{Healy and Lenz}{2014}]{healy2014substituting}
+Healy, A. and Lenz, G.~S. (2014).
 \newblock Substituting the end for the whole: Why voters respond primarily to
   the election-year economy.
 \newblock {\em American Journal of Political Science}, 58(1):31--47.
+
+\bibitem[\protect\astroncite{Healy and Lenz}{2017}]{healy2017presidential}
+Healy, A. and Lenz, G.~S. (2017).
+\newblock Presidential voting and the local economy.
 
 \bibitem[\protect\astroncite{Healy and Malhotra}{2009}]{healy2009myopic}
 Healy, A. and Malhotra, N. (2009).
@@ -87,6 +104,12 @@ Healy, A. and Malhotra, N. (2009).
 Healy, A. and Malhotra, N. (2013).
 \newblock Retrospective voting reconsidered.
 \newblock {\em Annual Review of Political Science}, 16:285--306.
+
+\bibitem[\protect\astroncite{Hopkins}{2010}]{hopkins2010politicized}
+Hopkins, D.~J. (2010).
+\newblock Politicized places: Explaining where and when immigrants provoke
+  local opposition.
+\newblock {\em American political science review}, 104(1):40--60.
 
 \bibitem[\protect\astroncite{Jerzak and Libgober}{2016}]{jerzak2016property}
 Jerzak, C.~T. and Libgober, B.~D. (2016).
@@ -143,6 +166,10 @@ Thygesen, L.~C., Daasnes, C., Thaulow, I., and Br{\o}nnum-Hansen, H. (2011).
 \newblock Introduction to danish (nationwide) registers on health and social
   issues: structure, access, legislation, and archiving.
 \newblock {\em Scandinavian Journal of Public Health}, 39(7 suppl):12--16.
+
+\bibitem[\protect\astroncite{Warshaw}{2017}]{warshaw2017economic}
+Warshaw, C. (2017).
+\newblock Economic voting in gubernatorial elections.
 
 \bibitem[\protect\astroncite{Zaller}{1992}]{zaller1992nature}
 Zaller, J. (1992).
