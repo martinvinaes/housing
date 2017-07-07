@@ -123,7 +123,7 @@
 	\newcommand{\htwo}{the contextual priming hypothesis}
 	
 	\begin{quote}
-	\textit{H2 (Contextual priming hypothesis): The association between changes in local house prices and support for the incumbent government is stronger in more active local housing markets.}
+	\textit{H2 (Contextual priming hypothesis): The association between changes in local house prices and support for the incumbent government is stronger when individuals are more exposed to local housing market activity.}
 	\end{quote}
 	
 	This conditional theory of how local economic conditions matter for voters might help explain why previous studies have found inconsistent results. If the impact of local economic conditions depends on which aspects of the local economy citizens interact with, then we should expect the effect of local economic conditions to be moderated by what kind of local economic conditions the study focuses on and by the relation that the electorate has to this part of the economy.
@@ -198,7 +198,9 @@
 	
 	The respondents were randomly sampled from the public registry, and therefore the civil registration numbers were retained by the data collection agency. This made it possible to identify the respondents for a second interview and to link the respondents to the national registers. From the survey, we use the following question: ``What party did you vote for at the last parliamentary election?'' Respondents were presented with all the parties which ran in the previous election. For the analyses we create a dummy variable indicating whether the respondent voted for a party in government at the time of the election as the dependent variable.
 	
-	We also use a number of additional variables in the analysis for statistical control, interaction analyses and placebo tests, which we present as we introduce them in the analysis. 
+	Lastly, for evaluating \htwo, we develop a measure of individual-level exposure to the local housing market. We construct a variable from public registries whether the respondent moved within two years before or after being surveyed. To take into account that respondents who moved within one year of being surveyed were probably more attuned than those who moved within two years, we assign respondents a score of one if they moved out the day after or before being surveyed and let the score decline linearly to zero after two years. A respondent moving exactly one year before or after being surveyed will thus be assigned a score of 0.5. 
+	
+	We include a number of additional variables in the analysis for statistical control, interaction analyses and placebo tests, which we present as we introduce them in the analysis. 
 	
 	
 	\section{Results}
@@ -255,15 +257,17 @@
 	
 	\subsection{Individual-level results}
 	
-	In Table \ref{inddv} we report estimates from a set of linear probability models (LPM), setting the probability of voting for a party in government as a function of changes in local housing prices. We estimate the models using a linear regression with fixed effects for the respondent, and fixed effect for which of the four different survey rounds the respondent is participating (ESS round one, two, four or the re-interview). All models include controls for the average income and unemployment rate in the respondents’ context, as well as indicators of the respondent's own income and whether someone in the household is unemployed. Like in the precinct-level analyses, this is to differentiate the effect of local housing markets from that of other personal of local economic variables. However, unlike for the precinct level data we can now control for trends in both the individuals personal economy and for the economy of the larger context. In effect, we end up with a difference-in-difference model, which controls for trends in the economic situation. We use robust standard errors, clustered at the individual level.
+	In Table \ref{inddv} we report estimates from a set of linear probability models (LPM), setting the probability of voting for a party in government as a function of changes in local housing prices. We estimate the models using a linear regression with fixed effects for the respondent, and fixed effect for which of the four different survey rounds the respondent is participating (ESS rounds one, two, four, or the re-interview). All models include controls for the average income and unemployment rate in the respondent's context, as well as indicators of the respondent's own income and whether someone in the household is unemployed. 
 	
-	All models include the same set of variables, but they differ in how the contextual variables are defined. In column one we present a model where housing price change is calculated based on the 20 closest sales (cf. above), and where the other contextual variables -- average income and unemployment rate -- is measured within a 500 meter radius of the respondent. In column two we use the 40 closest sales, but leaves the remaining variables measured as in column one. In column three and four, we define all contextual variables, sales, unemployment rate and average income, as 1000 and 1500 meter radii around the respondent. Finally, in column five, we examine sales at the level of zip codes, but the other contextual variables are calculated based on people within a 1500 meter radii around the respondent.
+		\input{../tables/inddv}
 	
-	\input{../tables/inddv}
+	Like in the precinct-level analyses, we include these controls to differentiate the effect of local housing markets from that of other personal of local economic variables. However, unlike for the precinct-level data we can now control for trends in both the individuals personal economy and for the economy of the larger context. In effect, we end up with a difference-in-difference model, which controls for trends in the economic situation. We use robust standard errors clustered at the individual level.
+	
+	All models include the same set of variables, but they differ in how the contextual variables are defined. In column one we present a model where housing price change is calculated based on the 20 closest sales (cf. above), and where the other contextual variables -- average income and unemployment rate -- is measured within a 500 meter radius of the respondent. In column two we use the 40 closest sales, but leaves the remaining variables measured as in column one. In columns three and four we define all contextual variables, sales, unemployment rate and average income, as 1000 and 1500 meter radii around the respondent. Finally, in column five, we examine sales at the level of zip codes, but the other contextual variables are calculated based on people within a 1500 meter radii around the respondent.
 	
 	The estimated coefficients are positive across the different models, although the size of the coefficient varies somewhat, ranging from 0.04 to 0.11. The effect is only statistically significantly different from zero in one of the five specification -- the one which looks at the 1500 meter context.
 	
-	While we only observe a statistically significant relationship between changes in house prices and voting for incumbent in one out of five models, and as such should be careful to put too much emphasis on the results, it is important to note that the estimated relationships are actually consistent with what we found in the precinct-level data. To see this figure \ref{comparison} plots the estimated effect of housing prices estimated for the individual-level data in table \ref{inddv}  and for the precinct-level data in table \ref{predv}.
+	While we only observe a statistically significant relationship between changes in house prices and voting for incumbent in one out of five models, it is important to note that the estimated relationships are consistent with what we found in the precinct-level data. To illustrate this, Figure \ref{comparison} plots the estimated effect of housing prices estimated for the individual-level data in Table \ref{inddv}  and for the precinct-level data in Table \ref{predv}.
 	
 	\begin{figure}[htbp!]
 		\includegraphics[width=0.9\textwidth]{../figures/comparison.eps}
@@ -271,7 +275,9 @@
 		\caption{Effects of Housing Prices across levels of analysis with 90  and 95 pct. Confidence Intervals}\label{comparison}
 	\end{figure}
 	
-	As is clear from the figure, the effect sizes are pretty similar across levels of analysis - if anything they are larger for the individual level data. This tentatively suggests that that the estimated coefficients do not represent a true null-effect, but rather an imprecisely estimated effect. One plausible reason for this imprecision is measurement error in the dependent variable as voter recall data are known to be erroneously reported (ref.). Furthermore, as we show in the next section, we find statistically significant effect for a sub-group, which can be expected to be especially attuned to hosing prices.
+	As is clear from the figure, the effect sizes are pretty similar across levels of analysis - if anything they are larger for the individual level data. This tentatively suggests that that the estimated coefficients do not represent a true null-effect, but rather an imprecisely estimated effect. One plausible reason for this imprecision is measurement error in the dependent variable as voter recall data are known to be erroneously reported. In sum, we find mixed support for \hone, statistically insignificant in most specifications but comparable in sign and magnitude to the precinct-level results.
+	
+	%Furthermore, as we show in the next section, we find statistically significant effect for a sub-group, which can be expected to be especially attuned to hosing prices.
 	
 %	\subsubsection{Own economic activity as moderator}
 	
@@ -300,25 +306,23 @@
 	%	\caption{Effects of Housing Prices for those who own their home and those who do not with 90  and 95 pct. Confidence Intervals}\label{homeown}
 	%\end{figure}
 	
-	Why might people who do not own any housing be affected by changes in local housing prices? One reason, which we alluded to in the beginning of the paper, is that local housing markets serve as a signal of the incumbents' competence. As such, even though you do not own your home, you might infer from a booming local housing market, that incumbent politicians are doing a good job keeping your local community economically vibrant.
+	We now turn to \htwo. Following the logic of our theoretical framework, 	if voters are in fact using local housing markets as a signal of incumbent quality, we would expect those who are more finely attuned to this signal to be more affected by changes local housing prices.
 	
-	If voters are in fact using local housing markets as a signal of incumbent quality, we would expect those who are more finely attuned to this signal to be more affected by changes local housing prices.
+	To test this, we reestimate the individual-level models interacting the housing price change variable with the measure of individual-level exposure to local housing markets described above. Figure \ref{move} presents marginal effects from these models for movers (i.e., most exposed) and non-movers (i.e., least exposed) respectively.
 	
-	To test this, we constructed a variable from the national registers, which tries to measure whether the respondent was likely to be attuned to the housing market. In particular, we measure whether the respondent moved within two years before or after being surveyed. To take into account that respondents who moved within one year of being surveyed were probably more attuned than those who moved within two years, we gave respondents a score of one if they moved out the day after or before being surveyed, and then we let the score steadily decline until after two years it was zero (e.g. if you move exactly one year before or after being surveyed you had a score of 0.5). We re-estimate the individual-level models interacting this moving-variable with the housing price change variable.
-	
-	In figure \ref{move} we derive marginal effects from the different models for those who had not moved within two years (i.e. scores 0) and the effect for those who moved the day before or after answering survey (i.e. scores 1). The estimated effect of housing prices is very large for those respondents who are on the cusp of moving, and, more importantly, is statistically significant in all specifications ($p<.05$ for all models except the zip-code model,$p<.1$ for the zip-code model). The marginal effects for the movers is also significantly larger than the effects for the stayers ($p<0.1$) in four out of the five specifications.
-	
-	\begin{figure}[htbp!]
+		\begin{figure}[htbp!]
 		\includegraphics[width=0.9\textwidth]{../figures/moving.eps}
 		\centering
 		\caption{Effects of Changes in Housing Prices for those who had just or were going to move and those who did not with 90 and 95 pct. Confidence Intervals}\label{move}
 	\end{figure}
 	
-	Taken together, these analyses suggest that the housing price effect is not related to ideology or `simple' self-interest. Instead, to the extent that voters are attuned to local housing markets, changes in local housing prices seems to convey a signal to voters about the incumbent's competence in handling the local economy.
+%	Why might people who do not own any housing be affected by changes in local housing prices? One reason, which we alluded to in the beginning of the paper, is that local housing markets serve as a signal of the incumbents' competence. As such, even though you do not own your home, you might infer from a booming local housing market, that incumbent politicians are doing a good job keeping your local community economically vibrant.
 	
+The estimated effect of housing prices is very large for those respondents who are on the cusp of moving, and, more importantly, is statistically significant in all specifications ($p<.05$ for all models except the zip-code model,$p<.1$ for the zip-code model). The marginal effect for movers is also significantly larger than the effects for the non-movers ($p<0.1$) in four out of the five specifications.
 	
-	
-	\section{Conclusion}
+Taken together, these analyses suggest that to the extent that voters are attuned to local housing markets, changes in local housing prices seems to convey a signal to voters about the incumbent's competence in handling the local economy.
+		
+\section{Conclusion}
 	The price of housing tells you something fundamental about the state of the economy in a community. Just like unemployment or local economic growth, housing prices shape the experience and the fate of a community. Therefore housing prices might play an important role in politics. In this article we examined one possible political effect of changes in local housing prices – that on support for incumbents parties. Using precinct-level data on four Danish Parliamentary elections bookended by a dramatic bubble in real-estate prices, we found a positive effect of changes in housing prices on electoral support. Our results suggest that as housing prices increase, so does electoral support for governing parties. Linking a two-wave panel survey of Danish voters to the national Danish registers, we replicated this finding, identifying a comparable effect of housing prices on incumbent support. Analyzing the panel data in more detail, we found that the effect of housing prices was especially pronounced among those who were more likely to be attuned to the local housing market. 
 	
 	Though the data used in this study is a clear improvement compared to those in earlier studies, it is nonetheless observational. In the absence of fully or quasi-experimental variation in housing prices, we cannot be sure that the estimated effects are not confounded by unobserved heterogeneity. This concern remains even though we apply highly stringent tests to the effect estimate. Hence, a promising avenue for future research is to identify settings with plausibly exogenous variation \citep[cf.]{jerzak2016property}.
