@@ -4,49 +4,47 @@ The top-level auxiliary file: /Users/frederikhjorth/GitHub/housing/paper/.texpad
 The style file: apa.bst
 Database file #1: ../library.bib
 Warning--I didn't find a database entry for "hall2017economic"
-Warning--I didn't find a database entry for "elinder2010local"
-Warning--I didn't find a database entry for "auberger2005influence"
 Warning--can't use both volume and number fields in fiorina1981retrospective
 Warning--empty journal in healy2014presidential
-You've used 27 entries,
+You've used 29 entries,
             1940 wiz_defined-function locations,
-            642 strings with 7953 characters,
-and the built_in function-call counts, 10018 in all, are:
-= -- 993
-> -- 332
-< -- 24
-+ -- 113
-- -- 104
-* -- 893
-:= -- 1732
-add.period$ -- 80
-call.type$ -- 27
-change.case$ -- 182
-chr.to.int$ -- 26
-cite$ -- 29
-duplicate$ -- 381
-empty$ -- 728
-format.name$ -- 155
-if$ -- 1924
+            652 strings with 8291 characters,
+and the built_in function-call counts, 10795 in all, are:
+= -- 1073
+> -- 352
+< -- 26
++ -- 121
+- -- 110
+* -- 965
+:= -- 1862
+add.period$ -- 86
+call.type$ -- 29
+change.case$ -- 195
+chr.to.int$ -- 28
+cite$ -- 31
+duplicate$ -- 409
+empty$ -- 788
+format.name$ -- 165
+if$ -- 2074
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 137
-num.names$ -- 81
-pop$ -- 144
+missing$ -- 34
+newline$ -- 147
+num.names$ -- 87
+pop$ -- 151
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 200
 quote$ -- 0
-skip$ -- 298
+skip$ -- 320
 stack$ -- 0
-substring$ -- 757
-swap$ -- 63
+substring$ -- 833
+swap$ -- 67
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
+type$ -- 164
 warning$ -- 2
-while$ -- 91
+while$ -- 99
 width$ -- 0
-write$ -- 345
-(There were 5 warnings)
+write$ -- 371
+(There were 3 warnings)
