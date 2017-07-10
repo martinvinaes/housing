@@ -168,7 +168,7 @@ qui eststo m1`x': xtreg incs c.hp_1yr `z`x''
 qui margins, dydx(hp_1yr) saving(m1`x', replace)
 }
 
-esttab m11 m12 m13 m14  using predv.tex, keep(hp_1yr) replace ///
+esttab m11 m12 m13 m14  using predv.tex, keep(hp_1yr medianinc unemprate) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Year FE=2007.year " " Precinct FE=860028.valgstedid " , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of housing prices on  electoral support for governing parties.} \label{predv)
 
@@ -231,7 +231,7 @@ la var logntrades "Log(trades)"
 
 esttab m51 m52 m53 m54 using econactivity.tex, keep(hp_1yr c.hp_1yr#c.logntrades logntrades unemprate medianinc) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Estimated effects of housing price across number of trades.} \label{table:econactivity}}
+label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Estimated effects of housing price across number of trades.} \label{table:econactivity)
 
 -
 ta logntrades if e(sample)==1
@@ -279,8 +279,8 @@ scatter _margin model if _at==1, msym(O) msize(large) mlwidth(medthick) mlcolor(
 scatter _margin model if _at==3, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(black)  ///
 ylab(-0.1(0.1)0.3,  labsize(medlarge)) xtitle(" ")    ///
 xlab(2 "Bivariate" 7 "+ Year FE" 12 "+ Precinct FE" 17 "+ Controls",labsize(medlarge)) ///
-ytitle("Marginal Effect", size(medlarge)) ylines(0) ///
-legend( order (4 3)  label(3 "Lower Third of Log(trades)") label(4 "Upper Third of Log(Trades)")  pos(4) )
+ytitle("Effect on Support for the Governing Parties", size(medlarge)) ylines(0) ///
+legend( order (4 3)  label(3 "Lower Third of Log(trades)") label(4 "Upper Third of Log(Trades)")  pos(4) ) xsize(7)
 
 
 cd "C:\Users\mvl\Documents\GitHub\housing\figures" 
