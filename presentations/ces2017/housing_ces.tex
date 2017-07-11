@@ -1,4 +1,4 @@
-\documentclass[10pt,aspectratio=169,handout]{beamer} 
+\documentclass[10pt,aspectratio=169]{beamer} 
 \mode<presentation>{}
 %\usepackage{fontspec} %for XeLaTex
 \usepackage[T1]{fontenc} 
@@ -67,6 +67,15 @@
 \author[Larsen et al.]{Martin Vin\ae s Larsen \qquad Frederik Hjorth \qquad Peter Thisted  Dinesen  \and  \\ Kim Mannemar  S\o nderskov \vspace{0.1in}  \\Departments of Political Science \\ Aarhus University \\ University of Copenhagen }
 \date[July 13, 2017]{24th International Conference of Europeanists \\ Glasgow, Scotland \\ July 13, 2017}
 
+\AtBeginSection[]
+{\begin{frame}<beamer>
+	\tableofcontents[currentsection,subsectionstyle=show/shaded/hide]
+\end{frame}}
+\AtBeginSubsection[]
+{\begin{frame}<beamer>
+\tableofcontents[currentsection,currentsubsection,subsectionstyle=show/shaded/hide]
+\end{frame}}
+
 \begin{document}
 	
 \begin{frame}
@@ -86,11 +95,12 @@ RQ: Do citizens respond politically to local economic conditions?
 	\column{.5\textwidth}
 	\includegraphics[width=0.99\textwidth]{../../figures/eurostat}
 		\column{.5\textwidth}
+		\pause
 	\begin{itemize}[<+->]
 		\item Conflicting findings in existing literature
 		\begin{block}{}
 			>>(...) the local economy \alert{has an impact} on presidential election outcomes (...)<< (Lenz \& Healy, forthcoming)
-		\end{block} \pause
+		\end{block}
 		\begin{block}{}
 			>>(...) local economic conditions related to the housing market \alert{do not appear to play an important role} in U.S. election results (...)<< (Hall et al., 2017) \pause
 		\end{block}
@@ -125,7 +135,7 @@ Denmark ca. 2002 - 2015.\pause
 
 \column{.4\linewidth}	
 
-\begin{enumerate}[<+->]
+\begin{itemize}[<+->]
 	\item experienced very volatile housing bubble
 	\item detailed data from the public registries on local housing markets 
 	\item link the housing market data to voting behavior in two different data sets:
@@ -133,7 +143,7 @@ Denmark ca. 2002 - 2015.\pause
 		\item precinct-level election returns
 		\item two-wave panel survey of reported voting
 	\end{itemize}
-\end{enumerate}
+\end{itemize}
 
 \column{.6\linewidth}	
 
@@ -151,18 +161,21 @@ Denmark ca. 2002 - 2015.\pause
 \subsection{Precinct-level data}
 
 \begin{frame}
-DV is support for gov't parties at precincts across elections in '05, '07, '11, '15.
-
-$\rightsquigarrow$  smallest unit at which election outcomes are observed ($3,000$ voters on average)
+DV: support for gov't parties at precincts across elections in '05, '07, '11, '15. \\
+$\rightsquigarrow$  smallest unit at which election outcomes are observed ($3,000$ voters on average) \\
 
 \vspace{0.2in} \pause
-IV is year-over-year changes in the price of real-estate sold in the precinct's zip code.
+IV: year-over-year change in the price of real-estate sold in precinct's zip code \\
 
-$\rightsquigarrow$ Data from the Danish Mortgage Federation. \pause
+\vspace{0.2in} \pause
+salience measure: logged number of trades in precinct's zip code in most recent quarter
+
+%$\rightsquigarrow$ Data from the Danish Mortgage Federation. 
+\pause
 
 \vspace{0.2in}
 
-We link precincts to zip-codes by identifying the zip code of the precinct's polling place.
+we link precincts to zip-codes by identifying the zip code of the precinct's polling place.
 
 $\rightsquigarrow$  we also have information on unemployment and median income in each zip-code.
 
@@ -194,22 +207,33 @@ $\rightsquigarrow$  we also have information on unemployment and median income i
 
 \subsection{Individual-level data}
 
+%\begin{frame}
+%Use a two-wave panel survey of Danish citizens; interviewed in the aughts, '11. \pause
+%
+%
+%$\rightsquigarrow$ Link these respondents to the national registers.
+%
+%\vspace{0.1in} \pause
+%
+%Why use this data as well?
+%\begin{itemize} \pause
+%\item Replication (/methodological triangulation). \pause
+%\item Explore individual level moderators to get at mechanism. \pause
+%\item Allows us to define context in flexible ways (cf. MAUP).
+%\end{itemize}
+%\end{frame}
+
 \begin{frame}
-Use a two-wave panel survey of Danish citizens; interviewed in the aughts, '11. \pause
-
-
-$\rightsquigarrow$ Link these respondents to the national registers.
-
-\vspace{0.1in} \pause
-
-Why use this data as well?
-\begin{itemize} \pause
-\item Replication (/methodological triangulation). \pause
-\item Explore individual level moderators to get at mechanism. \pause
-\item Allows us to define context in flexible ways (cf. MAUP).
-\end{itemize}
+DV: self-reported for gov't parties in most recent election \\
+\vspace{0.2in} \pause
+IV: year-over-year change in the price of real-estate sold in (various measures of)  respondent's context \\
+\vspace{0.2in} \pause
+salience measure: individuals' temporal proximity to moving, before or after survey \\
+\vspace{0.2in} \pause
+we use a linear regr with fixed effects to estimate the effect of local housing prices. \\ \pause
+$\rightsquigarrow$ controls: unemployment, income (personal, context) \\ \pause
+$\rightsquigarrow$ use LPM as a link function. 
 \end{frame}
-
 
 \begin{frame} 
 \centering
@@ -218,31 +242,13 @@ Why use this data as well?
 \end{frame}
 
 
-
-\begin{frame} 
-DV is reported vote choice for gov't party. \pause
-
-\vspace{0.2in} 
-IV is changes in the price of real-estate sold in residential context (dif interpretations).
-\vspace{0.2in}  \pause
-
-We use a linear regr with fixed effects to estimate the effect of local housing prices. \pause
-
-$\rightsquigarrow$ Controls: Unemployment, Income (personal, context) \pause
-
-$\rightsquigarrow$ Use an LPM as a link function. 
-
-
-\end{frame}
-
-
-
 \section{Results}
 \subsection{}
 
 \subsection{Precint-level data}
 
 \begin{frame}
+H1:
 \begin{figure}[htbp!]
 	\includegraphics[width=0.9\textwidth]{../../figures/lagdv.eps}
 	\centering
@@ -250,7 +256,9 @@ $\rightsquigarrow$ Use an LPM as a link function.
 \end{figure}
 \end{frame}
 
-\begin{frame} \centering
+\begin{frame}
+H2: \\
+\centering
 \begin{figure}[htbp!]
 	\includegraphics[width=0.9\textwidth]{../../figures/localactivity.eps}
 \end{figure}
@@ -258,7 +266,8 @@ $\rightsquigarrow$ Use an LPM as a link function.
 
 \subsection{Individual-level data}
 
-\begin{frame} \centering
+\begin{frame}
+H1: \\ \centering
 \foreach \n in {1,2,3,4,5,6,7}{
 	
 	\includegraphics<\n>[width=0.8\textwidth]{../../figures/comparison\n.eps}
@@ -266,7 +275,9 @@ $\rightsquigarrow$ Use an LPM as a link function.
 %Not significant
 \end{frame}
 
-\begin{frame} \centering
+\begin{frame}
+H2: \\ 
+\centering
 \begin{figure}[htbp!]
 	\includegraphics[width=0.9\textwidth]{../../figures/moving.eps}
 \end{figure}
@@ -277,21 +288,24 @@ $\rightsquigarrow$ Use an LPM as a link function.
 \section{Conclusion}
 \subsection{}
 \begin{frame}
-We find that local housing prices do drive incumbent support. \pause
-
-$\rightsquigarrow$ especially for those who engage with the local housing market. \pause
+local economic conditions (housing prices) do drive incumbent support \\ \pause
+$\rightsquigarrow$ effect stronger where/when individuals engage with the local housing market \pause
 
 \vspace{0.2in}
-Suggests that local economy matters. \pause
+suggests that local economy matters \pause
 \begin{itemize}[<+->]
-\item People make inferences about pol's based on how local community is doing.
-\item Means that pol's need to worry about `geography of grievances'.
+\item individuals make inferences about incumbents based on how local community is doing.
+\item pol's need to worry about `geography of grievances'.
 \end{itemize}
 
 \vspace{0.2in} \pause
-Also suggests that, more broadly, housing markets matter politically.
+housing markets (also) matter politically \\ \pause
+$\rightsquigarrow$ voters adapt to changing economies, focus on new parts of the economy
+\end{frame}
 
-$\rightsquigarrow$ voters adapt, focus on new parts of the economy. 
+\begin{frame}
+\centering
+Thanks for your time!
 \end{frame}
 
 \appendix

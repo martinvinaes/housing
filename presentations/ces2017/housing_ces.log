@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.13)  11 JUL 2017 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.13)  11 JUL 2017 15:07
 entering extended mode
 **./housing_ces.tex
 (housing_ces.tex
@@ -1551,21 +1551,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (housing_ces.aux)
 \openout1 = `housing_ces.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 79.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1618,7 +1618,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \everyMPtoPDFconversion=\toks61
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box90
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 79.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1628,60 +1628,60 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count198
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 
 (housing_ces.out) (housing_ces.out)
 \@outlinefile=\write5
 \openout5 = `housing_ces.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 70.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 70.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 70.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 70.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 79.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 70.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 70.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 70.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 70.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 70.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 70.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 70.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 70.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 70.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 70.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 70.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 70.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 70.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 70.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 70.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 70.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 70.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 79.
 
 (C:\Users\kzc744\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\di
 cts\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -1709,7 +1709,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 cts\translator-theorem-dictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 70.
+LaTeX Info: Redefining \includegraphics on input line 79.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -1724,7 +1724,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (housing_ces.nav)
-Overfull \vbox (10.31497pt too high) detected at line 74
+Overfull \vbox (10.31497pt too high) detected at line 83
  []
 
 [1{C:/Users/kzc744/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
@@ -1732,97 +1732,211 @@ Overfull \vbox (10.31497pt too high) detected at line 74
 ]
 (housing_ces.toc) [2
 
+] (housing_ces.toc) [3
+
+] (housing_ces.toc) [4
+
 ]
-<../../figures/eurostat.png, id=137, 563.85657pt x 461.47406pt>
+(housing_ces.toc) [5
+
+] (housing_ces.toc) [6
+
+]
+<../../figures/eurostat.png, id=292, 563.85657pt x 461.47406pt>
 File: ../../figures/eurostat.png Graphic file (type png)
 
 <use ../../figures/eurostat.png>
-Package pdftex.def Info: ../../figures/eurostat.png used on input line 100.
+Package pdftex.def Info: ../../figures/eurostat.png used on input line 110.
 (pdftex.def)             Requested size: 197.1787pt x 161.3775pt.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 100
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 110
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 100.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 110.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 100
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 110
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 100
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 110
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 100.
+(Font)              <10> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 100.
+(Font)              <7> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 100.
-LaTeX Font Info:    Try loading font information for U+msa on input line 100.
+(Font)              <5> on input line 110.
+LaTeX Font Info:    Try loading font information for U+msa on input line 110.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 100.
+LaTeX Font Info:    Try loading font information for U+msb on input line 110.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 100.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 110.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 100.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 110.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 100.
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 100
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 110.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 110
 .
-LaTeX Font Info:    No file OMSlmss.fd. on input line 100.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 110.
 
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 100.
+(Font)              for symbol `textbullet' on input line 110.
 
-[3
+[7
 
- <../../figures/eurostat.png>] [4
+ <../../figures/eurostat.png>]
+File: ../../figures/eurostat.png Graphic file (type png)
+ <use ../../figures/eurostat.png>
+Package pdftex.def Info: ../../figures/eurostat.png used on input line 110.
+(pdftex.def)             Requested size: 197.1787pt x 161.3775pt.
+ [8
 
 ]
-<../../figures/timeplot.pdf, id=192, 578.16pt x 289.08pt>
+File: ../../figures/eurostat.png Graphic file (type png)
+
+<use ../../figures/eurostat.png>
+Package pdftex.def Info: ../../figures/eurostat.png used on input line 110.
+(pdftex.def)             Requested size: 197.1787pt x 161.3775pt.
+ [9
+
+]
+File: ../../figures/eurostat.png Graphic file (type png)
+ <use ../../figures/eurostat.png>
+Package pdftex.def Info: ../../figures/eurostat.png used on input line 110.
+(pdftex.def)             Requested size: 197.1787pt x 161.3775pt.
+ [10
+
+]
+File: ../../figures/eurostat.png Graphic file (type png)
+
+<use ../../figures/eurostat.png>
+Package pdftex.def Info: ../../figures/eurostat.png used on input line 110.
+(pdftex.def)             Requested size: 197.1787pt x 161.3775pt.
+ [11
+
+]
+File: ../../figures/eurostat.png Graphic file (type png)
+ <use ../../figures/eurostat.png>
+Package pdftex.def Info: ../../figures/eurostat.png used on input line 110.
+(pdftex.def)             Requested size: 197.1787pt x 161.3775pt.
+ [12
+
+]
+[13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] (housing_ces.toc) [18
+
+] (housing_ces.toc) [19
+
+]
+<../../figures/timeplot.pdf, id=701, 578.16pt x 289.08pt>
 File: ../../figures/timeplot.pdf Graphic file (type pdf)
 
 <use ../../figures/timeplot.pdf>
-Package pdftex.def Info: ../../figures/timeplot.pdf used on input line 149.
+Package pdftex.def Info: ../../figures/timeplot.pdf used on input line 159.
 (pdftex.def)             Requested size: 215.10356pt x 107.549pt.
- [5
+ [20
 
- <../../figures/timeplot.pdf>] [6
+ <../../figures/timeplot.pdf>]
+File: ../../figures/timeplot.pdf Graphic file (type pdf)
+
+<use ../../figures/timeplot.pdf>
+Package pdftex.def Info: ../../figures/timeplot.pdf used on input line 159.
+(pdftex.def)             Requested size: 215.10356pt x 107.549pt.
+ [21
+
+]
+File: ../../figures/timeplot.pdf Graphic file (type pdf)
+ <use ../../figures/timeplot.pdf>
+Package pdftex.def Info: ../../figures/timeplot.pdf used on input line 159.
+(pdftex.def)             Requested size: 215.10356pt x 107.549pt.
+ [22
+
+]
+File: ../../figures/timeplot.pdf Graphic file (type pdf)
+
+<use ../../figures/timeplot.pdf>
+Package pdftex.def Info: ../../figures/timeplot.pdf used on input line 159.
+(pdftex.def)             Requested size: 215.10356pt x 107.549pt.
+ [23
+
+]
+File: ../../figures/timeplot.pdf Graphic file (type pdf)
+ <use ../../figures/timeplot.pdf>
+Package pdftex.def Info: ../../figures/timeplot.pdf used on input line 159.
+(pdftex.def)             Requested size: 215.10356pt x 107.549pt.
+ [24
+
+]
+File: ../../figures/timeplot.pdf Graphic file (type pdf)
+
+<use ../../figures/timeplot.pdf>
+Package pdftex.def Info: ../../figures/timeplot.pdf used on input line 159.
+(pdftex.def)             Requested size: 215.10356pt x 107.549pt.
+ [25
+
+] (housing_ces.toc) [26
+
+] [27
+
+] [28
+
+] [29
+
+]
+[30
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 181.
+(Font)              <20.74> on input line 194.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 181.
+(Font)              <14.4> on input line 194.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 181.
+(Font)              <12> on input line 194.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 194.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 194.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
- [7
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 194.
+ [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
 
 ]
 Package epstopdf Info: Source file: <../../figures/lagd1.eps>
@@ -1833,16 +1947,19 @@ Package epstopdf Info: Source file: <../../figures/lagd1.eps>
 (epstopdf)                    size: 12724 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/lagd1-eps-con
 verted-to.pdf ../../figures/lagd1.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/lagd1-eps-converted-to.pdf, id=283, 505.89pt x 289.08pt>
+<../../figures/lagd1-eps-converted-to.pdf, id=1204, 505.89pt x 289.08pt>
 File: ../../figures/lagd1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/lagd1-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/lagd1-eps-converted-to.pdf used on input
- line 190.
+ line 203.
 (pdftex.def)             Requested size: 318.67209pt x 182.0993pt.
+ [36
+
+ <../../figures/lagd1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/lagd2.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 52082 bytes
@@ -1851,16 +1968,19 @@ Package epstopdf Info: Source file: <../../figures/lagd2.eps>
 (epstopdf)                    size: 13515 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/lagd2-eps-con
 verted-to.pdf ../../figures/lagd2.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/lagd2-eps-converted-to.pdf, id=284, 505.89pt x 289.08pt>
+<../../figures/lagd2-eps-converted-to.pdf, id=1239, 505.89pt x 289.08pt>
 File: ../../figures/lagd2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/lagd2-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/lagd2-eps-converted-to.pdf used on input
- line 190.
+ line 203.
 (pdftex.def)             Requested size: 318.67209pt x 182.0993pt.
+ [37
+
+ <../../figures/lagd2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/lagd3.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 49445 bytes
@@ -1869,16 +1989,19 @@ Package epstopdf Info: Source file: <../../figures/lagd3.eps>
 (epstopdf)                    size: 12971 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/lagd3-eps-con
 verted-to.pdf ../../figures/lagd3.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/lagd3-eps-converted-to.pdf, id=285, 505.89pt x 289.08pt>
+<../../figures/lagd3-eps-converted-to.pdf, id=1275, 505.89pt x 289.08pt>
 File: ../../figures/lagd3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/lagd3-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/lagd3-eps-converted-to.pdf used on input
- line 190.
+ line 203.
 (pdftex.def)             Requested size: 318.67209pt x 182.0993pt.
+ [38
+
+ <../../figures/lagd3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/lagd4.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 49602 bytes
@@ -1887,16 +2010,19 @@ Package epstopdf Info: Source file: <../../figures/lagd4.eps>
 (epstopdf)                    size: 13210 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/lagd4-eps-con
 verted-to.pdf ../../figures/lagd4.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/lagd4-eps-converted-to.pdf, id=286, 505.89pt x 289.08pt>
+<../../figures/lagd4-eps-converted-to.pdf, id=1310, 505.89pt x 289.08pt>
 File: ../../figures/lagd4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/lagd4-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/lagd4-eps-converted-to.pdf used on input
- line 190.
+ line 203.
 (pdftex.def)             Requested size: 318.67209pt x 182.0993pt.
+ [39
+
+ <../../figures/lagd4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/lagd5.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 49759 bytes
@@ -1905,16 +2031,19 @@ Package epstopdf Info: Source file: <../../figures/lagd5.eps>
 (epstopdf)                    size: 13443 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/lagd5-eps-con
 verted-to.pdf ../../figures/lagd5.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/lagd5-eps-converted-to.pdf, id=287, 505.89pt x 289.08pt>
+<../../figures/lagd5-eps-converted-to.pdf, id=1345, 505.89pt x 289.08pt>
 File: ../../figures/lagd5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/lagd5-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/lagd5-eps-converted-to.pdf used on input
- line 190.
+ line 203.
 (pdftex.def)             Requested size: 318.67209pt x 182.0993pt.
+ [40
+
+ <../../figures/lagd5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/lagd6.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 55541 bytes
@@ -1923,42 +2052,72 @@ Package epstopdf Info: Source file: <../../figures/lagd6.eps>
 (epstopdf)                    size: 14991 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/lagd6-eps-con
 verted-to.pdf ../../figures/lagd6.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/lagd6-eps-converted-to.pdf, id=288, 505.89pt x 289.08pt>
+<../../figures/lagd6-eps-converted-to.pdf, id=1380, 505.89pt x 289.08pt>
 File: ../../figures/lagd6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/lagd6-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/lagd6-eps-converted-to.pdf used on input
- line 190.
+ line 203.
 (pdftex.def)             Requested size: 318.67209pt x 182.0993pt.
+ [41
 
-Overfull \vbox (885.11345pt too high) detected at line 190
+ <../../figures/lagd6-eps-converted-to.pdf>] (housing_ces.toc) [42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+] [48
+
+]
+(../../figures/illustrate1.txt)
+Overfull \vbox (19.87074pt too high) detected at line 242
  []
 
-[8
+[49
 
- <../../figures/lagd1-eps-converted-to.pdf> <../../figures/lagd2-eps-converted-
-to.pdf> <../../figures/lagd3-eps-converted-to.pdf> <../../figures/lagd4-eps-con
-verted-to.pdf> <../../figures/lagd5-eps-converted-to.pdf> <../../figures/lagd6-
-eps-converted-to.pdf>] [9
-
-] (../../figures/illustrate1.txt)
-(../../figures/illustrate2.txt) (../../figures/illustrate3.txt)
-(../../figures/illustrate4.txt) (../../figures/illustrate5.txt)
-(../../figures/illustrate6.txt)
-Overfull \hbox (796.67856pt too wide) in paragraph at lines 218--218
- [][][][][][] 
+] (../../figures/illustrate2.txt)
+Overfull \vbox (19.87074pt too high) detected at line 242
  []
 
+[50
 
-Overfull \vbox (19.87074pt too high) detected at line 218
+] (../../figures/illustrate3.txt)
+Overfull \vbox (19.87074pt too high) detected at line 242
  []
 
-[10
+[51
 
-] [11
+] (../../figures/illustrate4.txt)
+Overfull \vbox (19.87074pt too high) detected at line 242
+ []
+
+[52
+
+] (../../figures/illustrate5.txt)
+Overfull \vbox (19.87074pt too high) detected at line 242
+ []
+
+[53
+
+] (../../figures/illustrate6.txt)
+Overfull \vbox (19.87074pt too high) detected at line 242
+ []
+
+[54
+
+] (housing_ces.toc) [55
+
+] (housing_ces.toc) [56
 
 ]
 Package epstopdf Info: Source file: <../../figures/lagdv.eps>
@@ -1969,21 +2128,21 @@ Package epstopdf Info: Source file: <../../figures/lagdv.eps>
 (epstopdf)                    size: 13596 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/lagdv-eps-con
 verted-to.pdf ../../figures/lagdv.eps>
-(epstopdf)             \includegraphics on input line 251.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/lagdv-eps-converted-to.pdf, id=409, 505.89pt x 289.08pt>
+<../../figures/lagdv-eps-converted-to.pdf, id=1881, 505.89pt x 289.08pt>
 File: ../../figures/lagdv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/lagdv-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/lagdv-eps-converted-to.pdf used on input
- line 251.
+ line 257.
 (pdftex.def)             Requested size: 358.50229pt x 204.86006pt.
 
-Overfull \vbox (32.37769pt too high) detected at line 251
+Overfull \vbox (44.37769pt too high) detected at line 257
  []
 
-[12
+[57
 
  <../../figures/lagdv-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/localactivity.eps>
@@ -1995,22 +2154,26 @@ to.pdf>
 (epstopdf)                    size: 10344 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/localactivity
 -eps-converted-to.pdf ../../figures/localactivity.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/localactivity-eps-converted-to.pdf, id=440, 505.89pt x 289.08pt>
+<../../figures/localactivity-eps-converted-to.pdf, id=1916, 505.89pt x 289.08pt
+>
 File: ../../figures/localactivity-eps-converted-to.pdf Graphic file (type pdf)
-<use ../../figures/localactivity-eps-converted-to.pdf>
+ <use ../../figures/localactivity-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/localactivity-eps-converted-to.pdf used 
-on input line 257.
+on input line 265.
 (pdftex.def)             Requested size: 358.50229pt x 204.86006pt.
 
-Overfull \vbox (2.37769pt too high) detected at line 257
+Overfull \vbox (14.37769pt too high) detected at line 265
  []
 
-[13
+[58
 
- <../../figures/localactivity-eps-converted-to.pdf>]
+ <../../figures/localactivity-eps-converted-to.pdf>] (housing_ces.toc)
+[59
+
+]
 Package epstopdf Info: Source file: <../../figures/comparison1.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 58379 bytes
@@ -2020,16 +2183,23 @@ Package epstopdf Info: Source file: <../../figures/comparison1.eps>
 (epstopdf)                    size: 14111 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison1-e
 ps-converted-to.pdf ../../figures/comparison1.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/comparison1-eps-converted-to.pdf, id=470, 433.62pt x 289.08pt>
+<../../figures/comparison1-eps-converted-to.pdf, id=1985, 433.62pt x 289.08pt>
 File: ../../figures/comparison1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison1-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison1-eps-converted-to.pdf used on
- input line 267.
+ input line 276.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
+
+Overfull \vbox (11.97783pt too high) detected at line 276
+ []
+
+[60
+
+ <../../figures/comparison1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/comparison2.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 61060 bytes
@@ -2039,16 +2209,23 @@ Package epstopdf Info: Source file: <../../figures/comparison2.eps>
 (epstopdf)                    size: 14826 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison2-e
 ps-converted-to.pdf ../../figures/comparison2.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/comparison2-eps-converted-to.pdf, id=471, 433.62pt x 289.08pt>
+<../../figures/comparison2-eps-converted-to.pdf, id=2020, 433.62pt x 289.08pt>
 File: ../../figures/comparison2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison2-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison2-eps-converted-to.pdf used on
- input line 267.
+ input line 276.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
+
+Overfull \vbox (11.97783pt too high) detected at line 276
+ []
+
+[61
+
+ <../../figures/comparison2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/comparison3.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 58530 bytes
@@ -2058,16 +2235,23 @@ Package epstopdf Info: Source file: <../../figures/comparison3.eps>
 (epstopdf)                    size: 14361 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison3-e
 ps-converted-to.pdf ../../figures/comparison3.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/comparison3-eps-converted-to.pdf, id=472, 433.62pt x 289.08pt>
+<../../figures/comparison3-eps-converted-to.pdf, id=2056, 433.62pt x 289.08pt>
 File: ../../figures/comparison3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison3-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison3-eps-converted-to.pdf used on
- input line 267.
+ input line 276.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
+
+Overfull \vbox (11.97783pt too high) detected at line 276
+ []
+
+[62
+
+ <../../figures/comparison3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/comparison4.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 58610 bytes
@@ -2077,16 +2261,23 @@ Package epstopdf Info: Source file: <../../figures/comparison4.eps>
 (epstopdf)                    size: 14472 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison4-e
 ps-converted-to.pdf ../../figures/comparison4.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/comparison4-eps-converted-to.pdf, id=473, 433.62pt x 289.08pt>
+<../../figures/comparison4-eps-converted-to.pdf, id=2091, 433.62pt x 289.08pt>
 File: ../../figures/comparison4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison4-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison4-eps-converted-to.pdf used on
- input line 267.
+ input line 276.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
+
+Overfull \vbox (11.97783pt too high) detected at line 276
+ []
+
+[63
+
+ <../../figures/comparison4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/comparison5.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 58692 bytes
@@ -2096,16 +2287,23 @@ Package epstopdf Info: Source file: <../../figures/comparison5.eps>
 (epstopdf)                    size: 14583 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison5-e
 ps-converted-to.pdf ../../figures/comparison5.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/comparison5-eps-converted-to.pdf, id=474, 433.62pt x 289.08pt>
+<../../figures/comparison5-eps-converted-to.pdf, id=2126, 433.62pt x 289.08pt>
 File: ../../figures/comparison5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison5-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison5-eps-converted-to.pdf used on
- input line 267.
+ input line 276.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
+
+Overfull \vbox (11.97783pt too high) detected at line 276
+ []
+
+[64
+
+ <../../figures/comparison5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/comparison6.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 58772 bytes
@@ -2115,16 +2313,23 @@ Package epstopdf Info: Source file: <../../figures/comparison6.eps>
 (epstopdf)                    size: 14697 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison6-e
 ps-converted-to.pdf ../../figures/comparison6.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/comparison6-eps-converted-to.pdf, id=475, 433.62pt x 289.08pt>
+<../../figures/comparison6-eps-converted-to.pdf, id=2161, 433.62pt x 289.08pt>
 File: ../../figures/comparison6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison6-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison6-eps-converted-to.pdf used on
- input line 267.
+ input line 276.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
+
+Overfull \vbox (11.97783pt too high) detected at line 276
+ []
+
+[65
+
+ <../../figures/comparison6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/comparison7.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 65185 bytes
@@ -2134,27 +2339,23 @@ Package epstopdf Info: Source file: <../../figures/comparison7.eps>
 (epstopdf)                    size: 16423 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/comparison7-e
 ps-converted-to.pdf ../../figures/comparison7.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/comparison7-eps-converted-to.pdf, id=476, 433.62pt x 289.08pt>
+<../../figures/comparison7-eps-converted-to.pdf, id=2196, 433.62pt x 289.08pt>
 File: ../../figures/comparison7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/comparison7-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/comparison7-eps-converted-to.pdf used on
- input line 267.
+ input line 276.
 (pdftex.def)             Requested size: 318.67209pt x 212.4602pt.
 
-Overfull \vbox (1280.73906pt too high) detected at line 267
+Overfull \vbox (11.97783pt too high) detected at line 276
  []
 
-[14
+[66
 
- <../../figures/comparison1-eps-converted-to.pdf> <../../figures/comparison2-ep
-s-converted-to.pdf> <../../figures/comparison3-eps-converted-to.pdf> <../../fig
-ures/comparison4-eps-converted-to.pdf> <../../figures/comparison5-eps-converted
--to.pdf> <../../figures/comparison6-eps-converted-to.pdf> <../../figures/compar
-ison7-eps-converted-to.pdf>]
+ <../../figures/comparison7-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/moving.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 47918 bytes
@@ -2164,23 +2365,42 @@ Package epstopdf Info: Source file: <../../figures/moving.eps>
 (epstopdf)                    size: 13455 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moving-eps-co
 nverted-to.pdf ../../figures/moving.eps>
-(epstopdf)             \includegraphics on input line 273.
+(epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moving-eps-converted-to.pdf, id=529, 505.89pt x 289.08pt>
+<../../figures/moving-eps-converted-to.pdf, id=2230, 505.89pt x 289.08pt>
 File: ../../figures/moving-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moving-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moving-eps-converted-to.pdf used on inpu
-t line 273.
+t line 284.
 (pdftex.def)             Requested size: 358.50229pt x 204.86006pt.
 
-Overfull \vbox (2.37769pt too high) detected at line 273
+Overfull \vbox (14.37769pt too high) detected at line 284
  []
 
-[15
+[67
 
- <../../figures/moving-eps-converted-to.pdf>] [16
+ <../../figures/moving-eps-converted-to.pdf>] (housing_ces.toc) [68
+
+]
+[69
+
+] [70
+
+] [71
+
+] [72
+
+] [73
+
+] [74
+
+] [75
+
+] [76
+
+] [77
 
 ]
 Package epstopdf Info: Source file: <../../figures/moderator1.eps>
@@ -2192,16 +2412,19 @@ pdf>
 (epstopdf)                    size: 15185 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator1-ep
 s-converted-to.pdf ../../figures/moderator1.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moderator1-eps-converted-to.pdf, id=583, 650.43pt x 289.08pt>
+<../../figures/moderator1-eps-converted-to.pdf, id=2567, 650.43pt x 289.08pt>
 File: ../../figures/moderator1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator1-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator1-eps-converted-to.pdf used on 
-input line 306.
+input line 320.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
+ [78
+
+ <../../figures/moderator1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/moderator2.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 57712 bytes
@@ -2211,16 +2434,19 @@ pdf>
 (epstopdf)                    size: 15791 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator2-ep
 s-converted-to.pdf ../../figures/moderator2.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moderator2-eps-converted-to.pdf, id=584, 650.43pt x 289.08pt>
+<../../figures/moderator2-eps-converted-to.pdf, id=2579, 650.43pt x 289.08pt>
 File: ../../figures/moderator2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator2-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator2-eps-converted-to.pdf used on 
-input line 306.
+input line 320.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
+ [79
+
+ <../../figures/moderator2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/moderator3.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 58087 bytes
@@ -2230,16 +2456,19 @@ pdf>
 (epstopdf)                    size: 16354 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator3-ep
 s-converted-to.pdf ../../figures/moderator3.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moderator3-eps-converted-to.pdf, id=585, 650.43pt x 289.08pt>
+<../../figures/moderator3-eps-converted-to.pdf, id=2591, 650.43pt x 289.08pt>
 File: ../../figures/moderator3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator3-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator3-eps-converted-to.pdf used on 
-input line 306.
+input line 320.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
+ [80
+
+ <../../figures/moderator3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/moderator4.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 65207 bytes
@@ -2249,16 +2478,19 @@ pdf>
 (epstopdf)                    size: 18646 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator4-ep
 s-converted-to.pdf ../../figures/moderator4.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moderator4-eps-converted-to.pdf, id=586, 650.43pt x 289.08pt>
+<../../figures/moderator4-eps-converted-to.pdf, id=2602, 650.43pt x 289.08pt>
 File: ../../figures/moderator4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator4-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator4-eps-converted-to.pdf used on 
-input line 306.
+input line 320.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
+ [81
+
+ <../../figures/moderator4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/moderator5.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 68090 bytes
@@ -2268,16 +2500,19 @@ pdf>
 (epstopdf)                    size: 19808 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator5-ep
 s-converted-to.pdf ../../figures/moderator5.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moderator5-eps-converted-to.pdf, id=587, 650.43pt x 289.08pt>
+<../../figures/moderator5-eps-converted-to.pdf, id=2613, 650.43pt x 289.08pt>
 File: ../../figures/moderator5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator5-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator5-eps-converted-to.pdf used on 
-input line 306.
+input line 320.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
+ [82
+
+ <../../figures/moderator5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/moderator6.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 68475 bytes
@@ -2287,16 +2522,19 @@ pdf>
 (epstopdf)                    size: 20339 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator6-ep
 s-converted-to.pdf ../../figures/moderator6.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moderator6-eps-converted-to.pdf, id=588, 650.43pt x 289.08pt>
+<../../figures/moderator6-eps-converted-to.pdf, id=2624, 650.43pt x 289.08pt>
 File: ../../figures/moderator6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator6-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator6-eps-converted-to.pdf used on 
-input line 306.
+input line 320.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
+ [83
+
+ <../../figures/moderator6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../../figures/moderator7.eps>
 (epstopdf)                    date: 2016-09-14 17:52:46
 (epstopdf)                    size: 71558 bytes
@@ -2306,27 +2544,19 @@ pdf>
 (epstopdf)                    size: 21658 bytes
 (epstopdf)             Command: <epstopdf --outfile=../../figures/moderator7-ep
 s-converted-to.pdf ../../figures/moderator7.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<../../figures/moderator7-eps-converted-to.pdf, id=589, 650.43pt x 289.08pt>
+<../../figures/moderator7-eps-converted-to.pdf, id=2635, 650.43pt x 289.08pt>
 File: ../../figures/moderator7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../../figures/moderator7-eps-converted-to.pdf>
 Package pdftex.def Info: ../../figures/moderator7-eps-converted-to.pdf used on 
-input line 306.
+input line 320.
 (pdftex.def)             Requested size: 398.3386pt x 177.0443pt.
+ [84
 
-Overfull \vbox (1032.8277pt too high) detected at line 306
- []
-
-[17
-
- <../../figures/moderator1-eps-converted-to.pdf> <../../figures/moderator2-eps-
-converted-to.pdf> <../../figures/moderator3-eps-converted-to.pdf> <../../figure
-s/moderator4-eps-converted-to.pdf> <../../figures/moderator5-eps-converted-to.p
-df> <../../figures/moderator6-eps-converted-to.pdf> <../../figures/moderator7-e
-ps-converted-to.pdf>]
+ <../../figures/moderator7-eps-converted-to.pdf>]
 \tf@nav=\write6
 \openout6 = `housing_ces.nav'.
 
@@ -2336,27 +2566,27 @@ ps-converted-to.pdf>]
 \tf@snm=\write8
 \openout8 = `housing_ces.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (housing_ces.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `housing_ces.out' has not changed.
-(rerunfilecheck)             Checksum: 5877FEA0E7D3625EB55B3824DFAF53D3;523.
+(rerunfilecheck)             Checksum: 5AB25F218E473AC5D617C01E54526C09;526.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 24910 strings out of 493334
- 494986 string characters out of 3136669
- 603075 words of memory out of 3000000
- 27684 multiletter control sequences out of 15000+200000
+ 25107 strings out of 493334
+ 497474 string characters out of 3136669
+ 565410 words of memory out of 3000000
+ 27723 multiletter control sequences out of 15000+200000
  71077 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,19n,102p,415b,952s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,19n,102p,415b,1036s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
@@ -2373,9 +2603,9 @@ e1/public/lm/lmss9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on housing_ces.pdf (17 pages, 712637 bytes).
+Output written on housing_ces.pdf (84 pages, 1152062 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 2737 PDF objects out of 2984 (max. 8388607)
+ 184 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
