@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Motivation}{6}{0}{1}
+\beamer@sectionintoc {2}{Data}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Empirical setting}{18}{0}{2}
+\beamer@subsectionintoc {2}{2}{Precinct-level data}{25}{0}{2}
+\beamer@subsectionintoc {2}{3}{Individual-level data}{35}{0}{2}
+\beamer@sectionintoc {3}{Results}{48}{0}{3}
+\beamer@subsectionintoc {3}{2}{Precint-level data}{49}{0}{3}
+\beamer@subsectionintoc {3}{3}{Individual-level data}{57}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{66}{0}{4}

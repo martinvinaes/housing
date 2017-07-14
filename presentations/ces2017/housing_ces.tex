@@ -92,27 +92,31 @@
 
 RQ: Do citizens respond politically to local economic conditions? 
 \begin{columns}
-	\column{.5\textwidth}
-	\includegraphics[width=0.99\textwidth]{../../figures/eurostat}
-		\column{.5\textwidth}
-		\pause
-	\begin{itemize}[<+->]
-		\item Conflicting findings in existing literature
+	\column{.45\textwidth}
+	\includegraphics[height=2in]{../../figures/eurostat}
+	\pause
+	\column{.55\textwidth}
+	\only<2->{\includegraphics[height=2in]{../../figures/sold}}
+	\end{columns}	
+\end{frame}
+
+\begin{frame}		
+Conflicting findings in existing literature
+\pause
 		\begin{block}{}
 			>>(...) the local economy \alert{has an impact} on presidential election outcomes (...)<< (Lenz \& Healy, forthcoming)
 		\end{block}
+		\pause
 		\begin{block}{}
-			>>(...) local economic conditions related to the housing market \alert{do not appear to play an important role} in U.S. election results (...)<< (Hall et al., 2017) \pause
+			>>(...) local economic conditions related to the housing market \alert{do not appear to play an important role} in U.S. election results (...)<< (Hall et al., 2017) 
 		\end{block}
-	\end{itemize}
-\end{columns}
 
 \end{frame}
 
 \begin{frame}
 \begin{itemize}[<+->]
 	\item Our argument: conditional on \textit{contextual priming} from local econ activity	
-	\item $\rightarrow$ citizens more responsive when local econ activity is salient
+	\item $\rightarrow$ citizens more responsive when local econ activity is made salient through exposure
 	\item focus on housing market (empirically important, high-quality local data)
 	\begin{exampleblock}{}
 		>>\textit{H1 (Local economic conditions hypothesis)}: When local house prices rise, individuals are more likely to support the incumbent government.<<
@@ -175,7 +179,7 @@ salience measure: logged number of trades in precinct's zip code in most recent 
 
 \vspace{0.2in}
 
-we link precincts to zip-codes by identifying the zip code of the precinct's polling place.
+we link precincts to zip codes by identifying the zip code of the precinct's polling place.
 
 $\rightsquigarrow$  we also have information on unemployment and median income in each zip-code.
 
@@ -192,18 +196,6 @@ $\rightsquigarrow$  we also have information on unemployment and median income i
 }
 \end{center}
 \end{frame}
-
-
-
-\begin{frame} \centering
-\foreach \n in {1,2,3,4,5,6}{
-
-\includegraphics<\n>[width=0.8\textwidth]{../../figures/lagd\n.eps}
-}
-\end{frame}
-
-
-
 
 \subsection{Individual-level data}
 
@@ -247,14 +239,22 @@ $\rightsquigarrow$ use LPM as a link function.
 
 \subsection{Precint-level data}
 
-\begin{frame}
-H1:
-\begin{figure}[htbp!]
-	\includegraphics[width=0.9\textwidth]{../../figures/lagdv.eps}
-	\centering
-	\caption{Effects of Housing Prices on support for governing party at the present election (t) and the last election (t-1) with 90  and 95 pct. Confidence Intervals}\label{placebo}
-\end{figure}
+\begin{frame} 
+H1: \\
+\centering
+\foreach \n in {1,2,3,4,5,6}{
+\includegraphics<\n>[width=0.8\textwidth]{../../figures/lagd\n.eps}
+}
 \end{frame}
+
+
+%\begin{frame}
+%\begin{figure}[htbp!]
+%	\includegraphics[width=0.9\textwidth]{../../figures/lagdv.eps}
+%	\centering
+%	\caption{Effects of Housing Prices on support for governing party at the present election (t) and the last election (t-1) with 90  and 95 pct. Confidence Intervals}\label{placebo}
+%\end{figure}
+%\end{frame}
 
 \begin{frame}
 H2: \\
@@ -292,15 +292,15 @@ local economic conditions (housing prices) do drive incumbent support \\ \pause
 $\rightsquigarrow$ effect stronger where/when individuals engage with the local housing market \pause
 
 \vspace{0.2in}
-suggests that local economy matters \pause
+relevance of the local economy  \pause
 \begin{itemize}[<+->]
-\item individuals make inferences about incumbents based on how local community is doing.
-\item pol's need to worry about `geography of grievances'.
+\item individuals make inferences about incumbents based on how local community is doing
+\item pol's need to worry about `geography of grievances'
 \end{itemize}
 
 \vspace{0.2in} \pause
-housing markets (also) matter politically \\ \pause
-$\rightsquigarrow$ voters adapt to changing economies, focus on new parts of the economy
+relevance of housing markets \\ \pause
+$\rightsquigarrow$ citizens can flexibly shift attention to different aspects of the economy
 \end{frame}
 
 \begin{frame}
