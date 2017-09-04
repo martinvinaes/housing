@@ -142,6 +142,38 @@ saveold replidata.dta, replace
 gen logntrades=ln(nt0)
 
 
+keep hp_1yr unemprate medianinc incs year valgstedid a b c v logntrades
+
+gen incA=0
+replace incA=1 if year==2001 | year==2015
+
+gen inc1=(a+b)*100
+gen inc0=(c+v)*100
+
+egen group= group(valgstedid year)
+
+reshape long inc, i(group) j(party)
+
+qui reg inc (c.hp_1yr c.unemprate c.medianinc)#incA##party i.year i.valgstedid, vce(cluster group2)
+
+margins, dydx(hp_1yr) at(incA=(0 1) party=(0 1)) noestimcheck 
+
+marginsplot
+
+qui reg inc c.hp_1yr##incA##party##c.logntrades unemprate medianinc i.year i.valgstedid, vce(cluster group2)
+
+
+margins, dydx(hp_1yr) at(incA=(0 1) party=(0 1) logntrades=(2.2 4.5)) noestimcheck 
+
+marginsplot
+
+
+-
+
+
+
+
+
 *test full model
 xtreg incs c.hp_1yr c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)
 
