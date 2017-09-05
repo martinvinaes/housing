@@ -1,0 +1,30 @@
+
+\begin{table}[htbp] \footnotesize \centering \caption{Descriptive statistics, Precinct-level data} \label{desall} \begin{tabular}{l*{10}{c}}\hline\hline
+&Mean & SD & Min& Max& n \\  \hline 
+Year  &	  2009.50 &	     3.84 &	  2005.00 &	  2015.00 &	     5476 \\
+Precinct identifier  &	516937.50 &	230504.49 &	101001.00 &	860028.00 &	     5476 \\
+Number of voters  &	  2558.25 &	  2161.65 &	    58.00 &	 20871.70 &	     5476 \\
+Support for Social Democratic Party  &	     0.25 &	     0.06 &	     0.04 &	     0.52 &	     5476 \\
+Support for Social Liberal Party  &	     0.06 &	     0.04 &	     0.00 &	     0.28 &	     5476 \\
+Support for Conservative Party  &	     0.07 &	     0.04 &	     0.00 &	     0.35 &	     5476 \\
+Support for Liberal Party  &	     0.28 &	     0.09 &	     0.04 &	     0.59 &	     5476 \\
+Zip code  &	  6014.21 &	  2230.21 &	  1113.00 &	  9990.00 &	     5020 \\
+Municipality  &	   503.88 &	   231.59 &	   101.00 &	   860.00 &	     5020 \\
+Zip by Year  &	        . &	        . &	        . &	        . &	        0 \\
+$\Delta$ housing price  &	     4.36 &	    14.37 &	   -41.94 &	   127.12 &	     4199 \\
+$\Delta$ housing price (2 years)  &	    11.57 &	    17.88 &	   -55.36 &	   167.12 &	     4183 \\
+Support for Governing Parties (pct.)  &	    35.92 &	     9.58 &	     6.01 &	    75.35 &	     5476 \\
+$\Delta$ housing price (positive)  &	     7.89 &	    10.47 &	     0.00 &	   127.12 &	     4199 \\
+$\Delta$ housing price (negative)  &	     3.53 &	     6.41 &	     0.00 &	    41.94 &	     4199 \\
+Trades  &	    46.44 &	    51.22 &	     0.00 &	   459.00 &	     4980 \\
+Log(trades)  &	     3.25 &	     1.21 &	     0.00 &	     6.13 &	     4928 \\
+Population  &	 20869.58 &	 19478.64 &	    17.00 &	119177.50 &	     5000 \\
+Log(Median income)  &	   149.03 &	    18.68 &	    96.36 &	   267.86 &	     5000 \\
+Unemployment rate  &	    11.99 &	     2.85 &	     4.54 &	    30.26 &	     5000 \\
+Log(Median income) (change)  &	328768.31 &	302121.05 &	-9.44e+06 &	 2.16e+06 &	     5000 \\
+Unemployment rate (change)  &	    -0.46 &	     0.74 &	   -11.13 &	     5.88 &	     5000 \\
+RECODE of year  &	     3.50 &	     1.12 &	     2.00 &	     5.00 &	     5476 \\
+Change in Support for Governing Parties (pct.)  &	    -3.87 &	     2.91 &	   -17.97 &	     9.97 &	     4107 \\
+\hline\hline
+\end{tabular}
+\end{table}

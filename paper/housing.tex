@@ -66,7 +66,7 @@
 		%	please only quote or cite with permission}
 	\end{center}
 	
-	\begin{abstract} \noindent The state of the economy, whether one’s own or that of larger social aggregates, has long been considered among the most important predictors of support for incumbent politicians. Recent studies of economic voting have focused on the role of the local economy, but with inconclusive results. We propose that the impact of the local economy is conditional on which aspects of the local economy voters interact with in their everyday lives. We provide evidence for this proposition by focusing on the influence of local housing markets on support for the incumbent government. Linking uniquely detailed and comprehensive data on housing sales from Danish public registries to both precinct-level election returns and a two-wave individual-level panel survey, we find that when individuals interact with the housing market, their support for the incumbent government is more responsive to changes in local housing prices. The study thus provides a framework for understanding when citizens respond politically to local economic conditions.
+	\begin{abstract} \noindent The state of the economy, whether one’s own or that of larger social aggregates, has long been considered among the most important predictors of support for incumbent politicians. Recent studies of economic voting have focused on the role of the local economy, but with inconclusive results. We propose that the impact of the local economy is conditional on which aspects of the local economy voters interact with in their everyday lives. We provide evidence for this proposition by focusing on the influence of local housing markets on support for the incumbent government. Linking uniquely detailed and comprehensive data on housing prices from Danish public registries to both precinct-level election returns and a two-wave individual-level panel survey, we find that when individuals interact with the housing market, their support for the incumbent government is more responsive to changes in local housing prices. The study thus provides a framework for understanding when citizens respond politically to local economic conditions.
 		
 	\end{abstract}
 	
@@ -92,7 +92,7 @@
 	
 	In this paper, we join these two parallel but largely separate literatures, using insights from the contexts effects literature to provide a framework for understanding when local economic conditions matter for incumbent evaluations. In addition to explaining theoretically why local economic conditions may only sometimes factor into vote choice, it helps resolve the tension between positive and null findings in the existing literature.
 	
-	We test the observable implications of our framework by examining the relationship between changes in local housing markets and incumbent government support in Denmark, using uniquely detailed and comprehensive data on housing sales. We do this using two complementary empirical approaches. First, we link detailed registry data on local housing prices to election results at the precinct level across four national elections, allowing us to study whether within-district differences in property values are related to support for parties in government. Second, to test the hypothesized causal mechanism that voters make inferences about government based on the state of their local housing market, we zoom in on individual voters' local contexts. Specifically, we link a two-period panel survey to precise measures of how individuals' neighborhoods -- measured at very low levels of aggregation -- were affected by changes in house prices.
+	We test the observable implications of our framework by examining the relationship between changes in local housing markets and incumbent government support in Denmark, using uniquely detailed and comprehensive data on housing prices. We do this using two complementary empirical approaches. First, we link detailed registry data on local housing prices to election results at the precinct level across four national elections, allowing us to study whether within-district differences in housing prices are related to support for parties in government. Second, to test the hypothesized causal mechanism that voters make inferences about government based on the state of their local housing market, we zoom in on individual voters' local contexts. Specifically, we link a two-period panel survey to precise measures of how individuals' neighborhoods -- measured at very low levels of aggregation -- were affected by changes in housing prices.
 	
 	We find the hypothesized positive relationship between local housing prices and support for governing parties at both the precinct-level and in the individual-level data. Specifically, a 50 pct. year-on-year increase in local housing prices, equivalent to the sharpest price increases during the housing boom, is associated with a 3 to 5 percentage points increase in the support for governing parties. We find no evidence that housing prices affect the respondents’ ideological orientation, and no evidence that the effect of housing prices on incumbent support depends on whether you own your own home. Furthermore, we show that the effect of housing prices is more pronounced among individuals who are more likely to be attuned to the state of their local housing market -- where local housing market activity is high, and among individuals who have recently or soon will be relocating. Taken together, these analyses suggest that voters do not respond to changes in local housing prices because it changes their preferences for specific policy interventions or their own economic situation, but because of what the local housing market tells them about incumbents' performance.
 	
@@ -166,7 +166,7 @@
 	While some previous studies do address some of these methodological challenges, our study is, to the best of our knowledge, the first to address all of these shortcomings at once. In the remainder of this section, we present in more detail the two data sources we use two test our hypotheses, a precinct-level and an individual-level data set.
 	
 	\subsection{Precinct-level data}\label{precinctlevel}
-	We begin our exploration of the relationship between the state of local housing markets and incumbent support by looking at precinct-level election returns in Danish Parliamentary elections between 2005 and 2015. In particular, we match electoral support for parties in government in these precincts with change in the price of all house sales sold in and around the precincts, examining the extent to which local housing prices and local electoral support for government parties go hand in hand.
+	We begin our exploration of the relationship between the state of local housing markets and incumbent support by looking at precinct-level election returns in Danish Parliamentary elections between 2005 and 2015. In particular, we match electoral support for parties in government in these precincts with change in the price of all house sales in and around the precincts, examining the extent to which local housing prices and local electoral support for government parties go hand in hand.
 	
 
 	The key dependent variable in this analysis is \textit{percent of votes cast for government parties} in each voting precinct. Each voting precinct corresponds to a single polling place, which is the smallest unit at which voting returns can be observed in Danish elections. We measure this for all precincts in four elections:  2005, 2007, 2011 and 2015. There are roughly 1,400 precincts, each precinct consisting of about 3,000 eligible voters on average and covering an average area of 30 square kilometers. A number of precincts are redistricted between each election. This is problematic, as we want to use the precincts as part of a panel data set. There are two ways to deal with this. We can drop precincts as their geographical boundaries get altered. This would mean dropping roughly 15 pct. of the data on the dependent variable. The other option is to fix the precincts geographical boundaries at one reference election (i.e. 2015), and then recalculate vote returns in any changed precincts, so they match up with precincts in the reference election. Since there are a lot of minor changes in geographical boundaries from election to election, and only few major changes, we opt for the latter, which allows us to keep these slightly altered districts in the analysis.\footnote{For details of how returns from the redistricted precincts are calculated, see Søren Risbjerg Thomsen's research note at \texttt{\href{http://bit.ly/205OlPi}{bit.ly/205OlPi}}.  We use 2015 as the reference election.}
@@ -368,10 +368,17 @@ Taken together, these analyses suggest that to the extent that voters are attune
 	
 	\localtableofcontents
 	
+	
+\subsection{Coding Details}
+	
 	\subsection{Descriptive statistics}
 	\setcounter{table}{0}
 	
-	Table of descriptive statistics
+	Table of descriptive statistics precincts.
+	
+	\input{../tables/predes.txt}
+	
+	Table of descriptive statistics panel-data.
 	
 	\newpage
 	
@@ -412,6 +419,14 @@ Taken together, these analyses suggest that to the extent that voters are attune
 	
 	\newpage
 	
+	\subsection{Party Specific analysis in precinct-level data}
+		
+	\begin{figure}
+		\includegraphics[width=1\textwidth]{../figures/partyspecific.eps}
+		\caption{Party Specific analysis in precinct-level data}
+	\end{figure}
+	
+	
 	\subsection{Alternative estimation in individual-level data}
 	In Table \ref{indaltspec} we estimate a conditional logit model on the panel data. We find similar effects as in linear model above.
 	
@@ -419,7 +434,7 @@ Taken together, these analyses suggest that to the extent that voters are attune
 	
 	\newpage
 	
-	\subsection{Heterogeneous effects}
+	\subsection{Full tables (?)}
 	\setcounter{table}{0}
 	
 	Tables \ref{preposneg} and \ref{predens} examines the heterogeneity of the effects in the precinct-level data.
@@ -435,6 +450,16 @@ Taken together, these analyses suggest that to the extent that voters are attune
 	
 	\input{../tables/indposneg.tex}
 %	\input{../tables/inddens.tex}
+	
+	
+	\subsection{Interactions}
+	
+	\begin{figure}
+		\includegraphics[width=1\textwidth]{../figures/localactivity_sup.eps}
+		\caption{Tercile interaction}
+	\end{figure}
+	
+
 	
 \end{document}
 

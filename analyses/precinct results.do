@@ -55,7 +55,7 @@ label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  titl
 foreach x in 1 2 3 4{
 qui eststo m2`x': xtreg incs c.hp_2yr `z`x''
 }
-esttab m21 m22 m23 m24, keep(hp_2yr) replace ///
+esttab m21 m22 m23 m24, keep(hp_2yr medianinc unemprate) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
 
@@ -65,14 +65,14 @@ local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster
 foreach x in 1 2 3 4{
 qui eststo m3`x': xtreg incs c.hp_1yr `z`x''
 }
-esttab m31 m32 m33 m34, keep(hp_1yr) replace ///
+esttab m31 m32 m33 m34, keep(hp_1yr medianinc_fd unemprate_fd) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
 
 *first differenced DV
 local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)" //DiD+econ
 foreach x in 1 2 3 4{
-qui eststo m4`x': xtreg d_inc  c.hp_1yr `z`x''
+qui eststo m4`x': xtreg d_inc  c.hp_1yr `z`x'' 
 }
 esttab m41 m42 m43 m44, keep(hp_1yr) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
@@ -99,7 +99,7 @@ label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  titl
 
 *lagged dv instead of FE
 local z3="i.year lag_inc,  re vce(cluster valgstedid)" //DiD
-local z4="c.unemprate c.medianinc i.year lag_inc, re vce(cluster valgstedid)" //DiD+econ
+local z4="c.unemprate c.medianinc i.year l.inc, re vce(cluster valgstedid)" //DiD+econ
 foreach x in 1 2 3 4{
 qui eststo m7`x': xtreg incs c.hp_1yr `z`x''
 }

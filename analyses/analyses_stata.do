@@ -31,10 +31,7 @@ saveold lonlatdata.dta, replace
 
 
 
-*importing and saving dataset fhjorth has created in R on volatility
-import delim allvoldat.txt, delim(",") clear
-sort zipy
-saveold statvol.dta, replace
+
 
 
 
@@ -53,7 +50,7 @@ sort valgstedid
 merge valgstedid using lonlatdata.dta
 drop _merge
 
-* fixing missing (i.e. replacing NA and NaN with "." for all variables)
+*fixing missing (i.e. replacing NA and NaN with "." for all variables)
 foreach x of varlist * {
 capture replace `x'="." if `x'=="NA"
 capture replace `x'="." if `x'=="NaN"
@@ -98,16 +95,12 @@ duplicates drop valgstedid eleccount , force
 
 
 *recoding incsup
-replace pricevol=pricevol/5000
 replace incsupport=incsupport*100
-
-gen netblue=(c+v-a-b)*100
-
 
 *setting time and panel variables
 tsset valgstedid eleccount
 
-*alternative and lagged dependent variables
+*fd and lagged incumbent support
 gen d_ab=(a+b)-(l.a+l.b)
 gen d_vc=(v+c)-(l.v+l.c)
 gen d_inc=d_ab*100 if year==2001 | year==2015
@@ -140,8 +133,7 @@ saveold replidata.dta, replace
 
 *log nt
 gen logntrades=ln(nt0)
-
-
+preserve
 keep hp_1yr unemprate medianinc incs year valgstedid a b c v logntrades
 
 gen incA=0
@@ -168,7 +160,6 @@ margins, dydx(hp_1yr) at(incA=(0 1) party=(0 1) logntrades=(2.2 4.5)) noestimche
 marginsplot
 
 
--
 
 
 
@@ -277,6 +268,7 @@ tabstat logntrades, stats(p50) by(terciles)
 gen logntrades_dif= (logntrades-2.197225) if tercile==0
 replace logntrades_dif= (logntrades-3.583519) if tercile==1
 replace logntrades_dif= (logntrades-4.543295) if tercile==2
+
 
  
  
