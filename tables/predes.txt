@@ -10,7 +10,6 @@ Support for Conservative Party  &	     0.07 &	     0.04 &	     0.00 &	     0.35 
 Support for Liberal Party  &	     0.28 &	     0.09 &	     0.04 &	     0.59 &	     5476 \\
 Zip code  &	  6014.21 &	  2230.21 &	  1113.00 &	  9990.00 &	     5020 \\
 Municipality  &	   503.88 &	   231.59 &	   101.00 &	   860.00 &	     5020 \\
-Zip by Year  &	        . &	        . &	        . &	        . &	        0 \\
 $\Delta$ housing price  &	     4.36 &	    14.37 &	   -41.94 &	   127.12 &	     4199 \\
 $\Delta$ housing price (2 years)  &	    11.57 &	    17.88 &	   -55.36 &	   167.12 &	     4183 \\
 Support for Governing Parties (pct.)  &	    35.92 &	     9.58 &	     6.01 &	    75.35 &	     5476 \\
@@ -23,7 +22,6 @@ Log(Median income)  &	   149.03 &	    18.68 &	    96.36 &	   267.86 &	     5000 
 Unemployment rate  &	    11.99 &	     2.85 &	     4.54 &	    30.26 &	     5000 \\
 Log(Median income) (change)  &	328768.31 &	302121.05 &	-9.44e+06 &	 2.16e+06 &	     5000 \\
 Unemployment rate (change)  &	    -0.46 &	     0.74 &	   -11.13 &	     5.88 &	     5000 \\
-RECODE of year  &	     3.50 &	     1.12 &	     2.00 &	     5.00 &	     5476 \\
 Change in Support for Governing Parties (pct.)  &	    -3.87 &	     2.91 &	   -17.97 &	     9.97 &	     4107 \\
 \hline\hline
 \end{tabular}

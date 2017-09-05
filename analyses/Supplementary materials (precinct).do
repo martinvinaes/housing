@@ -22,19 +22,20 @@ use replidata.dta, clear
 ****************************
 
 cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
-
+preserve
+drop zipy eleccount
 file open anyname using predes.txt, write text replace
 file write anyname  _newline  _col(0)  "\begin{table}[htbp] \footnotesize \centering \caption{Descriptive statistics, Precinct-level data} \label{desall} \begin{tabular}{l*{10}{c}}\hline\hline"
 file write anyname _newline _col(0) "&Mean & SD & Min& Max& n \\  \hline "
 foreach x of varlist * {
-su `x'  , d
+su `x' , d
 file write anyname _newline (`"`: var label `x''"') "  &" _tab %9.2f  (r(mean)) " &" _tab %9.2f (r(sd)) " &" _tab %9.2f  (r(min)) " &" _tab %9.2f  (r(max)) " &" _tab %9.0f  (r(N)) " \\"
 }
 file write anyname _newline _col(0) "\hline\hline"
 file write anyname _newline _col(0) "\end{tabular}"
 file write anyname _newline _col(0) "\end{table}"
 file close anyname
-
+restore
 ******************************
 ***Interaction (HMX style):***
 ******************************
