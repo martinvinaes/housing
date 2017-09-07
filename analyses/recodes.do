@@ -5,7 +5,7 @@
 *Authors: Frederik Hjorth, Martin Vinæs LArsen, Peter Thisted Dinesen and Kim Mannemar Sønderskov.
 
 
-*FILE PURPOSE: Recodes
+*FILE PURPOSE: Creates precinct-level dataset
 *VERSION: STATA 13.1
 *REQUIRED PACKAGES: 
 
