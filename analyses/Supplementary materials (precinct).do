@@ -17,6 +17,24 @@ cd "C:\Users\mvl\Documents\GitHub\housing\data"
 use replidata.dta, clear
 
 
+
+**********************************
+***Correlation with Interaction***
+**********************************
+
+tsset  valgstedid eleccount
+gen diftrades=logntrades-l.logntrades
+scatter  hp_1yr logntrades || fpfitci hp_1yr logntrades, scheme(plotplain) ytitle(Change in Housing Prices, size(medlarge)) ///
+xtitle("Log(Trades)", size(medlarge)) legend(off) ylab(,labsize(medlarge)) xlab(,labsize(medlarge)) name(abs, replace)
+
+scatter  hp_1yr diftrades || fpfitci hp_1yr diftrades, scheme(plotplain)  ytitle(Change in Housing Prices, size(medlarge))  ///
+xtitle("Change in Log(Trades)", size(medlarge)) legend(off) ylab(,labsize(medlarge)) xlab(-2.5(1.25)2.5,labsize(medlarge)) name(dif, replace)
+
+graph combine  abs dif, scheme(plotplain) xsize(7) 
+graph export "C:\Users\mvl\Documents\GitHub\housing\figures\corrmoderator.eps", replace
+
+pwcorr hp_1yr diftrades logntrades
+
 ****************************
 ***Descriptive Statostic:***
 ****************************
@@ -36,6 +54,13 @@ file write anyname _newline _col(0) "\end{tabular}"
 file write anyname _newline _col(0) "\end{table}"
 file close anyname
 restore
+
+hist hp_1yr, scheme(plotplain) width(0.5) freq ylabel(0(10)100) lcolor(black*0.8) ///
+xtitle(Changes in Housing prices, size(medlarge)) ///
+ytitle(Frequency, size(medlarge)) ylab(,labsize(medlarge)) xlab(,labsize(medlarge))
+graph export "C:\Users\mvl\Documents\GitHub\housing\figures\desplot.eps", replace
+
+
 ******************************
 ***Interaction (HMX style):***
 ******************************
