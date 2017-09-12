@@ -1,0 +1,104 @@
+
+\documentclass[preview,12pt,varwidth]{standalone}
+\usepackage{rotating}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[left=1.4in,right=1.4in,top=1.3in,bottom=1.3in]{geometry}
+\usepackage{setspace}
+\usepackage[round]{natbib}
+\usepackage{epstopdf}
+\usepackage{soul}
+\usepackage{lmodern}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+%fonts
+\usepackage{tgpagella}
+\setcounter{secnumdepth}{0}
+%chanfing font of table headers
+\captionsetup[figure]{labelfont=bf}
+\captionsetup[table]{labelfont=bf}
+
+%changing header
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand*\footnoterule{}
+\let\svfootnoterule\footnoterule
+\renewcommand\footnoterule{\vspace{0.2in}\svfootnoterule}
+
+%set spacing
+
+\renewcommand{\sfdefault}{phv}
+
+\begin{document}
+	
+\begin{sidewaystable}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Robustness checks on the Precinct level data.} \label{apdxprerobust}
+\begin{tabular}{l*{10}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        &\multicolumn{1}{c}{(3)}        &\multicolumn{1}{c}{(4)}        &\multicolumn{1}{c}{(5)}        &\multicolumn{1}{c}{(6)}        &\multicolumn{1}{c}{(7)}        &\multicolumn{1}{c}{(8)}        &\multicolumn{1}{c}{(9)}        &\multicolumn{1}{c}{(10)}        \\
+\hline
+$\Delta$ housing price&       0.030\sym{**}&                    &       0.058\sym{**}&      -0.105\sym{**}&       0.060\sym{**}&      -0.207\sym{**}&                    &                    &      -0.079\sym{**}&                    \\
+                    &     (0.007)        &                    &     (0.008)        &     (0.024)        &     (0.008)        &     (0.029)        &                    &                    &     (0.023)        &                    \\
+[1em]
+$\Delta$ housing price (2 years)&                    &                    &                    &                    &                    &                    &       0.020\sym{**}&      -0.042\sym{**}&                    &                    \\
+                    &                    &                    &                    &                    &                    &                    &     (0.007)        &     (0.015)        &                    &                    \\
+[1em]
+$\Delta$ housing price (positive)&                    &       0.030\sym{**}&                    &                    &                    &                    &                    &                    &                    &      -0.229\sym{**}\\
+                    &                    &     (0.011)        &                    &                    &                    &                    &                    &                    &                    &     (0.040)        \\
+[1em]
+$\Delta$ housing price (negative)&                    &      -0.029        &                    &                    &                    &                    &                    &                    &                    &      -0.168\sym{**}\\
+                    &                    &     (0.019)        &                    &                    &                    &                    &                    &                    &                    &     (0.060)        \\
+[1em]
+Log(trades)         &                    &                    &                    &       3.480\sym{**}&                    &       0.225\sym{**}&                    &       2.002\sym{**}&       1.995\sym{**}&       1.268\sym{*} \\
+                    &                    &                    &                    &     (0.525)        &                    &     (0.080)        &                    &     (0.474)        &     (0.484)        &     (0.545)        \\
+[1em]
+$\Delta$ housing price $\times$ Log(trades)&                    &                    &                    &       0.048\sym{**}&                    &       0.089\sym{**}&                    &                    &       0.033\sym{**}&                    \\
+                    &                    &                    &                    &     (0.008)        &                    &     (0.010)        &                    &                    &     (0.007)        &                    \\
+[1em]
+$\Delta$ housing price (2 years) $\times$ Log(trades)&                    &                    &                    &                    &                    &                    &                    &       0.017\sym{**}&                    &                    \\
+                    &                    &                    &                    &                    &                    &                    &                    &     (0.005)        &                    &                    \\
+[1em]
+$\Delta$ housing price (positive) $\times$ Log(trades)&                    &                    &                    &                    &                    &                    &                    &                    &                    &       0.080\sym{**}\\
+                    &                    &                    &                    &                    &                    &                    &                    &                    &                    &     (0.013)        \\
+[1em]
+$\Delta$ housing price (negative) $\times$ Log(trades)&                    &                    &                    &                    &                    &                    &                    &                    &                    &       0.049\sym{*} \\
+                    &                    &                    &                    &                    &                    &                    &                    &                    &                    &     (0.019)        \\
+[1em]
+Log(Median income)  &      -0.887\sym{**}&      -0.887\sym{**}&                    &                    &      -0.034\sym{**}&      -0.025\sym{**}&      -0.935\sym{**}&      -0.909\sym{**}&      -0.855\sym{**}&      -0.869\sym{**}\\
+                    &     (0.064)        &     (0.064)        &                    &                    &     (0.008)        &     (0.008)        &     (0.060)        &     (0.060)        &     (0.063)        &     (0.064)        \\
+[1em]
+Unemployment rate   &      -1.904\sym{**}&      -1.904\sym{**}&                    &                    &      -0.220\sym{**}&      -0.202\sym{**}&      -1.952\sym{**}&      -1.662\sym{**}&      -1.649\sym{**}&      -1.726\sym{**}\\
+                    &     (0.221)        &     (0.222)        &                    &                    &     (0.040)        &     (0.041)        &     (0.225)        &     (0.223)        &     (0.217)        &     (0.222)        \\
+[1em]
+Log(Median income) (change)&                    &                    &      -0.000\sym{**}&      -0.000\sym{**}&                    &                    &                    &                    &                    &                    \\
+                    &                    &                    &     (0.000)        &     (0.000)        &                    &                    &                    &                    &                    &                    \\
+[1em]
+Unemployment rate (change)&                    &                    &       0.005        &       0.003        &                    &                    &                    &                    &                    &                    \\
+                    &                    &                    &     (0.215)        &     (0.216)        &                    &                    &                    &                    &                    &                    \\
+[1em]
+L.Support for Governing Parties (pct.)&                    &                    &                    &                    &       0.513\sym{**}&       0.515\sym{**}&                    &                    &                    &                    \\
+                    &                    &                    &                    &                    &     (0.008)        &     (0.008)        &                    &                    &                    &                    \\
+[1em]
+\hline Precinct FE  &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        &                    &                    &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        \\
+[1em]
+Year FE             &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        &$\checkmark$        \\
+\hline
+Observations        &        4179        &        4179        &        4179        &        4179        &        3091        &        3091        &        4163        &        4163        &        4179        &        4179        \\
+RMSE                &       5.325        &       5.326        &       5.690        &       5.592        &       6.252        &       6.153        &       5.246        &       5.218        &       5.288        &       5.278        \\
+\hline\hline
+\multicolumn{11}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{11}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\end{tabular}
+\end{sidewaystable}
+\end{document}

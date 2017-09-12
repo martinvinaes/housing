@@ -47,67 +47,6 @@ star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Year FE=2007.yea
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of housing prices on  electoral support for governing parties.} \label{predv)
 
 
-*****************
-***Robustness:***
-*****************
-
-*two year housing prices
-foreach x in 1 2 3 4{
-qui eststo m2`x': xtreg incs c.hp_2yr `z`x''
-}
-esttab m21 m22 m23 m24, keep(hp_2yr medianinc unemprate) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
-
-
-*first differenced controls
-local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster valgstedid)" //DiD+econ
-foreach x in 1 2 3 4{
-qui eststo m3`x': xtreg incs c.hp_1yr `z`x''
-}
-esttab m31 m32 m33 m34, keep(hp_1yr medianinc_fd unemprate_fd) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
-
-*first differenced DV
-local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)" //DiD+econ
-foreach x in 1 2 3 4{
-qui eststo m4`x': xtreg d_inc  c.hp_1yr `z`x'' 
-}
-esttab m41 m42 m43 m44, keep(hp_1yr) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
-
-*positive negative
-foreach x in 1 2 3 4{
-qui eststo m5`x': xtreg incs  c.hp_1yrpos c.hp_1yrneg   `z`x''
-}
-esttab m51 m52 m53 m54, keep(hp_1yrposchange hp_1yrnegchange) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
-
-*only 11 and 15
-preserve
-keep if year >2010
-foreach x in 1 2 3 4{
-qui eststo m6`x': xtreg incs  c.hp_1yr   `z`x''
-}
-restore
-esttab m61 m62 m63 m64, keep(hp_1yr) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2015.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
-
-*lagged dv instead of FE
-local z3="i.year lag_inc,  re vce(cluster valgstedid)" //DiD
-local z4="c.unemprate c.medianinc i.year l.inc, re vce(cluster valgstedid)" //DiD+econ
-foreach x in 1 2 3 4{
-qui eststo m7`x': xtreg incs c.hp_1yr `z`x''
-}
-esttab m71 m72 m73 m74, keep(hp_1yr) replace ///
-star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=lag_inc" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Estimated effects of house prices on  electoral support for governing parties.} \label{prerobust)
-
-
 
 **************
 ***Placebo:***
@@ -189,6 +128,84 @@ esttab m51 m52 m53 m54 using econactivity.tex, keep(hp_1yr c.hp_1yr#c.logntrades
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Estimated effects of housing price across number of trades.} \label{table:econactivity)
 
+
+
+
+*****************
+***Robustness:***
+*****************
+
+*two year housing prices
+qui eststo m24: xtreg incs c.hp_2yr `z4'
+qui eststo n24: xtreg incs c.hp_2yr##c.logntrades `z4'
+
+
+*first differenced controls
+local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster valgstedid)" //DiD+econ
+qui eststo m34: xtreg incs c.hp_1yr `z4'
+qui eststo n34: xtreg incs c.hp_1yr##c.logntrades `z4'
+
+*first differenced DV
+local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)" //DiD+econ
+
+qui eststo m44: xtreg d_inc  c.hp_1yr `z4' 
+qui eststo n44: xtreg d_inc  c.hp_1yr##c.logntrades `z4' 
+
+*positive negative
+qui eststo m64: xtreg incs  c.hp_1yrpos c.hp_1yrneg   `z4'
+qui eststo n64: xtreg incs  (c.hp_1yrpos c.hp_1yrneg)##c.logntrades   `z4'
+
+
+*lagged dv instead of FE
+local z4="c.unemprate c.medianinc i.year l.inc, re vce(cluster valgstedid)" //DiD+econ
+
+qui eststo m74: xtreg incs c.hp_1yr `z4'
+qui eststo n74: xtreg incs c.hp_1yr##c.logntrades `z4'
+
+
+*joint appendixtable (large)ta inc
+esttab m14 m64  m34 n34 m74 n74 m24 n24 m54 n54 using apdxrobust.tex, replace substitute({table} {sidewaystable})  ///
+keep(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
+order(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
+label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Robustness checks on the Precinct level data.} \label{apdxprerobust)
+
+
+foreach x in 2 3 4 7 6  {
+foreach z in _b _se {
+estimates restore m`x'4
+
+if `x'==2{
+di (`z'[hp_2yr])
+}
+if `x'==6{
+di (`z'[hp_1yrposchange])
+di (`z'[hp_1yrnegchange])
+
+}
+if `x' !=6 & `x'!=2 {
+di (`z'[hp_1yr])
+}
+
+estimates restore n`x'4
+
+if `x'==2{
+di `z'[c.hp_2yr#c.logntrades]
+}
+if `x'==6{
+di `z'[c.hp_1yrposchange#c.logntrades]
+di `z'[c.hp_1yrnegchange#c.logntrades]
+
+}
+if `x' !=6 & `x'!=2 {
+di `z'[c.hp_1yr#c.logntrades]
+}
+
+}
+}
+
+
+-
 
 
 *graph
