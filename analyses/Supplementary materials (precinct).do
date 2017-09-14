@@ -127,10 +127,13 @@ gen inc0=(c+v)*100
 egen group= group(valgstedid year)
 reshape long inc, i(group) j(party)
 egen party_valgsted= group(party valgsted)
-qui reg inc (c.hp_1yr c.unemprate c.medianinc)##incA##party i.year i.valgstedid, vce(cluster party_valgsted)
+qui reg inc (c.hp_1yr)##incA##party c.unemprate c.medianinc i.year i.valgstedid, vce(cluster party_valgsted)
+
+
+
 tempfile margin1
 margins, dydx(hp_1yr) at(incA=(0 1) party=(0 1)) noestimcheck saving(`margin1', replace)
-preserve
+*preserve
 use `margin1', clear
 gen _ci_lb2=-_se*1.64+_margin
 gen _ci_ub2=_se*1.64+_margin
@@ -138,12 +141,12 @@ gen id=_n
 replace id=id+0.5 if id >2
 twoway rspike _ci_lb _ci_ub id,  lcolor(black)  || ///
 rspike _ci_lb2 _ci_ub2 id, scheme(plotplain) lcolor(black) lwidth(thick) || ///
-scatter _margin id if _at5==0, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(white) ||  ///
-scatter _margin id if _at5==1, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(black)  ///
+scatter _margin id if _at3==0, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(white) ||  ///
+scatter _margin id if _at3==1, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(black)  ///
 ylab(-0.1(0.05)0.15,  labsize(medlarge)) xtitle(" ")   ///
-xlab(1.5 "Liberal Party Incumbent" 4 "Social Democratic Incumbent",labsize(medlarge) nogrid) ///
+xlab(1.5 "Right-Wing Government in Office" 4 "Left-Wing Government in Office",labsize(medlarge) nogrid) ///
 ytitle("Party Specific Effects on Electoral Support ", size(medlarge)) ylines(0) ///
-legend( order (4 3)  label(3 "Liberal Party") label(4 "Social Democratic Party")  pos(4) ) xsize(7)
+legend( order (4 3) title(Support for)  size(medlarge)  label(3 "Right-wing coalition") label(4 "Left-wing coalition")  pos(4) ) xsize(7)
 graph export "C:\Users\mvl\Documents\GitHub\housing\figures\partyspecific.eps", replace
 restore
 

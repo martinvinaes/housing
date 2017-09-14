@@ -134,7 +134,6 @@ label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Est
 *****************
 ***Robustness:***
 *****************
-
 *two year housing prices
 qui eststo m24: xtreg incs c.hp_2yr `z4'
 qui eststo n24: xtreg incs c.hp_2yr##c.logntrades `z4'
@@ -163,7 +162,7 @@ qui eststo m74: xtreg incs c.hp_1yr `z4'
 qui eststo n74: xtreg incs c.hp_1yr##c.logntrades `z4'
 
 
-*joint appendixtable (large)ta inc
+*joint appendixtable (large)
 esttab m14 m64  m34 n34 m74 n74 m24 n24 m54 n54 using apdxrobust.tex, replace substitute({table} {sidewaystable})  ///
 keep(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
 order(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
@@ -171,42 +170,87 @@ star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=8600
 label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Robustness checks on the Precinct level data.} \label{apdxprerobust)
 
 
+
+foreach v in 1 2 {
 foreach x in 2 3 4 7 6  {
-foreach z in _b _se {
+foreach z in b se {
+if `v'==1 {
 estimates restore m`x'4
 
 if `x'==2{
-di (`z'[hp_2yr])
+local `v'`x'`z'=(_`z'[hp_2yr])
 }
 if `x'==6{
-di (`z'[hp_1yrposchange])
-di (`z'[hp_1yrnegchange])
+local `v'`x'`z'a=(_`z'[hp_1yrposchange])
+local `v'`x'`z'b=(_`z'[hp_1yrnegchange])
 
 }
 if `x' !=6 & `x'!=2 {
-di (`z'[hp_1yr])
+local `v'`x'`z'=(_`z'[hp_1yr])
+}
 }
 
+if `v'==2 { 
 estimates restore n`x'4
 
 if `x'==2{
-di `z'[c.hp_2yr#c.logntrades]
+local `v'`x'`z'=_`z'[c.hp_2yr#c.logntrades]
 }
 if `x'==6{
-di `z'[c.hp_1yrposchange#c.logntrades]
-di `z'[c.hp_1yrnegchange#c.logntrades]
+local `v'`x'`z'a=_`z'[c.hp_1yrposchange#c.logntrades]
+local `v'`x'`z'b=_`z'[c.hp_1yrnegchange#c.logntrades]
 
 }
 if `x' !=6 & `x'!=2 {
-di `z'[c.hp_1yr#c.logntrades]
-}
-
+local `v'`x'`z'=_`z'[c.hp_1yr#c.logntrades]
 }
 }
 
+}
+}
+}
+
+
+
+file open anyname using robustness.txt, write text replace
+file write anyname  _newline  _col(0)  "\begin{table}[htbp] \footnotesize \centering \caption{Robustness of the Average Effect and the Interaction Term} \label{robustness} \begin{tabular}{l*{3}{c}}\hline\hline"
+file write anyname _newline _col(0) "&Average Effect & Interaction Term \\  \hline "
+foreach x in 2 3 4 7 6  {
+if `x'==2 {
+local t="Two year change" 
+}
+if `x'==3 {
+local t="First Differenced Controls" 
+}
+if `x'==4 {
+local t="First Differenced DV" 
+}
+if `x'==7 {
+local t="Lagged DV" 
+}
+if `x'==6 {
+file write anyname _newline "Positive changes &"_tab %9.2f (`1`x'ba') "* &" _tab %9.2f  (`2`x'ba')  "* \\"
+file write anyname _newline " &" _tab %9.2f (`1`x'sea') " &" _tab %9.2f  (`2`x'sea')  " \\"
+file write anyname _newline "Negative changes&"_tab %9.2f (`1`x'bb') "* &" _tab %9.2f  (`2`x'bb')  "* \\"
+file write anyname _newline " &" _tab %9.2f (`1`x'seb') " &" _tab %9.2f  (`2`x'seb')  " \\"
+}
+if `x'!=6 {
+file write anyname _newline " `t' &"_tab %9.2f (`1`x'b') "* &" _tab %9.2f  (`2`x'b')  "* \\"
+file write anyname _newline " &" _tab %9.2f (`1`x'se') " &" _tab %9.2f  (`2`x'se')  " \\"
+}
+}
+file write anyname _newline _col(0) "\hline"
+file write anyname _newline "Year FE &"_tab %9.2f "\checkmark &" _tab  "\checkmark  \\"
+file write anyname _newline "Precinct FE &"_tab %9.2f "\checkmark &" _tab  "\checkmark  \\"
+file write anyname _newline "Economic Controls &"_tab  "\checkmark &" _tab  "\checkmark  \\"
+file write anyname _newline _col(0) "\hline \hline"
+file write anyname _newline _col(0) "\multicolumn{3}{l}{See appendix X for the full models.} \\"
+file write anyname _newline _col(0) "\multicolumn{3}{l}{*p<0.05}"
+file write anyname _newline _col(0) "\end{tabular}"
+file write anyname _newline _col(0) "\end{table}"
+file close anyname
 
 -
-
 
 *graph
 preserve
