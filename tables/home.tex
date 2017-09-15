@@ -1,0 +1,38 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Linear Regression of Voting for Governing party } \footnotesize \label{home}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{20 Closest}&\multicolumn{1}{c}{40 Closest}&\multicolumn{1}{c}{1000 metres}&\multicolumn{1}{c}{1500 metres}&\multicolumn{1}{c}{Zip code}\\
+\hline
+$\Delta$ housing prices&       0.043       &       0.030       &       0.043       &       0.029       &      -0.102       \\
+                    &     (0.047)       &     (0.056)       &     (0.068)       &     (0.081)       &     (0.097)       \\
+[1em]
+Home Owner          &      -0.014       &      -0.012       &      -0.025       &      -0.016       &      -0.007       \\
+                    &     (0.033)       &     (0.033)       &     (0.041)       &     (0.038)       &     (0.035)       \\
+[1em]
+$\Delta$ housing prices $\times$ Home Owner&      -0.047       &       0.024       &       0.001       &       0.096       &       0.168       \\
+                    &     (0.060)       &     (0.072)       &     (0.079)       &     (0.088)       &     (0.106)       \\
+[1em]
+Unemployment rate (context)&       0.147       &       0.134       &      -0.786       &       0.500       &       0.750\sym{+}\\
+                    &     (0.393)       &     (0.391)       &     (0.651)       &     (0.596)       &     (0.435)       \\
+[1em]
+Average income (context)&      -0.003       &      -0.003       &      -0.007       &      -0.006       &      -0.005       \\
+                    &     (0.004)       &     (0.004)       &     (0.007)       &     (0.007)       &     (0.006)       \\
+[1em]
+Personal income     &      -0.000       &      -0.000       &      -0.000       &      -0.000       &      -0.000       \\
+                    &     (0.000)       &     (0.000)       &     (0.001)       &     (0.001)       &     (0.000)       \\
+[1em]
+Unnemployed (household)&      -0.024       &      -0.024       &      -0.060       &      -0.043       &      -0.024       \\
+                    &     (0.036)       &     (0.036)       &     (0.044)       &     (0.042)       &     (0.037)       \\
+[1em]
+\hline  Round FE    &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+[1em]
+Voter FE            &         Yes       &         Yes       &         Yes       &         Yes       &         Yes       \\
+\hline
+Observations        &        3447       &        3447       &        2767       &        2965       &        3370       \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{+} \(p<0.1\), \sym{*} \(p<0.05\)}\\
+\end{tabular}
+\end{table}
