@@ -163,11 +163,12 @@ qui eststo n74: xtreg incs c.hp_1yr##c.logntrades `z4'
 
 
 *joint appendixtable (large)
-esttab m14 m64  m34 n34 m74 n74 m24 n24 m54 n54 using apdxrobust.tex, replace substitute({table} {sidewaystable})  ///
+esttab m14 m54 m24 n24  m34 n34 m44 n44 m74 n74 m64 n64 using apdxrobust.tex, replace substitute({table} {sidewaystable})  ///
 keep(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
 order(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Robustness checks on the Precinct level data.} \label{apdxprerobust)
+label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Robustness checks of the Precinct-level data.} \label{apdxprerobust) ///
+addnotes("Models 7 and 8 have a first-differenced version of the dependent variable.") nogaps
 
 
 
@@ -230,13 +231,13 @@ local t="Lagged DV"
 }
 if `x'==6 {
 file write anyname _newline "Positive changes &"_tab %9.2f (`1`x'ba') "* &" _tab %9.2f  (`2`x'ba')  "* \\"
-file write anyname _newline " &" _tab %9.2f (`1`x'sea') " &" _tab %9.2f  (`2`x'sea')  " \\"
+file write anyname _newline " &" _tab %9.2f "(" (`1`x'sea') ")" " &" _tab %9.2f  "(" (`2`x'sea') ")"  " \\"
 file write anyname _newline "Negative changes&"_tab %9.2f (`1`x'bb') "* &" _tab %9.2f  (`2`x'bb')  "* \\"
-file write anyname _newline " &" _tab %9.2f (`1`x'seb') " &" _tab %9.2f  (`2`x'seb')  " \\"
+file write anyname _newline " &" _tab %9.2f  "(" (`1`x'seb') ")" " &" _tab %9.2f  "(" (`2`x'seb') ")" " \\"
 }
 if `x'!=6 {
 file write anyname _newline " `t' &"_tab %9.2f (`1`x'b') "* &" _tab %9.2f  (`2`x'b')  "* \\"
-file write anyname _newline " &" _tab %9.2f (`1`x'se') " &" _tab %9.2f  (`2`x'se')  " \\"
+file write anyname _newline " &" _tab  "(" %9.2f  (`1`x'se') ")" " &" _tab %9.2f "(" (`2`x'se') ")"  " \\"
 }
 }
 file write anyname _newline _col(0) "\hline"
