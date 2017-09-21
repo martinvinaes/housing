@@ -91,6 +91,15 @@ xtreg inc (c.logntrades_dif c.hp_1yr c.hp_1yr#c.logntrades_dif)##tercile   `z`x'
 }
 
 
+
+interflex incs hp_1yr logntrades unemprate medianinc, fe(year valgstedid) cl(valgstedid) type(kernel) ///
+dlabel("Housing Prices") xlabel("Logged Number of Trades") title(" ") ylabel(Government Support)
+graph export "C:\Users\mvl\Documents\GitHub\housing\figures\localactivity_sup2.eps", replace
+
+
+
+
+
 *graph
 preserve
 use margin1, clear
@@ -127,7 +136,15 @@ gen inc0=(c+v)*100
 egen group= group(valgstedid year)
 reshape long inc, i(group) j(party)
 egen party_valgsted= group(party valgsted)
-qui reg inc (c.hp_1yr)##incA##party c.unemprate c.medianinc i.year i.valgstedid, vce(cluster party_valgsted)
+qui eststo partyspec: reg inc c.hp_1yr##c.incA##c.party c.unemprate c.medianinc i.year i.valgstedid, vce(cluster party_valgsted)
+
+la var incA "Left-wing Incumbent"
+la var party "Left-wing Support"
+
+
+esttab partyspec using partspec.tex, keep(hp_1yr c.hp_1yr#c.incA c.hp_1yr#c.party c.incA#c.party c.hp_1yr#c.incA#c.party unemprate medianinc) replace ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
+label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Party Specific Analysis.} \label{partyspecifictab)
 
 
 

@@ -1,0 +1,39 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Party Specific Analysis.} \label{partyspecifictab}
+\begin{tabular}{l*{1}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}        \\
+\hline
+$\Delta$ housing price&       0.083\sym{**}\\
+                    &     (0.007)        \\
+[1em]
+$\Delta$ housing price $\times$ Left-wing Incumbent&      -0.123\sym{**}\\
+                    &     (0.016)        \\
+[1em]
+$\Delta$ housing price $\times$ Left-wing Support&      -0.146\sym{**}\\
+                    &     (0.010)        \\
+[1em]
+Left-wing Incumbent $\times$ Left-wing Support&      10.651\sym{**}\\
+                    &     (0.233)        \\
+[1em]
+$\Delta$ housing price $\times$ Left-wing Incumbent $\times$ Left-wing Support&       0.284\sym{**}\\
+                    &     (0.025)        \\
+[1em]
+Unemployment rate   &       0.104        \\
+                    &     (0.080)        \\
+[1em]
+Log(Median income)  &      -0.002        \\
+                    &     (0.021)        \\
+[1em]
+\hline Precinct FE  &$\checkmark$        \\
+[1em]
+Year FE             &$\checkmark$        \\
+\hline
+Observations        &        8358        \\
+RMSE                &       7.727        \\
+\hline\hline
+\multicolumn{2}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

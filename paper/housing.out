@@ -6,12 +6,15 @@
 \BOOKMARK [2][-]{subsection.4.2}{Individual-level data}{section.4}% 6
 \BOOKMARK [1][-]{section.5}{Results}{}% 7
 \BOOKMARK [2][-]{subsection.5.1}{Precinct-level results}{section.5}% 8
-\BOOKMARK [2][-]{subsection.5.2}{Individual-level results}{section.5}% 9
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 10
-\BOOKMARK [2][-]{subsection.Alph0.1}{Coding Details}{section.6}% 11
-\BOOKMARK [2][-]{subsection.Alph0.2}{Descriptive statistics}{section.6}% 12
-\BOOKMARK [2][-]{subsection.Alph0.3}{Identification strategy}{section.6}% 13
-\BOOKMARK [2][-]{subsection.Alph0.4}{Party Specific analysis in precinct-level data}{section.6}% 14
-\BOOKMARK [2][-]{subsection.Alph0.5}{Alternative estimation in individual-level data}{section.6}% 15
-\BOOKMARK [2][-]{subsection.Alph0.6}{Full tables \(?\)}{section.6}% 16
-\BOOKMARK [2][-]{subsection.Alph0.7}{Interactions}{section.6}% 17
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Auxiliary analyses and robustness checks}{subsection.5.1}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Individual-level results}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.3}{ Auxiliary analyses and robustness checks}{section.5}% 11
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 12
+\BOOKMARK [2][-]{subsection.Alph0.1}{Linking polling places to zip codes}{section.6}% 13
+\BOOKMARK [2][-]{subsection.Alph0.2}{Estimates of Local Housing Prices}{section.6}% 14
+\BOOKMARK [2][-]{subsection.Alph0.3}{Descriptive statistics}{section.6}% 15
+\BOOKMARK [2][-]{subsection.Alph0.4}{Identification strategy}{section.6}% 16
+\BOOKMARK [2][-]{subsection.Alph0.5}{Party Specific analysis in precinct-level data}{section.6}% 17
+\BOOKMARK [2][-]{subsection.Alph0.6}{Full Models from Robustness Checks of Precinct-level Data}{section.6}% 18
+\BOOKMARK [2][-]{subsection.Alph0.7}{Full Models from Robustness Checks of Individual-level Evidence}{section.6}% 19
+\BOOKMARK [2][-]{subsection.Alph0.8}{The Interaction with Logged Number of Trades}{section.6}% 20

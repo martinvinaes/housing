@@ -1,17 +1,20 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: housing.aux
 The style file: apa.bst
 Database file #1: library.bib
-I was expecting a `,' or a `}'---line 166 of file library.bib
+I was expecting a `,' or a `}'---line 206 of file library.bib
  :  
  :  journal={Working paper}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 213 of file library.bib
+I was expecting a `,' or a `}'---line 253 of file library.bib
  :  
  :  journal={The Journal of Politics}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "healy2014presidential"
+Warning--I didn't find a database entry for "soroka2015s"
+Warning--I didn't find a database entry for "legewie2013terrorist"
+Warning--I didn't find a database entry for "Enos2016"
+Warning--I didn't find a database entry for "kahneman1979prospect"
 Warning--can't use both volume and number fields in fiorina1981retrospective
 Warning--empty journal in hall2017economic
 Warning--empty journal in healy2017presidential

@@ -250,7 +250,7 @@ file write anyname _newline _col(0) "\end{tabular}"
 file write anyname _newline _col(0) "\end{table}"
 file close anyname
 
--
+
 
 *graph
 preserve
