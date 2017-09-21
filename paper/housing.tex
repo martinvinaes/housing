@@ -47,7 +47,7 @@
 \usepackage{etoc}
  \usepackage{rotating} % Rotating table
 
-\title{\textbf{When Do Citizens Respond Politically to the Local Economy? \\ \large{Evidence from Registry Data on Local Housing Markets}}}
+\title{\textbf{\Large{When Do Citizens Respond Politically to the Local Economy? Evidence from Registry Data on Local Housing Markets}}}
 %\title{\textbf{Housing Bubbles and \\Support for Incumbents}}
 
 %Forslag til ny titel: When Do Citizens Respond Politically to the Local Economy? Evidence from Registry Data on Local Housing Markets
@@ -93,7 +93,7 @@
 	
 	\section{When local economic conditions affect incumbent support}
 	
-	The extant economic voting literature has primarily investigated whether voters are responsive to local economic conditions in one of two ways. One set of studies has examined the extent to which voters draw inferences about national economic conditions from local economic conditions \citep{books1999contextual,reeves2012ecologies,anderson2011local,ansolabehere2014mecro,bisgaard2016reconsidering}, while another strand of studies have examined the extent to which voters base their support for incumbent politicians on such local conditions \citep{hansford2015reevaluating,eisenberg2004economic,kim2003spatial,healy2017presidential, hall2017economic,elinder2010local,auberger2005influence}. Studies from both strands of the literature yield inconsistent results finding either small or no effects of local economic conditions on a given outcome.   
+	The extant economic voting literature has primarily investigated whether voters are responsive to local economic conditions in one of two ways. One set of studies has examined the extent to which voters draw inferences about national economic conditions from local economic conditions \citep{books1999contextual,reeves2012ecologies,anderson2011local,ansolabehere2014mecro,bisgaard2016reconsidering}, while another strand of studies have examined the extent to which voters base their support for incumbent politicians on such local conditions \citep{hansford2015reevaluating,eisenberg2004economic,kim2003spatial,healy2017presidential, auberger2005influence,wright2012unemployment}. Studies from both strands of the literature yield inconsistent results finding either small or no effects of local economic conditions on a given outcome.   
 	
 	Our study distinguishes itself from these previous efforts by highlighting that voters might focus on different parts of the local economy at different times. The average citizen learns about economic conditions through exposure to a multitude of signals from different economic realms. Though she may learn about national economic aggregates through media consumption \citep{soroka2015s}, a substantial part of this exposure to economic signals will inevitably come from local informational sources. This may include casual observation of changing supermarket prices, shuttered stores, or job postings. She may also learn about local economic conditions from direct, personal involvement with the local economy through job search or buying or selling a home. Each of these interactions involves exposure to a particular aspect of the local economy.
 	
@@ -121,7 +121,7 @@
 	
 	This conditional theory of how local economic conditions matter for voters might help explain why previous studies have found inconsistent results. If the impact of local economic conditions depends on which aspects of the local economy citizens interact with, then we should expect the effect of local economic conditions to be moderated by what kind of local economic conditions the study focuses on and by the relation that the electorate has to this part of the economy.
 	
-	In addition to the literature on the impact of local economic conditions referenced above, our study ties into several neighboring literatures. First, as already highlighted, our study builds on and adds to the growing literature on `context effects' exploring the various ways in which political behavior and conditions are shaped by local contexts \citep[e.g.,][]{hopkins2010politicized,Enos2016}. Second, our study also ties in with a recently emerged strand of research in political economy highlighting the influence of home ownership -- in itself or as part of a portfolio of economic assets -- on redistribution and social policy preference as well as voting \citep{ansell2014political,nadeau2010patrimonial,stubager2013reaching}.
+	In addition to the literature on the impact of local economic conditions referenced above, our study ties into several neighboring literatures. First, as already highlighted, our study builds on and adds to the growing literature on `context effects' exploring the various ways in which political behavior and conditions are shaped by local contexts \citep[e.g.,][]{hopkins2010politicized,enos2016demolition}. Second, our study also ties in with a recently emerged strand of research in political economy highlighting the influence of home ownership -- in itself or as part of a portfolio of economic assets -- on redistribution and social policy preference as well as voting \citep{ansell2014political,nadeau2010patrimonial,stubager2013reaching}.
 	
 	\section{Empirical setting}
 	
@@ -165,7 +165,7 @@
 	
 	The key independent variable is \textit{change in local housing prices}. We obtain housing price data from The Danish Mortgage Banks' Federation (\textit{Realkreditforeningen}), which publishes quarterly data on the average price per square meter of all sales at the zip code level, aggregated from registry data on individual sales.\footnote{Available at \texttt{\href{http://statistik.realkreditforeningen.dk/}{statistik.realkreditforeningen.dk}}.} For each election, we calculate change in housing prices as the percentage change in the price of houses sold in the quarter of the election compared to the same quarter one year before. We merge observations of house prices and incumbent support by assigning every polling station to the year-on-year price change in its zip code. We provide additional details on this assignment procedure in appendix \ref{app_linking}.
 	
-	The dependent variable is a measure of changes in prices rather than price levels. This choice is in part motivated by the well-documented general tendency of human perceptions to be more responsive to changes in conditions than to absolute levels \citep{kahneman1979prospect}. It is also in keeping with the extant economic voting literature which, to the extent that it has looked at prices, has had a similar focus on changes (i.e., inflation, e.g. \citep{kramer1971short}). At the local level, changes in housing prices will translate into shorter or longer turnaround times, as sellers and buyers try to adjust to the new prices, leaving visible traces of these changes in the voters’ immediate context. These visible traces may take the form of ``for sale’’ signs in front yards and windows, or the speed at which old neighbors are exchanged for new ones.
+	The dependent variable is a measure of changes in prices rather than price levels. This choice is in part motivated by the well-documented general tendency of human perceptions to be more responsive to changes in conditions than to absolute levels \citep{kahneman1979prospect}. It is also in keeping with the extant economic voting literature which, to the extent that it has looked at prices, has had a similar focus on changes (i.e., inflation, e.g. \citealp{kramer1971short}). At the local level, changes in housing prices will translate into shorter or longer turnaround times, as sellers and buyers try to adjust to the new prices, leaving visible traces of these changes in the voters’ immediate context. These visible traces may take the form of ``for sale’’ signs in front yards and windows, or the speed at which old neighbors are exchanged for new ones.
 	
 	In the statistical models, we control for the unemployment rate and median income at the zip-code level in order to isolate local housing markets from other features of the local economy. Like the independent variable, these are population-based measures calculated from public registries provided by Statistics Denmark.
 	% To account for potential confounding from differences between urban and rural housing markets, we also control for the population density ($log(\frac{inhabitants}{km^2})$) of the municipality in which the precinct is located.
@@ -191,9 +191,8 @@
 	We include a number of additional variables in the analysis for statistical control, interaction analyses and placebo tests, which we present as we introduce them in the analysis. 
 	
 	
-	\section{Results}
 	
-	\subsection{Precinct-level results}
+	\section{Precinct-level evidence}
 	Table 1 evaluates the proposition that local housing prices help the incumbent government through a set of linear regression models. The table presents the estimated effect of year-over-year changes in housing prices on electoral support for the parties in government. All models are estimated using robust standard errors clustered at the precinct-level. The first model is a simple linear regression between electoral support and changes in housing prices. The second includes year fixed effects, holding trends in incumbent support and rates of housing price changes constant, and the third includes precinct fixed effects as well. In effect, model 3 is a difference-in-difference model, that evaluates whether electoral support increases or decreases more in precincts where housing prices increase more.  In the fourth model, we include the unemployment rate and the median income as covariates, controlling for overall  trends in the precincts’ economic situation. 
 	
 	\input{../tables/predv.tex}
@@ -229,7 +228,7 @@
 	
 	Since interaction models can be difficult to interpret based on reported coefficients alone, we visualize the result in Figure \ref{localactivity}. For each model specification, the figure shows the predicted effect of local housing prices on incumbent support for zip code economic activity corresponding to  the 25th and 75th percentile. The most notable result is that for the most restrictive model, there is essentially no effect at the bottom 25th percentile, while the effect is about twice the size of the average effect  (i.e., 0.06) at the 75th percentile. We thus find clear support for \htwo. In localities where the local housing market is more active, and thus where voters plausibly pay more attention to local housing markets, these markets feature more prominently in the evaluation of incumbents. One potential concern could be that housing prices and market activity measure the same underlying phenomenon. As we discuss below and in appendix X, the two are very weakly correlated, leaving ample room for the two to vary independently.
 	
-	\subsubsection{Auxiliary analyses and robustness checks}
+	\subsection{Auxiliary analyses and robustness checks}
 	Table \ref{robustness} presents a series of robustness checks of the results presented above. For these analyses, we only report the estimated average effect of housing prices and the interaction between (logged) number of trades and housing prices. The full models are reported in appendix X of the supplementary materials.
 	
 	\input{../tables/robustness.txt}
@@ -253,7 +252,7 @@
 	
 	In sum, we find clear evidence for both \hone and \htwo in the precinct-level data. We now proceed to testing the hypotheses using the individual-level data.
 	
-	\subsection{Individual-level results}
+	\section{Individual-level evidence}
 	
 	In Table \ref{inddv} we report results from a set of linear probability models, estimating the probability of voting for a party in government as a function of changes in local housing prices. We choose to estimate linear probability models in the interest of simplicity, but we show in Appendix \ref{app_robustind} that the results are virtually similar when estimated using logistic regression. We include individual (respondent) fixed effects, and fixed effect for which of the four different survey rounds the respondent initially participated in (ESS rounds one, two or four). All models include controls for the average income and unemployment rate in the respondent's context, as well as indicators of the respondent's own income and whether someone in the household is unemployed. Like in the precinct-level analyses, we include these controls to differentiate the effect of local housing markets from trends in the overall economic circumstances. However, unlike for the precinct-level data we can now control for trends in both the respondent’s personal economy and for the economy of the larger context. In effect, we end up with a similar identification strategy as for the precinct-level data: a difference-in-difference model that controls for trends in the economic situation. All models include robust standard errors clustered at the individual-level.
 	
@@ -288,7 +287,7 @@
 	\end{figure}
 	
 	
-	\subsection{ Auxiliary analyses and robustness checks}
+	\subsection{Auxiliary analyses and robustness checks}
 	
 	Although the data is more constrained in terms of number of observations and number of time periods, we also conducted a number of supplementary analyses of the individual-level data (see appendix X for detailed results of these additional analyses). For one, we tried to re-estimate the models using a conditional logit model (i.e. logit with unit fixed effects). This takes into account that the dependent variable is dichotomous. However, it also entails all observations which do not change voting behavior between the two periods. These logit models reveal the same basic pattern as the linear models. The only important difference is that the zip-code interaction coefficient becomes statistically significant at the five percent level as well. 
 	
@@ -329,16 +328,21 @@
 	
 	\appendix
 	\section*{Appendix}
+		\onehalfspacing
 	\renewcommand{\thesubsection}{\Alph{subsection}}
 	\renewcommand{\thetable}{\Alph{subsection}\arabic{table}}
+	\renewcommand{\thefigure}{\Alph{subsection}\arabic{figure}}
 	
 	\localtableofcontents
+
 	
+	\newpage
 	
 	\subsection{Linking polling places to zip codes}\label{app_linking}
 	
 	Zip codes are a substantively interesting level of aggregation when it comes to the price of housing, as it is the level at which housing prices are most often reported in Denmark (cf. the fact they are published by The Danish Mortgage Banks' Federation). However, merging zip code-level data on housing prices to the precinct-level data on electoral outcomes is non-trivial. Ideally we would extract the zip code of the address of each polling place and link the polling place to housing prices in that zip code. Unfortunately, full addresses are not available for all polling places. Instead, we use a three-stage approach to linking polling places to zip codes. First, we extract the street address and higher-level voting district of each polling place (the full resulting string is of the format `Streetname streetnumber, City, Denmark'). Second, we pass this string to the Google Maps API, which geocodes the string and returns latitude-longitude coordinates.\footnote{Available at \texttt{\href{https://developers.google.com/maps/documentation/geocoding/intro}{developers.google.com/maps/documentation/geocoding/intro}}.} Third and last, we pass these coordinates to the Danish Addresses Web API (DAWA), a public service provided by the Danish Geodata Agency.\footnote{Available at \texttt{\href{http://dawa.aws.dk/}{dawa.aws.dk}}.} The DAWA returns the zip code for each address, allowing us to link polling places to zip codes. %It is important to note that statistically speaking, precincts are therefore nested inside zip codes; we take this into account by clustering the standard errors on the precinct-level in our analysis.
 	
+	\newpage
 	
 	\subsection{Estimates of  Local Housing Prices}\label{app_housingselect}
 	
@@ -351,12 +355,13 @@
 		\item Sales with what Statistics Denmark calls an irregular price (i.e. if the sales price is more than three times the valuation or less than forty percent of the valuation, 6 pct. of all sales). This will usually mean that sellers and buyers are not part of the regular housing market (e.g., family members or friends selling or buying).
 	\end{enumerate}
 	
-	For more details on the EJSA register see \texttt{ \href{http://www.dst.dk/extranet/ForskningVariabellister/EJSA\%20-\%20Ejendomme\%20salgsoplysninger.html}}.
-			
+	For more details on the EJSA register see \texttt{\href{http://www.dst.dk/extranet/ForskningVariabellister/EJSA\%20-\%20Ejendomme\%20salgsoplysninger.html}{http://www.dst.dk/}}.
+
+	\newpage		
 			\subsection{Descriptive statistics}
 			\setcounter{table}{0}
 			
-			Descriptive statistics for the precinct-level data can be found in table \ref{desall}. Descriptive statistics for the individual-level data can be found in table \ref{sumstat}. 
+			Descriptive statistics for the precinct-level data can be found in table \ref{desall}. Descriptive statistics for the individual-level data can be found in table \ref{sumstat}. We do not include maximum and minimum values for the individual level variables, because this would go against the guidelines provided by Statstics Denmark.
 			
 			\input{../tables/predes.txt}
 			\input{../tables/inddes.tex}
@@ -383,26 +388,37 @@
 			
 			Table \ref{partyspecifictab} presents the estimates for the model underlying Figure \ref{partyspecific}. 
 			
+
+			
 			\input{../tables/partspec.tex}
 			
-			\subsection{Full Models from Robustness Checks of Precinct-level Data} \label{app_robustpred}
+			\newpage
+			
+			\subsection{Full Models from Robustness Checks of Precinct-level Evidence} \label{app_robustpred}
 			\setcounter{table}{0}
 			
-			Table \ref{apdxprerobust} presents the models represented in table \ref{robustness} with covariates.
+			Table \ref{apdxprerobust} presents the models shown in table \ref{robustness} with covariates.
 			
 			\input{../tables/apdxrobust.tex} 
+			
+			\newpage
 			
 			\subsection{Full Models from Robustness Checks of Individual-level Evidence} \label{app_robustind}
 			
 			\setcounter{table}{0}
 			
-			Tables \ref{logit}, \ref{logitinter} , \ref{home}, \ref{lrscale} present results from the statistical analyses underlying the robustness checks of the Individual-level Evidence. See the text for a brief discussion of the results.
+			Tables \ref{logit} and \ref{logitinter} re-estimates the linear regression models presented in table \ref{inddv} and \ref{tabmovers} using conditional logit models.
+			
+			Table  \ref{home} present the results of the home-ownership by housing price interaction.
+			
+			Table \ref{lrscale} examines the relationship between changes in housing prices and  self-placement on an ideological left-right scale.
 			
 			\input{../tables/logit.tex}
 			\input{../tables/logitinter.tex}
 			\input{../tables/home.tex}
 			\input{../tables/lrscale.tex}
 			
+			\newpage
 			
 			\subsection{The Interaction with Logged Number of Trades} \label{app_interaction}
 			\setcounter{table}{0}
@@ -410,7 +426,7 @@
 			
 			Figure \ref{scatter} examines how strongly related logged number of trades is with changes in housing prices. As can be seen from this plot, there is a weak correlation between logged number of trades and changes in housing prices, but a stronger correlation between changes in logged number of trades and changes in housing prices. However, even though the correlation is stronger in the latter case, it is evident that there is a lot of independent variation in number of trades for different levels of housing prices, and, as such, it seems reasonable to use number of trades as a moderator.
 			
-			Figure \ref{localactivity_sup.eps} uses the binning estimator developed by Hainmueller, Mummolo and Xu (2016) to test for linearity of the interaction. As can be seen from this model, the interaction does not seem to be perfectly linear. Rather, the marginal effect seems to low and stable at low and middling levels of number of trades, but then shoot up at high levels.  This basic pattern is also displayed in figure  \ref{localactivity_sup.eps}
+			Figure \ref{terciles} uses the binning estimator developed by Hainmueller, Mummolo and Xu (2016) to test for linearity of the interaction. As can be seen from this model, the interaction does not seem to be perfectly linear. Rather, the marginal effect seems to low and stable at low and middling levels of number of trades, but then shoot up at high levels.  This basic pattern is also displayed in figure  \ref{terciles}
 			
 			\begin{figure}
 				\includegraphics[width=1\textwidth]{../figures/corrmoderator.eps}
@@ -420,8 +436,8 @@
 			
 			
 			\begin{figure}
-				\includegraphics[width=1\textwidth]{../figures/localactivity_sup.eps}
-				\includegraphics[width=1\textwidth]{../figures/localactivity_sup2.eps}
+				\includegraphics[width=0.7\textwidth]{../figures/localactivity_sup.eps}
+				\includegraphics[width=0.7\textwidth]{../figures/localactivity_sup2.eps}
 				
 				\caption{Interaction estimation using the binning (top) and kernel estimators (bottom) developed by Hainmueller, Mummolo and Xu (2016). The binning estimator is applied to all four specification presented in table \ref{predv}. The kernel estimator is only applied to the most restrictive model including year and precint fixed effects as well as economic controls.}
 				\label{terciles}

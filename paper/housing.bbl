@@ -59,12 +59,6 @@ Eisenberg, D. and Ketcham, J. (2004).
   what.
 \newblock {\em Topics in Economic Analysis \& Policy}, 4(1).
 
-\bibitem[\protect\astroncite{Elinder}{2010}]{elinder2010local}
-Elinder, M. (2010).
-\newblock Local economies and general elections: The influence of municipal and
-  regional economic conditions on voting in sweden 1985--2002.
-\newblock {\em European Journal of Political Economy}, 26(2):279--292.
-
 \bibitem[\protect\astroncite{Enos}{2016}]{enos2016demolition}
 Enos, R.~D. (2016).
 \newblock What the demolition of public housing teaches us about the impact of
@@ -80,11 +74,6 @@ Ferejohn, J. (1986).
 Fiorina, M.~P. (1981).
 \newblock {\em Retrospective voting in American national elections}, volume~5.
 \newblock Yale University Press New Haven.
-
-\bibitem[\protect\astroncite{Hall et~al.}{2017}]{hall2017economic}
-Hall, A.~B., Yoder, J., and Karandikar, N. (2017).
-\newblock Economic distress and voting: Evidence from the subprime mortgage
-  crisis.
 
 \bibitem[\protect\astroncite{Hansford and
   Gomez}{2015}]{hansford2015reevaluating}
@@ -135,6 +124,12 @@ Jerzak, C.~T. and Libgober, B.~D. (2016).
   of e-zpass.
 \newblock {\em Available at SSRN 2780539}.
 
+\bibitem[\protect\astroncite{Kahneman and Tversky}{1979}]{kahneman1979prospect}
+Kahneman, D. and Tversky, A. (1979).
+\newblock Prospect theory: An analysis of decision under risk.
+\newblock {\em Econometrica: Journal of the econometric society}, pages
+  263--291.
+
 \bibitem[\protect\astroncite{Kim et~al.}{2003}]{kim2003spatial}
 Kim, J., Elliott, E., and Wang, D.-M. (2003).
 \newblock A spatial analysis of county-level outcomes in us presidential
@@ -145,6 +140,12 @@ Kim, J., Elliott, E., and Wang, D.-M. (2003).
 Kramer, G.~H. (1971).
 \newblock Short-term fluctuations in us voting behavior, 1896--1964.
 \newblock {\em American political science review}, 65(01):131--143.
+
+\bibitem[\protect\astroncite{Legewie}{2013}]{legewie2013terrorist}
+Legewie, J. (2013).
+\newblock Terrorist events and attitudes toward immigrants: A natural
+  experiment.
+\newblock {\em American Journal of Sociology}, 118(5):1199--1245.
 
 \bibitem[\protect\astroncite{Lippmann}{1946}]{lippmann1946public}
 Lippmann, W. (1946).
@@ -177,6 +178,12 @@ Reeves, A. and Gimpel, J.~G. (2012).
 Soroka, S.~N. (2014).
 \newblock {\em Negativity in democratic politics: Causes and consequences}.
 \newblock Cambridge University Press.
+
+\bibitem[\protect\astroncite{Soroka et~al.}{2015}]{soroka2015s}
+Soroka, S.~N., Stecula, D.~A., and Wlezien, C. (2015).
+\newblock It's (change in) the (future) economy, stupid: economic indicators,
+  the media, and public opinion.
+\newblock {\em American Journal of Political Science}, 59(2):457--474.
 
 \bibitem[\protect\astroncite{Stubager et~al.}{2013}]{stubager2013reaching}
 Stubager, R., Lewis-Beck, M.~S., and Nadeau, R. (2013).
