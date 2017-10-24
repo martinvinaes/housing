@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.24)  21 SEP 2017 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.24)  24 OCT 2017 17:12
 entering extended mode
 **./housing.tex
 (housing.tex
@@ -1188,21 +1188,21 @@ Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
 ) (housing.aux)
 \openout1 = `housing.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1221,7 +1221,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \makeMPintoPDFobject=\count169
 \everyMPtoPDFconversion=\toks50
 ) ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 55.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1270,7 +1270,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 55.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1279,9 +1279,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (housing.out) (housing.out)
 \@outlinefile=\write4
@@ -1295,10 +1295,10 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \Etoc@tf=\read2
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 61
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 58.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 58
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
@@ -1308,19 +1308,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 61
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 58
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 61
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 58
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 61
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 58
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
@@ -1332,33 +1332,33 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 61.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 58.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 58.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 61.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 58.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1368,244 +1368,216 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
-<../figures/timeplot.pdf, id=206, 578.16pt x 289.08pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+ [2] [3] [4] [5] [6]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 95.
+
+
+Package natbib Warning: Citation `iyengar1987television' on page 7 undefined on
+ input line 95.
+
+[7] [8] <../figures/timeplot.pdf, id=337, 578.16pt x 289.08pt>
 File: ../figures/timeplot.pdf Graphic file (type pdf)
 
 <use ../figures/timeplot.pdf>
-Package pdftex.def Info: ../figures/timeplot.pdf used on input line 129.
+Package pdftex.def Info: ../figures/timeplot.pdf used on input line 118.
 (pdftex.def)             Requested size: 407.66833pt x 203.83229pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 131.
- [5] [6 <../figures/timeplot.pdf>]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 120.
+ [9] [10 <../figures/timeplot.pdf>] [11]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 158.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
- [7] [8]
-[9] (../tables/predv.tex) [10]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 139.
+ [12]
+[13] [14] [15] (../tables/predv.tex) [16] [17]
 Package epstopdf Info: Source file: <../figures/lagdv.eps>
-(epstopdf)                    date: 2017-09-21 12:58:58
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 37585 bytes
 (epstopdf)             Output file: <../figures/lagdv-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-21 12:59:08
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 10521 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/lagdv-eps-conver
 ted-to.pdf ../figures/lagdv.eps>
-(epstopdf)             \includegraphics on input line 207.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/lagdv-eps-converted-to.pdf, id=288, 505.89pt x 289.08pt>
+<../figures/lagdv-eps-converted-to.pdf, id=432, 505.89pt x 289.08pt>
 File: ../figures/lagdv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/lagdv-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/lagdv-eps-converted-to.pdf used on input li
-ne 207.
+ne 177.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [11] (../tables/econactivity.tex)
+ [18 <../figures/lagdv-eps-converted-to.pdf>] (../tables/econactivity.tex) [19]
 Package epstopdf Info: Source file: <../figures/localactivity.eps>
-(epstopdf)                    date: 2017-09-04 16:24:33
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 25487 bytes
 (epstopdf)             Output file: <../figures/localactivity-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2017-09-05 15:40:19
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 7550 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/localactivity-ep
 s-converted-to.pdf ../figures/localactivity.eps>
-(epstopdf)             \includegraphics on input line 222.
+(epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/localactivity-eps-converted-to.pdf, id=300, 505.89pt x 289.08pt>
+<../figures/localactivity-eps-converted-to.pdf, id=453, 505.89pt x 289.08pt>
 File: ../figures/localactivity-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/localactivity-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/localactivity-eps-converted-to.pdf used on 
-input line 222.
+input line 189.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [12 <../figures/lagdv-eps-converted-to.pdf>] [13 <../figures/localactivity-eps
--converted-to.pdf>]
-(../tables/robustness.txt)
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 234.
-
-
-LaTeX Warning: Reference `econactivity' on page 14 undefined on input line 234.
-
-
-[14]
+ (../tables/robustness.txt)
+[20 <../figures/localactivity-eps-converted-to.pdf>] [21]
 Package epstopdf Info: Source file: <../figures/partyspecific.eps>
-(epstopdf)                    date: 2017-09-21 14:38:20
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 34481 bytes
 (epstopdf)             Output file: <../figures/partyspecific-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2017-09-21 11:20:30
-(epstopdf)                    size: 9605 bytes
+(epstopdf)                    date: 2017-10-24 09:13:55
+(epstopdf)                    size: 9359 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/partyspecific-ep
 s-converted-to.pdf ../figures/partyspecific.eps>
-(epstopdf)             \includegraphics on input line 244.
-runsystem(epstopdf --outfile=../figures/partyspecific-eps-converted-to.pdf ../f
-igures/partyspecific.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../figures/partyspecific-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2017-09-21 14:42:35
-(epstopdf)                    size: 9359 bytes.
-
-<../figures/partyspecific-eps-converted-to.pdf, id=352, 505.89pt x 289.08pt>
+<../figures/partyspecific-eps-converted-to.pdf, id=494, 505.89pt x 289.08pt>
 File: ../figures/partyspecific-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/partyspecific-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/partyspecific-eps-converted-to.pdf used on 
-input line 244.
+input line 210.
 (pdftex.def)             Requested size: 452.9679pt x 258.84187pt.
- [15] [16 <../figures/partyspecific-eps-converted-to.pdf>] (../tables/inddv.tex
+ [22] [23 <../figures/partyspecific-eps-converted-to.pdf>] (../tables/inddv.tex
 )
 Package epstopdf Info: Source file: <../figures/comparison.eps>
-(epstopdf)                    date: 2017-09-21 11:20:29
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 65185 bytes
 (epstopdf)             Output file: <../figures/comparison-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-09-21 11:20:30
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 16405 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/comparison-eps-c
 onverted-to.pdf ../figures/comparison.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/comparison-eps-converted-to.pdf, id=381, 433.62pt x 289.08pt>
+<../figures/comparison-eps-converted-to.pdf, id=524, 433.62pt x 289.08pt>
 File: ../figures/comparison-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/comparison-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/comparison-eps-converted-to.pdf used on inp
-ut line 266.
+ut line 231.
 (pdftex.def)             Requested size: 407.66833pt x 271.79257pt.
- [17] (../tables/tabmovers.tex)
+ [24] [25 <../figures/comparison-eps-converted-to.pdf>] (../tables/tabmovers.te
+x)
 Package epstopdf Info: Source file: <../figures/moving.eps>
-(epstopdf)                    date: 2017-09-21 11:20:29
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 47624 bytes
 (epstopdf)             Output file: <../figures/moving-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-21 11:20:30
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 13450 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/moving-eps-conve
 rted-to.pdf ../figures/moving.eps>
-(epstopdf)             \includegraphics on input line 282.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
-<../figures/moving-eps-converted-to.pdf, id=391, 505.89pt x 289.08pt>
+
+<../figures/moving-eps-converted-to.pdf, id=548, 505.89pt x 289.08pt>
 File: ../figures/moving-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/moving-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/moving-eps-converted-to.pdf used on input l
-ine 282.
+ine 247.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [18 <../figures/comparison-eps-converted-to.pdf>] [19 <../figures/moving-eps-c
-onverted-to.pdf>] [20] [21]
-(housing.bbl [22
+ [26] [27 <../figures/moving-eps-converted-to.pdf>] [28] [29] [30] [31] (housin
+g.bbl [32
 
-] [23]) [24]
+] [33] [34]) [35]
 \tf@toc=\write5
 \openout5 = `housing.toc'.
 
- [25] [26] [27] (../tables/predes.txt)
-(../tables/inddes.tex) [28] [29] [30] (../tables/partspec.tex) [31]
-(../tables/apdxrobust.tex
+ [36]
+[37] [38] (../tables/predes.txt) (../tables/inddes.tex) [39] [40] [41]
+(../tables/partspec.tex) [42] (../tables/apdxrobust.tex
 Overfull \hbox (18.23134pt too wide) in paragraph at lines 4--46
  [][] 
  []
 
-) [32] [33] (../tables/logit.tex) (../tables/logitinter.tex)
-(../tables/home.tex) (../tables/lrscale.tex) [34]
+) [43] [44] (../tables/logit.tex) (../tables/logitinter.tex)
+(../tables/home.tex) (../tables/lrscale.tex) [45]
 Package epstopdf Info: Source file: <../figures/corrmoderator.eps>
-(epstopdf)                    date: 2017-09-07 14:24:56
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 255724 bytes
 (epstopdf)             Output file: <../figures/corrmoderator-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2017-09-21 11:20:30
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 179804 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/corrmoderator-ep
 s-converted-to.pdf ../figures/corrmoderator.eps>
-(epstopdf)             \includegraphics on input line 430.
+(epstopdf)             \includegraphics on input line 394.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/corrmoderator-eps-converted-to.pdf, id=526, 505.89pt x 289.08pt>
+<../figures/corrmoderator-eps-converted-to.pdf, id=700, 505.89pt x 289.08pt>
 File: ../figures/corrmoderator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/corrmoderator-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/corrmoderator-eps-converted-to.pdf used on 
-input line 430.
+input line 394.
 (pdftex.def)             Requested size: 452.9679pt x 258.84187pt.
 Package epstopdf Info: Source file: <../figures/localactivity_sup.eps>
-(epstopdf)                    date: 2017-09-05 16:13:38
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 31329 bytes
 (epstopdf)             Output file: <../figures/localactivity_sup-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2017-09-05 16:13:45
+(epstopdf)                    date: 2017-10-24 09:13:55
 (epstopdf)                    size: 9345 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/localactivity_su
 p-eps-converted-to.pdf ../figures/localactivity_sup.eps>
-(epstopdf)             \includegraphics on input line 437.
+(epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/localactivity_sup-eps-converted-to.pdf, id=527, 505.89pt x 289.08pt
+<../figures/localactivity_sup-eps-converted-to.pdf, id=701, 505.89pt x 289.08pt
 >
 File: ../figures/localactivity_sup-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ../figures/localactivity_sup-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/localactivity_sup-eps-converted-to.pdf used
- on input line 437.
+ on input line 401.
 (pdftex.def)             Requested size: 317.07614pt x 181.19063pt.
-Package epstopdf Info: Source file: <../figures/localactivity_sup2.eps>
-(epstopdf)                    date: 2017-09-21 11:20:29
-(epstopdf)                    size: 17769 bytes
-(epstopdf)             Output file: <../figures/localactivity_sup2-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2017-09-21 11:20:30
-(epstopdf)                    size: 6094 bytes
-(epstopdf)             Command: <epstopdf --outfile=../figures/localactivity_su
-p2-eps-converted-to.pdf ../figures/localactivity_sup2.eps>
-(epstopdf)             \includegraphics on input line 438.
-Package epstopdf Info: Output file is already uptodate.
+ [46] [47] [48 <../figures/corrmoderator-eps-converted-to.pdf> <../figures/loca
+lactivity_sup-eps-converted-to.pdf>] (../tables/addinter.tex) [49] (../tables/c
+alc.tex)
 
-<../figures/localactivity_sup2-eps-converted-to.pdf, id=528, 397.485pt x 289.08
-pt>
-File: ../figures/localactivity_sup2-eps-converted-to.pdf Graphic file (type pdf
-)
- <use ../figures/localactivity_sup2-eps-converted-to.pdf>
-Package pdftex.def Info: ../figures/localactivity_sup2-eps-converted-to.pdf use
-d on input line 438.
-(pdftex.def)             Requested size: 317.07614pt x 230.60707pt.
- [35] [36]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 448.
- [37 <../figures/corrmoderator-eps-converted-to.pdf>] [38 <../figures/localacti
-vity_sup-eps-converted-to.pdf> <../figures/localactivity_sup2-eps-converted-to.
-pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 448.
+Package natbib Warning: There were undefined citations.
 
-(housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 448.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 448.
+[50]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 424.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 424.
+ (housing.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 424.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 424.
 Package rerunfilecheck Info: File `housing.out' has not changed.
-(rerunfilecheck)             Checksum: D357BE27E2F0A878775E595FF187DD9A;1507.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 448.
+(rerunfilecheck)             Checksum: 57DBE1501DCFDD0BA18BB1909CFA593E;1768.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 424.
  ) 
 Here is how much of TeX's memory you used:
- 22599 strings out of 493334
- 405563 string characters out of 3139257
- 525042 words of memory out of 3000000
- 25277 multiletter control sequences out of 15000+200000
- 97981 words of font info for 302 fonts, out of 3000000 for 9000
+ 22741 strings out of 493334
+ 408290 string characters out of 3139257
+ 526130 words of memory out of 3000000
+ 25355 multiletter control sequences out of 15000+200000
+ 98951 words of font info for 314 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,92p,1921b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,92p,1882b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
@@ -1617,9 +1589,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2
 fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on housing.pdf (38 pages, 538788 bytes).
+Output written on housing.pdf (50 pages, 588446 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 51922 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 51933 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -1,0 +1,42 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Some additional interactions} \footnotesize \label{addinter}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        \\
+\hline
+$\Delta$ housing price&      -0.178\sym{*} &      -0.067\sym{*} \\
+                    &     (0.071)        &     (0.030)        \\
+[1em]
+Log(trades)         &       1.943\sym{**}&      -0.446        \\
+                    &     (0.447)        &     (1.121)        \\
+[1em]
+Log(Voters)         &       2.333        &                    \\
+                    &     (1.688)        &                    \\
+[1em]
+$\Delta$ housing price $\times$ Log(trades)&       0.029\sym{**}&       0.028\sym{**}\\
+                    &     (0.009)        &     (0.009)        \\
+[1em]
+$\Delta$ housing price $\times$ Log(Voters)&       0.014        &                    \\
+                    &     (0.010)        &                    \\
+[1em]
+Log(Median income)  &      -0.850\sym{**}&      -0.834\sym{**}\\
+                    &     (0.044)        &     (0.044)        \\
+[1em]
+Unemployment rate   &      -1.623\sym{**}&      -2.349\sym{**}\\
+                    &     (0.190)        &     (0.351)        \\
+[1em]
+Unemployment rate $\times$ Log(trades)&                    &       0.205\sym{*} \\
+                    &                    &     (0.086)        \\
+[1em]
+\hline Precinct FE  &$\checkmark$        &$\checkmark$        \\
+[1em]
+Year FE             &$\checkmark$        &$\checkmark$        \\
+\hline
+Observations        &        4179        &        4179        \\
+RMSE                &       6.217        &       6.214        \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

@@ -1,17 +1,25 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: housing.aux
 The style file: apa.bst
 Database file #1: library.bib
-I was expecting a `,' or a `}'---line 238 of file library.bib
+Repeated entry---line 328 of file library.bib
+ : @article{enos2016demolition
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 499 of file library.bib
+ : @article{hansford2015reevaluating
+ :                                  ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 513 of file library.bib
  :  
  :  journal={Working paper}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 285 of file library.bib
+I was expecting a `,' or a `}'---line 560 of file library.bib
  :  
  :  journal={The Journal of Politics}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "iyengar1987television"
 Warning--can't use both volume and number fields in fiorina1981retrospective
 Warning--empty journal in healy2017presidential
-Warning--empty journal in warshaw2017economic
-(There were 2 error messages)
+(There were 4 error messages)

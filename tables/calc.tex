@@ -1,0 +1,33 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Main results excluding amalgamated precincts} \footnotesize \label{calculated}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}        &\multicolumn{1}{c}{(2)}        \\
+\hline
+$\Delta$ housing price&       0.038\sym{**}&      -0.092\sym{**}\\
+                    &     (0.010)        &     (0.035)        \\
+[1em]
+Log(Median income)  &      -0.969\sym{**}&      -0.916\sym{**}\\
+                    &     (0.052)        &     (0.052)        \\
+[1em]
+Unemployment rate   &      -2.117\sym{**}&      -1.723\sym{**}\\
+                    &     (0.223)        &     (0.229)        \\
+[1em]
+Log(trades)         &                    &       2.299\sym{**}\\
+                    &                    &     (0.518)        \\
+[1em]
+$\Delta$ housing price $\times$ Log(trades)&                    &       0.040\sym{**}\\
+                    &                    &     (0.011)        \\
+[1em]
+\hline Precinct FE  &$\checkmark$        &$\checkmark$        \\
+[1em]
+Year FE             &$\checkmark$        &$\checkmark$        \\
+\hline
+Observations        &        3523        &        3523        \\
+RMSE                &       6.559        &       6.500        \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
