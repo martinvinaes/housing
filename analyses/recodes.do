@@ -81,8 +81,13 @@ replace medianinc_fd=medianinc_fd*100
 replace medianinc=medianinc/1000 //in thousands
 replace unemprate_fd=unemprate_fd*100
 
+*creating variable which indivate whether results are estimated
+gen votes2=round(votes)
+gen calc=0
+replace calc=1 if votes2!=votes
+
 *dropping irrelevant variables 
-drop voters komnavn vsnavn kredsnavn kontanthjaelp arbejd boligstoer_kv ejer formue indkomst ///
+drop votes* komnavn vsnavn kredsnavn kontanthjaelp arbejd boligstoer_kv ejer formue indkomst ///
 indkomst_80 hp_2yrpos hp_2yrneg  medianinc_lag unemprate_lag d_ab d_vc y
 
  
@@ -101,7 +106,7 @@ label var medianinc "Log(Median income)"
 label var unemprate_fd "Unemployment rate (change)"
 label var medianinc_fd "Log(Median income) (change)"
 label var pop "Population"
-la var votes "Number of voters"
+la var voters "Number of voters"
 label var nt0 "Trades"
 label var logntrades "Log(trades)"
 label var a "Support for Social Democratic Party"
@@ -110,6 +115,8 @@ label var b "Support for Social Liberal Party"
 label var c "Support for Conservative Party"
 label var incs "Support for Governing Parties (pct.)"
 label var d_inc "Change in Support for Governing Parties (pct.)"
+label var calc "Votes estimated"
+
 
 
 
