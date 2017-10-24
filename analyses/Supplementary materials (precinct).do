@@ -16,6 +16,37 @@ cd "C:\Users\mvl\Documents\GitHub\housing\data"
 *opening data
 use replidata.dta, clear
 
+*time series analysis
+xtset valgstedid year
+
+***********************************
+***Does Results vary by Estimates**
+***********************************
+
+
+eststo a: xtreg inc hp_1yr i.year medianinc unemprate 860028.valgstedid if calc==0, fe
+eststo b:  xtreg inc (c.hp_1yr)##(c.logntrades) i.year medianinc unemprate 860028.valgstedid if calc==0, fe
+cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
+
+esttab a b using calc.tex, keep(hp_1yr c.hp_1yr#c.logntrades logntrades unemprate medianinc) replace ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
+label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Main results excluding amalgamated precincts} \footnotesize \label{calculated)
+
+
+
+**********************************
+***Additional Interactions********
+**********************************
+replace voters=log(voters)
+la var voters "Log(Voters)"
+eststo a: xtreg inc (c.hp_1yr)##(c.logntrades c.voters) i.year medianinc unemprate 860028.valgstedid, fe
+
+eststo b:  xtreg inc (c.hp_1yr c.unemprate)##(c.logntrades) i.year medianinc 860028.valgstedid, fe
+
+esttab a b using addinter.tex, keep(hp_1yr c.hp_1yr#c.logntrades c.unemprate#c.logntrades c.hp_1yr#c.voters voters logntrades unemprate medianinc) replace ///
+star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
+label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Some additional interactions} \footnotesize \label{addinter)
+-
 
 
 **********************************
