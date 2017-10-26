@@ -120,11 +120,6 @@ Enos, R.~D. (2016).
   racial threat on political behavior.
 \newblock {\em American Journal of Political Science}, 60(1):123--142.
 
-\bibitem[\protect\astroncite{Ferejohn}{1986}]{ferejohn1986incumbent}
-Ferejohn, J. (1986).
-\newblock Incumbent performance and electoral control.
-\newblock {\em Public choice}, 50(1):5--25.
-
 \bibitem[\protect\astroncite{Fiorina}{1981}]{fiorina1981retrospective}
 Fiorina, M.~P. (1981).
 \newblock {\em Retrospective voting in American national elections}, volume~5.
@@ -209,11 +204,10 @@ Hopkins, D.~J. and Pettingill, L.~M. (2017).
 \newblock Retrospective voting in big-city us mayoral elections.
 \newblock {\em Political Science Research and Methods}, pages 1--18.
 
-\bibitem[\protect\astroncite{Iyengar et~al.}{1982}]{iyengar1982experimental}
-Iyengar, S., Peters, M.~D., and Kinder, D.~R. (1982).
-\newblock Experimental demonstrations of the “not-so-minimal” consequences
-  of television news programs.
-\newblock {\em American Political Science Review}, 76(4):848--858.
+\bibitem[\protect\astroncite{Iyengar and Kinder}{1987}]{iyengar1987news}
+Iyengar, S. and Kinder, D.~R. (1987).
+\newblock News that matter.
+\newblock {\em Television and American Opinion, Chicago, IL}, page~98.
 
 \bibitem[\protect\astroncite{Jerzak and Libgober}{2016}]{jerzak2016property}
 Jerzak, C.~T. and Libgober, B.~D. (2016).
@@ -273,6 +267,11 @@ Lewis-Beck, M.~S. and Stegmaier, M. (2013).
 Moore, R.~T. and Reeves, A. (2017).
 \newblock Defining racial and ethnic context with geolocation data.
 \newblock {\em Political Science Research and Methods}, 5.
+
+\bibitem[\protect\astroncite{Moore et~al.}{2017}]{moore2017learning}
+Moore, R.~T., Reeves, A., Hill, K.~W., and Bachner, J. (2017).
+\newblock Learning from place in the era of geolocation.
+\newblock {\em Analytics, Policy, and Governance}, pages 118--36.
 
 \bibitem[\protect\astroncite{Nadeau et~al.}{2010}]{nadeau2010patrimonial}
 Nadeau, R., Foucault, M., and Lewis-Beck, M.~S. (2010).
