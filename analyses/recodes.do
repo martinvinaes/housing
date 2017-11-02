@@ -58,7 +58,7 @@ replace y=y-2000
 *count variable for number of election
 recode year 2001=1 2005=2 2007=3 2011=4 2015=5, gen(eleccount)
 
-
+-
 
 *recoding incsup
 replace incsupport=incsupport*100
@@ -77,7 +77,7 @@ replace d_inc=d_vc*100 if year==2005 | year==2007 | year==2011
 
 *recoding control variables so they make sense
 replace unemprate=unemprate*100 // 0 to 100 pct.
-replace medianinc_fd=medianinc_fd*100
+replace medianinc_fd=medianinc_fd/1000
 replace medianinc=medianinc/1000 //in thousands
 replace unemprate_fd=unemprate_fd*100
 
@@ -102,9 +102,9 @@ label var hp_2yr "$\Delta$ housing price (2 years)"
 label var hp_1yrneg "$\Delta$ housing price (negative)"
 label var hp_1yrpos "$\Delta$ housing price (positive)"
 label var unemprate "Unemployment rate"
-label var medianinc "Log(Median income)"
+label var medianinc "Median income (1000 DKK)"
 label var unemprate_fd "Unemployment rate (change)"
-label var medianinc_fd "Log(Median income) (change)"
+label var medianinc_fd "Median income (change)"
 label var pop "Population"
 la var voters "Number of voters"
 label var nt0 "Trades"

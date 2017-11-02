@@ -2,17 +2,17 @@
 \begin{table}[htbp] \footnotesize \centering \caption{Robustness of the Average Effect and the Interaction Term} \label{robustness} \begin{tabular}{l*{3}{c}}\hline\hline
 &Average Effect & Interaction Term \\  \hline 
  Two year change &	     0.02* &	     0.02* \\
- &	(0.01) &	(0.00) \\
+ &	(     0.01) &	(     0.00) \\
  First Differenced Controls &	     0.06* &	     0.05* \\
- &	(0.01) &	(0.01) \\
+ &	(     0.01) &	(     0.01) \\
  First Differenced DV &	     0.03* &	     0.01* \\
- &	(0.00) &	(0.00) \\
+ &	(     0.00) &	(     0.00) \\
  Lagged DV &	     0.06* &	     0.09* \\
- &	( 0.01) &	(0.01) \\
+ &	(     0.01) &	(     0.01) \\
 Positive changes &	     0.03* &	     0.08* \\
- &	(0.01) &	(0.01) \\
+ &	(     0.01) &	(     0.01) \\
 Negative changes&	    -0.03* &	     0.05* \\
- &	(0.02) &	(0.02) \\
+ &	(     0.02) &	(     0.02) \\
 \hline
 Year FE &	\checkmark &	\checkmark  \\
 Precinct FE &	\checkmark &	\checkmark  \\

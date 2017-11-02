@@ -46,7 +46,7 @@ eststo b:  xtreg inc (c.hp_1yr c.unemprate)##(c.logntrades) i.year medianinc 860
 esttab a b using addinter.tex, keep(hp_1yr c.hp_1yr#c.logntrades c.unemprate#c.logntrades c.hp_1yr#c.voters voters logntrades unemprate medianinc) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
 label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Some additional interactions} \footnotesize \label{addinter)
--
+
 
 
 **********************************
@@ -67,12 +67,16 @@ graph export "C:\Users\mvl\Documents\GitHub\housing\figures\corrmoderator.eps", 
 pwcorr hp_1yr diftrades logntrades
 
 ****************************
-***Descriptive Statostic:***
+***Descriptive Statistic:***
 ****************************
 
 cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
 preserve
-drop zipy eleccount
+replace voters=log(voters)
+la var voters "Log(Voters)"
+la var diftrades "Change in Log(Trades)"
+drop zipy eleccount valgstedid muni zip pop _est*
+la var calc "Estimated vote returns"
 file open anyname using predes.txt, write text replace
 file write anyname  _newline  _col(0)  "\begin{table}[htbp] \footnotesize \centering \caption{Descriptive statistics, Precinct-level data} \label{desall} \begin{tabular}{l*{10}{c}}\hline\hline"
 file write anyname _newline _col(0) "&Mean & SD & Min& Max& n \\  \hline "
@@ -86,9 +90,9 @@ file write anyname _newline _col(0) "\end{table}"
 file close anyname
 restore
 
-hist hp_1yr, scheme(plotplain) width(0.5) freq ylabel(0(10)100) lcolor(black*0.8) ///
-xtitle(Changes in Housing prices, size(medlarge)) ///
-ytitle(Frequency, size(medlarge)) ylab(,labsize(medlarge)) xlab(,labsize(medlarge))
+hist hp_1yr, scheme(plotplain) width(0.5) freq ylabel(0(10)120) lcolor(black*0.8) ///
+xtitle(Changes in Housing prices, size(medlarge))  ///
+ytitle(Frequency, size(medlarge)) ylab(,labsize(medlarge)) xlab(,labsize(medlarge) nogrid)
 graph export "C:\Users\mvl\Documents\GitHub\housing\figures\desplot.eps", replace
 
 
@@ -120,14 +124,6 @@ foreach x in 1 2 3 4{
 xtreg inc (c.logntrades_dif c.hp_1yr c.hp_1yr#c.logntrades_dif)##tercile   `z`x''
  margins, dydx(hp_1yr) at(terciles=(0 1 2)) level(95) saving(margin`x', replace) noestimcheck
 }
-
-
-
-interflex incs hp_1yr logntrades unemprate medianinc, fe(year valgstedid) cl(valgstedid) type(kernel) ///
-dlabel("Housing Prices") xlabel("Logged Number of Trades") title(" ") ylabel(Government Support)
-graph export "C:\Users\mvl\Documents\GitHub\housing\figures\localactivity_sup2.eps", replace
-
-
 
 
 
@@ -181,21 +177,22 @@ label stats(N rmse, fmt(%8.0f %8.3f )  label( "Observations" "RMSE"))  title(Par
 
 tempfile margin1
 margins, dydx(hp_1yr) at(incA=(0 1) party=(0 1)) noestimcheck saving(`margin1', replace)
-*preserve
 use `margin1', clear
 gen _ci_lb2=-_se*1.64+_margin
 gen _ci_ub2=_se*1.64+_margin
 gen id=_n
 replace id=id+0.5 if id >2
+replace id=id+0.1 if id ==1 | id==3.5
+replace id=id-0.1 if id ==2 | id==4.5
 twoway rspike _ci_lb _ci_ub id,  lcolor(black)  || ///
 rspike _ci_lb2 _ci_ub2 id, scheme(plotplain) lcolor(black) lwidth(thick) || ///
 scatter _margin id if _at3==0, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(white) ||  ///
 scatter _margin id if _at3==1, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(black)  ///
 ylab(-0.1(0.05)0.15,  labsize(medlarge)) xtitle(" ")   ///
-xlab(1.5 "Right-Wing Government in Office" 4 "Left-Wing Government in Office",labsize(medlarge) nogrid) ///
+xlab(0.5 " " 1.5 "Right-Wing in Office" 4 "Left-Wing in Office" 5 " ",labsize(medlarge) nogrid) ///
 ytitle("Party Specific Effects on Electoral Support ", size(medlarge)) ylines(0) ///
 legend( order (4 3) title(Support for)  size(medlarge)  label(3 "Right-wing coalition") label(4 "Left-wing coalition")  pos(4) ) xsize(7)
 graph export "C:\Users\mvl\Documents\GitHub\housing\figures\partyspecific.eps", replace
-restore
+
 
 

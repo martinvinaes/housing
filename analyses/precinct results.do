@@ -93,7 +93,7 @@ twoway rspike _ci_lb _ci_ub model,  lcolor(black)  || ///
 rspike _ci_lb2 _ci_ub2 model, scheme(plotplain) lcolor(black) lwidth(thick) || ///
 scatter _margin model if dv==0, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(black) || ///
 scatter _margin model if dv==1, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(white)  ///
-yline(0) ylab(-0.1(0.05)0.2,  labsize(medlarge)) xtitle(" ") ///
+yline(0) ylab(-0.05(0.05)0.15,  labsize(medlarge)) xtitle(" ") ///
 xlab(1 "Bivariate" 2 "+ Year FE" 3 "+ Precinct FE" 4 "+ Controls", labsize(medlarge) nogrid) ///
 ytitle("Effect size", size(medlarge)) xlines(5.75) /// 
 legend( order(3 4) label(3 "t") label(4 "t-1") size(medlarge) pos(4)) xsize(7) 
@@ -245,7 +245,7 @@ file write anyname _newline "Year FE &"_tab %9.2f "\checkmark &" _tab  "\checkma
 file write anyname _newline "Precinct FE &"_tab %9.2f "\checkmark &" _tab  "\checkmark  \\"
 file write anyname _newline "Economic Controls &"_tab  "\checkmark &" _tab  "\checkmark  \\"
 file write anyname _newline _col(0) "\hline \hline"
-file write anyname _newline _col(0) "\multicolumn{3}{l}{See appendix X for the full models.} \\"
+file write anyname _newline _col(0) "\multicolumn{3}{l}{See Appendix \ref{app_robustpred} for the full models.} \\"
 file write anyname _newline _col(0) "\multicolumn{3}{l}{*p<0.05}"
 file write anyname _newline _col(0) "\end{tabular}"
 file write anyname _newline _col(0) "\end{table}"
@@ -270,9 +270,9 @@ twoway rspike _ci_lb _ci_ub model,  lcolor(black)  || ///
 rspike _ci_lb2 _ci_ub2 model, scheme(plotplain) lcolor(black) lwidth(thick) || ///
 scatter _margin model if _at==1, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(white) ||  ///
 scatter _margin model if _at==3, msym(O) msize(large) mlwidth(medthick) mlcolor(black) mfcolor(black)  ///
-ylab(-0.1(0.1)0.3,  labsize(medlarge)) xtitle(" ")    ///
+ylab(-0.05(0.05)0.2,  labsize(medlarge)) xtitle(" ")    ///
 xlab(2 "Bivariate" 7 "+ Year FE" 12 "+ Precinct FE" 17 "+ Controls",labsize(medlarge) nogrid) ///
 ytitle("Effect on Support for the Governing Parties" "across number of trades", size(medlarge)) ylines(0) ///
-legend( order (4 3)  label(3 "At the 25th percentile") label(4 "At the 75th percentile")  pos(4) ) xsize(7)
+legend( order (4 3)  label(3 "At the 25th percentile") label(4 "At the 75th percentile") size(medlarge) pos(4) ) xsize(7)
 graph export "C:\Users\mvl\Documents\GitHub\housing\figures\localactivity.eps", replace
 restore
