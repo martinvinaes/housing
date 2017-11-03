@@ -2,7 +2,7 @@
 *The Conditional Impact of Local Economic Conditions on Incumbent Support*
 **************************************************************************
 
-*Authors: Frederik Hjorth, Martin Vinæs LArsen, Peter Thisted Dinesen and Kim Mannemar Sønderskov.
+*Authors: Frederik Hjorth, Martin Vinæs Larsen, Peter Thisted Dinesen and Kim Mannemar Sønderskov.
 
 
 *FILE PURPOSE: Tables and Figures for Precinct Level Analysis
@@ -15,10 +15,6 @@ cd "C:\Users\mvl\Documents\GitHub\housing\data"
 
 *opening data
 use replidata.dta, clear
-
-
-
-
 
 *table location
 cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
@@ -245,7 +241,7 @@ file write anyname _newline "Year FE &"_tab %9.2f "\checkmark &" _tab  "\checkma
 file write anyname _newline "Precinct FE &"_tab %9.2f "\checkmark &" _tab  "\checkmark  \\"
 file write anyname _newline "Economic Controls &"_tab  "\checkmark &" _tab  "\checkmark  \\"
 file write anyname _newline _col(0) "\hline \hline"
-file write anyname _newline _col(0) "\multicolumn{3}{l}{See Appendix \ref{app_robustpred} for the full models.} \\"
+file write anyname _newline _col(0) "\multicolumn{3}{l}{See Appendix \ref{app_robustpred} for the full models} \\"
 file write anyname _newline _col(0) "\multicolumn{3}{l}{*p<0.05}"
 file write anyname _newline _col(0) "\end{tabular}"
 file write anyname _newline _col(0) "\end{table}"

@@ -154,7 +154,7 @@
 	Finally, in the statistical models we control for the unemployment rate and median income at the zip-code level in order to isolate the effect of local housing markets from other features of the local economy. Like the independent variable, these are population-based measures calculated from public registries provided by Statistics Denmark.
 	
 	\subsection{Individual-level Data and Measures}\label{individuallevel}
-	Although our precinct-level data is comprehensive, our hypotheses concern individuals, and testing individual-level theories with aggregate-level data is fraught with problems of ecological inference. Hence, we also analyze individual-level data from a two-wave panel survey collected between 2002 and 2011. The first wave of the panel survey consists of respondents who participated in round 1 (2002/3), 2 (2004/5) or 4 (2008/9) of the Danish Version of the European Social Survey (ESS); a nationally representative high-quality survey conducted bi-annually in most European countries.\footnote{\href{http://www.europeansocialsurvey.org/}{http://www.europeansocialsurvey.org/}} The second wave of the panel consists of re-interviewed respondents from these three rounds. Specifically, the full sample of ESS rounds 1 and 4, and 40 percent (randomly selected) of ESS round 2, were invited for a re-interview in the winter of 2011-12. In total, 1,745 people – equivalent to a retention rate of 47 pct. – were interviewed in both rounds.\footnote{The respondents for the ESS were (randomly) sampled from the Danish population registry, and therefore the civil registration numbers were retained by the data collection agency. This made it possible to identify the respondents for a second interview and to link the respondents to the national registers.} 
+	Although our precinct-level data is comprehensive, our hypotheses concern individuals, and testing individual-level theories with aggregate-level data is fraught with problems of ecological inference. Hence, we also analyze individual-level data from a two-wave panel survey collected between 2002 and 2011. The first wave of the panel survey consists of respondents who participated in round 1 (2002/3), 2 (2004/5) or 4 (2008/9) of the Danish Version of the European Social Survey (ESS); a nationally representative high-quality survey conducted bi-annually in most European countries.\footnote{\href{http://www.europeansocialsurvey.org/}{http://www.europeansocialsurvey.org/}} The second wave of the panel consists of re-interviewed respondents from these three rounds. Specifically, the full sample of ESS rounds 1 and 4, and 40 percent (randomly selected) of ESS round 2, were invited for a re-interview in the winter of 2011-12. In total, 1,743 people – equivalent to a retention rate of 47 pct. – were interviewed in both rounds.\footnote{The respondents for the ESS were (randomly) sampled from the Danish population registry, and therefore the civil registration numbers were retained by the data collection agency. This made it possible to identify the respondents for a second interview and to link the respondents to the national registers.} 
 	
 	From the survey, we use the following question as our dependent variable: ``What party did you vote for at the last parliamentary election?'' Respondents were presented with all the parties, which ran in the previous election. For the analyses we create a dummy variable indicating whether the respondent voted for a party in government at the time of the election as the dependent variable.\footnote{Since both survey waves are fielded shortly after national elections, reported party choice is temporally subsequent to economic changes over the past year.}
 	
@@ -192,16 +192,20 @@
 	
 	Since interaction models can be difficult to interpret based on reported coefficients alone, we visualize the result in Figure \ref{localactivity}. For each model specification, the figure shows the predicted effect of local housing prices on incumbent support for zip code economic activity corresponding to the 25\textsuperscript{th} and 75\textsuperscript{th} percentile. Focusing on the most restrictive model, the most notable result is that there is essentially no effect of local housing prices at the bottom 25\textsuperscript{th} percentile of local housing market activity, while the effect is about twice the size of the average effect  (i.e., 0.06) at the 75\textsuperscript{th} percentile. The latter corresponds to electoral support for governing parties increasing by roughly 6 percentage points in a precinct, where house prices in the zip-code area doubles from one year to the next. Interestingly, the effect at the 75\textsuperscript{th} percentile is more in line with the findings in \citep{healy2017presidential} described above. We thus find clear support for \htwo. In localities where the local housing market is more active, and thus ostensibly more salient to voters, housing prices feature more prominently in the evaluation of incumbents. 
 	
-	One potential concern in relation to this analysis is that housing prices and market activity measure the same underlying phenomenon, complicating the interpretation of the interaction term. However, as we show in Appendix \ref{app_interaction}, the two are in fact very weakly correlated ($r=0.1$), implying that they essentially vary independently of one another. Another concern is that number of trades is a proxy for population size. To test this, we estimate a model which includes an interaction between housing prices and logged number of eligible voters in the precinct as well as the interaction with number of trades. In this model, we find no significant interaction with population size, and the remains statistically significant and of the same approximate size, suggesting that our results are driven by variation in market activity which is independent of market size. These results are reported in Appendix \ref{add_interaction}.
 	
-	We made no prediction about whether contextual priming of local housing markets would lessen the effect of other economic conditions, however, if one accepts that voter attention is limited, one might think that it would do just that \citep[this is a common assertion in the broader priming literature, see for instance][]{krosnick1990altering}. In Appendix \ref{add_interaction} we tentatively examine whether this is the case by interacting our measure of local housing market activity with the unemployment rate. We find that unemployment does seem to matter a bit less when the local housing market is more active, however, the pattern is less pronounced than for the housing price interaction.  
-	
-	
+		
 	\begin{figure}[htbp!]
 		\includegraphics[width=0.9\textwidth]{../figures/localactivity.eps}
 		\centering
 		\caption{Marginal effects of housing prices across levels of economic activity with 90 and 95 pct. confidence intervals.  Marginal effects derived based on table \ref{table:econactivity} at the 25th and 75th percentile.}\label{localactivity}
 	\end{figure}
+	
+	
+	One potential concern in relation to this analysis is that housing prices and market activity measure the same underlying phenomenon, complicating the interpretation of the interaction term. However, as we show in Appendix \ref{app_interaction}, the two are in fact very weakly correlated ($r=0.1$), implying that they essentially vary independently of one another. Another concern is that number of trades is a proxy for population size. To test this, we estimate a model which includes an interaction between housing prices and logged number of eligible voters in the precinct as well as the interaction with number of trades. In this model, we find no significant interaction with population size, and the remains statistically significant and of the same approximate size, suggesting that our results are driven by variation in market activity which is independent of market size. These results are reported in Appendix \ref{add_interaction}.
+	
+	We made no prediction about whether contextual priming of local housing markets would lessen the effect of other economic conditions, however, if one accepts that voter attention is limited, one might think that it would do just that \citep[this is a common assertion in the broader priming literature, see for instance][]{krosnick1990altering}. In Appendix \ref{add_interaction} we tentatively examine whether this is the case by interacting our measure of local housing market activity with the unemployment rate. We find that unemployment does seem to matter a bit less when the local housing market is more active, however, the pattern is less pronounced than for the housing price interaction.  
+	
+
 	
 	
 	
@@ -249,7 +253,7 @@
 	
 	We now test \htwo using the individual level data. Following our contextual priming-argument, we expect those who recently interacted with their local housing market to have considerations regarding local housing more readily available when evaluating the incumbent government. One such group is those who have just moved or who are on the cusp of moving, as they are currently, or have recently, been exposed to information regarding local housing markets as a result of selling their present home and looking for a new one. 
 	
-	Table \ref{tabmovers} presents a set of re-estimated individual-level models from table \ref{inddv}, where the the housing price change variable is interacted with an indicator for whether or not the respondent is a mover (i.e., those who moved six months before/after being surveyed). The estimated interaction effect is statistically significant and positive in all specifications ($p<.05$ for all models except the zip-code model, $p<.1$ for the zip-code model), thus  showing that the group of movers are in fact significantly more responsive to changes in local housing prices. 
+	Table \ref{tabmovers} presents a set of re-estimated individual-level models from table \ref{inddv}, where the the housing price change variable is interacted with an indicator for whether or not the respondent is a mover (i.e., those who moved six months before/after being surveyed). The estimated interaction effect is statistically significant and positive in all specifications ($p<.05$), thus  showing that the group of movers are in fact significantly more responsive to changes in local housing prices. 
 	
 	Figure \ref{move} presents marginal effects for movers and non-movers derived from the models in Table \ref{tabmovers}. As shown, housing prices have large significant ($p<.05$) estimated effects for movers and a negligible effect—often essentially no effect—for non-movers. For movers, the effect of changes in housing prices is estimated to be between 0.2 and 0.4 depending on the model. In substantive terms, this means that when housing prices double the probability of voting for the incumbent increases by 20 to 40 percentage points for voters who are currently involved with local housing market. This is quite a large effect, much larger than even the largest effects identified in the previous literature on local economic voting \citep{healy2017presidential}, which suggests that when an individual is attuned to a part of their local economy, this part of the economy plays an essential role in their decision to support the national government. Because of the large sampling variability, we cannot say anything about whether the effect is larger at any particular level of aggregation, however, it is reassuring that we find the same overall pattern across these different levels of aggregation (cf. the MAUP). 
 	Overall, these results strongly support the contextual priming hypothesis by showing that changes in local housing prices play a larger role in incumbent evaluations among individuals who been more exposed to their local housing market though their interaction with it.
@@ -259,7 +263,7 @@
 	\begin{figure}[htbp!]
 		\includegraphics[width=0.9\textwidth]{../figures/moving.eps}
 		\centering
-		\caption{Effects of Changes in Housing Prices for those who had just or were going to move and those who did not with 90 and 95 pct. confidence intervals}\label{move}
+		\caption{Effects of Changes in Housing Prices for those who had just or were going to move and those who did not with 90 and 95 pct. confidence intervals.}\label{move}
 	\end{figure}
 	
 	
@@ -336,9 +340,9 @@
 			\subsection{Descriptive Statistics} \label{sumstats}
 			\setcounter{table}{0}
 			
-			Descriptive statistics for the precinct-level data can be found in table \ref{desall}. Descriptive statistics for the individual-level data can be found in table \ref{sumstat}. We do not include maximum and minimum values for the individual level variables, because this would go against the data protection guidelines provided by Statstics Denmark.
+			Descriptive statistics for the precinct-level data can be found in table \ref{desall}. Descriptive statistics for the individual-level data can be found in table \ref{sumstat}. We do not include maximum and minimum values for the individual-level variables, because this would go against the data protection guidelines provided by Statstics Denmark.
 			
-			Figures \ref{desplot} graphs the distribution of the main independent variable in the precinct-level data. 
+			Figure \ref{desplot} graphs the distribution of housing price changes in the precinct-level data. 
 			
 			\input{../tables/predes.txt}
 			\input{../tables/inddes.tex}
@@ -390,11 +394,11 @@
 			
 			\setcounter{table}{0}
 			
-			Tables \ref{logit} and \ref{logitinter} re-estimates the linear regression models presented in table \ref{inddv} and \ref{tabmovers} using conditional logit models. While it is hard to compare effect sizes, the substantive findings (i.e., direction and significance of coefficients) from these models line up with those presented in the paper.
+			Tables \ref{logit} and \ref{logitinter} re-estimates the linear regression models presented in table \ref{inddv} and \ref{tabmovers} using conditional logit models. While it is hard to compare effect sizes, the substantive findings (i.e., direction and significance of coefficients) from these models line up with those presented in the main analysis.
 			
 			Table  \ref{home} present the results of the home-ownership by housing price interaction. The interaction is positive but statistically insignificant except for in the 20 closest houses specification where it is negative and insignificant. This suggest that home-owners do not respond in substantively different ways than renters perhaps reflecting that even renters are part of the housing market.
 			
-			Table \ref{lrscale} examines the relationship between changes in housing prices and  self-placement on an ideological left-right scale. The estimates are negative and statistically significant. If anything, voters in our sample thus become more left-wing when local housing prices increase.
+			Table \ref{lrscale} examines the relationship between changes in housing prices and  self-placement on an ideological left-right scale. The estimates are for the most part negative and statistically insignificant across all specifications. If anything, voters in our sample thus become more left-wing when local housing prices increase.
 			
 			\input{../tables/logit.tex}
 			\input{../tables/logitinter.tex}

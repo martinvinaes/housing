@@ -18,7 +18,7 @@ Year FE &	\checkmark &	\checkmark  \\
 Precinct FE &	\checkmark &	\checkmark  \\
 Economic Controls &	\checkmark &	\checkmark  \\
 \hline \hline
-\multicolumn{3}{l}{See Appendix \ref{app_robustpred} for the full models.} \\
+\multicolumn{3}{l}{See Appendix \ref{app_robustpred} for the full models} \\
 \multicolumn{3}{l}{*p<0.05}
 \end{tabular}
 \end{table}

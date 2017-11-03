@@ -58,8 +58,6 @@ replace y=y-2000
 *count variable for number of election
 recode year 2001=1 2005=2 2007=3 2011=4 2015=5, gen(eleccount)
 
--
-
 *recoding incsup
 replace incsupport=incsupport*100
 

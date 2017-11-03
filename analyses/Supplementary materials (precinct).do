@@ -75,7 +75,7 @@ preserve
 replace voters=log(voters)
 la var voters "Log(Voters)"
 la var diftrades "Change in Log(Trades)"
-drop zipy eleccount valgstedid muni zip pop _est*
+drop zipy eleccount valgstedid muni zip pop year _est*
 la var calc "Estimated vote returns"
 file open anyname using predes.txt, write text replace
 file write anyname  _newline  _col(0)  "\begin{table}[htbp] \footnotesize \centering \caption{Descriptive statistics, Precinct-level data} \label{desall} \begin{tabular}{l*{10}{c}}\hline\hline"
@@ -91,7 +91,7 @@ file close anyname
 restore
 
 hist hp_1yr, scheme(plotplain) width(0.5) freq ylabel(0(10)120) lcolor(black*0.8) ///
-xtitle(Changes in Housing prices, size(medlarge))  ///
+xtitle(Changes in Housing prices (%), size(medlarge))  ///
 ytitle(Frequency, size(medlarge)) ylab(,labsize(medlarge)) xlab(,labsize(medlarge) nogrid)
 graph export "C:\Users\mvl\Documents\GitHub\housing\figures\desplot.eps", replace
 

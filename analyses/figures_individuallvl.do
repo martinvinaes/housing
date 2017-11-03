@@ -26,7 +26,7 @@ ytitle("Effect on Support for Governing Parties", size(medlarge)) ///
 legend( order(3 4) label(3 "Moved") label(4 "Did not move") size(medlarge) pos(4) ) xsize(7)
 
 graph export "C:\Users\mvl\Documents\GitHub\housing\figures\moving.eps", replace
--
+
 ****
 
 use maineffectall.dta, clear
