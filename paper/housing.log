@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.24)  3 NOV 2017 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.24)  16 NOV 2017 12:20
 entering extended mode
 **./housing.tex
 (housing.tex
@@ -1377,13 +1377,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
-
-Package natbib Warning: Multiple citation on page 5: same authors and year
-(natbib)                without distinguishing extra letter,
-(natbib)                appears as question mark.
-
-[5] [6] [7] [8] <../figures/timeplot.pdf, id=337, 578.16pt x 289.08pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7] [
+8]
+<../figures/timeplot.pdf, id=343, 578.16pt x 289.08pt>
 File: ../figures/timeplot.pdf Graphic file (type pdf)
 
 <use ../figures/timeplot.pdf>
@@ -1407,7 +1403,7 @@ ted-to.pdf ../figures/lagdv.eps>
 (epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/lagdv-eps-converted-to.pdf, id=438, 505.89pt x 289.08pt>
+<../figures/lagdv-eps-converted-to.pdf, id=442, 505.89pt x 289.08pt>
 File: ../figures/lagdv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/lagdv-eps-converted-to.pdf>
@@ -1427,7 +1423,7 @@ s-converted-to.pdf ../figures/localactivity.eps>
 (epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/localactivity-eps-converted-to.pdf, id=460, 505.89pt x 289.08pt>
+<../figures/localactivity-eps-converted-to.pdf, id=464, 505.89pt x 289.08pt>
 File: ../figures/localactivity-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/localactivity-eps-converted-to.pdf>
@@ -1445,15 +1441,15 @@ pdf>
 (epstopdf)                    size: 9382 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/partyspecific-ep
 s-converted-to.pdf ../figures/partyspecific.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/partyspecific-eps-converted-to.pdf, id=515, 505.89pt x 289.08pt>
+<../figures/partyspecific-eps-converted-to.pdf, id=520, 505.89pt x 289.08pt>
 File: ../figures/partyspecific-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/partyspecific-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/partyspecific-eps-converted-to.pdf used on 
-input line 226.
+input line 222.
 (pdftex.def)             Requested size: 452.9679pt x 258.84187pt.
  [23 <../figures/partyspecific-eps-converted-to.pdf>] [24] (../tables/inddv.tex
 )
@@ -1466,15 +1462,15 @@ Package epstopdf Info: Source file: <../figures/comparison.eps>
 (epstopdf)                    size: 9214 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/comparison-eps-c
 onverted-to.pdf ../figures/comparison.eps>
-(epstopdf)             \includegraphics on input line 247.
+(epstopdf)             \includegraphics on input line 245.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/comparison-eps-converted-to.pdf, id=542, 433.62pt x 289.08pt>
+<../figures/comparison-eps-converted-to.pdf, id=547, 433.62pt x 289.08pt>
 File: ../figures/comparison-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/comparison-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/comparison-eps-converted-to.pdf used on inp
-ut line 247.
+ut line 245.
 (pdftex.def)             Requested size: 407.66833pt x 271.79257pt.
  [25] [26 <../figures/comparison-eps-converted-to.pdf>] (../tables/tabmovers.te
 x)
@@ -1486,17 +1482,17 @@ Package epstopdf Info: Source file: <../figures/moving.eps>
 (epstopdf)                    size: 9760 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/moving-eps-conve
 rted-to.pdf ../figures/moving.eps>
-(epstopdf)             \includegraphics on input line 264.
+(epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/moving-eps-converted-to.pdf, id=569, 505.89pt x 289.08pt>
+<../figures/moving-eps-converted-to.pdf, id=574, 505.89pt x 289.08pt>
 File: ../figures/moving-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/moving-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/moving-eps-converted-to.pdf used on input l
-ine 264.
+ine 266.
 (pdftex.def)             Requested size: 407.66833pt x 232.95813pt.
- [27] [28 <../figures/moving-eps-converted-to.pdf>] [29] [30] [31] [32] (housin
+ [27 <../figures/moving-eps-converted-to.pdf>] [28] [29] [30] [31] [32] (housin
 g.bbl [33
 
 ] [34] [35]) [36]
@@ -1513,15 +1509,15 @@ Package epstopdf Info: Source file: <../figures/desplot.eps>
 (epstopdf)                    size: 20913 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/desplot-eps-conv
 erted-to.pdf ../figures/desplot.eps>
-(epstopdf)             \includegraphics on input line 351.
+(epstopdf)             \includegraphics on input line 357.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/desplot-eps-converted-to.pdf, id=669, 433.62pt x 289.08pt>
+<../figures/desplot-eps-converted-to.pdf, id=675, 433.62pt x 289.08pt>
 File: ../figures/desplot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/desplot-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/desplot-eps-converted-to.pdf used on input 
-line 351.
+line 357.
 (pdftex.def)             Requested size: 452.9679pt x 301.99469pt.
  [40] [41 <../figures/desplot-eps-converted-to.pdf>] (../tables/partspec.tex) [
 42
@@ -1542,15 +1538,15 @@ pdf>
 (epstopdf)                    size: 179902 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/corrmoderator-ep
 s-converted-to.pdf ../figures/corrmoderator.eps>
-(epstopdf)             \includegraphics on input line 419.
+(epstopdf)             \includegraphics on input line 425.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/corrmoderator-eps-converted-to.pdf, id=730, 505.89pt x 289.08pt>
+<../figures/corrmoderator-eps-converted-to.pdf, id=736, 505.89pt x 289.08pt>
 File: ../figures/corrmoderator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/corrmoderator-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/corrmoderator-eps-converted-to.pdf used on 
-input line 419.
+input line 425.
 (pdftex.def)             Requested size: 452.9679pt x 258.84187pt.
 Package epstopdf Info: Source file: <../figures/localactivity_sup.eps>
 (epstopdf)                    date: 2017-11-03 08:53:32
@@ -1561,39 +1557,40 @@ Package epstopdf Info: Source file: <../figures/localactivity_sup.eps>
 (epstopdf)                    size: 9345 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/localactivity_su
 p-eps-converted-to.pdf ../figures/localactivity_sup.eps>
-(epstopdf)             \includegraphics on input line 426.
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/localactivity_sup-eps-converted-to.pdf, id=731, 505.89pt x 289.08pt
+<../figures/localactivity_sup-eps-converted-to.pdf, id=737, 505.89pt x 289.08pt
 >
 File: ../figures/localactivity_sup-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ../figures/localactivity_sup-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/localactivity_sup-eps-converted-to.pdf used
- on input line 426.
+ on input line 432.
 (pdftex.def)             Requested size: 317.07614pt x 181.19063pt.
  [48
 
  <../figures/corrmoderator-eps-converted-to.pdf>] (../tables/addinter.tex) [49 
-<../figures/localactivity_sup-eps-converted-to.pdf>] [50] (../tables/calc.tex) 
-[51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
+<../figures/localactivity_sup-eps-converted-to.pdf>] [50] (../tables/calc.tex)
+(../tables/wave1.tex) [51]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 471.
+ [52]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 471.
  (housing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 471.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 471.
 Package rerunfilecheck Info: File `housing.out' has not changed.
-(rerunfilecheck)             Checksum: 470C293A4D6C4A4C3487580F61CA81F6;1717.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
+(rerunfilecheck)             Checksum: 8560C5C39705C94A1874EC7B9863595F;1873.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 471.
  ) 
 Here is how much of TeX's memory you used:
- 22743 strings out of 493334
- 408443 string characters out of 3139257
- 527383 words of memory out of 3000000
- 25359 multiletter control sequences out of 15000+200000
+ 22751 strings out of 493334
+ 408548 string characters out of 3139257
+ 527598 words of memory out of 3000000
+ 25362 multiletter control sequences out of 15000+200000
  95888 words of font info for 308 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,92p,1882b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,92p,1865b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
@@ -1605,9 +1602,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2
 fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on housing.pdf (51 pages, 605032 bytes).
+Output written on housing.pdf (52 pages, 609504 bytes).
 PDF statistics:
- 845 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
- 51418 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 51426 words of extra memory for PDF output out of 51595 (max. 10000000)
 

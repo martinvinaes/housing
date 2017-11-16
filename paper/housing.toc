@@ -20,3 +20,4 @@
 \contentsline {subsection}{\numberline {G}The Interaction with Logged Number of Trades}{48}{subsection.Alph0.7}
 \contentsline {subsection}{\numberline {H}Some Additional Interactions in the Precinct-Level Data}{49}{subsection.Alph0.8}
 \contentsline {subsection}{\numberline {I}Precint-Level Results Without Estimated Precints}{51}{subsection.Alph0.9}
+\contentsline {subsection}{\numberline {J}Do the Individual-Level Results Differ Depending on Whether Respondents participated in ESS Round 2?}{51}{subsection.Alph0.10}
