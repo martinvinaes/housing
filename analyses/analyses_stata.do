@@ -3,10 +3,10 @@
 
 
 *importaing and saving dataset on municipal level density
-import excel  "C:\Users\mvl\Dropbox\Economic voting\Clarity of responsibility\Data\Treatmentoversigt + kom variable.xlsx", sheet(taet) first clear
+import excel  "C:\Users\au595748\Dropbox\Economic voting\Clarity of responsibility\Data\Treatmentoversigt + kom variable.xlsx", sheet(taet) first clear
 
 
-cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+cd "C:\Users\au595748\Documents\GitHub\housing\data" 
 
 saveold taet.dta, replace
 *****
@@ -14,7 +14,7 @@ saveold taet.dta, replace
 
 
 *Importing and saving data of lon and lat for polling places
-cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+cd "C:\Users\au595748\Documents\GitHub\housing\data" 
 *cd "C:\Users\kzc744\Documents\GitHub\housing\data"
 clear all
 import delim lonlat.csv, delim(",") clear
@@ -76,12 +76,12 @@ replace y=y-2000
 *merging with dataset which has different definition og house price change (full year on year)
 drop _merge
 sort zipy
-merge zipy using "C:\Users\mvl\Documents\GitHub\housing\data\yearlyzipprice\finalzipdata.dta"
+merge zipy using "C:\Users\au595748\Documents\GitHub\housing\data\yearlyzipprice\finalzipdata.dta"
 
 ***recodes
 **changing incsupport to exec party (optional)
-*replaceincs=incs-c if year > 2001 & year!=2015
-*replace incs=incs-b if year==2001 | year==2015
+replace incs=incs-c if year > 2001 & year!=2015
+replace incs=incs-b if year==2001 | year==2015
 
 
 **setting up for ts analyses*
@@ -124,7 +124,6 @@ label var hp_1yrpos "$\Delta$ housing price (positive)"
 label var unemprate "Unemployment rate"
 label var medianinc "Log(Median income)"
 label var logtaet "Log(density)"
-label var netblue "Net support for Right Wing government"
 
 
 *this creates dataset
@@ -133,6 +132,8 @@ saveold replidata.dta, replace
 
 *log nt
 gen logntrades=ln(nt0)
+
+/*
 preserve
 keep hp_1yr unemprate medianinc incs year valgstedid a b c v logntrades
 
@@ -160,14 +161,14 @@ margins, dydx(hp_1yr) at(incA=(0 1) party=(0 1) logntrades=(2.2 4.5)) noestimche
 marginsplot
 
 
-
+*/
 
 
 
 
 *test full model
 xtreg incs c.hp_1yr c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)
-
+-
 *full model w interaction
 xtreg incs c.hp_1yr##c.logntrades c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)
 
@@ -175,7 +176,7 @@ margins, dydx (hp_1yr) at (logntrades=(0(1)6))
 
 
 ***ANALYSES
-cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
+cd "C:\Users\au595748\Documents\GitHub\housing\tables" 
 *cd "C:\Users\kzc744\Documents\GitHub\housing\tables" 
 
 *sets up the models
