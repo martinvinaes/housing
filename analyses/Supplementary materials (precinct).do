@@ -2,16 +2,16 @@
 *The Conditional Impact of Local Economic Conditions on Incumbent Support*
 **************************************************************************
 
-*Authors: Frederik Hjorth, Martin Vinæs LArsen, Peter Thisted Dinesen and Kim Mannemar Sønderskov.
+*Authors: Frederik Hjorth, Martin VinÃ¦s LArsen, Peter Thisted Dinesen and Kim Mannemar SÃ¸nderskov.
 
 
 *FILE PURPOSE: Supplementary abalysis of Precinct Level Analysis
 *VERSION: STATA 13.1
-*REQUIRED PACKAGES: plotplain
+*REQUIRED PACKAGES: plotplain, esttab
 
 
 *Remember to update location
-cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+cd "C:\Users\au595748\Documents\GitHub\housing\data" 
 
 *opening data
 use replidata.dta, clear
@@ -26,7 +26,7 @@ xtset valgstedid year
 
 eststo a: xtreg inc hp_1yr i.year medianinc unemprate 860028.valgstedid if calc==0, fe
 eststo b:  xtreg inc (c.hp_1yr)##(c.logntrades) i.year medianinc unemprate 860028.valgstedid if calc==0, fe
-cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
+cd "C:\Users\au595748\Documents\GitHub\housing\tables" 
 
 esttab a b using calc.tex, keep(hp_1yr c.hp_1yr#c.logntrades logntrades unemprate medianinc) replace ///
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
@@ -62,7 +62,7 @@ scatter  hp_1yr diftrades || fpfitci hp_1yr diftrades, scheme(plotplain)  ytitle
 xtitle("Change in Log(Trades)", size(medlarge)) legend(off) ylab(,labsize(medlarge)) xlab(-2.5(1.25)2.5,labsize(medlarge)) name(dif, replace)
 
 graph combine  abs dif, scheme(plotplain) xsize(7) 
-graph export "C:\Users\mvl\Documents\GitHub\housing\figures\corrmoderator.eps", replace
+graph export "C:\Users\au595748\Documents\GitHub\housing\figures\corrmoderator.eps", replace
 
 pwcorr hp_1yr diftrades logntrades
 
@@ -93,7 +93,7 @@ restore
 hist hp_1yr, scheme(plotplain) width(0.5) freq ylabel(0(10)120) lcolor(black*0.8) ///
 xtitle(Changes in Housing prices (%), size(medlarge))  ///
 ytitle(Frequency, size(medlarge)) ylab(,labsize(medlarge)) xlab(,labsize(medlarge) nogrid)
-graph export "C:\Users\mvl\Documents\GitHub\housing\figures\desplot.eps", replace
+graph export "C:\Users\au595748\Documents\GitHub\housing\figures\desplot.eps", replace
 
 
 ******************************
@@ -148,7 +148,7 @@ ylab(-0.1(0.1)0.3,  labsize(medlarge)) xtitle(" ")    ///
 xlab(2 "Bivariate" 7 "+ Year FE" 12 "+ Precinct FE" 17 "+ Controls",labsize(medlarge) nogrid) ///
 ytitle("Effect on Support for the Governing Parties" "across number of trades", size(medlarge)) ylines(0) ///
 legend( order (5 4 3)  label(3 "Lowest Tercile") label(4 "Middle Tercile") label(5 "Top Tercile")  pos(4) ) xsize(7)
-graph export "C:\Users\mvl\Documents\GitHub\housing\figures\localactivity_sup.eps", replace
+graph export "C:\Users\au595748\Documents\GitHub\housing\figures\localactivity_sup.eps", replace
 restore
 
 
@@ -192,7 +192,7 @@ ylab(-0.1(0.05)0.15,  labsize(medlarge)) xtitle(" ")   ///
 xlab(0.5 " " 1.5 "Right-Wing in Office" 4 "Left-Wing in Office" 5 " ",labsize(medlarge) nogrid) ///
 ytitle("Party Specific Effects on Electoral Support ", size(medlarge)) ylines(0) ///
 legend( order (4 3) title(Support for)  size(medlarge)  label(3 "Right-wing coalition") label(4 "Left-wing coalition")  pos(4) ) xsize(7)
-graph export "C:\Users\mvl\Documents\GitHub\housing\figures\partyspecific.eps", replace
+graph export "C:\Users\au595748\Documents\GitHub\housing\figures\partyspecific.eps", replace
 
 
 

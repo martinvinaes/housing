@@ -2,7 +2,7 @@
 *The Conditional Impact of Local Economic Conditions on Incumbent Support*
 **************************************************************************
 
-*Authors: Frederik Hjorth, Martin Vinæs LArsen, Peter Thisted Dinesen and Kim Mannemar Sønderskov.
+*Authors: Frederik Hjorth, Martin VinÃ¦s LArsen, Peter Thisted Dinesen and Kim Mannemar SÃ¸nderskov.
 
 
 *FILE PURPOSE: Creates precinct-level dataset
@@ -10,9 +10,9 @@
 *REQUIRED PACKAGES: 
 
 *remember to update location
-cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+cd "C:\Users\au595748\Documents\GitHub\housing\data" 
 
-*importing matched dile on electoral support at parliamentary elections and housing prices
+*importing matched file on electoral support at parliamentary elections and housing prices
 import delim allaf.csv, delim(",") clear
 sort zipy
 
@@ -27,8 +27,6 @@ destring *, replace
 
 *dropping precints with no electoral information
 drop if voters==.
-
-
 
 
 *for how many precints do we have ctr. dont we have price information
@@ -70,8 +68,9 @@ gen d_vc=(v+c)-(l.v+l.c)
 gen d_inc=d_ab*100 if year==2001 | year==2015
 replace d_inc=d_vc*100 if year==2005 | year==2007 | year==2011
 
-
-
+*incsupport defined as PM party
+gen pm_inc=a*100 if year ==2001 | year==2015
+replace pm_inc=v*100 if year==2005 | year==2007 | year==2011
 
 *recoding control variables so they make sense
 replace unemprate=unemprate*100 // 0 to 100 pct.
@@ -113,6 +112,7 @@ label var b "Support for Social Liberal Party"
 label var c "Support for Conservative Party"
 label var incs "Support for Governing Parties (pct.)"
 label var d_inc "Change in Support for Governing Parties (pct.)"
+label var pm_inc "Support for Prime Minister party (pct.)"
 label var calc "Votes estimated"
 
 

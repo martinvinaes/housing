@@ -2,22 +2,22 @@
 *The Conditional Impact of Local Economic Conditions on Incumbent Support*
 **************************************************************************
 
-*Authors: Frederik Hjorth, Martin Vinæs Larsen, Peter Thisted Dinesen and Kim Mannemar Sønderskov.
+*Authors: Frederik Hjorth, Martin VinÃ¦s Larsen, Peter Thisted Dinesen and Kim Mannemar SÃ¸nderskov.
 
 
 *FILE PURPOSE: Tables and Figures for Precinct Level Analysis
 *VERSION: STATA 13.1
-*REQUIRED PACKAGES: plotplain
+*REQUIRED PACKAGES: plotplain, esttab
 
 
 *Remember to update location
-cd "C:\Users\mvl\Documents\GitHub\housing\data" 
+cd "C:\Users\au595748\Documents\GitHub\housing\data" 
 
 *opening data
 use replidata.dta, clear
 
 *table location
-cd "C:\Users\mvl\Documents\GitHub\housing\tables" 
+cd "C:\Users\au595748\Documents\GitHub\housing\tables" 
 
 
 
@@ -94,7 +94,7 @@ xlab(1 "Bivariate" 2 "+ Year FE" 3 "+ Precinct FE" 4 "+ Controls", labsize(medla
 ytitle("Effect size", size(medlarge)) xlines(5.75) /// 
 legend( order(3 4) label(3 "t") label(4 "t-1") size(medlarge) pos(4)) xsize(7) 
 
-graph export "C:\Users\mvl\Documents\GitHub\housing\figures\lagdv.eps", replace
+graph export "C:\Users\au595748\Documents\GitHub\housing\figures\lagdv.eps", replace
 restore
 
 ******************
@@ -136,12 +136,12 @@ qui eststo n24: xtreg incs c.hp_2yr##c.logntrades `z4'
 
 
 *first differenced controls
-local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster valgstedid)" //DiD+econ
+local z4="c.unemprate_fd c.medianinc_fd i.year 860028.valgstedid, fe vce(cluster valgstedid)" //
 qui eststo m34: xtreg incs c.hp_1yr `z4'
 qui eststo n34: xtreg incs c.hp_1yr##c.logntrades `z4'
 
 *first differenced DV
-local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)" //DiD+econ
+local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)" //
 
 qui eststo m44: xtreg d_inc  c.hp_1yr `z4' 
 qui eststo n44: xtreg d_inc  c.hp_1yr##c.logntrades `z4' 
@@ -152,24 +152,30 @@ qui eststo n64: xtreg incs  (c.hp_1yrpos c.hp_1yrneg)##c.logntrades   `z4'
 
 
 *lagged dv instead of FE
-local z4="c.unemprate c.medianinc i.year l.inc, re vce(cluster valgstedid)" //DiD+econ
+local z4="c.unemprate c.medianinc i.year l.inc, re vce(cluster valgstedid)" //
 
 qui eststo m74: xtreg incs c.hp_1yr `z4'
 qui eststo n74: xtreg incs c.hp_1yr##c.logntrades `z4'
 
 
+*lagged dv instead of FE
+local z4="c.unemprate c.medianinc i.year 860028.valgstedid, fe vce(cluster valgstedid)" //
+qui eststo m84: xtreg pm c.hp_1yr `z4'
+qui eststo n84: xtreg pm c.hp_1yr##c.logntrades `z4'
+
+
 *joint appendixtable (large)
-esttab m14 m54 m24 n24  m34 n34 m44 n44 m74 n74 m64 n64 using apdxrobust.tex, replace substitute({table} {sidewaystable})  ///
+esttab m24 n24  m34 n34 m44 n44 m74 n74 m64 n64 m84 n84 using apdxrobust.tex, replace substitute({table} {sidewaystable})  ///
 keep(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
 order(hp_1yr hp_2yr hp_1yrposchange hp_1yrnegchange logntrades c.hp_1yr#c.logntrades c.hp_2yr#c.logntrades c.hp_1yrposchange#c.logntrades c.hp_1yrnegchange#c.logntrades medianinc unemprate medianinc_fd unemprate_fd L.incsupport) /// 
 star("*" 0.05 "**" 0.01) se nomtitles b(%9.3f) indicate("\hline Precinct FE=860028.valgstedid" " Year FE = 2007.year" , labels("$\checkmark$" " ")) ///
-label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Robustness checks of the Precinct-level data.} \label{apdxprerobust) ///
-addnotes("Models 7 and 8 have a first-differenced version of the dependent variable.") nogaps
+label stats(N rmse, fmt(%8.0f %8.3f %8.3f)  label( "Observations" "RMSE"))  title(Robustness checks of the Precinct-level data.} \footnotesize \label{apdxprerobust) ///
+addnotes("Models 5 and 6 have a first-differenced version of the dependent variable, models 11 and 12 have support for the prime minister party as the dependent variable") nogaps
 
 
 
 foreach v in 1 2 {
-foreach x in 2 3 4 7 6  {
+foreach x in 2 3 4 7 6 8  {
 foreach z in b se {
 if `v'==1 {
 estimates restore m`x'4
@@ -212,7 +218,7 @@ local `v'`x'`z'=_`z'[c.hp_1yr#c.logntrades]
 file open anyname using robustness.txt, write text replace
 file write anyname  _newline  _col(0)  "\begin{table}[htbp] \footnotesize \centering \caption{Robustness of the Average Effect and the Interaction Term} \label{robustness} \begin{tabular}{l*{3}{c}}\hline\hline"
 file write anyname _newline _col(0) "&Average Effect & Interaction Term \\  \hline "
-foreach x in 2 3 4 7 6  {
+foreach x in 2 3 4 7 6 8  {
 if `x'==2 {
 local t="Two year change" 
 }
@@ -224,6 +230,9 @@ local t="First Differenced DV"
 }
 if `x'==7 {
 local t="Lagged DV" 
+}
+if `x'==7 {
+local t="Prime Minister" 
 }
 if `x'==6 {
 file write anyname _newline "Positive changes &"_tab %9.2f (`1`x'ba') "* &" _tab %9.2f  (`2`x'ba')  "* \\"
@@ -270,5 +279,5 @@ ylab(-0.05(0.05)0.2,  labsize(medlarge)) xtitle(" ")    ///
 xlab(2 "Bivariate" 7 "+ Year FE" 12 "+ Precinct FE" 17 "+ Controls",labsize(medlarge) nogrid) ///
 ytitle("Effect on Support for the Governing Parties" "across number of trades", size(medlarge)) ylines(0) ///
 legend( order (4 3)  label(3 "At the 25th percentile") label(4 "At the 75th percentile") size(medlarge) pos(4) ) xsize(7)
-graph export "C:\Users\mvl\Documents\GitHub\housing\figures\localactivity.eps", replace
+graph export "C:\Users\au595748\Documents\GitHub\housing\figures\localactivity.eps", replace
 restore
